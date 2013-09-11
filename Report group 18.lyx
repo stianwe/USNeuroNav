@@ -1,0 +1,667 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abstract
+\end_layout
+
+\begin_layout Standard
+Preface
+\end_layout
+
+\begin_layout Standard
+List of tables
+\end_layout
+
+\begin_layout Standard
+List of figures
+\end_layout
+
+\begin_layout Part
+Planning and Requirements
+\end_layout
+
+\begin_layout Section
+Planning
+\end_layout
+
+\begin_layout Subsection
+Description
+\end_layout
+
+\begin_layout Subsection
+Project Name
+\end_layout
+
+\begin_layout Standard
+USNeuroNav App 
+\end_layout
+
+\begin_layout Subsection
+Project purpose
+\end_layout
+
+\begin_layout Subsection
+Project client
+\end_layout
+
+\begin_layout Subsection
+Stakeholders
+\end_layout
+
+\begin_layout Standard
+The project sponsor and customer is SINTEF and The National Competence Center
+ for Ultrasound and Image Guided Therapy, with Frank Lindseth as the contact
+ person.
+ Erlend...
+ Additional stakeholders is the development team, consisting of three NTNU
+ students, Kristoffer Hagen, Marthe Frogner Bekkevold and Stian Weie, and
+ also the project supervisor, Anh Nguyen Duc.
+ 
+\end_layout
+
+\begin_layout Subsection
+Project background
+\end_layout
+
+\begin_layout Standard
+SINTEF have for many years pioneered the use of ultrasound navigation during
+ surgery.
+ The technology they have created is already in use, but in order for it
+ to increase in popularity they need a tool to share the knowledge required
+ to use it.
+ SINTEF believes that an application for mobile devices will enable relevant
+ groups to acquire this knowledge in a convenient and maybe even entertaining
+ manner.
+\end_layout
+
+\begin_layout Standard
+The customer’s description of the project: “The national competence center
+ for ultrasound and image guided therapy was established in 1995 and is
+ a collaboration between SINTEF, NTNU and St Olav University Hospital.
+ Within the center ultrasound-based navigation technology is being developed
+ and used in various clinical fields in order to guide surgical instruments
+ safely into the human body (similar to GPS navigation).
+ One of the main challenges in order to make use of this technology is sufficien
+t knowledge about interpreting ultrasound images.
+ Each week unique data material is collected within the center.
+ If presented in an easy and knowledgeable way, selected parts of the anonymous
+ material can be used to teach relevant groups to interpret ultrasound images
+ in an entertaining manner.
+ An App for mobile devices (iOS and maybe Android) (and maybe also a web-site)
+ has a huge potential in this regard.
+\end_layout
+
+\begin_layout Standard
+In addition to presenting the available material it’s natural to investigate
+ the possibility for extending the app to a serious game.
+ The possibilities are almost endless but some basic suggestions could be
+ to learn ultrasound interpretations of brain images by presenting:
+\end_layout
+
+\begin_layout Standard
+• Anatomy – The user sees an ultrasound image as well as names of anatomical
+ structures and is challenged to drag each name onto the correct structure.
+ • Pathology – The user sees ultrasound images of varies tumors and is asked
+ to identify the tumor and state the type (multiple choice).
+ • Tumor borders – Some tumor types have diffuse border to normal tissue.
+ The user sees such images and is asked to draw the border.
+\end_layout
+
+\begin_layout Standard
+A scoring system should be developed and based on the available data material;
+ random questions, tutorials and skills validation can be generated.
+ This can be made very advanced with global user profiles and benchmarking
+ but it’s probably vise to start easy.
+ It should also be easy to generate and upload new material and when new
+ cases become available the users are notified and asked it they would like
+ to download the new material.”
+\end_layout
+
+\begin_layout Subsection
+Measurement of project effort
+\end_layout
+
+\begin_layout Standard
+The goal of the project is to increase the awareness and knowledge surrounding
+ the use of ultrasound navigation during surgery.
+ It will be very hard to numerically measure the effect of our project.
+ Long term it might be possible to track its influence through the increase
+ in use of the aforementioned technology, but our short term goal is simply
+ to make a product the customer is satisfied with and believes can be used
+ for its intended purpose.
+ 
+\end_layout
+
+\begin_layout Subsection
+General terms
+\end_layout
+
+\begin_layout Standard
+The customer has a very clear requirement that the project results in an
+ application for iOS.
+ In addition, the customer sees it as a big bonus if this app can easily
+ be extended to additional platforms, for example android, either by this
+ group, if time allows it, or by an external developer.
+ For this to be a possibility, an Apple developer license must be provided,
+ in addition to at least one Mac for building purposes.
+ Depending on the choice of tool selection, additional licenses might be
+ necessary.
+ All this must be provided by the customer at the absolute latest at the
+ start of sprint 2, 18.09.2013, which is when development is scheduled for
+ full start.
+\end_layout
+
+\begin_layout Standard
+The specific tools for developing this application is scheduled to be determined
+ together with the customer at 04.09.2013.
+ Many tools has been investigated and tested, and prior to the meeting,
+ two clear alternatives remain, Xamarin (http://xamarin.com) and Appcelerated’s
+ Titanium (http://www.appcelerator.com).
+ The reasoning behind this is that these two both provide cross-platform
+ development and that they have the possibility of creating applications
+ that look and feel like native apps.
+ To do this, a separate user interface must be developed for each platform
+ that should be supported, but the customer thinks that this is an acceptable
+ tradeoff for the performance gain, and the native look and feel.
+ While Titanium is a free tool, Xamarin requires a license of each developer.
+ Both require the use of a Mac for building the application, but Xamarin
+ allows doing this remotely from a non-mac.
+ This is a huge advantage since we probably will get only one Mac.
+\end_layout
+
+\begin_layout Standard
+For intergroup communication we have selected to use Google Docs for organizing
+ our documents, along with Google calendar for the planning of meetings
+ and important dates.
+ For code version control and source code management we have elected to
+ use GitHub.
+ Personal emails together with mobile phone will be used to keep in touch
+ between the group members.
+ All these choices have been made because all the group members have experience
+ using these tools and the all have the features we require.
+ The selection of tools we are already familiar with enables us to put more
+ time into actual development and less time into learning new auxiliary
+ tools.
+\end_layout
+
+\begin_layout Subsection
+Risks
+\end_layout
+
+\begin_layout Subsection
+Duration and workload
+\end_layout
+
+\begin_layout Subsection
+Gantt Diagram
+\end_layout
+
+\begin_layout Subsubsection
+Description
+\end_layout
+
+\begin_layout Subsection
+Result Schedule
+\end_layout
+
+\begin_layout Subsection
+Roles
+\end_layout
+
+\begin_layout Standard
+Roles Project manager - Marthe F.
+ Bekkevold Responsible for task assignment, organizing meetings and agenda
+ for meetings.
+ Scrum master.
+ Contact person - Marthe F.
+ Bekkevold Responsible for keeping customer and supervisor up to date regarding
+ project status, and also being the go-to person when the customer or the
+ supervisor has any questions or information for the group.
+ Administrative Assistant - Kristoffer Hagen Responsible for making sure
+ that oral information gets documented and that no communication and information
+ gets lost and/or forgotten.
+ 
+\end_layout
+
+\begin_layout Subsection
+Version Control
+\end_layout
+
+\begin_layout Subsubsection
+Textual documentation
+\end_layout
+
+\begin_layout Subsubsection
+Source code
+\end_layout
+
+\begin_layout Section
+Preliminary studies
+\end_layout
+
+\begin_layout Subsection
+Description
+\end_layout
+
+\begin_layout Subsection
+Business Requirements
+\end_layout
+
+\begin_layout Subsubsection
+Functional Requirements
+\end_layout
+
+\begin_layout Subsubsection
+Non-functional Requirements
+\end_layout
+
+\begin_layout Subsection
+Use cases
+\end_layout
+
+\begin_layout Subsubsection
+Use Case actors
+\end_layout
+
+\begin_layout Subsubsection
+F1
+\end_layout
+
+\begin_layout Subsection
+Requirements
+\end_layout
+
+\begin_layout Subsection
+Current Solution
+\end_layout
+
+\begin_layout Subsection
+Desired Solution
+\end_layout
+
+\begin_layout Subsection
+Evaluation Criteria
+\end_layout
+
+\begin_layout Subsection
+Market Investigations
+\end_layout
+
+\begin_layout Subsection
+Alternate Solutions
+\end_layout
+
+\begin_layout Subsection
+Evaluation of Alternate Solutions
+\end_layout
+
+\begin_layout Subsection
+Choice of Solution
+\end_layout
+
+\begin_layout Subsection
+Technologies
+\end_layout
+
+\begin_layout Subsubsection
+...
+\end_layout
+
+\begin_layout Subsubsection
+JavaScript
+\end_layout
+
+\begin_layout Subsubsection
+LaTeX
+\end_layout
+
+\begin_layout Subsubsection
+Version Control
+\end_layout
+
+\begin_layout Section
+Lifecycle Model
+\end_layout
+
+\begin_layout Subsection
+Description
+\end_layout
+
+\begin_layout Subsection
+Scrum
+\end_layout
+
+\begin_layout Section
+Requirements
+\end_layout
+
+\begin_layout Subsection
+Description
+\end_layout
+
+\begin_layout Part
+Sprints 
+\end_layout
+
+\begin_layout Standard
+Description 
+\end_layout
+
+\begin_layout Section
+Sprint 1
+\end_layout
+
+\begin_layout Subsection
+Dates
+\end_layout
+
+\begin_layout Subsubsection
+Sprint planning
+\end_layout
+
+\begin_layout Subsubsection
+Timeline
+\end_layout
+
+\begin_layout Subsubsection
+Code review
+\end_layout
+
+\begin_layout Subsection
+5.2 Activities
+\end_layout
+
+\begin_layout Subsubsection
+Manage Tranches - View
+\end_layout
+
+\begin_layout Subsubsection
+Manage Tranches - Search (Design)
+\end_layout
+
+\begin_layout Subsubsection
+Manage Tranches - Search (Logic)
+\end_layout
+
+\begin_layout Subsubsection
+Manage Tranches - Delete
+\end_layout
+
+\begin_layout Subsection
+5.3 Sprint Backlog
+\end_layout
+
+\begin_layout Subsection
+5.4 Sprint Burndown Char
+\end_layout
+
+\begin_layout Subsection
+5.5 Sprint Evaluation
+\end_layout
+
+\begin_layout Subsection
+5.6 Retrospective
+\end_layout
+
+\begin_layout Subsubsection
+Pros
+\end_layout
+
+\begin_layout Subsubsection
+Cons
+\end_layout
+
+\begin_layout Section
+Sprint 2
+\end_layout
+
+\begin_layout Part
+Conclusion and Evaluation
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Subsection
+Description
+\end_layout
+
+\begin_layout Subsection
+Results
+\end_layout
+
+\begin_layout Subsubsection
+View
+\end_layout
+
+\begin_layout Subsubsection
+Edit
+\end_layout
+
+\begin_layout Subsubsection
+Add
+\end_layout
+
+\begin_layout Subsubsection
+Report
+\end_layout
+
+\begin_layout Subsubsection
+Report Access
+\end_layout
+
+\begin_layout Subsection
+Further work
+\end_layout
+
+\begin_layout Standard
+hjhjhjhjhjhjhjhjhj
+\end_layout
+
+\begin_layout Subsubsection
+Primary
+\end_layout
+
+\begin_layout Subsubsection
+Secondary
+\end_layout
+
+\begin_layout Section
+Evaluation
+\end_layout
+
+\begin_layout Subsection
+Description
+\end_layout
+
+\begin_layout Subsection
+Group evaluation
+\end_layout
+
+\begin_layout Subsubsection
+Group changes
+\end_layout
+
+\begin_layout Subsubsection
+Customer
+\end_layout
+
+\begin_layout Subsubsection
+Language barriers
+\end_layout
+
+\begin_layout Subsubsection
+Group dynamics
+\end_layout
+
+\begin_layout Subsubsection
+Role Assignment
+\end_layout
+
+\begin_layout Subsubsection
+Motivation
+\end_layout
+
+\begin_layout Subsubsection
+Risk Evaluation
+\end_layout
+
+\begin_layout Subsection
+12.3 Project evaluation
+\end_layout
+
+\begin_layout Subsubsection
+Planning
+\end_layout
+
+\begin_layout Subsubsection
+Preliminary Studies
+\end_layout
+
+\begin_layout Subsubsection
+Scrum
+\end_layout
+
+\begin_layout Subsubsection
+Meetings
+\end_layout
+
+\begin_layout Subsubsection
+Technical problems
+\end_layout
+
+\begin_layout Subsubsection
+Course feedback
+\end_layout
+
+\begin_layout Subsubsection
+Testing
+\end_layout
+
+\begin_layout Subsubsection
+Time usage
+\end_layout
+
+\begin_layout Subsection
+Technology evaluation
+\end_layout
+
+\begin_layout Subsubsection
+Skype
+\end_layout
+
+\begin_layout Subsubsection
+avaScript
+\end_layout
+
+\begin_layout Subsubsection
+12.4.7 SVN/Tortoise
+\end_layout
+
+\begin_layout Subsubsection
+12.4.8 Google Documents 
+\end_layout
+
+\begin_layout Part
+Appendices
+\end_layout
+
+\begin_layout Section
+Templates
+\end_layout
+
+\begin_layout Subsection
+Advisor/Customer meeting minutes DD/MM
+\end_layout
+
+\begin_layout Subsubsection
+Present
+\end_layout
+
+\begin_layout Subsubsection
+Absent
+\end_layout
+
+\begin_layout Subsubsection
+Agenda
+\end_layout
+
+\begin_layout Subsubsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+jkjkjkjkjk
+\end_layout
+
+\end_body
+\end_document
