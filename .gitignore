@@ -4,3 +4,6 @@ build
 npm-debug.log
 tmp
 .map
+*.lyx~
+*.lyx#
+*.swp
