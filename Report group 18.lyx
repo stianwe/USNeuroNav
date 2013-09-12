@@ -427,6 +427,49 @@ Dates
 Sprint planning
 \end_layout
 
+\begin_layout Standard
+Sprint 1 is scheduled to start in week 38 and to last for two weeks.
+ Marthe will be away during the first week of the sprint, so an important
+ task during the sprint planning is to assign work to Marthe, which she
+ can do while travelling.
+ Her tasks for sprint 1 therefore consists greatly of gathering all documents
+ we have produced so far, and merge them into one LATEX document which we
+ will use for the report.
+ In addition, Marthe shall create the test plans.
+\end_layout
+
+\begin_layout Standard
+Kristoffer and Stian will be in Trondheim the whole sprint, and therefore
+ work closely on some tasks, but also do some separate work.
+ Stian's main task for sprint 1 will be to start implementing an early version
+ of the two functional requirements of critical importance, namely browsing
+ cases and viewing pictures.
+ The team has a goal of having a simple prototype able to navigate through
+ cases based on categories, and view the cases' images at the end of sprint
+ 1, which is milestone p1.
+ As no server has been set up yet, all cases and pictures will be stored
+ locally on the phone/emulator for now.
+ Before Stian can start with the implementation, the architectural design
+ must first be 
+\begin_inset Quotes eld
+\end_inset
+
+finalized
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Changes will still probably come, but on overall idea of how the system
+ should work should be planned.
+\end_layout
+
+\begin_layout Standard
+Kristoffer is responsible for planning the GUI, showing it and negotiation
+ it with the customer, and also assist Stian with what GUI implementation
+ will happen in sprint 1.
+ Kristoffer is also responsible for writing the pre-study part of the report.
+\end_layout
+
 \begin_layout Subsubsection
 Timeline
 \end_layout
