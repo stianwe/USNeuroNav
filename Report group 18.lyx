@@ -89,7 +89,7 @@ Planning and Requirements
 \end_layout
 
 \begin_layout Section
-Planning
+Introduction
 \end_layout
 
 \begin_layout Subsection
@@ -185,7 +185,15 @@ A scoring system should be developed and based on the available data material;
  to download the new material.”
 \end_layout
 
+\begin_layout Section
+Planning
+\end_layout
+
 \begin_layout Subsection
+Project Plan
+\end_layout
+
+\begin_layout Subsubsection
 Measurement of project effort
 \end_layout
 
@@ -200,7 +208,7 @@ The goal of the project is to increase the awareness and knowledge surrounding
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 General terms
 \end_layout
 
@@ -252,27 +260,501 @@ For intergroup communication we have selected to use Google Docs for organizing
  tools.
 \end_layout
 
-\begin_layout Subsection
-Risks
+\begin_layout Subsubsection
+Planned Effort
 \end_layout
 
-\begin_layout Subsection
-Duration and workload
+\begin_layout Standard
+TDT4290 Customer Driven Project is a course that rewards 15 credits.
+ The course compendium suggests that we work 25 hours a week.
+ The project was started on August 21.
+ and will be concluded on November 21.
+ This means that it will run for 14 weeks.
+ Three team members and 14 weeks brings this to a total of 3 x 25 x 14=1050
+ hours.
+ This is of course the estimated time we will spend, the actual time spent
+ will be covered in the evaluation part of this report.
 \end_layout
 
-\begin_layout Subsection
-Gantt Diagram
+\begin_layout Standard
+Working hours: Our normal working hours will be wednesdays, thursdays and
+ fridays from 9.00 to 16.00.
+ These days and hours was chosen based on the group members existing schedule.
+ Having three days every week where the entire day is reserved for working
+ on our project is very beneficial and will enable us to work closely together
+ and not be limited to electronic communication which sometimes can slow
+ down the flow of information.
+ Having this schedule also leaves us open to meet mondays and/or tuesdays
+ should any unforeseen critical issues arise.
+\end_layout
+
+\begin_layout Standard
+Our working hours does not conclude when the product is delivered to the
+ customer, but continues all the way until the final report is delivered.
+\end_layout
+
+\begin_layout Standard
+We are planning to deliver the final product to the customer 13.
+ November, that leaves us with a week to focus solely on the report.
+ It should be noted that the report will be continuously updated as the
+ project develops as well.
+ 
 \end_layout
 
 \begin_layout Subsubsection
+Schedule Of Result
+\end_layout
+
+\begin_layout Subsubsection
+Work Breakdown Structure
+\end_layout
+
+\begin_layout Subsubsection
+Milestones
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+#
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Category
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Description
 \end_layout
 
-\begin_layout Subsection
-Result Schedule
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.08.2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Report
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deliver preliminary project plan to supervisor.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
+Organization
+\end_layout
+
+\begin_layout Subsubsection
+Organizational diagram
+\end_layout
+
+\begin_layout Subsubsection
 Roles
 \end_layout
 
@@ -303,6 +785,14 @@ Textual documentation
 Source code
 \end_layout
 
+\begin_layout Subsection
+Risk Management
+\end_layout
+
+\begin_layout Subsection
+Quality Assurance
+\end_layout
+
 \begin_layout Section
 Preliminary studies
 \end_layout
@@ -311,32 +801,12 @@ Preliminary studies
 Description
 \end_layout
 
-\begin_layout Subsection
-Business Requirements
+\begin_layout Standard
+Se side 28 i kompendiet for mer info.
 \end_layout
 
-\begin_layout Subsubsection
-Functional Requirements
-\end_layout
-
-\begin_layout Subsubsection
-Non-functional Requirements
-\end_layout
-
-\begin_layout Subsection
-Use cases
-\end_layout
-
-\begin_layout Subsubsection
-Use Case actors
-\end_layout
-
-\begin_layout Subsubsection
-F1
-\end_layout
-
-\begin_layout Subsection
-Requirements
+\begin_layout Standard
+main business requirements
 \end_layout
 
 \begin_layout Subsection
@@ -372,10 +842,6 @@ Technologies
 \end_layout
 
 \begin_layout Subsubsection
-...
-\end_layout
-
-\begin_layout Subsubsection
 JavaScript
 \end_layout
 
@@ -404,7 +870,23 @@ Requirements
 \end_layout
 
 \begin_layout Subsection
-Description
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Overall Description
+\end_layout
+
+\begin_layout Subsection
+Spesific Requirements
+\end_layout
+
+\begin_layout Subsubsection
+Functional Requirements
+\end_layout
+
+\begin_layout Subsubsection
+Non-Functional Requirements
 \end_layout
 
 \begin_layout Part
