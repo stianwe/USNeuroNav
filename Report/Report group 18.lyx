@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -69,19 +70,27 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Abstract
 \end_layout
 
 \begin_layout Standard
 Preface
-\end_layout
-
-\begin_layout Standard
-List of tables
-\end_layout
-
-\begin_layout Standard
-List of figures
 \end_layout
 
 \begin_layout Part
@@ -305,8 +314,10 @@ We are planning to deliver the final product to the customer 13.
 Schedule Of Result
 \end_layout
 
-\begin_layout Subsubsection
-Work Breakdown Structure
+\begin_layout Standard
+Scrum is being used for the development phase.
+ After each sprint there will be deliveries which each of them should contribute
+ towards a working system.
 \end_layout
 
 \begin_layout Subsubsection
@@ -314,6 +325,12 @@ Milestones
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="4">
 <features tabularvalignment="middle">
@@ -402,7 +419,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p1
 \end_layout
 
 \end_inset
@@ -411,7 +428,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+18.09.2013
 \end_layout
 
 \end_inset
@@ -420,7 +437,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Product
 \end_layout
 
 \end_inset
@@ -429,7 +446,9 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Have a running prototype, able to show local photos, categorization of cases
+ to enable browsing.
+ 
 \end_layout
 
 \end_inset
@@ -440,7 +459,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p2
 \end_layout
 
 \end_inset
@@ -449,7 +468,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+02.10.2013
 \end_layout
 
 \end_inset
@@ -458,7 +477,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Product
 \end_layout
 
 \end_inset
@@ -467,7 +486,8 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Support for video, searching for cases.
+ 
 \end_layout
 
 \end_inset
@@ -478,7 +498,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+r2
 \end_layout
 
 \end_inset
@@ -487,7 +507,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+08.10.2013
 \end_layout
 
 \end_inset
@@ -496,7 +516,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Report
 \end_layout
 
 \end_inset
@@ -505,7 +525,9 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
+ to supervisor.
+ 
 \end_layout
 
 \end_inset
@@ -516,7 +538,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+r3
 \end_layout
 
 \end_inset
@@ -525,7 +547,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14.10.2013
 \end_layout
 
 \end_inset
@@ -534,7 +556,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Report
 \end_layout
 
 \end_inset
@@ -543,7 +565,9 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
+ to sensor.
+ 
 \end_layout
 
 \end_inset
@@ -554,7 +578,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p3
 \end_layout
 
 \end_inset
@@ -563,7 +587,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16.10.2013
 \end_layout
 
 \end_inset
@@ -572,7 +596,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Product
 \end_layout
 
 \end_inset
@@ -581,7 +605,8 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Network support, server communication, caching of data.
+ 
 \end_layout
 
 \end_inset
@@ -592,7 +617,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p4
 \end_layout
 
 \end_inset
@@ -601,7 +626,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30.10.2013
 \end_layout
 
 \end_inset
@@ -610,7 +635,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Product
 \end_layout
 
 \end_inset
@@ -619,7 +644,9 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Upload of data.
+ Finalize features.
+ 
 \end_layout
 
 \end_inset
@@ -630,7 +657,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p5
 \end_layout
 
 \end_inset
@@ -639,7 +666,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+13.11.2013
 \end_layout
 
 \end_inset
@@ -648,7 +675,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Product
 \end_layout
 
 \end_inset
@@ -657,7 +684,8 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Product delivery.
+ 
 \end_layout
 
 \end_inset
@@ -668,7 +696,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+r4
 \end_layout
 
 \end_inset
@@ -677,7 +705,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20.11.2013
 \end_layout
 
 \end_inset
@@ -686,7 +714,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Report
 \end_layout
 
 \end_inset
@@ -695,7 +723,8 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Complete and print final report.
+ 
 \end_layout
 
 \end_inset
@@ -706,7 +735,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+r5
 \end_layout
 
 \end_inset
@@ -715,7 +744,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+21.11.2013
 \end_layout
 
 \end_inset
@@ -724,7 +753,7 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Report
 \end_layout
 
 \end_inset
@@ -733,7 +762,564 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
+Final project presentation.
+ 
+\end_layout
 
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Milestones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+#
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Start date - End date 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Planning/ report 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coding/ testing 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+04.09.2013 - 18.09.2013 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Architecture design, risk analysis, GUI design, requirements specification,
+ use-case scenarios, setup and initial implementation 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sian
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.09.2013 - 02.10.2013 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementation, TBD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03.10.2013 - 16.10.2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementation, TBD 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.10.2013 - 30.10.2013 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final implementation sprint.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sprints
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+#
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Start date - End date 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Planning/ report 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coding/ testing 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+04.09.2013 - 18.09.2013 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Architecture design, risk analysis, GUI design, requirements specification,
+ use-case scenarios, setup and initial implementation 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sian
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.09.2013 - 02.10.2013 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementation, TBD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03.10.2013 - 16.10.2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implementation, TBD 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.10.2013 - 30.10.2013 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final implementation sprint.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Kristoffer
 \end_layout
 
 \end_inset
@@ -754,23 +1340,293 @@ Organization
 Organizational diagram
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Organizational diagram.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Organizational diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Roles
 \end_layout
 
 \begin_layout Standard
-Roles Project manager - Marthe F.
- Bekkevold Responsible for task assignment, organizing meetings and agenda
- for meetings.
- Scrum master.
- Contact person - Marthe F.
- Bekkevold Responsible for keeping customer and supervisor up to date regarding
- project status, and also being the go-to person when the customer or the
- supervisor has any questions or information for the group.
- Administrative Assistant - Kristoffer Hagen Responsible for making sure
- that oral information gets documented and that no communication and information
- gets lost and/or forgotten.
+\begin_inset Wrap table
+lines 0
+placement I
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Role
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsebilities
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Project manager 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe F.
+ Bekkevold
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Task assignment, organizing meetings and agenda for meetings.
+ Scrum master
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Contact person
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe F.
+ Bekkevold
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keeping customer and supervisor up to date regarding project status, being
+ the go-to person when the customer or the supervisor has any questions
+ or information for the group.
  
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Administrative Assistant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer Hagen 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Making sure that oral information gets documented and that no communication
+ and information gets lost and/or forgotten.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Test manager
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian Weie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Setting up and supervising tests.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Report supervisor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer Hagen 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Supervising that the report is being kept up to date, making sure that the
+ report is ready for delivery and that it meets the technical requirements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Technical manager
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian Weie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Technical research and making sure technical difficulties are solved.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Roles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -846,7 +1702,7 @@ JavaScript
 \end_layout
 
 \begin_layout Subsubsection
-LaTeX
+Lyx/LaTeX
 \end_layout
 
 \begin_layout Subsubsection
@@ -875,6 +1731,14 @@ Introduction
 
 \begin_layout Subsection
 Overall Description
+\end_layout
+
+\begin_layout Subsubsection
+User Characteristics
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsection
@@ -907,49 +1771,6 @@ Dates
 
 \begin_layout Subsubsection
 Sprint planning
-\end_layout
-
-\begin_layout Standard
-Sprint 1 is scheduled to start in week 38 and to last for two weeks.
- Marthe will be away during the first week of the sprint, so an important
- task during the sprint planning is to assign work to Marthe, which she
- can do while travelling.
- Her tasks for sprint 1 therefore consists greatly of gathering all documents
- we have produced so far, and merge them into one LATEX document which we
- will use for the report.
- In addition, Marthe shall create the test plans.
-\end_layout
-
-\begin_layout Standard
-Kristoffer and Stian will be in Trondheim the whole sprint, and therefore
- work closely on some tasks, but also do some separate work.
- Stian's main task for sprint 1 will be to start implementing an early version
- of the two functional requirements of critical importance, namely browsing
- cases and viewing pictures.
- The team has a goal of having a simple prototype able to navigate through
- cases based on categories, and view the cases' images at the end of sprint
- 1, which is milestone p1.
- As no server has been set up yet, all cases and pictures will be stored
- locally on the phone/emulator for now.
- Before Stian can start with the implementation, the architectural design
- must first be 
-\begin_inset Quotes eld
-\end_inset
-
-finalized
-\begin_inset Quotes erd
-\end_inset
-
-.
- Changes will still probably come, but on overall idea of how the system
- should work should be planned.
-\end_layout
-
-\begin_layout Standard
-Kristoffer is responsible for planning the GUI, showing it and negotiation
- it with the customer, and also assist Stian with what GUI implementation
- will happen in sprint 1.
- Kristoffer is also responsible for writing the pre-study part of the report.
 \end_layout
 
 \begin_layout Subsubsection
