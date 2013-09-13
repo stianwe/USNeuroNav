@@ -1,4 +1,25 @@
 function Controller() {
+    function displayListView(window, items, eventFunction) {
+        var listView = Ti.UI.createListView();
+        var section = Ti.UI.createListSection();
+        var sections = [];
+        section.setItems(items);
+        sections.push(section);
+        listView.sections = sections;
+        listView.addEventListener("itemclick", eventFunction);
+        window.add(listView);
+    }
+    function createEventFunction(currentCategory) {
+        return function(e) {
+            var currCat = currentCategory.subCategories[e.itemIndex];
+            var nextWindow = Ti.UI.createWindow({
+                title: currentCategory.name,
+                backgroundColor: "#fff"
+            });
+            currCat.subCategories.length > 0 && displayListView(nextWindow, currentCategory.getSubCategories(), createEventFunction(currCat));
+            $.tab1.open(nextWindow);
+        };
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
@@ -60,6 +81,7 @@ function Controller() {
         $.tab1.open(window2);
     });
     $.tab1window1.add(button);
+    displayListView(window2, rootCategory.getSubCategories(), createEventFunction(rootCategory));
     $.index.open();
     _.extend($, exports);
 }
