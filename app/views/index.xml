@@ -1,8 +1,0 @@
-<Alloy>
-	<Window class="container">
-		<!--<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="http://192.168.0.104/app/short.mp4" 
-			height="200" width="200" autoplay="true" />-->
-		<!--<ImageView id="imageView1" image="images/real.jpeg"/>-->
-		<Label id="l1">Heyo</Label>
-	</Window>
-</Alloy>
