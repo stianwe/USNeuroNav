@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Browse" icon="KS_nav_ui.png" id="tab1">
+			<Window title="Tab 1" id="tab1window1">
+			</Window>
+		</Tab>
+		<Tab title="Search" icon="KS_nav_views.png">
+			<Window title="Tab 2">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
