@@ -26,20 +26,20 @@ var cases = [
 	new classes.caseT("Case 3", new Array()),
 	new classes.caseT("Case 4", new Array()),
 ];
-var oneCat = new classes.category("One", new Array());
+var oneCat = new classes.category("Frontal Lobe", new Array());
 oneCat.cases = cases;
-subCatsCat1[0] = new classes.category("Cat1Subcat1", [
+subCatsCat1[0] = new classes.category("Primary Tumors", [
 	oneCat,
-	new classes.category("Two", new Array()),
-	new classes.category("Three", new Array()),
-	new classes.category("Four", new Array()),
-	new classes.category("Five", new Array()),
+	new classes.category("Occipital Lobe", new Array()),
+	new classes.category("Parietal Lobe", new Array()),
+	new classes.category("Random Lobe", new Array()),
+	new classes.category("Brain Stem", new Array()),
 ]);
-subCatsCat1[1] = new classes.category("Cat1Subcat2", new Array());
-subCatsCat1[2] = new classes.category("Cat1Subcat3", new Array());
-subCats[0] = new classes.category("cat1", subCatsCat1);
-subCats[1] = new classes.category("cat2", new Array());
-subCats[2] = new classes.category("cat3", new Array());
-var rootCategory = new classes.category("Root", subCats);
+subCatsCat1[1] = new classes.category("Gliomas", new Array());
+subCatsCat1[2] = new classes.category("Meningiomas", new Array());
+subCats[0] = new classes.category("Tumors", subCatsCat1);
+subCats[1] = new classes.category("Cranial Vascular", new Array());
+subCats[2] = new classes.category("Spine", new Array());
+var rootCategory = new classes.category("Browse", subCats);
 
 Alloy.Globals.rootCategory = rootCategory;
