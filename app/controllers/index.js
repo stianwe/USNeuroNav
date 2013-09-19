@@ -10,38 +10,75 @@ function displayListView(window, items, eventFunction) {
 	window.add(listView);
 }
 
-function createEventFunction(currentCategory) {
+function createEventFunctionCategory(currentCategory) {
 	return function(e) {
 		var prevCat = currentCategory;
 		var currCat = currentCategory.subCategories[e.itemIndex];
 		var nextWindow = Ti.UI.createWindow({
-			title: currentCategory.name,
+			title: currCat.name,
 			backgroundColor: "#fff"
 		});
 		// Check that this category actually has sub categories
 		if (currCat.subCategories.length > 0) {
-			displayListView(nextWindow, currentCategory.getSubCategories(), createEventFunction(currCat));
+			displayListView(nextWindow, currCat.getSubCategories(), createEventFunctionCategory(currCat));
+		}
+		else if (currCat.cases.length > 0) {
+			displayListView(nextWindow, currCat.getCases(), createEventFunctionCase(currCat.cases));
 		}
 		$.tab1.open(nextWindow);
 	};
 }
 
-var window2 = Ti.UI.createWindow({
-	title: "Window2",
-	backgroundColor: "#fff"
-});
+function createEventFunctionCase(cases) {
+	return function(e) {
+		var currentCase = cases[e.itemIndex];
+		var nextWindow = Ti.UI.createWindow({
+			title: currentCase.name,
+			backgroundColor: "#fff"
+		});
+		var views = [];
+		for (var i = 0; i < currentCase.mediaFiles.length; i++) {
+			// Code for thumbnails
+			/*var imageView = Ti.UI.createImageView({
+				//image: currentCase.mediaFiles[i].URL
+				image: currentCase.mediaFiles[0].URL
+			});
+			var blob = imageView.toImage();
+			blob = blob.imageAsThumbnail(64);
+			var thumbnailImageView = Ti.UI.createImageView({
+				image: blob
+			});
+			thumbnailImageView.addEventListener('click', function(e) {
+				alert("CLICK!");
+			});
+			nextWindow.add(thumbnailImageView);*/
+			var view;
+			if (currentCase.mediaFiles[i].video) {
+				view = Ti.Media.createVideoPlayer({
+					autoplay: false,
+					mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
+					scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+					url: currentCase.mediaFiles[i].URL
+				});
+			}
+			else {
+				view = Ti.UI.createImageView({
+					image: currentCase.mediaFiles[i].URL
+				});
+			}
+			views[i] = view;
+		}
+		var scrollableView = Ti.UI.createScrollableView({
+			views: views,
+			showPagingControl: true
+		});
+		nextWindow.add(scrollableView);
+		$.tab1.open(nextWindow);
+	};
+}
 
-var button = Ti.UI.createButton({
-	title: "Click me!"
-});
-
-button.addEventListener('click', function() {
-	$.tab1.open(window2);
-});
-
-$.tab1window1.add(button);
-
-displayListView(window2, rootCategory.getSubCategories(), createEventFunction(rootCategory));
+$.tab1window1.setTitle(rootCategory.name);
+displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
 
 // displayListView(window2, rootCategory.getSubCategories(), function(e) {
 	// var prevCategory = rootCategory;
