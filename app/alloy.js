@@ -12,6 +12,9 @@
 
 // Make the "functions" in category.js available
 var classes = require('category');
+var db = require('database');
+
+var names = db.initDB();
 
 var subCats = new Array();
 var subCatsCat1 = new Array();
@@ -42,9 +45,9 @@ subCatsCat1[1] = new classes.category("Primary Tumors", [
 ]);
 subCatsCat1[2] = new classes.category("Gliomas", new Array());
 subCatsCat1[3] = new classes.category("Meningiomas", new Array());
-subCats[0] = new classes.category("Tumors", subCatsCat1);
-subCats[1] = new classes.category("Cranial Vascular", new Array());
-subCats[2] = new classes.category("Spine", new Array());
+subCats[0] = new classes.category(names[0], subCatsCat1);
+subCats[1] = new classes.category(names[1], new Array());
+subCats[2] = new classes.category(names[2], new Array());
 var rootCategory = new classes.category("Browse", subCats);
 
 Alloy.Globals.rootCategory = rootCategory;

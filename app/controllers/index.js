@@ -1,4 +1,8 @@
 
+
+
+
+
 function displayListView(window, items, eventFunction) {
 	var listView = Ti.UI.createListView();
 	var section = Ti.UI.createListSection();
