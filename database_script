@@ -1,0 +1,46 @@
+CREATE TABLE mediaFile (
+    id INT NOT NULL AUTO_INCREMENT,
+    url VARCHAR(255) NOT NULL,
+    description VARCHAR(1000),
+    belongsTo INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (belongsTo) REFERENCES case(id) ON DELETE CASCADE
+) ENGINE=INNODB;
+
+CREATE TABLE case (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    public BOOL NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE category (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=INNODB;
+
+CREATE TABLE subCategory (
+    id INT NOT NULL AUTO_INCREMENT,
+    superCategory INT NOT NULL,
+    subCategory INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (superCategory) REFERENCES category(id) ON DELETE CASCADE,
+    FOREIGN KEY (subCategory) REFERENCES category(id) ON DELETE CASCADE
+) ENGINE=INNODB;
+
+CREATE TABLE belongsTo (
+    id INT NOT NULL AUTO_INCREMENT,
+    case INT NOT NULL,
+    category INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (case) REFERENCES case(id) ON DELETE CASCADE,
+    FOREIGN KEY (category) REFERENCES category(id) ON DELETE CASCADE
+) ENGINE=INNODB;
+
+CREATE TABLE user (
+    id INT NOT NULL AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=INNODB;
