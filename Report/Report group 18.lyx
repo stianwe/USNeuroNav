@@ -664,10 +664,6 @@ Functional Requirements
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 placement H
 wide false
@@ -723,6 +719,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename Figures/Use case diagram.png
+	lyxscale 70
 	width 100line%
 
 \end_inset
@@ -755,6 +752,370 @@ Use Case diagram
 Use Case description
 \end_layout
 
+\begin_layout Standard
+This i a description of the use case diagram
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR1
+\end_layout
+
+\begin_layout Standard
+Title: Browse categories of cases
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR2
+\end_layout
+
+\begin_layout Standard
+Title: Browse sub-categories of cases
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR3
+\end_layout
+
+\begin_layout Standard
+Title: Select a case
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR4
+\end_layout
+
+\begin_layout Standard
+Title: Browse case-photoes
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR5
+\end_layout
+
+\begin_layout Standard
+Title: Browse case-photoes
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR6
+\end_layout
+
+\begin_layout Standard
+Title: Select cases/videoes/photoes to download and store localyl
+\end_layout
+
+\begin_layout Standard
+Priority: Medium
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR7
+\end_layout
+
+\begin_layout Standard
+Title: Search for cases
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR8
+\end_layout
+
+\begin_layout Standard
+Title: Browse additional cases and information about cases
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR9
+\end_layout
+
+\begin_layout Standard
+Title: Log in
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Registered user 
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Fetch colletions of cases and their categories
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Verify user identifoacation
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Define each case availability as either public or registerd-only
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Upload new cases
+\end_layout
+
+\begin_layout Standard
+Priority: Medium
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Register user
+\end_layout
+
+\begin_layout Standard
+Priority: Medium
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: 
+\end_layout
+
+\begin_layout Standard
+Priority:
+\end_layout
+
+\begin_layout Standard
+Actors: 
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\end_layout
+
 \begin_layout Subsection
 Non-Functional Requirements
 \end_layout
@@ -768,7 +1129,7 @@ kjkjkj
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
