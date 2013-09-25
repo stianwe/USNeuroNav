@@ -1,4 +1,3 @@
-var rootCategory = "Nei";
 
 function category(name, subCategories) {
 	this.name = name;
@@ -24,19 +23,17 @@ function category(name, subCategories) {
 	
 }
 
-function caseT(name, mediaFiles) {
+function caseT(name) {
 	this.name = name;
-	this.mediaFiles = mediaFiles;
+	this.mediaFiles = new Array();
 }
 
-function mediaFile(URL, video, restricted) {
+function mediaFile(URL, video) {
 	this.URL = URL;
 	this.video = video;
-	this.restricted = restricted;
 }
 
 // Make the two "functions" publicly available
 exports.category = category;
 exports.caseT = caseT;
 exports.mediaFile = mediaFile;
-exports.rootCategory = rootCategory;

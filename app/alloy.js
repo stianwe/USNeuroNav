@@ -13,7 +13,7 @@
 // Make the "functions" in category.js available
 var classes = require('category');
 var db = require('database');
-mainCategories = [];
+//mainCategories = [];
 //var names = db.initDB();
 //db.initDB();
 

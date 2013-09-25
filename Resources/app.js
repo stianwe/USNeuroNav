@@ -4,6 +4,4 @@ var classes = require("category");
 
 var db = require("database");
 
-mainCategories = [];
-
 Alloy.createController("index");
