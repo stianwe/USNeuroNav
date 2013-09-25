@@ -1,7 +1,4 @@
-
-
-
-
+var currentCategories = [];
 
 function displayListView(window, items, eventFunction) {
 	var listView = Ti.UI.createListView();
@@ -11,13 +8,22 @@ function displayListView(window, items, eventFunction) {
 	sections.push(section);
 	listView.sections = sections;
 	listView.addEventListener('itemclick', eventFunction);
+	window.addEventListener('close', function(e) {
+		currentCategories.pop();
+	});
 	window.add(listView);
+	/*var names = [];
+	for (var i = 0; i < currentCategories.length; i++) {
+		names[i] = currentCategories[i].name;
+	}
+	alert(names);*/
 }
 
 function createEventFunctionCategory(currentCategory) {
 	return function(e) {
 		var prevCat = currentCategory;
 		var currCat = currentCategory.subCategories[e.itemIndex];
+		currentCategories.push(currCat);
 		var nextWindow = Ti.UI.createWindow({
 			title: currCat.name,
 			backgroundColor: "#fff"
@@ -27,7 +33,25 @@ function createEventFunctionCategory(currentCategory) {
 			displayListView(nextWindow, currCat.getSubCategories(), createEventFunctionCategory(currCat));
 		}
 		else if (currCat.cases.length > 0) {
-			displayListView(nextWindow, currCat.getCases(), createEventFunctionCase(currCat.cases));
+			var cases = currentCategories[0].cases.slice();
+			for (var i = 0; i < currentCategories.length; i++) {
+				for (var j = 0; j < cases.length; j++) {
+					var index = currentCategories[i].cases.indexOf(cases[j]);
+					if (index == -1) {
+						cases.splice(cases.indexOf(cases[j]), 1);
+					}
+				}
+			}
+			var props = [];
+			for (var i = 0; i < cases.length; i++) {
+				props[i] = { properties: { title:cases[i].name } };
+			}
+			displayListView(nextWindow, props, createEventFunctionCase(cases));
+		}
+		else {
+			nextWindow.addEventListener('close', function(e) {
+				currentCategories.pop();
+			});
 		}
 		$.tab1.open(nextWindow);
 	};
@@ -56,6 +80,7 @@ function createEventFunctionCase(cases) {
 				alert("CLICK!");
 			});
 			nextWindow.add(thumbnailImageView);*/
+			
 			var view;
 			if (currentCase.mediaFiles[i].video) {
 				view = Ti.Media.createVideoPlayer({
@@ -81,8 +106,10 @@ function createEventFunctionCase(cases) {
 	};
 }
 
-$.tab1window1.setTitle(rootCategory.name);
-displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+db.initDB($.tab1window1, displayListView, createEventFunctionCategory);
+
+//$.tab1window1.setTitle(rootCategory.name);
+//displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
 
 // displayListView(window2, rootCategory.getSubCategories(), function(e) {
 	// var prevCategory = rootCategory;

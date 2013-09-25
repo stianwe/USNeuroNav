@@ -7,16 +7,35 @@ function Controller() {
         sections.push(section);
         listView.sections = sections;
         listView.addEventListener("itemclick", eventFunction);
+        window.addEventListener("close", function() {
+            currentCategories.pop();
+        });
         window.add(listView);
     }
     function createEventFunctionCategory(currentCategory) {
         return function(e) {
             var currCat = currentCategory.subCategories[e.itemIndex];
+            currentCategories.push(currCat);
             var nextWindow = Ti.UI.createWindow({
                 title: currCat.name,
                 backgroundColor: "#fff"
             });
-            currCat.subCategories.length > 0 ? displayListView(nextWindow, currCat.getSubCategories(), createEventFunctionCategory(currCat)) : currCat.cases.length > 0 && displayListView(nextWindow, currCat.getCases(), createEventFunctionCase(currCat.cases));
+            if (currCat.subCategories.length > 0) displayListView(nextWindow, currCat.getSubCategories(), createEventFunctionCategory(currCat)); else if (currCat.cases.length > 0) {
+                var cases = currentCategories[0].cases.slice();
+                for (var i = 0; currentCategories.length > i; i++) for (var j = 0; cases.length > j; j++) {
+                    var index = currentCategories[i].cases.indexOf(cases[j]);
+                    -1 == index && cases.splice(cases.indexOf(cases[j]), 1);
+                }
+                var props = [];
+                for (var i = 0; cases.length > i; i++) props[i] = {
+                    properties: {
+                        title: cases[i].name
+                    }
+                };
+                displayListView(nextWindow, props, createEventFunctionCase(cases));
+            } else nextWindow.addEventListener("close", function() {
+                currentCategories.pop();
+            });
             $.tab1.open(nextWindow);
         };
     }
@@ -98,8 +117,8 @@ function Controller() {
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.tab1window1.setTitle(rootCategory.name);
-    displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+    var currentCategories = [];
+    db.initDB($.tab1window1, displayListView, createEventFunctionCategory);
     $.index.open();
     _.extend($, exports);
 }

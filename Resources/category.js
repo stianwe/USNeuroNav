@@ -22,15 +22,14 @@ function category(name, subCategories) {
     };
 }
 
-function caseT(name, mediaFiles) {
+function caseT(name) {
     this.name = name;
-    this.mediaFiles = mediaFiles;
+    this.mediaFiles = new Array();
 }
 
-function mediaFile(URL, video, restricted) {
+function mediaFile(URL, video) {
     this.URL = URL;
     this.video = video;
-    this.restricted = restricted;
 }
 
 exports.category = category;

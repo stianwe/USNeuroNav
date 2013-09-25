@@ -24,10 +24,19 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement th
+\float_placement h
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -64,9 +73,48 @@
 \begin_body
 
 \begin_layout Standard
+Forsiden
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+Abstract
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+Preface
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -81,19 +129,18 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\begin_inset FloatList figure
-
+\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Abstract
-\end_layout
+\begin_inset FloatList figure
 
-\begin_layout Standard
-Preface
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -216,6 +263,13 @@ A scoring system should be developed and based on the available data material;
  It should also be easy to generate and upload new material and when new
  cases become available the users are notified and asked it they would like
  to download the new material.”
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -345,1016 +399,15 @@ Scrum is being used for the development phase.
 \end_layout
 
 \begin_layout Subsubsection
+Work Break Down Structure
+\end_layout
+
+\begin_layout Standard
+forklare gant diagram...
+\end_layout
+
+\begin_layout Subsubsection
 Milestones
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="4">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="4line%">
-<column alignment="center" valignment="top" width="14line%">
-<column alignment="center" valignment="top" width="12line%">
-<column alignment="center" valignment="top" width="60line%">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-#
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Date
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Category
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Description
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-r1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-30.08.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Deliver preliminary project plan to supervisor.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-18.09.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Have a running prototype, able to show local photos, categorization of cases
- to enable browsing.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-02.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Support for video, searching for cases.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-r2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-08.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
- to supervisor.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-r3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-14.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
- to sensor.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-16.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Network support, server communication, caching of data.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-30.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Upload of data.
- Finalize features.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13.11.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product delivery.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-r4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-20.11.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Complete and print final report.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-r5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-21.11.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Final project presentation.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Milestones
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide true
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-#
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Start date - End date 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Description
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Planning/ report 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Coding/ testing 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-04.09.2013 - 18.09.2013 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Architecture design, risk analysis, GUI design, requirements specification,
- use-case scenarios, setup and initial implementation 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sian
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-19.09.2013 - 02.10.2013 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Implementation, TBD
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-03.10.2013 - 16.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Implementation, TBD 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-17.10.2013 - 30.10.2013 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Final implementation sprint.
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Sprints
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
-<features islongtable="true" longtabularalignment="center">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-#
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Start date - End date 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Description
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Planning/ report 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Coding/ testing 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-04.09.2013 - 18.09.2013 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Architecture design, risk analysis, GUI design, requirements specification,
- use-case scenarios, setup and initial implementation 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sian
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-19.09.2013 - 02.10.2013 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Implementation, TBD
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-03.10.2013 - 16.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Implementation, TBD 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-17.10.2013 - 30.10.2013 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Final implementation sprint.
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Marthe, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -1369,12 +422,12 @@ Organizational diagram
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename Figures/Organizational diagram.png
-	scale 50
+	width 100line%
 
 \end_inset
 
@@ -1404,236 +457,12 @@ Roles
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap table
-lines 0
-placement I
-overhang 0in
-width "50col%"
-status collapsed
+\begin_inset Float table
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Role
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Name
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Responsebilities
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Project manager 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Marthe F.
- Bekkevold
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Task assignment, organizing meetings and agenda for meetings.
- Scrum master
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Contact person
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Marthe F.
- Bekkevold
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Keeping customer and supervisor up to date regarding project status, being
- the go-to person when the customer or the supervisor has any questions
- or information for the group.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Administrative Assistant
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kristoffer Hagen 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Making sure that oral information gets documented and that no communication
- and information gets lost and/or forgotten.
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Test manager
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian Weie
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Setting up and supervising tests.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report supervisor
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kristoffer Hagen 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Supervising that the report is being kept up to date, making sure that the
- report is ready for delivery and that it meets the technical requirements.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Technical manager
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian Weie
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Technical research and making sure technical difficulties are solved.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
 
 \end_layout
 
@@ -1641,11 +470,15 @@ Technical research and making sure technical difficulties are solved.
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Roles
+
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1670,8 +503,31 @@ Source code
 Risk Management
 \end_layout
 
+\begin_layout Subsubsection
+Risk handling
+\end_layout
+
 \begin_layout Subsection
 Quality Assurance
+\end_layout
+
+\begin_layout Subsubsection
+Customer interaction
+\end_layout
+
+\begin_layout Subsubsection
+Supervisor interaction
+\end_layout
+
+\begin_layout Subsubsection
+Group interaction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1718,20 +574,11 @@ Evaluation of Alternate Solutions
 Choice of Solution
 \end_layout
 
-\begin_layout Subsection
-Technologies
-\end_layout
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
 
-\begin_layout Subsubsection
-JavaScript
-\end_layout
 
-\begin_layout Subsubsection
-Lyx/LaTeX
-\end_layout
-
-\begin_layout Subsubsection
-Version Control
 \end_layout
 
 \begin_layout Section
@@ -1739,27 +586,65 @@ Lifecycle Model
 \end_layout
 
 \begin_layout Subsection
-Description
+Why Scrum
 \end_layout
 
 \begin_layout Subsection
-Scrum
+Scrum 
+\end_layout
+
+\begin_layout Subsection
+Srum artefacts
+\end_layout
+
+\begin_layout Subsection
+Scrum meetings
+\end_layout
+
+\begin_layout Subsubsection
+Daily standups
+\end_layout
+
+\begin_layout Subsubsection
+Sprint planning meeting
+\end_layout
+
+\begin_layout Subsubsection
+Sprint review meeting
+\end_layout
+
+\begin_layout Subsubsection
+Sprint retrospective meeting
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Requirements
 \end_layout
 
-\begin_layout Subsection
-Introduction
+\begin_layout Standard
+In this section the system requirements will be presented.
+ First a description of the scope of the project, then comes definitions,
+ then a describtion of the functional and non-functional requirements.
+ At the end the product backlog wil be described.
 \end_layout
 
 \begin_layout Subsection
-Overall Description
+Scope
 \end_layout
 
-\begin_layout Subsubsection
-User Characteristics
+\begin_layout Subsection
+Definitions, Acronyms and Abbreviations
+\end_layout
+
+\begin_layout Subsection
+Actors
 \end_layout
 
 \begin_layout Standard
@@ -1774,20 +659,601 @@ There are two different groups of users for the USNeuroNav App:
 *Registrated users
 \end_layout
 
+\begin_layout Subsection
+Functional Requirements
+\end_layout
+
 \begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Tabel figures/Overall Functional Requirements.png
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Overall Functional Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Use Case diagram
+\end_layout
+
+\begin_layout Standard
+kjk
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Use case diagram.png
+	lyxscale 70
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Use Case diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Use Case description
+\end_layout
+
+\begin_layout Standard
+This i a description of the use case diagram
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR1
+\end_layout
+
+\begin_layout Standard
+Title: Browse categories of cases
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR2
+\end_layout
+
+\begin_layout Standard
+Title: Browse sub-categories of cases
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR3
+\end_layout
+
+\begin_layout Standard
+Title: Select a case
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR4
+\end_layout
+
+\begin_layout Standard
+Title: Browse case-photoes
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR5
+\end_layout
+
+\begin_layout Standard
+Title: Browse case-photoes
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR6
+\end_layout
+
+\begin_layout Standard
+Title: Select cases/videoes/photoes to download and store localyl
+\end_layout
+
+\begin_layout Standard
+Priority: Medium
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR7
+\end_layout
+
+\begin_layout Standard
+Title: Search for cases
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Unregistered user and registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR8
+\end_layout
+
+\begin_layout Standard
+Title: Browse additional cases and information about cases
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Registered user
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR9
+\end_layout
+
+\begin_layout Standard
+Title: Log in
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Registered user 
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Fetch colletions of cases and their categories
+\end_layout
+
+\begin_layout Standard
+Priority: Critical
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Verify user identifoacation
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Define each case availability as either public or registerd-only
+\end_layout
+
+\begin_layout Standard
+Priority: High
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Upload new cases
+\end_layout
+
+\begin_layout Standard
+Priority: Medium
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: Register user
+\end_layout
+
+\begin_layout Standard
+Priority: Medium
+\end_layout
+
+\begin_layout Standard
+Actors: Server
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Identifier: FR
+\end_layout
+
+\begin_layout Standard
+Title: 
+\end_layout
+
+\begin_layout Standard
+Priority:
+\end_layout
+
+\begin_layout Standard
+Actors: 
+\end_layout
+
+\begin_layout Standard
+Brief description: 
+\end_layout
+
+\begin_layout Subsection
+Non-Functional Requirements
+\end_layout
+
+\begin_layout Standard
+kjkjkj
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Tabel figures/Overall Non-Functional Requirements.png
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Overall Non-Functional Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Subsection
-Spesific Requirements
+Product Backlog
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Analysis
+\end_layout
+
+\begin_layout Section
+Software Architecture
+\end_layout
+
+\begin_layout Subsection
+introduction
+\end_layout
+
+\begin_layout Standard
+Purpose
+\end_layout
+
+\begin_layout Standard
+Scope
+\end_layout
+
+\begin_layout Standard
+Quality
+\end_layout
+
+\begin_layout Subsection
+Selections of Architectural Viewpoints
+\end_layout
+
+\begin_layout Subsection
+Views
+\end_layout
+
+\begin_layout Standard
+Må revurdere hvor mye av dette vi skal ha med
 \end_layout
 
 \begin_layout Subsubsection
-Functional Requirements
+Logical view
 \end_layout
 
 \begin_layout Subsubsection
-Non-Functional Requirements
+Physical View
+\end_layout
+
+\begin_layout Subsubsection
+Process View
+\end_layout
+
+\begin_layout Subsubsection
+Develoment View
+\end_layout
+
+\begin_layout Subsection
+Data storage
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tools and Technology
+\end_layout
+
+\begin_layout Standard
+Titanim
+\end_layout
+
+\begin_layout Standard
+Lyx
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Standard
+versonskontroll - git....
 \end_layout
 
 \begin_layout Standard
@@ -1813,11 +1279,11 @@ Sprint 1
 \end_layout
 
 \begin_layout Subsection
-Dates
+Sprint planning
 \end_layout
 
 \begin_layout Subsubsection
-Sprint planning
+Sprint duration
 \end_layout
 
 \begin_layout Subsubsection
@@ -2021,56 +1487,146 @@ Backlog for sprint 1
 
 \end_layout
 
-\begin_layout Subsubsection
-Code review/changes/retrospect
+\begin_layout Subsection
+System Burndown Chart
 \end_layout
 
 \begin_layout Subsection
-5.2 Activities
+Implementation
 \end_layout
 
-\begin_layout Subsubsection
-Manage Tranches - View
+\begin_layout Standard
+user interface
 \end_layout
 
-\begin_layout Subsubsection
-Manage Tranches - Search (Design)
-\end_layout
-
-\begin_layout Subsubsection
-Manage Tranches - Search (Logic)
-\end_layout
-
-\begin_layout Subsubsection
-Manage Tranches - Delete
+\begin_layout Standard
+...
 \end_layout
 
 \begin_layout Subsection
-5.3 Sprint Backlog
+Testing
 \end_layout
 
 \begin_layout Subsection
-5.4 Sprint Burndown Char
+Ocuring risks
+\end_layout
+
+\begin_layout Standard
+noen har vært syke, bprtreist, fikk hardware sent?...
 \end_layout
 
 \begin_layout Subsection
-5.5 Sprint Evaluation
+Customer feedback
 \end_layout
 
 \begin_layout Subsection
-5.6 Retrospective
+Sprint Evaluation
 \end_layout
 
 \begin_layout Subsubsection
-Pros
+What went well during this sprint
 \end_layout
 
 \begin_layout Subsubsection
-Cons
+What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Sprint 2
+\end_layout
+
+\begin_layout Subsection
+Sprint planning
+\end_layout
+
+\begin_layout Subsubsection
+Sprint duration
+\end_layout
+
+\begin_layout Subsubsection
+Backlog
+\end_layout
+
+\begin_layout Subsection
+System Burndown Chart
+\end_layout
+
+\begin_layout Subsection
+Implementation
+\end_layout
+
+\begin_layout Standard
+user interface
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Subsection
+Testing
+\end_layout
+
+\begin_layout Subsection
+Ocuring risks
+\end_layout
+
+\begin_layout Standard
+noen har vært syke, bprtreist, fikk hardware sent?...
+\end_layout
+
+\begin_layout Subsection
+Customer feedback
+\end_layout
+
+\begin_layout Subsection
+Sprint Evaluation
+\end_layout
+
+\begin_layout Subsubsection
+What went well during this sprint
+\end_layout
+
+\begin_layout Subsubsection
+What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Testing
+\end_layout
+
+\begin_layout Subsection
+Types of testing
+\end_layout
+
+\begin_layout Subsection
+Unit testing
+\end_layout
+
+\begin_layout Subsection
+Integration testing
+\end_layout
+
+\begin_layout Subsection
+System testing
+\end_layout
+
+\begin_layout Subsection
+Acceptance testing
 \end_layout
 
 \begin_layout Standard
