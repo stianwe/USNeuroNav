@@ -6,7 +6,7 @@ if (mysqli_connect_errno()) {
 }
 $mysqli->query("SET NAMES 'utf8'");
 $categories = array();
-$$subCategories = array();
+$subCategories = array();
 $cases = array();
 $belongsTo = array();
 $mediaFiles = array();
@@ -48,10 +48,11 @@ if($result = $mysqli->query("SELECT * FROM belongsTo")) {
     $result->close();
 }
 
-if($result = $mysqli->query("SELECT * FROM mediaFiles")) {
+if($result = $mysqli->query("SELECT * FROM mediaFile")) {
     while ($row = $result->fetch_assoc()) {
         $mediaFiles[] = array(
             'url'=>$row['url'],
+            'video'=>$row['video'],
             'belongsTo'=>$row['belongsTo']);
     }
     $result->close();
