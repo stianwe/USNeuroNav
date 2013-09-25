@@ -29,7 +29,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -44,6 +44,8 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 15page%
+\rightmargin 15page%
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -94,8 +96,22 @@ Abstract
 Preface
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Planning and Requirements
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -179,9 +195,16 @@ In addition to presenting the available material it’s natural to investigate
 \begin_layout Standard
 • Anatomy – The user sees an ultrasound image as well as names of anatomical
  structures and is challenged to drag each name onto the correct structure.
- • Pathology – The user sees ultrasound images of varies tumors and is asked
+ 
+\end_layout
+
+\begin_layout Standard
+• Pathology – The user sees ultrasound images of varies tumors and is asked
  to identify the tumor and state the type (multiple choice).
- • Tumor borders – Some tumor types have diffuse border to normal tissue.
+\end_layout
+
+\begin_layout Standard
+• Tumor borders – Some tumor types have diffuse border to normal tissue.
  The user sees such images and is asked to draw the border.
 \end_layout
 
@@ -329,16 +352,17 @@ Milestones
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="4">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="4line%">
+<column alignment="center" valignment="top" width="14line%">
+<column alignment="center" valignment="top" width="12line%">
+<column alignment="center" valignment="top" width="60line%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -799,7 +823,7 @@ Milestones
 \begin_inset Float table
 wide true
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -1385,7 +1409,7 @@ lines 0
 placement I
 overhang 0in
 width "50col%"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -1739,6 +1763,18 @@ User Characteristics
 \end_layout
 
 \begin_layout Standard
+There are two different groups of users for the USNeuroNav App:
+\end_layout
+
+\begin_layout Standard
+*Non registrated users
+\end_layout
+
+\begin_layout Standard
+*Registrated users
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -1754,12 +1790,22 @@ Functional Requirements
 Non-Functional Requirements
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Sprints 
 \end_layout
 
 \begin_layout Standard
-Description 
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2023,8 +2069,22 @@ Cons
 Sprint 2
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Conclusion and Evaluation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2171,8 +2231,22 @@ avaScript
 12.4.8 Google Documents 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Appendices
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
