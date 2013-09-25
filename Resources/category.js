@@ -33,8 +33,12 @@ function mediaFile(URL, video, restricted) {
     this.restricted = restricted;
 }
 
+var rootCategory = "Nei";
+
 exports.category = category;
 
 exports.caseT = caseT;
 
 exports.mediaFile = mediaFile;
+
+exports.rootCategory = rootCategory;

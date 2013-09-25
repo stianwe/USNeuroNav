@@ -1,25 +1,43 @@
-function initDB(){
+var classes = require('category');
+
+function initDB(window, displayListView, createEventFunctionCategory){
 
 
 	var xhr = Titanium.Network.createHTTPClient();
-	var mainCategories = [];
-	xhr.open('GET', "129.241.110.159/database.php");
-	xhr.send();
+	
+	
 	
 	xhr.onload = function(){
+		
+		//alert(this.responseText);
+		
+		
 	    var json = JSON.parse(this.responseText);
 	    if (!json) { 
-	        Titanium.API.info('Error - Empty List'); 
+	        alert('Error - Empty List'); 
 	        return;
 	    }
-	    var json = json.category;
-	    var pos;
-	   	for( pos=0; pos < jsoncats.length; pos++){
-     	   mainCategories[pos] = Ti.UI.info(json[pos].name);
+	    var jsonCategories = json.categories;
+	    
+	    for(var pos=0; pos < jsonCategories.length; pos++){
+     		mainCategories[pos] = jsonCategories[pos].name;
     	}
+    	
+    	var subCats = new Array();
+    	for (var i = 0; i < mainCategories.length; i++) {
+    		subCats[i] = new classes.category(mainCategories[i], new Array());
+    	}
+    	var rootCategory = new classes.category("Root", subCats);
+    	window.setTitle(rootCategory.name);
+    	displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
 	};
 	
-	return mainCategories;
+	xhr.open('GET', "http://129.241.110.159/database.php");
+	
+	xhr.send();
+	
+	
+	return true;
 }
 
 exports.initDB = initDB;

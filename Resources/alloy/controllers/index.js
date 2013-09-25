@@ -98,8 +98,7 @@ function Controller() {
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.tab1window1.setTitle(rootCategory.name);
-    displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+    db.initDB($.tab1window1, displayListView, createEventFunctionCategory);
     $.index.open();
     _.extend($, exports);
 }

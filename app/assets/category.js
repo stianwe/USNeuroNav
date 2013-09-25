@@ -1,3 +1,5 @@
+var rootCategory = "Nei";
+
 function category(name, subCategories) {
 	this.name = name;
 	this.cases = [];
@@ -37,3 +39,4 @@ function mediaFile(URL, video, restricted) {
 exports.category = category;
 exports.caseT = caseT;
 exports.mediaFile = mediaFile;
+exports.rootCategory = rootCategory;

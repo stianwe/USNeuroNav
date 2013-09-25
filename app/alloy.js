@@ -13,9 +13,13 @@
 // Make the "functions" in category.js available
 var classes = require('category');
 var db = require('database');
+mainCategories = [];
+//var names = db.initDB();
+//db.initDB();
 
-var names = db.initDB();
 
+
+/*
 var subCats = new Array();
 var subCatsCat1 = new Array();
 var cases = [
@@ -50,4 +54,4 @@ subCats[1] = new classes.category(names[1], new Array());
 subCats[2] = new classes.category(names[2], new Array());
 var rootCategory = new classes.category("Browse", subCats);
 
-Alloy.Globals.rootCategory = rootCategory;
+Alloy.Globals.rootCategory = rootCategory;*/

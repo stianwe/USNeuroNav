@@ -81,8 +81,10 @@ function createEventFunctionCase(cases) {
 	};
 }
 
-$.tab1window1.setTitle(rootCategory.name);
-displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+db.initDB($.tab1window1, displayListView, createEventFunctionCategory);
+
+//$.tab1window1.setTitle(rootCategory.name);
+//displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
 
 // displayListView(window2, rootCategory.getSubCategories(), function(e) {
 	// var prevCategory = rootCategory;
