@@ -1229,6 +1229,144 @@ Develoment View
 Data storage
 \end_layout
 
+\begin_layout Subsubsection
+Overall
+\end_layout
+
+\begin_layout Standard
+Since the data that will be used in this app is from real medical cases,
+ the customer wanted to have full control over the data, and therefore did
+ not want to rent/buy cloud services from third parties.
+ The team therefore suggested that if the customer provided a dedicated
+ server, the team would create the database and other necessary components.
+ 
+\end_layout
+
+\begin_layout Standard
+Another important note about data storage, is that more relevant data for
+ the app is produced every day, so the customer wanted to be able to 
+\begin_inset Quotes eld
+\end_inset
+
+push
+\begin_inset Quotes erd
+\end_inset
+
+ new data into the app without the users having to download a new version
+ every time.
+ This will be solved by maintaining a database with the different categories
+ and cases, and also the relationship between them, as well as an overview
+ of where to find images and videos for each case.
+ The images and videos themselves will be stored on a webserver which the
+ app can access and stream the data from.
+ 
+\end_layout
+
+\begin_layout Standard
+Since the customer only wants part of the data to be publicly available,
+ some user identification must be enforced.
+ User information, such as user name and password, must therefore also be
+ stored.
+\end_layout
+
+\begin_layout Standard
+Finally, the customer enquired about the possibility of using the app offline.
+ Since the data for the app will be very large, the videos are typically
+ XX MB, and each case usually have one, the team decided that storing all
+ of the data locally on the phone would be too much.
+ As a solution to this, a possibility for selecting some cases, images and/or
+ videos, that the phone should download and store locally, were proposed,
+ so that some data, that the user selects, will be available offline.
+\end_layout
+
+\begin_layout Subsubsection
+Categories, cases and users
+\end_layout
+
+\begin_layout Standard
+To store the categories and cases, and also a reference to the media files
+ belonging to each case, a MySQL database will be used.
+ The reason for this is that MySQL is free to use, and is also an SQL database
+ that the team is familiar with, so that the development process might be
+ fast and painless.
+ Since there are clear relations between categories and cases, and also
+ between categories themselves (sub-cases and super-cases), a relational
+ database like SQL fits very well.
+ The MySQL database is also the logical place to store the user identification,
+ since they can be stored in a simple table with a few columns for user
+ name, password, and so on.
+\end_layout
+
+\begin_layout Standard
+The design of the MySQL database can be seen in the ER-diagram below:
+\end_layout
+
+\begin_layout Standard
+INSERT ER-DIAGRAM!!!!!!!!!!!!!!
+\end_layout
+
+\begin_layout Standard
+The reasoning behind this ER-diagram is as follows: A category must be identifie
+d by a name for the user, and will have an id to use as foreign key.
+ A category can have zero or more sub-categories, and zero or more super-categor
+ies.
+ Several categories can have the same sub-category, and vice-verca, to allow
+ for re-use of certain categories, for example locations, such as 
+\begin_inset Quotes eld
+\end_inset
+
+frontal lobe
+\begin_inset Quotes erd
+\end_inset
+
+.
+ To then decide which case belongs to which selection of categories, a case
+ will belong to a tree-structure of categories.
+ Therefore a case must be connected to all the categories along a path.
+ For instance if case 1 is from a 
+\begin_inset Quotes eld
+\end_inset
+
+primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+ surgery located in the frontal lobe, case 1 will belong to all of the categorie
+s 
+\begin_inset Quotes eld
+\end_inset
+
+primary
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+tumor
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+frontal lobe
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Images and videos
+\end_layout
+
+\begin_layout Subsubsection
+Local caching
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
