@@ -2437,7 +2437,7 @@ Testing
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stian
+Kristoffer
 \end_layout
 
 \end_inset
@@ -2769,10 +2769,6 @@ When the application is booting up, the client will poll the server for
 Testing
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Subsection
 Ocuring risks
 \end_layout
@@ -2998,8 +2994,36 @@ learning by doing
 What went well during this sprint
 \end_layout
 
+\begin_layout Standard
+The development phase turned out very good, given the odds.
+ We had absolutely no experience with Titanium, JavaScript or Mac before
+ the sprint.
+ We also didn't have access to more than one Mac.
+ Considering this we are very happy with how well the programming went.
+\end_layout
+
+\begin_layout Standard
+We didn't have much progress on the report early in the sprint, but during
+ the last week, we really produced a lot of good content, which we are very
+ happy with.
+\end_layout
+
 \begin_layout Subsubsection
 What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+We had a little slow start with the report writing this sprint, mainly because
+ only the 
+\begin_inset Quotes eld
+\end_inset
+
+developers
+\begin_inset Quotes erd
+\end_inset
+
+ for this sprint were fully available the whole sprint.
+ 
 \end_layout
 
 \begin_layout Standard
