@@ -1255,6 +1255,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Overall_architecture.png
+	scale 40
 
 \end_inset
 
