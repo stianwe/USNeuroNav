@@ -1257,7 +1257,7 @@ push
  This will be solved by maintaining a database with the different categories
  and cases, and also the relationship between them, as well as an overview
  of where to find images and videos for each case.
- The images and videos themselves will be stored on a webserver which the
+ The images and videos themselves will be stored on a web server which the
  app can access and stream the data from.
  
 \end_layout
@@ -1463,6 +1463,31 @@ real
 \end_layout
 
 \begin_layout Standard
+Since the team is quite inexperience with scrum, an additional feature is
+ planned, that will be implemented if the initial tasks are completed within
+ the first half of the sprint.
+ That feature is loading the categories, cases, images and videos from server.
+ To allow for this, the server must be set up with a MySQL server to store
+ the categories and cases, and a web server (Apache) to make available the
+ images and videos.
+ Setting up the server with the required software, and configuring it, is
+ assigned to Stian, as he has some experience with it.
+ Implementing the communication between the client (app) and the server,
+ will be done in cooperation between Stian and Kristoffer, as they are the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+developers
+\begin_inset Quotes erd
+\end_inset
+
+ for this sprint.
+ In more detail, Stian will do the server side communication, and Stian
+ and Kristoffer together will work on the client side.
+\end_layout
+
+\begin_layout Standard
 An additional goal of the sprint is to start working with Rally, to keep
  track of the backlog and the assigning of tasks.
 \end_layout
@@ -1499,8 +1524,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="4">
+<lyxtabular version="3" rows="12" columns="5">
 <features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -1533,11 +1559,20 @@ Responsible
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estimated cost
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Cost
+Real cost
 \end_layout
 
 \end_inset
@@ -1571,11 +1606,20 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1609,11 +1653,20 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1647,11 +1700,20 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1685,11 +1747,20 @@ Marthe
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1723,11 +1794,20 @@ Marthe
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1761,11 +1841,208 @@ Sprint planning
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GUI demo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Set up MySQL server
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Set up Apache server
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Server side communication
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1785,7 +2062,7 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
-GUI demo
+Client side communication
 \end_layout
 
 \end_inset
@@ -1799,11 +2076,20 @@ Kristoffer
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+
 \end_layout
 
 \end_inset
@@ -2021,6 +2307,47 @@ When a case is selcted, the case's images and videos will have to be displayed.
  this until the customer can have his say on the matter.
 \end_layout
 
+\begin_layout Subsubsection
+Client-server communication
+\end_layout
+
+\begin_layout Paragraph
+Server side
+\end_layout
+
+\begin_layout Standard
+As Titanium does not support direct communication with an external MySQL
+ server, a dedicated component to compensate for this must be developed,
+ and run on the server side.
+ Since Titanium supports HTTP connections, a php script will run on the
+ server's web server, and will be used to read data from the MySQL server,
+ and send it to the client on request.
+ In more detail, the server will answer a HTTP GET request, with a json
+ list, which is built in the same way as the MySQL server, to ensure consistency.
+ The reason for sending json objects instead of for example XML objects,
+ is that json objects typically are smaller, and faster to parse.
+ Since the MySQL server only contains references to the images and videos,
+ the data sent here will not be too large, and it will allow the client
+ to stream the images and videos from the Apache web server, by sending
+ the reference as URL's.
+\end_layout
+
+\begin_layout Paragraph
+Client side
+\end_layout
+
+\begin_layout Standard
+When the application is booting up, the client will poll the server for
+ data once, by sending an HTTP GET request, using Titanium's build-in support
+ for this.
+ The client will then receive the json list, which Titanium also has built-in
+ support for parsing.
+ Using this data, the app will build an internal structure of the categories
+ in memory, and use this to generate the tree-structured navigation.
+ The json object will also contain references to where the images and videos
+ for each case can be streamed from, so these will also be stored locally.
+\end_layout
+
 \begin_layout Subsection
 Testing
 \end_layout
@@ -2030,7 +2357,7 @@ Ocuring risks
 \end_layout
 
 \begin_layout Standard
-noen har vært syke, bprtreist, fikk hardware sent?...
+noen har vært syke, bortreist, fikk hardware sent?...
 \end_layout
 
 \begin_layout Subsection
@@ -2039,6 +2366,33 @@ Customer feedback
 
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Standard
+The implementation of the initial stories, viewing categories and cases,
+ and their images and videos, went very well, and were done withing the
+ first half of the sprint.
+ The team therefore moved on to set up MySQL server and Apache web server
+ on the borrowed iMac for now, to use it for the development phase.
+ This also went without too many quirks, even though the team were/is very
+ unfamiliar with Mac and OSX.
+ Finally, the development of the client-server communication alos went well,
+ considering no one on the group had touched php or Titanium before.
+ As a note, the development team for the first sprint were not very comfortable
+ with using Titanium and JavaScript in the start, but adapted to this by
+ 
+\begin_inset Quotes eld
+\end_inset
+
+learning by doing
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The team is still not 100% that the right decision for development tools
+ were chosen (Titanium vs Xamarin), as they feel they would be more productive
+ writing code in C# than JavaScript, considering that JavaScript in theory
+ does not support classes.
 \end_layout
 
 \begin_layout Subsubsection
