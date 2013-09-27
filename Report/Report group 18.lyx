@@ -3150,15 +3150,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-<<<<<<< HEAD
-\align center
-\begin_inset Graphics
-	filename Figures/GUI_browsing_with_tabs.png
-	width 100line%
-=======
 Set up Apache server
 \end_layout
->>>>>>> 364613622f807ae96c0a7604ad08f8261a2b8b5c
 
 \end_inset
 </cell>
