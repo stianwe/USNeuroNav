@@ -12,30 +12,55 @@ function Controller() {
         });
         window.add(listView);
     }
+    function viewCases(nextWindow) {
+        var cases = currentCategories[0].cases.slice();
+        var casesToPrint = currentCategories[0].cases.slice();
+        for (var i = 1; currentCategories.length > i; i++) {
+            if ("*" == currentCategories[i].name) continue;
+            for (var j = 0; cases.length > j; j++) {
+                var index = currentCategories[i].cases.indexOf(cases[j]);
+                -1 == index && casesToPrint.splice(casesToPrint.indexOf(cases[j]), 1);
+            }
+            cases = casesToPrint.slice();
+        }
+        var props = [];
+        for (var i = 0; casesToPrint.length > i; i++) props[i] = {
+            properties: {
+                title: casesToPrint[i].name
+            }
+        };
+        displayListView(nextWindow, props, createEventFunctionCase(casesToPrint));
+    }
     function createEventFunctionCategory(currentCategory) {
         return function(e) {
-            var currCat = currentCategory.subCategories[e.itemIndex];
-            currentCategories.push(currCat);
-            var nextWindow = Ti.UI.createWindow({
-                title: currCat.name,
-                backgroundColor: "#fff"
-            });
-            if (currCat.subCategories.length > 0) displayListView(nextWindow, currCat.getSubCategories(), createEventFunctionCategory(currCat)); else if (currCat.cases.length > 0) {
-                var cases = currentCategories[0].cases.slice();
-                for (var i = 0; currentCategories.length > i; i++) for (var j = 0; cases.length > j; j++) {
-                    var index = currentCategories[i].cases.indexOf(cases[j]);
-                    -1 == index && cases.splice(cases.indexOf(cases[j]), 1);
-                }
-                var props = [];
-                for (var i = 0; cases.length > i; i++) props[i] = {
-                    properties: {
-                        title: cases[i].name
-                    }
-                };
-                displayListView(nextWindow, props, createEventFunctionCase(cases));
-            } else nextWindow.addEventListener("close", function() {
-                currentCategories.pop();
-            });
+            if (0 == e.itemIndex && currentCategories.length > 0) {
+                currentCategories.push(new classes.category("*", new Array()));
+                var nextWindow = Ti.UI.createWindow({
+                    title: "Show all",
+                    backgroundColor: "#fff"
+                });
+                viewCases(nextWindow);
+            } else {
+                var index = e.itemIndex;
+                currentCategories.length > 0 && index--;
+                var currCat = currentCategory.subCategories[index];
+                currentCategories.push(currCat);
+                var nextWindow = Ti.UI.createWindow({
+                    title: currCat.name,
+                    backgroundColor: "#fff"
+                });
+                if (currCat.subCategories.length > 0) {
+                    var subCats = currCat.getSubCategories();
+                    subCats.unshift({
+                        properties: {
+                            title: "Show all"
+                        }
+                    });
+                    displayListView(nextWindow, subCats, createEventFunctionCategory(currCat));
+                } else currCat.cases.length > 0 ? viewCases(nextWindow) : nextWindow.addEventListener("close", function() {
+                    currentCategories.pop();
+                });
+            }
             $.tab1.open(nextWindow);
         };
     }
