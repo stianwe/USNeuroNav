@@ -19,39 +19,65 @@ function displayListView(window, items, eventFunction) {
 	alert(names);*/
 }
 
+function viewCases(nextWindow) {
+	var cases = currentCategories[0].cases.slice();
+	var casesToPrint = currentCategories[0].cases.slice();
+	for (var i = 1; i < currentCategories.length; i++) {
+		if (currentCategories[i].name == "*") {
+			continue;
+		}
+		for (var j = 0; j < cases.length; j++) {
+			var index = currentCategories[i].cases.indexOf(cases[j]);
+			if (index == -1) {
+				casesToPrint.splice(casesToPrint.indexOf(cases[j]), 1);
+			} 
+		}
+		cases = casesToPrint.slice();
+	}
+	var props = [];
+	for (var i = 0; i < casesToPrint.length; i++) {
+		props[i] = { properties: { title:casesToPrint[i].name } };
+	}
+	displayListView(nextWindow, props, createEventFunctionCase(casesToPrint));
+}
+
 function createEventFunctionCategory(currentCategory) {
 	return function(e) {
-		var prevCat = currentCategory;
-		var currCat = currentCategory.subCategories[e.itemIndex];
-		currentCategories.push(currCat);
-		var nextWindow = Ti.UI.createWindow({
-			title: currCat.name,
-			backgroundColor: "#fff"
-		});
-		// Check that this category actually has sub categories
-		if (currCat.subCategories.length > 0) {
-			displayListView(nextWindow, currCat.getSubCategories(), createEventFunctionCategory(currCat));
-		}
-		else if (currCat.cases.length > 0) {
-			var cases = currentCategories[0].cases.slice();
-			for (var i = 0; i < currentCategories.length; i++) {
-				for (var j = 0; j < cases.length; j++) {
-					var index = currentCategories[i].cases.indexOf(cases[j]);
-					if (index == -1) {
-						cases.splice(cases.indexOf(cases[j]), 1);
-					}
-				}
-			}
-			var props = [];
-			for (var i = 0; i < cases.length; i++) {
-				props[i] = { properties: { title:cases[i].name } };
-			}
-			displayListView(nextWindow, props, createEventFunctionCase(cases));
+		if (e.itemIndex == 0 && currentCategories.length > 0) {
+			// Show all
+			currentCategories.push(new classes.category("*", new Array()));
+			var nextWindow = Ti.UI.createWindow({
+				title: "Show all",
+				backgroundColor: "#fff"
+			});
+			viewCases(nextWindow);
 		}
 		else {
-			nextWindow.addEventListener('close', function(e) {
-				currentCategories.pop();
+			var index = e.itemIndex;
+			if (currentCategories.length > 0) {
+				index--;
+			}
+			var prevCat = currentCategory;
+			var currCat = currentCategory.subCategories[index];
+			currentCategories.push(currCat);
+			var nextWindow = Ti.UI.createWindow({
+				title: currCat.name,
+				backgroundColor: "#fff"
 			});
+			// Check that this category actually has sub categories
+			if (currCat.subCategories.length > 0) {
+				var subCats = currCat.getSubCategories();
+				subCats.unshift({ properties: { title: 'Show all' } });
+				displayListView(nextWindow, subCats, createEventFunctionCategory(currCat));
+			}
+			else if (currCat.cases.length > 0) {
+				viewCases(nextWindow);
+			}
+			else {
+				nextWindow.addEventListener('close', function(e) {
+					currentCategories.pop();
+				});
+			}
 		}
 		$.tab1.open(nextWindow);
 	};
