@@ -2783,7 +2783,7 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
-??
+-
 \end_layout
 
 \end_inset
@@ -3644,6 +3644,13 @@ The following tests where executed on October 27th 2013.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="4">
 <features tabularvalignment="middle">
@@ -3918,6 +3925,27 @@ Browse case media
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Completed tests for sprint 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
