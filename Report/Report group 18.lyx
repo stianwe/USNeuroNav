@@ -72,18 +72,65 @@
 
 \begin_body
 
-\begin_layout Standard
-Forsiden
+\begin_layout Title
+\begin_inset Graphics
+	filename Figures/ntnu.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Title
+USNeuroNav
+\end_layout
+
+\begin_layout Title
+SINTEF and The National Competence Center for Ultrasound and Image Guided
+ Therapy
+\end_layout
+
+\begin_layout Title
+Project report
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Group 18
+\end_layout
+
+\begin_layout Title
+Stian Weie
+\end_layout
+
+\begin_layout Title
+Marthe Bekkevold
+\end_layout
+
+\begin_layout Title
+Kristoffer Hagen
+\end_layout
+
+\begin_layout Title
 \begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Part*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -91,6 +138,34 @@ Abstract
 \end_layout
 
 \begin_layout Standard
+This paper describes the planning, design, development and implementation
+ of the "USNeuroNav" application with its supporting infrastructure.
+ USNeuroNav is an application for mobile deviced that enables its user to
+ access media, recorded during surgeries where ultrasound navigation was
+ utilized, based on several attibutes specific to each of the surgery-cases.
+\end_layout
+
+\begin_layout Standard
+Dispite ultrasound navigation providing several benefits over the traditional
+ MRI imaging during surgery, and the technology required is already in use,
+ the method of ultrasound navigation is not very widespread.
+ SINTEF and The National Competence Center for Ultrasound and Image Guided
+ Therapy, are one of the pioneers in this field and believe this method
+ will gain popularity if only the relevant group can gain access and learn
+ about the technology in a convenient manner.
+\end_layout
+
+\begin_layout Standard
+In this report the entire process of developing this application will be
+ discussed, from the first say of planning to the last day of the implementation
+ and testing.
+ The resulting product (so far) is an iPhone application that can browse
+ or search for media based on keywords, or surgery categories and locations.
+ With implemented support such as a remote database for storage of metadata
+ and a webserver for the corresponding case mediafiles.
+\end_layout
+
+\begin_layout Part*
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -98,6 +173,38 @@ Preface
 \end_layout
 
 \begin_layout Standard
+This report, together with the code written, is the deliverables in the
+ master-level course TDT4290 Customer Driven Project, given by Department
+ of Computer and Information Science at the the Norwegian University of
+ Science and Technology, NTNU.
+ The project was executed between August 21th to Noverber 21th in the fall
+ of 2013.
+ 
+\end_layout
+
+\begin_layout Standard
+The project team consisted of three members from the department of computer
+ and information science at NTNU, we were given the task of developing an
+ application for SINTEF that would aid in the teaching and distribution
+ of knowledge regarding the use ultrasound navigation during surgery.
+ Our concrete task was to develop an application for mobile devices that
+ can display media such as video and images from several different cases
+ that SINTEF had, and will be, gathering data from.
+ 
+\end_layout
+
+\begin_layout Standard
+We would like to thank the SINTEF for providing us this task and giving
+ us accress to the software and hardware required to develop this application.
+ Frank Lindseth represented SINTEF and acted as our customer contact during
+ the project so an extra thanks to him.
+ We also want to show our appreciation toward Erlend Dahl for providing
+ his knowledge durin the planning phase of the project.
+\end_layout
+
+\begin_layout Standard
+The team would also like to thank our main supoervisor Anh Nguyen Duc, for
+ his input and valuable feedback during the course.
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -181,8 +288,22 @@ USNeuroNav App
 Project purpose
 \end_layout
 
+\begin_layout Standard
+The goal of the project is to increase the awareness and knowledge surrounding
+ the use of ultrasound navigation during surgery.
+ It will be very hard to numerically measure the effect of our project.
+ Long term it might be possible to track its influence through the increase
+ in use of the aforementioned technology, but our short term goal is simply
+ to make a product the customer is satisfied with and believes can be used
+ for its intended purpose.
+\end_layout
+
 \begin_layout Subsection
 Project client
+\end_layout
+
+\begin_layout Standard
+The National Competence Center for Ultrasound and Image Guided Therapy
 \end_layout
 
 \begin_layout Subsection
@@ -3633,7 +3754,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Sequence diagram 1
+Class diagram
 \end_layout
 
 \end_inset
@@ -4020,7 +4141,40 @@ The design of the MySQL database can be seen in the ER-diagram below:
 \end_layout
 
 \begin_layout Standard
-INSERT ER-DIAGRAM!!!!!!!!!!!!!!
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/database.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+ER diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4092,6 +4246,37 @@ The MySQL database will only contain URL's to the images and videos, while
 
 \begin_layout Subsubsection
 Local caching
+\end_layout
+
+\begin_layout Standard
+(To be done)
+\end_layout
+
+\begin_layout Subsection
+Architectural rationale
+\end_layout
+
+\begin_layout Standard
+We tried our best to stick to the traditional Model View Controller (MVC)
+ achitecture during our planning, this is a tried and tested achitecture
+ that provides separate modules and provides us with the ability to modify
+ our GUI late in the development should the customer have any change of
+ mind or other reasons to modify our interface.
+ Given the framework we ended up with (Titanium) and our unfamiliarity with
+ the coding language (Javascript), we did run into some slight problems
+ with sticking to MVC, but as we got more familiar with it, the problems
+ seemed to be solved one by one.
+\end_layout
+
+\begin_layout Subsection
+Architectural changes
+\end_layout
+
+\begin_layout Standard
+Here we will present changes that we have made to the architecture during
+ the development, this can be done either because we found a better solution
+ or because our planned solution either had flaws or we were unable to implement
+ it.
 \end_layout
 
 \begin_layout Standard
