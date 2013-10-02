@@ -1735,20 +1735,92 @@ Alternate Solutions
 \end_layout
 
 \begin_layout Standard
-There is not many similar solutions, but the EUS - Diagnostic and Interventional
- Endoscopic Ultrasound app for iPhone/iPad has some similar functionalities.
+There is some similar solutions for the USNeuroNav App.
+ Some is available for everyone, and some is only for surgeons and internal
+ staff.
+ Consideration should be given to privacy, therefore not all systems are
+ available for everyone.
+\end_layout
+
+\begin_layout Subsubsection
+EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \end_layout
 
 \begin_layout Standard
-The EUS - Diagnostic and Interventional Endoscopic Ultrasound app
+The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[1] for
+ iPhone/iPad and our system has some similar functionalities.
+\end_layout
+
+\begin_layout Standard
+This app is dedicated to endoscopic ultrasound education and has been developed
+ by Drs Shyam Varadarajulu, Paul Fockens and Robert Hawes.
+ The app is for endoscopists, pulmonologists and gastroenterology/pulmonology
+ trainees interested in EUS.
+ The EUS App is available for free download in the online apple store.
+\end_layout
+
+\begin_layout Standard
+The app showes pictures and videoes of ultrasound images.
+\end_layout
+
+\begin_layout Subsubsection
+Helsinki Microneurosurgery Basics and Tricks App
+\end_layout
+
+\begin_layout Standard
+The Helsinki Microneurosurgery Basics and Tricks App[2] for iPhone/iPad
+ was provided by the customer.
+ 
+\end_layout
+
+\begin_layout Standard
+This app for Microneurosurgery contains the "Helsinki Microneurosurgery
+ Basics and Tricks" which is a unique book about the "Hernesniemi school
+ of neurosurgery" written by Martin Lehecka, Aki Laakso and Juha Hernesniemi.
+ It is introduced by a foreword of Dr.
+ Robert Spetzler.
+ Additionally this app provides many operative videos and pictures which
+ the book directly refers to and an interesting link to the Hernesniemi-Aescuap
+ Fellowship.
 \end_layout
 
 \begin_layout Subsection
 Evaluation of Alternate Solutions
 \end_layout
 
+\begin_layout Subsubsection
+EUS - Diagnostic and Interventional Endoscopic Ultrasound app
+\end_layout
+
+\begin_layout Standard
+The app has a focus on lungs and diagnostic, and not 
+\end_layout
+
+\begin_layout Standard
+Since it is for iPhones it is portable, wich is necessary i our case.
+\end_layout
+
+\begin_layout Subsubsection
+Helsinki Microneurosurgery Basics and Tricks
+\end_layout
+
+\begin_layout Standard
+The app is a book, and it does not have the ability to search and browse
+ for cases in a category.
+ 
+\end_layout
+
 \begin_layout Subsection
 Choice of Solution
+\end_layout
+
+\begin_layout Standard
+It is sufficiently differences between the system the customer needs and
+ the systems described above that we can not choose one of them.
+\end_layout
+
+\begin_layout Standard
+We will develoop the system 
 \end_layout
 
 \begin_layout Standard
@@ -1997,6 +2069,50 @@ nice to have requirements
 , but it's not important for the customer, and these requirements will be
  fulfilt only if there is time left.
 \begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the Tabel below an overall description of the functional requirements
+ are given and its priorities.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Tabel figures/Overall Functional Requirements.png
+	lyxscale 50
+	width 70line%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Overall Functional Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -2505,7 +2621,8 @@ nice to have requirements
 \begin_inset Newline newline
 \end_inset
 
-An overall tabel of the non-functional requirements are given below.
+An overall tabel of the non-functional requirements and its priorities are
+ given below.
 \end_layout
 
 \begin_layout Standard
@@ -5729,6 +5846,36 @@ avaScript
 
 \begin_layout Section
 References
+\end_layout
+
+\begin_layout Standard
+[1] EUS - Diagnostic and Interventional Endoscopic Ultrasound, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[2] Helsinki Microneurosurgery Basics and Tricks, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
