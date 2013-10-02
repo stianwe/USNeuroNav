@@ -3130,7 +3130,7 @@ Selections of Architectural Viewpoints
 \end_layout
 
 \begin_layout Standard
-In order to illustrate the achitectural viewpoints we have decided to apply
+In order to illustrate the achitectural viewpoints we have decided to use
  the 
 \begin_inset Quotes eld
 \end_inset
@@ -3140,19 +3140,363 @@ In order to illustrate the achitectural viewpoints we have decided to apply
 \end_inset
 
 .
- This is in order to 
+ This is view model designed for "describing the architecture of software-intens
+ive systems, based on the use of multiple, concurrent views" (add citation
+ link: Kruchten, Philippe (1995, November) http://www.cs.ubc.ca/~gregor/teaching/pa
+pers/4+1view-architecture.pdf).
+ This model consists of four views of the system seen from different stakeholder
+s, in addition to use cases (the +1), in order to accurately portray the
+ achitecture of the system.
+ 
+\end_layout
+
+\begin_layout Standard
+The different view are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="10cm">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+View
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Purpose
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tables
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Logical view
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The logical view describes the functionality that the system provides towards
+ its end-users.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To create an overview of the system
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sequence diagrams
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Development view
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The development view is concerned with the system from a programmers perspective
+, it focuses on software management.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To aid with the implementation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Component diagram
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Process view
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The process view illustrates the dynamic aspects of the system, it explains
+ how the system communicates.
+ This view addresses concurrency, performance, and scalability, etc.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To model the runtime behaviour of the system
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Activity diagram
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Physical view
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The physical view describes the system from an system-engineering viewpoint.
+ It handles system topology and the connections between the layers of the
+ system.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To show the physical components of the system and how they are connected
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deployment diagram
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Scenarios
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Scenarios are illustrated through several different use cases and describes
+ the interaction between users and the system.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To provide a demonstration on how the system can be used
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Use cases
+\end_layout
+
+\begin_layout Plain Layout
+Use case diagram
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Architectural Viewpoints
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Views
 \end_layout
 
-\begin_layout Standard
-Må revurdere hvor mye av dette vi skal ha med
-\end_layout
-
 \begin_layout Subsubsection
 Logical view
+\end_layout
+
+\begin_layout Standard
+The following four sequence diagrams shows how our system can be used by
+ the end-users and how the different modules of the system communicates
+ with eachother during use.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Class diagram
+\end_layout
+
+\begin_layout Standard
+This diagram describes the classes that we use in our application.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/ClassDiagram.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sequence diagram 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Sequence diagram 1
+\end_layout
+
+\begin_layout Standard
+This diagram depicts a case where the user of the application are browsing
+ the available categories looking for a case, when the user find the case
+ he/she accesses it and views the media.
+ (Add more detail, refer to usecases)
 \end_layout
 
 \begin_layout Standard
@@ -3192,6 +3536,25 @@ Sequence diagram 1
 
 \end_layout
 
+\begin_layout Subsubsection*
+Sequence diagram 2
+\end_layout
+
+\begin_layout Standard
+This diagram describes the use of the search function in our application.
+ (Usecase UC6) The user starts up the application which then connects to
+ the database and stores the data locally.
+ The user then select the tab for searching.
+ The application changed to the search interface window and asks for user
+ input.
+ The user then inputs the desired keywords before the application searches
+ for all cases matching the keywords and displays the matching cases to
+ the user.
+ The user then selects a case and is refered to the remote webserver to
+ access the mediafiles belonging to the case.
+ The user then are free to stream all the case media.
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset Float figure
@@ -3229,6 +3592,16 @@ Sequence diagram 2
 
 \end_layout
 
+\begin_layout Subsubsection*
+Sequence diagram 3
+\end_layout
+
+\begin_layout Standard
+This diagram shows how the admin can store new case-data in the database
+ and on the webser through our Admin interface.
+ (Add more detail)
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset Float figure
@@ -3264,6 +3637,16 @@ Sequence diagram 3
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection*
+Sequence diagram 4
+\end_layout
+
+\begin_layout Standard
+This diagram shows how the admin can create new categories, should any new
+ cases require it, through the admin interface.
+ (Add more detail)
 \end_layout
 
 \begin_layout Standard
@@ -3304,14 +3687,6 @@ Sequence diagram 4
 \end_layout
 
 \begin_layout Subsubsection
-Physical View
-\end_layout
-
-\begin_layout Subsubsection
-Process View
-\end_layout
-
-\begin_layout Subsubsection
 Develoment View
 \end_layout
 
@@ -3339,7 +3714,7 @@ s with a PHP script at startup, to fetch the categories, cases, and also
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3371,15 +3746,6 @@ Overall architecture
 \end_layout
 
 \begin_layout Standard
-More detailed, the architecture for the app itself, is displayed below with
- a class-diagram.
-\end_layout
-
-\begin_layout Standard
-INSERT CLASS-DIAGRAM!!!!!!!!!!!!!!!!!!!!!!!
-\end_layout
-
-\begin_layout Standard
 It is largely just a 
 \begin_inset Quotes eld
 \end_inset
@@ -3392,6 +3758,31 @@ classification
  and case hierarchy, and the media files references belonging to each case.
  It also provides a component for logging in, and one for communication
  with the database.
+\end_layout
+
+\begin_layout Subsubsection
+Process View
+\end_layout
+
+\begin_layout Standard
+(Create and insert activity diagrams)
+\end_layout
+
+\begin_layout Subsubsection
+Physical View
+\end_layout
+
+\begin_layout Standard
+(Create and insert deployment diagram)
+\end_layout
+
+\begin_layout Subsubsection
+Scenarios
+\end_layout
+
+\begin_layout Standard
+See chapter 5.4.1 and 5.4.2 for usecase diagram and usecases.
+ (Create user stories here)
 \end_layout
 
 \begin_layout Subsection
