@@ -1819,12 +1819,61 @@ Scope
 \begin_layout Standard
 The final system is to be identified by the name USNeuroNav App.
  The system will have two interfaces, one for the administrator and one
- for registered and unregistered users.
+ for users (registered and not registered).
  
 \end_layout
 
 \begin_layout Standard
-STIAN
+The administrator will have a simple panel (text-based or GUI) from where
+ he can register users, create new categories and cases, and upload media
+ files (images and video) to cases).
+ He will also have the possibility to edit categorie structure, by for example
+ specifying sub-categories etc.
+ This panel will be a computer program, not a mobile application.
+\end_layout
+
+\begin_layout Standard
+The interface for users is the main project, namely the mobile application.
+ The interface will be similar to registered and unregistered users (except
+ from the fact that the user will have to log in), but unregistered users
+ will not necessarily be able to view all categories, cases or media files.
+ 
+\end_layout
+
+\begin_layout Standard
+Both for registered and unregistered users, the app should be able to view
+ a structure of categories, which contains cases.
+ These cases, again, contains media files, i.e.
+ images and videos.
+ The app should present these media files in a simple, yet informative way.
+ Navigating the category structure should be very 
+\begin_inset Quotes eld
+\end_inset
+
+native
+\begin_inset Quotes erd
+\end_inset
+
+.
+ For example for iOS, a 
+\begin_inset Quotes eld
+\end_inset
+
+back
+\begin_inset Quotes erd
+\end_inset
+
+ button should be displayed in the upper left corner, with a label which
+ tells the user where 
+\begin_inset Quotes eld
+\end_inset
+
+back
+\begin_inset Quotes erd
+\end_inset
+
+ actually is.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -2036,15 +2085,11 @@ This is a description of the use case diagram
 \begin_inset Newline newline
 \end_inset
 
-STIAN
-\begin_inset Newline newline
-\end_inset
-
 
 \end_layout
 
 \begin_layout Standard
-Identifier: FR1
+Identifier: UC1
 \end_layout
 
 \begin_layout Standard
@@ -2060,7 +2105,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be ablo to browse through a structure
+ of categories which contains cases
 \begin_inset Newline newline
 \end_inset
 
@@ -2068,7 +2114,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR2
+Identifier: UC2
 \end_layout
 
 \begin_layout Standard
@@ -2084,7 +2130,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to browse sub-categories of a
+ category by selecting a category
 \begin_inset Newline newline
 \end_inset
 
@@ -2092,7 +2139,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR3
+Identifier: UC3
 \end_layout
 
 \begin_layout Standard
@@ -2108,7 +2155,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to select and view a case by
+ clicking on it
 \begin_inset Newline newline
 \end_inset
 
@@ -2116,11 +2164,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR4
+Identifier: UC4
 \end_layout
 
 \begin_layout Standard
-Title: Browse case-photoes
+Title: Browse case images
 \end_layout
 
 \begin_layout Standard
@@ -2132,7 +2180,16 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to view all images belonging
+ to a selected case, and navigate between them by 
+\begin_inset Quotes eld
+\end_inset
+
+swiping
+\begin_inset Quotes erd
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2140,35 +2197,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR5
+Identifier: UC5
 \end_layout
 
 \begin_layout Standard
-Title: Browse case-photoes
-\end_layout
-
-\begin_layout Standard
-Priority: Critical
-\end_layout
-
-\begin_layout Standard
-Actors: Unregistered user and registered user
-\end_layout
-
-\begin_layout Standard
-Brief description: 
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Identifier: FR6
-\end_layout
-
-\begin_layout Standard
-Title: Select cases/videoes/photoes to download and store localyl
+Title: Select cases/videoes/images to download and store localy
 \end_layout
 
 \begin_layout Standard
@@ -2180,7 +2213,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to select a set of cases, videos
+ and images, which the phone should cache locally for offline access
 \begin_inset Newline newline
 \end_inset
 
@@ -2188,7 +2222,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR7
+Identifier: UC6
 \end_layout
 
 \begin_layout Standard
@@ -2204,7 +2238,7 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to search for cases using keywords
 \begin_inset Newline newline
 \end_inset
 
@@ -2212,7 +2246,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR8
+Identifier: UC7
 \end_layout
 
 \begin_layout Standard
@@ -2228,7 +2262,8 @@ Actors: Registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: A registered user should be able to browse cases labeled
+ as non-public (private), which an unregistered user shouldn't
 \begin_inset Newline newline
 \end_inset
 
@@ -2236,7 +2271,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR9
+Identifier: UC8
 \end_layout
 
 \begin_layout Standard
@@ -2252,7 +2287,8 @@ Actors: Registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: A registered user should be able to log in by supplying
+ a user name and password
 \begin_inset Newline newline
 \end_inset
 
@@ -2260,7 +2296,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC9
 \end_layout
 
 \begin_layout Standard
@@ -2272,11 +2308,12 @@ Priority: Critical
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Application, database
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The apllication should be able to fetch a collection
+ of cases and their categories from the database
 \begin_inset Newline newline
 \end_inset
 
@@ -2284,11 +2321,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC10
 \end_layout
 
 \begin_layout Standard
-Title: Verify user identifoacation
+Title: Verify user identification
 \end_layout
 
 \begin_layout Standard
@@ -2296,11 +2333,12 @@ Priority: High
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Server, database
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The server should be able to verify user identification
+ against the database
 \begin_inset Newline newline
 \end_inset
 
@@ -2308,11 +2346,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC11
 \end_layout
 
 \begin_layout Standard
-Title: Define each case availability as either public or registerd-only
+Title: Define each case availability as either public or registered-only
 \end_layout
 
 \begin_layout Standard
@@ -2320,11 +2358,12 @@ Priority: High
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to define if a case (or image/video)
+ is public or registered-only
 \begin_inset Newline newline
 \end_inset
 
@@ -2332,11 +2371,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC12
 \end_layout
 
 \begin_layout Standard
-Title: Upload new cases
+Title: Create new case
 \end_layout
 
 \begin_layout Standard
@@ -2344,11 +2383,12 @@ Priority: Medium
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to create a new case with media
+ files
 \begin_inset Newline newline
 \end_inset
 
@@ -2356,7 +2396,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC13
 \end_layout
 
 \begin_layout Standard
@@ -2368,11 +2408,11 @@ Priority: Medium
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to register a new user
 \begin_inset Newline newline
 \end_inset
 
@@ -2380,23 +2420,24 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC14
 \end_layout
 
 \begin_layout Standard
-Title: 
+Title: Create category
 \end_layout
 
 \begin_layout Standard
-Priority:
+Priority: Medium
 \end_layout
 
 \begin_layout Standard
-Actors: 
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to create a new category, and
+ add sub-/super-categories to it
 \end_layout
 
 \begin_layout Subsection
