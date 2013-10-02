@@ -1663,23 +1663,53 @@ Preliminary studies
 \end_layout
 
 \begin_layout Subsection
-Description
+Current Situation
 \end_layout
 
 \begin_layout Standard
-Se side 28 i kompendiet for mer info.
-\end_layout
+Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
+ medical personell prefer when evaluating and performing surgeries.
+ The reason for this is that it is relatively easy to understand, and identify
+ tumors etc.
+ Recently, however, there has been several good reasons to use DS (Diagnostic
+ Sonography) (ultrasound) either instead of MRI, or together with MRI.
+ The main incentives for this is that DS is much cheaper, and also more
+ flexible, since the MRI requires a whole dedicated room, while DS can be
+ moved from room to room, and therefore easily do a new scan during surgeries.
+ DS, however, is much harder to understand.
+ Therefore, MRI is still preferred by many doctors, since it is what they
+ are used to, and what is considered 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Standard
-main business requirements
-\end_layout
+easy
+\begin_inset Quotes erd
+\end_inset
 
-\begin_layout Subsection
-Current Solution
+.
+ Fresh doctors which recently graduated from medical school however, get
+ some training there, and therefore adapt better to the new use of DS.
+ The main problem with the current situation is therefore that experienced
+ doctors have no experience with the new way of using DS, and also very
+ limited possibilites of learning it.
 \end_layout
 
 \begin_layout Subsection
 Desired Solution
+\end_layout
+
+\begin_layout Standard
+The solution that the customer desires, is a simple method for doctors (and
+ others), that is easily accessible, to familiarize themselves with DS scans
+ (images and video), and to learn have to understand them, as many doctors
+ now understand MRI.
+ For this, the customer has planned a mobile application that will be able
+ to view images and videos from DS scands, and in the future also provide
+ a quiz-like game to challenge the users of the app to try to understand
+ the data shown.
+ The customer already has a lot of relevant data that can be used, and also
+ continously produce more, so what they need is only a tool for displaying
+ and distributing it, so that it is easy to find, wherever the user is.
 \end_layout
 
 \begin_layout Subsection
@@ -1863,6 +1893,10 @@ The final system is to be identified by the name USNeuroNav App.
  The system will have two interfaces, one for the administrator and one
  for registered and unregistered users.
  
+\end_layout
+
+\begin_layout Standard
+STIAN
 \end_layout
 
 \begin_layout Subsection
@@ -2114,7 +2148,11 @@ Use Case description
 \end_layout
 
 \begin_layout Standard
-This i a description of the use case diagram
+This is a description of the use case diagram
+\begin_inset Newline newline
+\end_inset
+
+STIAN
 \begin_inset Newline newline
 \end_inset
 
@@ -3594,19 +3632,51 @@ Tools and Technology
 \end_layout
 
 \begin_layout Standard
-Titanim
+Lyx 
 \end_layout
 
 \begin_layout Standard
-Lyx
+Google docs 
 \end_layout
 
 \begin_layout Standard
-...
+Titanium + javascript + php + JSon 
 \end_layout
 
 \begin_layout Standard
-versonskontroll - git....
+Github 
+\end_layout
+
+\begin_layout Standard
+facebook 
+\end_layout
+
+\begin_layout Standard
+teamviewer 
+\end_layout
+
+\begin_layout Standard
+mySQL 
+\end_layout
+
+\begin_layout Standard
+email 
+\end_layout
+
+\begin_layout Standard
+violet 
+\end_layout
+
+\begin_layout Standard
+apache 
+\end_layout
+
+\begin_layout Standard
+visual ER 
+\end_layout
+
+\begin_layout Standard
+Balsamic mockups 
 \end_layout
 
 \begin_layout Standard
