@@ -1581,7 +1581,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Tabel figures/Risk analysis.png
+	filename Tabel figures/risklist.PNG
 	width 100text%
 
 \end_inset
@@ -1613,7 +1613,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Tabel figures/Risks matrix.png
+	filename Tabel figures/risktable.PNG
 	width 70text%
 
 \end_inset
