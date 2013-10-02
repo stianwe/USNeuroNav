@@ -1735,20 +1735,92 @@ Alternate Solutions
 \end_layout
 
 \begin_layout Standard
-There is not many similar solutions, but the EUS - Diagnostic and Interventional
- Endoscopic Ultrasound app for iPhone/iPad has some similar functionalities.
+There is some similar solutions for the USNeuroNav App.
+ Some is available for everyone, and some is only for surgeons and internal
+ staff.
+ Consideration should be given to privacy, therefore not all systems are
+ available for everyone.
+\end_layout
+
+\begin_layout Subsubsection
+EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \end_layout
 
 \begin_layout Standard
-The EUS - Diagnostic and Interventional Endoscopic Ultrasound app
+The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[1] for
+ iPhone/iPad and our system has some similar functionalities.
+\end_layout
+
+\begin_layout Standard
+This app is dedicated to endoscopic ultrasound education and has been developed
+ by Drs Shyam Varadarajulu, Paul Fockens and Robert Hawes.
+ The app is for endoscopists, pulmonologists and gastroenterology/pulmonology
+ trainees interested in EUS.
+ The EUS App is available for free download in the online apple store.
+\end_layout
+
+\begin_layout Standard
+The app showes pictures and videoes of ultrasound images.
+\end_layout
+
+\begin_layout Subsubsection
+Helsinki Microneurosurgery Basics and Tricks App
+\end_layout
+
+\begin_layout Standard
+The Helsinki Microneurosurgery Basics and Tricks App[2] for iPhone/iPad
+ was provided by the customer.
+ 
+\end_layout
+
+\begin_layout Standard
+This app for Microneurosurgery contains the "Helsinki Microneurosurgery
+ Basics and Tricks" which is a unique book about the "Hernesniemi school
+ of neurosurgery" written by Martin Lehecka, Aki Laakso and Juha Hernesniemi.
+ It is introduced by a foreword of Dr.
+ Robert Spetzler.
+ Additionally this app provides many operative videos and pictures which
+ the book directly refers to and an interesting link to the Hernesniemi-Aescuap
+ Fellowship.
 \end_layout
 
 \begin_layout Subsection
 Evaluation of Alternate Solutions
 \end_layout
 
+\begin_layout Subsubsection
+EUS - Diagnostic and Interventional Endoscopic Ultrasound app
+\end_layout
+
+\begin_layout Standard
+The app has a focus on lungs and diagnostic, and not 
+\end_layout
+
+\begin_layout Standard
+Since it is for iPhones it is portable, wich is necessary i our case.
+\end_layout
+
+\begin_layout Subsubsection
+Helsinki Microneurosurgery Basics and Tricks
+\end_layout
+
+\begin_layout Standard
+The app is a book, and it does not have the ability to search and browse
+ for cases in a category.
+ 
+\end_layout
+
 \begin_layout Subsection
 Choice of Solution
+\end_layout
+
+\begin_layout Standard
+It is sufficiently differences between the system the customer needs and
+ the systems described above that we can not choose one of them.
+\end_layout
+
+\begin_layout Standard
+We will develoop the system 
 \end_layout
 
 \begin_layout Standard
@@ -1819,12 +1891,61 @@ Scope
 \begin_layout Standard
 The final system is to be identified by the name USNeuroNav App.
  The system will have two interfaces, one for the administrator and one
- for registered and unregistered users.
+ for users (registered and not registered).
  
 \end_layout
 
 \begin_layout Standard
-STIAN
+The administrator will have a simple panel (text-based or GUI) from where
+ he can register users, create new categories and cases, and upload media
+ files (images and video) to cases).
+ He will also have the possibility to edit categorie structure, by for example
+ specifying sub-categories etc.
+ This panel will be a computer program, not a mobile application.
+\end_layout
+
+\begin_layout Standard
+The interface for users is the main project, namely the mobile application.
+ The interface will be similar to registered and unregistered users (except
+ from the fact that the user will have to log in), but unregistered users
+ will not necessarily be able to view all categories, cases or media files.
+ 
+\end_layout
+
+\begin_layout Standard
+Both for registered and unregistered users, the app should be able to view
+ a structure of categories, which contains cases.
+ These cases, again, contains media files, i.e.
+ images and videos.
+ The app should present these media files in a simple, yet informative way.
+ Navigating the category structure should be very 
+\begin_inset Quotes eld
+\end_inset
+
+native
+\begin_inset Quotes erd
+\end_inset
+
+.
+ For example for iOS, a 
+\begin_inset Quotes eld
+\end_inset
+
+back
+\begin_inset Quotes erd
+\end_inset
+
+ button should be displayed in the upper left corner, with a label which
+ tells the user where 
+\begin_inset Quotes eld
+\end_inset
+
+back
+\begin_inset Quotes erd
+\end_inset
+
+ actually is.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1953,6 +2074,50 @@ nice to have requirements
 
 \end_layout
 
+\begin_layout Standard
+In the Tabel below an overall description of the functional requirements
+ are given and its priorities.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Tabel figures/Overall Functional Requirements.png
+	lyxscale 50
+	width 70line%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Overall Functional Requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Use Case diagram
 \end_layout
@@ -2036,15 +2201,11 @@ This is a description of the use case diagram
 \begin_inset Newline newline
 \end_inset
 
-STIAN
-\begin_inset Newline newline
-\end_inset
-
 
 \end_layout
 
 \begin_layout Standard
-Identifier: FR1
+Identifier: UC1
 \end_layout
 
 \begin_layout Standard
@@ -2060,7 +2221,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be ablo to browse through a structure
+ of categories which contains cases
 \begin_inset Newline newline
 \end_inset
 
@@ -2068,7 +2230,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR2
+Identifier: UC2
 \end_layout
 
 \begin_layout Standard
@@ -2084,7 +2246,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to browse sub-categories of a
+ category by selecting a category
 \begin_inset Newline newline
 \end_inset
 
@@ -2092,7 +2255,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR3
+Identifier: UC3
 \end_layout
 
 \begin_layout Standard
@@ -2108,7 +2271,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to select and view a case by
+ clicking on it
 \begin_inset Newline newline
 \end_inset
 
@@ -2116,11 +2280,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR4
+Identifier: UC4
 \end_layout
 
 \begin_layout Standard
-Title: Browse case-photoes
+Title: Browse case images
 \end_layout
 
 \begin_layout Standard
@@ -2132,7 +2296,16 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to view all images belonging
+ to a selected case, and navigate between them by 
+\begin_inset Quotes eld
+\end_inset
+
+swiping
+\begin_inset Quotes erd
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -2140,35 +2313,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR5
+Identifier: UC5
 \end_layout
 
 \begin_layout Standard
-Title: Browse case-photoes
-\end_layout
-
-\begin_layout Standard
-Priority: Critical
-\end_layout
-
-\begin_layout Standard
-Actors: Unregistered user and registered user
-\end_layout
-
-\begin_layout Standard
-Brief description: 
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Identifier: FR6
-\end_layout
-
-\begin_layout Standard
-Title: Select cases/videoes/photoes to download and store localyl
+Title: Select cases/videoes/images to download and store localy
 \end_layout
 
 \begin_layout Standard
@@ -2180,7 +2329,8 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to select a set of cases, videos
+ and images, which the phone should cache locally for offline access
 \begin_inset Newline newline
 \end_inset
 
@@ -2188,7 +2338,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR7
+Identifier: UC6
 \end_layout
 
 \begin_layout Standard
@@ -2204,7 +2354,7 @@ Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The user should be able to search for cases using keywords
 \begin_inset Newline newline
 \end_inset
 
@@ -2212,7 +2362,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR8
+Identifier: UC7
 \end_layout
 
 \begin_layout Standard
@@ -2228,7 +2378,8 @@ Actors: Registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: A registered user should be able to browse cases labeled
+ as non-public (private), which an unregistered user shouldn't
 \begin_inset Newline newline
 \end_inset
 
@@ -2236,7 +2387,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR9
+Identifier: UC8
 \end_layout
 
 \begin_layout Standard
@@ -2252,7 +2403,8 @@ Actors: Registered user
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: A registered user should be able to log in by supplying
+ a user name and password
 \begin_inset Newline newline
 \end_inset
 
@@ -2260,7 +2412,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC9
 \end_layout
 
 \begin_layout Standard
@@ -2272,11 +2424,12 @@ Priority: Critical
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Application, database
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The apllication should be able to fetch a collection
+ of cases and their categories from the database
 \begin_inset Newline newline
 \end_inset
 
@@ -2284,11 +2437,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC10
 \end_layout
 
 \begin_layout Standard
-Title: Verify user identifoacation
+Title: Verify user identification
 \end_layout
 
 \begin_layout Standard
@@ -2296,11 +2449,12 @@ Priority: High
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Server, database
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The server should be able to verify user identification
+ against the database
 \begin_inset Newline newline
 \end_inset
 
@@ -2308,11 +2462,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC11
 \end_layout
 
 \begin_layout Standard
-Title: Define each case availability as either public or registerd-only
+Title: Define each case availability as either public or registered-only
 \end_layout
 
 \begin_layout Standard
@@ -2320,11 +2474,12 @@ Priority: High
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to define if a case (or image/video)
+ is public or registered-only
 \begin_inset Newline newline
 \end_inset
 
@@ -2332,11 +2487,11 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC12
 \end_layout
 
 \begin_layout Standard
-Title: Upload new cases
+Title: Create new case
 \end_layout
 
 \begin_layout Standard
@@ -2344,11 +2499,12 @@ Priority: Medium
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to create a new case with media
+ files
 \begin_inset Newline newline
 \end_inset
 
@@ -2356,7 +2512,7 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC13
 \end_layout
 
 \begin_layout Standard
@@ -2368,11 +2524,11 @@ Priority: Medium
 \end_layout
 
 \begin_layout Standard
-Actors: Server
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to register a new user
 \begin_inset Newline newline
 \end_inset
 
@@ -2380,23 +2536,24 @@ Brief description:
 \end_layout
 
 \begin_layout Standard
-Identifier: FR
+Identifier: UC14
 \end_layout
 
 \begin_layout Standard
-Title: 
+Title: Create category
 \end_layout
 
 \begin_layout Standard
-Priority:
+Priority: Medium
 \end_layout
 
 \begin_layout Standard
-Actors: 
+Actors: Admin
 \end_layout
 
 \begin_layout Standard
-Brief description: 
+Brief description: The admin should be able to create a new category, and
+ add sub-/super-categories to it
 \end_layout
 
 \begin_layout Subsection
@@ -2464,7 +2621,8 @@ nice to have requirements
 \begin_inset Newline newline
 \end_inset
 
-An overall tabel of the non-functional requirements are given below.
+An overall tabel of the non-functional requirements and its priorities are
+ given below.
 \end_layout
 
 \begin_layout Standard
@@ -6121,6 +6279,36 @@ avaScript
 
 \begin_layout Section
 References
+\end_layout
+
+\begin_layout Standard
+[1] EUS - Diagnostic and Interventional Endoscopic Ultrasound, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[2] Helsinki Microneurosurgery Basics and Tricks, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
