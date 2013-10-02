@@ -2986,23 +2986,65 @@ Software Architecture
 \end_layout
 
 \begin_layout Subsection
-introduction
+Introduction
 \end_layout
 
 \begin_layout Standard
+This chapter will describe the architechture of our application the way
+ it was planned before the implementation started.
+ It will describe the different modules of our system and through different
+ architectural views show how we have planned the structure and modularity
+ of our system.
+\end_layout
+
+\begin_layout Subsubsection
 Purpose
 \end_layout
 
 \begin_layout Standard
+The purpose of this is to give an overview of the architectural structure
+ of our system.
+ This will enable the project developers to have a clear and planned approach
+ to the system architecture and it will guide the implementation of the
+ system.
+ By being familiar with the achitecture, and knowing how every module works,
+ all the developers will be able to work on the modules independently and
+ can rely on the planned architecture when the system is assembled.
+ This will also enable potential future 3rd parties to further develop and
+ improve our system, with a proper documentation of our architecture it
+ will be easier to change specific modules of our system without having
+ to change the entire code.
+\end_layout
+
+\begin_layout Subsubsection
 Scope
 \end_layout
 
 \begin_layout Standard
-Quality
+Chapter 7 will cover the important parts of the achitecture of our system.
+ We will describe our architecture through several different views and to
+ a detail that is to be expected given the size of the project.
+ The logic and reasoning for our choices will also be discussed by the end
+ of the chapter.
+ 
 \end_layout
 
 \begin_layout Subsection
 Selections of Architectural Viewpoints
+\end_layout
+
+\begin_layout Standard
+In order to illustrate the achitectural viewpoints we have decided to apply
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+4+1 architectural view model
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This is in order to 
 \end_layout
 
 \begin_layout Subsection
