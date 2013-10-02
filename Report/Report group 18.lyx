@@ -1643,12 +1643,76 @@ Quality Assurance
 Customer interaction
 \end_layout
 
+\begin_layout Standard
+The customer is located in Trondheim, and the meetings will be held at NTNU
+ every other week on Wednesdays at 08:00.
+\begin_inset Newline newline
+\end_inset
+
+The agenda for the meeting is to be sent to the customer by 12 noon Tuesday
+ before the meeting.
+\end_layout
+
+\begin_layout Standard
+The minutes of the meeting is to be sent to the customer the same day as
+ the meeting.
+\end_layout
+
+\begin_layout Standard
+Approval of minutes of customer meetings is to be sent as soon as possible,
+ max 48 hours.
+\end_layout
+
+\begin_layout Standard
+Approval of phase documents is to be done as soon as possible, max 48 hours.
+\end_layout
+
+\begin_layout Standard
+Answer e-mails is to be done as soon as possible.
+\end_layout
+
 \begin_layout Subsubsection
 Supervisor interaction
 \end_layout
 
+\begin_layout Standard
+The meetings with the advisor will be held on Wednesdays at 09.30 and last
+ an hour.
+\end_layout
+
+\begin_layout Standard
+The agenda for the meeting is to be done by 12 noon Tuesday before the meeting.
+\end_layout
+
+\begin_layout Standard
+The Minutes for the meeting is to be done the same day as the meeting.
+\end_layout
+
+\begin_layout Standard
+The minutes of the meeting with the customer is to be sent to the supervisor
+ the same day as the customer meeting
+\begin_inset Newline newline
+\end_inset
+
+From September 20 onwards will meetings be held on Fridays at 12:15.
+ This is because of our sprints satrts at Wednesdays, so it will be more
+ convenient to have it in the middle of a sprint, when we have more questions
+ and challenges, and it is easier to come on track in the development.
+\end_layout
+
 \begin_layout Subsubsection
 Group interaction
+\end_layout
+
+\begin_layout Standard
+Group meetings: Wednesdays at 10:30, Thursdays at 09:15 and Fridays at 09:15
+\begin_inset Newline newline
+\end_inset
+
+Unexpected absence is to be reported as soon as possible, preferably before
+ the meetings.
+ Planned absence is to be reported as soon as possible, so we can plan according
+ly.
 \end_layout
 
 \begin_layout Standard
@@ -1793,11 +1857,21 @@ EUS - Diagnostic and Interventional Endoscopic Ultrasound app
 \end_layout
 
 \begin_layout Standard
-The app has a focus on lungs and diagnostic, and not 
+The app has a focus on lungs and diagnostic, and not ultrasound images during
+ a brain tumor operation.
 \end_layout
 
 \begin_layout Standard
-Since it is for iPhones it is portable, wich is necessary i our case.
+The app also gives information about conferences, wich is not important
+ in our case.
+\end_layout
+
+\begin_layout Standard
+The ability to show pictures and videos is essential, wich this app provides.
+\end_layout
+
+\begin_layout Standard
+Since it is for iPhones it is portable, wich is necessary in our case.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1807,7 +1881,10 @@ Helsinki Microneurosurgery Basics and Tricks
 \begin_layout Standard
 The app is a book, and it does not have the ability to search and browse
  for cases in a category.
- 
+\end_layout
+
+\begin_layout Standard
+The ability to show pictures and videos is essential, wich this app provides.
 \end_layout
 
 \begin_layout Subsection
@@ -1820,7 +1897,8 @@ It is sufficiently differences between the system the customer needs and
 \end_layout
 
 \begin_layout Standard
-We will develoop the system 
+We will develoop the system with frameworks and tools described in section
+ 8.
 \end_layout
 
 \begin_layout Standard
@@ -1839,7 +1917,7 @@ Why Scrum
 \end_layout
 
 \begin_layout Subsection
-Scrum 
+Scrum
 \end_layout
 
 \begin_layout Subsection
