@@ -4243,245 +4243,6 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-<<<<<<< HEAD
-<<<<<<< HEAD
-\begin_inset Graphics
-	filename Figures/GUI_browsing_with_tabs.png
-	width 100line%
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Stian
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-3
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-3
-\end_layout
-
-\end_inset
-
-</cell></row><row><cell alignment="center" valignment="top" topline="true"
- leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Server side communication
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Stian
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-5
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-3
-\end_layout
-
-\end_inset
-
-</cell></row><row><cell alignment="center" valignment="top" topline="true"
- leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Client side communication
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Kristoffer
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-8
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-12
-\end_layout
-
-\end_inset
-
-</cell></row><row><cell alignment="center" valignment="top" topline="true"
- leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Testing
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Kristoffer
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-10
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" leftline="true"
- rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell></row><row><cell multicolumn="1" alignment="center" valignment="top"
- topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Sum
-\end_layout
-
-\end_inset
-
-</cell><cell multicolumn="2" alignment="center" valignment="top" topline="true"
- bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell><cell multicolumn="2" alignment="center" valignment="top" topline="true"
- bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" bottomline="true
-" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-94
-\end_layout
-
-\end_inset
-
-</cell><cell alignment="center" valignment="top" topline="true" bottomline="true
-" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-
-</cell></row></lyxtabular>
 Set up Apache server
 \end_layout
 
@@ -4491,7 +4252,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stian
 \end_layout
 
 \end_inset
@@ -4500,7 +4261,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3
 \end_layout
 
 \end_inset
@@ -4509,7 +4270,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3
 \end_layout
 
 \end_inset
@@ -4529,7 +4290,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Server side communication
 \end_layout
 
 \end_inset
@@ -4538,7 +4299,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stian
 \end_layout
 
 \end_inset
@@ -4547,7 +4308,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5
 \end_layout
 
 \end_inset
@@ -4556,7 +4317,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3
 \end_layout
 
 \end_inset
@@ -4576,7 +4337,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Client side communication
 \end_layout
 
 \end_inset
@@ -4585,7 +4346,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Kristoffer
 \end_layout
 
 \end_inset
@@ -4594,7 +4355,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
@@ -4603,7 +4364,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+12
 \end_layout
 
 \end_inset
@@ -4623,7 +4384,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Testing
 \end_layout
 
 \end_inset
@@ -4632,7 +4393,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Kristoffer
 \end_layout
 
 \end_inset
@@ -4641,7 +4402,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -4650,14 +4411,32 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+?
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sum
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4670,25 +4449,7 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+94
 \end_layout
 
 \end_inset
@@ -4710,8 +4471,6 @@ Set up Apache server
 
 \end_layout
 
-<<<<<<< HEAD
-=======
 \begin_layout Plain Layout
 \begin_inset Caption
 
@@ -4728,7 +4487,6 @@ Sprint 1 backlog
 
 \end_layout
 
->>>>>>> 54026b98b6609b639fc79efcd15869e52b11c50e
 \end_inset
 
 
