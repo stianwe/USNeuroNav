@@ -4368,52 +4368,449 @@ Here we will present changes that we have made to the architecture during
 Tools and Technology
 \end_layout
 
-\begin_layout Standard
-Lyx 
+\begin_layout Subsection
+Lyx and LaTeX
 \end_layout
 
 \begin_layout Standard
-Google docs 
+For writing the report, the team chose to write it in the document markup
+ language LaTeX [1], by using the Lyx [2] document processor.
+ The reason why LaTeX was chosen is that it is widely used in academica,
+ and that the team members saw this as an opportunity to familiarize themselves
+ with the tool they likely will use when writing their master.
+ In addition, LaTeX generates standard, good looking and highly customizable
+ pdf's.
 \end_layout
 
 \begin_layout Standard
-Titanium + javascript + php + JSon 
+The reason why Lyx was chosen for writing the document, is that it provides
+ the user with an easy to use interface, that still enables the user to
+ make use of all the different options with LaTeX, and that it is open source.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.latex-project.org/
+\begin_inset Newline newline
+\end_inset
+
+[2] http://www.lyx.org/
+\end_layout
+
+\begin_layout Subsection
+Google Drive and Docs 
 \end_layout
 
 \begin_layout Standard
-Github 
+For writing internal documents, such as meeting agendas, meeting summaries,
+ and temporal plans and documents, Google Docs [1] was chosen.
+ The reasoning behind this is that it is very easy to use, and also that
+ it provides different people to modify and view others' modifications in
+ real-time.
 \end_layout
 
 \begin_layout Standard
-facebook 
+To store and distribute files between the team members, Google Drive [2]
+ was chosen.
+ Google Docs is very closely integrated with Google Drive, so Google Drive
+ became the obvious solution for the team.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://docs.google.com
+\begin_inset Newline newline
+\end_inset
+
+[2] http://drive.google.com
+\end_layout
+
+\begin_layout Subsection
+Titanium and JavaScript
 \end_layout
 
 \begin_layout Standard
-teamviewer 
+To develop the mobile application, the Titanium [1] tool set was chosen.
+ It provides its own IDE for writing the code, which is based on Eclipse
+ [2].
+ Titanium is a framework for creating cross-platform mobile applications,
+ where the code is written in JavaScript, and compiled to native code for
+ the selected platforms.
+ 
 \end_layout
 
 \begin_layout Standard
-mySQL 
+To decide on the platform and tools to use, the team spent a lot of time,
+ together with the customer, evaluating different options.
+ Since the customer had very clear requirements, not many available options
+ were actually sufficient.
+ The customer's requirements was in short that:
+\end_layout
+
+\begin_layout Itemize
+The application should be cross-platform (at least iOS and Android)
+\end_layout
+
+\begin_layout Itemize
+The application should have a native 
+\begin_inset Quotes eld
+\end_inset
+
+look and feel
+\begin_inset Quotes erd
+\end_inset
+
+ on all platforms
+\end_layout
+
+\begin_layout Itemize
+The application should have (close to) the same performance as if written
+ in native code
+\end_layout
+
+\begin_layout Itemize
+(The platform should be free to use if possible)
 \end_layout
 
 \begin_layout Standard
-email 
+Given these very specific, and quite demanding, requirements, the team was
+ only able to find a couple of valid options.
+ These options were in the end Titanium, which was chosen, and Xamarin [3].
+ Xamarin is a quite similar tool to Titanium, except that it uses code written
+ in C# instead of JavaScript.
+ Despite that the team had more experience with C#, Titanium was chosen
+ because that it is completely free to use, while Xamarin requires a license.
+ Several other options, like PhoneGap, Marmalade and native apps, but none
+ fit the customer's requirement.
+ PhoneGap, for example, have neither native performance nor 
+\begin_inset Quotes eld
+\end_inset
+
+look and feel
+\begin_inset Quotes erd
+\end_inset
+
+, while writing the app in native code for iOS and Android would take too
+ much time.
+ Marmalade, together with Xamarin, cost too much for the customer, given
+ that (almost) 
+\begin_inset Quotes eld
+\end_inset
+
+equally good
+\begin_inset Quotes erd
+\end_inset
+
+ tools existed and were free.
+ Even though Titanium is not 
+\begin_inset Quotes eld
+\end_inset
+
+write once, run everywhere
+\begin_inset Quotes erd
+\end_inset
+
+, it came closest to meeting all the customer's need (when weighing pricing
+ quite heavy), so it was chosen.
+ If the code is written very carefully, a big part of it should be re-usable
+ between iOS and Android.
 \end_layout
 
 \begin_layout Standard
-violet 
+JavaScript [4] is a prototype-based scripting language with dynamic typing.
+ It is commonly used to make web pages dynamic, but is in this case compiled
+ down to native code for mobile platforms by Titanium.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.appcelerator.com/
+\begin_inset Newline newline
+\end_inset
+
+[2] http://www.eclipse.org/
+\begin_inset Newline newline
+\end_inset
+
+[3] http://www.xamarin.com
+\begin_inset Newline newline
+\end_inset
+
+[4] http://en.wikipedia.org/wiki/JavaScript
+\end_layout
+
+\begin_layout Subsection
+PHP
 \end_layout
 
 \begin_layout Standard
-apache 
+PHP [1] is a server-side scripting language designed for web development.
+ PHP code is interpreted by a web server with a PHP module, which generates
+ the resulting web page.
 \end_layout
 
 \begin_layout Standard
-visual ER 
+For this project, PHP is used as a tiny layer between the mobile application
+ and the database.
+ Since Titanium does not support communication with external (My)SQL servers,
+ the app will communicate with a simple script that reads data from the
+ database, and sends it to the app.
 \end_layout
 
 \begin_layout Standard
+The reason why PHP was chosen is that it is very simple to use for small
+ scripts, and that it is well documented.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://php.net/
+\end_layout
+
+\begin_layout Subsection
+JSON
+\end_layout
+
+\begin_layout Standard
+JSON (JavaScript Object Notation) [1] is a lightweight data-interchange
+ format, which is for both humans and computers to read/parse and write.
+ 
+\end_layout
+
+\begin_layout Standard
+For this project, JSON is used for the communication between the PHP script
+ and the mobile applications.
+ The JSON objects themselves is structured exactly the same as internally
+ in the database.
+\end_layout
+
+\begin_layout Standard
+The reason why JSON is used for this communication is that it is very well
+ supported in both PHP and JavaScript, and very easy to use.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.json.org/
+\end_layout
+
+\begin_layout Subsection
+Git and GitHub
+\end_layout
+
+\begin_layout Standard
+Which mentioned under 2.3, Versioning Control, we use Git [1] for versioning
+ control, both for the report and the code.
+ The Git server we use is GitHub [2].
+ Git is a distributed revision control and source code management system.
+ We use Git for versioning control because it is quite easy to use, it provides
+ both a shell and a GUI, and the team members were already familiar with
+ it.
+\end_layout
+
+\begin_layout Standard
+The reason why we use GitHub as the Git server, is that it is free to use,
+ requires no personal servers, and that it provides a very useful web site
+ to manage pull requests, issues, etc.
+ The project's GitHub repository can be found at http://github.com/stianwe/USNeur
+oNav.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://git-scm.com
+\begin_inset Newline newline
+\end_inset
+
+[2] http://www.github.com
+\end_layout
+
+\begin_layout Subsection
+Facebook 
+\end_layout
+
+\begin_layout Standard
+For distributing information and links between team members, Facebook [1]
+ is used.
+ The group maintains a private group where information is posted on the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+wall
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In addition the Facebook's chat function can be used for instant messaging
+ between team members.
+ 
+\end_layout
+
+\begin_layout Standard
+The reason why the team uses Facebook is that all team members had experience
+ with Facebook, and check it regularily.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.facebook.com
+\end_layout
+
+\begin_layout Subsection
+TeamViewer 
+\end_layout
+
+\begin_layout Standard
+To access the iMac the team is borrowing from the customer remotely, the
+ team uses TeamViewer [1].
+ TeamViewer is a simple software for controling computers remotely over
+ the Internet.
+\end_layout
+
+\begin_layout Standard
+The reason why the team uses TeamViewer, is that it is free to use (non-comercia
+lly), easy to set up, and that the team members already have some experience
+ with it.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.teamviewer.com
+\end_layout
+
+\begin_layout Subsection
+MySQL 
+\end_layout
+
+\begin_layout Standard
+MySQL [1] is a very well-known SQL database, and by their own words 
+\begin_inset Quotes eld
+\end_inset
+
+The world's most popular open source database
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+MySQL is used on this project for storing the categories, and their relations
+ (sub-categories and super-categories), the cases, and information about
+ each case (e.g.
+ which categories it belong to), and URL's to the cases' media files.
+ In addition, the MySQL database store all user information.
+\end_layout
+
+\begin_layout Standard
+The reason why the team uses MySQL is that it is free to use, and that all
+ team members have good experience with it beforehand.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.mysql.com
+\end_layout
+
+\begin_layout Subsection
+Violet UML editor
+\end_layout
+
+\begin_layout Standard
+Violet UML editor [1] is a cross-platform, easy to learn and use, UML editor,
+ which draws nice and standard looking UML diagrams.
+\end_layout
+
+\begin_layout Standard
+For this project, Violet UML editor is used to draw the use case diagrams,
+ sequence diagrams and class diagram.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://alexdp.free.fr/violetumleditor/page.php
+\end_layout
+
+\begin_layout Subsection
+Apache HTTP Server
+\end_layout
+
+\begin_layout Standard
+Apache [1] is a very common web server.
+ It is free to use, very easy to set up, and works very well with PHP.
+\end_layout
+
+\begin_layout Standard
+The Apache HTTP Server is used in this project to host the media files for
+ the cases, and also host the PHP script which is a thin layer between the
+ MySQL database and the mobile application.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.apache.com
+\end_layout
+
+\begin_layout Subsection
+Visual ER 
+\end_layout
+
+\begin_layout Standard
+Visual ER [1] is a very simple Java based tool to create ER diagrams.
+ The team uses Visual ER because it was developed by NTNU students, is very
+ easy to use, and that the students have good experience with it from other
+ courses.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://www.idi.ntnu.no/emner/tdt4145/programvare/VisualER/
+\end_layout
+
+\begin_layout Subsection
 Balsamic mockups 
+\end_layout
+
+\begin_layout Standard
+TODO: Kristoffer
 \end_layout
 
 \begin_layout Standard
