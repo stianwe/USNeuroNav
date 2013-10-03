@@ -32,7 +32,7 @@
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
+\pdf_breaklinks true
 \pdf_pdfborder true
 \pdf_colorlinks false
 \pdf_backref section
@@ -72,27 +72,91 @@
 
 \begin_body
 
-\begin_layout Title
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/ntnu.png
-	scale 50
+	lyxscale 60
+	scale 60
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Title
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
 USNeuroNav
 \end_layout
 
-\begin_layout Title
-SINTEF and The National Competence Center for Ultrasound and Image Guided
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+SINTEF And The National Competence Center For Ultrasound And Image Guided
  Therapy
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Title
-Project report
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Project Report
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -109,21 +173,57 @@ Project report
 \end_inset
 
 Group 18
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Title
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
 Stian Weie
 \end_layout
 
-\begin_layout Title
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
 Marthe Bekkevold
 \end_layout
 
-\begin_layout Title
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
 Kristoffer Hagen
 \end_layout
 
-\begin_layout Title
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\color white
+t
+\series default
+\size default
+\color inherit
+
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -131,9 +231,6 @@ Kristoffer Hagen
 \end_layout
 
 \begin_layout Part*
-\begin_inset Newpage pagebreak
-\end_inset
-
 Abstract
 \end_layout
 
@@ -547,6 +644,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
@@ -767,12 +865,13 @@ Overall sprints
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/Project plan.png
 	lyxscale 50
@@ -821,13 +920,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="75text%">
+<column alignment="center" valignment="top" width="70text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1259,6 +1359,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/Organizational diagram.png
 	lyxscale 50
@@ -1311,6 +1412,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
@@ -1606,6 +1708,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Tabel figures/risklist.PNG
 	width 100text%
@@ -1638,6 +1741,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Tabel figures/risktable.PNG
 	width 70text%
@@ -2027,6 +2131,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/Scrum.png
 	width 70line%
@@ -2331,6 +2436,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Tabel figures/Overall Functional Requirements.png
 	lyxscale 50
@@ -2371,10 +2477,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/usecaseUser.png
 	lyxscale 70
-	width 100line%
+	scale 80
 
 \end_inset
 
@@ -2406,10 +2513,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/usecaseAdmin.png
 	lyxscale 70
-	width 100line%
+	scale 80
 
 \end_inset
 
@@ -2874,9 +2982,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Tabel figures/Overall Non-Functional Requirements.png
-	width 100line%
 
 \end_inset
 
@@ -2916,6 +3024,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="26" columns="2">
 <features tabularvalignment="middle">
@@ -3560,6 +3669,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="4">
 <features tabularvalignment="middle">
@@ -3966,6 +4076,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/searchSequence.png
+	lyxscale 40
 	scale 40
 
 \end_inset
@@ -4119,6 +4230,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Overall_architecture.png
+	lyxscale 40
 	scale 40
 
 \end_inset
@@ -6483,7 +6595,7 @@ status open
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="8page%">
 <column alignment="center" valignment="top" width="10page%">
-<column alignment="center" valignment="top" width="45page%">
+<column alignment="center" valignment="top" width="40text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
@@ -6609,6 +6721,7 @@ Marthe informed the group about the absence in good time before the period
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -6979,6 +7092,7 @@ https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
 \end_layout
 
 \begin_layout Standard
+\noindent
 [2] Helsinki Microneurosurgery Basics and Tricks, 
 \begin_inset Flex URL
 status collapsed
@@ -7050,6 +7164,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -7423,6 +7538,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -7772,6 +7888,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -8095,6 +8212,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
