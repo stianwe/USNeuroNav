@@ -1240,7 +1240,7 @@ Organization
 \end_layout
 
 \begin_layout Standard
-This section describes how the group is organized.
+This section describes how the group is organized and why.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1938,6 +1938,13 @@ We will develoop the system with frameworks and tools described in section
 Lifecycle Model
 \end_layout
 
+\begin_layout Standard
+In this section our choise for the lifecycle model is described.
+ Fist a description on why we chose scrum, second we describe scum as a
+ lifecycle model, and after that a description of scrum artefect an the
+ scrum meetings.
+\end_layout
+
 \begin_layout Subsection
 Why Scrum
 \end_layout
@@ -1978,7 +1985,7 @@ Scrum is an agile software development methodology.
  The team is self-organized, which means that all the main roles for the
  project are divided among the members of the team.
  There is usually a big focus on fast communication between members given
- that Scrum teams are usually small.
+ that scrum teams are usually small.
 \end_layout
 
 \begin_layout Subsection
@@ -3556,10 +3563,10 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="4">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="10cm">
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="9text%">
+<column alignment="center" valignment="top" width="45text%">
+<column alignment="center" valignment="top" width="20text%">
+<column alignment="center" valignment="top" width="20text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
