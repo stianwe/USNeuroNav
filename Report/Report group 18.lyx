@@ -370,29 +370,19 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-Description
-\end_layout
-
-\begin_layout Subsection
 Project Name
 \end_layout
 
 \begin_layout Standard
-USNeuroNav App 
-\end_layout
+The title given to this project is 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Subsection
-Project Purpose
-\end_layout
+USNeuroNav App
+\begin_inset Quotes erd
+\end_inset
 
-\begin_layout Standard
-The goal of the project is to increase the awareness and knowledge surrounding
- the use of ultrasound navigation during surgery.
- It will be very hard to numerically measure the effect of our project.
- Long term it might be possible to track its influence through the increase
- in use of the aforementioned technology, but our short term goal is simply
- to make a product the customer is satisfied with and believes can be used
- for its intended purpose.
+
 \end_layout
 
 \begin_layout Subsection
@@ -400,7 +390,41 @@ Project Client
 \end_layout
 
 \begin_layout Standard
+SINTEF and The National Competence Center for Ultrasound and Image Guided
+ Therapy.
+\end_layout
+
+\begin_layout Subsubsection*
+SINTEF
+\end_layout
+
+\begin_layout Standard
+SINTEF is an independent, non-commercial research organisation.
+ The organisation operates in partnership with NTNU and aims to 
+\begin_inset Quotes eld
+\end_inset
+
+create value through knowledge generation, research and innovation, and
+ develop technological solutions that are brought into practical use.
+\begin_inset Quotes erd
+\end_inset
+
+ (http://www.sintef.no/home/About-us/).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
 The National Competence Center for Ultrasound and Image Guided Therapy
+\end_layout
+
+\begin_layout Standard
+The National Competence Center for Ultrasound and Image Guided Therapy is
+ a group of scientists, engineers and surgeons in Trondheim that is collaboratin
+g closely in order to improve current methods and techniques for minimally
+ invasive surgeries.
+ The group consists of experts from SINTEF, NTNU and St.
+ Olav's Hospital.
+ (http://www.usigt.org/)
 \end_layout
 
 \begin_layout Subsection
@@ -409,17 +433,27 @@ Stakeholders
 
 \begin_layout Standard
 The project sponsor and customer is SINTEF and The National Competence Center
- for Ultrasound and Image Guided Therapy, with Frank Lindseth as the contact
- person.
- Erlend...
- Additional stakeholders is the development team, consisting of three NTNU
+ for Ultrasound and Image Guided Therapy, with Frank Lindseth and Ole Solheim
+ as the contact persons.
+ Additional stakeholders are the development team, consisting of three NTNU
  students, Kristoffer Hagen, Marthe Frogner Bekkevold and Stian Weie, and
  also the project supervisor, Anh Nguyen Duc.
  
 \end_layout
 
 \begin_layout Subsection
-Project Background
+Project Background and Purpose
+\end_layout
+
+\begin_layout Standard
+The National Competence Center for Ultrasound and Image Guided Therapy was
+ established in 1995 and is a collaboration between SINTEF, NTNU and St
+ Olav University Hospital.
+ Within the center ultrasound-based navigation technology is being developed
+ and used in various clinical fields in order to guide surgical instruments
+ safely into the human body (similar to GPS navigation).
+ One of the main challenges in order to make use of this technology is sufficien
+t knowledge about interpreting ultrasound images.
 \end_layout
 
 \begin_layout Standard
@@ -434,53 +468,34 @@ SINTEF have for many years pioneered the use of ultrasound navigation during
 \end_layout
 
 \begin_layout Standard
-The customer’s description of the project: “The national competence center
- for ultrasound and image guided therapy was established in 1995 and is
- a collaboration between SINTEF, NTNU and St Olav University Hospital.
- Within the center ultrasound-based navigation technology is being developed
- and used in various clinical fields in order to guide surgical instruments
- safely into the human body (similar to GPS navigation).
- One of the main challenges in order to make use of this technology is sufficien
-t knowledge about interpreting ultrasound images.
- Each week unique data material is collected within the center.
- If presented in an easy and knowledgeable way, selected parts of the anonymous
- material can be used to teach relevant groups to interpret ultrasound images
- in an entertaining manner.
+The National Competence Center for Ultrasound and Image Guided Therapy collects
+ unique data material each week.
+ If this was presented in an easy and knowledgeable way, selected parts
+ of the anonymous material can be used to teach relevant groups to interpret
+ ultrasound images in an entertaining manner.
  An App for mobile devices (iOS and maybe Android) (and maybe also a web-site)
  has a huge potential in this regard.
-\end_layout
-
-\begin_layout Standard
-In addition to presenting the available material it’s natural to investigate
+ In addition to presenting the available material it’s natural to investigate
  the possibility for extending the app to a serious game.
- The possibilities are almost endless but some basic suggestions could be
- to learn ultrasound interpretations of brain images by presenting:
+\end_layout
+
+\begin_layout Subsection
+Project Goal
 \end_layout
 
 \begin_layout Standard
-• Anatomy – The user sees an ultrasound image as well as names of anatomical
- structures and is challenged to drag each name onto the correct structure.
- 
+The goal of the project is to increase the awareness and knowledge surrounding
+ the use of ultrasound navigation during surgery, to increase its popularity
+ and also make the use of the technology more widespead.
+\end_layout
+
+\begin_layout Subsection
+Project Duration
 \end_layout
 
 \begin_layout Standard
-• Pathology – The user sees ultrasound images of varies tumors and is asked
- to identify the tumor and state the type (multiple choice).
-\end_layout
-
-\begin_layout Standard
-• Tumor borders – Some tumor types have diffuse border to normal tissue.
- The user sees such images and is asked to draw the border.
-\end_layout
-
-\begin_layout Standard
-A scoring system should be developed and based on the available data material;
- random questions, tutorials and skills validation can be generated.
- This can be made very advanced with global user profiles and benchmarking
- but it’s probably vise to start easy.
- It should also be easy to generate and upload new material and when new
- cases become available the users are notified and asked it they would like
- to download the new material.”
+The project started on August 21th and will conclude on November 21th.
+ The duration of the project is 14 weeks.
 \end_layout
 
 \begin_layout Standard
@@ -1345,7 +1360,8 @@ This section describes how the group is organized and why.
 
 \begin_layout Subsubsection
 Organizational diagram ????? trengs denne å ha med? den fine rapporten fra
- duc hadde det ikke, og den er jo ikke helt bra/reel?
+ duc hadde det ikke, og den er jo ikke helt bra/reel? Kristoffer: Er enig,
+ føler vi kan ta bort dette.
 \end_layout
 
 \begin_layout Standard
