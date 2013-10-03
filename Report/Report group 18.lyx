@@ -4960,11 +4960,25 @@ Visual ER [1] is a very simple Java based tool to create ER diagrams.
 \end_layout
 
 \begin_layout Subsection
-Balsamic mockups 
+Balsamiq mockups 
 \end_layout
 
 \begin_layout Standard
-TODO: Kristoffer
+Balsamiq mockups is a tool for creating GUI mockups.
+ It enabled us to quickly create our initial GUI and then easily modify
+ it as we, or the customer, felt any changes was needed or had another improveme
+nt that needed to be made.
+ We chose Balsamiq mockups because it had a free trial period, had support
+ for creating iPhone GUIs and offered a simple, intuitive and easy to learn
+ interface for creating and modifing GUI drafts.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[1] http://balsamiq.com/products/mockups/
 \end_layout
 
 \begin_layout Standard
