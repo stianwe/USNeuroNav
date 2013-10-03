@@ -285,7 +285,7 @@ USNeuroNav App
 \end_layout
 
 \begin_layout Subsection
-Project purpose
+Project Purpose
 \end_layout
 
 \begin_layout Standard
@@ -299,7 +299,7 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsection
-Project client
+Project Client
 \end_layout
 
 \begin_layout Standard
@@ -322,7 +322,7 @@ The project sponsor and customer is SINTEF and The National Competence Center
 \end_layout
 
 \begin_layout Subsection
-Project background
+Project Background
 \end_layout
 
 \begin_layout Standard
@@ -397,12 +397,20 @@ A scoring system should be developed and based on the available data material;
 Planning
 \end_layout
 
+\begin_layout Standard
+This chapter describes the project plan, terms and team organisation.
+ At first there are presented measurement of project effort, general terms
+ and a work break down structure.
+ After that the organisation of the team and the risk management are presented.
+ At the end is given quality assurance.
+\end_layout
+
 \begin_layout Subsection
 Project Plan
 \end_layout
 
 \begin_layout Subsubsection
-Measurement of project effort
+Measurement of Project Effort
 \end_layout
 
 \begin_layout Standard
@@ -417,7 +425,7 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsubsection
-General terms
+General Terms
 \end_layout
 
 \begin_layout Standard
@@ -510,7 +518,7 @@ We are planning to deliver the final product to the customer 13.
 \end_layout
 
 \begin_layout Subsubsection
-Schedule Of Result
+Schedule of Result
 \end_layout
 
 \begin_layout Standard
@@ -528,29 +536,6 @@ forklare gant diagram...
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Gant diagram
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 The table below gives an overall description of the sprints.
  
 \end_layout
@@ -563,13 +548,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
+<lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="8text%">
+<column alignment="center" valignment="top" width="15text%">
+<column alignment="center" valignment="top" width="40text%">
+<column alignment="center" valignment="top" width="15text%">
+<column alignment="center" valignment="top" width="15text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -631,7 +616,7 @@ Sprint 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-19.09.2013 - 02.10.2013 
+18.09.2013- 01.10.2013 
 \end_layout
 
 \end_inset
@@ -678,7 +663,7 @@ Sprint 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-03.10.2013 - 16.10.2013 
+02.10.2013- 15.10.2013 
 \end_layout
 
 \end_inset
@@ -687,7 +672,7 @@ Sprint 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Implement seach
 \end_layout
 
 \end_inset
@@ -712,7 +697,7 @@ Stian, Marthe, Kristoffer
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -721,26 +706,26 @@ Sprin 3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.10.2013 - 30.10.2013 
+16.10.2013- 29.10.2013 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Final implementation sprint.
- ???
+ 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -749,58 +734,11 @@ Stian, Marthe, Kristoffer
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian, Kristoffer 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stian, Kristoffer 
 \end_layout
 
 \end_inset
@@ -828,11 +766,8 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
-fdsf
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -875,7 +810,7 @@ Milestones
 \end_layout
 
 \begin_layout Standard
-The 
+The table below decribes all the milestones that are found in uor project.
 \end_layout
 
 \begin_layout Standard
@@ -887,12 +822,12 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="4">
+<lyxtabular version="3" rows="10" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="75text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1079,46 +1014,7 @@ Report
 
 \begin_layout Plain Layout
 Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
- to supervisor.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-r3 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-14.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Report
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
- to sensor.
+ to supervisor and sensor.
 \end_layout
 
 \end_inset
@@ -1244,7 +1140,7 @@ Product delivery.
 \begin_inset Text
 
 \begin_layout Plain Layout
-r4 
+r3 
 \end_layout
 
 \end_inset
@@ -1282,7 +1178,7 @@ Complete and print final report.
 \begin_inset Text
 
 \begin_layout Plain Layout
-r5 
+r4 
 \end_layout
 
 \end_inset
@@ -1337,10 +1233,6 @@ Milestones
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-fff
 \end_layout
 
 \begin_layout Subsection
@@ -1857,7 +1749,7 @@ ly.
 \end_layout
 
 \begin_layout Section
-Preliminary studies
+Preliminary Studies
 \end_layout
 
 \begin_layout Subsection
@@ -2090,7 +1982,7 @@ Scrum is an agile software development methodology.
 \end_layout
 
 \begin_layout Subsection
-Srum artefacts
+Srum Artefacts
 \end_layout
 
 \begin_layout Standard
@@ -2152,7 +2044,7 @@ Scrum artefacts
 \end_layout
 
 \begin_layout Subsection
-Scrum meetings
+Scrum Meetings
 \end_layout
 
 \begin_layout Standard
@@ -4187,7 +4079,7 @@ Sequence diagram 4
 \end_layout
 
 \begin_layout Subsubsection
-Develoment View
+Develoment view
 \end_layout
 
 \begin_layout Standard
@@ -4261,7 +4153,7 @@ classification
 \end_layout
 
 \begin_layout Subsubsection
-Process View
+Process view
 \end_layout
 
 \begin_layout Standard
@@ -4269,7 +4161,7 @@ Process View
 \end_layout
 
 \begin_layout Subsubsection
-Physical View
+Physical view
 \end_layout
 
 \begin_layout Standard
@@ -4286,7 +4178,7 @@ See chapter 5.4.1 and 5.4.2 for usecase diagram and usecases.
 \end_layout
 
 \begin_layout Subsection
-Data storage
+Data Storage
 \end_layout
 
 \begin_layout Subsubsection
@@ -4474,7 +4366,7 @@ Local caching
 \end_layout
 
 \begin_layout Subsection
-Architectural rationale
+Architectural Rationale
 \end_layout
 
 \begin_layout Standard
@@ -4490,7 +4382,7 @@ We tried our best to stick to the traditional Model View Controller (MVC)
 \end_layout
 
 \begin_layout Subsection
-Architectural changes
+Architectural Changes
 \end_layout
 
 \begin_layout Standard
@@ -4979,7 +4871,7 @@ Sprint 1
 \end_layout
 
 \begin_layout Subsection
-Sprint planning
+Sprint Planning
 \end_layout
 
 \begin_layout Subsubsection
@@ -6005,10 +5897,6 @@ Sprint 1 backlog
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -6564,7 +6452,7 @@ Completed tests for sprint 1
 \end_layout
 
 \begin_layout Subsection
-Ocuring risks
+Ocuring Risks
 \end_layout
 
 \begin_layout Standard
@@ -6731,7 +6619,7 @@ Occurring risks
 \end_layout
 
 \begin_layout Subsection
-Customer feedback
+Customer Feedback
 \end_layout
 
 \begin_layout Standard
@@ -6832,7 +6720,7 @@ Sprint 2
 \end_layout
 
 \begin_layout Subsection
-Sprint planning
+Sprint Planning
 \end_layout
 
 \begin_layout Subsubsection
@@ -6864,7 +6752,7 @@ Testing
 \end_layout
 
 \begin_layout Subsection
-Ocuring risks
+Ocuring Risks
 \end_layout
 
 \begin_layout Standard
@@ -6872,7 +6760,7 @@ noen har vært syke, bprtreist, fikk hardware sent?...
 \end_layout
 
 \begin_layout Subsection
-Customer feedback
+Customer Feedback
 \end_layout
 
 \begin_layout Subsection
@@ -6899,23 +6787,23 @@ Testing
 \end_layout
 
 \begin_layout Subsection
-Types of testing
+Types of Testing
 \end_layout
 
 \begin_layout Subsection
-Unit testing
+Unit Testing
 \end_layout
 
 \begin_layout Subsection
-Integration testing
+Integration Testing
 \end_layout
 
 \begin_layout Subsection
-System testing
+System Testing
 \end_layout
 
 \begin_layout Subsection
-Acceptance testing
+Acceptance Testing
 \end_layout
 
 \begin_layout Standard
@@ -6965,11 +6853,11 @@ Report
 \end_layout
 
 \begin_layout Subsubsection
-Report Access
+Report access
 \end_layout
 
 \begin_layout Subsection
-Further work
+Further Work
 \end_layout
 
 \begin_layout Standard
@@ -6993,7 +6881,7 @@ Description
 \end_layout
 
 \begin_layout Subsection
-Group evaluation
+Group Evaluation
 \end_layout
 
 \begin_layout Subsubsection
@@ -7013,7 +6901,7 @@ Group dynamics
 \end_layout
 
 \begin_layout Subsubsection
-Role Assignment
+Role assignment
 \end_layout
 
 \begin_layout Subsubsection
@@ -7021,11 +6909,11 @@ Motivation
 \end_layout
 
 \begin_layout Subsubsection
-Risk Evaluation
+Risk evaluation
 \end_layout
 
 \begin_layout Subsection
-12.3 Project evaluation
+12.3 Project Evaluation
 \end_layout
 
 \begin_layout Subsubsection
@@ -7033,7 +6921,7 @@ Planning
 \end_layout
 
 \begin_layout Subsubsection
-Preliminary Studies
+Preliminary studies
 \end_layout
 
 \begin_layout Subsubsection
@@ -7061,23 +6949,7 @@ Time usage
 \end_layout
 
 \begin_layout Subsection
-Technology evaluation
-\end_layout
-
-\begin_layout Subsubsection
-Skype
-\end_layout
-
-\begin_layout Subsubsection
-avaScript
-\end_layout
-
-\begin_layout Subsubsection
-12.4.7 SVN/Tortoise
-\end_layout
-
-\begin_layout Subsubsection
-12.4.8 Google Documents 
+Technology Evaluation
 \end_layout
 
 \begin_layout Section
