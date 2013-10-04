@@ -53,8 +53,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 15page%
-\rightmargin 15page%
+\leftmargin 18page%
+\rightmargin 18page%
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -235,6 +235,8 @@ Abstract
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This paper describes the planning, design, development and implementation
  of the "USNeuroNav" application with its supporting infrastructure.
  USNeuroNav is an application for mobile deviced that enables its user to
@@ -243,6 +245,8 @@ This paper describes the planning, design, development and implementation
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Dispite ultrasound navigation providing several benefits over the traditional
  MRI imaging during surgery, and the technology required is already in use,
  the method of ultrasound navigation is not very widespread.
@@ -253,6 +257,8 @@ Dispite ultrasound navigation providing several benefits over the traditional
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In this report the entire process of developing this application will be
  discussed, from the first say of planning to the last day of the implementation
  and testing.
@@ -270,6 +276,8 @@ Preface
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This report, together with the code written, is the deliverables in the
  master-level course TDT4290 Customer Driven Project, given by Department
  of Computer and Information Science at the the Norwegian University of
@@ -280,6 +288,8 @@ This report, together with the code written, is the deliverables in the
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The project team consisted of three members from the department of computer
  and information science at NTNU, we were given the task of developing an
  application for SINTEF that would aid in the teaching and distribution
@@ -291,6 +301,8 @@ The project team consisted of three members from the department of computer
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We would like to thank the SINTEF for providing us this task and giving
  us accress to the software and hardware required to develop this application.
  Frank Lindseth represented SINTEF and acted as our customer contact during
@@ -300,8 +312,12 @@ We would like to thank the SINTEF for providing us this task and giving
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The team would also like to thank our main supoervisor Anh Nguyen Duc, for
  his input and valuable feedback during the course.
+\size default
+
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -374,6 +390,8 @@ Project Name
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The title given to this project is 
 \begin_inset Quotes eld
 \end_inset
@@ -390,6 +408,8 @@ Project Client
 \end_layout
 
 \begin_layout Standard
+
+\size large
 SINTEF and The National Competence Center for Ultrasound and Image Guided
  Therapy.
 \end_layout
@@ -399,6 +419,8 @@ SINTEF
 \end_layout
 
 \begin_layout Standard
+
+\size large
 SINTEF is an independent, non-commercial research organisation.
  The organisation operates in partnership with NTNU and aims to 
 \begin_inset Quotes eld
@@ -418,6 +440,8 @@ The National Competence Center for Ultrasound and Image Guided Therapy
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The National Competence Center for Ultrasound and Image Guided Therapy is
  a group of scientists, engineers and surgeons in Trondheim that is collaboratin
 g closely in order to improve current methods and techniques for minimally
@@ -432,6 +456,8 @@ Stakeholders
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The project sponsor and customer is SINTEF and The National Competence Center
  for Ultrasound and Image Guided Therapy, with Frank Lindseth and Ole Solheim
  as the contact persons.
@@ -446,6 +472,8 @@ Project Background and Purpose
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The National Competence Center for Ultrasound and Image Guided Therapy was
  established in 1995 and is a collaboration between SINTEF, NTNU and St
  Olav University Hospital.
@@ -457,6 +485,8 @@ t knowledge about interpreting ultrasound images.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 SINTEF have for many years pioneered the use of ultrasound navigation during
  surgery.
  The technology they have created is already in use, but in order for it
@@ -468,6 +498,8 @@ SINTEF have for many years pioneered the use of ultrasound navigation during
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The National Competence Center for Ultrasound and Image Guided Therapy collects
  unique data material each week.
  If this was presented in an easy and knowledgeable way, selected parts
@@ -484,6 +516,8 @@ Project Goal
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The goal of the project is to increase the awareness and knowledge surrounding
  the use of ultrasound navigation during surgery, to increase its popularity
  and also make the use of the technology more widespead.
@@ -494,6 +528,8 @@ Project Duration
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The project started on August 21th and will conclude on November 21th.
  The duration of the project is 14 weeks.
 \end_layout
@@ -510,6 +546,8 @@ Planning
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This chapter describes the project plan, terms and team organisation.
  At first there are presented measurement of project effort, general terms
  and a work break down structure.
@@ -526,6 +564,8 @@ Measurement of Project Effort
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The goal of the project is to increase the awareness and knowledge surrounding
  the use of ultrasound navigation during surgery.
  It will be very hard to numerically measure the effect of our project.
@@ -541,6 +581,8 @@ General Terms
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The customer has a very clear requirement that the project results in an
  application for iOS.
  In addition, the customer sees it as a big bonus if this app can easily
@@ -556,6 +598,8 @@ The customer has a very clear requirement that the project results in an
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The specific tools for developing this application is scheduled to be determined
  together with the customer at 04.09.2013.
  Many tools has been investigated and tested, and prior to the meeting,
@@ -574,6 +618,8 @@ The specific tools for developing this application is scheduled to be determined
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For intergroup communication we have selected to use Google Docs for organizing
  our documents, along with Google calendar for the planning of meetings
  and important dates.
@@ -593,6 +639,8 @@ Planned Effort
 \end_layout
 
 \begin_layout Standard
+
+\size large
 TDT4290 Customer Driven Project is a course that rewards 15 credits.
  The course compendium suggests that we work 25 hours a week.
  The project was started on August 21.
@@ -605,6 +653,8 @@ TDT4290 Customer Driven Project is a course that rewards 15 credits.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Working hours: Our normal working hours will be wednesdays, thursdays and
  fridays from 9.00 to 16.00.
  These days and hours was chosen based on the group members existing schedule.
@@ -617,11 +667,15 @@ Working hours: Our normal working hours will be wednesdays, thursdays and
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Our working hours does not conclude when the product is delivered to the
  customer, but continues all the way until the final report is delivered.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We are planning to deliver the final product to the customer 13.
  November, that leaves us with a week to focus solely on the report.
  It should be noted that the report will be continuously updated as the
@@ -634,6 +688,8 @@ Schedule of Result
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Scrum is being used for the development phase.
  After each sprint there will be deliveries which each of them should contribute
  towards a working system.
@@ -644,15 +700,21 @@ Work Break Down Structure
 \end_layout
 
 \begin_layout Standard
-forklare gant diagram...
+forkl
+\size large
+are gant diagram...
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The table below gives an overall description of the sprints.
  
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float table
 wide false
 sideways false
@@ -660,6 +722,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
@@ -673,6 +737,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 #
 \end_layout
 
@@ -682,6 +748,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Start date - End date
 \end_layout
 
@@ -691,6 +759,8 @@ Start date - End date
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -700,6 +770,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Planning/ report
 \end_layout
 
@@ -709,6 +781,8 @@ Planning/ report
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Coding/ testing
 \end_layout
 
@@ -720,6 +794,8 @@ Coding/ testing
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sprint 1
 \end_layout
 
@@ -729,6 +805,8 @@ Sprint 1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 18.09.2013- 01.10.2013 
 \end_layout
 
@@ -738,6 +816,8 @@ Sprint 1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Implement viewing of categories and cases, and their images and videos 
 \end_layout
 
@@ -747,6 +827,8 @@ Implement viewing of categories and cases, and their images and videos
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian, Marthe, Kristoffer 
 \end_layout
 
@@ -756,6 +838,8 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian, Marthe, Kristoffer 
 \end_layout
 
@@ -767,6 +851,8 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sprint 2
 \end_layout
 
@@ -776,6 +862,8 @@ Sprint 2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 02.10.2013- 15.10.2013 
 \end_layout
 
@@ -785,6 +873,8 @@ Sprint 2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Implement seach
 \end_layout
 
@@ -794,6 +884,8 @@ Implement seach
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian, Marthe, Kristoffer 
 \end_layout
 
@@ -803,6 +895,8 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian, Marthe, Kristoffer 
 \end_layout
 
@@ -814,6 +908,8 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sprin 3
 \end_layout
 
@@ -823,6 +919,8 @@ Sprin 3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 16.10.2013- 29.10.2013 
 \end_layout
 
@@ -832,6 +930,8 @@ Sprin 3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Final implementation sprint.
  
 \end_layout
@@ -842,6 +942,8 @@ Final implementation sprint.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian, Marthe, Kristoffer 
 \end_layout
 
@@ -851,6 +953,8 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian, Kristoffer 
 \end_layout
 
@@ -879,6 +983,8 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float figure
 placement H
 wide false
@@ -887,6 +993,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Graphics
 	filename Figures/Project plan.png
 	lyxscale 50
@@ -899,6 +1007,8 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -924,6 +1034,8 @@ Milestones
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The table below decribes all the milestones that are found in uor project.
 \end_layout
 
@@ -936,6 +1048,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="4">
 <features tabularvalignment="middle">
@@ -948,6 +1062,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 # 
 \end_layout
 
@@ -957,6 +1073,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Date
 \end_layout
 
@@ -966,6 +1084,8 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Category
 \end_layout
 
@@ -975,6 +1095,8 @@ Category
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -986,6 +1108,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 r1
 \end_layout
 
@@ -995,6 +1119,8 @@ r1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 30.08.2013
 \end_layout
 
@@ -1004,6 +1130,8 @@ r1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Report
 \end_layout
 
@@ -1013,6 +1141,8 @@ Report
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Deliver preliminary project plan to supervisor.
 \end_layout
 
@@ -1024,6 +1154,8 @@ Deliver preliminary project plan to supervisor.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 p1
 \end_layout
 
@@ -1033,6 +1165,8 @@ p1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 18.09.2013
 \end_layout
 
@@ -1042,6 +1176,8 @@ p1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Product
 \end_layout
 
@@ -1051,6 +1187,8 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Have a running prototype, able to show local photos, categorization of cases
  to enable browsing.
 \end_layout
@@ -1063,6 +1201,8 @@ Have a running prototype, able to show local photos, categorization of cases
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 p2
 \end_layout
 
@@ -1072,6 +1212,8 @@ p2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 02.10.2013
 \end_layout
 
@@ -1081,6 +1223,8 @@ p2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Product
 \end_layout
 
@@ -1090,6 +1234,8 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Support for video, searching for cases.
 \end_layout
 
@@ -1101,6 +1247,8 @@ Support for video, searching for cases.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 r2
 \end_layout
 
@@ -1110,6 +1258,8 @@ r2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 08.10.2013
 \end_layout
 
@@ -1119,6 +1269,8 @@ r2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Report
 \end_layout
 
@@ -1128,6 +1280,8 @@ Report
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
  to supervisor and sensor.
 \end_layout
@@ -1140,6 +1294,8 @@ Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 p3 
 \end_layout
 
@@ -1149,6 +1305,8 @@ p3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 15.10.2013
 \end_layout
 
@@ -1158,6 +1316,8 @@ p3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Product
 \end_layout
 
@@ -1167,6 +1327,8 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Network support, server communication, caching of data.
 \end_layout
 
@@ -1178,6 +1340,8 @@ Network support, server communication, caching of data.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 p4 
 \end_layout
 
@@ -1187,6 +1351,8 @@ p4
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 29.10.2013
 \end_layout
 
@@ -1196,6 +1362,8 @@ p4
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Product
 \end_layout
 
@@ -1205,6 +1373,8 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Upload of data.
  Finalize features.
 \end_layout
@@ -1217,6 +1387,8 @@ Upload of data.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 p5 
 \end_layout
 
@@ -1226,6 +1398,8 @@ p5
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 13.11.2013
 \end_layout
 
@@ -1235,6 +1409,8 @@ p5
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Product
 \end_layout
 
@@ -1244,6 +1420,8 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Product delivery.
 \end_layout
 
@@ -1255,6 +1433,8 @@ Product delivery.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 r3 
 \end_layout
 
@@ -1264,6 +1444,8 @@ r3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 20.11.2013
 \end_layout
 
@@ -1273,6 +1455,8 @@ r3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Report
 \end_layout
 
@@ -1282,6 +1466,8 @@ Report
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Complete and print final report.
 \end_layout
 
@@ -1293,6 +1479,8 @@ Complete and print final report.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 r4 
 \end_layout
 
@@ -1302,6 +1490,8 @@ r4
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 21.11.2013
 \end_layout
 
@@ -1311,6 +1501,8 @@ r4
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Report
 \end_layout
 
@@ -1320,6 +1512,8 @@ Report
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Final project presentation.
 \end_layout
 
@@ -1334,6 +1528,8 @@ Final project presentation.
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1355,6 +1551,8 @@ Organization
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This section describes how the group is organized and why.
 \end_layout
 
@@ -1365,6 +1563,8 @@ Organizational diagram ????? trengs denne å ha med? den fine rapporten fra
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This diagram shows how the roles in the group are organized.
 \end_layout
 
@@ -1409,6 +1609,8 @@ Roles
 \end_layout
 
 \begin_layout Standard
+
+\size large
 At the beginning of the project we had a quick sumary of each group member’s
  previous experience, skills and interests.
  This made the basis for role assignments, so that we best could utilize
@@ -1416,12 +1618,16 @@ At the beginning of the project we had a quick sumary of each group member’s
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Since there are three people in the group, each group member got more than
  one responsibility or role.
  
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float table
 wide false
 sideways false
@@ -1429,6 +1635,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
@@ -1440,6 +1648,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Role
 \end_layout
 
@@ -1449,6 +1659,8 @@ Role
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Assigned
 \end_layout
 
@@ -1458,6 +1670,8 @@ Assigned
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsibility
 \end_layout
 
@@ -1469,6 +1683,8 @@ Responsibility
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Project manager 
 \end_layout
 
@@ -1478,6 +1694,8 @@ Project manager
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe F.
  Bekkevold
 \end_layout
@@ -1488,6 +1706,8 @@ Marthe F.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible for task assignment, organizing meetings and agenda for meetings.
 \end_layout
 
@@ -1499,6 +1719,8 @@ Responsible for task assignment, organizing meetings and agenda for meetings.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Contact person
 \end_layout
 
@@ -1508,6 +1730,8 @@ Contact person
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe F.
  Bekkevold
 \end_layout
@@ -1518,6 +1742,8 @@ Marthe F.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible for keeping customer and supervisor up to date regarding project
  status, and also being the go-to person when the customer or the supervisor
  has any questions or information for the group.
@@ -1531,6 +1757,8 @@ Responsible for keeping customer and supervisor up to date regarding project
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Administrative Assistant 
 \end_layout
 
@@ -1540,6 +1768,8 @@ Administrative Assistant
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer Hagen
 \end_layout
 
@@ -1549,6 +1779,8 @@ Kristoffer Hagen
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible for making sure that oral information gets documented and that
  no communication and information gets lost and/or forgotten.
  
@@ -1562,6 +1794,8 @@ Responsible for making sure that oral information gets documented and that
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Report supervisor 
 \end_layout
 
@@ -1571,6 +1805,8 @@ Report supervisor
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer Hagen
 \end_layout
 
@@ -1580,6 +1816,8 @@ Kristoffer Hagen
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible for supervising that the report is being kept up to date.
  Making sure that the report is ready for delivery and that it meets the
  technical requirements.
@@ -1594,6 +1832,8 @@ Responsible for supervising that the report is being kept up to date.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test manager 
 \end_layout
 
@@ -1603,6 +1843,8 @@ Test manager
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian Weie 
 \end_layout
 
@@ -1612,6 +1854,8 @@ Stian Weie
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible for setting up and supervising tests.
 \end_layout
 
@@ -1623,6 +1867,8 @@ Responsible for setting up and supervising tests.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Technical manager 
 \end_layout
 
@@ -1632,6 +1878,8 @@ Technical manager
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian Weie 
 \end_layout
 
@@ -1641,6 +1889,8 @@ Stian Weie
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible for technical research and making sure technical difficulties
  are solved.
 \end_layout
@@ -1674,6 +1924,8 @@ Version Control
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We chose git to be our version control system for both the textual documents
  and the source code.
  Git is a free and open source distributed version control system designed
@@ -1699,6 +1951,8 @@ Risk Management
 \end_layout
 
 \begin_layout Standard
+
+\size large
 To prepare for unfortunate events that might occur during the project the
  group identified risks and figured out how to solve them.
  For each risk there are some pro-active efforts, which states what to do
@@ -1714,6 +1968,8 @@ Risk handling
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In the table below there are identified some risks for this project.
 \end_layout
 
@@ -1745,6 +2001,8 @@ Risk Analysis
 
 \end_inset
 
+
+\size large
 The risk matrix gives a better picture of how severe risks for the project
  are.
  
@@ -1790,6 +2048,8 @@ Customer interaction
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The customer is located in Trondheim, and the meetings will be held at NTNU
  every other week on Wednesdays at 08:00.
 \begin_inset Newline newline
@@ -1800,20 +2060,28 @@ The agenda for the meeting is to be sent to the customer by 12 noon Tuesday
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The minutes of the meeting is to be sent to the customer the same day as
  the meeting.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Approval of minutes of customer meetings is to be sent as soon as possible,
  max 48 hours.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Approval of phase documents is to be done as soon as possible, max 48 hours.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Answer e-mails is to be done as soon as possible.
 \end_layout
 
@@ -1822,19 +2090,27 @@ Supervisor interaction
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The meetings with the advisor will be held on Wednesdays at 09.30 and last
  an hour.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The agenda for the meeting is to be done by 12 noon Tuesday before the meeting.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The Minutes for the meeting is to be done the same day as the meeting.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The minutes of the meeting with the customer is to be sent to the supervisor
  the same day as the customer meeting
 \begin_inset Newline newline
@@ -1851,6 +2127,8 @@ Group interaction
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Group meetings: Wednesdays at 10:30, Thursdays at 09:15 and Fridays at 09:15
 \begin_inset Newline newline
 \end_inset
@@ -1877,6 +2155,8 @@ Current Situation
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
  medical personell prefer when evaluating and performing surgeries.
  The reason for this is that it is relatively easy to understand, and identify
@@ -1909,6 +2189,8 @@ Desired Solution
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The solution that the customer desires, is a simple method for doctors (and
  others), that is easily accessible, to familiarize themselves with DS scans
  (images and video), and to learn have to understand them, as many doctors
@@ -1927,6 +2209,8 @@ Evaluation Criteria
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The goal of the project is to increase the awareness and knowledge surrounding
  the use of ultrasound navigation during surgery.
  It will be very hard to numerically measure the effect of our project.
@@ -1937,14 +2221,12 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsection
-Market Investigations
-\end_layout
-
-\begin_layout Subsection
 Alternate Solutions
 \end_layout
 
 \begin_layout Standard
+
+\size large
 There is some similar solutions for the USNeuroNav App.
  Some is available for everyone, and some is only for surgeons and internal
  staff.
@@ -1957,11 +2239,15 @@ EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[1] for
  iPhone/iPad and our system has some similar functionalities.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This app is dedicated to endoscopic ultrasound education and has been developed
  by Drs Shyam Varadarajulu, Paul Fockens and Robert Hawes.
  The app is for endoscopists, pulmonologists and gastroenterology/pulmonology
@@ -1970,6 +2256,8 @@ This app is dedicated to endoscopic ultrasound education and has been developed
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The app showes pictures and videoes of ultrasound images.
 \end_layout
 
@@ -1978,12 +2266,16 @@ Helsinki Microneurosurgery Basics and Tricks App
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The Helsinki Microneurosurgery Basics and Tricks App[2] for iPhone/iPad
  was provided by the customer.
  
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This app for Microneurosurgery contains the "Helsinki Microneurosurgery
  Basics and Tricks" which is a unique book about the "Hernesniemi school
  of neurosurgery" written by Martin Lehecka, Aki Laakso and Juha Hernesniemi.
@@ -2003,20 +2295,28 @@ EUS - Diagnostic and Interventional Endoscopic Ultrasound app
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The app has a focus on lungs and diagnostic, and not ultrasound images during
  a brain tumor operation.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The app also gives information about conferences, wich is not important
  in our case.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The ability to show pictures and videos is essential, wich this app provides.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Since it is for iPhones it is portable, wich is necessary in our case.
 \end_layout
 
@@ -2025,11 +2325,15 @@ Helsinki Microneurosurgery Basics and Tricks
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The app is a book, and it does not have the ability to search and browse
  for cases in a category.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The ability to show pictures and videos is essential, wich this app provides.
 \end_layout
 
@@ -2038,11 +2342,15 @@ Choice of Solution
 \end_layout
 
 \begin_layout Standard
+
+\size large
 It is sufficiently differences between the system the customer needs and
  the systems described above that we can not choose one of them.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We will develoop the system with frameworks and tools described in section
  8.
 \end_layout
@@ -2059,6 +2367,8 @@ Lifecycle Model
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In this section our choise for the lifecycle model is described.
  Fist a description on why we chose scrum, second we describe scum as a
  lifecycle model, and after that a description of scrum artefect an the
@@ -2070,6 +2380,8 @@ Why Scrum
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Scrum is an iterative planning and execution method for software developmen.
  We chose an agile model because that works well on small groups, and the
  scope and requirements for the project were not clearly defined at the
@@ -2078,6 +2390,8 @@ Scrum is an iterative planning and execution method for software developmen.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 There ar many advantages for using scrum, for example managing risk and
  change effectively, by using small steps and quick feedback (tests, customers)
  errors from misunderstandings are quickly addressed.
@@ -2087,6 +2401,8 @@ There ar many advantages for using scrum, for example managing risk and
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The ability to cope with changes is also one of the reason we chose scrum.
  It was not clear that we migth get an other team menber to our group, so
  we planned for three people, and with scrum we could esaly change the plans
@@ -2098,6 +2414,8 @@ Scrum
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Scrum is an agile software development methodology.
  Scrum is based on a series of increments of Sprints, where requirements,
  design and product implementation evolve through the project lifetime.
@@ -2113,6 +2431,8 @@ Srum Artefacts
 \end_layout
 
 \begin_layout Standard
+
+\size large
 There are several artifacts used in Scrum, such as product backlog and sprint
  backlog.
  The product backlog is a list with all the remaining functionality to implement
@@ -2121,6 +2441,8 @@ There are several artifacts used in Scrum, such as product backlog and sprint
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The project is divided into sprints, which usually last between two to four
  weekss.
  A sprint usually consists of a sprint planning meeting where the members
@@ -2176,6 +2498,8 @@ Scrum Meetings
 \end_layout
 
 \begin_layout Standard
+
+\size large
 There are several different meeting in the scrum lifecycle.
 \end_layout
 
@@ -2184,6 +2508,8 @@ Sprint planning meeting
 \end_layout
 
 \begin_layout Standard
+
+\size large
 It is a meeting held at the start of each sprint.
  The team decides wich items in the product backlog that will be in the
  sprint backlog, based on the itmens priority.
@@ -2197,6 +2523,8 @@ Daily standups
 \end_layout
 
 \begin_layout Standard
+
+\size large
 It is a short meeting, not more than 10 - 15 minutes, at the start of each
  day during a sprint.
  Each member of the group updates the rest on what has been done since last
@@ -2208,6 +2536,8 @@ Sprint review meeting
 \end_layout
 
 \begin_layout Standard
+
+\size large
 It is held after each sprint to review which tasks from the sprint backlog
  that have been completed or not.
  The tasks that have not been completed yet will have to go back into the
@@ -2222,6 +2552,8 @@ Sprint retrospective meeting
 \end_layout
 
 \begin_layout Standard
+
+\size large
 It is held after each sprint to reflect on the past sprint and to improve
  on the next sprint.
  The questions asked and documented are ”What went well during the sprint?”
@@ -2240,6 +2572,8 @@ Requirements
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In this section the system requirements will be presented.
  First a description of the scope of the project, then comes definitions,
  then a describtion of the functional and non-functional requirements.
@@ -2251,6 +2585,8 @@ Scope
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The final system is to be identified by the name USNeuroNav App.
  The system will have two interfaces, one for the administrator and one
  for users (registered and not registered).
@@ -2258,6 +2594,8 @@ The final system is to be identified by the name USNeuroNav App.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The administrator will have a simple panel (text-based or GUI) from where
  he can register users, create new categories and cases, and upload media
  files (images and video) to cases).
@@ -2267,6 +2605,8 @@ The administrator will have a simple panel (text-based or GUI) from where
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The interface for users is the main project, namely the mobile application.
  The interface will be similar to registered and unregistered users (except
  from the fact that the user will have to log in), but unregistered users
@@ -2275,6 +2615,8 @@ The interface for users is the main project, namely the mobile application.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Both for registered and unregistered users, the app should be able to view
  a structure of categories, which contains cases.
  These cases, again, contains media files, i.e.
@@ -2315,21 +2657,29 @@ Definitions, Acronyms and Abbreviations
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 Unregistered users: A person who uses the system on the client side with
  a limited access to all data.
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 Registered users: A person who uses the system on the client side with access
  to all data
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 Administrator: A person who who will have all the privileges open, in the
  database and the system as well.
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 Use Case: Technique that specify the interaction between the user and the
  system.
 \end_layout
@@ -2343,6 +2693,8 @@ Unregistered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This is a public user who is interested in learning about the ultrasound
  images and how to interpret them.
  There may be students, doctors or anyone who who wants access to such informati
@@ -2355,6 +2707,8 @@ Registered users
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This is users within the organization.
  They have an interest of learning how to interpret ultrasound images, so
  they can know that all the cancer is removed during an operation.
@@ -2366,6 +2720,8 @@ Administrator
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This is the user with authority to access the administration panel in the
  application.
  The administrator can manage the application by using interface made for
@@ -2377,11 +2733,15 @@ Functional Requirements
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In this section the funktional requirements for the system are given and
  expleined in detail.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 All requirements are assigned one of four possible priority values.
  Critical, high, medium and low.
 \begin_inset Newline newline
@@ -2391,6 +2751,8 @@ All requirements are assigned one of four possible priority values.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Critical prioritized requirements is the most important and the system will
  not be approved if it's not implemented.
  
@@ -2401,6 +2763,8 @@ Critical prioritized requirements is the most important and the system will
 \end_layout
 
 \begin_layout Standard
+
+\size large
 High prioritized requirements is important for the customer, but these requireme
 nts wil be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
@@ -2410,6 +2774,8 @@ nts wil be implemented after the critical prioritized requirements.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Medium prioritized requirements is not that important for the customer as
  the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
@@ -2420,6 +2786,8 @@ Medium prioritized requirements is not that important for the customer as
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Low prioritized requirements is 
 \begin_inset Quotes eld
 \end_inset
@@ -2437,6 +2805,8 @@ nice to have requirements
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In the Tabel below an overall description of the functional requirements
  are given and its priorities.
 \end_layout
@@ -2558,6 +2928,8 @@ Use Case description
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This is a description of the use case diagram
 \begin_inset Newline newline
 \end_inset
@@ -2566,22 +2938,32 @@ This is a description of the use case diagram
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC1
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Browse categories of cases
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Critical
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The user should be ablo to browse through a structure
  of categories which contains cases
 \begin_inset Newline newline
@@ -2591,22 +2973,32 @@ Brief description: The user should be ablo to browse through a structure
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC2
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Browse sub-categories of cases
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Critical
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The user should be able to browse sub-categories of a
  category by selecting a category 
 \begin_inset Newline newline
@@ -2616,22 +3008,32 @@ Brief description: The user should be able to browse sub-categories of a
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC3
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Select a case
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Critical
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The user should be able to select and view a case by
  clicking on it 
 \begin_inset Newline newline
@@ -2641,22 +3043,32 @@ Brief description: The user should be able to select and view a case by
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC4
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Browse case images
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Critical
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The user should be able to view all images belonging
  to a selected case, and navigate between them by 
 \begin_inset Quotes eld
@@ -2674,22 +3086,32 @@ swiping
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC5
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Select cases/videoes/images to download and store localy
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Medium
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The user should be able to select a set of cases, videos
  and images, which the phone should cache locally for offline access
 \begin_inset Newline newline
@@ -2699,22 +3121,32 @@ Brief description: The user should be able to select a set of cases, videos
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC6
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Search for cases
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: High
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The user should be able to search for cases using keywords
 \begin_inset Newline newline
 \end_inset
@@ -2723,22 +3155,32 @@ Brief description: The user should be able to search for cases using keywords
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC7
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Browse additional cases and information about cases
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: High
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Registered user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: A registered user should be able to browse cases labeled
  as non-public (private), which an unregistered user shouldn't
 \begin_inset Newline newline
@@ -2748,22 +3190,32 @@ Brief description: A registered user should be able to browse cases labeled
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC8
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Log in
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: High
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Registered user 
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: A registered user should be able to log in by supplying
  a user name and password
 \begin_inset Newline newline
@@ -2773,22 +3225,32 @@ Brief description: A registered user should be able to log in by supplying
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC9
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Fetch colletions of cases and their categories
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Critical
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Application, database
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The apllication should be able to fetch a collection
  of cases and their categories from the database
 \begin_inset Newline newline
@@ -2798,22 +3260,32 @@ Brief description: The apllication should be able to fetch a collection
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC10
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Verify user identification
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: High
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Server, database
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The server should be able to verify user identification
  against the database
 \begin_inset Newline newline
@@ -2823,22 +3295,32 @@ Brief description: The server should be able to verify user identification
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC11
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Define each case availability as either public or registered-only
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: High
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Admin
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The admin should be able to define if a case (or image/video)
  is public or registered-only
 \begin_inset Newline newline
@@ -2848,22 +3330,32 @@ Brief description: The admin should be able to define if a case (or image/video)
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC12
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Create new case
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Medium
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Admin
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The admin should be able to create a new case with media
  files
 \begin_inset Newline newline
@@ -2873,22 +3365,32 @@ Brief description: The admin should be able to create a new case with media
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC13
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Register user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Medium
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Admin
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The admin should be able to register a new user
 \begin_inset Newline newline
 \end_inset
@@ -2897,22 +3399,32 @@ Brief description: The admin should be able to register a new user
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Identifier: UC14
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Title: Create category
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Priority: Medium
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Actors: Admin
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Brief description: The admin should be able to create a new category, and
  add sub-/super-categories to it
 \end_layout
@@ -2922,11 +3434,15 @@ Non-Functional Requirements
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In this section the non-funktional requirements for the system are given
  and expleined in detail.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 All requirements are assigned one of four possible priority values.
  Critical, high, medium and low.
 \begin_inset Newline newline
@@ -2936,6 +3452,8 @@ All requirements are assigned one of four possible priority values.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Critical prioritized requirements is the most important and the system will
  not be approved if it's not implemented.
  
@@ -2946,6 +3464,8 @@ Critical prioritized requirements is the most important and the system will
 \end_layout
 
 \begin_layout Standard
+
+\size large
 High prioritized requirements is important for the customer, but these requireme
 nts wil be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
@@ -2955,6 +3475,8 @@ nts wil be implemented after the critical prioritized requirements.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Medium prioritized requirements is not that important for the customer as
  the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
@@ -2965,6 +3487,8 @@ Medium prioritized requirements is not that important for the customer as
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Low prioritized requirements is 
 \begin_inset Quotes eld
 \end_inset
@@ -3041,6 +3565,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Requirements
 \end_layout
 
@@ -3050,6 +3576,8 @@ Requirements
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -3070,6 +3598,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 To be done
 \end_layout
 
@@ -3588,10 +4118,6 @@ Product Backlog
 \end_layout
 
 \begin_layout Section
-Analysis
-\end_layout
-
-\begin_layout Section
 Software Architecture
 \end_layout
 
@@ -3600,6 +4126,8 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This chapter will describe the architechture of our application the way
  it was planned before the implementation started.
  It will describe the different modules of our system and through different
@@ -3612,6 +4140,8 @@ Purpose
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The purpose of this is to give an overview of the architectural structure
  of our system.
  This will enable the project developers to have a clear and planned approach
@@ -3631,7 +4161,9 @@ Scope
 \end_layout
 
 \begin_layout Standard
-Chapter 7 will cover the important parts of the achitecture of our system.
+
+\size large
+Chapter 6 will cover the important parts of the achitecture of our system.
  We will describe our architecture through several different views and to
  a detail that is to be expected given the size of the project.
  The logic and reasoning for our choices will also be discussed by the end
@@ -3644,6 +4176,8 @@ Selections of Architectural Viewpoints
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In order to illustrate the achitectural viewpoints we have decided to use
  the 
 \begin_inset Quotes eld
@@ -3665,10 +4199,14 @@ s, in addition to use cases (the +1), in order to accurately portray the
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The different view are:
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float table
 wide false
 sideways false
@@ -3676,6 +4214,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="4">
 <features tabularvalignment="middle">
@@ -3688,6 +4228,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 View
 \end_layout
 
@@ -3697,6 +4239,8 @@ View
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -3706,6 +4250,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Purpose
 \end_layout
 
@@ -3715,6 +4261,8 @@ Purpose
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Tables
 \end_layout
 
@@ -3726,6 +4274,8 @@ Tables
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Logical view
 \end_layout
 
@@ -3735,6 +4285,8 @@ Logical view
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 The logical view describes the functionality that the system provides towards
  its end-users.
 \end_layout
@@ -3745,6 +4297,8 @@ The logical view describes the functionality that the system provides towards
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 To create an overview of the system
 \end_layout
 
@@ -3754,6 +4308,8 @@ To create an overview of the system
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sequence diagrams
 \end_layout
 
@@ -3765,6 +4321,8 @@ Sequence diagrams
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Development view
 \end_layout
 
@@ -3774,6 +4332,8 @@ Development view
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 The development view is concerned with the system from a programmers perspective
 , it focuses on software management.
 \end_layout
@@ -3784,6 +4344,8 @@ The development view is concerned with the system from a programmers perspective
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 To aid with the implementation
 \end_layout
 
@@ -3793,6 +4355,8 @@ To aid with the implementation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Component diagram
 \end_layout
 
@@ -3804,6 +4368,8 @@ Component diagram
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Process view
 \end_layout
 
@@ -3813,6 +4379,8 @@ Process view
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 The process view illustrates the dynamic aspects of the system, it explains
  how the system communicates.
  This view addresses concurrency, performance, and scalability, etc.
@@ -3824,6 +4392,8 @@ The process view illustrates the dynamic aspects of the system, it explains
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 To model the runtime behaviour of the system
 \end_layout
 
@@ -3833,6 +4403,8 @@ To model the runtime behaviour of the system
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Activity diagram
 \end_layout
 
@@ -3844,6 +4416,8 @@ Activity diagram
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Physical view
 \end_layout
 
@@ -3853,6 +4427,8 @@ Physical view
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 The physical view describes the system from an system-engineering viewpoint.
  It handles system topology and the connections between the layers of the
  system.
@@ -3864,6 +4440,8 @@ The physical view describes the system from an system-engineering viewpoint.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 To show the physical components of the system and how they are connected
 \end_layout
 
@@ -3873,6 +4451,8 @@ To show the physical components of the system and how they are connected
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Deployment diagram
 \end_layout
 
@@ -3884,6 +4464,8 @@ Deployment diagram
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Scenarios
 \end_layout
 
@@ -3893,6 +4475,8 @@ Scenarios
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Scenarios are illustrated through several different use cases and describes
  the interaction between users and the system.
 \end_layout
@@ -3903,6 +4487,8 @@ Scenarios are illustrated through several different use cases and describes
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 To provide a demonstration on how the system can be used
 \end_layout
 
@@ -3912,10 +4498,14 @@ To provide a demonstration on how the system can be used
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Use cases
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 Use case diagram
 \end_layout
 
@@ -3952,6 +4542,8 @@ Logical view
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The following four sequence diagrams shows how our system can be used by
  the end-users and how the different modules of the system communicates
  with eachother during use.
@@ -3963,6 +4555,8 @@ Class diagram
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This diagram describes the classes that we use in our application.
 \end_layout
 
@@ -4008,6 +4602,8 @@ Sequence diagram 1
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This diagram depicts a case where the user of the application are browsing
  the available categories looking for a case, when the user find the case
  he/she accesses it and views the media.
@@ -4056,6 +4652,8 @@ Sequence diagram 2
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This diagram describes the use of the search function in our application.
  (Usecase UC6) The user starts up the application which then connects to
  the database and stores the data locally.
@@ -4113,6 +4711,8 @@ Sequence diagram 3
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This diagram shows how the admin can store new case-data in the database
  and on the webser through our Admin interface.
  (Add more detail)
@@ -4160,6 +4760,8 @@ Sequence diagram 4
 \end_layout
 
 \begin_layout Standard
+
+\size large
 This diagram shows how the admin can create new categories, should any new
  cases require it, through the admin interface.
  (Add more detail)
@@ -4207,6 +4809,8 @@ Develoment view
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The overall architecture will be that the phone application primarly communicate
 s with a PHP script at startup, to fetch the categories, cases, and also
  some references to the media files (images and videos) for each case.
@@ -4226,6 +4830,8 @@ s with a PHP script at startup, to fetch the categories, cases, and also
 
 \begin_layout Standard
 \align center
+
+\size large
 \begin_inset Float figure
 placement H
 wide false
@@ -4234,6 +4840,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Graphics
 	filename Figures/Overall_architecture.png
 	lyxscale 40
@@ -4246,6 +4854,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -4263,6 +4873,8 @@ Overall architecture
 \end_layout
 
 \begin_layout Standard
+
+\size large
 It is largely just a 
 \begin_inset Quotes eld
 \end_inset
@@ -4282,6 +4894,8 @@ Process view
 \end_layout
 
 \begin_layout Standard
+
+\size large
 (Create and insert activity diagrams)
 \end_layout
 
@@ -4290,6 +4904,8 @@ Physical view
 \end_layout
 
 \begin_layout Standard
+
+\size large
 (Create and insert deployment diagram)
 \end_layout
 
@@ -4298,6 +4914,8 @@ Scenarios
 \end_layout
 
 \begin_layout Standard
+
+\size large
 See chapter 5.4.1 and 5.4.2 for usecase diagram and usecases.
  (Create user stories here)
 \end_layout
@@ -4311,6 +4929,8 @@ Overall
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Since the data that will be used in this app is from real medical cases,
  the customer wanted to have full control over the data, and therefore did
  not want to rent/buy cloud services from third parties.
@@ -4320,6 +4940,8 @@ Since the data that will be used in this app is from real medical cases,
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Another important note about data storage, is that more relevant data for
  the app is produced every day, so the customer wanted to be able to 
 \begin_inset Quotes eld
@@ -4340,6 +4962,8 @@ push
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Since the customer only wants part of the data to be publicly available,
  some user identification must be enforced.
  User information, such as user name and password, must therefore also be
@@ -4347,6 +4971,8 @@ Since the customer only wants part of the data to be publicly available,
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Finally, the customer enquired about the possibility of using the app offline.
  Since the data for the app will be very large, the videos are typically
  XX MB, and each case usually have one, the team decided that storing all
@@ -4361,6 +4987,8 @@ Categories, cases and users
 \end_layout
 
 \begin_layout Standard
+
+\size large
 To store the categories and cases, and also a reference to the media files
  belonging to each case, a MySQL database will be used.
  The reason for this is that MySQL is free to use, and is also an SQL database
@@ -4375,11 +5003,15 @@ To store the categories and cases, and also a reference to the media files
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The design of the MySQL database can be seen in the ER-diagram below:
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\size large
 \begin_inset Float figure
 placement H
 wide false
@@ -4388,6 +5020,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Graphics
 	filename Figures/database.png
 	scale 40
@@ -4399,6 +5033,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -4416,6 +5052,8 @@ ER diagram
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reasoning behind this ER-diagram is as follows: A category must be identifie
 d by a name for the user, and will have an id to use as foreign key.
  A category can have zero or more sub-categories, and zero or more super-categor
@@ -4474,6 +5112,8 @@ Images and videos
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The MySQL database will only contain URL's to the images and videos, while
  the images and videos themselves will be stored on a web server, to allow
  streaming the media data directly to the phone application.
@@ -4487,6 +5127,8 @@ Local caching
 \end_layout
 
 \begin_layout Standard
+
+\size large
 (To be done)
 \end_layout
 
@@ -4495,6 +5137,8 @@ Architectural Rationale
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We tried our best to stick to the traditional Model View Controller (MVC)
  achitecture during our planning, this is a tried and tested achitecture
  that provides separate modules and provides us with the ability to modify
@@ -4511,6 +5155,8 @@ Architectural Changes
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Here we will present changes that we have made to the architecture during
  the development, this can be done either because we found a better solution
  or because our planned solution either had flaws or we were unable to implement
@@ -4533,6 +5179,8 @@ Lyx and LaTeX
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For writing the report, the team chose to write it in the document markup
  language LaTeX [1], by using the Lyx [2] document processor.
  The reason why LaTeX was chosen is that it is widely used in academica,
@@ -4543,6 +5191,8 @@ For writing the report, the team chose to write it in the document markup
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why Lyx was chosen for writing the document, is that it provides
  the user with an easy to use interface, that still enables the user to
  make use of all the different options with LaTeX, and that it is open source.
@@ -4565,6 +5215,8 @@ Google Drive and Docs
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For writing internal documents, such as meeting agendas, meeting summaries,
  and temporal plans and documents, Google Docs [1] was chosen.
  The reasoning behind this is that it is very easy to use, and also that
@@ -4573,6 +5225,8 @@ For writing internal documents, such as meeting agendas, meeting summaries,
 \end_layout
 
 \begin_layout Standard
+
+\size large
 To store and distribute files between the team members, Google Drive [2]
  was chosen.
  Google Docs is very closely integrated with Google Drive, so Google Drive
@@ -4596,6 +5250,8 @@ Titanium and JavaScript
 \end_layout
 
 \begin_layout Standard
+
+\size large
 To develop the mobile application, the Titanium [1] tool set was chosen.
  It provides its own IDE for writing the code, which is based on Eclipse
  [2].
@@ -4606,6 +5262,8 @@ To develop the mobile application, the Titanium [1] tool set was chosen.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 To decide on the platform and tools to use, the team spent a lot of time,
  together with the customer, evaluating different options.
  Since the customer had very clear requirements, not many available options
@@ -4614,10 +5272,14 @@ To decide on the platform and tools to use, the team spent a lot of time,
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 The application should be cross-platform (at least iOS and Android)
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 The application should have a native 
 \begin_inset Quotes eld
 \end_inset
@@ -4630,15 +5292,21 @@ look and feel
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 The application should have (close to) the same performance as if written
  in native code
 \end_layout
 
 \begin_layout Itemize
+
+\size large
 (The platform should be free to use if possible)
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Given these very specific, and quite demanding, requirements, the team was
  only able to find a couple of valid options.
  These options were in the end Titanium, which was chosen, and Xamarin [3].
@@ -4683,6 +5351,8 @@ write once, run everywhere
 \end_layout
 
 \begin_layout Standard
+
+\size large
 JavaScript [4] is a prototype-based scripting language with dynamic typing.
  It is commonly used to make web pages dynamic, but is in this case compiled
  down to native code for mobile platforms by Titanium.
@@ -4713,12 +5383,16 @@ PHP
 \end_layout
 
 \begin_layout Standard
+
+\size large
 PHP [1] is a server-side scripting language designed for web development.
  PHP code is interpreted by a web server with a PHP module, which generates
  the resulting web page.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For this project, PHP is used as a tiny layer between the mobile application
  and the database.
  Since Titanium does not support communication with external (My)SQL servers,
@@ -4727,6 +5401,8 @@ For this project, PHP is used as a tiny layer between the mobile application
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why PHP was chosen is that it is very simple to use for small
  scripts, and that it is well documented.
 \begin_inset Newline newline
@@ -4744,12 +5420,16 @@ JSON
 \end_layout
 
 \begin_layout Standard
+
+\size large
 JSON (JavaScript Object Notation) [1] is a lightweight data-interchange
  format, which is for both humans and computers to read/parse and write.
  
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For this project, JSON is used for the communication between the PHP script
  and the mobile applications.
  The JSON objects themselves is structured exactly the same as internally
@@ -4757,6 +5437,8 @@ For this project, JSON is used for the communication between the PHP script
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why JSON is used for this communication is that it is very well
  supported in both PHP and JavaScript, and very easy to use.
 \begin_inset Newline newline
@@ -4774,6 +5456,8 @@ Git and GitHub
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Which mentioned under 2.3, Versioning Control, we use Git [1] for versioning
  control, both for the report and the code.
  The Git server we use is GitHub [2].
@@ -4784,6 +5468,8 @@ Which mentioned under 2.3, Versioning Control, we use Git [1] for versioning
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why we use GitHub as the Git server, is that it is free to use,
  requires no personal servers, and that it provides a very useful web site
  to manage pull requests, issues, etc.
@@ -4808,6 +5494,8 @@ Facebook
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For distributing information and links between team members, Facebook [1]
  is used.
  The group maintains a private group where information is posted on the
@@ -4826,6 +5514,8 @@ wall
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why the team uses Facebook is that all team members had experience
  with Facebook, and check it regularily.
 \begin_inset Newline newline
@@ -4843,6 +5533,8 @@ TeamViewer
 \end_layout
 
 \begin_layout Standard
+
+\size large
 To access the iMac the team is borrowing from the customer remotely, the
  team uses TeamViewer [1].
  TeamViewer is a simple software for controling computers remotely over
@@ -4850,6 +5542,8 @@ To access the iMac the team is borrowing from the customer remotely, the
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why the team uses TeamViewer, is that it is free to use (non-comercia
 lly), easy to set up, and that the team members already have some experience
  with it.
@@ -4868,6 +5562,8 @@ MySQL
 \end_layout
 
 \begin_layout Standard
+
+\size large
 MySQL [1] is a very well-known SQL database, and by their own words 
 \begin_inset Quotes eld
 \end_inset
@@ -4880,6 +5576,8 @@ The world's most popular open source database
 \end_layout
 
 \begin_layout Standard
+
+\size large
 MySQL is used on this project for storing the categories, and their relations
  (sub-categories and super-categories), the cases, and information about
  each case (e.g.
@@ -4888,6 +5586,8 @@ MySQL is used on this project for storing the categories, and their relations
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why the team uses MySQL is that it is free to use, and that all
  team members have good experience with it beforehand.
 \begin_inset Newline newline
@@ -4905,11 +5605,15 @@ Violet UML editor
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Violet UML editor [1] is a cross-platform, easy to learn and use, UML editor,
  which draws nice and standard looking UML diagrams.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 For this project, Violet UML editor is used to draw the use case diagrams,
  sequence diagrams and class diagram.
  
@@ -4928,11 +5632,15 @@ Apache HTTP Server
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Apache [1] is a very common web server.
  It is free to use, very easy to set up, and works very well with PHP.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The Apache HTTP Server is used in this project to host the media files for
  the cases, and also host the PHP script which is a thin layer between the
  MySQL database and the mobile application.
@@ -4951,6 +5659,8 @@ Visual ER
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Visual ER [1] is a very simple Java based tool to create ER diagrams.
  The team uses Visual ER because it was developed by NTNU students, is very
  easy to use, and that the students have good experience with it from other
@@ -4970,6 +5680,8 @@ Balsamiq mockups
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Balsamiq mockups is a tool for creating GUI mockups.
  It enabled us to quickly create our initial GUI and then easily modify
  it as we, or the customer, felt any changes was needed or had another improveme
@@ -5018,6 +5730,8 @@ Sprint planning
 \end_layout
 
 \begin_layout Standard
+
+\size large
 During a large part of sprint 1, Marthe will be away on a planned trip,
  so the group will have to work while divided in two.
  To accomodate for this, Marthe will have responsibility for gathering all
@@ -5032,6 +5746,8 @@ During a large part of sprint 1, Marthe will be away on a planned trip,
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Kristoffer and Stian, who will be in Trondheim for the whole sprint, will
  start on the implementation.
  To begin with, Stian will set up a raw skeleton for displaying the categories
@@ -5056,6 +5772,8 @@ real
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Since the team is quite inexperience with scrum, an additional feature is
  planned, that will be implemented if the initial tasks are completed within
  the first half of the sprint.
@@ -5081,6 +5799,8 @@ developers
 \end_layout
 
 \begin_layout Standard
+
+\size large
 An additional goal of the sprint is to start working with Rally, to keep
  track of the backlog and the assigning of tasks.
 \end_layout
@@ -5090,6 +5810,8 @@ Sprint duration
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The duration of sprint 1 is from 4th of September to 17th of September.
 \end_layout
 
@@ -5098,6 +5820,8 @@ Backlog and main goals
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The main goal of the sprint is to have a running prototype which can display
  categories and cases, and their images and videos.
  For now, only stored locally or hardcoded URL's.
@@ -5109,6 +5833,8 @@ The main goal of the sprint is to have a running prototype which can display
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float table
 wide false
 sideways false
@@ -5116,6 +5842,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="19" columns="5">
 <features tabularvalignment="middle">
@@ -5129,6 +5857,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 ID
 \end_layout
 
@@ -5138,6 +5868,8 @@ ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Task
 \end_layout
 
@@ -5147,6 +5879,8 @@ Task
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Responsible
 \end_layout
 
@@ -5156,6 +5890,8 @@ Responsible
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Estimated cost
 \end_layout
 
@@ -5165,6 +5901,8 @@ Estimated cost
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Real cost
 \end_layout
 
@@ -5176,6 +5914,8 @@ Real cost
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 US4
 \end_layout
 
@@ -5185,6 +5925,8 @@ US4
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Browse categories
 \end_layout
 
@@ -5194,6 +5936,8 @@ Browse categories
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5203,6 +5947,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 10
 \end_layout
 
@@ -5212,6 +5958,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 12
 \end_layout
 
@@ -5223,6 +5971,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 US6
 \end_layout
 
@@ -5232,6 +5982,8 @@ US6
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Display picture
 \end_layout
 
@@ -5241,6 +5993,8 @@ Display picture
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5250,6 +6004,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 4
 \end_layout
 
@@ -5259,6 +6015,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2
 \end_layout
 
@@ -5270,6 +6028,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 US5
 \end_layout
 
@@ -5279,6 +6039,8 @@ US5
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Show case files (picture/video)
 \end_layout
 
@@ -5288,6 +6050,8 @@ Show case files (picture/video)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5297,6 +6061,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 12
 \end_layout
 
@@ -5306,6 +6072,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 8
 \end_layout
 
@@ -5317,6 +6085,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 ??
 \end_layout
 
@@ -5326,6 +6096,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Set up Rally
 \end_layout
 
@@ -5335,6 +6107,8 @@ Set up Rally
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe
 \end_layout
 
@@ -5344,6 +6118,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 4
 \end_layout
 
@@ -5353,6 +6129,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5364,6 +6142,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 ??
 \end_layout
 
@@ -5373,6 +6153,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Gather documents into single LATEX document
 \end_layout
 
@@ -5382,6 +6164,8 @@ Gather documents into single LATEX document
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe
 \end_layout
 
@@ -5391,6 +6175,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5400,6 +6186,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 4
 \end_layout
 
@@ -5411,6 +6199,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 ??
 \end_layout
 
@@ -5420,6 +6210,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sprint planning
 \end_layout
 
@@ -5429,6 +6221,8 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 -
 \end_layout
 
@@ -5438,6 +6232,8 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5447,6 +6243,8 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5467,6 +6265,8 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Intergroup QoS
 \end_layout
 
@@ -5476,6 +6276,8 @@ Intergroup QoS
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer
 \end_layout
 
@@ -5485,6 +6287,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 4
 \end_layout
 
@@ -5494,6 +6298,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5514,6 +6320,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Architecture diagrams
 \end_layout
 
@@ -5523,6 +6331,8 @@ Architecture diagrams
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer
 \end_layout
 
@@ -5532,6 +6342,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5541,6 +6353,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5561,6 +6375,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Requirement specification
 \end_layout
 
@@ -5570,6 +6386,8 @@ Requirement specification
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe
 \end_layout
 
@@ -5579,6 +6397,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5588,6 +6408,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5608,6 +6430,8 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sprint documentation
 \end_layout
 
@@ -5617,6 +6441,8 @@ Sprint documentation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5626,6 +6452,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5635,6 +6463,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5655,6 +6485,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Architecture documentation
 \end_layout
 
@@ -5664,6 +6496,8 @@ Architecture documentation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5673,6 +6507,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2
 \end_layout
 
@@ -5682,6 +6518,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2
 \end_layout
 
@@ -5702,6 +6540,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 GUI demo
 \end_layout
 
@@ -5711,6 +6551,8 @@ GUI demo
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer
 \end_layout
 
@@ -5720,6 +6562,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 10
 \end_layout
 
@@ -5729,6 +6573,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 9
 \end_layout
 
@@ -5749,6 +6595,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Set up MySQL server
 \end_layout
 
@@ -5758,6 +6606,8 @@ Set up MySQL server
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5767,6 +6617,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 4
 \end_layout
 
@@ -5776,6 +6628,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 4
 \end_layout
 
@@ -5796,6 +6650,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Set up Apache server
 \end_layout
 
@@ -5805,6 +6661,8 @@ Set up Apache server
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5814,6 +6672,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5823,6 +6683,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5843,6 +6705,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Server side communication
 \end_layout
 
@@ -5852,6 +6716,8 @@ Server side communication
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Stian
 \end_layout
 
@@ -5861,6 +6727,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 5
 \end_layout
 
@@ -5870,6 +6738,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3
 \end_layout
 
@@ -5890,6 +6760,8 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Client side communication
 \end_layout
 
@@ -5899,6 +6771,8 @@ Client side communication
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer
 \end_layout
 
@@ -5908,6 +6782,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 8
 \end_layout
 
@@ -5917,6 +6793,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 12
 \end_layout
 
@@ -5937,6 +6815,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Testing
 \end_layout
 
@@ -5946,6 +6826,8 @@ Testing
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer
 \end_layout
 
@@ -5955,6 +6837,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 10
 \end_layout
 
@@ -5964,6 +6848,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 ?
 \end_layout
 
@@ -5975,6 +6861,8 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sum
 \end_layout
 
@@ -6002,6 +6890,8 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 94
 \end_layout
 
@@ -6025,6 +6915,8 @@ Sum
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -6046,6 +6938,8 @@ System Burndown Chart
 \end_layout
 
 \begin_layout Standard
+
+\size large
 TODO: Marthe?
 \end_layout
 
@@ -6058,6 +6952,8 @@ User interface
 \end_layout
 
 \begin_layout Standard
+
+\size large
 A lot of the implementation for this sprint is programming the user interface
  for viewing categories and cases, and their images and videos.
  In the early phase of the sprint, we made a GUI demo with some options,
@@ -6070,10 +6966,14 @@ A lot of the implementation for this sprint is programming the user interface
 \end_layout
 
 \begin_layout Standard
+
+\size large
 INSERT PICTURES FROM THE DEMO
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The first decision which had to be made, was to figure out how we 
 \begin_inset Quotes eld
 \end_inset
@@ -6114,6 +7014,8 @@ function
 
 \begin_layout Standard
 \align center
+
+\size large
 \begin_inset Float figure
 placement H
 wide false
@@ -6122,6 +7024,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Graphics
 	filename Figures/GUI_browsing_with_tabs.png
 
@@ -6132,6 +7036,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -6149,6 +7055,8 @@ GUI demo: Browsing with tabs
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason for why we chose to use tabs, is that is the standard way to
  split a app into several functions, both for Android and iOS, and the customer
  has pointed out repeatedly that 
@@ -6165,6 +7073,8 @@ native look and feel
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Further on, we decided to simply use a list view to that simulates a tree
  structure to display the categories and the cases.
  To make the structure of the categories and cases as general as possible,
@@ -6187,6 +7097,8 @@ parents
 
 \begin_layout Standard
 \align center
+
+\size large
 \begin_inset Float figure
 placement H
 wide false
@@ -6195,6 +7107,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Graphics
 	filename Figures/GUI_DEMO_browse.png
 	lyxscale 30
@@ -6207,6 +7121,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -6224,6 +7140,8 @@ GUI demo: Browsing navigation
 \end_layout
 
 \begin_layout Standard
+
+\size large
 When a case is selcted, the case's images and videos will have to be displayed.
  To begin with, this is done be simply taking the user to a view of the
  first element (video or image), and from there, the user can swipe between
@@ -6238,10 +7156,14 @@ Client-server communication
 \end_layout
 
 \begin_layout Paragraph
+
+\size large
 Server side
 \end_layout
 
 \begin_layout Standard
+
+\size large
 As Titanium does not support direct communication with an external MySQL
  server, a dedicated component to compensate for this must be developed,
  and run on the server side.
@@ -6259,10 +7181,14 @@ As Titanium does not support direct communication with an external MySQL
 \end_layout
 
 \begin_layout Paragraph
+
+\size large
 Client side
 \end_layout
 
 \begin_layout Standard
+
+\size large
 When the application is booting up, the client will poll the server for
  data once, by sending an HTTP GET request, using Titanium's build-in support
  for this.
@@ -6279,10 +7205,14 @@ Testing
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The following tests where executed on October 27th 2013.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float table
 wide false
 sideways false
@@ -6290,6 +7220,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="4">
 <features tabularvalignment="middle">
@@ -6302,6 +7234,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test ID
 \end_layout
 
@@ -6311,6 +7245,8 @@ Test ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test name
 \end_layout
 
@@ -6320,6 +7256,8 @@ Test name
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Result
 \end_layout
 
@@ -6329,6 +7267,8 @@ Result
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Comments
 \end_layout
 
@@ -6340,6 +7280,8 @@ Comments
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T01
 \end_layout
 
@@ -6349,6 +7291,8 @@ T01
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Category navigation
 \end_layout
 
@@ -6378,6 +7322,8 @@ Category navigation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T02
 \end_layout
 
@@ -6387,6 +7333,8 @@ T02
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Selecting cases
 \end_layout
 
@@ -6416,6 +7364,8 @@ Selecting cases
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T03
 \end_layout
 
@@ -6425,6 +7375,8 @@ T03
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Showing images
 \end_layout
 
@@ -6454,6 +7406,8 @@ Showing images
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T04
 \end_layout
 
@@ -6463,6 +7417,8 @@ T04
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Showing video
 \end_layout
 
@@ -6492,6 +7448,8 @@ Showing video
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T05
 \end_layout
 
@@ -6501,6 +7459,8 @@ T05
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Finding a specific case
 \end_layout
 
@@ -6530,6 +7490,8 @@ Finding a specific case
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T06
 \end_layout
 
@@ -6539,6 +7501,8 @@ T06
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Browse case media
 \end_layout
 
@@ -6571,6 +7535,8 @@ Browse case media
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -6596,12 +7562,16 @@ Ocuring Risks
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The risks that came to life during sprint 1 is summarized in the table below,
  along with the actions taken.
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\size large
 \begin_inset Float table
 placement H
 wide false
@@ -6610,6 +7580,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="4">
 <features islongtable="true" longtabularalignment="center">
@@ -6622,6 +7594,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 ID
 \end_layout
 
@@ -6631,6 +7605,8 @@ ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Risk factor
 \end_layout
 
@@ -6640,6 +7616,8 @@ Risk factor
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Explanation
 \end_layout
 
@@ -6649,6 +7627,8 @@ Explanation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Actions taken
 \end_layout
 
@@ -6660,6 +7640,8 @@ Actions taken
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 R1
 \end_layout
 
@@ -6669,6 +7651,8 @@ R1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Sick group member
 \end_layout
 
@@ -6678,6 +7662,8 @@ Sick group member
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Kristoffer was sick 1.5 days
 \end_layout
 
@@ -6687,6 +7673,8 @@ Kristoffer was sick 1.5 days
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 The group were already ahead of time, so no actions was necessary
 \end_layout
 
@@ -6698,6 +7686,8 @@ The group were already ahead of time, so no actions was necessary
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 R12
 \end_layout
 
@@ -6707,6 +7697,8 @@ R12
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Absent group member
 \end_layout
 
@@ -6716,6 +7708,8 @@ Absent group member
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe were gone travelling during a large part of the sprint
 \end_layout
 
@@ -6725,6 +7719,8 @@ Marthe were gone travelling during a large part of the sprint
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Marthe informed the group about the absence in good time before the period
  in question, so the group were able to plan with this in mind.
  The agreement was that Marthe were going to work on some pre-defined tasks
@@ -6743,6 +7739,8 @@ Marthe informed the group about the absence in good time before the period
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
