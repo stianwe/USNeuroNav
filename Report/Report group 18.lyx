@@ -2176,7 +2176,7 @@ Scrum Meetings
 \end_layout
 
 \begin_layout Standard
-There are several different meeting in the scrum life sycle.
+There are several different meeting in the scrum lifecycle.
 \end_layout
 
 \begin_layout Subsubsection
@@ -6207,6 +6207,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/GUI_DEMO_browse.png
+	lyxscale 30
 	scale 30
 
 \end_inset
