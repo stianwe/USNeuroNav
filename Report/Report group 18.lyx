@@ -2448,10 +2448,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Tabel figures/Overall Functional Requirements.png
@@ -2496,8 +2492,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/usecaseUser.png
-	lyxscale 70
-	scale 80
+	lyxscale 90
+	scale 60
 
 \end_inset
 
@@ -2533,7 +2529,7 @@ status open
 \begin_inset Graphics
 	filename Figures/usecaseAdmin.png
 	lyxscale 70
-	scale 80
+	scale 70
 
 \end_inset
 
@@ -2612,7 +2608,7 @@ Actors: Unregistered user and registered user
 
 \begin_layout Standard
 Brief description: The user should be able to browse sub-categories of a
- category by selecting a category
+ category by selecting a category 
 \begin_inset Newline newline
 \end_inset
 
@@ -2637,7 +2633,7 @@ Actors: Unregistered user and registered user
 
 \begin_layout Standard
 Brief description: The user should be able to select and view a case by
- clicking on it
+ clicking on it 
 \begin_inset Newline newline
 \end_inset
 
@@ -2992,7 +2988,6 @@ An overall tabel of the non-functional requirements and its priorities are
 
 \begin_layout Standard
 \begin_inset Float table
-placement H
 wide false
 sideways false
 status open
@@ -3001,13 +2996,12 @@ status open
 \align center
 \begin_inset Graphics
 	filename Tabel figures/Overall Non-Functional Requirements.png
+	lyxscale 50
+	width 70line%
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -3016,10 +3010,6 @@ Overall Non-Functional Requirements
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3080,7 +3070,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+To be done
 \end_layout
 
 \end_inset
