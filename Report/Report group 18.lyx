@@ -371,6 +371,8 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Part
+
+\size giant
 Planning and Requirements
 \end_layout
 
@@ -382,10 +384,14 @@ Planning and Requirements
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Introduction
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Project Name
 \end_layout
 
@@ -404,6 +410,8 @@ USNeuroNav App
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Project Client
 \end_layout
 
@@ -415,6 +423,8 @@ SINTEF and The National Competence Center for Ultrasound and Image Guided
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 SINTEF
 \end_layout
 
@@ -436,6 +446,8 @@ create value through knowledge generation, research and innovation, and
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 The National Competence Center for Ultrasound and Image Guided Therapy
 \end_layout
 
@@ -452,6 +464,8 @@ g closely in order to improve current methods and techniques for minimally
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Stakeholders
 \end_layout
 
@@ -468,6 +482,8 @@ The project sponsor and customer is SINTEF and The National Competence Center
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Project Background and Purpose
 \end_layout
 
@@ -512,6 +528,8 @@ The National Competence Center for Ultrasound and Image Guided Therapy collects
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Project Goal
 \end_layout
 
@@ -524,6 +542,8 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Project Duration
 \end_layout
 
@@ -542,6 +562,8 @@ The project started on August 21th and will conclude on November 21th.
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Planning
 \end_layout
 
@@ -556,10 +578,14 @@ This chapter describes the project plan, terms and team organisation.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Project Plan
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Measurement of Project Effort
 \end_layout
 
@@ -577,6 +603,8 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 General Terms
 \end_layout
 
@@ -635,6 +663,8 @@ For intergroup communication we have selected to use Google Docs for organizing
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Planned Effort
 \end_layout
 
@@ -684,6 +714,8 @@ We are planning to deliver the final product to the customer 13.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Schedule of Result
 \end_layout
 
@@ -696,6 +728,8 @@ Scrum is being used for the development phase.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Work Break Down Structure
 \end_layout
 
@@ -1030,6 +1064,8 @@ Project Plan
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Milestones
 \end_layout
 
@@ -1547,6 +1583,8 @@ Milestones
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Organization
 \end_layout
 
@@ -1557,6 +1595,8 @@ This section describes how the group is organized and why.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Organizational diagram ????? trengs denne å ha med? den fine rapporten fra
  duc hadde det ikke, og den er jo ikke helt bra/reel? Kristoffer: Er enig,
  føler vi kan ta bort dette.
@@ -1605,6 +1645,8 @@ Organizational diagram
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Roles
 \end_layout
 
@@ -1920,6 +1962,8 @@ Roles
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Version Control
 \end_layout
 
@@ -1947,6 +1991,8 @@ y.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Risk Management
 \end_layout
 
@@ -1964,6 +2010,8 @@ To prepare for unfortunate events that might occur during the project the
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Risk handling
 \end_layout
 
@@ -2040,10 +2088,14 @@ Risk Matrix
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Quality Assurance
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Customer interaction
 \end_layout
 
@@ -2086,6 +2138,8 @@ Answer e-mails is to be done as soon as possible.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Supervisor interaction
 \end_layout
 
@@ -2123,6 +2177,8 @@ From September 20 onwards will meetings be held on Fridays at 12:15.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Group interaction
 \end_layout
 
@@ -2147,10 +2203,14 @@ ly.
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Preliminary Studies
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Current Situation
 \end_layout
 
@@ -2185,6 +2245,8 @@ easy
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Desired Solution
 \end_layout
 
@@ -2205,6 +2267,8 @@ The solution that the customer desires, is a simple method for doctors (and
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Evaluation Criteria
 \end_layout
 
@@ -2221,6 +2285,8 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Alternate Solutions
 \end_layout
 
@@ -2235,6 +2301,8 @@ There is some similar solutions for the USNeuroNav App.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \end_layout
 
@@ -2262,6 +2330,8 @@ The app showes pictures and videoes of ultrasound images.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Helsinki Microneurosurgery Basics and Tricks App
 \end_layout
 
@@ -2287,10 +2357,14 @@ This app for Microneurosurgery contains the "Helsinki Microneurosurgery
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Evaluation of Alternate Solutions
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 EUS - Diagnostic and Interventional Endoscopic Ultrasound app
 \end_layout
 
@@ -2321,6 +2395,8 @@ Since it is for iPhones it is portable, wich is necessary in our case.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Helsinki Microneurosurgery Basics and Tricks
 \end_layout
 
@@ -2338,6 +2414,8 @@ The ability to show pictures and videos is essential, wich this app provides.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Choice of Solution
 \end_layout
 
@@ -2363,6 +2441,8 @@ We will develoop the system with frameworks and tools described in section
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Lifecycle Model
 \end_layout
 
@@ -2376,6 +2456,8 @@ In this section our choise for the lifecycle model is described.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Why Scrum
 \end_layout
 
@@ -2410,6 +2492,8 @@ The ability to cope with changes is also one of the reason we chose scrum.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Scrum
 \end_layout
 
@@ -2427,6 +2511,8 @@ Scrum is an agile software development methodology.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Srum Artefacts
 \end_layout
 
@@ -2494,6 +2580,8 @@ Scrum artefacts
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Scrum Meetings
 \end_layout
 
@@ -2504,6 +2592,8 @@ There are several different meeting in the scrum lifecycle.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Sprint planning meeting
 \end_layout
 
@@ -2519,6 +2609,8 @@ It is a meeting held at the start of each sprint.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Daily standups
 \end_layout
 
@@ -2532,6 +2624,8 @@ It is a short meeting, not more than 10 - 15 minutes, at the start of each
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Sprint review meeting
 \end_layout
 
@@ -2548,6 +2642,8 @@ It is held after each sprint to review which tasks from the sprint backlog
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Sprint retrospective meeting
 \end_layout
 
@@ -2568,6 +2664,8 @@ It is held after each sprint to reflect on the past sprint and to improve
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Requirements
 \end_layout
 
@@ -2581,6 +2679,8 @@ In this section the system requirements will be presented.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Scope
 \end_layout
 
@@ -2653,6 +2753,8 @@ back
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Definitions, Acronyms and Abbreviations
 \end_layout
 
@@ -2685,10 +2787,14 @@ Use Case: Technique that specify the interaction between the user and the
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Actors
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Unregistered user
 \end_layout
 
@@ -2703,6 +2809,8 @@ on.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Registered users
 \end_layout
 
@@ -2716,6 +2824,8 @@ This is users within the organization.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Administrator
 \end_layout
 
@@ -2729,6 +2839,8 @@ This is the user with authority to access the administration panel in the
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Functional Requirements
 \end_layout
 
@@ -2848,6 +2960,8 @@ Overall Functional Requirements
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Use Case diagram
 \end_layout
 
@@ -2924,6 +3038,8 @@ Use Case admin
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Use Case description
 \end_layout
 
@@ -3430,6 +3546,8 @@ Brief description: The admin should be able to create a new category, and
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Non-Functional Requirements
 \end_layout
 
@@ -3543,6 +3661,8 @@ Overall Non-Functional Requirements
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Product Backlog
 \end_layout
 
@@ -4118,10 +4238,14 @@ Product Backlog
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Software Architecture
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Introduction
 \end_layout
 
@@ -4136,6 +4260,8 @@ This chapter will describe the architechture of our application the way
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Purpose
 \end_layout
 
@@ -4157,6 +4283,8 @@ The purpose of this is to give an overview of the architectural structure
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Scope
 \end_layout
 
@@ -4172,6 +4300,8 @@ Chapter 6 will cover the important parts of the achitecture of our system.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Selections of Architectural Viewpoints
 \end_layout
 
@@ -4534,10 +4664,14 @@ Architectural Viewpoints
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Views
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Logical view
 \end_layout
 
@@ -4551,6 +4685,8 @@ The following four sequence diagrams shows how our system can be used by
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 Class diagram
 \end_layout
 
@@ -4598,6 +4734,8 @@ Class diagram
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 Sequence diagram 1
 \end_layout
 
@@ -4648,6 +4786,8 @@ Sequence diagram 1
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 Sequence diagram 2
 \end_layout
 
@@ -4707,6 +4847,8 @@ Sequence diagram 2
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 Sequence diagram 3
 \end_layout
 
@@ -4756,6 +4898,8 @@ Sequence diagram 3
 \end_layout
 
 \begin_layout Subsubsection*
+
+\size large
 Sequence diagram 4
 \end_layout
 
@@ -4805,6 +4949,8 @@ Sequence diagram 4
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Develoment view
 \end_layout
 
@@ -4890,6 +5036,8 @@ classification
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Process view
 \end_layout
 
@@ -4900,6 +5048,8 @@ Process view
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Physical view
 \end_layout
 
@@ -4910,6 +5060,8 @@ Physical view
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Scenarios
 \end_layout
 
@@ -4921,10 +5073,14 @@ See chapter 5.4.1 and 5.4.2 for usecase diagram and usecases.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Data Storage
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Overall
 \end_layout
 
@@ -4983,6 +5139,8 @@ Finally, the customer enquired about the possibility of using the app offline.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Categories, cases and users
 \end_layout
 
@@ -5108,6 +5266,8 @@ frontal lobe
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Images and videos
 \end_layout
 
@@ -5123,6 +5283,8 @@ The MySQL database will only contain URL's to the images and videos, while
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Local caching
 \end_layout
 
@@ -5133,6 +5295,8 @@ Local caching
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Architectural Rationale
 \end_layout
 
@@ -5151,6 +5315,8 @@ We tried our best to stick to the traditional Model View Controller (MVC)
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Architectural Changes
 \end_layout
 
@@ -5171,10 +5337,14 @@ Here we will present changes that we have made to the architecture during
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Tools and Technology
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Lyx and LaTeX
 \end_layout
 
@@ -5211,6 +5381,8 @@ The reason why Lyx was chosen for writing the document, is that it provides
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Google Drive and Docs 
 \end_layout
 
@@ -5246,6 +5418,8 @@ To store and distribute files between the team members, Google Drive [2]
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Titanium and JavaScript
 \end_layout
 
@@ -5379,6 +5553,8 @@ JavaScript [4] is a prototype-based scripting language with dynamic typing.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 PHP
 \end_layout
 
@@ -5416,6 +5592,8 @@ The reason why PHP was chosen is that it is very simple to use for small
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 JSON
 \end_layout
 
@@ -5452,6 +5630,8 @@ The reason why JSON is used for this communication is that it is very well
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Git and GitHub
 \end_layout
 
@@ -5490,7 +5670,11 @@ oNav.
 \end_layout
 
 \begin_layout Subsection
-Facebook 
+
+\size largest
+Facebook
+\size default
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5529,6 +5713,8 @@ The reason why the team uses Facebook is that all team members had experience
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 TeamViewer 
 \end_layout
 
@@ -5558,7 +5744,11 @@ lly), easy to set up, and that the team members already have some experience
 \end_layout
 
 \begin_layout Subsection
-MySQL 
+
+\size largest
+MySQL
+\size default
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5601,6 +5791,8 @@ The reason why the team uses MySQL is that it is free to use, and that all
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Violet UML editor
 \end_layout
 
@@ -5628,6 +5820,8 @@ For this project, Violet UML editor is used to draw the use case diagrams,
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Apache HTTP Server
 \end_layout
 
@@ -5655,6 +5849,8 @@ The Apache HTTP Server is used in this project to host the media files for
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Visual ER 
 \end_layout
 
@@ -5676,6 +5872,8 @@ Visual ER [1] is a very simple Java based tool to create ER diagrams.
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Balsamiq mockups 
 \end_layout
 
@@ -5699,6 +5897,12 @@ nt that needed to be made.
 [1] http://balsamiq.com/products/mockups/
 \end_layout
 
+\begin_layout Section
+
+\size largest
+Rally
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -5707,6 +5911,8 @@ nt that needed to be made.
 \end_layout
 
 \begin_layout Part
+
+\size giant
 Sprints 
 \end_layout
 
@@ -5718,14 +5924,20 @@ Sprints
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Sprint 1
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Sprint Planning
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Sprint planning
 \end_layout
 
@@ -5806,6 +6018,8 @@ An additional goal of the sprint is to start working with Rally, to keep
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Sprint duration
 \end_layout
 
@@ -5816,6 +6030,8 @@ The duration of sprint 1 is from 4th of September to 17th of September.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Backlog and main goals
 \end_layout
 
@@ -6934,6 +7150,8 @@ Sprint 1 backlog
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 System Burndown Chart
 \end_layout
 
@@ -6944,10 +7162,14 @@ TODO: Marthe?
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Implementation
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 User interface
 \end_layout
 
@@ -7152,6 +7374,8 @@ When a case is selcted, the case's images and videos will have to be displayed.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Client-server communication
 \end_layout
 
@@ -7201,6 +7425,8 @@ When the application is booting up, the client will poll the server for
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Testing
 \end_layout
 
@@ -7558,6 +7784,8 @@ Completed tests for sprint 1
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Ocuring Risks
 \end_layout
 
@@ -7758,10 +7986,14 @@ Occurring risks
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Customer Feedback
 \end_layout
 
 \begin_layout Standard
+
+\size large
 As the customer was away travelling during the whole sprint, all contact
  with him were done using emails.
  Prior to his travel, we decided that the sprint delivery, where the team
@@ -7781,10 +8013,14 @@ As the customer was away travelling during the whole sprint, all contact
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Sprint Evaluation
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The implementation of the initial stories, viewing categories and cases,
  and their images and videos, went very well, and were done withing the
  first half of the sprint.
@@ -7812,10 +8048,14 @@ learning by doing
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 What went well during this sprint
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The development phase turned out very good, given the odds.
  We had absolutely no experience with Titanium, JavaScript or Mac before
  the sprint.
@@ -7824,16 +8064,22 @@ The development phase turned out very good, given the odds.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We didn't have much progress on the report early in the sprint, but during
  the last week, we really produced a lot of good content, which we are very
  happy with.
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
+
+\size large
 We had a little slow start with the report writing this sprint, mainly because
  only the 
 \begin_inset Quotes eld
@@ -7855,30 +8101,44 @@ developers
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Sprint 2
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Sprint Planning
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Sprint duration
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Backlog
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 System Burndown Chart
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Implementation
 \end_layout
 
 \begin_layout Standard
+
+\size large
 user interface
 \end_layout
 
@@ -7887,30 +8147,44 @@ user interface
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Testing
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Ocuring Risks
 \end_layout
 
 \begin_layout Standard
+
+\size large
 noen har vært syke, bprtreist, fikk hardware sent?...
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Customer Feedback
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Sprint Evaluation
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 What went well during this sprint
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 What can be improved for the next sprint
 \end_layout
 
@@ -7922,26 +8196,38 @@ What can be improved for the next sprint
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Testing
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Types of Testing
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Unit Testing
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Integration Testing
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 System Testing
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Acceptance Testing
 \end_layout
 
@@ -7953,6 +8239,8 @@ Acceptance Testing
 \end_layout
 
 \begin_layout Part
+
+\size giant
 Conclusion and Evaluation
 \end_layout
 
@@ -7964,138 +8252,206 @@ Conclusion and Evaluation
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Conclusion
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Description
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Results
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 View
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Edit
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Add
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Report
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Report access
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Further Work
 \end_layout
 
 \begin_layout Standard
+
+\size large
 hjhjhjhjhjhjhjhjhj
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Primary
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Secondary
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Evaluation
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Description
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Group Evaluation
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Group changes
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Customer
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Language barriers
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Group dynamics
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Role assignment
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Motivation
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Risk evaluation
 \end_layout
 
 \begin_layout Subsection
-12.3 Project Evaluation
+
+\size largest
+Project Evaluation
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Planning
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Preliminary studies
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Scrum
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Meetings
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Technical problems
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Course feedback
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Testing
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Time usage
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Technology Evaluation
 \end_layout
 
 \begin_layout Section
+
+\size huge
 References
 \end_layout
 
 \begin_layout Standard
+
+\size large
 [1] EUS - Diagnostic and Interventional Endoscopic Ultrasound, 
 \begin_inset Flex URL
 status collapsed
@@ -8112,9 +8468,11 @@ https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
 
 \begin_layout Standard
 \noindent
+
+\size large
 [2] Helsinki Microneurosurgery Basics and Tricks, 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -8134,6 +8492,8 @@ https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
 \end_layout
 
 \begin_layout Part
+
+\size giant
 Appendices
 \end_layout
 
@@ -8145,38 +8505,50 @@ Appendices
 \end_layout
 
 \begin_layout Section
+
+\size huge
 Templates
 \end_layout
 
 \begin_layout Subsection
+
+\size largest
 Advisor/Customer meeting minutes DD/MM
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Present
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Absent
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Agenda
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Conclusion
 \end_layout
 
-\begin_layout Standard
-jkjkjkjkjk
-\end_layout
-
 \begin_layout Section
+
+\size huge
 Test plan
 \end_layout
 
 \begin_layout Standard
+
+\size large
 \begin_inset Float table
 wide false
 sideways false
@@ -8184,6 +8556,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -8194,6 +8568,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test ID
 \end_layout
 
@@ -8203,6 +8579,8 @@ Test ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T01
 \end_layout
 
@@ -8214,6 +8592,8 @@ T01
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test name
 \end_layout
 
@@ -8223,6 +8603,8 @@ Test name
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Category navigation
 \end_layout
 
@@ -8234,6 +8616,8 @@ Category navigation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -8243,6 +8627,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
@@ -8252,6 +8638,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Select on 
 \begin_inset Quotes eld
@@ -8272,6 +8660,8 @@ Tumor
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2.
  Select on 
 \begin_inset Quotes eld
@@ -8302,6 +8692,8 @@ Primary tumor
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Requirements involved
 \end_layout
 
@@ -8311,6 +8703,8 @@ Requirements involved
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 FR01
 \end_layout
 
@@ -8322,6 +8716,8 @@ FR01
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Input
 \end_layout
 
@@ -8342,6 +8738,8 @@ Input
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Preconditions
 \end_layout
 
@@ -8362,6 +8760,8 @@ Preconditions
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Completion criteria
 \end_layout
 
@@ -8371,6 +8771,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
@@ -8380,6 +8782,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Sub-categories of 
 \begin_inset Quotes eld
@@ -8400,6 +8804,8 @@ Tumor
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2.
  Sub-categories of 
 \begin_inset Quotes eld
@@ -8438,6 +8844,8 @@ Tumor
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Dependencies
 \end_layout
 
@@ -8458,6 +8866,8 @@ Dependencies
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Results
 \end_layout
 
@@ -8467,6 +8877,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
@@ -8476,6 +8888,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Accepted
 \end_layout
@@ -8488,6 +8902,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2.
  Accepted
 \end_layout
@@ -8510,6 +8926,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Comments
 \end_layout
 
@@ -8533,6 +8951,8 @@ Comments
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -8558,6 +8978,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -8568,6 +8990,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test ID
 \end_layout
 
@@ -8577,6 +9001,8 @@ Test ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T02
 \end_layout
 
@@ -8588,6 +9014,8 @@ T02
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test name
 \end_layout
 
@@ -8597,6 +9025,8 @@ Test name
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Viewing cases
 \end_layout
 
@@ -8608,6 +9038,8 @@ Viewing cases
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -8617,6 +9049,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
 <features tabularvalignment="middle">
@@ -8626,6 +9060,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Select 
 \begin_inset Quotes eld
@@ -8646,6 +9082,8 @@ Cranial Vascular
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2.
  Select 
 \begin_inset Quotes eld
@@ -8666,6 +9104,8 @@ Aneu
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3.
  Select 
 \begin_inset Quotes eld
@@ -8696,6 +9136,8 @@ Frontal lobe
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Requirements involved
 \end_layout
 
@@ -8705,6 +9147,8 @@ Requirements involved
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 FR01
 \end_layout
 
@@ -8716,6 +9160,8 @@ FR01
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Input
 \end_layout
 
@@ -8736,6 +9182,8 @@ Input
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Preconditions
 \end_layout
 
@@ -8745,6 +9193,8 @@ Preconditions
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 List of cases for any categories showing
 \end_layout
 
@@ -8756,6 +9206,8 @@ List of cases for any categories showing
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Completion criteria
 \end_layout
 
@@ -8765,6 +9217,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
@@ -8774,6 +9228,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3.
  
 \begin_inset Quotes eld
@@ -8804,6 +9260,8 @@ Case 4
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Dependencies
 \end_layout
 
@@ -8824,6 +9282,8 @@ Dependencies
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Results
 \end_layout
 
@@ -8833,6 +9293,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
@@ -8842,6 +9304,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 3.
  Accepted
 \end_layout
@@ -8864,6 +9328,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Comments
 \end_layout
 
@@ -8887,6 +9353,8 @@ Comments
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -8908,6 +9376,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -8918,6 +9388,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test ID
 \end_layout
 
@@ -8927,6 +9399,8 @@ Test ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T03
 \end_layout
 
@@ -8938,6 +9412,8 @@ T03
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test name
 \end_layout
 
@@ -8947,6 +9423,8 @@ Test name
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Show image
 \end_layout
 
@@ -8958,6 +9436,8 @@ Show image
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -8967,6 +9447,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
 <features tabularvalignment="middle">
@@ -8976,6 +9458,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Select 
 \begin_inset Quotes eld
@@ -9028,6 +9512,8 @@ Case 1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Requirements involved
 \end_layout
 
@@ -9037,6 +9523,8 @@ Requirements involved
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 FR02
 \end_layout
 
@@ -9048,6 +9536,8 @@ FR02
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Input
 \end_layout
 
@@ -9068,6 +9558,8 @@ Input
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Preconditions
 \end_layout
 
@@ -9077,6 +9569,8 @@ Preconditions
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Case 1 showing in the menu
 \end_layout
 
@@ -9088,6 +9582,8 @@ Case 1 showing in the menu
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Completion criteria
 \end_layout
 
@@ -9097,6 +9593,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
@@ -9106,6 +9604,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  An image is displayed
 \end_layout
@@ -9128,6 +9628,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Dependencies
 \end_layout
 
@@ -9137,6 +9639,8 @@ Dependencies
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T02
 \end_layout
 
@@ -9148,6 +9652,8 @@ T02
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Results
 \end_layout
 
@@ -9157,6 +9663,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
@@ -9166,6 +9674,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Accepted
 \end_layout
@@ -9188,6 +9698,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Comments
 \end_layout
 
@@ -9211,6 +9723,8 @@ Comments
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -9232,6 +9746,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
@@ -9242,6 +9758,8 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test ID
 \end_layout
 
@@ -9251,6 +9769,8 @@ Test ID
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T04
 \end_layout
 
@@ -9262,6 +9782,8 @@ T04
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Test name
 \end_layout
 
@@ -9271,6 +9793,8 @@ Test name
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Show video
 \end_layout
 
@@ -9282,6 +9806,8 @@ Show video
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Description
 \end_layout
 
@@ -9291,6 +9817,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
 <features tabularvalignment="middle">
@@ -9300,6 +9828,8 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Select 
 \begin_inset Quotes eld
@@ -9320,6 +9850,8 @@ Case 1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 2.
  Browse until video appears
 \end_layout
@@ -9353,6 +9885,8 @@ Case 1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Requirements involved
 \end_layout
 
@@ -9362,6 +9896,8 @@ Requirements involved
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 FR02
 \end_layout
 
@@ -9373,6 +9909,8 @@ FR02
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Input
 \end_layout
 
@@ -9393,6 +9931,8 @@ Input
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Preconditions
 \end_layout
 
@@ -9402,6 +9942,8 @@ Preconditions
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Case 1 showing in the menu
 \end_layout
 
@@ -9413,6 +9955,8 @@ Case 1 showing in the menu
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Completion criteria
 \end_layout
 
@@ -9422,6 +9966,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
@@ -9431,6 +9977,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Case 1 media is displayed
 \end_layout
@@ -9453,6 +10001,8 @@ Completion criteria
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Dependencies
 \end_layout
 
@@ -9462,6 +10012,8 @@ Dependencies
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 T02
 \end_layout
 
@@ -9473,6 +10025,8 @@ T02
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Results
 \end_layout
 
@@ -9482,6 +10036,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
@@ -9491,6 +10047,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 1.
  Accepted
 \end_layout
@@ -9513,6 +10071,8 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size large
 Comments
 \end_layout
 
@@ -9536,6 +10096,8 @@ Comments
 \end_layout
 
 \begin_layout Plain Layout
+
+\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
