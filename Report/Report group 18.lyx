@@ -734,21 +734,35 @@ Work Break Down Structure
 \end_layout
 
 \begin_layout Standard
-forkl
-\size large
-are gant diagram...
-\end_layout
-
-\begin_layout Standard
 
 \size large
-The table below gives an overall description of the sprints.
+On the August 21th the group met the customer for the first time and started
+ working, The planning and pre study phase is planned to last for four weeks,
+ since we early knew that we did not have the required equipment.
+ The planning phase contains planning the project, requirements spesification,
+ risk analysis, design of GUI and architecture.
+ The pre study phase contains planning, management and researching the technolog
+ies needed for the project.
+ The group plans to have 3 sprints, each going over 2 weeks.
+ Every sprint will contain a planning part, an implementation part, and
+ a testing part.
  
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 
-\size large
+\begin_inset Newline newline
+\end_inset
+
+The table below gives an overall description of the sprints.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Float table
 wide false
 sideways false
@@ -1013,12 +1027,15 @@ Overall sprints
 
 \end_inset
 
+The work breakdown structure can be seen in Figure 1
+\begin_inset Newline newline
+\end_inset
 
-\end_layout
 
-\begin_layout Standard
+\begin_inset Newline newline
+\end_inset
 
-\size large
+
 \begin_inset Float figure
 placement H
 wide false
@@ -1073,9 +1090,16 @@ Milestones
 
 \size large
 The table below decribes all the milestones that are found in uor project.
-\end_layout
+\size default
 
-\begin_layout Standard
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Float table
 placement H
 wide false
@@ -2925,8 +2949,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Tabel figures/Overall Functional Requirements.png
-	lyxscale 50
-	width 70line%
+	lyxscale 70
+	width 95line%
 
 \end_inset
 
@@ -2965,7 +2989,7 @@ status open
 \begin_inset Graphics
 	filename Figures/usecaseUser.png
 	lyxscale 90
-	scale 60
+	width 100line%
 
 \end_inset
 
@@ -3001,7 +3025,7 @@ status open
 \begin_inset Graphics
 	filename Figures/usecaseAdmin.png
 	lyxscale 70
-	scale 70
+	width 100line%
 
 \end_inset
 
@@ -3667,7 +3691,7 @@ status open
 <lyxtabular version="3" rows="71" columns="2">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="15line%">
-<column alignment="left" valignment="middle" width="80line%">
+<column alignment="left" valignment="middle" width="30line%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -6790,7 +6814,7 @@ nt that needed to be made.
 [1] http://balsamiq.com/products/mockups/
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 
 \size largest
 Rally
@@ -9347,7 +9371,7 @@ References
 \size large
 [1] EUS - Diagnostic and Interventional Endoscopic Ultrasound, 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
