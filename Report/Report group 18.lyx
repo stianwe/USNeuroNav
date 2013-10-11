@@ -3174,140 +3174,187 @@ This is a description of the use case diagram
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC1
+Browse categories of cases
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Browse categories of cases
+Identifier:
+\shape default
+ UC1
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Critical
+Priority:
+\shape default
+ Critical
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Unregistered user and registered user
+Actors:
+\shape default
+ Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The user should be ablo to browse through a structure
- of categories which contains cases
+Brief description:
+\shape default
+ The user should be ablo to browse through a structure of categories which
+ contains cases
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC2
+Browse sub-categories of cases
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Browse sub-categories of cases
+Identifier:
+\shape default
+ UC2
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Critical
+Priority:
+\shape default
+ Critical
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Unregistered user and registered user
+Actors: 
+\shape default
+Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The user should be able to browse sub-categories of a
- category by selecting a category 
+Brief description:
+\shape default
+ The user should be able to browse sub-categories of a category by selecting
+ a category 
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC3
+Select a case
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Select a case
+Identifier:
+\shape default
+ UC3
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Critical
+Priority:
+\shape default
+ Critical
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Unregistered user and registered user
+Actors:
+\shape default
+ Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The user should be able to select and view a case by
- clicking on it 
+Brief description:
+\shape default
+ The user should be able to select and view a case by clicking on it 
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC4
+Browse case images
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Browse case images
+Identifier:
+\shape default
+ UC4
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Critical
+Priority:
+\shape default
+ Critical
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Unregistered user and registered user
+Actors:
+\shape default
+ Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The user should be able to view all images belonging
- to a selected case, and navigate between them by 
+Brief description:
+\shape default
+ The user should be able to view all images belonging to a selected case,
+ and navigate between them by 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3322,348 +3369,466 @@ swiping
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC5
+Select cases/videoes/images to download and store localy
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Select cases/videoes/images to download and store localy
+Identifier:
+\shape default
+ UC5
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Medium
+Priority:
+\shape default
+ Medium
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Unregistered user and registered user
+Actors:
+\shape default
+ Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The user should be able to select a set of cases, videos
- and images, which the phone should cache locally for offline access
+Brief description:
+\shape default
+ The user should be able to select a set of cases, videos and images, which
+ the phone should cache locally for offline access
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC6
+Search for cases
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Search for cases
+Identifier:
+\shape default
+ UC6
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: High
+Priority:
+\shape default
+ High
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Unregistered user and registered user
+Actors:
+\shape default
+ Unregistered user and registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The user should be able to search for cases using keywords
+Brief description:
+\shape default
+ The user should be able to search for cases using keywords
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC7
+Browse additional cases and information about cases
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Browse additional cases and information about cases
+Identifier:
+\shape default
+ UC7
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: High
+Priority:
+\shape default
+ High
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Registered user
+Actors: 
+\shape default
+Registered user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: A registered user should be able to browse cases labeled
- as non-public (private), which an unregistered user shouldn't
+Brief description:
+\shape default
+ A registered user should be able to browse cases labeled as non-public
+ (private), which an unregistered user shouldn't
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC8
+Log in
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Log in
+Identifier:
+\shape default
+ UC8
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: High
+Priority:
+\shape default
+ High
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Registered user 
+Actors:
+\shape default
+ Registered user 
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: A registered user should be able to log in by supplying
- a user name and password
+Brief description:
+\shape default
+ A registered user should be able to log in by supplying a user name and
+ password
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC9
+Fetch colletions of cases and their categories
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Fetch colletions of cases and their categories
+Identifier:
+\shape default
+ UC9
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Critical
+Priority:
+\shape default
+ Critical
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Application, database
+Actors:
+\shape default
+ Application, database
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The apllication should be able to fetch a collection
- of cases and their categories from the database
+Brief description:
+\shape default
+ The apllication should be able to fetch a collection of cases and their
+ categories from the database
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC10
+Verify user identification
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Verify user identification
+Identifier: 
+\shape default
+UC10
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: High
+Priority:
+\shape default
+ High
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Server, database
+Actors:
+\shape default
+ Server, database
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The server should be able to verify user identification
- against the database
+Brief description:
+\shape default
+ The server should be able to verify user identification against the database
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC11
+Define each case availability as either public or registered-only
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Define each case availability as either public or registered-only
+Identifier: 
+\shape default
+UC11
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: High
+Priority:
+\shape default
+ High
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Admin
+Actors:
+\shape default
+ Admin
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The admin should be able to define if a case (or image/video)
- is public or registered-only
+Brief description: 
+\shape default
+The admin should be able to define if a case (or image/video) is public
+ or registered-only
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC12
+Create new case
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Create new case
+Identifier:
+\shape default
+ UC12
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Medium
+Priority:
+\shape default
+ Medium
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Admin
+Actors:
+\shape default
+ Admin
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The admin should be able to create a new case with media
- files
+Brief description:
+\shape default
+ The admin should be able to create a new case with media files
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC13
+Register user
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Register user
+Identifier: 
+\shape default
+UC13
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Medium
+Priority: 
+\shape default
+Medium
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Admin
+Actors: 
+\shape default
+Admin
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The admin should be able to register a new user
+Brief description: 
+\shape default
+The admin should be able to register a new user
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph*
 
 \size large
-Identifier: UC14
+Create category
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Title: Create category
+Identifier:
+\shape default
+ UC14
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Priority: Medium
+Priority: 
+\shape default
+Medium
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Actors: Admin
+Actors: 
+\shape default
+Admin
 \end_layout
 
 \begin_layout Standard
 
+\shape italic
 \size large
-Brief description: The admin should be able to create a new category, and
- add sub-/super-categories to it
+Brief description:
+\shape default
+ The admin should be able to create a new category, and add sub-/super-categorie
+s to it
 \end_layout
 
 \begin_layout Subsection
@@ -6067,10 +6232,102 @@ classification
 Process view
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subparagraph
 
 \size large
-(Create and insert activity diagrams)
+Browse activity diagram
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/browseactivity.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Browse activity diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+
+\size large
+Search activity diagram
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/searchactivity.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Search activity diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -6089,6 +6346,45 @@ Physical view
 
 \size larger
 Scenarios
+\size large
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/database.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+ER diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7156,9 +7452,7 @@ Real cost
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-US4
+FR01
 \end_layout
 
 \end_inset
@@ -7213,9 +7507,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-US6
+FR02
 \end_layout
 
 \end_inset
@@ -7270,9 +7562,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-US5
+FR02 + FR03
 \end_layout
 
 \end_inset
@@ -7327,9 +7617,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-??
+R1.9
 \end_layout
 
 \end_inset
@@ -7384,9 +7672,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-??
+R1.1
 \end_layout
 
 \end_inset
@@ -7441,9 +7727,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-??
+R1.9
 \end_layout
 
 \end_inset
@@ -7498,7 +7782,7 @@ Sprint planning
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R1.4
 \end_layout
 
 \end_inset
@@ -7553,7 +7837,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R1.8
 \end_layout
 
 \end_inset
@@ -7608,7 +7892,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R1.7
 \end_layout
 
 \end_inset
@@ -7663,7 +7947,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R1.9
 \end_layout
 
 \end_inset
@@ -7718,7 +8002,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R1.8
 \end_layout
 
 \end_inset
@@ -7773,7 +8057,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+NFR01
 \end_layout
 
 \end_inset
@@ -7828,7 +8112,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+RQ9.3
 \end_layout
 
 \end_inset
@@ -7839,7 +8123,7 @@ Kristoffer
 \begin_layout Plain Layout
 
 \size large
-Set up MySQL server
+Create MySQL server
 \end_layout
 
 \end_inset
@@ -7883,7 +8167,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+RQ9.1 
 \end_layout
 
 \end_inset
@@ -7894,7 +8178,7 @@ Stian
 \begin_layout Plain Layout
 
 \size large
-Set up Apache server
+Create Apache server
 \end_layout
 
 \end_inset
@@ -7938,7 +8222,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+RQ9.2
 \end_layout
 
 \end_inset
@@ -7993,7 +8277,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+RQ2
 \end_layout
 
 \end_inset
@@ -8048,7 +8332,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R1.9
 \end_layout
 
 \end_inset
