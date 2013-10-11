@@ -219,7 +219,7 @@ Kristoffer Hagen
 \series bold
 \size large
 \color white
-t
+.
 \series default
 \size default
 \color inherit
@@ -2329,7 +2329,7 @@ EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \begin_layout Standard
 
 \size large
-The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[1] for
+The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[x] for
  iPhone/iPad and our system has some similar functionalities.
 \end_layout
 
@@ -2358,7 +2358,7 @@ Helsinki Microneurosurgery Basics and Tricks App
 \begin_layout Standard
 
 \size large
-The Helsinki Microneurosurgery Basics and Tricks App[2] for iPhone/iPad
+The Helsinki Microneurosurgery Basics and Tricks App[x] for iPhone/iPad
  was provided by the customer.
  
 \end_layout
@@ -2545,8 +2545,8 @@ It works well for smaller projects where requirements are very well understood,
 \begin_inset Newline newline
 \end_inset
 
-The disadvantages with the waterfall maodel is that no working software
- is produced until late during the life cycle.
+The disadvantages with the waterfall model is that no working software is
+ produced until late during the life cycle.
  It cannot accommodate changing requirements, and generally handles all
  changes poorly.
 \end_layout
