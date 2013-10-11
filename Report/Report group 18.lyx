@@ -2534,53 +2534,21 @@ Waterfall Model
 
 \end_inset
 
-The sequential phases in Waterfall model are:
+The waterfall model are simple and easy to understand and use, the outcome
+ of one phase acts as the input for the next phase sequentially.
 \begin_inset Newline newline
 \end_inset
 
-Requirement Gathering and analysis: All possible requirements of the system
- to be developed are captured in this phase and documented in a requirement
- specification doc.
+It works well for smaller projects where requirements are very well understood,
+ and with it's clearly defined stages it is easy to arrange tasks, it's
+ easy to understand milestones and the process and results are well documented.
 \begin_inset Newline newline
 \end_inset
 
-System Design: The requirement specifications from first phase are studied
- in this phase and system design is prepared.
- System Design helps in specifying hardware and system requirements and
- also helps in defining overall system architecture.
-\begin_inset Newline newline
-\end_inset
-
-Implementation: With inputs from system design, the system is first developed
- in small programs called units, which are integrated in the next phase.
- Each unit is developed and tested for its functionality which is referred
- to as Unit Testing.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Integration and Testing: All the units developed in the implementation phase
- are integrated into a system after testing of each unit.
- Post integration the entire system is tested for any faults and failures.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Deployment of system: Once the functional and non functional testing is
- done, the product is deployed in the customer environment or released into
- the market.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Maintenance: There are some issues which come up in the client environment.
- To fix those issues patches are released.
- Also to enhance the product some better versions are released.
- Maintenance is done to deliver these changes in the customer environment.
- 
+The disadvantages with the waterfall maodel is that no working software
+ is produced until late during the life cycle.
+ It cannot accommodate changing requirements, and generally handles all
+ changes poorly.
 \end_layout
 
 \begin_layout Subsection
@@ -4795,7 +4763,7 @@ Title:
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Subparagraph*
+\begin_layout Plain Layout
 Fetch colletions of cases and their categories
 \end_layout
 
@@ -4955,7 +4923,7 @@ Title:
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Subparagraph*
+\begin_layout Plain Layout
 Verify user identification
 \end_layout
 
@@ -5115,7 +5083,7 @@ Title:
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Subparagraph*
+\begin_layout Plain Layout
 Define each case availability as either public or registered-only
 \end_layout
 
@@ -5275,7 +5243,7 @@ Title:
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Subparagraph*
+\begin_layout Plain Layout
 Create new case
 \end_layout
 
@@ -5435,7 +5403,7 @@ Title:
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Subparagraph*
+\begin_layout Plain Layout
 Register user
 \end_layout
 
@@ -5595,7 +5563,7 @@ Title:
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Subparagraph*
+\begin_layout Plain Layout
 Create category
 \end_layout
 
