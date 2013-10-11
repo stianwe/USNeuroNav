@@ -9062,6 +9062,10 @@ Process view
 
 \size large
 Browse activity diagram
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9160,6 +9164,10 @@ Browse activity diagram
 
 \size large
 Search activity diagram
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9288,6 +9296,10 @@ Deployment diagram
 
 \size large
 Admin computer
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9296,12 +9308,20 @@ The admin computer is used to add categories and/or cases to the server.
  database server, using a connection to a PHP script.
  In addition, when adding a case, the admin can add media files to the case.
  This is done by uploading them to the web server, for instance using FTP.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 
 \size large
 Database server
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9323,12 +9343,20 @@ Data Storage
  relationship between them.
  In addition, a reference to the media files located on the web server is
  stored, for each case.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 
 \size large
 Web server
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9341,12 +9369,20 @@ The web server's task is to store and make available on the Internet, the
  media files, either for new cases, or for already existing ones.
  This can be done by using for instance FTP.
  A media file can either be an image or a video.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 
 \size large
 USNeuroNav, the mobile application
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
