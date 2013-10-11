@@ -2470,15 +2470,123 @@ Lifecycle Model
 
 \size large
 In this section our choise for the lifecycle model is described.
- Fist a description on why we chose scrum, second we describe scum as a
- lifecycle model, and after that a description of scrum artefect an the
- scrum meetings.
+ Fist we introduce the waterfall model and why we di not schose that, then
+ a description of why we chose scrum, then we describe scum as a lifecycle
+ model, and after that a description of scrum artefact and the scrum meetings.
 \end_layout
 
 \begin_layout Subsection
 
 \size largest
-Why Scrum
+The Waterfall Model
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The waterfall model [x] is a inear-sequential life cycle model, in which
+ progress is seen as flowing steadily downwards through the phases, like
+ a waterfall.
+ Any phase in the development process begins only if the previous phase
+ is complete, the phases do not overlap.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The figure below illustrate how the waterfall phases are organized.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/Waterfall Development Methodology.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Waterfall Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The sequential phases in Waterfall model are:
+\begin_inset Newline newline
+\end_inset
+
+Requirement Gathering and analysis: All possible requirements of the system
+ to be developed are captured in this phase and documented in a requirement
+ specification doc.
+\begin_inset Newline newline
+\end_inset
+
+System Design: The requirement specifications from first phase are studied
+ in this phase and system design is prepared.
+ System Design helps in specifying hardware and system requirements and
+ also helps in defining overall system architecture.
+\begin_inset Newline newline
+\end_inset
+
+Implementation: With inputs from system design, the system is first developed
+ in small programs called units, which are integrated in the next phase.
+ Each unit is developed and tested for its functionality which is referred
+ to as Unit Testing.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Integration and Testing: All the units developed in the implementation phase
+ are integrated into a system after testing of each unit.
+ Post integration the entire system is tested for any faults and failures.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Deployment of system: Once the functional and non functional testing is
+ done, the product is deployed in the customer environment or released into
+ the market.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Maintenance: There are some issues which come up in the client environment.
+ To fix those issues patches are released.
+ Also to enhance the product some better versions are released.
+ Maintenance is done to deliver these changes in the customer environment.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Scrum
 \end_layout
 
 \begin_layout Standard
@@ -2488,7 +2596,8 @@ Scrum is an iterative planning and execution method for software developmen.
  We chose an agile model because that works well on small groups, and the
  scope and requirements for the project were not clearly defined at the
  time it had to be decided on a development model.
- 
+ We also did not know exactly when we would get an iMac form the customer,
+ so an agile lifecycle model were prefeable.
 \end_layout
 
 \begin_layout Standard
@@ -2514,7 +2623,7 @@ The ability to cope with changes is also one of the reason we chose scrum.
 \begin_layout Subsection
 
 \size largest
-Scrum
+Why Scrum
 \end_layout
 
 \begin_layout Standard
@@ -11532,9 +11641,13 @@ References
 \begin_layout Standard
 
 \size large
-[1] EUS - Diagnostic and Interventional Endoscopic Ultrasound, 
+[x] EUS - Diagnostic and Interventional Endoscopic Ultrasound
+\begin_inset Newline newline
+\end_inset
+
+ 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -11544,19 +11657,43 @@ https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-\noindent
+[x] Helsinki Microneurosurgery Basics and Tricks
+\begin_inset Newline newline
+\end_inset
 
-\size large
-[2] Helsinki Microneurosurgery Basics and Tricks, 
+ 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
 https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+[x] Waterfall Model design
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
 \end_layout
 
 \end_inset
