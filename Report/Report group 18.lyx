@@ -2470,15 +2470,68 @@ Lifecycle Model
 
 \size large
 In this section our choise for the lifecycle model is described.
- Fist a description on why we chose scrum, second we describe scum as a
- lifecycle model, and after that a description of scrum artefect an the
- scrum meetings.
+ Fist we introduce the waterfall model and why we di not schose that, then
+ a description of why we chose scrum, then we describe scum as a lifecycle
+ model, and after that a description of scrum artefact and the scrum meetings.
 \end_layout
 
 \begin_layout Subsection
 
 \size largest
-Why Scrum
+The Waterfall Model
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The waterfall model 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/Waterfall Development Methodology.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Waterfall Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Scrum
 \end_layout
 
 \begin_layout Standard
@@ -2488,7 +2541,8 @@ Scrum is an iterative planning and execution method for software developmen.
  We chose an agile model because that works well on small groups, and the
  scope and requirements for the project were not clearly defined at the
  time it had to be decided on a development model.
- 
+ We also did not know exactly when we would get an iMac form the customer,
+ so an agile lifecycle model were prefeable.
 \end_layout
 
 \begin_layout Standard
@@ -2514,7 +2568,7 @@ The ability to cope with changes is also one of the reason we chose scrum.
 \begin_layout Subsection
 
 \size largest
-Scrum
+Why Scrum
 \end_layout
 
 \begin_layout Standard
