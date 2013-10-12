@@ -1621,7 +1621,7 @@ This section describes how the group is organized and why.
 \begin_layout Subsubsection
 
 \size larger
-Organizational diagram
+Organizational diagram 
 \end_layout
 
 \begin_layout Standard
@@ -2213,6 +2213,607 @@ Unexpected absence is to be reported as soon as possible, preferably before
 ly.
 \end_layout
 
+\begin_layout Subsection
+
+\size largest
+Tools and technology
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Report writing
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Lyx and LaTeX
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For writing the report, the team chose to write it in the document markup
+ language LaTeX [x], by using the Lyx [x] document processor.
+ The reason why LaTeX was chosen is that it is widely used in academica,
+ and that the team members saw this as an opportunity to familiarize themselves
+ with the tool they likely will use when writing their master.
+ In addition, LaTeX generates standard, good looking and highly customizable
+ pdf's.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why Lyx was chosen for writing the document, is that it provides
+ the user with an easy to use interface, that still enables the user to
+ make use of all the different options with LaTeX, and that it is open source.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Google Drive and Docs
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For writing internal documents, such as meeting agendas, meeting summaries,
+ and temporal plans and documents, Google Docs [x] was chosen.
+ The reasoning behind this is that it is very easy to use, and also that
+ it provides different people to modify and view others' modifications in
+ real-time.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+To store and distribute files between the team members, Google Drive [x]
+ was chosen.
+ Google Docs is very closely integrated with Google Drive, so Google Drive
+ became the obvious solution for the team.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Violet UML editor
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Violet UML editor [x] is a cross-platform, easy to learn and use, UML editor,
+ which draws nice and standard looking UML diagrams.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For this project, Violet UML editor is used to draw the use case diagrams,
+ sequence diagrams and class diagram.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Visual ER
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Visual ER [x] is a very simple Java based tool to create ER diagrams.
+ The team uses Visual ER because it was developed by NTNU students, is very
+ easy to use, and that the students have good experience with it from other
+ courses.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Balsamiq mockups
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Balsamiq [x] mockups is a tool for creating GUI mockups.
+ It enabled us to quickly create our initial GUI and then easily modify
+ it as we, or the customer, felt any changes was needed or had another improveme
+nt that needed to be made.
+ We chose Balsamiq mockups because it had a free trial period, had support
+ for creating iPhone GUIs and offered a simple, intuitive and easy to learn
+ interface for creating and modifing GUI drafts.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Administration
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Facebook
+\size default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For distributing information and links between team members, Facebook [x]
+ is used.
+ The group maintains a private group where information is posted on the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+wall
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In addition the Facebook's chat function can be used for instant messaging
+ between team members.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why the team uses Facebook is that all team members had experience
+ with Facebook, and check it regularily.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+TeamViewer
+\size largest
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+To access the iMac the team is borrowing from the customer remotely, the
+ team uses TeamViewer [x].
+ TeamViewer is a simple software for controling computers remotely over
+ the Internet.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why the team uses TeamViewer, is that it is free to use (non-comercia
+lly), easy to set up, and that the team members already have some experience
+ with it.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Rally
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Rally [x] is a cloud-based solution for managing the agile development lifecycle
+, such as assigning user stories/tasks to sprints, and to developers.
+ We chose to use Rally because it is relatively easy to use, and that it
+ is free for students.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Development
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Titanium and JavaScript
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+To develop the mobile application, the Titanium [x] tool set was chosen.
+ It provides its own IDE for writing the code, which is based on Eclipse
+ [x].
+ Titanium is a framework for creating cross-platform mobile applications,
+ where the code is written in JavaScript, and compiled to native code for
+ the selected platforms.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+To decide on the platform and tools to use, the team spent a lot of time,
+ together with the customer, evaluating different options.
+ Since the customer had very clear requirements, not many available options
+ were actually sufficient.
+ The customer's requirements was in short that:
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+The application should be cross-platform (at least iOS and Android)
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+The application should have a native 
+\begin_inset Quotes eld
+\end_inset
+
+look and feel
+\begin_inset Quotes erd
+\end_inset
+
+ on all platforms
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+The application should have (close to) the same performance as if written
+ in native code
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+(The platform should be free to use if possible)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Given these very specific, and quite demanding, requirements, the team was
+ only able to find a couple of valid options.
+ These options were in the end Titanium, which was chosen, and Xamarin [x].
+ Xamarin is a quite similar tool to Titanium, except that it uses code written
+ in C# instead of JavaScript.
+ Despite that the team had more experience with C#, Titanium was chosen
+ because that it is completely free to use, while Xamarin requires a license.
+ Several other options, like PhoneGap, Marmalade and native apps, but none
+ fit the customer's requirement.
+ PhoneGap, for example, have neither native performance nor 
+\begin_inset Quotes eld
+\end_inset
+
+look and feel
+\begin_inset Quotes erd
+\end_inset
+
+, while writing the app in native code for iOS and Android would take too
+ much time.
+ Marmalade, together with Xamarin, cost too much for the customer, given
+ that (almost) 
+\begin_inset Quotes eld
+\end_inset
+
+equally good
+\begin_inset Quotes erd
+\end_inset
+
+ tools existed and were free.
+ Even though Titanium is not 
+\begin_inset Quotes eld
+\end_inset
+
+write once, run everywhere
+\begin_inset Quotes erd
+\end_inset
+
+, it came closest to meeting all the customer's need (when weighing pricing
+ quite heavy), so it was chosen.
+ If the code is written very carefully, a big part of it should be re-usable
+ between iOS and Android.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+JavaScript [x] is a prototype-based scripting language with dynamic typing.
+ It is commonly used to make web pages dynamic, but is in this case compiled
+ down to native code for mobile platforms by Titanium.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+PHP
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+PHP [x] is a server-side scripting language designed for web development.
+ PHP code is interpreted by a web server with a PHP module, which generates
+ the resulting web page.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For this project, PHP is used as a tiny layer between the mobile application
+ and the database.
+ Since Titanium does not support communication with external (My)SQL servers,
+ the app will communicate with a simple script that reads data from the
+ database, and sends it to the app.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why PHP was chosen is that it is very simple to use for small
+ scripts, and that it is well documented.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+JSON
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+JSON (JavaScript Object Notation) [x] is a lightweight data-interchange
+ format, which is for both humans and computers to read/parse and write.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For this project, JSON is used for the communication between the PHP script
+ and the mobile applications.
+ The JSON objects themselves is structured exactly the same as internally
+ in the database.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why JSON is used for this communication is that it is very well
+ supported in both PHP and JavaScript, and very easy to use.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+MySQL
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+MySQL [x] is a very well-known SQL database, and by their own words 
+\begin_inset Quotes eld
+\end_inset
+
+The world's most popular open source database
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+MySQL is used on this project for storing the categories, and their relations
+ (sub-categories and super-categories), the cases, and information about
+ each case (e.g.
+ which categories it belong to), and URL's to the cases' media files.
+ In addition, the MySQL database store all user information.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why the team uses MySQL is that it is free to use, and that all
+ team members have good experience with it beforehand.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Apache HTTP Server
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Apache [x] is a very common web server.
+ It is free to use, very easy to set up, and works very well with PHP.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The Apache HTTP Server is used in this project to host the media files for
+ the cases, and also host the PHP script which is a thin layer between the
+ MySQL database and the mobile application.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Git and GitHub
+\size largest
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Which mentioned under 2.3, Versioning Control, we use Git [x] for versioning
+ control, both for the report and the code.
+ The Git server we use is GitHub [x].
+ Git is a distributed revision control and source code management system.
+ We use Git for versioning control because it is quite easy to use, it provides
+ both a shell and a GUI, and the team members were already familiar with
+ it.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The reason why we use GitHub as the Git server, is that it is free to use,
+ requires no personal servers, and that it provides a very useful web site
+ to manage pull requests, issues, etc.
+ The project's GitHub repository can be found at http://github.com/stianwe/USNeur
+oNav.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -2452,462 +3053,7 @@ We will develoop the system with frameworks and tools described in section
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
 
-
-\end_layout
-
-\begin_layout Section
-
-\size huge
-Tools and Technology
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Lyx and LaTeX
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For writing the report, the team chose to write it in the document markup
- language LaTeX [x], by using the Lyx [x] document processor.
- The reason why LaTeX was chosen is that it is widely used in academica,
- and that the team members saw this as an opportunity to familiarize themselves
- with the tool they likely will use when writing their master.
- In addition, LaTeX generates standard, good looking and highly customizable
- pdf's.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why Lyx was chosen for writing the document, is that it provides
- the user with an easy to use interface, that still enables the user to
- make use of all the different options with LaTeX, and that it is open source.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Google Drive and Docs 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For writing internal documents, such as meeting agendas, meeting summaries,
- and temporal plans and documents, Google Docs [x] was chosen.
- The reasoning behind this is that it is very easy to use, and also that
- it provides different people to modify and view others' modifications in
- real-time.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-To store and distribute files between the team members, Google Drive [x]
- was chosen.
- Google Docs is very closely integrated with Google Drive, so Google Drive
- became the obvious solution for the team.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Titanium and JavaScript
-\end_layout
-
-\begin_layout Standard
-
-\size large
-To develop the mobile application, the Titanium [x] tool set was chosen.
- It provides its own IDE for writing the code, which is based on Eclipse
- [x].
- Titanium is a framework for creating cross-platform mobile applications,
- where the code is written in JavaScript, and compiled to native code for
- the selected platforms.
- 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-To decide on the platform and tools to use, the team spent a lot of time,
- together with the customer, evaluating different options.
- Since the customer had very clear requirements, not many available options
- were actually sufficient.
- The customer's requirements was in short that:
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-The application should be cross-platform (at least iOS and Android)
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-The application should have a native 
-\begin_inset Quotes eld
-\end_inset
-
-look and feel
-\begin_inset Quotes erd
-\end_inset
-
- on all platforms
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-The application should have (close to) the same performance as if written
- in native code
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-(The platform should be free to use if possible)
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Given these very specific, and quite demanding, requirements, the team was
- only able to find a couple of valid options.
- These options were in the end Titanium, which was chosen, and Xamarin [x].
- Xamarin is a quite similar tool to Titanium, except that it uses code written
- in C# instead of JavaScript.
- Despite that the team had more experience with C#, Titanium was chosen
- because that it is completely free to use, while Xamarin requires a license.
- Several other options, like PhoneGap, Marmalade and native apps, but none
- fit the customer's requirement.
- PhoneGap, for example, have neither native performance nor 
-\begin_inset Quotes eld
-\end_inset
-
-look and feel
-\begin_inset Quotes erd
-\end_inset
-
-, while writing the app in native code for iOS and Android would take too
- much time.
- Marmalade, together with Xamarin, cost too much for the customer, given
- that (almost) 
-\begin_inset Quotes eld
-\end_inset
-
-equally good
-\begin_inset Quotes erd
-\end_inset
-
- tools existed and were free.
- Even though Titanium is not 
-\begin_inset Quotes eld
-\end_inset
-
-write once, run everywhere
-\begin_inset Quotes erd
-\end_inset
-
-, it came closest to meeting all the customer's need (when weighing pricing
- quite heavy), so it was chosen.
- If the code is written very carefully, a big part of it should be re-usable
- between iOS and Android.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-JavaScript [x] is a prototype-based scripting language with dynamic typing.
- It is commonly used to make web pages dynamic, but is in this case compiled
- down to native code for mobile platforms by Titanium.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-PHP
-\end_layout
-
-\begin_layout Standard
-
-\size large
-PHP [x] is a server-side scripting language designed for web development.
- PHP code is interpreted by a web server with a PHP module, which generates
- the resulting web page.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For this project, PHP is used as a tiny layer between the mobile application
- and the database.
- Since Titanium does not support communication with external (My)SQL servers,
- the app will communicate with a simple script that reads data from the
- database, and sends it to the app.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why PHP was chosen is that it is very simple to use for small
- scripts, and that it is well documented.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-JSON
-\end_layout
-
-\begin_layout Standard
-
-\size large
-JSON (JavaScript Object Notation) [x] is a lightweight data-interchange
- format, which is for both humans and computers to read/parse and write.
- 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For this project, JSON is used for the communication between the PHP script
- and the mobile applications.
- The JSON objects themselves is structured exactly the same as internally
- in the database.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why JSON is used for this communication is that it is very well
- supported in both PHP and JavaScript, and very easy to use.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Git and GitHub
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Which mentioned under 2.3, Versioning Control, we use Git [x] for versioning
- control, both for the report and the code.
- The Git server we use is GitHub [x].
- Git is a distributed revision control and source code management system.
- We use Git for versioning control because it is quite easy to use, it provides
- both a shell and a GUI, and the team members were already familiar with
- it.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why we use GitHub as the Git server, is that it is free to use,
- requires no personal servers, and that it provides a very useful web site
- to manage pull requests, issues, etc.
- The project's GitHub repository can be found at http://github.com/stianwe/USNeur
-oNav.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Facebook
-\size default
- 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For distributing information and links between team members, Facebook [x]
- is used.
- The group maintains a private group where information is posted on the
- 
-\begin_inset Quotes eld
-\end_inset
-
-wall
-\begin_inset Quotes erd
-\end_inset
-
-.
- In addition the Facebook's chat function can be used for instant messaging
- between team members.
- 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why the team uses Facebook is that all team members had experience
- with Facebook, and check it regularily.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-TeamViewer 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-To access the iMac the team is borrowing from the customer remotely, the
- team uses TeamViewer [x].
- TeamViewer is a simple software for controling computers remotely over
- the Internet.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why the team uses TeamViewer, is that it is free to use (non-comercia
-lly), easy to set up, and that the team members already have some experience
- with it.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-MySQL
-\size default
- 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-MySQL [x] is a very well-known SQL database, and by their own words 
-\begin_inset Quotes eld
-\end_inset
-
-The world's most popular open source database
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-MySQL is used on this project for storing the categories, and their relations
- (sub-categories and super-categories), the cases, and information about
- each case (e.g.
- which categories it belong to), and URL's to the cases' media files.
- In addition, the MySQL database store all user information.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The reason why the team uses MySQL is that it is free to use, and that all
- team members have good experience with it beforehand.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Violet UML editor
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Violet UML editor [x] is a cross-platform, easy to learn and use, UML editor,
- which draws nice and standard looking UML diagrams.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For this project, Violet UML editor is used to draw the use case diagrams,
- sequence diagrams and class diagram.
- 
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Apache HTTP Server
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Apache [x] is a very common web server.
- It is free to use, very easy to set up, and works very well with PHP.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The Apache HTTP Server is used in this project to host the media files for
- the cases, and also host the PHP script which is a thin layer between the
- MySQL database and the mobile application.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Visual ER 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Visual ER [x] is a very simple Java based tool to create ER diagrams.
- The team uses Visual ER because it was developed by NTNU students, is very
- easy to use, and that the students have good experience with it from other
- courses.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Balsamiq mockups 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Balsamiq [x] mockups is a tool for creating GUI mockups.
- It enabled us to quickly create our initial GUI and then easily modify
- it as we, or the customer, felt any changes was needed or had another improveme
-nt that needed to be made.
- We chose Balsamiq mockups because it had a free trial period, had support
- for creating iPhone GUIs and offered a simple, intuitive and easy to learn
- interface for creating and modifing GUI drafts.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Rally
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Rally [x] is a cloud-based solution for managing the agile development lifecycle
-, such as assigning user stories/tasks to sprints, and to developers.
- We chose to use Rally because it is relatively easy to use, and that it
- is free for students.
 \end_layout
 
 \begin_layout Standard
@@ -6386,12 +6532,12 @@ Product Backlog
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="73" columns="2">
+<lyxtabular version="3" rows="71" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="middle" width="15line%">
 <column alignment="left" valignment="middle" width="30line%">
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6402,7 +6548,7 @@ Identifier
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6415,47 +6561,7 @@ Description
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6464,7 +6570,7 @@ RQ1
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8357,7 +8463,7 @@ Sequence diagrams
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8368,7 +8474,7 @@ Development view
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8380,7 +8486,7 @@ The development view is concerned with the system from a programmers perspective
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8391,7 +8497,7 @@ To aid with the implementation
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8404,7 +8510,7 @@ Component diagram
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8415,7 +8521,7 @@ Process view
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8428,7 +8534,7 @@ The process view illustrates the dynamic aspects of the system, it explains
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8439,7 +8545,7 @@ To model the runtime behaviour of the system
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8452,7 +8558,7 @@ Activity diagram
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8463,7 +8569,7 @@ Physical view
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8476,7 +8582,7 @@ The physical view describes the system from an system-engineering viewpoint.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8487,7 +8593,7 @@ To show the physical components of the system and how they are connected
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8500,7 +8606,7 @@ Deployment diagram
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8511,7 +8617,7 @@ Scenarios
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8523,7 +8629,7 @@ Scenarios are illustrated through several different use cases and describes
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8534,7 +8640,7 @@ To provide a demonstration on how the system can be used
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8956,6 +9062,59 @@ Process view
 
 \size large
 Browse activity diagram
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The activity diagram below shows the flow of the mobile application when
+ a regular or logged in user is browsing.
+ The program starts by displaying a list of 
+\begin_inset Quotes eld
+\end_inset
+
+main categories
+\begin_inset Quotes erd
+\end_inset
+
+.
+ From then, until either 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+ is selected, or there are no more sub-categories, a new list of categories
+ is displayed for selecting, where these categories are the sub-categories
+ of the selected one.
+ When there are no more sub-categories or 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+ was selected, all cases matching the selected categories are displayed.
+ Selecting a case displays the media files that belongs to the case.
+ 
+\end_layout
+
+\begin_layout Standard
+In addition, for each step, there is a 
+\begin_inset Quotes eld
+\end_inset
+
+back
+\begin_inset Quotes erd
+\end_inset
+
+ button, which takes the user back to the previous state.
+ (This is left out of the diagram for simplicity.)
 \end_layout
 
 \begin_layout Standard
@@ -9005,6 +9164,39 @@ Browse activity diagram
 
 \size large
 Search activity diagram
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The next activity diagram, shown below, shows the flow of the mobile application
+ when a, regular or logged in, user uses the search function.
+ The app then starts by displaying a text field where the user can enter
+ keywords to search for.
+ Following, cases matching the search keywords are displayed for the user
+ to select.
+ The user is next allowed to select a case for viewing, or to modify the
+ search.
+ If the user decides to modify the search, the app returns to the starting
+ state, with a text field for searching.
+ If the user, however, decides to select a case, the case's media files
+ are displayed, the same way as if the user was browsing the 
+\begin_inset Quotes eld
+\end_inset
+
+regular
+\begin_inset Quotes erd
+\end_inset
+
+ way.
+ After looking at a case, the user can decide to look at the other cases
+ that matched the search.
+ If this path is taken, the user will be returned to the view of matching
+ cases, as if the search was done over again, using the same keywords.
+ When the user decides to not view any more cases or modify the search,
+ the search function is exited.
 \end_layout
 
 \begin_layout Standard
@@ -9059,7 +9251,148 @@ Physical view
 \begin_layout Standard
 
 \size large
-(Create and insert deployment diagram)
+The following deployment diagram describes the overall system architecture
+ of the four components that make up the whole system.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/deploymentrofl.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Deployment diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Admin computer
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The admin computer is used to add categories and/or cases to the server.
+ The main functionality of it is to add new categories and cases to the
+ database server, using a connection to a PHP script.
+ In addition, when adding a case, the admin can add media files to the case.
+ This is done by uploading them to the web server, for instance using FTP.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Database server
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The database server's task is to run the MySQL server, and to answer queries
+ to it.
+ Either select queries from the mobile application, or inserts/edits from
+ the admin computer.
+ The MySQL server consists of several tables, as can be displayed in the
+ sub-chapter about 
+\begin_inset Quotes eld
+\end_inset
+
+Data Storage
+\begin_inset Quotes erd
+\end_inset
+
+.
+ These tables contain information about the categories and cases, and the
+ relationship between them.
+ In addition, a reference to the media files located on the web server is
+ stored, for each case.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+Web server
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The web server's task is to store and make available on the Internet, the
+ media files associated with every case.
+ This is done by running an Apache web server which hosts the media files
+ so that they can be streamed or downloaded using the mobile application,
+ using regular HTTP and JSON objects.
+ In addition, the web server must allow the admin computer to upload new
+ media files, either for new cases, or for already existing ones.
+ This can be done by using for instance FTP.
+ A media file can either be an image or a video.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\size large
+USNeuroNav, the mobile application
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+USNeuroNav is the name of the mobile application, which can be run on smart
+ phones.
+ The app communicates with the database server to fetch information about
+ the categories, cases, and media files.
+ This communication goes through a thin layer of PHP script, that actually
+ reads the database, and passes on the information.
+ The media files themself is fetched from the web server using regular HTTP.
 \end_layout
 
 \begin_layout Subsubsection
@@ -9282,7 +9615,7 @@ status open
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9293,7 +9626,7 @@ ID
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9304,7 +9637,7 @@ Task
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9315,7 +9648,7 @@ Responsible
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9326,7 +9659,7 @@ Estimated cost
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9352,6 +9685,9 @@ RQ1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
+\size large
 Categories
 \end_layout
 
@@ -9370,7 +9706,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+8
 \end_layout
 
 \end_inset
@@ -9379,7 +9715,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -9417,7 +9753,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+2
 \end_layout
 
 \end_inset
@@ -9426,7 +9762,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -9464,7 +9800,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+8
 \end_layout
 
 \end_inset
@@ -9473,7 +9809,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6
 \end_layout
 
 \end_inset
@@ -9511,7 +9847,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+4
 \end_layout
 
 \end_inset
@@ -9520,7 +9856,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -9558,53 +9894,6 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RQ1.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Window navigation functions
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 4
 \end_layout
 
@@ -9614,7 +9903,54 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
+3
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ1.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Window navigation functions
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
 \end_layout
 
 \end_inset
@@ -9634,6 +9970,9 @@ RQ2
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
+\size large
 Cases
 \end_layout
 
@@ -9652,7 +9991,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+6
 \end_layout
 
 \end_inset
@@ -9661,7 +10000,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -9708,7 +10047,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1
 \end_layout
 
 \end_inset
@@ -9755,14 +10094,14 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9771,7 +10110,7 @@ FR03
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9780,7 +10119,7 @@ Play movies
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9789,7 +10128,7 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9798,45 +10137,7 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RQ3.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Search window
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Stian
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9845,11 +10146,49 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+RQ3.1
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Search window
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
 \end_layout
 
 \end_inset
@@ -9869,6 +10208,9 @@ RQ7
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
+\size large
 Core GUI
 \end_layout
 
@@ -9887,7 +10229,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+4
 \end_layout
 
 \end_inset
@@ -9896,7 +10238,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -9934,7 +10276,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+7
 \end_layout
 
 \end_inset
@@ -9943,14 +10285,14 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9959,7 +10301,7 @@ RQ7.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9968,7 +10310,7 @@ GUI for categories
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9977,20 +10319,20 @@ Kristoffer
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1
+2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1
 \end_layout
 
 \end_inset
@@ -10010,6 +10352,9 @@ RQ9
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
+\size large
 Servers
 \end_layout
 
@@ -10028,7 +10373,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+6
 \end_layout
 
 \end_inset
@@ -10037,7 +10382,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -10075,7 +10420,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+4
 \end_layout
 
 \end_inset
@@ -10084,7 +10429,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -10131,14 +10476,14 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10147,7 +10492,7 @@ RQ9.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10156,7 +10501,7 @@ Database server
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10165,7 +10510,7 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10174,11 +10519,11 @@ Stian
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -10198,6 +10543,9 @@ RQ10
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
+\size large
 Database
 \end_layout
 
@@ -10216,7 +10564,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+4
 \end_layout
 
 \end_inset
@@ -10225,7 +10573,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -10272,14 +10620,14 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10288,7 +10636,7 @@ RQ10.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10297,7 +10645,7 @@ Insert initial case data
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10306,20 +10654,20 @@ Kristoffer
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+3
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -10339,6 +10687,9 @@ R1
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
+\size large
 Report
 \end_layout
 
@@ -10357,7 +10708,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-8
+20
 \end_layout
 
 \end_inset
@@ -10366,7 +10717,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+35
 \end_layout
 
 \end_inset
@@ -10404,7 +10755,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+3
 \end_layout
 
 \end_inset
@@ -10413,7 +10764,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -10451,7 +10802,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+8
 \end_layout
 
 \end_inset
@@ -10460,7 +10811,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -10498,7 +10849,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+10
 \end_layout
 
 \end_inset
@@ -10507,7 +10858,7 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+18
 \end_layout
 
 \end_inset
@@ -10545,53 +10896,6 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-R1.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Testing
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kristoffer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 10
 \end_layout
 
@@ -10601,7 +10905,54 @@ Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
+12
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R1.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Testing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
 \end_layout
 
 \end_inset
@@ -10650,7 +11001,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+155
 \end_layout
 
 \end_inset
@@ -10718,12 +11069,6 @@ A lot of the implementation for this sprint is programming the user interface
  The demo was therefore presented to him in an email, and he agreed with
  our design choices, and urged us on.
  
-\end_layout
-
-\begin_layout Standard
-
-\size large
-INSERT PICTURES FROM THE DEMO
 \end_layout
 
 \begin_layout Standard
@@ -11061,7 +11406,7 @@ Category navigation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Passed
 \end_layout
 
 \end_inset
@@ -11070,7 +11415,7 @@ Category navigation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -11103,7 +11448,7 @@ Selecting cases
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Passed
 \end_layout
 
 \end_inset
@@ -11112,7 +11457,7 @@ Selecting cases
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -11145,7 +11490,7 @@ Showing images
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Passed
 \end_layout
 
 \end_inset
@@ -11154,7 +11499,7 @@ Showing images
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -11187,7 +11532,7 @@ Showing video
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Passed
 \end_layout
 
 \end_inset
@@ -11196,7 +11541,7 @@ Showing video
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -11229,7 +11574,7 @@ Finding a specific case
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Passed
 \end_layout
 
 \end_inset
@@ -11238,7 +11583,7 @@ Finding a specific case
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -11260,9 +11605,7 @@ T06
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size large
-Browse case media
+Play video
 \end_layout
 
 \end_inset
@@ -11271,7 +11614,7 @@ Browse case media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Passed
 \end_layout
 
 \end_inset
@@ -11280,7 +11623,7 @@ Browse case media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -11304,10 +11647,6 @@ Completed tests for sprint 1
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -11669,16 +12008,6 @@ System Burndown Chart
 Implementation
 \end_layout
 
-\begin_layout Standard
-
-\size large
-user interface
-\end_layout
-
-\begin_layout Standard
-...
-\end_layout
-
 \begin_layout Subsection
 
 \size largest
@@ -11689,12 +12018,6 @@ Testing
 
 \size largest
 Ocuring Risks
-\end_layout
-
-\begin_layout Standard
-
-\size large
-noen har vært syke, bprtreist, fikk hardware sent?...
 \end_layout
 
 \begin_layout Subsection
@@ -11836,12 +12159,6 @@ Report access
 
 \size largest
 Further Work
-\end_layout
-
-\begin_layout Standard
-
-\size large
-hjhjhjhjhjhjhjhjhj
 \end_layout
 
 \begin_layout Subsubsection
@@ -12601,10 +12918,6 @@ Test T01
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -13087,7 +13400,7 @@ Description
 
 \size large
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="1">
+<lyxtabular version="3" rows="1" columns="1">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <row>
@@ -13106,28 +13419,6 @@ Case 1
 \begin_inset Quotes erd
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -13457,7 +13748,7 @@ Description
 
 \size large
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="1">
+<lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <row>
@@ -13491,17 +13782,6 @@ Case 1
 \size large
 2.
  Browse until video appears
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -13652,6 +13932,806 @@ Dependencies
 
 \size large
 T02
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Results
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+1.
+ Accepted
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Comments
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Test T04
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Test ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+T05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Test name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Finding a specific case
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+1.
+ Select “Cranial Vascular
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+2.
+ Select “Aneu
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+3.
+ Select 
+\begin_inset Quotes eld
+\end_inset
+
+Frontal Lobe
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Requirements involved
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+FR02
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Input
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Preconditions
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Browse mainmeny is open
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Case 4 added to the database
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Completion criteria
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+1.
+ Case 4 is displayed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Dependencies
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+T01, T02
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Results
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+1.
+ Accepted
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Comments
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Test T04
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Test ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+T06
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Test name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Play video 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+1.
+ Select video showing
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Requirements involved
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+FR03
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Input
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Preconditions
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Video is showing on case 1 media
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Completion criteria
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+1.
+ Video is streamed from server
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Dependencies
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+T04
 \end_layout
 
 \end_inset
