@@ -10708,7 +10708,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-20
+30
 \end_layout
 
 \end_inset
@@ -11042,7 +11042,56 @@ System Burndown Chart
 \begin_layout Standard
 
 \size large
-TODO: Marthe?
+The figure below shows the burndown chart for this sprint.
+ We managed to finish almost every task in this sprint, but we had both
+ overestimated and underestimated the effort of time for many tasks.
+ Therefore the ideal burndown is beneath the actual burndown through this
+ sprint .We did most of the work on Wednesdays, Thursdays and Fridays, wich
+ explain the slow burndown at day 10, day 9 , day 5 and day 4.We had to do
+ a lot of programming in this sprint since our technical manager wil be
+ absent half of the next sprint
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/Burndown Chart Sprint 1.png
+	width 90text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Burndown Chart Sprint 1 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
