@@ -2,6 +2,7 @@ CREATE TABLE caseT (
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
     public BOOL NOT NULL,
+    description VARCHAR(1000),
     PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
