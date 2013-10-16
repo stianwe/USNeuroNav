@@ -19,15 +19,15 @@ function displayListView(window, items, eventFunction) {
 	alert(names);*/
 }
 
-function viewCases(nextWindow) {
-	var cases = currentCategories[0].cases.slice();
-	var casesToPrint = currentCategories[0].cases.slice();
-	for (var i = 1; i < currentCategories.length; i++) {
-		if (currentCategories[i].name == "*") {
+function viewCases(nextWindow, categories, tab) {
+	var cases = categories[0].cases.slice();
+	var casesToPrint = categories[0].cases.slice();
+	for (var i = 1; i < categories.length; i++) {
+		if (categories[i].name == "*") {
 			continue;
 		}
 		for (var j = 0; j < cases.length; j++) {
-			var index = currentCategories[i].cases.indexOf(cases[j]);
+			var index = categories[i].cases.indexOf(cases[j]);
 			if (index == -1) {
 				casesToPrint.splice(casesToPrint.indexOf(cases[j]), 1);
 			} 
@@ -38,7 +38,7 @@ function viewCases(nextWindow) {
 	for (var i = 0; i < casesToPrint.length; i++) {
 		props[i] = { properties: { title:casesToPrint[i].name } };
 	}
-	displayListView(nextWindow, props, createEventFunctionCase(casesToPrint));
+	displayListView(nextWindow, props, createEventFunctionCase(casesToPrint, tab));
 }
 
 function createEventFunctionCategory(currentCategory) {
@@ -50,7 +50,7 @@ function createEventFunctionCategory(currentCategory) {
 				title: "Show all",
 				backgroundColor: "#fff"
 			});
-			viewCases(nextWindow);
+			viewCases(nextWindow, currentCategories, $.tab1);
 		}
 		else {
 			var index = e.itemIndex;
@@ -71,7 +71,7 @@ function createEventFunctionCategory(currentCategory) {
 				displayListView(nextWindow, subCats, createEventFunctionCategory(currCat));
 			}
 			else if (currCat.cases.length > 0) {
-				viewCases(nextWindow);
+				viewCases(nextWindow, currentCategories, $.tab1);
 			}
 			else {
 				nextWindow.addEventListener('close', function(e) {
@@ -83,9 +83,24 @@ function createEventFunctionCategory(currentCategory) {
 	};
 }
 
-function createEventFunctionCase(cases) {
+function createEventFunctionCase(cases, tab) {
 	return function(e) {
 		var currentCase = cases[e.itemIndex];
+		var nextWindow = Ti.UI.createWindow({
+			title: currentCase.name,
+			backgroundColor: "#fff"
+		});
+		var objects = [
+			{ properties: { title: 'Videos' } },
+			{ properties: { title: 'Images' } }];
+		displayListView(nextWindow, objects, createMediaFunctionCase(currentCase, tab));
+		tab.open(nextWindow);
+	};
+}
+
+function createMediaFunctionCase(currentCase, tab) {
+	return function(e) {
+		var videos = e.itemIndex == 0;
 		var nextWindow = Ti.UI.createWindow({
 			title: currentCase.name,
 			backgroundColor: "#fff"
@@ -108,13 +123,13 @@ function createEventFunctionCase(cases) {
 			});
 			nextWindow.add(thumbnailImageView);*/
 			
-			var view;
+			var view = null;
 			var initialZoom;
 			var wrapper = Ti.UI.createScrollView({
 		        maxZoomScale : 8,
 		        backgroundColor : "black",
 			});
-			if (currentCase.mediaFiles[i].video) {
+			if (currentCase.mediaFiles[i].video && videos) {
 				view = Ti.Media.createVideoPlayer({
 					autoplay: false,
 					mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
@@ -123,27 +138,93 @@ function createEventFunctionCase(cases) {
 				});
 				initialZoom = 1.0;
 			}
-			else {
+			else if (!currentCase.mediaFiles[i].video && !videos) {
 				view = Ti.UI.createImageView({
 					image: currentCase.mediaFiles[i].URL
 				});
-				initialZoom = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
+				var temp1 = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
+				var temp2 = (Titanium.Platform.displayCaps.platformHeight - 123) / view.toImage().height;
+				initialZoom = (temp1 < temp2 ? temp1 : temp2);
 			}
-			wrapper.minZoomScale = initialZoom;
-			wrapper.zoomScale = initialZoom;
-			wrapper.add(view);
-			views[i] = wrapper;
+			if (view != null) {
+				wrapper.minZoomScale = initialZoom;
+				wrapper.zoomScale = initialZoom;
+				wrapper.add(view);
+				views.push(wrapper);
+			}
 		}
 		var scrollableView = Ti.UI.createScrollableView({
 			views: views,
+			backgroundColor: '#000',
 			showPagingControl: true
 		});
 		nextWindow.add(scrollableView);
-		$.tab1.open(nextWindow);
+		tab.open(nextWindow);
 	};
 }
+var searchArea = Ti.UI.createTextArea({
+	borderWidth: 1,
+	borderColor: '#aaa',
+	borderRadius: 10,
+	top: 10,
+	left: 10,
+	right: 10,
+	height: 100,
+	font: {fontSize: 20, fontWeight: 'bold' },
+	returnKeyType: Ti.UI.RETURNKEY_SEARCH,
+});
 
-db.initDB($.tab1window1, displayListView, createEventFunctionCategory);
+function initSearch(rootCategory, categories) {
+	var searchButton = Titanium.UI.createButton({
+		title: 'Search',
+		top: 125,
+		width: 100,
+		height: 50,
+	});
+	
+	var search = function(e) {
+		searchArea.blur();
+		if (searchArea.getValue() == "") {
+			alert("Please type a keyword!");
+			return;
+		}
+		var keywords = searchArea.getValue().split(',');
+		var cats = [];
+		for (var i = 0; i < keywords.length; i++) {
+			keywords[i] = keywords[i].trim().toLowerCase();
+			var temp = categories[keywords[i]];
+			if (temp != undefined) {
+				cats.push(temp);
+			}
+			else {
+				alert("Invalid keyword: " + keywords[i] + "!");
+			}
+		}
+		if (cats.length == 0) {
+			alert("No valid keywords!");
+			return;
+		}
+		/*var string = "";
+		for (var i = 0; i < cats.length; i++) {
+			string += cats[i].name + ", ";
+		}
+		alert("Found categories: " + string);*/
+		var nextWindow = Ti.UI.createWindow({
+			title: 'Search results',
+			backgroundColor: "#fff"
+		});
+		viewCases(nextWindow, cats, $.tab2);
+		$.tab2.open(nextWindow);
+	};
+	
+	searchArea.addEventListener('return', search);
+	searchButton.addEventListener('click', search);
+	
+	$.tab2window1.add(searchArea);
+	$.tab2window1.add(searchButton);
+}
+
+db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch);
 
 //$.tab1window1.setTitle(rootCategory.name);
 //displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
