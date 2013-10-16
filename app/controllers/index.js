@@ -90,6 +90,7 @@ function createEventFunctionCase(cases) {
 			title: currentCase.name,
 			backgroundColor: "#fff"
 		});
+		
 		var views = [];
 		for (var i = 0; i < currentCase.mediaFiles.length; i++) {
 			// Code for thumbnails
@@ -108,6 +109,11 @@ function createEventFunctionCase(cases) {
 			nextWindow.add(thumbnailImageView);*/
 			
 			var view;
+			var initialZoom;
+			var wrapper = Ti.UI.createScrollView({
+		        maxZoomScale : 8,
+		        backgroundColor : "black",
+			});
 			if (currentCase.mediaFiles[i].video) {
 				view = Ti.Media.createVideoPlayer({
 					autoplay: false,
@@ -115,13 +121,18 @@ function createEventFunctionCase(cases) {
 					scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
 					url: currentCase.mediaFiles[i].URL
 				});
+				initialZoom = 1.0;
 			}
 			else {
 				view = Ti.UI.createImageView({
 					image: currentCase.mediaFiles[i].URL
 				});
+				initialZoom = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
 			}
-			views[i] = view;
+			wrapper.minZoomScale = initialZoom;
+			wrapper.zoomScale = initialZoom;
+			wrapper.add(view);
+			views[i] = wrapper;
 		}
 		var scrollableView = Ti.UI.createScrollableView({
 			views: views,

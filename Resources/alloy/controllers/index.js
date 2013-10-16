@@ -74,15 +74,31 @@ function Controller() {
             var views = [];
             for (var i = 0; currentCase.mediaFiles.length > i; i++) {
                 var view;
-                view = currentCase.mediaFiles[i].video ? Ti.Media.createVideoPlayer({
-                    autoplay: false,
-                    mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
-                    scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
-                    url: currentCase.mediaFiles[i].URL
-                }) : Ti.UI.createImageView({
-                    image: currentCase.mediaFiles[i].URL
+                var initialZoom;
+                var wrapper = Ti.UI.createScrollView({
+                    maxZoomScale: 8,
+                    backgroundColor: "black"
                 });
-                views[i] = view;
+                if (currentCase.mediaFiles[i].video) {
+                    view = Ti.Media.createVideoPlayer({
+                        autoplay: false,
+                        mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
+                        scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+                        url: currentCase.mediaFiles[i].URL
+                    });
+                    initialZoom = 1;
+                } else {
+                    view = Ti.UI.createImageView({
+                        image: currentCase.mediaFiles[i].URL
+                    });
+                    wrapper.height / view.height;
+                    wrapper.width / view.width;
+                    initialZoom = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
+                }
+                wrapper.minZoomScale = initialZoom;
+                wrapper.zoomScale = initialZoom;
+                wrapper.add(view);
+                views[i] = wrapper;
             }
             var scrollableView = Ti.UI.createScrollableView({
                 views: views,
