@@ -11,7 +11,7 @@ CREATE TABLE mediaFile (
     description VARCHAR(1000),
     belongsTo INT NOT NULL,
     video BOOL NOT NULL,
-    publi BOOL NOT NULL,
+    public BOOL NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (belongsTo) REFERENCES caseT(id) ON DELETE CASCADE
 ) ENGINE=INNODB;
