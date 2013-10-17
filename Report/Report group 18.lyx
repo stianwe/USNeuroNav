@@ -387,6 +387,14 @@ Planning and Requirements
 
 \size huge
 Introduction
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -407,6 +415,14 @@ USNeuroNav App
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -420,6 +436,14 @@ Project Client
 \size large
 SINTEF and The National Competence Center for Ultrasound and Image Guided
  Therapy.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -443,6 +467,14 @@ create value through knowledge generation, research and innovation, and
 
  (http://www.sintef.no/home/About-us/).
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -461,6 +493,14 @@ g closely in order to improve current methods and techniques for minimally
  The group consists of experts from SINTEF, NTNU and St.
  Olav's Hospital.
  (http://www.usigt.org/)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -479,6 +519,14 @@ The project sponsor and customer is SINTEF and The National Competence Center
  students, Kristoffer Hagen, Marthe Frogner Bekkevold and Stian Weie, and
  also the project supervisor, Anh Nguyen Duc.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -525,6 +573,14 @@ The National Competence Center for Ultrasound and Image Guided Therapy collects
  has a huge potential in this regard.
  In addition to presenting the available material it’s natural to investigate
  the possibility for extending the app to a serious game.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -539,6 +595,14 @@ Project Goal
 The goal of the project is to increase the awareness and knowledge surrounding
  the use of ultrasound navigation during surgery, to increase its popularity
  and also make the use of the technology more widespead.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -575,6 +639,14 @@ This chapter describes the project plan, terms and team organisation.
  and a work break down structure.
  After that the organisation of the team and the risk management are presented.
  At the end is given quality assurance.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -9479,12 +9551,14 @@ Sprint 1
 
 \size largest
 Sprint Planning
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Subsubsection
 
-\size larger
-Sprint planning
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9572,13 +9646,13 @@ Sprint duration
 \begin_layout Standard
 
 \size large
-The duration of sprint 1 is from 4th of September to 17th of September.
+The duration of sprint 1 is from 18th of September to 1th of October.
 \end_layout
 
 \begin_layout Subsubsection
 
 \size larger
-Backlog and main goals
+Sprint goals
 \end_layout
 
 \begin_layout Standard
@@ -9592,6 +9666,20 @@ The main goal of the sprint is to have a running prototype which can display
  Finally a goal for the report progress is to have a skeleton for the report
  in a LATEX document, with all written material previously written in Google
  Drive inserted.
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint backlog
+\end_layout
+
+\begin_layout Standard
+
+\size large
+This sprint backlog is shown in the table below.
+ It shows all the usecase stories, with tasks and estimated effort, that
+ is planned for this sprint.
 \end_layout
 
 \begin_layout Standard
@@ -12031,6 +12119,35 @@ Sprint 2
 
 \size largest
 Sprint Planning
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+We almost managed be done with everything the previous sprint, so it was
+ just one task that had to be pushed to the backlog of sprint 2.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Our technical manager, Stian, will be gone on a planned trip during half
+ the sprint, so there will not be implemented that much in this sprint.
+ Marthe and Kristoffer will foucus on the report, since there is to be a
+ pre delivery on the 14th October.
+\begin_inset Newline newline
+\end_inset
+
+The customer will come back from his trip the 9th October, wich is in the
+ midle of our sprint, and after that we wil try to have regular meetings
+ every second week.
 \end_layout
 
 \begin_layout Subsubsection
@@ -12039,10 +12156,140 @@ Sprint Planning
 Sprint duration
 \end_layout
 
+\begin_layout Standard
+
+\size large
+The duration of sprint 2 is from 2th of October to 15th of October.
+\end_layout
+
 \begin_layout Subsubsection
 
 \size larger
-Backlog
+Sprint goals
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The main goal of the sprint is to have written as much as possible of the
+ report.
+ Since our technical manager is gone half the sprint the report will have
+ most of the focus, but some implementation of the system will be done.
+ 
+\begin_inset Newline newline
+\end_inset
+
+On the report, we will be finnish writing the hole Part 1, and the Sprint
+ 1 chapters.
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint backlog
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+This sprint backlog is shown in the table below.
+ It shows all the usecase stories, with tasks and estimated effort, that
+ is planned for this sprint
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+System Burndown Chart
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Implementation
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Testing
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Ocuring Risks
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Customer Feedback
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Sprint Evaluation
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+What went well during this sprint
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\size huge
+Sprint 3
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Sprint Planning
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint planning
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint duration
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The duration of sprint 3 is from 16th of October to 29th of October.
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Backlog and main goals
 \end_layout
 
 \begin_layout Subsection
