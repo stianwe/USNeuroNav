@@ -219,7 +219,7 @@ Kristoffer Hagen
 \series bold
 \size large
 \color white
-t
+.
 \series default
 \size default
 \color inherit
@@ -2141,7 +2141,7 @@ Risk Analysis
 
 
 \size large
-The risk matrix gives a better picture of how severe risks for the project
+The risk matrix gives a better picture of how severe the risks for the project
  are.
  
 \end_layout
@@ -9678,7 +9678,7 @@ Sprint backlog
 
 \size large
 This sprint backlog is shown in the table below.
- It shows all the usecase stories, with tasks and estimated effort, that
+ It shows all the use case stories, with tasks and estimated effort, that
  is planned for this sprint.
 \end_layout
 
@@ -12135,16 +12135,21 @@ Sprint Planning
 We almost managed be done with everything the previous sprint, so it was
  just one task that had to be pushed to the backlog of sprint 2.
  
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+
+\size large
 Our technical manager, Stian, will be gone on a planned trip during half
  the sprint, so there will not be implemented that much in this sprint.
  Marthe and Kristoffer will foucus on the report, since there is to be a
- pre delivery on the 14th October.
-\begin_inset Newline newline
-\end_inset
+ pre delivery on the 14th October, and we want to get as much feedback on
+ the report as possible.
+\end_layout
 
+\begin_layout Standard
+
+\size large
 The customer will come back from his trip the 9th October, wich is in the
  midle of our sprint, and after that we wil try to have regular meetings
  every second week.
@@ -12176,9 +12181,11 @@ The main goal of the sprint is to have written as much as possible of the
  Since our technical manager is gone half the sprint the report will have
  most of the focus, but some implementation of the system will be done.
  
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+
+\size large
 On the report, we will be finnish writing the hole Part 1, and the Sprint
  1 chapters.
 \end_layout
@@ -12197,8 +12204,8 @@ Sprint backlog
 
 \size large
 This sprint backlog is shown in the table below.
- It shows all the usecase stories, with tasks and estimated effort, that
- is planned for this sprint
+ It shows all the use case stories, with tasks and estimated effort, that
+ is planned for this sprint.
 \end_layout
 
 \begin_layout Subsection
@@ -12225,10 +12232,211 @@ Testing
 Ocuring Risks
 \end_layout
 
+\begin_layout Standard
+
+\size large
+The risks that came to life during sprint 2 is summarized in the table below,
+ along with the actions taken.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="10page%">
+<column alignment="center" valignment="top" width="40text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Risk factor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Explanation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Actions taken
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+R1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Sick group member
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+?
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+The group were already ahead of time, so no actions was necessary
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+R12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Absent group member
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Stian were gone travelling during a large part of the sprint
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Stian informed the group about the absence in good time before the period
+ in question, so the group were able to plan with this in mind.
+ The agreement was that Stian were going to work on...
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Occurring risks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 
 \size largest
 Customer Feedback
+\end_layout
+
+\begin_layout Standard
+
+\size large
+We had a meeting with the customer on 9th October
 \end_layout
 
 \begin_layout Subsection
@@ -12241,6 +12449,12 @@ Sprint Evaluation
 
 \size larger
 What went well during this sprint
+\end_layout
+
+\begin_layout Standard
+
+\size large
+We had a great progress on the report during this sprint.
 \end_layout
 
 \begin_layout Subsubsection
