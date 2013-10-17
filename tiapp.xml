@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>us.neuro.nav2</id>
     <name>USNeuroNav2</name>
     <version>1.0</version>
@@ -20,6 +19,8 @@
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
         <orientations device="ipad">
             <orientation>Ti.UI.PORTRAIT</orientation>
@@ -39,7 +40,7 @@
     </mobileweb>
     <modules/>
     <deployment-targets>
-        <target device="android">false</target>
+        <target device="android">true</target>
         <target device="blackberry">false</target>
         <target device="ipad">true</target>
         <target device="iphone">true</target>
@@ -50,4 +51,4 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-</ti:app>
+<property name="ti.deploytype">development</property></ti:app>
