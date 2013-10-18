@@ -4,9 +4,8 @@
 			<Window title="Tab 1" id="tab1window1">
 			</Window>
 		</Tab>
-		<Tab title="Search" icon="KS_nav_views.png">
-			<Window title="Tab 2">
-				<Label>I am Window 2</Label>
+		<Tab title="Search" icon="KS_nav_views.png" id="tab2">
+			<Window title="Search" id="tab2window1">
 			</Window>
 		</Tab>
 	</TabGroup>

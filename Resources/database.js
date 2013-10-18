@@ -1,4 +1,4 @@
-function initDB(window, displayListView, createEventFunctionCategory) {
+function initDB(window, displayListView, createEventFunctionCategory, initSearch) {
     var xhr = Titanium.Network.createHTTPClient();
     xhr.onload = function() {
         var json = JSON.parse(this.responseText);
@@ -13,9 +13,12 @@ function initDB(window, displayListView, createEventFunctionCategory) {
         var jsonMediaFiles = json.mediaFiles;
         var rootCategoryID;
         var categories = {};
+        var categoriesByName = {};
         for (var i = 0; jsonCategories.length > i; i++) {
             "root" == jsonCategories[i].name && (rootCategoryID = jsonCategories[i].id);
-            categories[jsonCategories[i].id] = new classes.category(jsonCategories[i].name, new Array());
+            var temp = new classes.category(jsonCategories[i].name, new Array());
+            categoriesByName[jsonCategories[i].name.toLowerCase()] = temp;
+            categories[jsonCategories[i].id] = temp;
         }
         for (var i = 0; jsonSubCategories.length > i; i++) categories[jsonSubCategories[i].superCategory].subCategories.push(categories[jsonSubCategories[i].subCategory]);
         var cases = {};
@@ -30,6 +33,7 @@ function initDB(window, displayListView, createEventFunctionCategory) {
         rootCategory.name = "Browse";
         window.setTitle(rootCategory.name);
         displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+        initSearch(rootCategory, categoriesByName);
     };
     xhr.open("GET", "http://129.241.110.159/database.php");
     xhr.send();
