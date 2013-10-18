@@ -73,6 +73,10 @@ function Controller() {
             });
             var objects = [ {
                 properties: {
+                    title: currentCase.description
+                }
+            }, {
+                properties: {
                     title: "Videos"
                 }
             }, {

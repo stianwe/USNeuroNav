@@ -38,7 +38,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
 	    
 	    var cases = {};
 	    for (var i = 0; i < jsonCases.length; i++) {
-	    	cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name);
+	    	cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description);
 	    }
 	    
 	    for (var i = 0; i < jsonBelongsTo.length; i++) {

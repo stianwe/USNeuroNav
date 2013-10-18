@@ -22,7 +22,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         }
         for (var i = 0; jsonSubCategories.length > i; i++) categories[jsonSubCategories[i].superCategory].subCategories.push(categories[jsonSubCategories[i].subCategory]);
         var cases = {};
-        for (var i = 0; jsonCases.length > i; i++) cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name);
+        for (var i = 0; jsonCases.length > i; i++) cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description);
         for (var i = 0; jsonBelongsTo.length > i; i++) categories[jsonBelongsTo[i].category].cases.push(cases[jsonBelongsTo[i].caseT]);
         for (var i = 0; categories.length > i; i++) {
             Ti.API.info(categories[i].name);
