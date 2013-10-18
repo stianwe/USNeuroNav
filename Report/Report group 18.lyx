@@ -471,10 +471,6 @@ create value through knowledge generation, research and innovation, and
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -653,6 +649,10 @@ This chapter describes the project plan, terms and team organisation.
 
 \size largest
 Project Plan
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -672,6 +672,10 @@ The goal of the project is to increase the awareness and knowledge surrounding
  to make a product the customer is satisfied with and believes can be used
  for its intended purpose.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -703,8 +707,7 @@ The customer has a very clear requirement that the project results in an
 The specific tools for developing this application is scheduled to be determined
  together with the customer at 04.09.2013.
  Many tools has been investigated and tested, and prior to the meeting,
- two clear alternatives remain, Xamarin (http://xamarin.com) and Appcelerated’s
- Titanium (http://www.appcelerator.com).
+ two clear alternatives remain, Xamarin[x] and Appcelerated’s Titanium[x].
  The reasoning behind this is that these two both provide cross-platform
  development and that they have the possibility of creating applications
  that look and feel like native apps.
@@ -732,6 +735,10 @@ For intergroup communication we have selected to use Google Docs for organizing
  The selection of tools we are already familiar with enables us to put more
  time into actual development and less time into learning new auxiliary
  tools.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -783,6 +790,10 @@ We are planning to deliver the final product to the customer 13.
  It should be noted that the report will be continuously updated as the
  project develops as well.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -797,6 +808,10 @@ Schedule of Result
 Scrum is being used for the development phase.
  After each sprint there will be deliveries which each of them should contribute
  towards a working system.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -847,11 +862,11 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="8text%">
-<column alignment="center" valignment="top" width="15text%">
-<column alignment="center" valignment="top" width="40text%">
-<column alignment="center" valignment="top" width="15text%">
-<column alignment="center" valignment="top" width="15text%">
+<column alignment="center" valignment="top" width="5page%">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="22page%">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="8page%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1188,7 +1203,7 @@ status open
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="70text%">
+<column alignment="center" valignment="top" width="30page%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1688,6 +1703,10 @@ Organization
 
 \size large
 This section describes how the group is organized and why.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2078,6 +2097,14 @@ y.
  Git supports quick branching and merging, and includes specific tools for
  navigating a non-linear development history.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2097,6 +2124,10 @@ To prepare for unfortunate events that might occur during the project the
  The deadline is when the risk can arise.
  Probabilities for problem occurring and severity of consequences are denoted
  by H for ’high’, M for ’medium’ and L for ’low’.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2144,6 +2175,10 @@ Risk Analysis
 The risk matrix gives a better picture of how severe the risks for the project
  are.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2181,6 +2216,10 @@ Risk Matrix
 
 \size largest
 Quality Assurance
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2225,6 +2264,10 @@ Approval of phase documents is to be done as soon as possible, max 48 hours.
 
 \size large
 Answer e-mails is to be done as soon as possible.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2264,6 +2307,10 @@ From September 20 onwards will meetings be held on Fridays at 12:15.
  This is because of our sprints satrts at Wednesdays, so it will be more
  convenient to have it in the middle of a sprint, when we have more questions
  and challenges, and it is easier to come on track in the development.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2283,12 +2330,24 @@ Unexpected absence is to be reported as soon as possible, preferably before
  the meetings.
  Planned absence is to be reported as soon as possible, so we can plan according
 ly.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 
 \size largest
 Tools and technology
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2455,6 +2514,10 @@ nt that needed to be made.
 
 \size larger
 Administration
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2562,6 +2625,10 @@ Rally [x] is a cloud-based solution for managing the agile development lifecycle
 
 \size larger
 Development
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2897,6 +2964,14 @@ oNav.
 
 \size huge
 Preliminary Studies
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2933,6 +3008,14 @@ easy
  The main problem with the current situation is therefore that experienced
  doctors have no experience with the new way of using DS, and also very
  limited possibilites of learning it.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2955,6 +3038,14 @@ The solution that the customer desires, is a simple method for doctors (and
  The customer already has a lot of relevant data that can be used, and also
  continously produce more, so what they need is only a tool for displaying
  and distributing it, so that it is easy to find, wherever the user is.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2973,6 +3064,14 @@ The goal of the project is to increase the awareness and knowledge surrounding
  in use of the aforementioned technology, but our short term goal is simply
  to make a product the customer is satisfied with and believes can be used
  for its intended purpose.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2989,6 +3088,10 @@ There is some similar solutions for the USNeuroNav App.
  staff.
  Consideration should be given to privacy, therefore not all systems are
  available for everyone.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3018,6 +3121,10 @@ This app is dedicated to endoscopic ultrasound education and has been developed
 
 \size large
 The app showes pictures and videoes of ultrasound images.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3045,6 +3152,14 @@ This app for Microneurosurgery contains the "Helsinki Microneurosurgery
  Additionally this app provides many operative videos and pictures which
  the book directly refers to and an interesting link to the Hernesniemi-Aescuap
  Fellowship.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3083,6 +3198,10 @@ The ability to show pictures and videos is essential, wich this app provides.
 
 \size large
 Since it is for iPhones it is portable, wich is necessary in our case.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3102,6 +3221,14 @@ The app is a book, and it does not have the ability to search and browse
 
 \size large
 The ability to show pictures and videos is essential, wich this app provides.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3148,6 +3275,14 @@ In this section our choise for the lifecycle model is described.
  Fist we introduce the waterfall model and why we di not schose that, then
  a description of why we chose scrum, then we describe scum as a lifecycle
  model, and after that a description of scrum artefact and the scrum meetings.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3227,6 +3362,14 @@ The disadvantages with the waterfall maodel is that no working software
  is produced until late during the life cycle.
  It cannot accommodate changing requirements, and generally handles all
  changes poorly.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3264,6 +3407,14 @@ The ability to cope with changes is also one of the reason we chose scrum.
  It was not clear that we migth get an other team menber to our group, so
  we planned for three people, and with scrum we could esaly change the plans
  if we got one more.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3283,6 +3434,14 @@ Scrum is an agile software development methodology.
  project are divided among the members of the team.
  There is usually a big focus on fast communication between members given
  that scrum teams are usually small.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3317,6 +3476,10 @@ The project is divided into sprints, which usually last between two to four
  on time or not.
  This is visible through the burndown chart, a graph which shows how much
  effort remains in the sprint at any given day.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3360,6 +3523,10 @@ Scrum Meetings
 
 \size large
 There are several different meeting in the scrum lifecycle.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3377,6 +3544,10 @@ It is a meeting held at the start of each sprint.
  Each item in the sprint backlog will then be given an estimated effort
  on how long it will take to complete.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3392,6 +3563,10 @@ It is a short meeting, not more than 10 - 15 minutes, at the start of each
  day during a sprint.
  Each member of the group updates the rest on what has been done since last
  meeting, what they will do today and if there is any problems.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3410,6 +3585,10 @@ It is held after each sprint to review which tasks from the sprint backlog
  In this meeting the customer will be shown the current state of the product,
  and give feedback to the group.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3447,6 +3626,14 @@ In this section the system requirements will be presented.
  First a description of the scope of the project, then comes definitions,
  then a describtion of the functional and non-functional requirements.
  At the end the product backlog wil be described.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3521,6 +3708,14 @@ back
 
  actually is.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3555,6 +3750,14 @@ Administrator: A person who who will have all the privileges open, in the
 \size large
 Use Case: Technique that specify the interaction between the user and the
  system.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3577,6 +3780,10 @@ This is a public user who is interested in learning about the ultrasound
  There may be students, doctors or anyone who who wants access to such informati
 on.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3592,6 +3799,10 @@ This is users within the organization.
  They have an interest of learning how to interpret ultrasound images, so
  they can know that all the cancer is removed during an operation.
  These users may be students as well as doctors.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3607,6 +3818,14 @@ This is the user with authority to access the administration panel in the
  application.
  The administrator can manage the application by using interface made for
  that purpose.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8107,6 +8326,10 @@ Product Backlog
 
 \size huge
 Software Architecture
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8123,6 +8346,10 @@ This chapter will describe the architechture of our application the way
  It will describe the different modules of our system and through different
  architectural views show how we have planned the structure and modularity
  of our system.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -8146,6 +8373,10 @@ The purpose of this is to give an overview of the architectural structure
  improve our system, with a proper documentation of our architecture it
  will be easier to change specific modules of our system without having
  to change the entire code.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -8163,6 +8394,14 @@ Chapter 6 will cover the important parts of the achitecture of our system.
  The logic and reasoning for our choices will also be discussed by the end
  of the chapter.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8229,6 +8468,10 @@ Finally, the customer enquired about the possibility of using the app offline.
  As a solution to this, a possibility for selecting some cases, images and/or
  videos, that the phone should download and store locally, were proposed,
  so that some data, that the user selects, will be available offline.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -8356,6 +8599,10 @@ frontal lobe
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -8373,6 +8620,10 @@ The MySQL database will only contain URL's to the images and videos, while
  The media files will be organized after cases, but will not contain any
  meta data at all.
  All of that will come from the database.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -8385,6 +8636,14 @@ Local caching
 
 \size large
 (To be done)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8755,6 +9014,10 @@ Architectural Viewpoints
 
 \size largest
 Views
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -8770,6 +9033,10 @@ The following four sequence diagrams shows how our system can be used by
  the end-users and how the different modules of the system communicates
  with eachother during use.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -9122,6 +9389,10 @@ classification
  and case hierarchy, and the media files references belonging to each case.
  It also provides a component for logging in, and one for communication
  with the database.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -9465,6 +9736,10 @@ USNeuroNav is the name of the mobile application, which can be run on smart
  This communication goes through a thin layer of PHP script, that actually
  reads the database, and passes on the information.
  The media files themself is fetched from the web server using regular HTTP.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -9477,6 +9752,14 @@ Scenarios
 
 \size large
 See chapter 5.4.1 and 5.4.2 for usecases and usecase diagrams .
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -9497,6 +9780,14 @@ We tried our best to stick to the traditional Model View Controller (MVC)
  the coding language (Javascript), we did run into some slight problems
  with sticking to MVC, but as we got more familiar with it, the problems
  seemed to be solved one by one.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -9545,20 +9836,16 @@ Sprints
 
 \size huge
 Sprint 1
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 
 \size largest
 Sprint Planning
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9635,6 +9922,10 @@ developers
 \size large
 An additional goal of the sprint is to start working with Rally, to keep
  track of the backlog and the assigning of tasks.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -9647,6 +9938,10 @@ Sprint duration
 
 \size large
 The duration of sprint 1 is from 18th of September to 1th of October.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -9666,6 +9961,10 @@ The main goal of the sprint is to have a running prototype which can display
  Finally a goal for the report progress is to have a skeleton for the report
  in a LATEX document, with all written material previously written in Google
  Drive inserted.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -11186,6 +11485,10 @@ Burndown Chart Sprint 1
 
 \size largest
 Implementation
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -11386,6 +11689,10 @@ When a case is selcted, the case's images and videos will have to be displayed.
  We have discussed the possibility for a thumbnails view or something similar
  also, but no decision about this have been made, and for now we are postponing
  this until the customer can have his say on the matter.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -11417,6 +11724,10 @@ As Titanium does not support direct communication with an external MySQL
  the data sent here will not be too large, and it will allow the client
  to stream the images and videos from the Apache web server, by sending
  the reference as URL's.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -11437,6 +11748,14 @@ When the application is booting up, the client will poll the server for
  in memory, and use this to generate the tree-structured navigation.
  The json object will also contain references to where the images and videos
  for each case can be streamed from, so these will also be stored locally.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -12019,6 +12338,14 @@ As the customer was away travelling during the whole sprint, all contact
 , by reading them from the SQL database.
  The categories in the demo were only examples.
  Other than these few comments, the customer agreed with our design choices.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -12054,6 +12381,10 @@ learning by doing
  were chosen (Titanium vs Xamarin), as they feel they would be more productive
  writing code in C# than JavaScript, considering that JavaScript in theory
  does not support classes.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -12078,6 +12409,10 @@ The development phase turned out very good, given the odds.
 We didn't have much progress on the report early in the sprint, but during
  the last week, we really produced a lot of good content, which we are very
  happy with.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -12119,21 +12454,13 @@ Sprint 2
 
 \size largest
 Sprint Planning
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 
 \size large
 We almost managed be done with everything the previous sprint, so it was
- just one task that had to be pushed to the backlog of sprint 2.
+ two tasks that had to be pushed to the backlog of sprint 2.
  
 \end_layout
 
@@ -12153,6 +12480,10 @@ Our technical manager, Stian, will be gone on a planned trip during half
 The customer will come back from his trip the 9th October, wich is in the
  midle of our sprint, and after that we wil try to have regular meetings
  every second week.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -12165,6 +12496,10 @@ Sprint duration
 
 \size large
 The duration of sprint 2 is from 2th of October to 15th of October.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -12188,6 +12523,10 @@ The main goal of the sprint is to have written as much as possible of the
 \size large
 On the report, we will be finnish writing the hole Part 1, and the Sprint
  1 chapters.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -12206,6 +12545,36 @@ Sprint backlog
 This sprint backlog is shown in the table below.
  It shows all the use case stories, with tasks and estimated effort, that
  is planned for this sprint.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sprint 2 backlog
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -12437,6 +12806,14 @@ Customer Feedback
 
 \size large
 We had a meeting with the customer on 9th October
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -12455,6 +12832,10 @@ What went well during this sprint
 
 \size large
 We had a great progress on the report during this sprint.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -12485,12 +12866,6 @@ Sprint Planning
 \begin_layout Subsubsection
 
 \size larger
-Sprint planning
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
 Sprint duration
 \end_layout
 
@@ -12498,12 +12873,53 @@ Sprint duration
 
 \size large
 The duration of sprint 3 is from 16th of October to 29th of October.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 
 \size larger
-Backlog and main goals
+Sprint goals
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint backlog
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sprint 3 backlog
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -12639,30 +13055,6 @@ Results
 
 \size larger
 View
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
-Edit
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
-Add
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
-Report
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
-Report access
 \end_layout
 
 \begin_layout Subsection
@@ -12812,7 +13204,15 @@ References
 \begin_layout Standard
 
 \size large
-[x] EUS - Diagnostic and Interventional Endoscopic Ultrasound
+[x] http://xamarin.com
+\begin_inset Newline newline
+\end_inset
+
+[x] http://www.appcelerator.com
+\begin_inset Newline newline
+\end_inset
+
+[x]EUS - Diagnostic and Interventional Endoscopic Ultrasound
 \begin_inset Newline newline
 \end_inset
 
