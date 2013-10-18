@@ -33,7 +33,8 @@ if($result = $mysqli->query("SELECT * FROM caseT")) {
     while ($row = $result->fetch_assoc()) {
         $cases[] = array(
             'id'=>$row['id'],
-            'name'=>$row['name']);
+            'name'=>$row['name'],
+            'description'=>$row['description']);
     }
     $result->close();
 }
