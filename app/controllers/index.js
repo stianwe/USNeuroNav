@@ -91,6 +91,7 @@ function createEventFunctionCase(cases, tab) {
 			backgroundColor: "#fff"
 		});
 		var objects = [
+			{ properties: { title: currentCase.description } },
 			{ properties: { title: 'Videos' } },
 			{ properties: { title: 'Images' } }];
 		displayListView(nextWindow, objects, createMediaFunctionCase(currentCase, tab));
@@ -100,7 +101,10 @@ function createEventFunctionCase(cases, tab) {
 
 function createMediaFunctionCase(currentCase, tab) {
 	return function(e) {
-		var videos = e.itemIndex == 0;
+		if (e.itemIndex == 0) {
+			return;
+		}
+		var videos = e.itemIndex == 1;
 		var nextWindow = Ti.UI.createWindow({
 			title: currentCase.name,
 			backgroundColor: "#fff"
