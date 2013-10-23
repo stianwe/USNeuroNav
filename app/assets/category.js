@@ -23,8 +23,9 @@ function category(name, subCategories) {
 	
 }
 
-function caseT(name, description) {
+function caseT(name, description, publicT) {
 	this.name = name;
+	this.publicT = publicT;
 	this.description = description;
 	this.mediaFiles = new Array();
 }

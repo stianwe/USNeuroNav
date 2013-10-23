@@ -8,5 +8,9 @@
 			<Window title="Search" id="tab2window1">
 			</Window>
 		</Tab>
+		<Tab title="Log in" icon="KS_nav_views.png" id="tab3">
+			<Window title="Log in" id="tab3window1">
+			</Window>
+		</Tab>
 	</TabGroup>
 </Alloy>

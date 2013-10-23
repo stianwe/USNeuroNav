@@ -1,9 +1,15 @@
 var currentCategories = [];
+var isLoggedIn = false;
 
-function displayListView(window, items, eventFunction) {
+function displayListView(window, items, eventFunction, caseT) {
 	var listView = Ti.UI.createListView();
 	var section = Ti.UI.createListSection();
 	var sections = [];
+	if (caseT != null) {
+		var section2 = Ti.UI.createListSection();
+		section2.setItems([{properties: {title:caseT.description}}]);
+		sections.push(section2);
+	}
 	section.setItems(items);
 	sections.push(section);
 	listView.sections = sections;
@@ -11,6 +17,7 @@ function displayListView(window, items, eventFunction) {
 	window.addEventListener('close', function(e) {
 		currentCategories.pop();
 	});
+	
 	window.add(listView);
 	/*var names = [];
 	for (var i = 0; i < currentCategories.length; i++) {
@@ -34,9 +41,17 @@ function viewCases(nextWindow, categories, tab) {
 		}
 		cases = casesToPrint.slice();
 	}
+	var toBeRemoved = [];
 	var props = [];
 	for (var i = 0; i < casesToPrint.length; i++) {
-		props[i] = { properties: { title:casesToPrint[i].name } };
+		if (!isLoggedIn && !casesToPrint[i].publicT) {
+			toBeRemoved.push(i);
+			continue;
+		}
+		props.push({ properties: { title:casesToPrint[i].name } });
+	}
+	for (var i = 0; i < toBeRemoved.length; i++) {
+		casesToPrint.splice(toBeRemoved[i], 1);
 	}
 	displayListView(nextWindow, props, createEventFunctionCase(casesToPrint, tab));
 }
@@ -94,6 +109,7 @@ function createEventFunctionCase(cases, tab) {
 			{ properties: { title: currentCase.description } },
 			{ properties: { title: 'Videos' } },
 			{ properties: { title: 'Images' } }];
+		currentCategories.push(null);
 		displayListView(nextWindow, objects, createMediaFunctionCase(currentCase, tab));
 		tab.open(nextWindow);
 	};
@@ -227,6 +243,94 @@ function initSearch(rootCategory, categories) {
 	$.tab2window1.add(searchArea);
 	$.tab2window1.add(searchButton);
 }
+
+var loginView = null;
+var logoutView = null;
+
+function login(username, password) {
+	var req = Titanium.Network.createHTTPClient();
+	req.onload = function() {
+		var json = JSON.parse(this.responseText);
+		//alert("Response: " + json.response);
+		if (json.response == "1") {
+			isLoggedIn = true;
+			initLogout();
+		} else {
+			alert("Login failed!");
+		}
+	};
+	req.onerror = function() {
+		alert("Something went wrong!");
+	};
+	req.open("GET", db.address + "/login.php?username=" + username + "&password=" + password);
+	req.send();
+}
+
+function initLogout() {
+	if (logoutView == null) {
+		logoutView = Titanium.UI.createView();
+		var logoutButton = Titanium.UI.createButton({
+			title: 'Log out',
+			top: 50,
+			width: 100,
+			height: 50,
+		});
+		logoutButton.addEventListener('click', function(e) {
+			isLoggedIn = false;
+			initLogin();
+		});
+		logoutView.add(logoutButton);
+		$.tab3window1.add(logoutView);
+	} 
+	loginView.setVisible(false);
+	logoutView.setVisible(true);
+}
+
+function initLogin() {
+	if (loginView == null) {
+		loginView = Titanium.UI.createView();
+		var usernameField = Titanium.UI.createTextField({
+			top: 10, left: 10, right: 10,
+			hintText: 'Username',
+			borderWidth: 1,
+			borderColor: '#aaa',
+			borderRadius: 10,
+			height: 35
+		});
+		var passwordField = Titanium.UI.createTextField({
+			hintText: 'Password',
+			borderWidth: 1,
+			borderColor: '#aaa',
+			borderRadius: 10,
+			passwordMask: true,
+			height: 35,
+			left: 10, right: 10, top: 55,
+		});
+		var button = Titanium.UI.createButton({
+			title: 'Log in',
+			top: 120,
+			width: 100,
+			height: 50,
+		});
+		var loginHelper = function(e) {
+			usernameField.blur();
+			passwordField.blur();
+			login(usernameField.value, passwordField.value);
+		};
+		button.addEventListener('click', loginHelper);
+		passwordField.addEventListener('return', loginHelper);
+		usernameField.addEventListener('return', loginHelper);
+		loginView.add(usernameField);
+		loginView.add(passwordField);
+		loginView.add(button);
+		$.tab3window1.add(loginView);
+	} else {
+		logoutView.setVisible(false);
+	}
+	loginView.setVisible(true);
+}
+
+initLogin();
 
 db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch);
 
