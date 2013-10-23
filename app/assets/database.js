@@ -1,6 +1,7 @@
 var classes = require('category');
 
-var rootURL = "http://129.241.110.159/media/";
+var address = "http://129.241.110.159";
+var rootURL = address + "/media/";
 
 function initDB(window, displayListView, createEventFunctionCategory, initSearch){
 
@@ -38,7 +39,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
 	    
 	    var cases = {};
 	    for (var i = 0; i < jsonCases.length; i++) {
-	    	cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description);
+	    	cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description, jsonCases[i].publicT == "1");
 	    }
 	    
 	    for (var i = 0; i < jsonBelongsTo.length; i++) {
@@ -63,7 +64,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
     	initSearch(rootCategory, categoriesByName);
 	};
 	
-	xhr.open('GET', "http://129.241.110.159/database.php");
+	xhr.open('GET', address + "/database.php");
 	
 	xhr.send();
 	
@@ -72,3 +73,4 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
 }
 
 exports.initDB = initDB;
+exports.address = address;

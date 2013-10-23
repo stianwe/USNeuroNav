@@ -22,7 +22,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         }
         for (var i = 0; jsonSubCategories.length > i; i++) categories[jsonSubCategories[i].superCategory].subCategories.push(categories[jsonSubCategories[i].subCategory]);
         var cases = {};
-        for (var i = 0; jsonCases.length > i; i++) cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description);
+        for (var i = 0; jsonCases.length > i; i++) cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description, "1" == jsonCases[i].publicT);
         for (var i = 0; jsonBelongsTo.length > i; i++) categories[jsonBelongsTo[i].category].cases.push(cases[jsonBelongsTo[i].caseT]);
         for (var i = 0; categories.length > i; i++) {
             Ti.API.info(categories[i].name);
@@ -35,13 +35,17 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
         initSearch(rootCategory, categoriesByName);
     };
-    xhr.open("GET", "http://129.241.110.159/database.php");
+    xhr.open("GET", address + "/database.php");
     xhr.send();
     return true;
 }
 
 var classes = require("category");
 
-var rootURL = "http://129.241.110.159/media/";
+var address = "http://129.241.110.159";
+
+var rootURL = address + "/media/";
 
 exports.initDB = initDB;
+
+exports.address = address;
