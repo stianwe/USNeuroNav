@@ -8,6 +8,7 @@ public class Main {
 	private static final String DB_PASSWORD = "";
 	
 	private static final String[] VALID_VIDEO_FORMATS = new String[] {".mov"};
+	private static final String[] VALID_IMAGE_FORMATS = new String[] {".jpg"};
 	
 	public static void main(String[] args) {
 		if (args.length != 3) {
@@ -49,14 +50,27 @@ public class Main {
 				rootPath = temp[temp.length - 1] + "/";
 			}
 			for (String file : files) {
+				boolean sendData = false;
 				boolean isVideo = false;
 				for (String format : VALID_VIDEO_FORMATS) {
 					if (file.endsWith(format)) {
 						isVideo = true;
-						break;
+						sendData = true;
+						
 					}
 				}
-				sql.insertMediaFile(rootPath + file, isVideo, isPublic, caseId);
+				
+				if (!isVideo){
+					for (String format : VALID_IMAGE_FORMATS) {
+						if (file.endsWith(format)) {
+							sendData = true;
+						}
+					}
+					
+					if (sendData)
+						sql.insertMediaFile(rootPath + file, isVideo, isPublic, caseId);
+				}
+				
 			}
 		} catch (Exception e) {
 			System.out.println("Error while communicating with database: " + e);
