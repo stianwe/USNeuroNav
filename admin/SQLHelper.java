@@ -1,4 +1,5 @@
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -11,6 +12,9 @@ public class SQLHelper {
 	private static final String MEDIAFILE_BELONGS_TO = "belongsTo";
 	private static final String MEDIAFILE_VIDEO = "video";
 	private static final String MEDIAFILE_PUBLIC = "public";
+	private static final String CASET_NAME = "name";
+	private static final String CASET_PUBLIC = "public";
+	private static final String CASET_DESCRIPTION = "description";
 	
 	private String hostname, dbName, username, password;
 	private int port;
@@ -49,4 +53,23 @@ public class SQLHelper {
 		System.out.println(temp);
 		st.executeUpdate(temp);
 	}
+	public int insertCase(String caseName, boolean isPublic, String description) throws SQLException {
+		String temp = "INSERT INTO caseT (" + CASET_NAME + ", " + CASET_PUBLIC + ", "
+				+ CASET_DESCRIPTION + ") values (\"" + caseName + "\", " + (isPublic ? 1 : 0) + ", \"" + description + "\")";
+		System.out.println(temp);
+		//return st.executeUpdate(temp);
+		return 5;
+	}
+	
+	public int getCatID(String name) throws SQLException {
+		String temp = "SELECT id category where name=\""+name+"\"";
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+		}
+		return id;
+		
+	}
+
 }
