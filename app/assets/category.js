@@ -23,10 +23,11 @@ function category(name, subCategories) {
 	
 }
 
-function caseT(name, description, publicT) {
+function caseT(name, publicDescription, privateDescription, publicT) {
 	this.name = name;
 	this.publicT = publicT;
-	this.description = description;
+	this.publicDescription = publicDescription;
+	this.privateDescription = privateDescription;
 	this.mediaFiles = new Array();
 }
 

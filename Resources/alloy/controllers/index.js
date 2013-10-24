@@ -1,6 +1,6 @@
 function Controller() {
     function displayListView(window, items, eventFunction, caseT) {
-        var listView = Ti.UI.createListView();
+        var listView = Ti.UI.createListView({});
         var section = Ti.UI.createListSection();
         var sections = [];
         if (null != caseT) {
@@ -35,7 +35,6 @@ function Controller() {
         var toBeRemoved = [];
         var props = [];
         for (var i = 0; casesToPrint.length > i; i++) {
-            "Case 1" == casesToPrint[i].name && alert("Logged in? " + isLoggedIn + ", public? " + casesToPrint[i].publicT);
             if (!isLoggedIn && !casesToPrint[i].publicT) {
                 toBeRemoved.push(i);
                 continue;
@@ -51,7 +50,7 @@ function Controller() {
     }
     function createEventFunctionCategory(currentCategory) {
         return function(e) {
-            if (0 == e.itemIndex && currentCategories.length > 0) {
+            if (0 == e.itemIndex) {
                 currentCategories.push(new classes.category("*", new Array()));
                 var nextWindow = Ti.UI.createWindow({
                     title: "Show all",
@@ -60,7 +59,7 @@ function Controller() {
                 viewCases(nextWindow, currentCategories, $.tab1);
             } else {
                 var index = e.itemIndex;
-                currentCategories.length > 0 && index--;
+                currentCategories.length > 1 && index--;
                 var currCat = currentCategory.subCategories[index];
                 currentCategories.push(currCat);
                 var nextWindow = Ti.UI.createWindow({
@@ -84,16 +83,18 @@ function Controller() {
     }
     function createEventFunctionCase(cases, tab) {
         return function(e) {
+            var view = Ti.UI.createView({
+                borderWidth: 1,
+                layout: "vertical",
+                height: Ti.UI.SIZE
+            });
             var currentCase = cases[e.itemIndex];
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
-                backgroundColor: "#fff"
+                backgroundColor: "#fff",
+                layout: "vertical"
             });
             var objects = [ {
-                properties: {
-                    title: currentCase.description
-                }
-            }, {
                 properties: {
                     title: "Videos"
                 }
@@ -103,14 +104,38 @@ function Controller() {
                 }
             } ];
             currentCategories.push(null);
-            displayListView(nextWindow, objects, createMediaFunctionCase(currentCase, tab));
+            var descLabel = Titanium.UI.createLabel({
+                text: "Description:",
+                font: {
+                    fontWeight: "bold",
+                    fontsize: 48
+                },
+                color: "#777",
+                textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+            });
+            var label = Titanium.UI.createLabel({
+                text: isLoggedIn ? currentCase.privateDescription : currentCase.publicDescription,
+                left: 4,
+                right: 4,
+                color: "#777",
+                font: {
+                    fontsize: 48
+                },
+                textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+            });
+            view.add(descLabel);
+            view.add(label);
+            nextWindow.add(view);
+            displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab));
             tab.open(nextWindow);
         };
     }
-    function createMediaFunctionCase(currentCase, tab) {
+    function createMediaFunctionCase(oldWindow, currentCase, tab) {
         return function(e) {
-            if (0 == e.itemIndex) return;
-            var videos = 1 == e.itemIndex;
+            var activityIndicator = Titanium.UI.createActivityIndicator();
+            oldWindow.setRightNavButton(activityIndicator);
+            activityIndicator.show();
+            var videos = 0 == e.itemIndex;
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
                 backgroundColor: "#fff"
@@ -153,6 +178,7 @@ function Controller() {
             });
             nextWindow.add(scrollableView);
             tab.open(nextWindow);
+            activityIndicator.hide();
         };
     }
     function initSearch(rootCategory, categories) {
@@ -338,7 +364,7 @@ function Controller() {
     var loginView = null;
     var logoutView = null;
     initLogin();
-    db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch);
+    db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
     $.index.open();
     _.extend($, exports);
 }

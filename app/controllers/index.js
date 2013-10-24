@@ -2,7 +2,10 @@ var currentCategories = [];
 var isLoggedIn = false;
 
 function displayListView(window, items, eventFunction, caseT) {
-	var listView = Ti.UI.createListView();
+	var listView = Ti.UI.createListView({
+		//borderRadius: 0,
+		//borderWidth: 1,
+	});
 	var section = Ti.UI.createListSection();
 	var sections = [];
 	if (caseT != null) {
@@ -58,7 +61,7 @@ function viewCases(nextWindow, categories, tab) {
 
 function createEventFunctionCategory(currentCategory) {
 	return function(e) {
-		if (e.itemIndex == 0 && currentCategories.length > 0) {
+		if (e.itemIndex == 0 /*&& currentCategories.length > 1*/) {
 			// Show all
 			currentCategories.push(new classes.category("*", new Array()));
 			var nextWindow = Ti.UI.createWindow({
@@ -69,7 +72,7 @@ function createEventFunctionCategory(currentCategory) {
 		}
 		else {
 			var index = e.itemIndex;
-			if (currentCategories.length > 0) {
+			if (currentCategories.length > 1) {
 				index--;
 			}
 			var prevCat = currentCategory;
@@ -100,27 +103,55 @@ function createEventFunctionCategory(currentCategory) {
 
 function createEventFunctionCase(cases, tab) {
 	return function(e) {
+		var view = Ti.UI.createView({
+			borderWidth: 1,
+			layout: 'vertical',
+			height: Ti.UI.SIZE,
+		});
 		var currentCase = cases[e.itemIndex];
 		var nextWindow = Ti.UI.createWindow({
 			title: currentCase.name,
-			backgroundColor: "#fff"
+			backgroundColor: "#fff",
+			layout: 'vertical',
 		});
 		var objects = [
-			{ properties: { title: currentCase.description } },
+			//{ properties: { title: currentCase.description } },
 			{ properties: { title: 'Videos' } },
 			{ properties: { title: 'Images' } }];
 		currentCategories.push(null);
-		displayListView(nextWindow, objects, createMediaFunctionCase(currentCase, tab));
+		var descLabel = Titanium.UI.createLabel({
+			text: "Description:",
+			font: {fontWeight: 'bold', fontsize: 48},
+			color: '#777',
+			textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+		});
+		var label = Titanium.UI.createLabel({
+			text: (isLoggedIn ? currentCase.privateDescription : currentCase.publicDescription),
+			//borderRadius: 4,
+			//borderWidth: 1,
+			left: 4,
+			right: 4,
+			color: '#777',
+			font: {fontsize: 48},
+			textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+			
+			//backgroundColor: 'bbb',
+			//borderColor: '#000',
+		});
+		view.add(descLabel);
+		view.add(label);
+		nextWindow.add(view);
+		displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab));
 		tab.open(nextWindow);
 	};
 }
 
-function createMediaFunctionCase(currentCase, tab) {
+function createMediaFunctionCase(oldWindow, currentCase, tab) {
 	return function(e) {
-		if (e.itemIndex == 0) {
-			return;
-		}
-		var videos = e.itemIndex == 1;
+		var activityIndicator = Titanium.UI.createActivityIndicator();
+		oldWindow.setRightNavButton(activityIndicator);
+		activityIndicator.show();
+		var videos = e.itemIndex == 0;
 		var nextWindow = Ti.UI.createWindow({
 			title: currentCase.name,
 			backgroundColor: "#fff"
@@ -180,6 +211,7 @@ function createMediaFunctionCase(currentCase, tab) {
 		});
 		nextWindow.add(scrollableView);
 		tab.open(nextWindow);
+		activityIndicator.hide();
 	};
 }
 var searchArea = Ti.UI.createTextArea({
@@ -332,7 +364,7 @@ function initLogin() {
 
 initLogin();
 
-db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch);
+db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
 
 //$.tab1window1.setTitle(rootCategory.name);
 //displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
