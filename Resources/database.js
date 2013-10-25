@@ -36,7 +36,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         currentCategories.push(showAllCat);
         window.setTitle(rootCategory.name);
         for (var id in cases) id != rootCategoryID && showAllCat.cases.push(cases[id]);
-        displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+        displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
         initSearch(rootCategory, categoriesByName);
     };
     xhr.open("GET", address + "/database.php");
