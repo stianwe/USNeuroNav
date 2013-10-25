@@ -117,7 +117,9 @@ function createEventFunctionCase(cases, tab) {
 		var objects = [
 			//{ properties: { title: currentCase.description } },
 			{ properties: { title: 'Videos' } },
-			{ properties: { title: 'Images' } }];
+			{ properties: { title: 'Images' } },
+			{ properties: { title: 'Downloads' }}
+		];
 		currentCategories.push(null);
 		var descLabel = Titanium.UI.createLabel({
 			text: "Description:",
@@ -158,50 +160,62 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 		});
 		
 		var views = [];
-		for (var i = 0; i < currentCase.mediaFiles.length; i++) {
-			// Code for thumbnails
-			/*var imageView = Ti.UI.createImageView({
-				//image: currentCase.mediaFiles[i].URL
-				image: currentCase.mediaFiles[0].URL
-			});
-			var blob = imageView.toImage();
-			blob = blob.imageAsThumbnail(64);
-			var thumbnailImageView = Ti.UI.createImageView({
-				image: blob
-			});
-			thumbnailImageView.addEventListener('click', function(e) {
-				alert("CLICK!");
-			});
-			nextWindow.add(thumbnailImageView);*/
-			
-			var view = null;
-			var initialZoom;
-			var wrapper = Ti.UI.createScrollView({
-		        maxZoomScale : 8,
-		        backgroundColor : "black",
-			});
-			if (currentCase.mediaFiles[i].video && videos) {
-				view = Ti.Media.createVideoPlayer({
+		
+		if (e.itemIndex == 2) {
+			var view = Ti.Media.createVideoPlayer({
 					autoplay: false,
 					mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
 					scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
-					url: currentCase.mediaFiles[i].URL
+					url: 'downloaded.mov',
 				});
-				initialZoom = 1.0;
-			}
-			else if (!currentCase.mediaFiles[i].video && !videos) {
-				view = Ti.UI.createImageView({
-					image: currentCase.mediaFiles[i].URL
+				views.push(view);
+		} else {
+		
+			for (var i = 0; i < currentCase.mediaFiles.length; i++) {
+				// Code for thumbnails
+				/*var imageView = Ti.UI.createImageView({
+					//image: currentCase.mediaFiles[i].URL
+					image: currentCase.mediaFiles[0].URL
 				});
-				var temp1 = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
-				var temp2 = (Titanium.Platform.displayCaps.platformHeight - 123) / view.toImage().height;
-				initialZoom = (temp1 < temp2 ? temp1 : temp2);
-			}
-			if (view != null) {
-				wrapper.minZoomScale = initialZoom;
-				wrapper.zoomScale = initialZoom;
-				wrapper.add(view);
-				views.push(wrapper);
+				var blob = imageView.toImage();
+				blob = blob.imageAsThumbnail(64);
+				var thumbnailImageView = Ti.UI.createImageView({
+					image: blob
+				});
+				thumbnailImageView.addEventListener('click', function(e) {
+					alert("CLICK!");
+				});
+				nextWindow.add(thumbnailImageView);*/
+				
+				var view = null;
+				var initialZoom;
+				var wrapper = Ti.UI.createScrollView({
+			        maxZoomScale : 8,
+			        backgroundColor : "black",
+				});
+				if (currentCase.mediaFiles[i].video && videos) {
+					view = Ti.Media.createVideoPlayer({
+						autoplay: false,
+						mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
+						scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+						url: currentCase.mediaFiles[i].URL
+					});
+					initialZoom = 1.0;
+				}
+				else if (!currentCase.mediaFiles[i].video && !videos) {
+					view = Ti.UI.createImageView({
+						image: currentCase.mediaFiles[i].URL
+					});
+					var temp1 = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
+					var temp2 = (Titanium.Platform.displayCaps.platformHeight - 123) / view.toImage().height;
+					initialZoom = (temp1 < temp2 ? temp1 : temp2);
+				}
+				if (view != null) {
+					wrapper.minZoomScale = initialZoom;
+					wrapper.zoomScale = initialZoom;
+					wrapper.add(view);
+					views.push(wrapper);
+				}
 			}
 		}
 		var scrollableView = Ti.UI.createScrollableView({
@@ -253,7 +267,7 @@ function initSearch(rootCategory, categories) {
 			}
 		}
 		if (cats.length == 0) {
-			alert("No valid keywords!");
+			//alert("No valid keywords!");
 			return;
 		}
 		/*var string = "";
@@ -365,6 +379,9 @@ function initLogin() {
 initLogin();
 
 db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
+
+fd.downloadFile(db.rootURL + "Pas1_Aneu/film1_2013-04-16_Aneu_CX_SW_Short.mov", "downloaded.mov");
+//fd.downloadFile(db.rootURL + "sample_iTunes.mov", "downloaded.mov");
 
 //$.tab1window1.setTitle(rootCategory.name);
 //displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));

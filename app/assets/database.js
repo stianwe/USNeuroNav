@@ -83,4 +83,5 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
 }
 
 exports.initDB = initDB;
+exports.rootURL = rootURL;
 exports.address = address;

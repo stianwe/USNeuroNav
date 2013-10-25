@@ -13,6 +13,7 @@
 // Make the "functions" in category.js available
 var classes = require('category');
 var db = require('database');
+var fd = require('fileDownloader');
 
 
 		

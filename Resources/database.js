@@ -52,4 +52,6 @@ var rootURL = address + "/media/";
 
 exports.initDB = initDB;
 
+exports.rootURL = rootURL;
+
 exports.address = address;

@@ -102,6 +102,10 @@ function Controller() {
                 properties: {
                     title: "Images"
                 }
+            }, {
+                properties: {
+                    title: "Downloads"
+                }
             } ];
             currentCategories.push(null);
             var descLabel = Titanium.UI.createLabel({
@@ -141,7 +145,15 @@ function Controller() {
                 backgroundColor: "#fff"
             });
             var views = [];
-            for (var i = 0; currentCase.mediaFiles.length > i; i++) {
+            if (2 == e.itemIndex) {
+                var view = Ti.Media.createVideoPlayer({
+                    autoplay: false,
+                    mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
+                    scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+                    url: "downloaded.mov"
+                });
+                views.push(view);
+            } else for (var i = 0; currentCase.mediaFiles.length > i; i++) {
                 var view = null;
                 var initialZoom;
                 var wrapper = Ti.UI.createScrollView({
@@ -201,10 +213,7 @@ function Controller() {
                 var temp = categories[keywords[i]];
                 void 0 != temp ? cats.push(temp) : alert("Invalid keyword: " + keywords[i] + "!");
             }
-            if (0 == cats.length) {
-                alert("No valid keywords!");
-                return;
-            }
+            if (0 == cats.length) return;
             var nextWindow = Ti.UI.createWindow({
                 title: "Search results",
                 backgroundColor: "#fff"
@@ -326,7 +335,7 @@ function Controller() {
     $.__views.tab2 = Ti.UI.createTab({
         window: $.__views.tab2window1,
         title: "Search",
-        icon: "KS_nav_views.png",
+        icon: "searchicon.png",
         id: "tab2"
     });
     $.__views.index.addTab($.__views.tab2);
@@ -338,7 +347,7 @@ function Controller() {
     $.__views.tab3 = Ti.UI.createTab({
         window: $.__views.tab3window1,
         title: "Log in",
-        icon: "KS_nav_views.png",
+        icon: "loginicon.png",
         id: "tab3"
     });
     $.__views.index.addTab($.__views.tab3);
@@ -365,6 +374,7 @@ function Controller() {
     var logoutView = null;
     initLogin();
     db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
+    fd.downloadFile(db.rootURL + "Pas1_Aneu/film1_2013-04-16_Aneu_CX_SW_Short.mov", "downloaded.mov");
     $.index.open();
     _.extend($, exports);
 }
