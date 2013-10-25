@@ -29,7 +29,7 @@ function displayListView(window, items, eventFunction, caseT) {
 	alert(names);*/
 }
 
-function viewCases(nextWindow, categories, tab) {
+function getCommonCases(categories) {
 	var cases = categories[0].cases.slice();
 	var casesToPrint = categories[0].cases.slice();
 	for (var i = 1; i < categories.length; i++) {
@@ -44,6 +44,11 @@ function viewCases(nextWindow, categories, tab) {
 		}
 		cases = casesToPrint.slice();
 	}
+	return casesToPrint;
+}
+
+function viewCases(nextWindow, categories, tab) {
+	var casesToPrint = getCommonCases(categories);
 	var toBeRemoved = [];
 	var props = [];
 	for (var i = 0; i < casesToPrint.length; i++) {
@@ -59,7 +64,37 @@ function viewCases(nextWindow, categories, tab) {
 	displayListView(nextWindow, props, createEventFunctionCase(casesToPrint, tab));
 }
 
-function createEventFunctionCategory(currentCategory) {
+function listAsString(list) {
+	var s = "";
+	for (var i = 0; i < list.length; i++) {
+		s += list[i].name + (i + 1 < list.length ? ", " : "");
+	}
+	return s;
+}
+
+function getCategoriesToShow(category) {
+	var subCats = category.subCategories;
+	var catsToShow = [];
+	for (var i = 0; i < subCats.length; i++) {
+		var tempCats = currentCategories.slice();
+		tempCats.push(subCats[i]);
+		var temp = getCommonCases(tempCats);
+		if (temp.length > 0) {
+			var show = false;
+			for (var j = 0; j < temp.length; j++) {
+				if (isLoggedIn || temp[j].publicT) {
+					show = true;
+				}
+			}
+			if (show) {
+				catsToShow.push(subCats[i]);
+			}
+		}
+	}
+	return catsToShow;
+}
+
+function createEventFunctionCategory(currentCategory, subCategories) {
 	return function(e) {
 		if (e.itemIndex == 0 /*&& currentCategories.length > 1*/) {
 			// Show all
@@ -76,7 +111,7 @@ function createEventFunctionCategory(currentCategory) {
 				index--;
 			}
 			var prevCat = currentCategory;
-			var currCat = currentCategory.subCategories[index];
+			var currCat = subCategories[index];
 			currentCategories.push(currCat);
 			var nextWindow = Ti.UI.createWindow({
 				title: currCat.name,
@@ -84,9 +119,14 @@ function createEventFunctionCategory(currentCategory) {
 			});
 			// Check that this category actually has sub categories
 			if (currCat.subCategories.length > 0) {
-				var subCats = currCat.getSubCategories();
-				subCats.unshift({ properties: { title: 'Show all' } });
-				displayListView(nextWindow, subCats, createEventFunctionCategory(currCat));
+				// Don't show categories without cases (that can be displayed by this user)
+				var catsToShow = getCategoriesToShow(currCat);
+				var catObjs = [];
+				catObjs.unshift({ properties: { title: 'Show all' } });
+				for (var i = 0; i < catsToShow.length; i++) {
+					catObjs.push({ properties: { title: catsToShow[i].name } });
+				}
+				displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
 			}
 			else if (currCat.cases.length > 0) {
 				viewCases(nextWindow, currentCategories, $.tab1);
