@@ -13,9 +13,11 @@ public class Menu {
 	SQLHelper sql = new SQLHelper("mysql://localhost", 3306, "USNeuroNav", "root", "");
 	MediaUploader muSQL = new MediaUploader();
 	
-	public Menu(){
+	public Menu() throws ClassNotFoundException, SQLException{
 		input = "";
 		br = new BufferedReader(new InputStreamReader(System.in));
+		sql.connect();
+		
 	}
 	
 	void run() throws SQLException {
@@ -33,10 +35,10 @@ public class Menu {
 				createNewCase();
 				break;
 			case 2:
-				
+				createNewCategory();
 				break;
 			case 3:
-				
+				createNewUser();	
 				break;
 			case 4:
 				pl("Exiting Program...");
@@ -50,11 +52,178 @@ public class Menu {
 		}
 	}
 
+	private void createNewCategory() throws SQLException {
+		ArrayList<String> subCats = new ArrayList<String>();
+		ArrayList<String> superCats = new ArrayList<String>();
+		String name;
+		int id;
+		name = enterCategoryName();
+		
+		id = createCategory(name);
+				
+		superCats = getListOfCats("Enter the parent (super-) categories of the case "+name,name);
+		subCats = getListOfCats("Enter the child (sub-) categories of the case "+name,name);
+		
+		updateCatsBatch(id,superCats,subCats);
+		
+		pl("New Category(ies) added");
+		pl("Returning to mainmenu");
+		
+		
+		
+	}
+
+	private void updateCatsBatch(int id,
+			ArrayList<String> superCats, ArrayList<String> subCats) throws SQLException {
+		// TODO Auto-generated method stub
+		if(superCats.isEmpty())
+			superCats.add("root");
+		for(String s : superCats){ //todo duplicate entries
+			if (s.equals("")){
+				sql.insertSubCategory(sql.getCategoryID("root"), id);
+			} else {
+			int superid = createCategory(s);
+			sql.insertSubCategory(superid, id);
+			}
+		}
+		for(String s : subCats){
+			if(!s.equals("")){
+				int subid = createCategory(s);
+				sql.insertSubCategory(id, subid);
+			}
+		}
+		
+	}
+
+	private void createNewUser() throws SQLException {
+		String name = getUserName();
+		String password = getPassword(name);
+		sql.insertNewUser(name, password);
+		
+	}
+
+	private String getUserName() {
+		boolean correct = false;
+		String temp ="";
+		while (!correct){
+			pl("Insert the username for the new user:");
+			temp = getInput();
+			
+			
+			pl("Username: "+temp);
+			pl("");
+			correct = confirmation();
+		}
+		return temp;
+
+	}
+	
+	private String getPassword(String user) {
+		boolean correct = false;
+		String temp ="";
+		while (!correct){
+			pl("Insert the password for user for the user: "+user);
+			temp = getInput();
+			
+			
+			pl("The password is: "+temp);
+			pl("");
+			correct = confirmation();
+		}
+		return temp;
+
+	}
+	
+	private String enterCategoryName() {
+		boolean correct = false;
+		String temp ="";
+		while (!correct){
+			pl("Insert the name of the category:");
+			temp = getInput();
+			
+			
+			pl("The category name is: "+temp);
+			pl("");
+			correct = confirmation();
+		}
+		return temp;
+
+	}
+
+	private int createCategory(String name) throws SQLException {
+		int number;
+		number = sql.getCategoryID(name);
+		if(number==-1){
+			number = sql.insertCategory(name);
+			pl("Creating new category: "+name);
+		}
+		return number;
+		
+	}
+	
+
+
+	private ArrayList<String> getListOfCats(String text, String caseName) { //fix shit
+		ArrayList<String> outList = new ArrayList<String>();
+		boolean correct = false;
+		pl(text);
+		
+		while(!correct){
+			
+			temp = getInput();
+			
+			String[] myInput = temp.split(",");
+			for(String s : myInput){
+				outList.add(s);
+			}
+			
+		
+			pl(caseName+" belongs to the following categories:");
+			String tabs = "";
+			for(int i = 0; i < outList.size();i++){
+				if(outList.get(i).equals(""))
+					pl("none");
+				else
+					pl(outList.get(i));		
+			}
+			pl("");
+			pl("1: This is correct");
+			pl("2: I want to add more");
+			pl("3: I want to restart this step");
+			
+			int choice = Integer.parseInt(getInput());
+			
+			switch(choice){
+
+			case 1:
+				correct = true;
+				break;
+			case 2:
+				pl("");
+				pl("Enter additional categories:");
+				break;
+			case 3:
+				pl("");
+				pl("");
+				pl(text);
+				outList.clear();
+				break;
+			default:
+			}
+			
+			
+		}
+		return outList;
+
+		
+	}
+
 	private void createNewCase() throws SQLException {
 		ArrayList<String> catList = new ArrayList<String>();
 		boolean moreCats = true;
 		boolean publicCase;
-		String description;
+		String pubdescription;
+		String privdescription;
 		String caseName;
 		String path;
 		int caseID;
@@ -66,7 +235,8 @@ public class Menu {
 		
 		catList = getCaseCategories(caseName);
 			
-		description = getCaseDescription(catList);
+		pubdescription = getCaseDescription(catList);
+		privdescription = getCasePrivDescription();
 			
 		path = getPath();
 		
@@ -75,22 +245,17 @@ public class Menu {
 			
 		//Database start:
 		//Adding new case
-		caseID = sql.insertCase(caseName, publicCase, description);
+		caseID = sql.insertCase(caseName, publicCase, pubdescription, privdescription);
 		
 		//uploading mediafiles
 		String[] medFiles = { ""+caseID, path, (publicCase ? "public" : "private")};
-		muSQL.uploadMedia(medFiles);
+		//muSQL.uploadMedia(medFiles);
 		
 		//updating categories...
-		for (int i = 0; i < catList.size(); i++) {
-			int id = sql.getCatID(catList.get(i));
-			if(id==-1){
-				//create new category
-				//add new category in belongsTo
-			} else {
-				//add to belongsTo
-			}
-		}
+		updateCats(catList,caseID);
+		
+		
+
 		
 
 
@@ -99,6 +264,24 @@ public class Menu {
 			
 			
 		
+	}
+
+	private String getCasePrivDescription() {
+			boolean correct = false;
+			String temp ="";
+			while (!correct){
+				pl("Enter the private description for the case:");
+				pl("This will only be visible for registered users");
+				pl("You can use \\n to insert linebreaks");
+				temp = getInput();
+				
+				
+				pl("Case private description:");
+				pl(temp);
+				pl("");
+				correct = confirmation();
+			}
+			return temp;
 	}
 
 	private void printMainMenu(){
@@ -110,10 +293,82 @@ public class Menu {
 		pl("Select your choice:");
 	}
 	
+	private void createCategory(ArrayList<String> catList) throws SQLException{
+		ArrayList<Integer> idList = new ArrayList<Integer>();
+		
+		for (int i = 0; i < catList.size(); i++) {
+			idList.add(sql.getCategoryID(catList.get(i)));
+			if(idList.get(i)==-1){ //if category doesnt exist
+				//create new category
+				pl("Category: " + catList.get(i)+" does not currently exist.");
+				pl("Creating new category: "+catList.get(i));
+				idList.remove(i);
+				idList.add(sql.insertCategory(catList.get(i)));
+				//add new category in belongsTo
+
+				int superID = (i==0 ? (sql.getCategoryID("root")) : (int) idList.get(i-1));
+				sql.insertSubCategory(superID,(int) idList.get(i));
+				
+				
+			} else { //if category already exists:
+				int superID = (i==0 ? (sql.getCategoryID("root")) : (int) idList.get(i-1));
+				boolean existed = addToSubCats(superID,(int) idList.get(i));
+				if(!existed){
+					pl("Relationship beetween super-category: "+(i==0 ? "root" : catList.get(i-1))+" and subcategory: "+catList.get(i)+
+							" did not exist, it has now been created in the database");
+					
+				}
+			}	
+		}//end of for
+
+	}
+	
+	private void updateCats(ArrayList<String> catList, int caseID) throws SQLException{
+		ArrayList<Integer> idList = new ArrayList<Integer>();
+		
+		for (int i = 0; i < catList.size(); i++) {
+			idList.add(sql.getCategoryID(catList.get(i)));
+			if(idList.get(i)==-1){ //if category doesnt exist
+				//create new category
+				pl("Category: " + catList.get(i)+" does not currently exist.");
+				pl("Creating new category: "+catList.get(i));
+				idList.remove(i);
+				idList.add(sql.insertCategory(catList.get(i)));
+				//add new category in belongsTo
+
+				int superID = (i==0 ? (sql.getCategoryID("root")) : (int) idList.get(i-1));
+				sql.insertSubCategory(superID,(int) idList.get(i));
+				
+				
+			} else { //if category already exists:
+				int superID = (i==0 ? (sql.getCategoryID("root")) : (int) idList.get(i-1));
+				boolean existed = addToSubCats(superID,(int) idList.get(i));
+				if(!existed){
+					pl("Relationship beetween super-category: "+(i==0 ? "root" : catList.get(i-1))+" and subcategory: "+catList.get(i)+
+							" did not exist, it has now been created in the database");
+					
+				}
+			}
+			//add to belongsTo
+			sql.insertBelongsTo(caseID, (int) idList.get(i));		
+		}//end of for
+	}
+	
 	private void yesNo(){
 		pl("1: Yes");
 		pl("2: No");	
 	}
+	
+	private boolean addToSubCats(int superid, int subid) throws SQLException{
+		boolean existed = true;
+		int check = sql.getSubCategoryID(superid, subid);
+		if(check==-1){
+			existed = false;
+			sql.insertSubCategory(superid, subid);
+		}
+		return existed;
+	}
+	
 	
 	private boolean isPublic(){
 		pl("Is this case public or private?");
@@ -215,7 +470,8 @@ public class Menu {
 		boolean correct = false;
 		String temp ="";
 		while (!correct){
-			pl("Enter a description for the case:");
+			pl("Enter the public description for the case:");
+			pl("You can use \\n to insert linebreaks");
 			pl("If you enter \"default\" then a default description will be created for you");
 			temp = getInput();
 			

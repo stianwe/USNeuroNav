@@ -50,7 +50,7 @@ public class MediaUploader {
 		}
 		try {
 			SQLHelper sql = new SQLHelper(DB_HOSTNAME, DB_PORT, DB_NAME, DB_USERNAME, DB_PASSWORD);
-			sql.connect();
+			//sql.connect();
 			String rootPath;
 			if (dir.endsWith("media") || dir.endsWith("media/")) {
 				rootPath = "";
