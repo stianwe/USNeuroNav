@@ -70,7 +70,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
     		}
     	}
     	
-    	displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+    	displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
     	initSearch(rootCategory, categoriesByName);
 	};
 	

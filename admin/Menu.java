@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -60,36 +61,46 @@ public class Menu {
 		name = enterCategoryName();
 		
 		id = createCategory(name);
-				
-		superCats = getListOfCats("Enter the parent (super-) categories of the case "+name,name);
-		subCats = getListOfCats("Enter the child (sub-) categories of the case "+name,name);
+		pl("");
+		superCats = getListOfCats("Enter the parent (super-) categories of the case "+name,name,true);
+		pl("");
+		subCats = getListOfCats("Enter the child (sub-) categories of the case "+name,name,false);
+		pl("");
+		updateCatsBatch(name, id,superCats,subCats);
 		
-		updateCatsBatch(id,superCats,subCats);
 		
-		pl("New Category(ies) added");
-		pl("Returning to mainmenu");
+		pl("\nNew Category added");
+		pl("Returning to mainmenu \n");
 		
 		
 		
 	}
 
-	private void updateCatsBatch(int id,
-			ArrayList<String> superCats, ArrayList<String> subCats) throws SQLException {
+	private void updateCatsBatch(String name, int id,
+		ArrayList<String> superCats, ArrayList<String> subCats) throws SQLException {
 		// TODO Auto-generated method stub
 		if(superCats.isEmpty())
 			superCats.add("root");
-		for(String s : superCats){ //todo duplicate entries
-			if (s.equals("")){
-				sql.insertSubCategory(sql.getCategoryID("root"), id);
-			} else {
-			int superid = createCategory(s);
-			sql.insertSubCategory(superid, id);
+		for(String s : superCats){
+			if(!s.equals("")){
+				int superid = createCategory(s);
+				boolean existed = addToSubCats(superid, id);
+				if(existed){
+					pl("The relationship between "+s+" and "+name+" already existed in the database");
+				} else {
+					pl("The relationship between "+s+" and "+name+" has been added to the database");
+				}
 			}
 		}
 		for(String s : subCats){
 			if(!s.equals("")){
 				int subid = createCategory(s);
-				sql.insertSubCategory(id, subid);
+				boolean existed = addToSubCats(id, subid);
+				if(existed){
+					pl("The relationship between "+s+" and "+name+" already existed in the database");
+				} else {
+					pl("The relationship between "+s+" and "+name+" has been added to the database");
+				}
 			}
 		}
 		
@@ -97,9 +108,31 @@ public class Menu {
 
 	private void createNewUser() throws SQLException {
 		String name = getUserName();
-		String password = getPassword(name);
-		sql.insertNewUser(name, password);
+		if(checkName(name)){
+			String password = getPassword(name);
+			sql.insertNewUser(name, password);
+			pl("User "+name+" has been added to the database");
+		} else
+			pl("This username already exists in the database");
 		
+		
+	}
+	
+	private boolean checkName(String name) throws SQLException{
+		int check = sql.getUser(name);
+		if(check!=-1){
+			pl("This username already exists in the database");
+			return false;
+		} 
+		return true;
+	}
+	
+	private void listAllCats() throws SQLException{
+		ResultSet rs = sql.getAllCats();
+		pl("Categories in the database:");
+		while(rs.next()){
+			pl(rs.getString("name"));
+		}
 	}
 
 	private String getUserName() {
@@ -163,7 +196,7 @@ public class Menu {
 	
 
 
-	private ArrayList<String> getListOfCats(String text, String caseName) { //fix shit
+	private ArrayList<String> getListOfCats(String text, String caseName, boolean isSuper) throws SQLException { //fix shit
 		ArrayList<String> outList = new ArrayList<String>();
 		boolean correct = false;
 		pl(text);
@@ -182,33 +215,56 @@ public class Menu {
 			String tabs = "";
 			for(int i = 0; i < outList.size();i++){
 				if(outList.get(i).equals(""))
-					pl("none");
+					if(isSuper){
+						outList.add("root");
+						pl("root");
+					} else {
+						pl("no subcategories entered");
+					}
 				else
 					pl(outList.get(i));		
 			}
-			pl("");
-			pl("1: This is correct");
-			pl("2: I want to add more");
-			pl("3: I want to restart this step");
-			
-			int choice = Integer.parseInt(getInput());
-			
-			switch(choice){
 
-			case 1:
-				correct = true;
-				break;
-			case 2:
+			
+			boolean goOn = false;
+			
+			while(!goOn){
 				pl("");
-				pl("Enter additional categories:");
-				break;
-			case 3:
-				pl("");
-				pl("");
-				pl(text);
-				outList.clear();
-				break;
-			default:
+				pl("1: This is correct");
+				pl("2: I want to add more categories");
+				pl("3: I want to restart this step");
+				pl("4: List all categories in the database");
+				
+				int choice = Integer.parseInt(getInput());
+				
+				switch(choice){
+	
+				case 1:
+					correct = true;
+					goOn = true;
+					break;
+				case 2:
+					pl("");
+					pl("Add more categories to the current list");
+					pl("If the hierarchy is wrong you should restart");
+					pl("Enter additional categories:");
+					goOn = true;
+					break;
+				case 3:
+					pl("");
+					pl("");
+					pl("Enter the categories that this case belongs to");
+					pl("Start with the top category, separate categories with a comma (,)");
+					outList.clear();
+					goOn = true;
+					break;
+				case 4:
+					listAllCats();
+					goOn = false;
+					break;
+				default:
+					goOn = false;
+				}
 			}
 			
 			
@@ -249,6 +305,10 @@ public class Menu {
 		
 		//uploading mediafiles
 		String[] medFiles = { ""+caseID, path, (publicCase ? "public" : "private")};
+		pl("Mediafiles string:");
+		for(String s : medFiles){
+			pl(s);
+		}
 		//muSQL.uploadMedia(medFiles);
 		
 		//updating categories...
@@ -293,35 +353,6 @@ public class Menu {
 		pl("Select your choice:");
 	}
 	
-	private void createCategory(ArrayList<String> catList) throws SQLException{
-		ArrayList<Integer> idList = new ArrayList<Integer>();
-		
-		for (int i = 0; i < catList.size(); i++) {
-			idList.add(sql.getCategoryID(catList.get(i)));
-			if(idList.get(i)==-1){ //if category doesnt exist
-				//create new category
-				pl("Category: " + catList.get(i)+" does not currently exist.");
-				pl("Creating new category: "+catList.get(i));
-				idList.remove(i);
-				idList.add(sql.insertCategory(catList.get(i)));
-				//add new category in belongsTo
-
-				int superID = (i==0 ? (sql.getCategoryID("root")) : (int) idList.get(i-1));
-				sql.insertSubCategory(superID,(int) idList.get(i));
-				
-				
-			} else { //if category already exists:
-				int superID = (i==0 ? (sql.getCategoryID("root")) : (int) idList.get(i-1));
-				boolean existed = addToSubCats(superID,(int) idList.get(i));
-				if(!existed){
-					pl("Relationship beetween super-category: "+(i==0 ? "root" : catList.get(i-1))+" and subcategory: "+catList.get(i)+
-							" did not exist, it has now been created in the database");
-					
-				}
-			}	
-		}//end of for
-
-	}
 	
 	private void updateCats(ArrayList<String> catList, int caseID) throws SQLException{
 		ArrayList<Integer> idList = new ArrayList<Integer>();
@@ -361,12 +392,14 @@ public class Menu {
 	
 	private boolean addToSubCats(int superid, int subid) throws SQLException{
 		boolean existed = true;
-		int check = sql.getSubCategoryID(superid, subid);
-		if(check==-1){
+		int check1 = sql.getSubCategoryID(superid, subid);
+		int check2 = sql.getSubCategoryID(subid, superid);
+		if(check1==-1 && check2==-1){
 			existed = false;
 			sql.insertSubCategory(superid, subid);
 		}
 		return existed;
+		
 	}
 	
 	
@@ -396,7 +429,7 @@ public class Menu {
 		return output;
 	}
 	
-	private ArrayList<String> getCaseCategories(String name){
+	private ArrayList<String> getCaseCategories(String name) throws SQLException{
 		ArrayList<String> outList = new ArrayList<String>();
 		boolean correct = false;
 		pl("Enter the categories that this case belongs to");
@@ -408,7 +441,7 @@ public class Menu {
 			
 			String[] myInput = temp.split(",");
 			for(String s : myInput){
-				outList.add(s);
+				outList.add(s.trim());
 			}
 			
 		
@@ -418,32 +451,45 @@ public class Menu {
 				pl(tabs+outList.get(i));
 				tabs = tabs + "   ";		
 			}
-			pl("");
-			pl("1: This is correct");
-			pl("2: I want to add more categories");
-			pl("3: I want to restart this step");
+			boolean goOn = false;
 			
-			int choice = Integer.parseInt(getInput());
-			
-			switch(choice){
-
-			case 1:
-				correct = true;
-				break;
-			case 2:
+			while(!goOn){
 				pl("");
-				pl("Add more categories to the current list");
-				pl("If the hierarchy is wrong you should restart");
-				pl("Enter additional categories:");
-				break;
-			case 3:
-				pl("");
-				pl("");
-				pl("Enter the categories that this case belongs to");
-				pl("Start with the top category, separate categories with a comma (,)");
-				outList.clear();
-				break;
-			default:
+				pl("1: This is correct");
+				pl("2: I want to add more categories");
+				pl("3: I want to restart this step");
+				pl("4: List all categories in the database");
+				
+				int choice = Integer.parseInt(getInput());
+				
+				switch(choice){
+	
+				case 1:
+					correct = true;
+					goOn = true;
+					break;
+				case 2:
+					pl("");
+					pl("Add more categories to the current list");
+					pl("If the hierarchy is wrong you should restart");
+					pl("Enter additional categories:");
+					goOn = true;
+					break;
+				case 3:
+					pl("");
+					pl("");
+					pl("Enter the categories that this case belongs to");
+					pl("Start with the top category, separate categories with a comma (,)");
+					outList.clear();
+					goOn = true;
+					break;
+				case 4:
+					listAllCats();
+					goOn = false;
+					break;
+				default:
+					goOn = false;
+				}
 			}
 			
 			

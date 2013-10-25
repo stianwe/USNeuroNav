@@ -21,7 +21,7 @@ function Controller() {
         });
         window.add(listView);
     }
-    function viewCases(nextWindow, categories, tab) {
+    function getCommonCases(categories) {
         var cases = categories[0].cases.slice();
         var casesToPrint = categories[0].cases.slice();
         for (var i = 1; categories.length > i; i++) {
@@ -32,6 +32,10 @@ function Controller() {
             }
             cases = casesToPrint.slice();
         }
+        return casesToPrint;
+    }
+    function viewCases(nextWindow, categories, tab) {
+        var casesToPrint = getCommonCases(categories);
         var toBeRemoved = [];
         var props = [];
         for (var i = 0; casesToPrint.length > i; i++) {
@@ -48,7 +52,22 @@ function Controller() {
         for (var i = 0; toBeRemoved.length > i; i++) casesToPrint.splice(toBeRemoved[i], 1);
         displayListView(nextWindow, props, createEventFunctionCase(casesToPrint, tab));
     }
-    function createEventFunctionCategory(currentCategory) {
+    function getCategoriesToShow(category) {
+        var subCats = category.subCategories;
+        var catsToShow = [];
+        for (var i = 0; subCats.length > i; i++) {
+            var tempCats = currentCategories.slice();
+            tempCats.push(subCats[i]);
+            var temp = getCommonCases(tempCats);
+            if (temp.length > 0) {
+                var show = false;
+                for (var j = 0; temp.length > j; j++) (isLoggedIn || temp[j].publicT) && (show = true);
+                show && catsToShow.push(subCats[i]);
+            }
+        }
+        return catsToShow;
+    }
+    function createEventFunctionCategory(currentCategory, subCategories) {
         return function(e) {
             if (0 == e.itemIndex) {
                 currentCategories.push(new classes.category("*", new Array()));
@@ -60,20 +79,26 @@ function Controller() {
             } else {
                 var index = e.itemIndex;
                 currentCategories.length > 1 && index--;
-                var currCat = currentCategory.subCategories[index];
+                var currCat = subCategories[index];
                 currentCategories.push(currCat);
                 var nextWindow = Ti.UI.createWindow({
                     title: currCat.name,
                     backgroundColor: "#fff"
                 });
                 if (currCat.subCategories.length > 0) {
-                    var subCats = currCat.getSubCategories();
-                    subCats.unshift({
+                    var catsToShow = getCategoriesToShow(currCat);
+                    var catObjs = [];
+                    catObjs.unshift({
                         properties: {
                             title: "Show all"
                         }
                     });
-                    displayListView(nextWindow, subCats, createEventFunctionCategory(currCat));
+                    for (var i = 0; catsToShow.length > i; i++) catObjs.push({
+                        properties: {
+                            title: catsToShow[i].name + " TEST"
+                        }
+                    });
+                    displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
                 } else currCat.cases.length > 0 ? viewCases(nextWindow, currentCategories, $.tab1) : nextWindow.addEventListener("close", function() {
                     currentCategories.pop();
                 });
@@ -201,10 +226,7 @@ function Controller() {
                 var temp = categories[keywords[i]];
                 void 0 != temp ? cats.push(temp) : alert("Invalid keyword: " + keywords[i] + "!");
             }
-            if (0 == cats.length) {
-                alert("No valid keywords!");
-                return;
-            }
+            if (0 == cats.length) return;
             var nextWindow = Ti.UI.createWindow({
                 title: "Search results",
                 backgroundColor: "#fff"
@@ -326,7 +348,7 @@ function Controller() {
     $.__views.tab2 = Ti.UI.createTab({
         window: $.__views.tab2window1,
         title: "Search",
-        icon: "KS_nav_views.png",
+        icon: "searchicon.png",
         id: "tab2"
     });
     $.__views.index.addTab($.__views.tab2);
@@ -338,7 +360,7 @@ function Controller() {
     $.__views.tab3 = Ti.UI.createTab({
         window: $.__views.tab3window1,
         title: "Log in",
-        icon: "KS_nav_views.png",
+        icon: "loginicon.png",
         id: "tab3"
     });
     $.__views.index.addTab($.__views.tab3);
