@@ -253,7 +253,7 @@ function initSearch(rootCategory, categories) {
 			}
 		}
 		if (cats.length == 0) {
-			alert("No valid keywords!");
+			//alert("No valid keywords!");
 			return;
 		}
 		/*var string = "";
