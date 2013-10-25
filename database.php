@@ -34,7 +34,9 @@ if($result = $mysqli->query("SELECT * FROM caseT")) {
         $cases[] = array(
             'id'=>$row['id'],
             'name'=>$row['name'],
-            'description'=>$row['description']);
+            'publicDescription'=>$row['publicDescription'],
+            'privateDescription'=>$row['privateDescription'],
+            'publicT'=>$row['public']);
     }
     $result->close();
 }
