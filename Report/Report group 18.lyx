@@ -12910,17 +12910,64 @@ Sprint duration
 \begin_layout Standard
 
 \size large
-The duration of sprint 3 is from 16th of October to 29th of October.
-\begin_inset Newline newline
-\end_inset
-
-
+The duration of sprint 3 was from 16th of October to 29th of October.
 \end_layout
 
 \begin_layout Subsubsection
 
 \size larger
 Sprint goals
+\end_layout
+
+\begin_layout Standard
+The goal of sprint 3 was to pick up where we left off on sprint 1 on the
+ development part.
+ During a meeting with the customer in sprint 2, we received some feedback
+ regarding the display of media files.
+ The most important was that he wanted to be able to 
+\begin_inset Quotes eld
+\end_inset
+
+tilt
+\begin_inset Quotes erd
+\end_inset
+
+ the phone and have the image/video to rotate.
+ He also wanted to be able to zoom using 
+\begin_inset Quotes eld
+\end_inset
+
+pinching
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Finally he wanted us to separate the videos and images for a case into
+ two categories, 
+\begin_inset Quotes eld
+\end_inset
+
+videos
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+.
+ These things were to be implemented during sprint 3.
+\end_layout
+
+\begin_layout Standard
+Also for sprint 3, we planned to implement separation of data with log in,
+ so that registered users have access to all cases, while unregistered users
+ only have access to public cases.
+ 
 \end_layout
 
 \begin_layout Subsubsection
