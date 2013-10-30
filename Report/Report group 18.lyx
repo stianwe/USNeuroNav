@@ -12920,7 +12920,7 @@ Sprint goals
 \end_layout
 
 \begin_layout Standard
-The goal of sprint 3 was to pick up where we left off on sprint 1 on the
+The goal of sprint 3 was to pick up where we left off at sprint 1 on the
  development part.
  During a meeting with the customer in sprint 2, we received some feedback
  regarding the display of media files.
@@ -12959,7 +12959,7 @@ images
 \begin_inset Quotes erd
 \end_inset
 
-.
+, and add some meta data.
  These things were to be implemented during sprint 3.
 \end_layout
 
@@ -12967,7 +12967,32 @@ images
 Also for sprint 3, we planned to implement separation of data with log in,
  so that registered users have access to all cases, while unregistered users
  only have access to public cases.
+ Also for sprint 3 we planned to add functionality to search for cases using
+ category keywords, for instance 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Primary Tumor
+\begin_inset Quotes erd
+\end_inset
+
+.
  
+\end_layout
+
+\begin_layout Standard
+The reason why we set so ambitious goals regarding the amount of implementation
+ for sprint 3 is that we laid a very thorough foundation in sprint 1, wich
+ made it quite easy to add new features, and that we did not have the time
+ or opportunity to do any coding during sprint 2.
 \end_layout
 
 \begin_layout Subsubsection
@@ -13019,6 +13044,185 @@ System Burndown Chart
 Implementation
 \end_layout
 
+\begin_layout Subsubsection
+Searching
+\end_layout
+
+\begin_layout Standard
+Searching for cases was one of the customer's top requirements, and therefore
+ the highest prioritized feature for sprint 3.
+ It was implemented on a separate 
+\begin_inset Quotes eld
+\end_inset
+
+tab
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Separation
+\end_layout
+
+\begin_layout Standard
+Separation of data was one of the customer's requirements with high priority.
+ The intention with it was not to provide air tight security for the private
+ cases, but to only show a selection of cases to unregistered users.
+ All cases were therefore left as they were on the web server, and also
+ sent over to the phone on startup, but only cases marked as public would
+ be displayed if not logged in.
+ The reason why we decided to send all cases on startup, instead of only
+ sending the public ones, were that we would have to send more cases after
+ log in, and then rebuild all the menus.
+ This would have caused additional loading time after logging in.
+ Since security in itself was not a very high requirement by the customer,
+ it was decided that loading all cases on startup was the best solution,
+ prioritizing performance over security.
+\end_layout
+
+\begin_layout Standard
+Another much discussed point was the registering of new users.
+ The customer had no intention of allowing 
+\begin_inset Quotes eld
+\end_inset
+
+random
+\begin_inset Quotes erd
+\end_inset
+
+ users to register, so registering users using the admin panel (discussed
+ in section 9.3.4) was deemed appropriate.
+\end_layout
+
+\begin_layout Standard
+The log in process itslef was put on a separate 
+\begin_inset Quotes eld
+\end_inset
+
+tab
+\begin_inset Quotes erd
+\end_inset
+
+, and consists of only fields for username and password, and also a log
+ in button.
+ After the user has logged in, this 
+\begin_inset Quotes eld
+\end_inset
+
+tab
+\begin_inset Quotes erd
+\end_inset
+
+ displays only a log out button.
+\end_layout
+
+\begin_layout Subsubsection
+Viewing of media files
+\end_layout
+
+\begin_layout Standard
+As previously mentioned, we received some feedback on the viewing of media
+ files.
+ We therefore implemented 
+\begin_inset Quotes eld
+\end_inset
+
+tilting
+\begin_inset Quotes erd
+\end_inset
+
+ and zooming using 
+\begin_inset Quotes eld
+\end_inset
+
+pinching
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Both were relatively straight forward, and required only a couple of code
+ lines.
+ Tilting was simply activated by setting a certain setting on the application
+ windows that should be 
+\begin_inset Quotes eld
+\end_inset
+
+tiltable
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Zooming were implemented by putting all the media files inside a ScrollPane,
+ which did all the zooming job for us.
+ The only issue with this was that the view with the picture was zoomed
+ in by default when selecting a case.
+ This was solved by finding the relation between the screen size (which
+ can vary with different phone/pad models) and the original picture size.
+\end_layout
+
+\begin_layout Standard
+In addition we split the media files into two categories, 
+\begin_inset Quotes eld
+\end_inset
+
+videos
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+, which shows up when selecting a case.
+ Also, on this new view where the user can choose between videos and images,
+ we added a field for meta data.
+ This field was split in two, after receiving feedback from the customer,
+ to show only some metadata for the 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ (not logged in) user, and extensive meta data for a registered user.
+ This was implemented by splitting the column for 
+\begin_inset Quotes eld
+\end_inset
+
+description
+\begin_inset Quotes erd
+\end_inset
+
+ in the SQL server into 
+\begin_inset Quotes eld
+\end_inset
+
+publicDescription
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+privateDescrption
+\begin_inset Quotes erd
+\end_inset
+
+, and letting the user specify both when uploading a case.
+\end_layout
+
+\begin_layout Subsubsection
+Admin panel
+\end_layout
+
 \begin_layout Subsection
 
 \size largest
@@ -13035,6 +13239,64 @@ Ocuring Risks
 
 \size largest
 Customer Feedback
+\end_layout
+
+\begin_layout Standard
+Halfway through the sprint, we had a meeting with the customer where we
+ showed the progress so far.
+ Here we showed that we had implemented zooming and tilting, as requested,
+ and also splitted videos and images into two categories, and displaying
+ meta data.
+ The customer was very happy with the changes, but wanted the meta data
+ to be split into two parts, one for the 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ (not logged in) user, and one for the registered user.
+ We told him that this would not be a problem, and promised to implement
+ it this sprint, which we did.
+\end_layout
+
+\begin_layout Standard
+The customer was also very eager to see the application on a real device,
+ not just the emulator, but as Marthe was traveling during sprint 3, and
+ owned the team's only iDevice, this was not possible.
+ We mentioned, however, that we had tested it on her phone, and that the
+ videos were not running very smoothly when streaming over the internet.
+ The main reason for this was that the videos had a very high resolution.
+ The customer did not want to reduce this, so he suggested that we looked
+ into the opportunity to download the videos to the device before playing
+ it.
+ As we were running out of time and approaching the delivery deadline, we
+ made no promises regarding this, other than looking into it.
+\end_layout
+
+\begin_layout Standard
+During the meeting the possibilities for demonstrating the application for
+ some real users were discussed.
+ As the application was close to 
+\begin_inset Quotes eld
+\end_inset
+
+complete
+\begin_inset Quotes erd
+\end_inset
+
+ we had no objections to this, but the method for distributing the application
+ to the test users was identified as an issue.
+ Since Apple doesn't allow 
+\begin_inset Quotes eld
+\end_inset
+
+unfinnished
+\begin_inset Quotes erd
+\end_inset
+
+ applications on the App Store, alternative methods was to be researched.
 \end_layout
 
 \begin_layout Subsection
