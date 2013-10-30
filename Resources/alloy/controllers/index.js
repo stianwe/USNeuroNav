@@ -1,18 +1,27 @@
 function Controller() {
-    function displayListView(window, items, eventFunction) {
-        var listView = Ti.UI.createListView();
+    function displayListView(window, items, eventFunction, caseT) {
+        var listView = Ti.UI.createListView({});
         var section = Ti.UI.createListSection();
         var sections = [];
+        if (null != caseT) {
+            var section2 = Ti.UI.createListSection();
+            section2.setItems([ {
+                properties: {
+                    title: caseT.description
+                }
+            } ]);
+            sections.push(section2);
+        }
         section.setItems(items);
         sections.push(section);
         listView.sections = sections;
         listView.addEventListener("itemclick", eventFunction);
         window.addEventListener("close", function() {
-            currentCategories.pop();
+            currentCategories.length > 1 && currentCategories.pop();
         });
         window.add(listView);
     }
-    function viewCases(nextWindow, categories, tab) {
+    function getCommonCases(categories) {
         var cases = categories[0].cases.slice();
         var casesToPrint = categories[0].cases.slice();
         for (var i = 1; categories.length > i; i++) {
@@ -23,17 +32,44 @@ function Controller() {
             }
             cases = casesToPrint.slice();
         }
+        return casesToPrint;
+    }
+    function viewCases(nextWindow, categories, tab) {
+        var casesToPrint = getCommonCases(categories);
+        var toBeRemoved = [];
         var props = [];
-        for (var i = 0; casesToPrint.length > i; i++) props[i] = {
-            properties: {
-                title: casesToPrint[i].name
+        for (var i = 0; casesToPrint.length > i; i++) {
+            if (!isLoggedIn && !casesToPrint[i].publicT) {
+                toBeRemoved.push(i);
+                continue;
             }
-        };
+            props.push({
+                properties: {
+                    title: casesToPrint[i].name
+                }
+            });
+        }
+        for (var i = 0; toBeRemoved.length > i; i++) casesToPrint.splice(toBeRemoved[i], 1);
         displayListView(nextWindow, props, createEventFunctionCase(casesToPrint, tab));
     }
-    function createEventFunctionCategory(currentCategory) {
+    function getCategoriesToShow(category) {
+        var subCats = category.subCategories;
+        var catsToShow = [];
+        for (var i = 0; subCats.length > i; i++) {
+            var tempCats = currentCategories.slice();
+            tempCats.push(subCats[i]);
+            var temp = getCommonCases(tempCats);
+            if (temp.length > 0) {
+                var show = false;
+                for (var j = 0; temp.length > j; j++) (isLoggedIn || temp[j].publicT) && (show = true);
+                show && catsToShow.push(subCats[i]);
+            }
+        }
+        return catsToShow;
+    }
+    function createEventFunctionCategory(currentCategory, subCategories) {
         return function(e) {
-            if (0 == e.itemIndex && currentCategories.length > 0) {
+            if (0 == e.itemIndex) {
                 currentCategories.push(new classes.category("*", new Array()));
                 var nextWindow = Ti.UI.createWindow({
                     title: "Show all",
@@ -42,21 +78,27 @@ function Controller() {
                 viewCases(nextWindow, currentCategories, $.tab1);
             } else {
                 var index = e.itemIndex;
-                currentCategories.length > 0 && index--;
-                var currCat = currentCategory.subCategories[index];
+                currentCategories.length > 1 && index--;
+                var currCat = subCategories[index];
                 currentCategories.push(currCat);
                 var nextWindow = Ti.UI.createWindow({
                     title: currCat.name,
                     backgroundColor: "#fff"
                 });
                 if (currCat.subCategories.length > 0) {
-                    var subCats = currCat.getSubCategories();
-                    subCats.unshift({
+                    var catsToShow = getCategoriesToShow(currCat);
+                    var catObjs = [];
+                    catObjs.unshift({
                         properties: {
                             title: "Show all"
                         }
                     });
-                    displayListView(nextWindow, subCats, createEventFunctionCategory(currCat));
+                    for (var i = 0; catsToShow.length > i; i++) catObjs.push({
+                        properties: {
+                            title: catsToShow[i].name
+                        }
+                    });
+                    displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
                 } else currCat.cases.length > 0 ? viewCases(nextWindow, currentCategories, $.tab1) : nextWindow.addEventListener("close", function() {
                     currentCategories.pop();
                 });
@@ -66,16 +108,18 @@ function Controller() {
     }
     function createEventFunctionCase(cases, tab) {
         return function(e) {
+            var view = Ti.UI.createView({
+                borderWidth: 1,
+                layout: "vertical",
+                height: Ti.UI.SIZE
+            });
             var currentCase = cases[e.itemIndex];
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
-                backgroundColor: "#fff"
+                backgroundColor: "#fff",
+                layout: "vertical"
             });
             var objects = [ {
-                properties: {
-                    title: currentCase.description
-                }
-            }, {
                 properties: {
                     title: "Videos"
                 }
@@ -84,12 +128,38 @@ function Controller() {
                     title: "Images"
                 }
             } ];
-            displayListView(nextWindow, objects, createMediaFunctionCase(currentCase, tab));
+            tab == $.tab1 && currentCategories.push(null);
+            var descLabel = Titanium.UI.createLabel({
+                text: "Description:",
+                font: {
+                    fontWeight: "bold",
+                    fontsize: 48
+                },
+                color: "#777",
+                textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+            });
+            var label = Titanium.UI.createLabel({
+                text: isLoggedIn ? currentCase.privateDescription : currentCase.publicDescription,
+                left: 4,
+                right: 4,
+                color: "#777",
+                font: {
+                    fontsize: 48
+                },
+                textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+            });
+            view.add(descLabel);
+            view.add(label);
+            nextWindow.add(view);
+            displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab));
             tab.open(nextWindow);
         };
     }
-    function createMediaFunctionCase(currentCase, tab) {
+    function createMediaFunctionCase(oldWindow, currentCase, tab) {
         return function(e) {
+            var activityIndicator = Titanium.UI.createActivityIndicator();
+            oldWindow.setRightNavButton(activityIndicator);
+            activityIndicator.show();
             var videos = 0 == e.itemIndex;
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
@@ -133,6 +203,7 @@ function Controller() {
             });
             nextWindow.add(scrollableView);
             tab.open(nextWindow);
+            activityIndicator.hide();
         };
     }
     function initSearch(rootCategory, categories) {
@@ -155,10 +226,7 @@ function Controller() {
                 var temp = categories[keywords[i]];
                 void 0 != temp ? cats.push(temp) : alert("Invalid keyword: " + keywords[i] + "!");
             }
-            if (0 == cats.length) {
-                alert("No valid keywords!");
-                return;
-            }
+            if (0 == cats.length) return;
             var nextWindow = Ti.UI.createWindow({
                 title: "Search results",
                 backgroundColor: "#fff"
@@ -170,6 +238,85 @@ function Controller() {
         searchButton.addEventListener("click", search);
         $.tab2window1.add(searchArea);
         $.tab2window1.add(searchButton);
+    }
+    function login(username, password) {
+        var req = Titanium.Network.createHTTPClient();
+        req.onload = function() {
+            var json = JSON.parse(this.responseText);
+            if ("1" == json.response) {
+                isLoggedIn = true;
+                initLogout();
+            } else alert("Login failed!");
+        };
+        req.onerror = function() {
+            alert("Something went wrong!");
+        };
+        req.open("GET", db.address + "/login.php?username=" + username + "&password=" + password);
+        req.send();
+    }
+    function initLogout() {
+        if (null == logoutView) {
+            logoutView = Titanium.UI.createView();
+            var logoutButton = Titanium.UI.createButton({
+                title: "Log out",
+                top: 50,
+                width: 100,
+                height: 50
+            });
+            logoutButton.addEventListener("click", function() {
+                isLoggedIn = false;
+                initLogin();
+            });
+            logoutView.add(logoutButton);
+            $.tab3window1.add(logoutView);
+        }
+        loginView.setVisible(false);
+        logoutView.setVisible(true);
+    }
+    function initLogin() {
+        if (null == loginView) {
+            loginView = Titanium.UI.createView();
+            var usernameField = Titanium.UI.createTextField({
+                top: 10,
+                left: 10,
+                right: 10,
+                hintText: "Username",
+                borderWidth: 1,
+                borderColor: "#aaa",
+                borderRadius: 10,
+                height: 35
+            });
+            var passwordField = Titanium.UI.createTextField({
+                hintText: "Password",
+                borderWidth: 1,
+                borderColor: "#aaa",
+                borderRadius: 10,
+                passwordMask: true,
+                height: 35,
+                left: 10,
+                right: 10,
+                top: 55
+            });
+            var button = Titanium.UI.createButton({
+                title: "Log in",
+                top: 120,
+                width: 100,
+                height: 50
+            });
+            var loginHelper = function() {
+                usernameField.blur();
+                passwordField.blur();
+                login(usernameField.value, passwordField.value);
+            };
+            button.addEventListener("click", loginHelper);
+            passwordField.addEventListener("return", loginHelper);
+            usernameField.addEventListener("return", loginHelper);
+            loginView.add(usernameField);
+            loginView.add(passwordField);
+            loginView.add(button);
+            $.tab3window1.add(loginView);
+        } else logoutView.setVisible(false);
+        loginView.setVisible(true);
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
@@ -201,14 +348,27 @@ function Controller() {
     $.__views.tab2 = Ti.UI.createTab({
         window: $.__views.tab2window1,
         title: "Search",
-        icon: "KS_nav_views.png",
+        icon: "searchicon.png",
         id: "tab2"
     });
     $.__views.index.addTab($.__views.tab2);
+    $.__views.tab3window1 = Ti.UI.createWindow({
+        backgroundColor: "#fff",
+        title: "Log in",
+        id: "tab3window1"
+    });
+    $.__views.tab3 = Ti.UI.createTab({
+        window: $.__views.tab3window1,
+        title: "Log in",
+        icon: "loginicon.png",
+        id: "tab3"
+    });
+    $.__views.index.addTab($.__views.tab3);
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var currentCategories = [];
+    var isLoggedIn = false;
     var searchArea = Ti.UI.createTextArea({
         borderWidth: 1,
         borderColor: "#aaa",
@@ -223,7 +383,10 @@ function Controller() {
         },
         returnKeyType: Ti.UI.RETURNKEY_SEARCH
     });
-    db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch);
+    var loginView = null;
+    var logoutView = null;
+    initLogin();
+    db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
     $.index.open();
     _.extend($, exports);
 }

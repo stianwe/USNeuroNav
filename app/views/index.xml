@@ -4,8 +4,12 @@
 			<Window title="Tab 1" id="tab1window1">
 			</Window>
 		</Tab>
-		<Tab title="Search" icon="KS_nav_views.png" id="tab2">
+		<Tab title="Search" icon="searchicon.png" id="tab2">
 			<Window title="Search" id="tab2window1">
+			</Window>
+		</Tab>
+		<Tab title="Log in" icon="loginicon.png" id="tab3">
+			<Window title="Log in" id="tab3window1">
 			</Window>
 		</Tab>
 	</TabGroup>

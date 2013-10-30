@@ -1,6 +1,8 @@
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Random;
 
 
 
@@ -49,4 +51,107 @@ public class SQLHelper {
 		System.out.println(temp);
 		st.executeUpdate(temp);
 	}
+	public int insertCase(String caseName, boolean isPublic, String pubdescription, String privdescription) throws SQLException {
+		String temp = "INSERT INTO caseT (name, public, publicDescription, privateDescription) values "
+				+ "(\"" + caseName + "\", " + (isPublic ? 1 : 0) + ", \"" + pubdescription + "\", \"" + privdescription + "\")";
+		System.out.println(temp);
+		st.executeUpdate(temp);
+		return getKey(caseName, "caseT");
+		//return 5;
+	}
+	
+	public int insertCategory(String catName) throws SQLException {
+		String temp = "INSERT INTO category (name) values (\"" + catName + "\")";
+		System.out.println(temp);
+		st.executeUpdate(temp);
+		return getCategoryID(catName);
+		//st.executeUpdate(temp, Statement.RETURN_GENERATED_KEYS);
+		
+		
+		//return 11;
+	}
+	
+	public int getCategoryID(String name) throws SQLException {
+		String temp = "SELECT id FROM category WHERE name=\""+name+"\"";
+		System.out.println(temp);
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+			System.out.println(id);
+		}
+		return id;
+	}
+	
+	public int getKey(String name, String table) throws SQLException {
+		String temp = "SELECT id FROM "+table+" WHERE name=\""+name+"\"";
+		System.out.println(temp);
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+			System.out.println(id);
+		}
+		return id;
+	}
+	
+	public int getSubCategoryID(int superid, int subid) throws SQLException {
+		//select id from subCategory where superCategory=4 and subCategory=11
+		String temp = "SELECT id FROM subCategory WHERE superCategory="+superid+" and subCategory="+subid;
+		System.out.println(temp);
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+		}
+		return id;
+		
+		//System.out.println(temp);
+		//return -1;
+		
+		
+	}
+	
+	public int getUser(String name) throws SQLException{
+		String temp = "SELECT id from user WHERE username =\""+name+"\"";
+		System.out.println(temp);
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+		}
+		return id;
+		
+	}
+	
+
+	public void insertSubCategory(int superid, int subid) throws SQLException {
+		String temp = "INSERT INTO subCategory (superCategory, subCategory) VALUES ("+superid+","+subid+")";
+		System.out.println(temp);
+		st.executeUpdate(temp);
+		//INSERT INTO `USNeuroNav`.`subCategory` (`superCategory`, `subCategory`) VALUES ('13', '14');
+		
+	}
+
+	public void insertBelongsTo(int caseID, int categoryid) throws SQLException {
+		String temp = "INSERT INTO belongsTo (caseT, category) VALUES ("+caseID+","+categoryid+")";
+		System.out.println(temp);
+		st.executeUpdate(temp);
+		
+	}
+	
+	public ResultSet getAllCats() throws SQLException{
+		String temp = "SELECT name FROM category";
+		System.out.println(temp);
+		return st.executeQuery(temp);
+
+	}
+
+	public void insertNewUser(String name, String password2) throws SQLException {
+		String temp = "INSERT INTO user (username, password) VALUES (\""+name+"\",\""+password2+"\")";
+		System.out.println(temp);
+		st.executeUpdate(temp);
+		
+	}
+
 }

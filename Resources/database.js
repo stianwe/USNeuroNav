@@ -1,4 +1,4 @@
-function initDB(window, displayListView, createEventFunctionCategory, initSearch) {
+function initDB(window, displayListView, createEventFunctionCategory, initSearch, currentCategories) {
     var xhr = Titanium.Network.createHTTPClient();
     xhr.onload = function() {
         var json = JSON.parse(this.responseText);
@@ -22,7 +22,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         }
         for (var i = 0; jsonSubCategories.length > i; i++) categories[jsonSubCategories[i].superCategory].subCategories.push(categories[jsonSubCategories[i].subCategory]);
         var cases = {};
-        for (var i = 0; jsonCases.length > i; i++) cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].description);
+        for (var i = 0; jsonCases.length > i; i++) cases[jsonCases[i].id] = new classes.caseT(jsonCases[i].name, jsonCases[i].publicDescription, jsonCases[i].privateDescription, "1" == jsonCases[i].publicT);
         for (var i = 0; jsonBelongsTo.length > i; i++) categories[jsonBelongsTo[i].category].cases.push(cases[jsonBelongsTo[i].caseT]);
         for (var i = 0; categories.length > i; i++) {
             Ti.API.info(categories[i].name);
@@ -30,18 +30,26 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         }
         for (var i = 0; jsonMediaFiles.length > i; i++) cases[jsonMediaFiles[i].belongsTo].mediaFiles.push(new classes.mediaFile(rootURL + jsonMediaFiles[i].url, 1 == jsonMediaFiles[i].video));
         var rootCategory = categories[rootCategoryID];
+        rootCategory.subCategories.unshift(new classes.category("Show all", new Array()));
         rootCategory.name = "Browse";
+        var showAllCat = new classes.category("*", new Array());
+        currentCategories.push(showAllCat);
         window.setTitle(rootCategory.name);
-        displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
+        for (var id in cases) id != rootCategoryID && showAllCat.cases.push(cases[id]);
+        displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
         initSearch(rootCategory, categoriesByName);
     };
-    xhr.open("GET", "http://129.241.110.159/database.php");
+    xhr.open("GET", address + "/database.php");
     xhr.send();
     return true;
 }
 
 var classes = require("category");
 
-var rootURL = "http://129.241.110.159/media/";
+var address = "http://129.241.110.159";
+
+var rootURL = address + "/media/";
 
 exports.initDB = initDB;
+
+exports.address = address;
