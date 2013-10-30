@@ -17,7 +17,7 @@ function Controller() {
         listView.sections = sections;
         listView.addEventListener("itemclick", eventFunction);
         window.addEventListener("close", function() {
-            currentCategories.pop();
+            currentCategories.length > 1 && currentCategories.pop();
         });
         window.add(listView);
     }
@@ -95,7 +95,7 @@ function Controller() {
                     });
                     for (var i = 0; catsToShow.length > i; i++) catObjs.push({
                         properties: {
-                            title: catsToShow[i].name + " TEST"
+                            title: catsToShow[i].name
                         }
                     });
                     displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
@@ -128,7 +128,7 @@ function Controller() {
                     title: "Images"
                 }
             } ];
-            currentCategories.push(null);
+            tab == $.tab1 && currentCategories.push(null);
             var descLabel = Titanium.UI.createLabel({
                 text: "Description:",
                 font: {
