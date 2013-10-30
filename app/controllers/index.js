@@ -18,7 +18,9 @@ function displayListView(window, items, eventFunction, caseT) {
 	listView.sections = sections;
 	listView.addEventListener('itemclick', eventFunction);
 	window.addEventListener('close', function(e) {
-		currentCategories.pop();
+		if (currentCategories.length > 1) {
+			currentCategories.pop();
+		}
 	});
 	
 	window.add(listView);
@@ -158,7 +160,9 @@ function createEventFunctionCase(cases, tab) {
 			//{ properties: { title: currentCase.description } },
 			{ properties: { title: 'Videos' } },
 			{ properties: { title: 'Images' } }];
-		currentCategories.push(null);
+		if (tab == $.tab1) {
+			currentCategories.push(null);
+		}
 		var descLabel = Titanium.UI.createLabel({
 			text: "Description:",
 			font: {fontWeight: 'bold', fontsize: 48},
