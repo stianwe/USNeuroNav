@@ -55,7 +55,8 @@ public class SQLHelper {
 		String temp = "INSERT INTO caseT (name, public, publicDescription, privateDescription) values "
 				+ "(\"" + caseName + "\", " + (isPublic ? 1 : 0) + ", \"" + pubdescription + "\", \"" + privdescription + "\")";
 		System.out.println(temp);
-		return st.executeUpdate(temp, Statement.RETURN_GENERATED_KEYS);
+		st.executeUpdate(temp);
+		return getKey(caseName, "caseT");
 		//return 5;
 	}
 	
@@ -80,10 +81,18 @@ public class SQLHelper {
 			System.out.println(id);
 		}
 		return id;
-		
-		//
-		//return -1;
-		
+	}
+	
+	public int getKey(String name, String table) throws SQLException {
+		String temp = "SELECT id FROM "+table+" WHERE name=\""+name+"\"";
+		System.out.println(temp);
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+			System.out.println(id);
+		}
+		return id;
 	}
 	
 	public int getSubCategoryID(int superid, int subid) throws SQLException {
@@ -103,6 +112,18 @@ public class SQLHelper {
 		
 	}
 	
+	public int getUser(String name) throws SQLException{
+		String temp = "SELECT id from user WHERE username =\""+name+"\"";
+		System.out.println(temp);
+		ResultSet rs = st.executeQuery(temp);
+		int id = -1;
+		while(rs.next()){
+			id = rs.getInt("id");
+		}
+		return id;
+		
+	}
+	
 
 	public void insertSubCategory(int superid, int subid) throws SQLException {
 		String temp = "INSERT INTO subCategory (superCategory, subCategory) VALUES ("+superid+","+subid+")";
@@ -117,6 +138,13 @@ public class SQLHelper {
 		System.out.println(temp);
 		st.executeUpdate(temp);
 		
+	}
+	
+	public ResultSet getAllCats() throws SQLException{
+		String temp = "SELECT name FROM category";
+		System.out.println(temp);
+		return st.executeQuery(temp);
+
 	}
 
 	public void insertNewUser(String name, String password2) throws SQLException {
