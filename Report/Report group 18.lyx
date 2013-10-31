@@ -528,6 +528,32 @@ The project sponsor and customer is SINTEF and The National Competence Center
 \begin_layout Subsection
 
 \size largest
+Project goal
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The goal of the the project was to create an application that will help
+ increase learning about ultrasound images that are used in operations.
+ We wanted to show ultrasound images with different types of tumors and
+ different types of operations, so surgeons, students and others can become
+ more familiar with how the images and data are related.
+ The application was ment to be a little contribute to learning of ultrasound
+ navigation during operations.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
 Project Background and Purpose
 \end_layout
 
@@ -582,28 +608,6 @@ The National Competence Center for Ultrasound and Image Guided Therapy collects
 \begin_layout Subsection
 
 \size largest
-Project Goal
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The goal of the project is to increase the awareness and knowledge surrounding
- the use of ultrasound navigation during surgery, to increase its popularity
- and also make the use of the technology more widespead.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
 Project Duration
 \end_layout
 
@@ -631,10 +635,10 @@ Planning
 
 \size large
 This chapter describes the project plan, terms and team organisation.
- At first there are presented measurement of project effort, general terms
+ Frst the measurement of project effort are descibed, then general terms
  and a work break down structure.
- After that the organisation of the team and the risk management are presented.
- At the end is given quality assurance.
+ After that the organisation of the team and the risk management are presented,
+ followed by quality assurance.
 \begin_inset Newline newline
 \end_inset
 
@@ -658,7 +662,7 @@ Project Plan
 \begin_layout Subsubsection
 
 \size larger
-Measurement of Project Effort
+Measurement of Project Effect
 \end_layout
 
 \begin_layout Standard
@@ -689,9 +693,9 @@ General Terms
 \size large
 The customer has a very clear requirement that the project results in an
  application for iOS.
- In addition, the customer sees it as a big bonus if this app can easily
- be extended to additional platforms, for example android, either by this
- group, if time allows it, or by an external developer.
+ In addition, the customer sees it as a bonus if this app can easily be
+ extended to additional platforms, for example android, either by this group,
+ if time allows it, or by an external developer.
  For this to be a possibility, an Apple developer license must be provided,
  in addition to at least one Mac for building purposes.
  Depending on the choice of tool selection, additional licenses might be
@@ -1706,62 +1710,6 @@ This section describes how the group is organized and why.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
-Organizational diagram 
-\end_layout
-
-\begin_layout Standard
-
-\size large
-This diagram shows how the roles in the group are organized.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Figures/Organizational diagram.png
-	lyxscale 50
-	width 100line%
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Organizational diagram
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-
-\size larger
-Roles
-\end_layout
-
-\begin_layout Standard
-
-\size large
 At the beginning of the project we had a quick sumary of each group member’s
  previous experience, skills and interests.
  This made the basis for role assignments, so that we best could utilize
@@ -2058,6 +2006,44 @@ Responsible for technical research and making sure technical difficulties
 
 \begin_layout Plain Layout
 Roles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The diagram below shows how the roles in the group was organized.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Organizational diagram.png
+	lyxscale 50
+	width 100line%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Organizational diagram
 \end_layout
 
 \end_inset
@@ -3623,7 +3609,7 @@ Requirements
 
 \size large
 In this section the system requirements will be presented.
- First a description of the scope of the project, then comes definitions,
+ First a description of the scope of the project, followed by definitions,
  then a describtion of the functional and non-functional requirements.
  At the end the product backlog wil be described.
 \begin_inset Newline newline
@@ -3855,8 +3841,8 @@ All requirements are assigned one of four possible priority values.
 \begin_layout Standard
 
 \size large
-Critical prioritized requirements is the most important and the system will
- not be approved if it's not implemented.
+Critical prioritized requirements are the most important and the system
+ will not be approved if it's not implemented.
  
 \begin_inset Newline newline
 \end_inset
@@ -3867,8 +3853,8 @@ Critical prioritized requirements is the most important and the system will
 \begin_layout Standard
 
 \size large
-High prioritized requirements is important for the customer, but these requireme
-nts wil be implemented after the critical prioritized requirements.
+High prioritized requirements are important for the customer, but these
+ requirements wil be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
@@ -3878,8 +3864,8 @@ nts wil be implemented after the critical prioritized requirements.
 \begin_layout Standard
 
 \size large
-Medium prioritized requirements is not that important for the customer as
- the critical and high prioritized requirements, and will be implemented
+Medium prioritized requirements are not that important for the customer
+ as the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
 \begin_inset Newline newline
 \end_inset
@@ -3890,7 +3876,7 @@ Medium prioritized requirements is not that important for the customer as
 \begin_layout Standard
 
 \size large
-Low prioritized requirements is 
+Low prioritized requirements are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3899,7 +3885,7 @@ nice to have requirements
 \end_inset
 
 , but it's not important for the customer, and these requirements will be
- fulfilt only if there is time left.
+ fulfilled only if there is time left.
 \begin_inset Newline newline
 \end_inset
 
@@ -6727,8 +6713,8 @@ All requirements are assigned one of four possible priority values.
 \begin_layout Standard
 
 \size large
-Critical prioritized requirements is the most important and the system will
- not be approved if it's not implemented.
+Critical prioritized requirements are the most important and the system
+ will not be approved if it's not implemented.
  
 \begin_inset Newline newline
 \end_inset
@@ -6739,8 +6725,8 @@ Critical prioritized requirements is the most important and the system will
 \begin_layout Standard
 
 \size large
-High prioritized requirements is important for the customer, but these requireme
-nts wil be implemented after the critical prioritized requirements.
+High prioritized requirements are important for the customer, but these
+ requirements wil be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
@@ -6750,8 +6736,8 @@ nts wil be implemented after the critical prioritized requirements.
 \begin_layout Standard
 
 \size large
-Medium prioritized requirements is not that important for the customer as
- the critical and high prioritized requirements, and will be implemented
+Medium prioritized requirements are not that important for the customer
+ as the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
 \begin_inset Newline newline
 \end_inset
@@ -6762,7 +6748,7 @@ Medium prioritized requirements is not that important for the customer as
 \begin_layout Standard
 
 \size large
-Low prioritized requirements is 
+Low prioritized requirements are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6771,7 +6757,7 @@ nice to have requirements
 \end_inset
 
 , but it's not important for the customer, and these requirements will be
- fulfilt only if there is time left.
+ fulfilled only if there is time left.
 \begin_inset Newline newline
 \end_inset
 
@@ -8518,7 +8504,7 @@ status open
 \size large
 \begin_inset Graphics
 	filename Figures/database.png
-	scale 40
+	scale 70
 
 \end_inset
 
@@ -9412,6 +9398,8 @@ Browse activity diagram
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The activity diagram below shows the flow of the mobile application when
  a regular or logged in user is browsing.
  The program starts by displaying a list of 
@@ -9448,6 +9436,8 @@ Show all
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In addition, for each step, there is a 
 \begin_inset Quotes eld
 \end_inset
@@ -9514,6 +9504,8 @@ Search activity diagram
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The next activity diagram, shown below, shows the flow of the mobile application
  when a, regular or logged in, user uses the search function.
  The app then starts by displaying a text field where the user can enter
@@ -9646,11 +9638,15 @@ Admin computer
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The admin computer is used to add categories and/or cases to the server.
  The main functionality of it is to add new categories and cases to the
  database server, using a connection to a PHP script.
  In addition, when adding a case, the admin can add media files to the case.
  This is done by uploading them to the web server, for instance using FTP.
+\size default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -9668,6 +9664,8 @@ Database server
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The database server's task is to run the MySQL server, and to answer queries
  to it.
  Either select queries from the mobile application, or inserts/edits from
@@ -9686,6 +9684,8 @@ Data Storage
  relationship between them.
  In addition, a reference to the media files located on the web server is
  stored, for each case.
+\size default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -9703,6 +9703,8 @@ Web server
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The web server's task is to store and make available on the Internet, the
  media files associated with every case.
  This is done by running an Apache web server which hosts the media files
@@ -9712,6 +9714,8 @@ The web server's task is to store and make available on the Internet, the
  media files, either for new cases, or for already existing ones.
  This can be done by using for instance FTP.
  A media file can either be an image or a video.
+\size default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -9729,6 +9733,8 @@ USNeuroNav, the mobile application
 \end_layout
 
 \begin_layout Standard
+
+\size large
 USNeuroNav is the name of the mobile application, which can be run on smart
  phones.
  The app communicates with the database server to fetch information about
@@ -9736,6 +9742,8 @@ USNeuroNav is the name of the mobile application, which can be run on smart
  This communication goes through a thin layer of PHP script, that actually
  reads the database, and passes on the information.
  The media files themself is fetched from the web server using regular HTTP.
+\size default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -12116,7 +12124,7 @@ Completed tests for sprint 1
 \begin_layout Subsection
 
 \size largest
-Ocuring Risks
+Occurring Risks
 \end_layout
 
 \begin_layout Standard
@@ -13172,7 +13180,7 @@ Testing
 \begin_layout Subsection
 
 \size largest
-Ocuring Risks
+Occurring Risks
 \end_layout
 
 \begin_layout Standard
@@ -13768,7 +13776,7 @@ Testing
 \begin_layout Subsection
 
 \size largest
-Ocuring Risks
+Occurring Risks
 \end_layout
 
 \begin_layout Subsection
