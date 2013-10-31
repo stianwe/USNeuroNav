@@ -9859,35 +9859,34 @@ Sprint Planning
 \begin_layout Standard
 
 \size large
-During a large part of sprint 1, Marthe will be away on a planned trip,
- so the group will have to work while divided in two.
- To accomodate for this, Marthe will have responsibility for gathering all
- the material that we currently have created in Google Drive, and put it
- together into a single LATEX document.
- In addition, she is to start looking into the test planning.
+During a large part of sprint 1, Marthe was away on a planned trip, so the
+ group had to work while divided in two.
+ To accomodate for this, Marthe had responsibility for gathering all the
+ material that we currently had created in Google Drive, and put it together
+ into a single LATEX document.
+ In addition, she was to start looking into the test planning.
  The reason why we choose to move our report to a single LATEX document
- is that this allows for better version control, as we will put it together
- with our code on Github, and also to familiarize ourself with LATEX, as
- it is very likely that the final report will be written in LATEX in the
- end.
+ was that it allowed for better version control, as we put it together with
+ our code on Github, and also to familiarize ourself with LATEX, as it was
+ very likely that the final report would be written in LATEX at the end.
 \end_layout
 
 \begin_layout Standard
 
 \size large
-Kristoffer and Stian, who will be in Trondheim for the whole sprint, will
+Kristoffer and Stian, who were in Trondheim for the whole sprint, were going
  start on the implementation.
- To begin with, Stian will set up a raw skeleton for displaying the categories
- (hardcoded for now), while Kristoffer finnishes a demo of the GUI, which
- will be shown to the customer and the supervisor.
- The next step will be to display cases, along with their images and videos.
- All categories, cases, images and videos will be either stored locally
+ To begin with, Stian would set up a raw skeleton for displaying the categories
+ (hardcoded for now), while Kristoffer finnished a demo of the GUI, which
+ would be shown to the customer and the supervisor.
+ The next step was to display cases, along with their images and videos.
+ All categories, cases, images and videos where to be either stored locally
  or hardcoded URL's to begin with, to focus only on the simple parts first.
- Before development can start, the iMac, borrowed from the customer, must
- be set up with the required software and licenses.
- For now the only software required is XCode and Titanium Studio.
- As Titanium is free to use, no license will be required at this step, but
- might be required if testing is to be done on a 
+ Before development could start, the iMac, borrowed from the customer, had
+ to be set up with the required software and licenses.
+ At that time the only software required wass XCode and Titanium Studio.
+ As Titanium wass free to use, no license would be required at this step,
+ but might be required if testing was to be done on a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -9901,18 +9900,19 @@ real
 \begin_layout Standard
 
 \size large
-Since the team is quite inexperience with scrum, an additional feature is
- planned, that will be implemented if the initial tasks are completed within
- the first half of the sprint.
- That feature is loading the categories, cases, images and videos from server.
- To allow for this, the server must be set up with a MySQL server to store
- the categories and cases, and a web server (Apache) to make available the
- images and videos.
- Setting up the server with the required software, and configuring it, is
- assigned to Stian, as he has some experience with it.
+Since the team wass quite inexperience with scrum, an additional feature
+ wass planned, that would be implemented if the initial tasks were completed
+ within the first half of the sprint.
+ That feature was loading the categories, cases, images and videos from
+ the server.
+ To allow for this, the server had to be set up with a MySQL server that
+ stored the categories and cases, and a web server (Apache) that made available
+ the images and videos.
+ Setting up the server with the required software, and configuring it, was
+ assigned to Stian, as he had some experience with it.
  Implementing the communication between the client (app) and the server,
- will be done in cooperation between Stian and Kristoffer, as they are the
- 
+ would be done in cooperation between Stian and Kristoffer, as they were
+ the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -9921,14 +9921,14 @@ developers
 \end_inset
 
  for this sprint.
- In more detail, Stian will do the server side communication, and Stian
- and Kristoffer together will work on the client side.
+ In more detail, Stian would do the server side communication, and Stian
+ and Kristoffer together would work on the client side.
 \end_layout
 
 \begin_layout Standard
 
 \size large
-An additional goal of the sprint is to start working with Rally, to keep
+An additional goal of the sprint was to start working with Rally, to keep
  track of the backlog and the assigning of tasks.
 \begin_inset Newline newline
 \end_inset
@@ -9945,7 +9945,7 @@ Sprint duration
 \begin_layout Standard
 
 \size large
-The duration of sprint 1 is from 18th of September to 1th of October.
+The duration of sprint 1 was from 18th of September to 1th of October.
 \begin_inset Newline newline
 \end_inset
 
@@ -9961,12 +9961,12 @@ Sprint goals
 \begin_layout Standard
 
 \size large
-The main goal of the sprint is to have a running prototype which can display
- categories and cases, and their images and videos.
- For now, only stored locally or hardcoded URL's.
- Another goal is to have an agreement with the customer for a rough GUI
+The main goal of this sprint was to have a running prototype which could
+ display categories and cases, and their images and videos.
+ At that moment, only stored locally or hardcoded URL's.
+ Another goal was to have an agreement with the customer for a rough GUI
  specification.
- Finally a goal for the report progress is to have a skeleton for the report
+ Finally a goal for the report progress was to have a skeleton for the report
  in a LATEX document, with all written material previously written in Google
  Drive inserted.
 \begin_inset Newline newline
@@ -9984,9 +9984,9 @@ Sprint backlog
 \begin_layout Standard
 
 \size large
-This sprint backlog is shown in the table below.
- It shows all the use case stories, with tasks and estimated effort, that
- is planned for this sprint.
+The sprint backlog for this sprint is shown in the table below.
+ It shows all the use case stories, with tasks and estimated effort that
+ was planned for this sprint.
 \end_layout
 
 \begin_layout Standard
@@ -11441,10 +11441,11 @@ The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, but we had both
  overestimated and underestimated the effort of time for many tasks.
  Therefore the ideal burndown is beneath the actual burndown through this
- sprint .We did most of the work on Wednesdays, Thursdays and Fridays, wich
- explain the slow burndown at day 10, day 9 , day 5 and day 4.We had to do
- a lot of programming in this sprint since our technical manager wil be
- absent half of the next sprint
+ sprint.
+ We did most of the work on Wednesdays, Thursdays and Fridays, wich explain
+ the slow burndown at day 10, day 9 , day 5 and day 4.We had to do a lot
+ of programming in this sprint since our technical manager would be absent
+ half of the next sprint
 \begin_inset Newline newline
 \end_inset
 
@@ -11508,15 +11509,14 @@ User interface
 \begin_layout Standard
 
 \size large
-A lot of the implementation for this sprint is programming the user interface
+A lot of the implementation for this sprint was to program the user interface
  for viewing categories and cases, and their images and videos.
  In the early phase of the sprint, we made a GUI demo with some options,
  which we intended to show to the customer.
- However, the customer is travelling for two and a half week, so no meeting
+ However, the customer was travelling for two and a half week, so no meeting
  with him was possible during sprint 1.
  The demo was therefore presented to him in an email, and he agreed with
  our design choices, and urged us on.
- 
 \end_layout
 
 \begin_layout Standard
@@ -11538,7 +11538,7 @@ functions
 \begin_inset Quotes erd
 \end_inset
 
- that it should support, which is browsing categories, searching, and logging
+ that it should support, which was browsing categories, searching, and logging
  in.
  For this, we decided to use 
 \begin_inset Quotes eld
@@ -11557,7 +11557,7 @@ function
 \end_inset
 
 .
- See below:
+ See the figure below:
 \end_layout
 
 \begin_layout Standard
@@ -11605,9 +11605,9 @@ GUI demo: Browsing with tabs
 \begin_layout Standard
 
 \size large
-The reason for why we chose to use tabs, is that is the standard way to
- split a app into several functions, both for Android and iOS, and the customer
- has pointed out repeatedly that 
+The reason for why we chose to use tabs, were because of that it was the
+ standard way to split a app into several functions, both for Android and
+ iOS, and the customer had pointed out repeatedly that 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11615,8 +11615,8 @@ native look and feel
 \begin_inset Quotes erd
 \end_inset
 
- is very important, and that he wants an app that looks professional.
- Tabs is easily supported with Titanium, using a tab group that contains
+ was very important, and that he wanted an app that looked professional.
+ Tabs was easily supported with Titanium, using a tab group that contains
  mutliple tabs (three in our case).
 \end_layout
 
@@ -11626,8 +11626,8 @@ native look and feel
 Further on, we decided to simply use a list view to that simulates a tree
  structure to display the categories and the cases.
  To make the structure of the categories and cases as general as possible,
- a category can have zero or more sub-categories, and zero or more super-categor
-ies, that is 
+ a category could have zero or more sub-categories, and zero or more super-categ
+ories, that was 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11636,11 +11636,11 @@ parents
 \end_inset
 
 .
- Also, a category can have zero or more cases.
- Several categories can have the same case, and to decide which case is
- shown when navigating the tree structure, we simply take the intersection
- of the cases for the categories we have selected.
- See below for a demo of the navigation:
+ Also, a category could have zero or more cases.
+ Several categories could have the same case, and to decide which case that
+ was shown when navigating the tree structure, we simply took the intersection
+ of the cases for the categories we had selected.
+ Below is a demo of the navigation:
 \end_layout
 
 \begin_layout Standard
@@ -11690,13 +11690,13 @@ GUI demo: Browsing navigation
 \begin_layout Standard
 
 \size large
-When a case is selcted, the case's images and videos will have to be displayed.
- To begin with, this is done be simply taking the user to a view of the
- first element (video or image), and from there, the user can swipe between
+When a case was selcted, the case's images and videos would have to be displayed.
+ To begin with, this was done be simply taking the user to a view of the
+ first element (video or image), and from there, the user could swipe between
  images and videos belonging to the selected case.
- We have discussed the possibility for a thumbnails view or something similar
- also, but no decision about this have been made, and for now we are postponing
- this until the customer can have his say on the matter.
+ We had discussed the possibility for a thumbnails view or something similar
+ also, but no decision about this had been made, and at this point we were
+ postponing this until the customer could have his say on the matter.
 \begin_inset Newline newline
 \end_inset
 
@@ -11718,18 +11718,19 @@ Server side
 \begin_layout Standard
 
 \size large
-As Titanium does not support direct communication with an external MySQL
- server, a dedicated component to compensate for this must be developed,
+As Titanium did not support direct communication with an external MySQL
+ server, a dedicated component to compensate for this had be developed,
  and run on the server side.
- Since Titanium supports HTTP connections, a php script will run on the
- server's web server, and will be used to read data from the MySQL server,
+ Since Titanium supported HTTP connections, a php script would run on the
+ server's web server, and would be used to read data from the MySQL server,
  and send it to the client on request.
- In more detail, the server will answer a HTTP GET request, with a json
- list, which is built in the same way as the MySQL server, to ensure consistency.
+ In more detail, the server would answer a HTTP GET request, with a json
+ list, which was built in the same way as the MySQL server, to ensure consistenc
+y.
  The reason for sending json objects instead of for example XML objects,
- is that json objects typically are smaller, and faster to parse.
- Since the MySQL server only contains references to the images and videos,
- the data sent here will not be too large, and it will allow the client
+ was that json objects typically were smaller, and faster to parse.
+ Since the MySQL server only contained references to the images and videos,
+ the data sent here would not be too large, and it would allow the client
  to stream the images and videos from the Apache web server, by sending
  the reference as URL's.
 \begin_inset Newline newline
@@ -11747,12 +11748,12 @@ Client side
 \begin_layout Standard
 
 \size large
-When the application is booting up, the client will poll the server for
+When the application was booting up, the client would poll the server for
  data once, by sending an HTTP GET request, using Titanium's build-in support
  for this.
- The client will then receive the json list, which Titanium also has built-in
+ The client would then receive the json list, which Titanium also had built-in
  support for parsing.
- Using this data, the app will build an internal structure of the categories
+ Using this data, the app would build an internal structure of the categories
  in memory, and use this to generate the tree-structured navigation.
  The json object will also contain references to where the images and videos
  for each case can be streamed from, so these will also be stored locally.
@@ -12335,10 +12336,10 @@ Customer Feedback
 As the customer was away travelling during the whole sprint, all contact
  with him were done using emails.
  Prior to his travel, we decided that the sprint delivery, where the team
- show what has been done this sprint, and shows a prototype to the customer
- if possible, were to be postponed until his arrival, somwhere in sprint
- 2.
- Thus, the only feedback from the customer during sprint 1 has been the
+ showed what has been done this sprint, and would show a prototype to the
+ customer if possible, were to be postponed until his arrival, somwhere
+ in sprint 2.
+ Thus, the only feedback from the customer during sprint 1 had been the
  feedback he gave on the GUI demo which were sent.
  His feedback regarding that, was that he very much liked the navigation,
  but he also wanted text on the back-button, explaining where it leads.
@@ -12371,13 +12372,13 @@ The implementation of the initial stories, viewing categories and cases,
  and their images and videos, went very well, and were done withing the
  first half of the sprint.
  The team therefore moved on to set up MySQL server and Apache web server
- on the borrowed iMac for now, to use it for the development phase.
- This also went without too many quirks, even though the team were/is very
- unfamiliar with Mac and OSX.
+ on the borrowed iMac, to use it for the development phase.
+ This also went without too many quirks, even though the team was very unfamilia
+r with Mac and OSX.
  Finally, the development of the client-server communication alos went well,
  considering no one on the group had touched php or Titanium before.
  As a note, the development team for the first sprint were not very comfortable
- with using Titanium and JavaScript in the start, but adapted to this by
+ with using Titanium and JavaScript at the start, but adapted to this by
  
 \begin_inset Quotes eld
 \end_inset
@@ -12387,8 +12388,8 @@ learning by doing
 \end_inset
 
 .
- The team is still not 100% that the right decision for development tools
- were chosen (Titanium vs Xamarin), as they feel they would be more productive
+ The team was still not 100% that the right decision for development tools
+ were chosen (Titanium vs Xamarin), as they felt they would be more productive
  writing code in C# than JavaScript, considering that JavaScript in theory
  does not support classes.
 \begin_inset Newline newline
@@ -12410,15 +12411,15 @@ The development phase turned out very good, given the odds.
  We had absolutely no experience with Titanium, JavaScript or Mac before
  the sprint.
  We also didn't have access to more than one Mac.
- Considering this we are very happy with how well the programming went.
+ Considering this we were very happy with how well the programming went.
 \end_layout
 
 \begin_layout Standard
 
 \size large
 We didn't have much progress on the report early in the sprint, but during
- the last week, we really produced a lot of good content, which we are very
- happy with.
+ the last week og the sprint, we really produced a lot of good content,
+ which we were very happy with.
 \begin_inset Newline newline
 \end_inset
 
