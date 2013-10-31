@@ -12511,7 +12511,7 @@ Sprint duration
 \begin_layout Standard
 
 \size large
-The duration of sprint 2 is from 2th of October to 15th of October.
+The duration of sprint 2 was from 2th of October to 15th of October.
 \begin_inset Newline newline
 \end_inset
 
@@ -12538,8 +12538,8 @@ The main goal of the sprint was to have written as much as possible of the
 
 \size large
 On the report, we wanted to be finnish writing the hole Part 1, and the
- Sprint 1 chapters.
- We also wanted to begin writing on the sprint 2 chapters.
+ chapters of Sprint 1.
+ We also wanted to begin writing on the chapters of sprint 2.
 \begin_inset Newline newline
 \end_inset
 
@@ -12559,9 +12559,9 @@ Sprint backlog
 \begin_layout Standard
 
 \size large
-This sprint backlog is shown in the table below.
- It shows all the use case stories, with tasks and estimated effort, that
- is planned for this sprint.
+The sprint backlog for this sprint is shown in the table below.
+ It shows all the use case stories, with tasks and estimated effort that
+ was planned for this sprint.
  We learnd from the last sprint that we had under estimated the tasks, so
  we tried to give a better estimate this time.
 \begin_inset Newline newline
@@ -13465,6 +13465,8 @@ Sprint goals
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The goal of sprint 3 was to pick up where we left off at sprint 1 on the
  development part.
  During a meeting with the customer in sprint 2, we received some feedback
@@ -13509,6 +13511,8 @@ images
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Also for sprint 3, we planned to implement separation of data with log in,
  so that registered users have access to all cases, while unregistered users
  only have access to public cases.
@@ -13534,6 +13538,8 @@ Primary Tumor
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The reason why we set so ambitious goals regarding the amount of implementation
  for sprint 3 is that we laid a very thorough foundation in sprint 1, wich
  made it quite easy to add new features, and that we did not have the time
@@ -13544,6 +13550,14 @@ The reason why we set so ambitious goals regarding the amount of implementation
 
 \size larger
 Sprint backlog
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The sprint backlog for this sprint is shown in the table below.
+ It shows all the use case stories, with tasks and estimated effort that
+ was planned for this sprint.
 \end_layout
 
 \begin_layout Standard
@@ -13590,10 +13604,14 @@ Implementation
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Searching
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Searching for cases was one of the customer's top requirements, and therefore
  the highest prioritized feature for sprint 3.
  It was implemented on a separate 
@@ -13608,10 +13626,14 @@ tab
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Separation
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Separation of data was one of the customer's requirements with high priority.
  The intention with it was not to provide air tight security for the private
  cases, but to only show a selection of cases to unregistered users.
@@ -13628,6 +13650,8 @@ Separation of data was one of the customer's requirements with high priority.
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Another much discussed point was the registering of new users.
  The customer had no intention of allowing 
 \begin_inset Quotes eld
@@ -13642,6 +13666,8 @@ random
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The log in process itslef was put on a separate 
 \begin_inset Quotes eld
 \end_inset
@@ -13664,10 +13690,14 @@ tab
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Viewing of media files
 \end_layout
 
 \begin_layout Standard
+
+\size large
 As previously mentioned, we received some feedback on the viewing of media
  files.
  We therefore implemented 
@@ -13708,6 +13738,8 @@ tiltable
 \end_layout
 
 \begin_layout Standard
+
+\size large
 In addition we split the media files into two categories, 
 \begin_inset Quotes eld
 \end_inset
@@ -13765,6 +13797,8 @@ privateDescrption
 \end_layout
 
 \begin_layout Subsubsection
+
+\size larger
 Admin panel
 \end_layout
 
@@ -13787,6 +13821,8 @@ Customer Feedback
 \end_layout
 
 \begin_layout Standard
+
+\size large
 Halfway through the sprint, we had a meeting with the customer where we
  showed the progress so far.
  Here we showed that we had implemented zooming and tilting, as requested,
@@ -13807,6 +13843,8 @@ normal
 \end_layout
 
 \begin_layout Standard
+
+\size large
 The customer was also very eager to see the application on a real device,
  not just the emulator, but as Marthe was traveling during sprint 3, and
  owned the team's only iDevice, this was not possible.
@@ -13821,6 +13859,8 @@ The customer was also very eager to see the application on a real device,
 \end_layout
 
 \begin_layout Standard
+
+\size large
 During the meeting the possibilities for demonstrating the application for
  some real users were discussed.
  As the application was close to 
