@@ -13133,7 +13133,14 @@ System Burndown Chart
 
 \size large
 The figure below shows the burndown chart for this sprint.
- We managed to finish almost every task in this sprint, but we had
+ We managed to finish almost every task in this sprint, and we had estimated
+ the effort more realistic.
+ We felt like we had a good progress with the work, but we did not implement
+ anything this sprint, so the progress did not benefit the application.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -13169,18 +13176,6 @@ Burndown Chart Sprint 2
 \begin_layout Subsection
 
 \size largest
-Implementation
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Testing
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
 Occurring Risks
 \end_layout
 
@@ -13189,6 +13184,10 @@ Occurring Risks
 \size large
 The risks that came to life during sprint 2 is summarized in the table below,
  along with the actions taken.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -13388,7 +13387,19 @@ Customer Feedback
 \begin_layout Standard
 
 \size large
-We had a meeting with the customer on 9th October
+We had a meeting with the customer on 9th October, and he did appore the
+ progress so far.
+ He had some comments on how the application would work on iPhone, in particular
+ly zooming and tilting of pictures and videos.
+ We aggread on the futher work and the priority og the remaining tasks.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+At the end of the sprint, we did not have a meeting, since there were no
+ new implementation of the application in this sprint
 \begin_inset Newline newline
 \end_inset
 
@@ -13415,6 +13426,8 @@ What went well during this sprint
 
 \size large
 We had a great progress on the report during this sprint.
+ We managed to be finish with almost every tasks of this sprints backlog,
+ and there were no hurry during this sprint.
 \begin_inset Newline newline
 \end_inset
 
@@ -13425,6 +13438,16 @@ We had a great progress on the report during this sprint.
 
 \size larger
 What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Since we were not a hole group the hole sprint, we planned for a bit too
+ little work, and worked so after.
+ In the next sprint we had to take this in mind when we were planning for
+ sprint 3, so that we could complete the most important requirements from
+ the customer
 \end_layout
 
 \begin_layout Standard
@@ -13812,6 +13835,206 @@ Testing
 
 \size largest
 Occurring Risks
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The risks that came to life during sprint 2 is summarized in the table below,
+ along with the actions taken.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="8page%">
+<column alignment="center" valignment="top" width="10page%">
+<column alignment="center" valignment="top" width="40text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Risk factor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Explanation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Actions taken
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+R1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Sick group member
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+The group members worked a little in the evening to complete their tasks
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+R12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Absent group member
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Marthe informed the group about the absence in good time before the period
+ in question, so the group were able to plan with this in mind.
+ The agreement was that Marthe were going to work on the report while she
+ was gone.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Occurring risks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
