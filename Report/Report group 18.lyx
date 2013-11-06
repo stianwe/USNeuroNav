@@ -1128,10 +1128,13 @@ The work breakdown structure can be seen in Figure 1
 
 
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1139,18 +1142,13 @@ status open
 \size large
 \begin_inset Graphics
 	filename Figures/Project plan.png
-	lyxscale 50
-	height 100theight%
+	lyxscale 80
+	scale 80
 	rotateAngle 90
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-
-\size large
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -13205,14 +13203,14 @@ status open
 
 \size large
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="4">
+<lyxtabular version="3" rows="2" columns="4">
 <features islongtable="true" longtabularalignment="center">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="8page%">
-<column alignment="center" valignment="top" width="10page%">
-<column alignment="center" valignment="top" width="40text%">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="8page%">
+<column alignment="left" valignment="top" width="10page%">
+<column alignment="left" valignment="top" width="40text%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13223,7 +13221,7 @@ ID
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13234,7 +13232,7 @@ Risk factor
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13245,7 +13243,7 @@ Explanation
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13258,53 +13256,7 @@ Actions taken
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-R1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-Sick group member
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-?
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-The group were already ahead of time, so no actions was necessary
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13315,7 +13267,7 @@ R12
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13326,18 +13278,18 @@ Absent group member
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size large
-Stian were gone travelling during a large part of the sprint
+Stian were gone travelling during a large part of the sprint.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13345,7 +13297,6 @@ Stian were gone travelling during a large part of the sprint
 \size large
 Stian informed the group about the absence in good time before the period
  in question, so the group were able to plan with this in mind.
- The agreement was that Stian were going to work on...
 \end_layout
 
 \end_inset
@@ -13391,7 +13342,7 @@ We had a meeting with the customer on 9th October, and he did appore the
  progress so far.
  He had some comments on how the application would work on iPhone, in particular
 ly zooming and tilting of pictures and videos.
- We aggread on the futher work and the priority og the remaining tasks.
+ We agreed on the futher work and the priority og the remaining tasks.
  
 \end_layout
 
@@ -13404,7 +13355,138 @@ At the end of the sprint, we did not have a meeting, since there were no
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+New priority of requirements
+\end_layout
+
+\begin_layout Standard
+
+\size large
+We agreed on the further priority of the work for sprint 3
+\size default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -13863,14 +13945,14 @@ status open
 
 \size large
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="4">
+<lyxtabular version="3" rows="2" columns="4">
 <features islongtable="true" longtabularalignment="center">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="8page%">
-<column alignment="center" valignment="top" width="10page%">
-<column alignment="center" valignment="top" width="40text%">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="8page%">
+<column alignment="left" valignment="top" width="10page%">
+<column alignment="left" valignment="top" width="40text%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13881,7 +13963,7 @@ ID
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13892,7 +13974,7 @@ Risk factor
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13903,7 +13985,7 @@ Explanation
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13916,7 +13998,7 @@ Actions taken
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13927,7 +14009,7 @@ R1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13938,7 +14020,7 @@ Sick group member
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13949,62 +14031,13 @@ Marthe, Kristoffer
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size large
-The group members worked a little in the evening to complete their tasks
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-R12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-Absent group member
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-Marthe
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size large
-Marthe informed the group about the absence in good time before the period
- in question, so the group were able to plan with this in mind.
- The agreement was that Marthe were going to work on the report while she
- was gone.
+The group members worked a little in the evening to complete their tasks.
 \end_layout
 
 \end_inset
@@ -14135,37 +14168,338 @@ What can be improved for the next sprint
 \begin_layout Section
 
 \size huge
+Sprint 4
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Sprint Planning
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint duration
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The duration of sprint 3 was from 30th of October to 8th of November.
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint goals
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Sprint backlog
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+System Burndown Chart
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Implementation
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
 Testing
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 
-\size largest
-Types of Testing
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Unit Testing
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Integration Testing
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-System Testing
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
+\size larger
 Acceptance Testing
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Occurring Risks
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The risks that came to life during sprint 2 is summarized in the table below,
+ along with the actions taken.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="8page%">
+<column alignment="left" valignment="top" width="10page%">
+<column alignment="left" valignment="top" width="40text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Risk factor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Explanation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Actions taken
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+R1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Sick group member
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Marthe, Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+The group members worked a little in the evening to complete their tasks
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+R12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Absent group member
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Marthe informed the group about the absence in good time before the period
+ in question, so the group were able to plan with this in mind.
+ The agreement was that Marthe were going to work on the report while she
+ was gone.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Noise from construction work
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+We had our office in IT-bygget, and there were a lot of noise from construction
+ work at that time.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Sometimes we had to leave the office, and work in the cafeteria or other
+ places where there was space.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+We could not move the iMac, as we agreed wiht the customer that it should
+ at all time be locked in the office, so we had to work in the noise.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Occurring risks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Customer Feedback
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Sprint Evaluation
 \end_layout
 
 \begin_layout Standard
@@ -14218,16 +14552,12 @@ View
 Further Work
 \end_layout
 
-\begin_layout Subsubsection
-
-\size larger
-Primary
+\begin_layout Subsection
+Unfinished Requirements
 \end_layout
 
-\begin_layout Subsubsection
-
-\size larger
-Secondary
+\begin_layout Subsection
+Other functionality
 \end_layout
 
 \begin_layout Section
