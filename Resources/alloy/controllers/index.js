@@ -119,15 +119,17 @@ function Controller() {
                 backgroundColor: "#fff",
                 layout: "vertical"
             });
-            var objects = [ {
+            var objects = [];
+            currentCase.hasVideo() && objects.push({
                 properties: {
                     title: "Videos"
                 }
-            }, {
+            });
+            currentCase.hasImage() && objects.push({
                 properties: {
                     title: "Images"
                 }
-            } ];
+            });
             tab == $.tab1 && currentCategories.push(null);
             var descLabel = Titanium.UI.createLabel({
                 text: "Description:",
@@ -139,7 +141,7 @@ function Controller() {
                 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
             });
             var label = Titanium.UI.createLabel({
-                text: isLoggedIn ? currentCase.privateDescription : currentCase.publicDescription,
+                text: currentCase.publicDescription + (isLoggedIn ? "\n" + currentCase.privateDescription : ""),
                 left: 4,
                 right: 4,
                 color: "#777",
@@ -160,7 +162,7 @@ function Controller() {
             var activityIndicator = Titanium.UI.createActivityIndicator();
             oldWindow.setRightNavButton(activityIndicator);
             activityIndicator.show();
-            var videos = 0 == e.itemIndex;
+            var videos = 0 == e.itemIndex && currentCase.hasVideo();
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
                 backgroundColor: "#fff"
@@ -209,7 +211,7 @@ function Controller() {
     function initSearch(rootCategory, categories) {
         var searchButton = Titanium.UI.createButton({
             title: "Search",
-            top: 125,
+            top: 150,
             width: 100,
             height: 50
         });
@@ -236,7 +238,12 @@ function Controller() {
         };
         searchArea.addEventListener("return", search);
         searchButton.addEventListener("click", search);
+        var helpLabel = Ti.UI.createLabel({
+            text: "Enter keywords separated by comma",
+            top: 10
+        });
         $.tab2window1.add(searchArea);
+        $.tab2window1.add(helpLabel);
         $.tab2window1.add(searchButton);
     }
     function login(username, password) {
@@ -371,9 +378,10 @@ function Controller() {
     var isLoggedIn = false;
     var searchArea = Ti.UI.createTextArea({
         borderWidth: 1,
+        hintText: "Keywords separated by comma",
         borderColor: "#aaa",
         borderRadius: 10,
-        top: 10,
+        top: 40,
         left: 10,
         right: 10,
         height: 100,

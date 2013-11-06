@@ -6,13 +6,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 
-public class Menu {
+public class Menu{
 
 	private static BufferedReader br;
 	String input;
 	String temp;
 	SQLHelper sql = new SQLHelper("mysql://localhost", 3306, "USNeuroNav", "root", "");
-	MediaUploader muSQL = new MediaUploader();
+	MediaUploader muSQL = new MediaUploader(sql);
 	
 	public Menu() throws ClassNotFoundException, SQLException{
 		input = "";
@@ -21,15 +21,12 @@ public class Menu {
 		
 	}
 	
-	void run() throws SQLException {
+	void run() throws SQLException, IOException {
 		while(true){
 			printMainMenu();
 			
-			temp = getInput();
-			
-			if (temp.equals(null)||temp.equals(""));
-				input="4";
-			int choice = Integer.parseInt(temp);
+
+			int choice = getIntInput(5);
 			
 			switch(choice){
 			case 1:
@@ -53,7 +50,7 @@ public class Menu {
 		}
 	}
 
-	private void createNewCategory() throws SQLException {
+	private void createNewCategory() throws SQLException, IOException {
 		ArrayList<String> subCats = new ArrayList<String>();
 		ArrayList<String> superCats = new ArrayList<String>();
 		String name;
@@ -106,14 +103,14 @@ public class Menu {
 		
 	}
 
-	private void createNewUser() throws SQLException {
+	private void createNewUser() throws SQLException, IOException {
 		String name = getUserName();
 		if(checkName(name)){
 			String password = getPassword(name);
 			sql.insertNewUser(name, password);
 			pl("User "+name+" has been added to the database");
-		} else
-			pl("This username already exists in the database");
+		}
+		pl("Exiting to main menu\n");
 		
 		
 	}
@@ -135,7 +132,7 @@ public class Menu {
 		}
 	}
 
-	private String getUserName() {
+	private String getUserName() throws IOException {
 		boolean correct = false;
 		String temp ="";
 		while (!correct){
@@ -151,7 +148,7 @@ public class Menu {
 
 	}
 	
-	private String getPassword(String user) {
+	private String getPassword(String user) throws IOException {
 		boolean correct = false;
 		String temp ="";
 		while (!correct){
@@ -167,7 +164,7 @@ public class Menu {
 
 	}
 	
-	private String enterCategoryName() {
+	private String enterCategoryName() throws IOException {
 		boolean correct = false;
 		String temp ="";
 		while (!correct){
@@ -196,7 +193,7 @@ public class Menu {
 	
 
 
-	private ArrayList<String> getListOfCats(String text, String caseName, boolean isSuper) throws SQLException { //fix shit
+	private ArrayList<String> getListOfCats(String text, String caseName, boolean isSuper) throws SQLException, IOException { //fix shit
 		ArrayList<String> outList = new ArrayList<String>();
 		boolean correct = false;
 		pl(text);
@@ -207,7 +204,7 @@ public class Menu {
 			
 			String[] myInput = temp.split(",");
 			for(String s : myInput){
-				outList.add(s);
+				outList.add(s.trim());
 			}
 			
 		
@@ -235,7 +232,7 @@ public class Menu {
 				pl("3: I want to restart this step");
 				pl("4: List all categories in the database");
 				
-				int choice = Integer.parseInt(getInput());
+				int choice = getIntInput(5);
 				
 				switch(choice){
 	
@@ -274,7 +271,7 @@ public class Menu {
 		
 	}
 
-	private void createNewCase() throws SQLException {
+	private void createNewCase() throws SQLException, IOException {
 		ArrayList<String> catList = new ArrayList<String>();
 		boolean moreCats = true;
 		boolean publicCase;
@@ -309,8 +306,9 @@ public class Menu {
 		for(String s : medFiles){
 			pl(s);
 		}
-		//muSQL.uploadMedia(medFiles);
-		
+		if(!path.equals("none")){
+			muSQL.uploadMedia(medFiles);
+		}
 		//updating categories...
 		updateCats(catList,caseID);
 		
@@ -326,7 +324,7 @@ public class Menu {
 		
 	}
 
-	private String getCasePrivDescription() {
+	private String getCasePrivDescription() throws IOException {
 			boolean correct = false;
 			String temp ="";
 			while (!correct){
@@ -394,7 +392,7 @@ public class Menu {
 		boolean existed = true;
 		int check1 = sql.getSubCategoryID(superid, subid);
 		int check2 = sql.getSubCategoryID(subid, superid);
-		if(check1==-1 && check2==-1){
+		if(check1==-1 && check2==-1 && check1!=check2){
 			existed = false;
 			sql.insertSubCategory(superid, subid);
 		}
@@ -403,22 +401,23 @@ public class Menu {
 	}
 	
 	
-	private boolean isPublic(){
+	private boolean isPublic() throws IOException{
 		pl("Is this case public or private?");
 		pl("1: Public");
 		pl("2: Private");
 		
-		if(Integer.parseInt(getInput())==2)
+		if(getIntInput(1)==2)
 			return false;
 		return true;
 	}
 	
-	private String getPath(){
+	private String getPath() throws IOException{
 		boolean correct = false;
 		String output = "";
 		while(!correct){
 			pl("Enter the path where the case-mediafiles are stored:");
-			pl("Use this format: C:\\User\\Media\\Cases\\Thiscase\\SnapshotsOK");
+			pl("Use this format: /Library/WebServer/Documents/media/casepath");
+			pl("Use: \"none\" if you have no files to add");
 			
 			
 			output = getInput();
@@ -429,7 +428,7 @@ public class Menu {
 		return output;
 	}
 	
-	private ArrayList<String> getCaseCategories(String name) throws SQLException{
+	private ArrayList<String> getCaseCategories(String name) throws SQLException, IOException{
 		ArrayList<String> outList = new ArrayList<String>();
 		boolean correct = false;
 		pl("Enter the categories that this case belongs to");
@@ -460,7 +459,7 @@ public class Menu {
 				pl("3: I want to restart this step");
 				pl("4: List all categories in the database");
 				
-				int choice = Integer.parseInt(getInput());
+				int choice = getIntInput(5);
 				
 				switch(choice){
 	
@@ -497,7 +496,7 @@ public class Menu {
 		return outList;
 	}
 	
-	private String getCaseName(){
+	private String getCaseName() throws IOException{
 		boolean correct = false;
 		String output = "";
 		while(!correct){
@@ -512,7 +511,7 @@ public class Menu {
 		return output;
 	}
 	
-	private String getCaseDescription(ArrayList<String> cats){
+	private String getCaseDescription(ArrayList<String> cats) throws IOException{
 		boolean correct = false;
 		String temp ="";
 		while (!correct){
@@ -552,15 +551,26 @@ public class Menu {
 		return input;
 	}
 	
-	private boolean confirmation(String s){
+	private int getIntInput(int defaultNumber) throws IOException{
+		String temp = br.readLine();
+		 try {
+			    return Integer.parseInt(temp);
+			  } catch (NumberFormatException e) {
+				  pl("You entered "+temp+" wich isnt a valid number");
+				  pl("Using default number: "+defaultNumber+" instead.");
+			    return defaultNumber;
+			  }
+	}
+	
+	private boolean confirmation(String s) throws IOException{
 		pl(s);
 		yesNo();
-		if(Integer.parseInt(getInput())==2)
+		if(getIntInput(2)==2)
 			return false;	
 		return true;
 	}
 	
-	private boolean confirmation(){
+	private boolean confirmation() throws IOException{
 		return confirmation("Is this correct?");
 	}
 

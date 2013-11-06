@@ -28,6 +28,14 @@ function caseT(name, publicDescription, privateDescription, publicT) {
     this.publicDescription = publicDescription;
     this.privateDescription = privateDescription;
     this.mediaFiles = new Array();
+    this.hasVideo = function() {
+        for (var i = 0; this.mediaFiles.length > i; i++) if (this.mediaFiles[i].video) return true;
+        return false;
+    };
+    this.hasImage = function() {
+        for (var i = 0; this.mediaFiles.length > i; i++) if (!this.mediaFiles[i].video) return true;
+        return false;
+    };
 }
 
 function mediaFile(URL, video) {
