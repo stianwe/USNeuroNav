@@ -176,7 +176,7 @@ function createEventFunctionCase(cases, tab) {
 			textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
 		});
 		var label = Titanium.UI.createLabel({
-			text: currentCase.publicDescription + (!isLoggedIn ? "" : "\n" + currentCase.privateDescription),
+			text: currentCase.publicDescription + (!isLoggedIn ? "" : "\n\n" + currentCase.privateDescription),
 			//borderRadius: 4,
 			//borderWidth: 1,
 			left: 4,
