@@ -5,26 +5,29 @@ public class MediaUploader {
 	private static int DB_PORT;
 	private static String DB_USERNAME;
 	private static String DB_PASSWORD;
+	private SQLHelper sql;
 	
-	private static final String[] VALID_VIDEO_FORMATS = new String[] {".mov"};
+	private static final String[] VALID_VIDEO_FORMATS = new String[] {".mov",".mp4"};
 	private static final String[] VALID_IMAGE_FORMATS = new String[] {".jpg"};
 	
-	public MediaUploader(){
+	public MediaUploader(SQLHelper sql){
 		DB_HOSTNAME = "mysql://localhost";
 		DB_NAME = "USNeuroNav";
 		DB_PORT = 3306;
 		DB_USERNAME = "root";
 		DB_PASSWORD = "";
+		this.sql = sql;
 	}
 	
 	
 	
-	public static void uploadMedia(String[] args) {
+	public void uploadMedia(String[] args) {
 		if (args.length != 3) {
 			printInfo();
 			return;
 		}
 		String dir = args[1];
+		
 		int caseId = -1;
 		try {
 			caseId = Integer.parseInt(args[0]);
@@ -49,7 +52,7 @@ public class MediaUploader {
 			System.out.println(string);
 		}
 		try {
-			SQLHelper sql = new SQLHelper(DB_HOSTNAME, DB_PORT, DB_NAME, DB_USERNAME, DB_PASSWORD);
+			//SQLHelper sql = new SQLHelper(DB_HOSTNAME, DB_PORT, DB_NAME, DB_USERNAME, DB_PASSWORD);
 			//sql.connect();
 			String rootPath;
 			if (dir.endsWith("media") || dir.endsWith("media/")) {
@@ -76,9 +79,11 @@ public class MediaUploader {
 						}
 					}
 					
-					if (sendData)
-						sql.insertMediaFile(rootPath + file, isVideo, isPublic, caseId);
+					
 				}
+				
+				if (sendData)
+					sql.insertMediaFile(rootPath + file, isVideo, isPublic, caseId);
 				
 			}
 		} catch (Exception e) {

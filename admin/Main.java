@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.sql.SQLException;
 
 
@@ -18,6 +19,9 @@ public class Main {
 		try {
 			menu.run();
 		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
