@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import java.io.StringBufferInputStream;
 import java.io.StringReader;
 import java.sql.SQLException;
@@ -57,7 +59,7 @@ public class Main {
 				try {
 					String s = "1\n" + strings.get(0) + "\n1\n" + strings.get(1) + "\n1\n" + strings.get(2) + 
 							"\n1\n" + strings.get(3) + "\n1\n" + strings.get(4) + "\n1\n" + 
-							(strings.get(5).equalsIgnoreCase("private") ? 2 : 1) + "\n";
+							(strings.get(5).equalsIgnoreCase("private") ? 2 : 1) + "\n4\n";
 					//menu = new Menu();
 					StringReader sr = new StringReader(s);
 					BufferedReader br = new BufferedReader(sr);
