@@ -14,6 +14,11 @@ public class Menu{
 	SQLHelper sql = new SQLHelper("mysql://localhost", 3306, "USNeuroNav", "root", "");
 	MediaUploader muSQL = new MediaUploader(sql);
 	
+	public Menu(BufferedReader reader) throws ClassNotFoundException, SQLException {
+		this();
+		br = reader;
+	}
+	
 	public Menu() throws ClassNotFoundException, SQLException{
 		input = "";
 		br = new BufferedReader(new InputStreamReader(System.in));
