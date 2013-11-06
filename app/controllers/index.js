@@ -170,7 +170,7 @@ function createEventFunctionCase(cases, tab) {
 			textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
 		});
 		var label = Titanium.UI.createLabel({
-			text: (isLoggedIn ? currentCase.privateDescription : currentCase.publicDescription),
+			text: currentCase.publicDescription + (!isLoggedIn ? "" : "\n" + currentCase.privateDescription),
 			//borderRadius: 4,
 			//borderWidth: 1,
 			left: 4,
@@ -260,6 +260,7 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 }
 var searchArea = Ti.UI.createTextArea({
 	borderWidth: 1,
+	hintText: "Keywords separated by comma",
 	borderColor: '#aaa',
 	borderRadius: 10,
 	top: 10,
@@ -273,7 +274,7 @@ var searchArea = Ti.UI.createTextArea({
 function initSearch(rootCategory, categories) {
 	var searchButton = Titanium.UI.createButton({
 		title: 'Search',
-		top: 125,
+		top: 150,
 		width: 100,
 		height: 50,
 	});
@@ -315,6 +316,11 @@ function initSearch(rootCategory, categories) {
 	
 	searchArea.addEventListener('return', search);
 	searchButton.addEventListener('click', search);
+	
+	var helpLabel = Ti.UI.createLabel({
+		text: 'Enter keywords separated by comma',
+		top: 125
+	});
 	
 	$.tab2window1.add(searchArea);
 	$.tab2window1.add(searchButton);

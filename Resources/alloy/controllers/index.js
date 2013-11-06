@@ -139,7 +139,7 @@ function Controller() {
                 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
             });
             var label = Titanium.UI.createLabel({
-                text: isLoggedIn ? currentCase.privateDescription : currentCase.publicDescription,
+                text: currentCase.publicDescription + (isLoggedIn ? "\n" + currentCase.privateDescription : ""),
                 left: 4,
                 right: 4,
                 color: "#777",
@@ -209,7 +209,7 @@ function Controller() {
     function initSearch(rootCategory, categories) {
         var searchButton = Titanium.UI.createButton({
             title: "Search",
-            top: 125,
+            top: 150,
             width: 100,
             height: 50
         });
@@ -236,6 +236,10 @@ function Controller() {
         };
         searchArea.addEventListener("return", search);
         searchButton.addEventListener("click", search);
+        Ti.UI.createLabel({
+            text: "Enter keywords separated by comma",
+            top: 125
+        });
         $.tab2window1.add(searchArea);
         $.tab2window1.add(searchButton);
     }
@@ -371,6 +375,7 @@ function Controller() {
     var isLoggedIn = false;
     var searchArea = Ti.UI.createTextArea({
         borderWidth: 1,
+        hintText: "Keywords separated by comma",
         borderColor: "#aaa",
         borderRadius: 10,
         top: 10,
