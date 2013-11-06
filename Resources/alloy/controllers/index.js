@@ -236,11 +236,12 @@ function Controller() {
         };
         searchArea.addEventListener("return", search);
         searchButton.addEventListener("click", search);
-        Ti.UI.createLabel({
+        var helpLabel = Ti.UI.createLabel({
             text: "Enter keywords separated by comma",
-            top: 125
+            top: 10
         });
         $.tab2window1.add(searchArea);
+        $.tab2window1.add(helpLabel);
         $.tab2window1.add(searchButton);
     }
     function login(username, password) {
@@ -378,7 +379,7 @@ function Controller() {
         hintText: "Keywords separated by comma",
         borderColor: "#aaa",
         borderRadius: 10,
-        top: 10,
+        top: 40,
         left: 10,
         right: 10,
         height: 100,

@@ -263,7 +263,7 @@ var searchArea = Ti.UI.createTextArea({
 	hintText: "Keywords separated by comma",
 	borderColor: '#aaa',
 	borderRadius: 10,
-	top: 10,
+	top: 40,
 	left: 10,
 	right: 10,
 	height: 100,
@@ -319,10 +319,11 @@ function initSearch(rootCategory, categories) {
 	
 	var helpLabel = Ti.UI.createLabel({
 		text: 'Enter keywords separated by comma',
-		top: 125
+		top: 10,
 	});
 	
 	$.tab2window1.add(searchArea);
+	$.tab2window1.add(helpLabel);
 	$.tab2window1.add(searchButton);
 }
 
