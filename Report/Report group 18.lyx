@@ -14586,7 +14586,7 @@ Conclusion
 \begin_layout Subsection
 
 \size largest
-Final system arcchitecture
+Final system architecture
 \end_layout
 
 \begin_layout Standard
@@ -14617,13 +14617,13 @@ In this section, the system, as it is at the end of the project, will be
 Further Work
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 
 \size larger
 Unfinished Requirements
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 
 \size larger
 Other functionality
