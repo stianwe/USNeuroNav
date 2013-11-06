@@ -141,7 +141,7 @@ function Controller() {
                 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
             });
             var label = Titanium.UI.createLabel({
-                text: currentCase.publicDescription + (isLoggedIn ? "\n" + currentCase.privateDescription : ""),
+                text: currentCase.publicDescription + (isLoggedIn ? "\n\n" + currentCase.privateDescription : ""),
                 left: 4,
                 right: 4,
                 color: "#777",
