@@ -2977,7 +2977,50 @@ Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
  medical personell prefer when evaluating before a surgical operation.
  The reason for this is that it is relatively easy to understand, and identify
  tumors etc.
- Recently, however, there has been several good reasons to use DS (Diagnostic
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/MRI.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size large
+MRI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Recently, however, there has been several good reasons to use DS (Diagnostic
  Sonography) (ultrasound) either instead of MRI, or together with MRI.
  The main incentives for this is that DS is much cheaper, and also more
  flexible, since the MRI requires a whole dedicated room, while DS can be
