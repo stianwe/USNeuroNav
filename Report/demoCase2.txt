@@ -1,0 +1,12 @@
+#Case name
+DemoCase 2
+#Categories
+Tumor, Primary Tumor, Ependymal Tumor
+#Public description
+default
+#Private description
+No private description
+#Path to mediafiles
+/Library/WebServer/Documents/media/DemoCase2
+#Public or private case
+Public
