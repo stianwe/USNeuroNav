@@ -119,15 +119,17 @@ function Controller() {
                 backgroundColor: "#fff",
                 layout: "vertical"
             });
-            var objects = [ {
+            var objects = [];
+            currentCase.hasVideo() && objects.push({
                 properties: {
                     title: "Videos"
                 }
-            }, {
+            });
+            currentCase.hasImage() && objects.push({
                 properties: {
                     title: "Images"
                 }
-            } ];
+            });
             tab == $.tab1 && currentCategories.push(null);
             var descLabel = Titanium.UI.createLabel({
                 text: "Description:",
@@ -160,7 +162,7 @@ function Controller() {
             var activityIndicator = Titanium.UI.createActivityIndicator();
             oldWindow.setRightNavButton(activityIndicator);
             activityIndicator.show();
-            var videos = 0 == e.itemIndex;
+            var videos = 0 == e.itemIndex && currentCase.hasVideo();
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
                 backgroundColor: "#fff"

@@ -156,10 +156,16 @@ function createEventFunctionCase(cases, tab) {
 			backgroundColor: "#fff",
 			layout: 'vertical',
 		});
-		var objects = [
-			//{ properties: { title: currentCase.description } },
-			{ properties: { title: 'Videos' } },
-			{ properties: { title: 'Images' } }];
+		var hasVideo = false;
+		var hasImage = false;
+		
+		var objects = [];
+		if (currentCase.hasVideo()) {
+			objects.push({ properties: { title: 'Videos' } });
+		}
+		if (currentCase.hasImage()) {
+			objects.push({ properties: { title: 'Images' } });
+		}
 		if (tab == $.tab1) {
 			currentCategories.push(null);
 		}
@@ -195,7 +201,7 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 		var activityIndicator = Titanium.UI.createActivityIndicator();
 		oldWindow.setRightNavButton(activityIndicator);
 		activityIndicator.show();
-		var videos = e.itemIndex == 0;
+		var videos = e.itemIndex == 0 && currentCase.hasVideo();
 		var nextWindow = Ti.UI.createWindow({
 			title: currentCase.name,
 			backgroundColor: "#fff"
