@@ -2901,7 +2901,7 @@ oNav.
 \end_layout
 
 \begin_layout Paragraph*
-Eclipse/Java for adminapp
+Eclipse/Java for adminapp sTIAN ALL CAPS
 
 \end_layout
 
@@ -2910,7 +2910,7 @@ Eclipse/Java for adminapp
 \size larger
 Version Control 
 \size largest
-KRISTOFFER
+STIan
 \end_layout
 
 \begin_layout Standard
@@ -3095,8 +3095,14 @@ Evaluation Criteria KRISTOFFER
 \begin_layout Standard
 
 \size large
-The goal of the project is to increase the awareness and knowledge surrounding
- the use of ultrasound navigation during surgery.
+The goal of the project is to create an application for our customer that
+ can be used for proof-of-concept and further development.
+ The evaluation criteria was primary how satisfied the customer was with
+ our end product and how well it fit and satisfied the requirements we created
+ together.
+ As an additional evaluation criteria we got to meet with the intended users
+ for the application we created, surgeons and with the the awareness and
+ knowledge surrounding the use of ultrasound navigation during surgery.
  It will be very hard to numerically measure the effect of our project.
  Long term it might be possible to track its influence through the increase
  in use of the aforementioned technology, but our short term goal is simply
