@@ -427,7 +427,7 @@ SINTEF
 \begin_layout Standard
 
 \size large
-SINTEF is an independent, non-commercial research organisation.
+SINTEF is an independent, non-commercial research organization.
  The organisation operates in partnership with NTNU and aims to 
 \begin_inset Quotes eld
 \end_inset
@@ -14559,7 +14559,8 @@ Sometimes we had to leave the office, and work in the cafeteria or other
 
 \size large
 We could not move the iMac, as we agreed wiht the customer that it should
- at all time be locked in the office, so we had to work in the noise.
+ at all time be locked in the office, so we had to work in the noise when
+ working with the application.
 \end_layout
 
 \end_inset
@@ -14645,21 +14646,481 @@ Final system architecture
 \size large
 The architecture was made at the beginning of the process and has been followed
  pretty closely throughout the implementation.
- However, there have been some changes.
- The updated diagrams can be seen in the figures below.
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Implementation Results
+ However, there have been some changes
 \end_layout
 
 \begin_layout Standard
 
 \size large
-In this section, the system, as it is at the end of the project, will be
+Since JavaScript/Titanium didn't really support classes, the class diagram
+ in figure X was merely used as a starting point.
+ Using JavaScript, we was, however, able to 
+\begin_inset Quotes eld
+\end_inset
+
+simulate
+\begin_inset Quotes erd
+\end_inset
+
+ classes, by using functions with attributes and functions.
+ This way, we were able to implement a class-like architecture for the Category,
+ Case, and MediaFile classes in the class diagram.
+ LoginHandler and DatabaseHandler was not implemented using such 
+\begin_inset Quotes eld
+\end_inset
+
+classes
+\begin_inset Quotes erd
+\end_inset
+
+, since there are no relations for them.
+ They are simply ordinary functions.
+ Some changes were also done to the attributes of the three classes to reflect
+ the changes in the database.
+ See below.
+\end_layout
+
+\begin_layout Standard
+INSERT NEW CLASS DIAGRAM
+\end_layout
+
+\begin_layout Standard
+The database architecture was also altered slightly.
+ The description field of MediaFile was moved to Case, and split into two
+ new fields, privateDescription and publicDescription.
+ This was done to better accomodate what the customer wanted.
+ A new field was also added to MediaFile, called video.
+ This is a simple boolean (true/false) field that explains if the given
+ MediaFile is a video or not.
+ If video is false, the MediaFile must be an image.
+ The video field was added to simplify the support for multiple video formats.
+ With this solution, the application itslef doesn't need to be changed at
+ all to support new video formats, as long as the underlying framework (Titanium
+ and iOS) supports them.
+ Other than these minor changes, the database was implemented as originally
+ designed.
+\end_layout
+
+\begin_layout Standard
+INSERT NEW ER DIAGRAM 
+\end_layout
+
+\begin_layout Standard
+The overall architecture, as seen in figure X, was followed without any
+ modifications, and will therefore not be discussed in this section.
+ See section X for details.
+\end_layout
+
+\begin_layout Subsection
+
+\size largest
+Project Results
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In this section, the system, as it was at the end of the project, will be
  described in depth.
+\end_layout
+
+\begin_layout Standard
+The system consists of several parts, where the main part is the mobile
+ application.
+ In addition, some server software was created, and also a simple command-line
+ based admin tool.
+\end_layout
+
+\begin_layout Subsubsection
+The application
+\end_layout
+
+\begin_layout Standard
+The application itslef is divided into three tabs, which represents the
+ application's three main functions:
+\end_layout
+
+\begin_layout Enumerate
+Browsing, where the user can browse categories and cases
+\end_layout
+
+\begin_layout Enumerate
+Searching, where the user can search for specific cases using categories
+ as keywords
+\end_layout
+
+\begin_layout Enumerate
+Login, where the user can enter login information to log in, to be able
+ to view private cases, and private descriptions.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Browse
+\begin_inset Quotes erd
+\end_inset
+
+ tab is the application's 
+\begin_inset Quotes eld
+\end_inset
+
+main
+\begin_inset Quotes erd
+\end_inset
+
+ tab, and where users probably will spend the most time.
+ The navigation is structured as a hierarchy, where selecting a category
+ will display all its sub-categories.
+ Selecting a category which has no sub-categories, will display all cases
+ that belongs to all the categories selected on the current 
+\begin_inset Quotes eld
+\end_inset
+
+path
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The user can also select 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+ at any point in a 
+\begin_inset Quotes eld
+\end_inset
+
+path
+\begin_inset Quotes erd
+\end_inset
+
+ to view all cases belonging to the categories on the 
+\begin_inset Quotes eld
+\end_inset
+
+path
+\begin_inset Quotes erd
+\end_inset
+
+ so far.
+ A 
+\begin_inset Quotes eld
+\end_inset
+
+path
+\begin_inset Quotes erd
+\end_inset
+
+ is a set of the categories which has been selected by the user.
+ For instance, if the user selects 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor
+\begin_inset Quotes erd
+\end_inset
+
+, and then 
+\begin_inset Quotes eld
+\end_inset
+
+Primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+, the path will look like this: Tumor -> Primary tumor.
+ Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+ with this path will display only cases which belong to both 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+ tab is another alternative to find cases.
+ The first window consists simply of a help label, explaining the allowed
+ format for searching, a text area where the user can enter the search keywords,
+ and a search button.
+ Completing the search, by either clicking the search button or by tapping
+ search on the keyboard (which is displayed when selecing the text area),
+ the user is taken to a search results window.
+ This window will display cases that matches the search keywords.
+ Selecting a case will take the user to the same case view as when browsing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.54 PM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.24.06 PM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Searching for cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Log in
+\begin_inset Quotes erd
+\end_inset
+
+ tab is very simple, and only contains fields for supplying username and
+ password.
+ After logging in, the tab is simply offering the option to log out.
+ When a user has logged in, it is able to see both public and private cases,
+ and both public and private descriptions for all cases.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.26.43 PM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Case view, 
+\begin_inset Quotes eld
+\end_inset
+
+Case 5
+\begin_inset Quotes erd
+\end_inset
+
+ has been selected
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Viewing of cases is exactly the same when selecting a case when browsing,
+ and selecting a case from the search results.
+ On the top, the descriptions will be displayed.
+ If the user is logged in, both public and private description is shown,
+ if not, only public.
+ Below, up to two choises are available, videos and images.
+ These are only shown if they contain anything, for example, if the selected
+ case only contains images, the video choice is not displayed, and vice
+ verca.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.10 PM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.34 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logging in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Selecting either 
+\begin_inset Quotes eld
+\end_inset
+
+Videos
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Images
+\begin_inset Quotes erd
+\end_inset
+
+ will allow the user to browse the media files of the selected type, belonging
+ to the selected case.
+ Navigating between different videos or images is done by 
+\begin_inset Quotes eld
+\end_inset
+
+swiping
+\begin_inset Quotes erd
+\end_inset
+
+ left or right.
+\end_layout
+
+\begin_layout Standard
+INSERT MEDIA SCREENSHOTS
+\end_layout
+
+\begin_layout Subsubsection
+The server
+\end_layout
+
+\begin_layout Standard
+The server software contains of two different PHP scripts which runs ontop
+ of pre-existing software.
+ The two PHP scripts is simply to load all categories and cases from the
+ database, and to verify if user login information is corrrect.
+ These runs ontop of Apache with PHP support.
+ Apache is also used to make the media files available on the Internet.
+ The server also run a MySQL instance, which is the database used to store
+ the cases, categories, media file references, and user information.
+\end_layout
+
+\begin_layout Subsubsection
+The admin tool
+\end_layout
+
+\begin_layout Standard
+The admin tool was created to simplify the process of uploading new cases
+ and registering users, without the need for any database or SQL knowledge.
+ It is purely command-line based, and can be used in two ways:
+\end_layout
+
+\begin_layout Enumerate
+The program can be 
+\begin_inset Quotes eld
+\end_inset
+
+started
+\begin_inset Quotes erd
+\end_inset
+
+, and used in an interactive way where you select choises from a menu, and
+ then follows the instructions, step-by-step to create a case and upload
+ data, or create a new user.
+\end_layout
+
+\begin_layout Enumerate
+The program can also be run with a file path as argument.
+ If this file follows a specified format, it can be used to upload a new
+ case, without the need of navigating menus and such.
+\end_layout
+
+\begin_layout Standard
+INSERT SCREENSHOT FROM ADMIN TOOL RUN
 \end_layout
 
 \begin_layout Subsection
@@ -14668,10 +15129,523 @@ In this section, the system, as it is at the end of the project, will be
 Further Work
 \end_layout
 
+\begin_layout Standard
+The application project for this group was never supposed to be a standalone
+ application, but a foundation for a more entertaining application.
+ The goal was to create an application which were able to read data from
+ a server, and display it in an intuitive way.
+ Therefore it is obviously a lot of work left to do with the application.
+\end_layout
+
 \begin_layout Subsubsection
 
 \size larger
 Unfinished Requirements
+\end_layout
+
+\begin_layout Standard
+Not all of the requirements that was established with the customer was finished
+ either, and we created more requirements than we thought would be manageabe,
+ so this was not a surprise.
+ The reason why we did that was that we wanted a more complete picture of
+ what the customer wanted, so that we could atleast lay the foundation for
+ it, if not able to implement it all.
+\end_layout
+
+\begin_layout Standard
+The requirements regarding local storage/caching, FR07 
+\begin_inset Quotes eld
+\end_inset
+
+Save pictures to phone
+\begin_inset Quotes erd
+\end_inset
+
+ and FR08 
+\begin_inset Quotes eld
+\end_inset
+
+Save video to phone
+\begin_inset Quotes erd
+\end_inset
+
+ was not implemented at all.
+ These requirements were downgraded in priority by the customer, when it
+ became clear that we were not able to fulfill all requirements.
+ This was done because it doesn't really give anything new to the application,
+ but makes it usable without an Internet connection.
+ A function to download files were, however, implemented as a foundation
+ for these, so the requriements should be quite simple for further development.
+\end_layout
+
+\begin_layout Standard
+Requirements FR06 
+\begin_inset Quotes eld
+\end_inset
+
+Registration
+\begin_inset Quotes erd
+\end_inset
+
+ and FR10 
+\begin_inset Quotes eld
+\end_inset
+
+Upload data to server
+\begin_inset Quotes erd
+\end_inset
+
+ were fulfilled in accordance with the customer, but no GUI were created
+ for them.
+ This was to save time, and was actually the customer's idea, since he thought
+ it would be sufficient with a command line based tool to do these things,
+ for now.
+\end_layout
+
+\begin_layout Standard
+The final requirements, FR11 
+\begin_inset Quotes eld
+\end_inset
+
+Quiz-Game
+\begin_inset Quotes erd
+\end_inset
+
+ and FR12 
+\begin_inset Quotes eld
+\end_inset
+
+'Like' function to pictures
+\begin_inset Quotes erd
+\end_inset
+
+, were not something the group and the customer expected to be completed
+ during this project, and they were not.
+ These are two of the major requirements for further development.
+\end_layout
+
+\begin_layout Standard
+An overview of the total progress of the requirements can be seen in the
+ table below.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Functional Requirement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Status
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Browse cases
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Show pictures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR03
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Play video
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Search for cases
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log in
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Registration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Done, but no GUI
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Save pictures to phone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Save videos to phone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR09
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Separation of data
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Upload data to server
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Done, but no GUI
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quiz-Game
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Like
+\begin_inset Quotes erd
+\end_inset
+
+ function to pictures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not complete
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Status of the functional requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
