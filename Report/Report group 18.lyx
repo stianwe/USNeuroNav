@@ -2902,7 +2902,6 @@ oNav.
 
 \begin_layout Paragraph*
 Eclipse/Java for adminapp sTIAN ALL CAPS
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -7336,7 +7335,14 @@ Overall Non-Functional Requirements
 \begin_layout Subsection
 
 \size largest
-Product Backlog
+Mapping requirements into product backlog
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In the table below is the projects product backlog which is derived from
+ the project requirements.
 \end_layout
 
 \begin_layout Standard
