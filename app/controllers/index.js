@@ -243,8 +243,27 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 				view = Ti.UI.createImageView({
 					image: currentCase.mediaFiles[i].URL
 				});
-				var temp1 = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
-				var temp2 = (Titanium.Platform.displayCaps.platformHeight - 123) / view.toImage().height;
+				var temp1, temp2;
+				if (Titanium.Platform.osname == 'ipad') {
+					if (Titanium.Platform.displayCaps.platformHeight>Titanium.Platform.displayCaps.platformWidth){
+						temp1 = Titanium.Platform.displayCaps.platformWidth / view.toImage().width;
+						temp2 = Titanium.Platform.displayCaps.platformHeight / view.toImage().width;
+
+					} else {
+						temp1 = 0.74375*Titanium.Platform.displayCaps.platformWidth / view.toImage().height;
+						temp2 = 0.74375*Titanium.Platform.displayCaps.platformHeight / view.toImage().height;
+
+					}
+				} else {
+					if (Titanium.Platform.displayCaps.platformHeight>Titanium.Platform.displayCaps.platformWidth){
+						temp1 = Titanium.Platform.displayCaps.platformWidth / view.toImage().width;
+						temp2 = Titanium.Platform.displayCaps.platformHeight / view.toImage().width;
+
+					} else {
+						temp1 = (Titanium.Platform.displayCaps.platformWidth - 128) / view.toImage().height;
+						temp2 = (Titanium.Platform.displayCaps.platformHeight - 128) / view.toImage().height;
+					}
+				}
 				initialZoom = (temp1 < temp2 ? temp1 : temp2);
 			}
 			if (view != null) {
