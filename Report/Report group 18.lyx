@@ -2902,7 +2902,6 @@ oNav.
 
 \begin_layout Paragraph*
 Eclipse/Java for adminapp
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -14886,7 +14885,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.54 PM.png
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.06.56 PM.png
 	scale 50
 
 \end_inset
@@ -15005,12 +15004,14 @@ status open
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
+	scale 50
 
 \end_inset
 
 
 \begin_inset Graphics
-	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.34 PM.png
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.06.32 PM.png
+	scale 50
 
 \end_inset
 
@@ -15065,7 +15066,44 @@ swiping
 \end_layout
 
 \begin_layout Standard
-INSERT MEDIA SCREENSHOTS
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.20 PM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.56 PM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Displaying video (left) and image (right)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -15114,7 +15152,38 @@ The program can also be run with a file path as argument.
 \end_layout
 
 \begin_layout Standard
-INSERT SCREENSHOT FROM ADMIN TOOL RUN
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.33.03 PM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Registering new user using the admin tool (debug mode on and showing SQL
+ statements)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
