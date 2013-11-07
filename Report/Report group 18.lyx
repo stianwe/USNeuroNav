@@ -3152,6 +3152,46 @@ The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[x] for
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/EUS - Diagnostic and Interventional Endoscopic Ultrasound.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+EUS - Diagnostic and Interventional Endoscopic Ultrasound
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \size large
 This app is dedicated to endoscopic ultrasound education and has been developed
@@ -3186,6 +3226,46 @@ The Helsinki Microneurosurgery Basics and Tricks App[x] for iPhone/iPad
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Helsinki Microneurosurgery Basics and Tricks.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Helsinki Microneurosurgery Basics and Tricks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \size large
 This app for Microneurosurgery contains the "Helsinki Microneurosurgery
@@ -3212,64 +3292,224 @@ This app for Microneurosurgery contains the "Helsinki Microneurosurgery
 Evaluation of Alternate Solutions
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
-EUS - Diagnostic and Interventional Endoscopic Ultrasound app
+\size large
+In the table below there is an overview of the strengths and weaknesses
+ of the alternative solutions, including the application we are supposed
+ to develoop.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="30text%">
+<column alignment="left" valignment="top" width="30text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Applications
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Strength
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Weakness
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+EUS - Diagnostic and Interventional Endoscopic Ultrasound App
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+The app have the ability to show pictures and videos.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+Since it is for iPhones it is portable,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \size large
 The app has a focus on lungs and diagnostic, and not ultrasound images during
  a brain tumor operation.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \size large
 The app also gives information about conferences, wich is not important
  in our case.
 \end_layout
 
-\begin_layout Standard
-
-\size large
-The ability to show pictures and videos is essential, wich this app provides.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-Since it is for iPhones it is portable, wich is necessary in our case.
-\begin_inset Newline newline
 \end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
 
+\size large
+Helsinki Microneurosurgery Basics and Tricks App
 \end_layout
 
-\begin_layout Subsubsection
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
 
-\size larger
-Helsinki Microneurosurgery Basics and Tricks
+\begin_layout Plain Layout
+
+\size large
+The app have the ability to show pictures and videos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\size large
+Since it is for iPhones it is portable.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \size large
 The app is a book, and it does not have the ability to search and browse
- for cases in a category.
+ for cases in a category
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \size large
-The ability to show pictures and videos is essential, wich this app provides.
-\begin_inset Newline newline
+USNeuroNav App
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+The app have the ability to show pictures and video.
+ It can also browse and search for cases, and can distinguish between internal
+ users with more rights, and external users.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+It is for iOS devices, wich makes it portable.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+It was only ment to be a prototype with basic functionality.
+ It could not be published on iTunes App Store, since we did not have the
+ required licenses.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
 
-\begin_inset Newline newline
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Evaluation of Alternative Solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -3371,6 +3611,7 @@ status open
 \size large
 \begin_inset Graphics
 	filename Figures/Waterfall Development Methodology.png
+	scale 80
 
 \end_inset
 
@@ -3423,14 +3664,47 @@ Scrum
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Scrum.png
+	width 70line%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Scrum artefacts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \size large
 Scrum is an iterative planning and execution method for software developmen.
- We chose an agile model because that works well on small groups, and the
- scope and requirements for the project were not clearly defined at the
- time it had to be decided on a development model.
- We also did not know exactly when we would get an iMac form the customer,
- so an agile lifecycle model were prefeable.
+ Scrum is agile and based on a series of increments of Sprints, where requiremen
+ts, design and product implementation evolve through the project lifetime.
+ A Scrum team is quite small, usually about five to ten people.
+ The team is self-organized, which means that all the main roles for the
+ project are divided among the members of the team.
+ There is usually a big focus on fast communication between members given
+ that scrum teams are usually small.
 \end_layout
 
 \begin_layout Standard
@@ -3442,15 +3716,6 @@ There ar many advantages for using scrum, for example managing risk and
  Focusing on the most valuable and most risky aspect of the project up front
  reduce the cost of failure and therefore give a greater understanding of
  risk in the project.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The ability to cope with changes is also one of the reason we chose scrum.
- It was not clear that we migth get an other team menber to our group, so
- we planned for three people, and with scrum we could esaly change the plans
- if we got one more.
 \begin_inset Newline newline
 \end_inset
 
@@ -3470,28 +3735,310 @@ Why Scrum
 \begin_layout Standard
 
 \size large
-Scrum is an agile software development methodology.
- Scrum is based on a series of increments of Sprints, where requirements,
- design and product implementation evolve through the project lifetime.
- A Scrum team is quite small, usually about five to ten people.
- The team is self-organized, which means that all the main roles for the
- project are divided among the members of the team.
- There is usually a big focus on fast communication between members given
- that scrum teams are usually small.
-\begin_inset Newline newline
+In the below it is shown the projects properties, and if Scrum or the waterfall
+ model can satisfy them.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Project properties
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Waterfall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Scrum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Small team
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Uncertain group size
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+not clearly defined requirements at the beginning
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+not clearly defined scope of the project at the beginning
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Hardware uncertainty
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Communication with customer during the entire semester
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
 
-\begin_inset Newline newline
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Why Scrum
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+It is clearly that the waterfall model couldt not be to our benefit, so
+ we chose an agile model.
+ It works well on small groups, and the scope and requirements for the project
+ were not clearly defined at the time it had to be decided on a development
+ model.
+ We also did not know exactly when we would get an iMac form the customer,
+ so an agile lifecycle model were prefeable.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The ability to cope with changes was the major reason for why we chose scrum.
+ It was not clear that we migth get an other team menber to our group, so
+ we planned for three people, and with scrum we could esaly change the plans
+ if we got one more.
+\end_layout
+
 \begin_layout Subsection
 
 \size largest
-Srum Artefacts
+Scrum Artefacts
 \end_layout
 
 \begin_layout Standard
@@ -3526,37 +4073,6 @@ The project is divided into sprints, which usually last between two to four
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Figures/Scrum.png
-	width 70line%
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Scrum artefacts
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 
 \size largest
@@ -3566,7 +4082,7 @@ Scrum Meetings
 \begin_layout Standard
 
 \size large
-There are several different meeting in the scrum lifecycle.
+There are several different meeting in the scrum lifecycle that we used:
 \begin_inset Newline newline
 \end_inset
 
@@ -3752,48 +4268,6 @@ back
 
  actually is.
  
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
-Definitions, Acronyms and Abbreviations
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-Unregistered users: A person who uses the system on the client side with
- a limited access to all data.
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-Registered users: A person who uses the system on the client side with access
- to all data
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-Administrator: A person who who will have all the privileges open, in the
- database and the system as well.
-\end_layout
-
-\begin_layout Itemize
-
-\size large
-Use Case: Technique that specify the interaction between the user and the
- system.
 \begin_inset Newline newline
 \end_inset
 
@@ -15836,6 +16310,40 @@ Time usage
 
 \size largest
 Technology Evaluation
+\end_layout
+
+\begin_layout Section
+
+\size largest
+Definitions, Acronyms and Abbreviations
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Unregistered users: A person who uses the system on the client side with
+ a limited access to all data.
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Registered users: A person who uses the system on the client side with access
+ to all data
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Administrator: A person who who will have all the privileges open, in the
+ database and the system as well.
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Use Case: Technique that specify the interaction between the user and the
+ system.
 \end_layout
 
 \begin_layout Section
