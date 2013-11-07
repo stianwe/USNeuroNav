@@ -506,13 +506,18 @@ Project goal
 \begin_layout Standard
 
 \size large
-The goal of the the project was to create an application that will help
- increase learning about ultrasound images that are used in operations.
- We wanted to show ultrasound images with different types of tumors and
- different types of operations, so surgeons, students and others can become
- more familiar with how the images and data are related.
- The application was ment to be a little contribute to learning of ultrasound
- navigation during operations.
+The goal of the the project was to create a prototype application that our
+ client can use for proof-of-concept and further development.
+ (The application had to be developed for ios devices but on a crossplatform
+ framework so that it could be expanded to other platforms at a later time.)
+ The primary goal was to create a stable, professional looking application
+ with the core functionality specified, such as showing pictures and videos,
+ and the infrastucture around it.
+ The product we created will continue to grow after we were done with it,
+ so it was important to keep it expandable so that new features could be
+ added later.
+ Ultimately, as our prototype keeps being developed, the goal is for it
+ to be used as a tool to spead the knowledge of ultrasound navigation.
 \begin_inset Newline newline
 \end_inset
 
@@ -677,16 +682,16 @@ General Terms
 \begin_layout Standard
 
 \size large
-The customer has a very clear requirement that the project results in an
+The customer had a very clear requirement that the project results in an
  application for iOS.
- In addition, the customer sees it as a bonus if this app can easily be
- extended to additional platforms, for example android, either by this group,
- if time allows it, or by an external developer.
- For this to be a possibility, an Apple developer license must be provided,
+ In addition, the customer saw it as a bonus if this app can easily be extended
+ to additional platforms, for example android, either by this group, if
+ time allows it, or by another developer.
+ For this to be a possibility, an Apple developer license had to be provided,
  in addition to at least one Mac for building purposes.
  Depending on the choice of tool selection, additional licenses might be
  necessary.
- All this must be provided by the customer at the absolute latest at the
+ All this had to be provided by the customer at the absolute latest at the
  start of sprint 2, 18.09.2013, which is when development is scheduled for
  full start.
 \end_layout
@@ -694,37 +699,22 @@ The customer has a very clear requirement that the project results in an
 \begin_layout Standard
 
 \size large
-The specific tools for developing this application is scheduled to be determined
- together with the customer at 04.09.2013.
- Many tools has been investigated and tested, and prior to the meeting,
- two clear alternatives remain, Xamarin[x] and Appcelerated’s Titanium[x].
- The reasoning behind this is that these two both provide cross-platform
- development and that they have the possibility of creating applications
- that look and feel like native apps.
- To do this, a separate user interface must be developed for each platform
- that should be supported, but the customer thinks that this is an acceptable
- tradeoff for the performance gain, and the native look and feel.
+The specific tools for developing this application was scheduled to be determine
+d together with the customer on 04.09.2013.
+ Many frameworks had been investigated and tested, and prior to the meeting,
+ two clear alternatives remained, Xamarin[x] and Appcelerated’s Titanium[x].
+ The reason for this was that these two both provided cross-platform development
+ and that they had the possibility of creating applications that look and
+ feel like native applications.
+ In order to make the applcation look and feel native, a separate user interface
+ have be developed for every platform, but the customer thought that this
+ was an acceptable tradeoff, sacrificing some development time for the option
+ for cross-platform possibility with a native look and feel.
  While Titanium is a free tool, Xamarin requires a license of each developer.
  Both require the use of a Mac for building the application, but Xamarin
  allows doing this remotely from a non-mac.
- This is a huge advantage since we probably will get only one Mac.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For intergroup communication we have selected to use Google Docs for organizing
- our documents, along with Google calendar for the planning of meetings
- and important dates.
- For code version control and source code management we have elected to
- use GitHub.
- Personal emails together with mobile phone will be used to keep in touch
- between the group members.
- All these choices have been made because all the group members have experience
- using these tools and the all have the features we require.
- The selection of tools we are already familiar with enables us to put more
- time into actual development and less time into learning new auxiliary
- tools.
+ This could be a large advantage since we would probably only get access
+ to one Mac.
 \begin_inset Newline newline
 \end_inset
 
@@ -2290,11 +2280,7 @@ ly.
 \begin_layout Subsection
 
 \size largest
-Tools and technology KRISTOFFER
-\begin_inset Newline newline
-\end_inset
-
-
+Tools and technology
 \end_layout
 
 \begin_layout Subsubsection
@@ -2467,6 +2453,15 @@ Administration
 
 \end_layout
 
+\begin_layout Standard
+
+\size large
+Many of these choices were made because all the group members had experience
+ using these tools and they all provided the features we required.
+ The selection of already familiar tools enabled us to put more time into
+ actual development and less time into learning new auxiliary tools.
+\end_layout
+
 \begin_layout Paragraph
 
 \size large
@@ -2496,7 +2491,8 @@ wall
 .
  In addition the Facebook's chat function can be used for instant messaging
  between team members.
- 
+ As a second option we all shared our personal mobile phone numbers so that
+ we could get in touch should something be urgent.
 \end_layout
 
 \begin_layout Standard
@@ -2904,6 +2900,11 @@ oNav.
 
 \end_layout
 
+\begin_layout Paragraph*
+Eclipse/Java for adminapp
+
+\end_layout
+
 \begin_layout Subsubsection
 
 \size larger
@@ -2915,15 +2916,16 @@ KRISTOFFER
 \begin_layout Standard
 
 \size large
-We chose Git to be our version control system for both the textual documents
- and the source code.
+As mentioned we chose Git to be our version control system for both the
+ textual documents and the source code.
  Most of the group members had experience with Git, so other options, like
- SVN, were not a good solution because we had a little experience, so it
- would not be effective enough.
- Git is much faster than Subversion and Git provides better auditing of
- branch and merge events .Git is a free and open source distributed version
- control system designed to handle everything from small to very large projects
- with speed and efficiency.
+ SVN, were not a good solution because we had a little to no experience
+ with it.
+ Git is much faster than Subversion and provides better auditing of branch
+ and merge events.
+ Git is a free and open source distributed version control system designed
+ to handle everything from small to very large projects with speed and efficienc
+y.
  Every group member has a copy of the repository locally, and synchronize
  their repositories through the server.
  We chose to use Git, since this ensures that all group members can work
