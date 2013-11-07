@@ -15,7 +15,7 @@ public class Menu{
 	MediaUploader muSQL = new MediaUploader(sql);
 	
 	public Menu(BufferedReader reader) throws ClassNotFoundException, SQLException {
-		super();
+		this();
 		br = reader;
 	}
 	

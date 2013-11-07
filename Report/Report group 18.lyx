@@ -239,7 +239,7 @@ Abstract
 \size large
 This paper describes the planning, design, development and implementation
  of the "USNeuroNav" application with its supporting infrastructure.
- USNeuroNav is an application for mobile deviced that enables its user to
+ USNeuroNav is an application for mobile devices that enables its user to
  access media, recorded during surgeries where ultrasound navigation was
  utilized, based on several attibutes specific to each of the surgery-cases.
 \end_layout
@@ -400,34 +400,6 @@ Introduction
 \begin_layout Subsection
 
 \size largest
-Project Name
-\end_layout
-
-\begin_layout Standard
-
-\size large
-The title given to this project is 
-\begin_inset Quotes eld
-\end_inset
-
-USNeuroNav App
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
 Project Client
 \end_layout
 
@@ -534,13 +506,18 @@ Project goal
 \begin_layout Standard
 
 \size large
-The goal of the the project was to create an application that will help
- increase learning about ultrasound images that are used in operations.
- We wanted to show ultrasound images with different types of tumors and
- different types of operations, so surgeons, students and others can become
- more familiar with how the images and data are related.
- The application was ment to be a little contribute to learning of ultrasound
- navigation during operations.
+The goal of the the project was to create a prototype application that our
+ client can use for proof-of-concept and further development.
+ (The application had to be developed for ios devices but on a crossplatform
+ framework so that it could be expanded to other platforms at a later time.)
+ The primary goal was to create a stable, professional looking application
+ with the core functionality specified, such as showing pictures and videos,
+ and the infrastucture around it.
+ The product we created will continue to grow after we were done with it,
+ so it was important to keep it expandable so that new features could be
+ added later.
+ Ultimately, as our prototype keeps being developed, the goal is for it
+ to be used as a tool to spead the knowledge of ultrasound navigation.
 \begin_inset Newline newline
 \end_inset
 
@@ -555,6 +532,20 @@ The goal of the the project was to create an application that will help
 
 \size largest
 Project Background and Purpose
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The title given to this project is 
+\begin_inset Quotes eld
+\end_inset
+
+USNeuroNav App
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -691,16 +682,16 @@ General Terms
 \begin_layout Standard
 
 \size large
-The customer has a very clear requirement that the project results in an
+The customer had a very clear requirement that the project results in an
  application for iOS.
- In addition, the customer sees it as a bonus if this app can easily be
- extended to additional platforms, for example android, either by this group,
- if time allows it, or by an external developer.
- For this to be a possibility, an Apple developer license must be provided,
+ In addition, the customer saw it as a bonus if this app can easily be extended
+ to additional platforms, for example android, either by this group, if
+ time allows it, or by another developer.
+ For this to be a possibility, an Apple developer license had to be provided,
  in addition to at least one Mac for building purposes.
  Depending on the choice of tool selection, additional licenses might be
  necessary.
- All this must be provided by the customer at the absolute latest at the
+ All this had to be provided by the customer at the absolute latest at the
  start of sprint 2, 18.09.2013, which is when development is scheduled for
  full start.
 \end_layout
@@ -708,37 +699,22 @@ The customer has a very clear requirement that the project results in an
 \begin_layout Standard
 
 \size large
-The specific tools for developing this application is scheduled to be determined
- together with the customer at 04.09.2013.
- Many tools has been investigated and tested, and prior to the meeting,
- two clear alternatives remain, Xamarin[x] and Appcelerated’s Titanium[x].
- The reasoning behind this is that these two both provide cross-platform
- development and that they have the possibility of creating applications
- that look and feel like native apps.
- To do this, a separate user interface must be developed for each platform
- that should be supported, but the customer thinks that this is an acceptable
- tradeoff for the performance gain, and the native look and feel.
+The specific tools for developing this application was scheduled to be determine
+d together with the customer on 04.09.2013.
+ Many frameworks had been investigated and tested, and prior to the meeting,
+ two clear alternatives remained, Xamarin[x] and Appcelerated’s Titanium[x].
+ The reason for this was that these two both provided cross-platform development
+ and that they had the possibility of creating applications that look and
+ feel like native applications.
+ In order to make the applcation look and feel native, a separate user interface
+ have be developed for every platform, but the customer thought that this
+ was an acceptable tradeoff, sacrificing some development time for the option
+ for cross-platform possibility with a native look and feel.
  While Titanium is a free tool, Xamarin requires a license of each developer.
  Both require the use of a Mac for building the application, but Xamarin
  allows doing this remotely from a non-mac.
- This is a huge advantage since we probably will get only one Mac.
-\end_layout
-
-\begin_layout Standard
-
-\size large
-For intergroup communication we have selected to use Google Docs for organizing
- our documents, along with Google calendar for the planning of meetings
- and important dates.
- For code version control and source code management we have elected to
- use GitHub.
- Personal emails together with mobile phone will be used to keep in touch
- between the group members.
- All these choices have been made because all the group members have experience
- using these tools and the all have the features we require.
- The selection of tools we are already familiar with enables us to put more
- time into actual development and less time into learning new auxiliary
- tools.
+ This could be a large advantage since we would probably only get access
+ to one Mac.
 \begin_inset Newline newline
 \end_inset
 
@@ -828,15 +804,17 @@ Work Break Down Structure
 
 \size large
 On the August 21th the group met the customer for the first time and started
- working, The planning and pre study phase is planned to last for four weeks,
- since we early knew that we did not have the required equipment.
- The planning phase contains planning the project, requirements spesification,
+ working, The planning and pre study phase was planned to last for four
+ weeks, since we early knew that we did not have the required equipment.
+ The planning phase contained planning the project, requirements spesification,
  risk analysis, design of GUI and architecture.
- The pre study phase contains planning, management and researching the technolog
+ The pre study phase containd planning, management and researching the technolog
 ies needed for the project.
- The group plans to have 3 sprints, each going over 2 weeks.
- Every sprint will contain a planning part, an implementation part, and
- a testing part.
+ The group planned to have 4 sprints, each going over 2 weeks.
+ This was because of the timelimit, 4 sprints fit exactly into the schedule,
+ and we could get as mush work done as possible.
+ Each sprint will contain a planning part, an implementation part, and a
+ testing part.
  
 \begin_inset Newline newline
 \end_inset
@@ -1259,7 +1237,7 @@ Description
 \begin_layout Plain Layout
 
 \size large
-r1
+MR1
 \end_layout
 
 \end_inset
@@ -1305,7 +1283,7 @@ Deliver preliminary project plan to supervisor.
 \begin_layout Plain Layout
 
 \size large
-p1
+MP1
 \end_layout
 
 \end_inset
@@ -1352,7 +1330,7 @@ Have a running prototype, able to show local photos, categorization of cases
 \begin_layout Plain Layout
 
 \size large
-p2
+MP2
 \end_layout
 
 \end_inset
@@ -1398,7 +1376,7 @@ Support for video, searching for cases.
 \begin_layout Plain Layout
 
 \size large
-r2
+MR2
 \end_layout
 
 \end_inset
@@ -1445,7 +1423,7 @@ Pre-delivery of abstract, introduction, pre-study and life-cycle model choice
 \begin_layout Plain Layout
 
 \size large
-p3 
+MP3 
 \end_layout
 
 \end_inset
@@ -1491,7 +1469,7 @@ Network support, server communication, caching of data.
 \begin_layout Plain Layout
 
 \size large
-p4 
+MP4 
 \end_layout
 
 \end_inset
@@ -1538,7 +1516,7 @@ Upload of data.
 \begin_layout Plain Layout
 
 \size large
-p5 
+MP5 
 \end_layout
 
 \end_inset
@@ -1584,7 +1562,7 @@ Product delivery.
 \begin_layout Plain Layout
 
 \size large
-r3 
+MR3 
 \end_layout
 
 \end_inset
@@ -1630,7 +1608,7 @@ Complete and print final report.
 \begin_layout Plain Layout
 
 \size large
-r4 
+MR4 
 \end_layout
 
 \end_inset
@@ -2057,43 +2035,6 @@ Organizational diagram
 \begin_layout Subsection
 
 \size largest
-Version Control
-\end_layout
-
-\begin_layout Standard
-
-\size large
-We chose git to be our version control system for both the textual documents
- and the source code.
- Git is a free and open source distributed version control system designed
- to handle everything from small to very large projects with speed and efficienc
-y.
- Every group member has a copy of the repository locally, and synchronize
- their repositories through the server.
- We chose to use git, since this ensures that all group members can work
- on the code and report, regardless of the status of the server.
- This also means that we have many backups of the entire repository if something
- goes wrong, so the team can ensure that all the files are up to date and
- no information is lost during the project.
- It is necessary to work on up-to-date data, especially when two people
- are working on the same file, so it is important to avoid that they can
- destroy each others work without knowing it.
- Git supports quick branching and merging, and includes specific tools for
- navigating a non-linear development history.
- 
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
 Risk Management
 \end_layout
 
@@ -2133,10 +2074,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Tabel figures/risklist.PNG
-	width 100text%
+	rotateAngle 90
 
 \end_inset
 
@@ -2152,8 +2097,16 @@ Risk Analysis
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \size large
 The risk matrix gives a better picture of how severe the risks for the project
@@ -2199,7 +2152,7 @@ Risk Matrix
 \begin_layout Subsection
 
 \size largest
-Quality Assurance
+Project communication
 \begin_inset Newline newline
 \end_inset
 
@@ -2328,10 +2281,6 @@ ly.
 
 \size largest
 Tools and technology
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2504,6 +2453,15 @@ Administration
 
 \end_layout
 
+\begin_layout Standard
+
+\size large
+Many of these choices were made because all the group members had experience
+ using these tools and they all provided the features we required.
+ The selection of already familiar tools enabled us to put more time into
+ actual development and less time into learning new auxiliary tools.
+\end_layout
+
 \begin_layout Paragraph
 
 \size large
@@ -2533,7 +2491,8 @@ wall
 .
  In addition the Facebook's chat function can be used for instant messaging
  between team members.
- 
+ As a second option we all shared our personal mobile phone numbers so that
+ we could get in touch should something be urgent.
 \end_layout
 
 \begin_layout Standard
@@ -2933,8 +2892,57 @@ Which mentioned under 2.3, Versioning Control, we use Git [x] for versioning
 The reason why we use GitHub as the Git server, is that it is free to use,
  requires no personal servers, and that it provides a very useful web site
  to manage pull requests, issues, etc.
- The project's GitHub repository can be found at http://github.com/stianwe/USNeur
+ The project's GitHub repository can be found at http://Github.com/stianwe/USNeur
 oNav.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Eclipse/Java for adminapp
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\size larger
+Version Control 
+\size largest
+KRISTOFFER
+\end_layout
+
+\begin_layout Standard
+
+\size large
+As mentioned we chose Git to be our version control system for both the
+ textual documents and the source code.
+ Most of the group members had experience with Git, so other options, like
+ SVN, were not a good solution because we had a little to no experience
+ with it.
+ Git is much faster than Subversion and provides better auditing of branch
+ and merge events.
+ Git is a free and open source distributed version control system designed
+ to handle everything from small to very large projects with speed and efficienc
+y.
+ Every group member has a copy of the repository locally, and synchronize
+ their repositories through the server.
+ We chose to use Git, since this ensures that all group members can work
+ on the code and report, regardless of the status of the server.
+ This also means that we have many backups of the entire repository if something
+ goes wrong, so the team can ensure that all the files are up to date and
+ no information is lost during the project.
+ It is necessary to work on up-to-date data, especially when two people
+ are working on the same file, so it is important to avoid that they can
+ destroy each others work without knowing it.
+ Git supports quick branching and merging, and includes specific tools for
+ navigating a non-linear development history.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2968,14 +2976,60 @@ Current Situation
 
 \size large
 Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
- medical personell prefer when evaluating and performing surgeries.
+ medical personell prefer when evaluating before a surgical operation.
  The reason for this is that it is relatively easy to understand, and identify
  tumors etc.
- Recently, however, there has been several good reasons to use DS (Diagnostic
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Graphics
+	filename Figures/MRI.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size large
+MRI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Recently, however, there has been several good reasons to use DS (Diagnostic
  Sonography) (ultrasound) either instead of MRI, or together with MRI.
  The main incentives for this is that DS is much cheaper, and also more
  flexible, since the MRI requires a whole dedicated room, while DS can be
  moved from room to room, and therefore easily do a new scan during surgeries.
+ The fact that surgeons now can get real-time updates on what the conditions
+ inside the body are, is useful to know for example.
+ if it is any remnants left after a tumor.
  DS, however, is much harder to understand.
  Therefore, MRI is still preferred by many doctors, since it is what they
  are used to, and what is considered 
@@ -3035,7 +3089,7 @@ The solution that the customer desires, is a simple method for doctors (and
 \begin_layout Subsection
 
 \size largest
-Evaluation Criteria
+Evaluation Criteria KRISTOFFER
 \end_layout
 
 \begin_layout Standard
@@ -12148,10 +12202,10 @@ status open
 
 \size large
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="4">
+<lyxtabular version="3" rows="4" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="8page%">
+<column alignment="left" valignment="top" width="10page%">
 <column alignment="left" valignment="top" width="10page%">
 <column alignment="left" valignment="top" width="40text%">
 <row>
@@ -12241,6 +12295,52 @@ Kristoffer was sick 1.5 days
 
 \size large
 The group were already ahead of time, so no actions was necessary
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Underestimated time for tasks 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+We did not finnish all the tasks for this sprint, and by looking at the
+ burndown chart we were behind shedule during the whole sprint.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Since we had both underestimated and overestimated the tasks for this sprint,
+ it did not become a huge risk, since it canceled eachother.
 \end_layout
 
 \end_inset
@@ -14531,19 +14631,29 @@ Conclusion
 \begin_layout Subsection
 
 \size largest
-Description
+Final system architecture
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The architecture was made at the beginning of the process and has been followed
+ pretty closely throughout the implementation.
+ However, there have been some changes.
+ The updated diagrams can be seen in the figures below.
 \end_layout
 
 \begin_layout Subsection
 
 \size largest
-Results
+Implementation Results
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
-View
+\size large
+In this section, the system, as it is at the end of the project, will be
+ described in depth.
 \end_layout
 
 \begin_layout Subsection
@@ -14552,11 +14662,15 @@ View
 Further Work
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
+
+\size larger
 Unfinished Requirements
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
+
+\size larger
 Other functionality
 \end_layout
 
@@ -14569,54 +14683,48 @@ Evaluation
 \begin_layout Subsection
 
 \size largest
-Description
-\end_layout
-
-\begin_layout Subsection
-
-\size largest
 Group Evaluation
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Group changes
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Customer
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Language barriers
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Group dynamics
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Role assignment
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Motivation
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Risk evaluation
 \end_layout
 
@@ -14626,51 +14734,51 @@ Risk evaluation
 Project Evaluation
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Planning
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Preliminary studies
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Scrum
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Meetings
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Technical problems
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Course feedback
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Testing
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 
-\size larger
+\size large
 Time usage
 \end_layout
 
@@ -14798,11 +14906,11 @@ http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
 \begin_inset Newline newline
 \end_inset
 
-[x] http://git-scm.com 
+[x] http://Git-scm.com 
 \begin_inset Newline newline
 \end_inset
 
-[x] http://www.github.com 
+[x] http://www.Github.com 
 \begin_inset Newline newline
 \end_inset
 
