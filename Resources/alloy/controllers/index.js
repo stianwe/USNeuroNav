@@ -187,8 +187,20 @@ function Controller() {
                     view = Ti.UI.createImageView({
                         image: currentCase.mediaFiles[i].URL
                     });
-                    var temp1 = (Titanium.Platform.displayCaps.platformWidth - 123) / view.toImage().height;
-                    var temp2 = (Titanium.Platform.displayCaps.platformHeight - 123) / view.toImage().height;
+                    var temp1, temp2;
+                    if ("ipad" == Titanium.Platform.osname) if (Titanium.Platform.displayCaps.platformHeight > Titanium.Platform.displayCaps.platformWidth) {
+                        temp1 = Titanium.Platform.displayCaps.platformWidth / view.toImage().width;
+                        temp2 = Titanium.Platform.displayCaps.platformHeight / view.toImage().width;
+                    } else {
+                        temp1 = .74375 * Titanium.Platform.displayCaps.platformWidth / view.toImage().height;
+                        temp2 = .74375 * Titanium.Platform.displayCaps.platformHeight / view.toImage().height;
+                    } else if (Titanium.Platform.displayCaps.platformHeight > Titanium.Platform.displayCaps.platformWidth) {
+                        temp1 = Titanium.Platform.displayCaps.platformWidth / view.toImage().width;
+                        temp2 = Titanium.Platform.displayCaps.platformHeight / view.toImage().width;
+                    } else {
+                        temp1 = (Titanium.Platform.displayCaps.platformWidth - 128) / view.toImage().height;
+                        temp2 = (Titanium.Platform.displayCaps.platformHeight - 128) / view.toImage().height;
+                    }
                     initialZoom = temp2 > temp1 ? temp1 : temp2;
                 }
                 if (null != view) {
@@ -264,9 +276,13 @@ function Controller() {
     function initLogout() {
         if (null == logoutView) {
             logoutView = Titanium.UI.createView();
+            var helpLabel = Ti.UI.createLabel({
+                text: "You are now logged in!",
+                top: 10
+            });
             var logoutButton = Titanium.UI.createButton({
                 title: "Log out",
-                top: 50,
+                top: 70,
                 width: 100,
                 height: 50
             });
@@ -275,6 +291,7 @@ function Controller() {
                 initLogin();
             });
             logoutView.add(logoutButton);
+            logoutView.add(helpLabel);
             $.tab3window1.add(logoutView);
         }
         loginView.setVisible(false);
