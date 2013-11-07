@@ -358,9 +358,13 @@ function login(username, password) {
 function initLogout() {
 	if (logoutView == null) {
 		logoutView = Titanium.UI.createView();
+		var helpLabel = Ti.UI.createLabel({
+			text: 'You are now logged in!',
+			top: 10,
+		});
 		var logoutButton = Titanium.UI.createButton({
 			title: 'Log out',
-			top: 50,
+			top: 70,
 			width: 100,
 			height: 50,
 		});
@@ -369,6 +373,7 @@ function initLogout() {
 			initLogin();
 		});
 		logoutView.add(logoutButton);
+		logoutView.add(helpLabel);
 		$.tab3window1.add(logoutView);
 	} 
 	loginView.setVisible(false);
