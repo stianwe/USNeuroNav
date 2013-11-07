@@ -1998,6 +1998,7 @@ Roles
 
 \size large
 The diagram below shows how the roles in the group was organized.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -3750,9 +3751,9 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="50text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -3863,7 +3864,7 @@ X
 \begin_layout Plain Layout
 
 \size large
-not clearly defined requirements at the beginning
+Not clearly defined requirements at the beginning
 \end_layout
 
 \end_inset
@@ -3896,7 +3897,7 @@ X
 \begin_layout Plain Layout
 
 \size large
-not clearly defined scope of the project at the beginning
+Not clearly defined scope of the project at the beginning
 \end_layout
 
 \end_inset
@@ -4864,8 +4865,8 @@ This is a description of the use case diagram
 \begin_inset Tabular
 <lyxtabular version="3" rows="83" columns="2">
 <features islongtable="true" longtabularalignment="center">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="50text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
@@ -4975,9 +4976,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="60text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4988,7 +4989,7 @@ The user should be ablo to browse through a
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5137,9 +5138,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5150,7 +5151,7 @@ The user should be able to browse sub-categories
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5299,9 +5300,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5312,7 +5313,7 @@ The user should be able to select
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5461,9 +5462,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5474,7 +5475,7 @@ The user should be able to view all images belonging to
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5663,9 +5664,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5676,7 +5677,7 @@ The user should be able to select a set of cases,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5687,7 +5688,7 @@ The user should be able to select a set of cases,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5836,9 +5837,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5849,7 +5850,7 @@ The user should be able to search for cases
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5998,9 +5999,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6011,7 +6012,7 @@ A registered user should be able to browse cases
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6022,7 +6023,7 @@ labeled as non-public (private),
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6171,9 +6172,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6184,7 +6185,7 @@ A registered user should be able to log in
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6333,9 +6334,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6346,7 +6347,7 @@ The application should be able to fetch a collection
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6495,9 +6496,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6508,7 +6509,7 @@ The server should be able to verify
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6691,9 +6692,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6704,7 +6705,7 @@ The admin should be able to define if a case
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6853,9 +6854,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6866,7 +6867,7 @@ The admin should be able to create
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7015,9 +7016,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7028,7 +7029,7 @@ The admin should be able to register a new user
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7177,9 +7178,9 @@ Brief description:
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="1">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="90text%">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7190,7 +7191,7 @@ The admin should be able to create a new category,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9190,9 +9191,7 @@ In order to illustrate the achitectural viewpoints we have decided to use
 
 .
  This is view model designed for "describing the architecture of software-intens
-ive systems, based on the use of multiple, concurrent views" (add citation
- link: Kruchten, Philippe (1995, November) http://www.cs.ubc.ca/~gregor/teaching/pa
-pers/4+1view-architecture.pdf).
+ive systems, based on the use of multiple, concurrent views"[x].
  This model consists of four views of the system seen from different stakeholder
 s, in addition to use cases (the +1), in order to accurately portray the
  achitecture of the system.
@@ -9222,8 +9221,8 @@ status open
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="9text%">
 <column alignment="left" valignment="top" width="45text%">
-<column alignment="left" valignment="top" width="20text%">
-<column alignment="left" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="18text%">
+<column alignment="left" valignment="top" width="12text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -9640,7 +9639,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/browseSequence.png
-	scale 40
+	lyxscale 35
+	scale 35
 
 \end_inset
 
@@ -9701,7 +9701,8 @@ status open
 \begin_inset Graphics
 	filename Figures/searchSequence.png
 	lyxscale 40
-	scale 40
+	scale 49
+	rotateAngle 90
 
 \end_inset
 
@@ -9803,7 +9804,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/newCategorySequence.png
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -10542,11 +10543,11 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="29" columns="5">
 <features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="6text%">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="10text%">
+<column alignment="left" valignment="top" width="8text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -12114,6 +12115,8 @@ status open
 \size large
 \begin_inset Graphics
 	filename Figures/GUI_browsing_with_tabs.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -12198,7 +12201,7 @@ status open
 \begin_inset Graphics
 	filename Figures/GUI_DEMO_browse.png
 	lyxscale 30
-	scale 30
+	scale 20
 
 \end_inset
 
@@ -13737,6 +13740,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 2.png
+	scale 90
 
 \end_inset
 
@@ -16431,6 +16435,25 @@ http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
 \end_inset
 
 [x] http://www.latex-project.org 
+\begin_inset Newline newline
+\end_inset
+
+[x]Kruchten, Philippe (1995, November)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
