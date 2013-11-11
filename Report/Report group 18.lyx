@@ -583,7 +583,14 @@ key "xamarin"
 
 \end_inset
 
- and Appcelerated’s Titanium[x].
+ and Appcelerated’s Titanium
+\begin_inset CommandInset citation
+LatexCommand cite
+key "appcelerator"
+
+\end_inset
+
+.
  The reason for this was that these two both provided cross-platform development
  and that they had the possibility of creating applications that look and
  feel like native applications.
@@ -1893,7 +1900,21 @@ Lyx and LaTeX
 
 \begin_layout Standard
 For writing the report, the team chose to write it in the document markup
- language LaTeX [x], by using the Lyx [x] document processor.
+ language LaTeX
+\begin_inset CommandInset citation
+LatexCommand cite
+key "latex-project"
+
+\end_inset
+
+, by using the Lyx document processor
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lyx"
+
+\end_inset
+
+.
  The reason why LaTeX was chosen is that it is widely used in academica,
  and that the team members saw this as an opportunity to familiarize themselves
  with the tool they likely will use when writing their master.
@@ -1913,14 +1934,27 @@ Google Drive and Docs
 
 \begin_layout Standard
 For writing internal documents, such as meeting agendas, meeting summaries,
- and temporal plans and documents, Google Docs [x] was chosen.
+ and temporal plans and documents, Google Docs
+\begin_inset CommandInset citation
+LatexCommand cite
+key "google docs"
+
+\end_inset
+
+ was chosen.
  The reasoning behind this is that it is very easy to use, and also that
  it provides different people to modify and view others' modifications in
  real-time.
 \end_layout
 
 \begin_layout Standard
-To store and distribute files between the team members, Google Drive [x]
+To store and distribute files between the team members, Google Drive
+\begin_inset CommandInset citation
+LatexCommand cite
+key "google drive"
+
+\end_inset
+
  was chosen.
  Google Docs is very closely integrated with Google Drive, so Google Drive
  became the obvious solution for the team.
@@ -1931,8 +1965,15 @@ Violet UML editor
 \end_layout
 
 \begin_layout Standard
-Violet UML editor [x] is a cross-platform, easy to learn and use, UML editor,
- which draws nice and standard looking UML diagrams.
+Violet UML editor
+\begin_inset CommandInset citation
+LatexCommand cite
+key "violetumleditor"
+
+\end_inset
+
+ is a cross-platform, easy to learn and use, UML editor, which draws nice
+ and standard looking UML diagrams.
 \end_layout
 
 \begin_layout Standard
@@ -1945,7 +1986,14 @@ Visual ER
 \end_layout
 
 \begin_layout Standard
-Visual ER [x] is a very simple Java based tool to create ER diagrams.
+Visual ER
+\begin_inset CommandInset citation
+LatexCommand cite
+key "VisualER"
+
+\end_inset
+
+ is a very simple Java based tool to create ER diagrams.
  The team uses Visual ER because it was developed by NTNU students, is very
  easy to use, and that the students have good experience with it from other
  courses.
@@ -1956,7 +2004,14 @@ Balsamiq mockups
 \end_layout
 
 \begin_layout Standard
-Balsamiq [x] mockups is a tool for creating GUI mockups.
+Balsamiq
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balsamiq"
+
+\end_inset
+
+ mockups is a tool for creating GUI mockups.
  It enabled us to quickly create our initial GUI and then easily modify
  it as we, or the customer, felt any changes was needed or had another improveme
 nt that needed to be made.
@@ -1981,7 +2036,13 @@ Facebook
 \end_layout
 
 \begin_layout Standard
-For distributing information and links between team members, Facebook [x]
+For distributing information and links between team members, Facebook
+\begin_inset CommandInset citation
+LatexCommand cite
+key "facebook"
+
+\end_inset
+
  is used.
  The group maintains a private group where information is posted on the
  
@@ -2010,7 +2071,14 @@ TeamViewer
 
 \begin_layout Standard
 To access the iMac the team is borrowing from the customer remotely, the
- team uses TeamViewer [x].
+ team uses TeamViewer
+\begin_inset CommandInset citation
+LatexCommand cite
+key "teamviewer"
+
+\end_inset
+
+.
  TeamViewer is a simple software for controling computers remotely over
  the Internet.
 \end_layout
@@ -2026,8 +2094,15 @@ Rally
 \end_layout
 
 \begin_layout Standard
-Rally [x] is a cloud-based solution for managing the agile development lifecycle
-, such as assigning user stories/tasks to sprints, and to developers.
+Rally
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rally"
+
+\end_inset
+
+ is a cloud-based solution for managing the agile development lifecycle,
+ such as assigning user stories/tasks to sprints, and to developers.
  We chose to use Rally because it is relatively easy to use, and that it
  is free for students.
 \end_layout
@@ -2041,9 +2116,22 @@ Titanium and JavaScript
 \end_layout
 
 \begin_layout Standard
-To develop the mobile application, the Titanium [x] tool set was chosen.
+To develop the mobile application, the Titanium
+\begin_inset CommandInset citation
+LatexCommand cite
+key "appcelerator"
+
+\end_inset
+
+ tool set was chosen.
  It provides its own IDE for writing the code, which is based on Eclipse
- [x].
+\begin_inset CommandInset citation
+LatexCommand cite
+key "eclipse"
+
+\end_inset
+
+.
  Titanium is a framework for creating cross-platform mobile applications,
  where the code is written in JavaScript, and compiled to native code for
  the selected platforms.
@@ -2086,7 +2174,14 @@ The application should have (close to) the same performance as if written
 \begin_layout Standard
 Given these very specific, and quite demanding, requirements, the team was
  only able to find a couple of valid options.
- These options were in the end Titanium, which was chosen, and Xamarin [x].
+ These options were in the end Titanium, which was chosen, and Xamarin
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xamarin"
+
+\end_inset
+
+.
  Xamarin is a quite similar tool to Titanium, except that it uses code written
  in C# instead of JavaScript.
  Despite that the team had more experience with C#, Titanium was chosen
@@ -2128,7 +2223,14 @@ write once, run everywhere
 \end_layout
 
 \begin_layout Standard
-JavaScript [x] is a prototype-based scripting language with dynamic typing.
+JavaScript
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JavaScript"
+
+\end_inset
+
+ is a prototype-based scripting language with dynamic typing.
  It is commonly used to make web pages dynamic, but is in this case compiled
  down to native code for mobile platforms by Titanium.
 \end_layout
@@ -2138,7 +2240,14 @@ PHP
 \end_layout
 
 \begin_layout Standard
-PHP [x] is a server-side scripting language designed for web development.
+PHP
+\begin_inset CommandInset citation
+LatexCommand cite
+key "php"
+
+\end_inset
+
+ is a server-side scripting language designed for web development.
  PHP code is interpreted by a web server with a PHP module, which generates
  the resulting web page.
 \end_layout
@@ -2161,8 +2270,15 @@ JSON
 \end_layout
 
 \begin_layout Standard
-JSON (JavaScript Object Notation) [x] is a lightweight data-interchange
- format, which is for both humans and computers to read/parse and write.
+JSON (JavaScript Object Notation)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "json"
+
+\end_inset
+
+ is a lightweight data-interchange format, which is for both humans and
+ computers to read/parse and write.
  
 \end_layout
 
@@ -2183,7 +2299,14 @@ MySQL
 \end_layout
 
 \begin_layout Standard
-MySQL [x] is a very well-known SQL database, and by their own words 
+MySQL
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mysql"
+
+\end_inset
+
+ is a very well-known SQL database, and by their own words 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2212,7 +2335,14 @@ Apache HTTP Server
 \end_layout
 
 \begin_layout Standard
-Apache [x] is a very common web server.
+Apache
+\begin_inset CommandInset citation
+LatexCommand cite
+key "apache"
+
+\end_inset
+
+ is a very common web server.
  It is free to use, very easy to set up, and works very well with PHP.
 \end_layout
 
@@ -2227,8 +2357,15 @@ Java
 \end_layout
 
 \begin_layout Standard
-Java [x] is a concurrent, class-based and object-oriented programming language
- that is designed to run on as many platforms as possible.
+Java
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Java_(programming_language)"
+
+\end_inset
+
+ is a concurrent, class-based and object-oriented programming language that
+ is designed to run on as many platforms as possible.
  We chose to use Java to develop the admin tool, mainly because of the cross-pla
 tform feature, but also because all the team members have programmed a lot
  in Java before, and it was probably the language all the team members was
@@ -2240,7 +2377,14 @@ Eclipse
 \end_layout
 
 \begin_layout Standard
-Eclipse [x] is a multi-language integrated development environment (IDE).
+Eclipse
+\begin_inset CommandInset citation
+LatexCommand cite
+key "eclipse"
+
+\end_inset
+
+ is a multi-language integrated development environment (IDE).
  It is very suitable for Java development, and it also has an integrate
  git tool.
  
@@ -2265,9 +2409,22 @@ Git and GitHub
 \end_layout
 
 \begin_layout Standard
-We use Git [x] for versioning control, both for the textual documents and
- source code.
- The Git server we use is GitHub [x].
+We use Git
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Git-scm"
+
+\end_inset
+
+ for versioning control, both for the textual documents and source code.
+ The Git server we use is GitHub
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Github"
+
+\end_inset
+
+.
  Git is a distributed revision control and source code management system.
  We use Git for versioning control because it is quite easy to use, it provides
  both a shell and a GUI, and the team members were already familiar with
@@ -2439,8 +2596,14 @@ EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \end_layout
 
 \begin_layout Standard
-The EUS - Diagnostic and Interventional Endoscopic Ultrasound App[x] for
- iPhone/iPad and our system has some similar functionalities.
+The EUS - Diagnostic and Interventional Endoscopic Ultrasound App
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
+
+\end_inset
+
+ for iPhone/iPad and our system has some similar functionalities.
 \end_layout
 
 \begin_layout Standard
@@ -2500,8 +2663,14 @@ Helsinki Microneurosurgery Basics and Tricks App
 \end_layout
 
 \begin_layout Standard
-The Helsinki Microneurosurgery Basics and Tricks App[x] for iPhone/iPad
- was provided by the customer.
+The Helsinki Microneurosurgery Basics and Tricks App
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Helsinki Microneurosurgery Basics and Tricks"
+
+\end_inset
+
+ for iPhone/iPad was provided by the customer.
  
 \end_layout
 
@@ -2786,9 +2955,15 @@ The Waterfall Model
 \end_layout
 
 \begin_layout Standard
-The waterfall model [x] is a inear-sequential life cycle model, in which
- progress is seen as flowing steadily downwards through the phases, like
- a waterfall.
+The waterfall model
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Waterfall Model design"
+
+\end_inset
+
+ is a inear-sequential life cycle model, in which progress is seen as flowing
+ steadily downwards through the phases, like a waterfall.
  Any phase in the development process begins only if the previous phase
  is complete, the phases do not overlap.
  
@@ -17370,9 +17545,9 @@ key "Sintef"
 
 \end_inset
 
-Sintef 
+ Sintef 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -17391,7 +17566,7 @@ key "xamarin"
 
 \end_inset
 
-Xamarin 
+ Xamarin 
 \begin_inset Flex URL
 status collapsed
 
@@ -17405,16 +17580,35 @@ http://xamarin.com
 
 \end_layout
 
-\begin_layout Standard
-[x] http://www.appcelerator.com
-\begin_inset Newline newline
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "appcelerator"
+
 \end_inset
 
-[x]EUS - Diagnostic and Interventional Endoscopic Ultrasound
-\begin_inset Newline newline
+ Appcelerator 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.appcelerator.com
+\end_layout
+
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
+
+\end_inset
+
+ EUS - Diagnostic and Interventional Endoscopic Ultrasound 
 \begin_inset Flex URL
 status collapsed
 
@@ -17426,14 +17620,16 @@ https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Helsinki Microneurosurgery Basics and Tricks"
+
 \end_inset
 
-[x] Helsinki Microneurosurgery Basics and Tricks
-\begin_inset Newline newline
-\end_inset
-
- 
+ Helsinki Microneurosurgery Basics and Tricks 
 \begin_inset Flex URL
 status collapsed
 
@@ -17445,14 +17641,16 @@ https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Waterfall Model design"
+
 \end_inset
 
-[x] Waterfall Model design
-\begin_inset Newline newline
-\end_inset
-
-
+ Waterfall Model design 
 \begin_inset Flex URL
 status collapsed
 
@@ -17464,18 +17662,37 @@ http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "latex-project"
+
 \end_inset
 
-[x] http://www.latex-project.org 
-\begin_inset Newline newline
+ latex-project 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.latex-project.org
+\end_layout
+
 \end_inset
 
-[x]Kruchten, Philippe (1995, November)
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Kruchten, Philippe (1995, November)"
+
 \end_inset
 
-
+ Kruchten, Philippe (1995, November) 
 \begin_inset Flex URL
 status collapsed
 
@@ -17487,90 +17704,405 @@ http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "lyx"
+
 \end_inset
 
-[x] http://www.lyx.org 
-\begin_inset Newline newline
+ Lyx 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.lyx.org
+\end_layout
+
 \end_inset
 
-[x] http://docs.google.com 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "google docs"
+
 \end_inset
 
-[x] http://drive.google.com 
-\begin_inset Newline newline
+ google docs 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://docs.google.com
+\end_layout
+
 \end_inset
 
-[x] http://www.appcelerator.com 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "google drive"
+
 \end_inset
 
-[x] http://www.eclipse.org 
-\begin_inset Newline newline
+ google drive 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://drive.google.com
+\end_layout
+
 \end_inset
 
-[x] http://www.xamarin.com 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "eclipse"
+
 \end_inset
 
-[x] http://en.wikipedia.org/wiki/JavaScript 
-\begin_inset Newline newline
+ Eclipse 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.eclipse.org
+\end_layout
+
 \end_inset
 
-[x] http://php.net 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "JavaScript"
+
 \end_inset
 
-[x] http://www.json.org 
-\begin_inset Newline newline
+ JavaScript 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/JavaScript
+\end_layout
+
 \end_inset
 
-[x] http://en.wikipedia.org/wiki/Java_(programming_language)
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "php"
+
 \end_inset
 
-[x] http://www.eclipse.org/
-\begin_inset Newline newline
+ php 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://php.net
+\end_layout
+
 \end_inset
 
-[x] http://Git-scm.com 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "json"
+
 \end_inset
 
-[x] http://www.Github.com 
-\begin_inset Newline newline
+ json 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.json.org
+\end_layout
+
 \end_inset
 
-[x] http://subversion.apache.org/
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Java_(programming_language)"
+
 \end_inset
 
-[x] http://www.facebook.com 
-\begin_inset Newline newline
+ Java_(programming_language) 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Java_(programming_language)
+\end_layout
+
 \end_inset
 
-[x] http://www.teamviewer.com 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Git-scm"
+
 \end_inset
 
-[x] http://www.mysql.com 
-\begin_inset Newline newline
+ Git-scm 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://Git-scm.com
+\end_layout
+
 \end_inset
 
-[x] http://alexdp.free.fr/violetumleditor/page.php 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Github"
+
 \end_inset
 
-[x] http://www.apache.com 
-\begin_inset Newline newline
+ Github 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.Github.com
+\end_layout
+
 \end_inset
 
-[x] http://www.idi.ntnu.no/emner/tdt4145/programvare/VisualER/ 
-\begin_inset Newline newline
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "subversion"
+
 \end_inset
 
-[x] http://balsamiq.com/products/mockups/ [x] http://rallydev.com
+ Subversion 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://subversion.apache.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "facebook"
+
+\end_inset
+
+ Facebook 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.facebook.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "teamviewer"
+
+\end_inset
+
+ Teamviewer 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.teamviewer.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "mysql"
+
+\end_inset
+
+ Mysql 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.mysql.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "apache"
+
+\end_inset
+
+ Apache 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.apache.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "violetumleditor"
+
+\end_inset
+
+ Violet UML editor 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://alexdp.free.fr/violetumleditor/page.php
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "VisualER"
+
+\end_inset
+
+ VisualER 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.idi.ntnu.no/emner/tdt4145/programvare/VisualER/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "balsamiq"
+
+\end_inset
+
+ Balsamiq 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://balsamiq.com/products/mockups/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "rally"
+
+\end_inset
+
+ Rally 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://rallydev.com
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
