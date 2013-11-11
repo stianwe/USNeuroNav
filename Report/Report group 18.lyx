@@ -1968,10 +1968,6 @@ Report writing
 
 \begin_layout Paragraph
 Lyx and LaTeX
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1996,10 +1992,6 @@ The reason why Lyx was chosen for writing the document, is that it provides
 
 \begin_layout Paragraph
 Google Drive and Docs
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2023,10 +2015,6 @@ To store and distribute files between the team members, Google Drive [x]
 
 \begin_layout Paragraph
 Violet UML editor
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2045,10 +2033,6 @@ For this project, Violet UML editor is used to draw the use case diagrams,
 
 \begin_layout Paragraph
 Visual ER
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2063,11 +2047,7 @@ Visual ER [x] is a very simple Java based tool to create ER diagrams.
 \end_layout
 
 \begin_layout Paragraph
-Balsamiq mockups
-\begin_inset Newline newline
-\end_inset
-
- 
+Balsamiq mockups 
 \end_layout
 
 \begin_layout Standard
@@ -2086,10 +2066,6 @@ nt that needed to be made.
 
 \begin_layout Subsubsection
 Administration
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2097,14 +2073,14 @@ Many of these choices were made because all the group members had experience
  using these tools and they all provided the features we required.
  The selection of already familiar tools enabled us to put more time into
  actual development and less time into learning new auxiliary tools.
-\end_layout
-
-\begin_layout Paragraph
-Facebook 
 \begin_inset Newline newline
 \end_inset
 
 
+\end_layout
+
+\begin_layout Paragraph
+Facebook 
 \end_layout
 
 \begin_layout Standard
@@ -2137,10 +2113,6 @@ The reason why the team uses Facebook is that all team members had experience
 
 \begin_layout Paragraph
 TeamViewer 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2162,10 +2134,6 @@ lly), easy to set up, and that the team members already have some experience
 
 \begin_layout Paragraph
 Rally
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2181,18 +2149,10 @@ Rally [x] is a cloud-based solution for managing the agile development lifecycle
 
 \begin_layout Subsubsection
 Development
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
 Titanium and JavaScript
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2294,10 +2254,6 @@ JavaScript [x] is a prototype-based scripting language with dynamic typing.
 
 \begin_layout Paragraph
 PHP
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2325,10 +2281,6 @@ The reason why PHP was chosen is that it is very simple to use for small
 
 \begin_layout Paragraph
 JSON
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2355,10 +2307,6 @@ The reason why JSON is used for this communication is that it is very well
 
 \begin_layout Paragraph
 MySQL
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2390,16 +2338,8 @@ The reason why the team uses MySQL is that it is free to use, and that all
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Paragraph
 Apache HTTP Server
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2417,22 +2357,66 @@ The Apache HTTP Server is used in this project to host the media files for
 
 \end_layout
 
-\begin_layout Paragraph
-Git and GitHub
+\begin_layout Paragraph*
+Java
+\end_layout
+
+\begin_layout Standard
+Java [x] is a concurrent, class-based and object-oriented programming language
+ that is designed to run on as many platforms as possible.
+ We chose to use Java to develop the admin tool, mainly because of the cross-pla
+tform feature, but also because all the team members have programmed a lot
+ in Java before, and it was probably the language all the team members was
+ the most comfortable with.
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\begin_layout Paragraph
+Eclipse
+\end_layout
+
 \begin_layout Standard
-Which mentioned under 2.3, Versioning Control, we use Git [x] for versioning
- control, both for the report and the code.
+Eclipse [x] is a multi-language integrated development environment (IDE).
+ It is very suitable for Java development, and it also has an integrate
+ git tool.
+ 
+\end_layout
+
+\begin_layout Standard
+We chose to use Eclipse for Java development because it is very easy to
+ use, but it also has many handy functions.
+ All team members was also more familiar with Eclipse, than for example
+ NetBeans.
+ Pure text editors like Notepad++, vim, Emacs, etc.
+ was also considered, but ruled out, because of Eclipse's auto-completion
+ of code.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Version Control 
+\end_layout
+
+\begin_layout Paragraph
+Git and GitHub
+\end_layout
+
+\begin_layout Standard
+We use Git [x] for versioning control, both for the textual documents and
+ source code.
  The Git server we use is GitHub [x].
  Git is a distributed revision control and source code management system.
  We use Git for versioning control because it is quite easy to use, it provides
  both a shell and a GUI, and the team members were already familiar with
- it.
+ it, as opposed to for example SVN [x].
+ Git is also much faster than SVN, and provides better auditing of branch
+ and merge events.
 \end_layout
 
 \begin_layout Standard
@@ -2441,33 +2425,11 @@ The reason why we use GitHub as the Git server, is that it is free to use,
  to manage pull requests, issues, etc.
  The project's GitHub repository can be found at http://Github.com/stianwe/USNeur
 oNav.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Paragraph*
-Eclipse/Java for adminapp sTIAN ALL CAPS
-\end_layout
-
-\begin_layout Subsubsection
-Version Control STIan
 \end_layout
 
 \begin_layout Standard
-As mentioned we chose Git to be our version control system for both the
- textual documents and the source code.
- Most of the group members had experience with Git, so other options, like
- SVN, were not a good solution because we had a little to no experience
- with it.
- Git is much faster than Subversion and provides better auditing of branch
- and merge events.
- Git is a free and open source distributed version control system designed
- to handle everything from small to very large projects with speed and efficienc
-y.
- Every group member has a copy of the repository locally, and synchronize
- their repositories through the server.
+With git every group member has a copy of the repository locally, and synchroniz
+e their repositories through the server.
  We chose to use Git, since this ensures that all group members can work
  on the code and report, regardless of the status of the server.
  This also means that we have many backups of the entire repository if something
@@ -2478,11 +2440,6 @@ y.
  destroy each others work without knowing it.
  Git supports quick branching and merging, and includes specific tools for
  navigating a non-linear development history.
- 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -17825,11 +17782,23 @@ http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
 \begin_inset Newline newline
 \end_inset
 
+[x] http://en.wikipedia.org/wiki/Java_(programming_language)
+\begin_inset Newline newline
+\end_inset
+
+[x] http://www.eclipse.org/
+\begin_inset Newline newline
+\end_inset
+
 [x] http://Git-scm.com 
 \begin_inset Newline newline
 \end_inset
 
 [x] http://www.Github.com 
+\begin_inset Newline newline
+\end_inset
+
+[x] http://subversion.apache.org/
 \begin_inset Newline newline
 \end_inset
 
