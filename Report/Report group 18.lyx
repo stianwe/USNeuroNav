@@ -13357,7 +13357,7 @@ Occurring Risks
 \end_layout
 
 \begin_layout Standard
-The risks that came to life during sprint 2 is summarized in the table below,
+The risks that came to life during sprint 3 is summarized in the table below,
  along with the actions taken.
 \begin_inset Newline newline
 \end_inset
@@ -13545,6 +13545,18 @@ unfinnished
  applications on the App Store, alternative methods was to be researched.
 \end_layout
 
+\begin_layout Standard
+At the end of print 3, we had another meeting with the customer to show
+ the progress of sprint 3, and to discuss the goals of sprint 4.
+ The customer liked the idea of the admin tool for uploading new cases,
+ registering new users, etc., but thought navigating through the menus was
+ a little of a hazzle, and wanted the admin tool to be able to read information
+ from a text file, and upload cases that way.
+ Other than this, and a few bugs that the team already were aware of (see
+ sprint 4 for details), he was happy with the application, and thought that
+ no new features were necessary.
+\end_layout
+
 \begin_layout Subsection
 Sprint Evaluation
 \end_layout
@@ -13584,16 +13596,824 @@ The duration of sprint 3 was from 30th of October to 8th of November.
 Sprint goals
 \end_layout
 
+\begin_layout Standard
+During sprint 4, the final sprint, the main goal was to get the application
+ as polished as possible.
+ This involved fixing several bugs:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="85text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+#
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bug
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The application crashed sometimes when opening the 
+\begin_inset Quotes eld
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+ section of a case with many images
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Video playback did not stop when leaving the video view
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The application rotates with only small 
+\begin_inset Quotes eld
+\end_inset
+
+tilting
+\begin_inset Quotes erd
+\end_inset
+
+, making it seem a bit unstable
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+When opening the images of a case for the first time, the initial zoom was
+ way to large, and it was not possible to zoom out
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The application rotates with only small 
+\begin_inset Quotes eld
+\end_inset
+
+tilting
+\begin_inset Quotes erd
+\end_inset
+
+, making it seem a bit unstable.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+After entering full screen when viewing a video, zooming is no longer possible,
+ even when leaving full screen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+ on a case with many images, makes the application seem to 
+\begin_inset Quotes eld
+\end_inset
+
+hang
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In sprint 3, we added a loading animation, which worked very well on the
+ iPhone, but were a bit to bright on the iPhone
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The customer did not fully agree on the category hierarchy.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Discovered bugs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In addition, we wanted to implement the admin tool's new feature, suggested
+ by the customer at the end of sprint 3, to be able to read information
+ from a text file to upload new cases.
+\end_layout
+
+\begin_layout Standard
+Finally, the customer wanted us to show the mobile application to some co-worker
+s of the customer.
+ These users were right in the middle of the target user group.
+ To be able to do this, we had to find a way to distribute the application
+ without the need of connecting all the devices to a Mac.
+\end_layout
+
 \begin_layout Subsubsection
 Sprint backlog
+\end_layout
+
+\begin_layout Standard
+Kristoffer
 \end_layout
 
 \begin_layout Subsection
 System Burndown Chart
 \end_layout
 
+\begin_layout Standard
+Marthe
+\end_layout
+
 \begin_layout Subsection
 Implementation
+\end_layout
+
+\begin_layout Standard
+Bug #1 was a result of long loading time when opening many images at once,
+ with a slow internet conneciton.
+ When an iOS application does not repsond withing 10 seconds or so, it is
+ killed by the operating system.
+ As we saw it, we had two possible solutions for this:
+\end_layout
+
+\begin_layout Enumerate
+Implement some sort of caching or buffering of images
+\end_layout
+
+\begin_layout Enumerate
+Reduce the number of images for some large cases
+\end_layout
+
+\begin_layout Standard
+As were concluded at the meeting with the surgeons, a case should not contain
+ that many images, to not make a case too messy.
+ Option 2 was therefore a very tempting solution, but perhaps not very pretty.
+ We therefore implemented a very simple form for caching, where the last
+ opened case always was cached locally, to reduce loading time, and the
+ chance for the application to be killed.
+\end_layout
+
+\begin_layout Standard
+Bug #4 was quite hard to replicate.
+ It seemed that when opening a the images of a case for the first time ever
+ (after installing the application, not after restart), the image was zoomed
+ in, without the possibility to zoom out.
+ Since the images had a very high resolution, they had to be scaled down
+ a little before being displayed.
+ This usually worked as expected, but not the very first time.
+ This was solved by caching the image locally, and then calculating the
+ size and the zoom, not doing it on the fly as before.
+\end_layout
+
+\begin_layout Standard
+Bug #7 was reduced by implementing local caching, but was not fully fixed.
+\end_layout
+
+\begin_layout Standard
+Bug #8 was not really a software bug, but miscommunication with the customer
+ when entering categories into the database.
+ This was fixed very easily by altering the database content slightly.
+\end_layout
+
+\begin_layout Standard
+The team were not able to fix the remaining bugs in sprint 4 due to lack
+ of time.
+\end_layout
+
+\begin_layout Standard
+Final bug status, after sprint 4:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="80text%">
+<column alignment="left" valignment="top" width="10text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+#
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bug
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Status
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The application crashed sometimes when opening the 
+\begin_inset Quotes eld
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+ section of a case with many images
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Partly fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Video playback did not stop when leaving the video view
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The application rotates with only small 
+\begin_inset Quotes eld
+\end_inset
+
+tilting
+\begin_inset Quotes erd
+\end_inset
+
+, making it seem a bit unstable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+When opening the images of a case for the first time, the initial zoom was
+ way to large, and it was not possible to zoom out
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The application rotates with only small 
+\begin_inset Quotes eld
+\end_inset
+
+tilting
+\begin_inset Quotes erd
+\end_inset
+
+, making it seem a bit unstable.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+After entering full screen when viewing a video, zooming is no longer possible,
+ even when leaving full screen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Not fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+ on a case with many images, makes the application seem to 
+\begin_inset Quotes eld
+\end_inset
+
+hang
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In sprint 3, we added a loading animation, which worked very well on the
+ iPhone, but were a bit to bright on the iPhone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Partly fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The customer did not fully agree on the category hierarchy.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fixed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sprint 4 final bug report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Making the admin tool read from a text file and create cases using the informati
+on there, was implemented simply by creating a thin layer over the admin
+ tool.
+ This layer simply read from a file, converts the information there into
+ the commands that the admin tool expects, and runs the admin tool.
+ The format of the input text file must be like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="1">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="80text%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+case name
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+categories
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+public description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+private description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+path to media files
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+visibility of case
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Admin tool input file format
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -13609,7 +14429,7 @@ Occurring Risks
 \end_layout
 
 \begin_layout Standard
-The risks that came to life during sprint 2 is summarized in the table below,
+The risks that came to life during sprint 4 is summarized in the table below,
  along with the actions taken.
 \begin_inset Newline newline
 \end_inset
@@ -13695,7 +14515,7 @@ Sick group member
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marthe, Kristoffer
+Marthe and Kristoffer was sick for a couple of days each
 \end_layout
 
 \end_inset
@@ -13733,7 +14553,7 @@ Absent group member
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marthe
+Marthe was away for one week
 \end_layout
 
 \end_inset
@@ -13774,7 +14594,7 @@ Noise from construction work
 \begin_inset Text
 
 \begin_layout Plain Layout
-We had our office in IT-bygget, and there were a lot of noise from construction
+We had our office in IT-bygget, and there was a lot of noise from construction
  work at that time.
 \end_layout
 
@@ -13789,7 +14609,7 @@ Sometimes we had to leave the office, and work in the cafeteria or other
 \end_layout
 
 \begin_layout Plain Layout
-We could not move the iMac, as we agreed wiht the customer that it should
+We could not move the iMac, as we agreed with the customer that it should
  at all time be locked in the office, so we had to work in the noise when
  working with the application.
 \end_layout
@@ -13896,7 +14716,37 @@ classes
 \end_layout
 
 \begin_layout Standard
-INSERT NEW CLASS DIAGRAM
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/NewClassDiagram.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modified class diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
