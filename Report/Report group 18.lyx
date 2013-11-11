@@ -4764,7 +4764,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC1
+RQ1
 \end_layout
 
 \end_inset
@@ -4830,7 +4830,7 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-The user should be ablo to browse through a structure of categories which
+The user should be able to browse through a structure of categories which
  contains cases
 \end_layout
 
@@ -4897,7 +4897,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC2
+RQ1
 \end_layout
 
 \end_inset
@@ -5030,7 +5030,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC3
+RQ2
 \end_layout
 
 \end_inset
@@ -5162,7 +5162,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC4
+FR02
 \end_layout
 
 \end_inset
@@ -5303,7 +5303,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC5
+RQ5
 \end_layout
 
 \end_inset
@@ -5436,7 +5436,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC6
+FR04
 \end_layout
 
 \end_inset
