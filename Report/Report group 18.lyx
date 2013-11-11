@@ -15644,6 +15644,13 @@ Admin tool input file format
 
 \end_layout
 
+\begin_layout Standard
+To distribute the mobile application without using a Mac, we used a web
+ service called Test Flight, which let us upload a mobile application build
+ to the web, add the UDID's of the devices that should have access, and
+ then download the application from the web, using a mobile phone.
+\end_layout
+
 \begin_layout Subsection
 Testing
 \end_layout
@@ -15878,8 +15885,27 @@ Occurring risks
 Customer Feedback
 \end_layout
 
+\begin_layout Standard
+The feedback from the customer after sprint 4 was very positive.
+ He was very happy with how many features we had implemented, and how they
+ looked.
+ He did, of course, not like that the application was not completely free
+ of bugs, so we promised to look at them if we could make time for it.
+ Other than that, he thought the application was a good foundation to build
+ on top of, and even asked if we wanted to continue with the project when
+ writing our master.
+\end_layout
+
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Subsubsection
+What went well during this sprint
+\end_layout
+
+\begin_layout Subsubsection
+What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
