@@ -9736,14 +9736,14 @@ Sprints
 
 \begin_layout Section
 Sprint 1
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
 Sprint Planning
+\end_layout
+
+\begin_layout Standard
+The duration of sprint 1 was from 18th of September to 1th of October.
 \end_layout
 
 \begin_layout Standard
@@ -9812,22 +9812,6 @@ developers
 \begin_layout Standard
 An additional goal of the sprint was to start working with Rally, to keep
  track of the backlog and the assigning of tasks.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Sprint duration
-\end_layout
-
-\begin_layout Standard
-The duration of sprint 1 was from 18th of September to 1th of October.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -11332,10 +11316,6 @@ Burndown Chart Sprint 1
 
 \begin_layout Subsection
 Implementation
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -11513,10 +11493,6 @@ When a case was selcted, the case's images and videos would have to be displayed
  We had discussed the possibility for a thumbnails view or something similar
  also, but no decision about this had been made, and at this point we were
  postponing this until the customer could have his say on the matter.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -12115,14 +12091,6 @@ As the customer was away travelling during the whole sprint, all contact
 , by reading them from the SQL database.
  The categories in the demo were only examples.
  Other than these few comments, the customer agreed with our design choices.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -12154,10 +12122,6 @@ learning by doing
  were chosen (Titanium vs Xamarin), as they felt they would be more productive
  writing code in C# than JavaScript, considering that JavaScript in theory
  does not support classes.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -12176,10 +12140,6 @@ The development phase turned out very good, given the odds.
 We didn't have much progress on the report early in the sprint, but during
  the last week og the sprint, we really produced a lot of good content,
  which we were very happy with.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -12216,6 +12176,10 @@ Sprint Planning
 \end_layout
 
 \begin_layout Standard
+The duration of sprint 2 was from 2th of October to 15th of October.
+\end_layout
+
+\begin_layout Standard
 We almost managed to be done with every task from the previous sprint, there
  was only two tasks that had to be pushed to the backlog of sprint 2.
  
@@ -12243,18 +12207,6 @@ The customer came back from his trip the 9th October, wich was in the midle
 \end_layout
 
 \begin_layout Subsubsection
-Sprint duration
-\end_layout
-
-\begin_layout Standard
-The duration of sprint 2 was from 2th of October to 15th of October.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
 Sprint goals
 \end_layout
 
@@ -12270,18 +12222,10 @@ The main goal of the sprint was to have written as much as possible of the
 On the report, we wanted to be finnish writing the hole Part 1, and the
  chapters of Sprint 1.
  We also wanted to begin writing on the chapters of sprint 2.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
 Sprint backlog
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -13042,10 +12986,6 @@ ly zooming and tilting of pictures and videos.
 \begin_layout Standard
 At the end of the sprint, we did not have a meeting, since there were no
  new implementation of the application in this sprint
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -13264,10 +13204,6 @@ What went well during this sprint
 We had a great progress on the report during this sprint.
  We managed to be finish with almost every tasks of this sprints backlog,
  and there were no hurry during this sprint.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -13297,20 +13233,12 @@ Sprint 3
 Sprint Planning
 \end_layout
 
-\begin_layout Subsubsection
-Sprint duration
-\end_layout
-
 \begin_layout Standard
 The duration of sprint 3 was from 16th of October to 29th of October.
 \end_layout
 
-\begin_layout Subsubsection
-Sprint goals
-\end_layout
-
 \begin_layout Standard
-The goal of sprint 3 was to pick up where we left off at sprint 1 on the
+The plan for sprint 3 was to pick up where we left off at sprint 1 on the
  development part.
  During a meeting with the customer in sprint 2, we received some feedback
  regarding the display of media files.
@@ -13383,6 +13311,16 @@ The reason why we set so ambitious goals regarding the amount of implementation
  for sprint 3 is that we laid a very thorough foundation in sprint 1, wich
  made it quite easy to add new features, and that we did not have the time
  or opportunity to do any coding during sprint 2.
+\end_layout
+
+\begin_layout Subsubsection
+Sprint goals
+\end_layout
+
+\begin_layout Standard
+The goals for sprint 3 was to implement the feature requests from the customer,
+ and also to have some progress on the functional requirements, by implementing
+ separation.
 \end_layout
 
 \begin_layout Subsubsection
@@ -14242,7 +14180,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+117 
 \end_layout
 
 \end_inset
@@ -14251,7 +14189,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+122
 \end_layout
 
 \end_inset
@@ -14280,6 +14218,51 @@ Sprint 3 backlog
 
 \begin_layout Subsection
 System Burndown Chart
+\end_layout
+
+\begin_layout Standard
+The figure below shows the burndown chart for this sprint.
+ We managed to finish almost every task in this sprint, and we had estimated
+ the effort more realistic.
+ We felt like we had a good progress with the work
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Burndown Chart Sprint 3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Burndown Chart Sprint 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -14725,21 +14708,13 @@ Sprint 4
 Sprint Planning
 \end_layout
 
-\begin_layout Subsubsection
-Sprint duration
-\end_layout
-
 \begin_layout Standard
 The duration of sprint 3 was from 30th of October to 8th of November.
 \end_layout
 
-\begin_layout Subsubsection
-Sprint goals
-\end_layout
-
 \begin_layout Standard
-During sprint 4, the final sprint, the main goal was to get the application
- as polished as possible.
+During sprint 4, the final sprint, the plan was to get the application as
+ polished as possible.
  This involved fixing several bugs:
 \end_layout
 
@@ -15021,12 +14996,734 @@ s of the customer.
  without the need of connecting all the devices to a Mac.
 \end_layout
 
+\begin_layout Standard
+Also, we planned to pick up on the report, and really get some progress
+ going there, by writing what remained about the sprints, conclusion, and
+ start on the evaluation part.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Sprint goals
+\end_layout
+
+\begin_layout Standard
+The goals for sprint 4 was to polish the app a little by fixing som bugs,
+ and to get a lot of progress on the report.
+\end_layout
+
 \begin_layout Subsubsection
 Sprint backlog
 \end_layout
 
 \begin_layout Standard
+The sprint backlog for this sprint is shown in the table below.
+ It shows all the use case stories, with tasks and estimated effort that
+ was planned for this sprint.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="5">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Task
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main responsible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estimated cost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Real cost
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ2.3 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Caching of images
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ7.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Icons and UI elements
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ8.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Upload by textfiles
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ8.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Admintool bugfixing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ10.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Finalize database contents
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ11.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final testing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kristoffer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ11.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bugfixing 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RQ11.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Make app distributable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R1.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sprint 4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R1.13 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R1.14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Evaluation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Report
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sum
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+104
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sprint 4 backlog
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
