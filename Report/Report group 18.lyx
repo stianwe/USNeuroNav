@@ -3699,47 +3699,35 @@ Functional Requirements
 \begin_layout Standard
 In this section the funktional requirements for the system are given and
  expleined in detail.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 All requirements are assigned one of four possible priority values.
  Critical, high, medium and low.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Critical prioritized requirements are the most important and the system
  will not be approved if it's not implemented.
  
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 High prioritized requirements are important for the customer, but these
  requirements wil be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Medium prioritized requirements are not that important for the customer
  as the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Low prioritized requirements are 
 \begin_inset Quotes eld
 \end_inset
@@ -3754,9 +3742,9 @@ nice to have requirements
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 The tabels below contains an overall description of the functional requirements
  are given, its priorities and the identification we will use later for
  reference.
@@ -3781,308 +3769,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Functional Requirements with priority
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="2">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-ID
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Functional Requirement
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR01
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Browse cases
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR02
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Show pictures
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR03
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Play video
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR04
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Search for cases
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR05
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log in
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Registration
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR07
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Save pictures to phone
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR08
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Save videos to phone
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR09
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Separation of data
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR10
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Upload data to server
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Quiz-Game
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Quotes eld
-\end_inset
-
-Like
-\begin_inset Quotes erd
-\end_inset
-
- function to pictures
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Functional Requirements with identification keys
+Overall Functional Requirements with priority
 \end_layout
 
 \end_inset
@@ -4183,7 +3870,7 @@ This is a description of the use case diagram
 
 \end_layout
 
-\begin_layout Subparagraph*
+\begin_layout Standard
 
 \shape italic
 \begin_inset Tabular
@@ -4297,37 +3984,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="60text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be ablo to browse through a
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-structure of categories which contains cases
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The user should be ablo to browse through a structure of categories which
+ contains cases
 \end_layout
 
 \end_inset
@@ -4459,37 +4117,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be able to browse sub-categories
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-of a category by selecting a category
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
- 
+The user should be able to browse sub-categories of a category by selecting
+ a category
 \end_layout
 
 \end_inset
@@ -4621,37 +4250,7 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be able to select
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-and view a case by clicking on it
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
- 
+The user should be able to select and view a case by clicking on it 
 \end_layout
 
 \end_inset
@@ -4783,42 +4382,13 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be able to view all images belonging to
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-a selected case, and navigate between them by 
+The user should be able to view all images belonging to a selected case,
+ and navigate between them by 
 \begin_inset Quotes eld
 \end_inset
 
 swiping
 \begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
 \end_inset
 
 
@@ -4985,48 +4555,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be able to select a set of cases, 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
- videos and images, which the phone 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-should cache locally for offline access
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The user should be able to select a set of cases, videos and images, which
+ the phone should cache locally for offline access
 \end_layout
 
 \end_inset
@@ -5158,37 +4688,7 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be able to search for cases
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-using keywords.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The user should be able to search for cases using keywords.
 \end_layout
 
 \end_inset
@@ -5320,48 +4820,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-A registered user should be able to browse cases 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-labeled as non-public (private),
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
- which an unregistered user shouldn't
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+A registered user should be able to browse cases labeled as non-public (private)
+, which an unregistered user shouldn't
 \end_layout
 
 \end_inset
@@ -5493,37 +4953,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-A registered user should be able to log in
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-by supplying a user name and password
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+A registered user should be able to log in by supplying a user name and
+ password
 \end_layout
 
 \end_inset
@@ -5655,37 +5086,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The application should be able to fetch a collection
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-of cases and their categories from the database
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The application should be able to fetch a collection of cases and their
+ categories from the database
 \end_layout
 
 \end_inset
@@ -5817,37 +5219,7 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The server should be able to verify
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-user identification against the database
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The server should be able to verifyuser identification against the database
 \end_layout
 
 \end_inset
@@ -6013,37 +5385,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The admin should be able to define if a case 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-(or image/video) is public or registered-only
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The admin should be able to define if a case (or image/video) is public
+ or registered-only
 \end_layout
 
 \end_inset
@@ -6175,37 +5518,7 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The admin should be able to create
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-a new case with media files
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+The admin should be able to create a new case with media files
 \end_layout
 
 \end_inset
@@ -6337,37 +5650,7 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 The admin should be able to register a new user
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -6499,27 +5782,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="90text%">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The admin should be able to create a new category,
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-and add sub-/super-categories to it
+The admin should be able to create a new category, and add sub-/super-categories
+ to it
 \end_layout
 
 \end_inset
@@ -6532,10 +5796,28 @@ and add sub-/super-categories to it
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Use Case Description
+\end_layout
+
 \end_inset
-</cell>
-</row>
-</lyxtabular>
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -6549,47 +5831,35 @@ Non-Functional Requirements
 \begin_layout Standard
 In this section the non-funktional requirements for the system are given
  and expleined in detail.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 All requirements are assigned one of four possible priority values.
  Critical, high, medium and low.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Critical prioritized requirements are the most important and the system
  will not be approved if it's not implemented.
  
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 High prioritized requirements are important for the customer, but these
  requirements wil be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Medium prioritized requirements are not that important for the customer
  as the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Low prioritized requirements are 
 \begin_inset Quotes eld
 \end_inset
@@ -6650,6 +5920,10 @@ Mapping requirements into product backlog
 \begin_layout Standard
 In the table below is the projects product backlog which is derived from
  the project requirements.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -14927,6 +14201,38 @@ Status of the functional requirements
 
 \begin_layout Subsubsection
 Other functionality
+\end_layout
+
+\begin_layout Standard
+In addition to the functionality that we were not finished with, there is
+ many other features that could be developed to improove the system:
+\end_layout
+
+\begin_layout Itemize
+Take notes to an image - Any user could take notes for them selves to an
+ image and store it localy.
+ They could draw lines and write down their own thoughts and descriptions.
+ This could be helpful for own learning.
+\end_layout
+
+\begin_layout Itemize
+For each image there could be a skull showing where in the brain the image
+ was taken.
+\end_layout
+
+\begin_layout Itemize
+There could be a list showing all the images belonging to a case in miniature.
+\end_layout
+
+\begin_layout Itemize
+There could be possible to publish articles in the application so users
+ could learn more about ultrasound.
+ It could as well be used to give advise about how to use ultrasound imaging
+ during an operation.
+\end_layout
+
+\begin_layout Itemize
+There could be possible to refer to or give links to other sites.
 \end_layout
 
 \begin_layout Section
