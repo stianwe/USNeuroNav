@@ -378,14 +378,6 @@ Project Client
 \begin_layout Standard
 SINTEF and The National Competence Center for Ultrasound and Image Guided
  Therapy.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -403,12 +395,8 @@ create value through knowledge generation, research and innovation, and
 \begin_inset Quotes erd
 \end_inset
 
- (http://www.sintef.no/home/About-us/).
+ [x].
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -423,14 +411,6 @@ g closely in order to improve current methods and techniques for minimally
  The group consists of experts from SINTEF, NTNU and St.
  Olav's Hospital.
  (http://www.usigt.org/)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -445,14 +425,6 @@ The project sponsor and customer is SINTEF and The National Competence Center
  students, Kristoffer Hagen, Marthe Frogner Bekkevold and Stian Weie, and
  also the project supervisor, Anh Nguyen Duc.
  
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -472,14 +444,6 @@ The goal of the the project was to create a prototype application that our
  added later.
  Ultimately, as our prototype keeps being developed, the goal is for it
  to be used as a tool to spead the knowledge of ultrasound navigation.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -530,14 +494,6 @@ The National Competence Center for Ultrasound and Image Guided Therapy collects
  has a huge potential in this regard.
  In addition to presenting the available material it’s natural to investigate
  the possibility for extending the app to a serious game.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -566,22 +522,10 @@ This chapter describes the project plan, terms and team organisation.
  and a work break down structure.
  After that the organisation of the team and the risk management are presented,
  followed by quality assurance.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
 Project Plan
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -597,10 +541,6 @@ The goal of the project is to increase the awareness and knowledge surrounding
  to make a product the customer is satisfied with and believes can be used
  for its intended purpose.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -639,10 +579,6 @@ d together with the customer on 04.09.2013.
  allows doing this remotely from a non-mac.
  This could be a large advantage since we would probably only get access
  to one Mac.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -684,10 +620,6 @@ We are planning to deliver the final product to the customer 13.
  It should be noted that the report will be continuously updated as the
  project develops as well.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -698,10 +630,6 @@ Schedule of Result
 Scrum is being used for the development phase.
  After each sprint there will be deliveries which each of them should contribute
  towards a working system.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1764,10 +1692,6 @@ To prepare for unfortunate events that might occur during the project the
  The deadline is when the risk can arise.
  Probabilities for problem occurring and severity of consequences are denoted
  by H for ’high’, M for ’medium’ and L for ’low’.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1860,10 +1784,6 @@ Risk Matrix
 
 \begin_layout Subsection
 Project communication
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1896,10 +1816,6 @@ Approval of phase documents is to be done as soon as possible, max 48 hours.
 
 \begin_layout Standard
 Answer e-mails is to be done as soon as possible.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1929,10 +1845,6 @@ From September 20 onwards will meetings be held on Fridays at 12:15.
  This is because of our sprints satrts at Wednesdays, so it will be more
  convenient to have it in the middle of a sprint, when we have more questions
  and challenges, and it is easier to come on track in the development.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1948,14 +1860,6 @@ Unexpected absence is to be reported as soon as possible, preferably before
  the meetings.
  Planned absence is to be reported as soon as possible, so we can plan according
 ly.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -1984,10 +1888,6 @@ For writing the report, the team chose to write it in the document markup
 The reason why Lyx was chosen for writing the document, is that it provides
  the user with an easy to use interface, that still enables the user to
  make use of all the different options with LaTeX, and that it is open source.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2007,10 +1907,6 @@ To store and distribute files between the team members, Google Drive [x]
  was chosen.
  Google Docs is very closely integrated with Google Drive, so Google Drive
  became the obvious solution for the team.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2025,10 +1921,6 @@ Violet UML editor [x] is a cross-platform, easy to learn and use, UML editor,
 \begin_layout Standard
 For this project, Violet UML editor is used to draw the use case diagrams,
  sequence diagrams and class diagram.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2040,10 +1932,6 @@ Visual ER [x] is a very simple Java based tool to create ER diagrams.
  The team uses Visual ER because it was developed by NTNU students, is very
  easy to use, and that the students have good experience with it from other
  courses.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2058,10 +1946,6 @@ nt that needed to be made.
  We chose Balsamiq mockups because it had a free trial period, had support
  for creating iPhone GUIs and offered a simple, intuitive and easy to learn
  interface for creating and modifing GUI drafts.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2073,10 +1957,6 @@ Many of these choices were made because all the group members had experience
  using these tools and they all provided the features we required.
  The selection of already familiar tools enabled us to put more time into
  actual development and less time into learning new auxiliary tools.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2105,10 +1985,6 @@ wall
 \begin_layout Standard
 The reason why the team uses Facebook is that all team members had experience
  with Facebook, and check it regularily.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2126,10 +2002,6 @@ To access the iMac the team is borrowing from the customer remotely, the
 The reason why the team uses TeamViewer, is that it is free to use (non-comercia
 lly), easy to set up, and that the team members already have some experience
  with it.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2141,10 +2013,6 @@ Rally [x] is a cloud-based solution for managing the agile development lifecycle
 , such as assigning user stories/tasks to sprints, and to developers.
  We chose to use Rally because it is relatively easy to use, and that it
  is free for students.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2246,10 +2114,6 @@ write once, run everywhere
 JavaScript [x] is a prototype-based scripting language with dynamic typing.
  It is commonly used to make web pages dynamic, but is in this case compiled
  down to native code for mobile platforms by Titanium.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2273,10 +2137,6 @@ For this project, PHP is used as a tiny layer between the mobile application
 \begin_layout Standard
 The reason why PHP was chosen is that it is very simple to use for small
  scripts, and that it is well documented.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2299,10 +2159,6 @@ For this project, JSON is used for the communication between the PHP script
 \begin_layout Standard
 The reason why JSON is used for this communication is that it is very well
  supported in both PHP and JavaScript, and very easy to use.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2332,10 +2188,6 @@ MySQL is used on this project for storing the categories, and their relations
 \begin_layout Standard
 The reason why the team uses MySQL is that it is free to use, and that all
  team members have good experience with it beforehand.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2351,10 +2203,6 @@ Apache [x] is a very common web server.
 The Apache HTTP Server is used in this project to host the media files for
  the cases, and also host the PHP script which is a thin layer between the
  MySQL database and the mobile application.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph*
@@ -2368,10 +2216,6 @@ Java [x] is a concurrent, class-based and object-oriented programming language
 tform feature, but also because all the team members have programmed a lot
  in Java before, and it was probably the language all the team members was
  the most comfortable with.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2393,10 +2237,6 @@ We chose to use Eclipse for Java development because it is very easy to
  Pure text editors like Notepad++, vim, Emacs, etc.
  was also considered, but ruled out, because of Eclipse's auto-completion
  of code.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2451,14 +2291,6 @@ e their repositories through the server.
 
 \begin_layout Section
 Preliminary Studies
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2533,14 +2365,6 @@ easy
  The main problem with the current situation is therefore that experienced
  doctors have no experience with the new way of using DS, and also very
  limited possibilites of learning it.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2559,14 +2383,6 @@ The solution that the customer desires, is a simple method for doctors (and
  The customer already has a lot of relevant data that can be used, and also
  continously produce more, so what they need is only a tool for displaying
  and distributing it, so that it is easy to find, wherever the user is.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2599,10 +2415,6 @@ There is some similar solutions for the USNeuroNav App.
  staff.
  Consideration should be given to privacy, therefore not all systems are
  available for everyone.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2664,10 +2476,6 @@ This app is dedicated to endoscopic ultrasound education and has been developed
 
 \begin_layout Standard
 The app showes pictures and videoes of ultrasound images.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2729,14 +2537,6 @@ This app for Microneurosurgery contains the "Helsinki Microneurosurgery
  Additionally this app provides many operative videos and pictures which
  the book directly refers to and an interesting link to the Hernesniemi-Aescuap
  Fellowship.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2962,14 +2762,6 @@ In this section our choise for the lifecycle model is described.
  Fist we introduce the waterfall model and why we di not schose that, then
  a description of why we chose scrum, then we describe scum as a lifecycle
  model, and after that a description of scrum artefact and the scrum meetings.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -3042,14 +2834,6 @@ The disadvantages with the waterfall maodel is that no working software
  is produced until late during the life cycle.
  It cannot accommodate changing requirements, and generally handles all
  changes poorly.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -3105,14 +2889,6 @@ There ar many advantages for using scrum, for example managing risk and
  Focusing on the most valuable and most risky aspect of the project up front
  reduce the cost of failure and therefore give a greater understanding of
  risk in the project.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -3410,10 +3186,6 @@ The project is divided into sprints, which usually last between two to four
  on time or not.
  This is visible through the burndown chart, a graph which shows how much
  effort remains in the sprint at any given day.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -3439,10 +3211,6 @@ It is a meeting held at the start of each sprint.
  Each item in the sprint backlog will then be given an estimated effort
  on how long it will take to complete.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -3454,10 +3222,6 @@ It is a short meeting, not more than 10 - 15 minutes, at the start of each
  day during a sprint.
  Each member of the group updates the rest on what has been done since last
  meeting, what they will do today and if there is any problems.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -3472,10 +3236,6 @@ It is held after each sprint to review which tasks from the sprint backlog
  In this meeting the customer will be shown the current state of the product,
  and give feedback to the group.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -3505,14 +3265,6 @@ In this section the system requirements will be presented.
  First a description of the scope of the project, followed by definitions,
  then a describtion of the functional and non-functional requirements.
  At the end the product backlog wil be described.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -3576,15 +3328,6 @@ back
 \end_inset
 
  actually is.
- 
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -3601,10 +3344,6 @@ This is a public user who is interested in learning about the ultrasound
  There may be students, doctors or anyone who who wants access to such informati
 on.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -3616,10 +3355,6 @@ This is users within the organization.
  They have an interest of learning how to interpret ultrasound images, so
  they can know that all the cancer is removed during an operation.
  These users may be students as well as doctors.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -3631,14 +3366,6 @@ This is the user with authority to access the administration panel in the
  application.
  The administrator can manage the application by using interface made for
  that purpose.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -8374,10 +8101,6 @@ Backlog part 2
 
 \begin_layout Section
 Software Architecture
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -8390,10 +8113,6 @@ This chapter will describe the architechture of our application the way
  It will describe the different modules of our system and through different
  architectural views show how we have planned the structure and modularity
  of our system.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -8413,10 +8132,6 @@ The purpose of this is to give an overview of the architectural structure
  improve our system, with a proper documentation of our architecture it
  will be easier to change specific modules of our system without having
  to change the entire code.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -8430,14 +8145,6 @@ Chapter 6 will cover the important parts of the achitecture of our system.
  The logic and reasoning for our choices will also be discussed by the end
  of the chapter.
  
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -8492,10 +8199,6 @@ Finally, the customer enquired about the possibility of using the app offline.
  As a solution to this, a possibility for selecting some cases, images and/or
  videos, that the phone should download and store locally, were proposed,
  so that some data, that the user selects, will be available offline.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -8608,10 +8311,6 @@ frontal lobe
 \end_inset
 
 .
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -8625,10 +8324,6 @@ The MySQL database will only contain URL's to the images and videos, while
  The media files will be organized after cases, but will not contain any
  meta data at all.
  All of that will come from the database.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -8637,14 +8332,6 @@ Local caching
 
 \begin_layout Standard
 (To be done)
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -8951,10 +8638,6 @@ Architectural Viewpoints
 
 \begin_layout Subsection
 Views
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -8966,10 +8649,6 @@ The following four sequence diagrams shows how our system can be used by
  the end-users and how the different modules of the system communicates
  with eachother during use.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -9292,10 +8971,6 @@ classification
  and case hierarchy, and the media files references belonging to each case.
  It also provides a component for logging in, and one for communication
  with the database.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -9304,10 +8979,6 @@ Process view
 
 \begin_layout Subparagraph
 Browse activity diagram
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9398,10 +9069,6 @@ Browse activity diagram
 
 \begin_layout Subparagraph
 Search activity diagram
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9518,10 +9185,6 @@ Deployment diagram
 
 \begin_layout Paragraph
 Admin computer
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9530,18 +9193,10 @@ The admin computer is used to add categories and/or cases to the server.
  database server, using a connection to a PHP script.
  In addition, when adding a case, the admin can add media files to the case.
  This is done by uploading them to the web server, for instance using FTP.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
 Database server
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9563,18 +9218,10 @@ Data Storage
  relationship between them.
  In addition, a reference to the media files located on the web server is
  stored, for each case.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
 Web server
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9595,10 +9242,6 @@ The web server's task is to store and make available on the Internet, the
 
 \begin_layout Paragraph
 USNeuroNav, the mobile application
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9609,10 +9252,6 @@ USNeuroNav is the name of the mobile application, which can be run on smart
  This communication goes through a thin layer of PHP script, that actually
  reads the database, and passes on the information.
  The media files themself is fetched from the web server using regular HTTP.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -9621,14 +9260,6 @@ Scenarios
 
 \begin_layout Standard
 See chapter 5.4.1 and 5.4.2 for usecases and usecase diagrams .
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -9645,14 +9276,6 @@ We tried our best to stick to the traditional Model View Controller (MVC)
  the coding language (Javascript), we did run into some slight problems
  with sticking to MVC, but as we got more familiar with it, the problems
  seemed to be solved one by one.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -9784,10 +9407,6 @@ The main goal of this sprint was to have a running prototype which could
  Finally a goal for the report progress was to have a skeleton for the report
  in a LATEX document, with all written material previously written in Google
  Drive inserted.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -11476,10 +11095,6 @@ y.
  the data sent here would not be too large, and it would allow the client
  to stream the images and videos from the Apache web server, by sending
  the reference as URL's.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
@@ -11496,14 +11111,6 @@ When the application was booting up, the client would poll the server for
  in memory, and use this to generate the tree-structured navigation.
  The json object will also contain references to where the images and videos
  for each case can be streamed from, so these will also be stored locally.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -17737,6 +17344,25 @@ References
 \end_layout
 
 \begin_layout Standard
+[X] SINTEF- 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.sintef.no/home/About-us/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 [x] http://xamarin.com
 \begin_inset Newline newline
 \end_inset
