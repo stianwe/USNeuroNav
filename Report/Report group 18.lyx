@@ -4742,7 +4742,7 @@ Title:
 \begin_layout Plain Layout
 
 \series bold
-Browse categories for cases
+Browse categories
 \end_layout
 
 \end_inset
@@ -4764,7 +4764,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC1
+FR01
 \end_layout
 
 \end_inset
@@ -4830,141 +4830,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-The user should be ablo to browse through a structure of categories which
+The user should be able to browse through a hierarchy of categories which
  contains cases
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\shape italic
-Title:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Browse sub-categories for cases
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\shape italic
-Identifier: 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-UC2
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\shape italic
-Priority: 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Critical
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\shape italic
-Actors: 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Unregistered user and registered user
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\shape italic
-Brief description: 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The user should be able to browse sub-categories of a category by selecting
- a category
 \end_layout
 
 \end_inset
@@ -5030,7 +4897,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC3
+RQ2
 \end_layout
 
 \end_inset
@@ -5096,7 +4963,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-The user should be able to select and view a case by clicking on it 
+The user should be able to select a case and view its content by clicking
+ on it 
 \end_layout
 
 \end_inset
@@ -5162,7 +5030,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC4
+FR02
 \end_layout
 
 \end_inset
@@ -5228,8 +5096,8 @@ Brief description:
 \begin_inset Text
 
 \begin_layout Plain Layout
-The user should be able to view all images belonging to a selected case,
- and navigate between them by 
+The user should be able to view images belonging to the selected case, and
+ navigate them by 
 \begin_inset Quotes eld
 \end_inset
 
@@ -5254,6 +5122,139 @@ swiping
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Title:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Browse case videos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Identifier: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FR02
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Priority: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critical
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Actors: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unregistered user and registered user
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Brief description: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The user should be able to view the video(s) belonging to the case by selecting
+ them from a menu
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5303,7 +5304,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC5
+RQ5
 \end_layout
 
 \end_inset
@@ -5370,7 +5371,7 @@ Brief description:
 
 \begin_layout Plain Layout
 The user should be able to select a set of cases, videos and images, which
- the phone should cache locally for offline access
+ the phone should store locally for offline access
 \end_layout
 
 \end_inset
@@ -5436,7 +5437,7 @@ Identifier:
 \begin_inset Text
 
 \begin_layout Plain Layout
-UC6
+FR04
 \end_layout
 
 \end_inset
@@ -16204,6 +16205,13 @@ Admin tool input file format
 
 \end_layout
 
+\begin_layout Standard
+To distribute the mobile application without using a Mac, we used a web
+ service called Test Flight, which let us upload a mobile application build
+ to the web, add the UDID's of the devices that should have access, and
+ then download the application from the web, using a mobile phone.
+\end_layout
+
 \begin_layout Subsection
 Testing
 \end_layout
@@ -16438,8 +16446,27 @@ Occurring risks
 Customer Feedback
 \end_layout
 
+\begin_layout Standard
+The feedback from the customer after sprint 4 was very positive.
+ He was very happy with how many features we had implemented, and how they
+ looked.
+ He did, of course, not like that the application was not completely free
+ of bugs, so we promised to look at them if we could make time for it.
+ Other than that, he thought the application was a good foundation to build
+ on top of, and even asked if we wanted to continue with the project when
+ writing our master.
+\end_layout
+
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Subsubsection
+What went well during this sprint
+\end_layout
+
+\begin_layout Subsubsection
+What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
