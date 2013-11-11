@@ -15331,7 +15331,7 @@ complete
 \begin_inset Quotes eld
 \end_inset
 
-unfinnished
+unfinished
 \begin_inset Quotes erd
 \end_inset
 
@@ -15358,8 +15358,32 @@ Sprint Evaluation
 What went well during this sprint
 \end_layout
 
+\begin_layout Standard
+Sprint 3 was very focused on the development part.
+ We made very good progress, both on the mobile application itself, but
+ also on the admin tool that we created.
+ The mobile application was approaching a state where the team felt that
+ all major requirements had been implemented, and only bug fixing and polishing
+ remained.
+ Considering that we decided to add a fourth sprint where some development
+ also should take place, we were ahead of schedual with the development.
+\end_layout
+
 \begin_layout Subsubsection
 What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+During sprint 3, Marthe was the only person assigned to work with the report.
+ Prior to sprint 3, we felt that we were ahead of schedual regarding the
+ report, so we did not stress report writing that much.
+ Marthe was, however, travelling a whole week, and was also sick a couple
+ of days, so the report saw minimal progress.
+ This might have been a mistake, and one more person should perhaps have
+ used for example half the sprint to write on the report, to not fall too
+ far behind.
+ This means that for sprint 4, the final sprint, we might have to down prioritiz
+e bug fixing, and instead focus solely on the report.
 \end_layout
 
 \begin_layout Standard
