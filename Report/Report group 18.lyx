@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage[nottoc]{tocbibind} 
+\end_preamble
 \use_default_options true
 \begin_modules
 tabs-within-sections
@@ -395,7 +398,14 @@ create value through knowledge generation, research and innovation, and
 \begin_inset Quotes erd
 \end_inset
 
- [x].
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sintef"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -566,7 +576,14 @@ The customer had a very clear requirement that the project results in an
 The specific tools for developing this application was scheduled to be determine
 d together with the customer on 04.09.2013.
  Many frameworks had been investigated and tested, and prior to the meeting,
- two clear alternatives remained, Xamarin[x] and Appcelerated’s Titanium[x].
+ two clear alternatives remained, Xamarin
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xamarin"
+
+\end_inset
+
+ and Appcelerated’s Titanium[x].
  The reason for this was that these two both provided cross-platform development
  and that they had the possibility of creating applications that look and
  feel like native applications.
@@ -17339,18 +17356,23 @@ Use Case: Technique that specify the interaction between the user and the
  system.
 \end_layout
 
-\begin_layout Section
-References
-\end_layout
-
 \begin_layout Standard
-[X] SINTEF- 
-\begin_inset Newline newline
+\begin_inset Newpage pagebreak
 \end_inset
 
 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Sintef"
+
+\end_inset
+
+Sintef 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -17360,13 +17382,30 @@ http://www.sintef.no/home/About-us/
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "xamarin"
+
 \end_inset
 
-[x] http://xamarin.com
-\begin_inset Newline newline
+Xamarin 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://xamarin.com
+\end_layout
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 [x] http://www.appcelerator.com
 \begin_inset Newline newline
 \end_inset
