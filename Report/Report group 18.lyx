@@ -19785,6 +19785,27 @@ http://msdn.microsoft.com/en-us/library/aa292197(v=vs.71).aspx9
 
 \end_layout
 
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ssh"
+
+\end_inset
+
+Wikipedia - SSH 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Secure_Shell
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -19832,8 +19853,26 @@ Admin tool user manual
 \end_layout
 
 \begin_layout Standard
-Access the server via ssh navigate to the directory containing the file
- and run the program with the command 
+The admin tool can only be run localy from the server which runs the database.
+ To do this, SSH 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ssh"
+
+\end_inset
+
+ is the preferred method.
+ Connecting to the server can be done from a UNIX (Mac, Linux, etc.) terminal
+ by typing 
+\begin_inset Quotes eld
+\end_inset
+
+ssh [user name]@[server IP address]
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The admin tool can then be launched by typing 
 \begin_inset Quotes eld
 \end_inset
 
@@ -19841,7 +19880,108 @@ java -jar Admintool.jar
 \begin_inset Quotes erd
 \end_inset
 
+ in the directory where it is located.
+ This is by default in the home directory, so no directory changing is needed.
+ To make the admin tool run commands from a text file (described below),
+ simply run 
+\begin_inset Quotes eld
+\end_inset
 
+java -jar Admintool.jar [path to text file]
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To upload media files when creating a new case, the files must be stored
+ on the server, and they must be located so that the Apache web server is
+ able to locate them, e.g.
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+/Library/WebServer/Documents/media/[casename]
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Adding a new case from text file
+\end_layout
+
+\begin_layout Enumerate
+Create a new text file on the server
+\end_layout
+
+\begin_layout Enumerate
+Open the newly created text file
+\end_layout
+
+\begin_layout Enumerate
+Add the following lines:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Case name
+\end_layout
+
+\begin_layout Enumerate
+The names of the categories that the case should belong to (Make sure that
+ the order and spelling of the categories is correct, separate categories
+ with a comma) (Example: 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor, Primary Tumor, Low Grade Glioma
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Public case description
+\end_layout
+
+\begin_layout Enumerate
+Private case description
+\end_layout
+
+\begin_layout Enumerate
+Path to where the media files are stored (locally on the server)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+private
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+public
+\begin_inset Quotes erd
+\end_inset
+
+ to decide who shall be able to view the case
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Save the file
+\end_layout
+
+\begin_layout Enumerate
+Run the admin tool with the file path as argument (see above)
 \end_layout
 
 \begin_layout Subsection
@@ -20437,9 +20577,9 @@ password
 \end_inset
 
  (Confirm)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 This will create a new user with the username 
 \begin_inset Quotes eld
 \end_inset
