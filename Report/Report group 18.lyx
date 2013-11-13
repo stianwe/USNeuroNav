@@ -1012,8 +1012,7 @@ Milestones
 \end_layout
 
 \begin_layout Standard
-The table below decribes all the milestones that occur in the sprints in
- uor project.
+The table below decribes all the milestones that occur during the project.
 \begin_inset Newline newline
 \end_inset
 
@@ -2165,14 +2164,7 @@ Titanium and JavaScript
 \end_layout
 
 \begin_layout Standard
-To develop the mobile application, the Titanium
-\begin_inset CommandInset citation
-LatexCommand cite
-key "appcelerator"
-
-\end_inset
-
- tool set was chosen.
+To develop the mobile application, the Titanium tool set was chosen.
  It provides its own IDE for writing the code, which is based on Eclipse
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2223,14 +2215,7 @@ The application should have (close to) the same performance as if written
 \begin_layout Standard
 Given these very specific, and quite demanding, requirements, the team was
  only able to find a couple of valid options.
- These options were in the end Titanium, which was chosen, and Xamarin
-\begin_inset CommandInset citation
-LatexCommand cite
-key "xamarin"
-
-\end_inset
-
-.
+ These options were in the end Titanium, which was chosen, and Xamarin.
  Xamarin is a quite similar tool to Titanium, except that it uses code written
  in C# instead of JavaScript.
  Despite that the team had more experience with C#, Titanium was chosen
@@ -2426,14 +2411,7 @@ Eclipse
 \end_layout
 
 \begin_layout Standard
-Eclipse
-\begin_inset CommandInset citation
-LatexCommand cite
-key "eclipse"
-
-\end_inset
-
- is a multi-language integrated development environment (IDE).
+Eclipse is a multi-language integrated development environment (IDE).
  It is very suitable for Java development, and it also has an integrate
  git tool.
  
@@ -9776,7 +9754,7 @@ T03
 \begin_inset Text
 
 \begin_layout Plain Layout
-Browse pictures
+Browse images
 \end_layout
 
 \end_inset
@@ -9957,6 +9935,53 @@ System tests
 
 \end_layout
 
+\begin_layout Subsection
+Acceptance test
+\end_layout
+
+\begin_layout Standard
+A user acceptance test is conducted, at the very end of the development
+ process, to determine if the system meets the customers requirements.
+ The purpose is to assure that the project is accepted by the customer,
+ that it at the very least meets the minimal requirements set, so that it
+ can be utilzed for its intended purpose.
+ Its common that the inteded users of the products execute the tests so
+ that the customer can be sure that the product safisfies its potential
+ users.
+ The acceptance test 
+\begin_inset Quotes eld
+\end_inset
+
+acts as a final verification of the required business functionality and
+ proper functioning of the system, emulating real-world usage conditions
+ on behalf of the paying client or a specific large customer.
+\begin_inset Quotes erd
+\end_inset
+
+(http://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2)The test itself
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+usually performed by clients or by end-users, do not normally focus on identifyi
+ng simple problems such as spelling errors and cosmetic problems, nor showstoppe
+r defects, such as software crashes; testers and developers previously identify
+ and fix these issues during earlier unit testing, integration testing,
+ and system testing phases.
+\begin_inset Quotes erd
+\end_inset
+
+(http://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2)
+\end_layout
+
+\begin_layout Standard
+We held our acceptance test during a meeting with both the customer and
+ a small group of the intended users.
+ We both showcased the product and offered them to use the product and provide
+ feedback.
+ Details from this meeting can be found in section INSERT SECTION HERE.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -10103,8 +10128,8 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="29" columns="5">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="6text%">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="7text%">
+<column alignment="left" valignment="top" width="20text%">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="10text%">
 <column alignment="left" valignment="top" width="8text%">
@@ -11515,12 +11540,12 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, but we had both
  overestimated and underestimated the effort of time for many tasks.
- Therefore the ideal burndown is beneath the actual burndown through this
- sprint.
+ Therefore the ideal remaning effort line is beneath the actual remaning
+ effort line through this sprint.
  We did most of the work on Wednesdays, Thursdays and Fridays, wich explain
- the slow burndown at day 10, day 9 , day 5 and day 4.We had to do a lot
+ the horizontal line at day 1, day 2 , day 6 and day 7.We had to do a lot
  of programming in this sprint since our technical manager would be absent
- half of the next sprint
+ half of the next sprint, so a lot of work were planned in this sprint.
 \begin_inset Newline newline
 \end_inset
 
@@ -11538,7 +11563,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 1.png
-	width 90text%
+	scale 78
 
 \end_inset
 
@@ -11803,7 +11828,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="4">
+<lyxtabular version="3" rows="5" columns="4">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
@@ -11861,7 +11886,7 @@ T01
 \begin_inset Text
 
 \begin_layout Plain Layout
-Category navigation
+Browse categories
 \end_layout
 
 \end_inset
@@ -11899,7 +11924,7 @@ T02
 \begin_inset Text
 
 \begin_layout Plain Layout
-Selecting cases
+Select a case
 \end_layout
 
 \end_inset
@@ -11937,83 +11962,7 @@ T03
 \begin_inset Text
 
 \begin_layout Plain Layout
-Showing images
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Passed
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-T04
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Showing video
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Passed
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-T05
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Finding a specific case
+Browse images
 \end_layout
 
 \end_inset
@@ -12042,7 +11991,7 @@ Passed
 \begin_inset Text
 
 \begin_layout Plain Layout
-T06
+T04
 \end_layout
 
 \end_inset
@@ -12375,8 +12324,8 @@ Sprint Evaluation
 
 \begin_layout Standard
 The implementation of the initial stories, viewing categories and cases,
- and their images and videos, went very well, and were done withing the
- first half of the sprint.
+ and their images and videos, went very well, and were done within the first
+ half of the sprint.
  The team therefore moved on to set up MySQL server and Apache web server
  on the borrowed iMac, to use it for the development phase.
  This also went without too many quirks, even though the team was very unfamilia
@@ -13093,6 +13042,9 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, and we had estimated
  the effort more realistic.
+ The actual remaning effort line is beneath the ideal remaning effort line
+ almost all the time through this sprint, which means that we have were
+ not behind of schedule.
  We felt like we had a good progress with the work, but we did not implement
  anything this sprint, so the progress did not benefit the application.
 \begin_inset Newline newline
@@ -13111,7 +13063,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 2.png
-	scale 90
+	scale 78
 
 \end_inset
 
@@ -13509,7 +13461,7 @@ What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
-Since we were not a hole group the hole sprint, we planned for a bit too
+Since we were not a whole group the hole sprint, we planned for a bit too
  little work, and worked so after.
  In the next sprint we had to take this in mind when we were planning for
  sprint 3, so that we could complete the most important requirements from
@@ -13580,11 +13532,11 @@ images
 \end_layout
 
 \begin_layout Standard
-Also for sprint 3, we planned to implement separation of data with log in,
- so that registered users have access to all cases, while unregistered users
+In addition, we planned to implement separation of data with log in, so
+ that registered users have access to all cases, while unregistered users
  only have access to public cases.
- Also for sprint 3 we planned to add functionality to search for cases using
- category keywords, for instance 
+ We also planned to add functionality to search for cases using category
+ keywords, for instance 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13601,7 +13553,21 @@ Primary Tumor
 \end_inset
 
 .
- 
+ Finally we decided to start work on a standalone program that could aid
+ the future administrator of the database to upload new items.
+ We felt that the process of creating new cases and categories in the database
+ was too complex and time-consuming to do manually.
+ This, and the fact that a GUI for uploading was already requested by the
+ customer, made us shift some resources towards this new program, wich we
+ will refer to as 
+\begin_inset Quotes eld
+\end_inset
+
+Admin tool
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -13612,7 +13578,7 @@ The reason why we set so ambitious goals regarding the amount of implementation
 \end_layout
 
 \begin_layout Standard
-
+During this sprint it occured one milestone, MP3, wich we would try to complete.
 \end_layout
 
 \begin_layout Subsubsection
@@ -14526,11 +14492,9 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish every task in this sprint, and we felt that we had
  estimated the effort very realistic.
- We had a good progress with the work, and in the end of the sprint we managed
- to work in accordance with ideal burn dow.
- The two tops in the graph is because we often work Wednesday to Friday,
- so the progress on Monday and Tusday was small compared with the other
- days.
+ We had a good progress with the work, but were slightly behind of schedule
+ in the first week, but we managed to fetch up with the plan in the last
+ week of the sprint.
 \begin_inset Newline newline
 \end_inset
 
@@ -14544,6 +14508,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 3.png
+	scale 78
 
 \end_inset
 
@@ -14751,11 +14716,336 @@ privateDescrption
 \end_layout
 
 \begin_layout Subsubsection
-Admin panel
+Admin tool
+\end_layout
+
+\begin_layout Standard
+As mentioned earlier, we realized that a small program, with the purpose
+ of simplifying the upload process, was needed.
+ We decided to write it in Java and make so that it would be executable
+ on any machine and operating system.
+ We also had libraries to support communication with our MySQL server availble
+ for Java, finally we were all experience with Java as a programming language,
+ so we were confident that we could complete it in reasonable time with
+ the functionality that was needed.
+ By writing a program to handle the uploads, many parts of the otherwise
+ tedious insertions into the MySQL database could be automated.
+ For example, to add a new case with Admin tool, the administrator can type
+ in the name of the new case, the super- and subcategories it belongs to,
+ the description and the path where the mediafiles are stored.
+ The program will then create the new case with the description specified,
+ create the categories if they do not already exist, add the proper relationship
+ between the categories, add the case to the categories and finally add
+ all the mediafiles with a pointer to the case.
+ Manually this amounts to 40-50 insertions and 8-10 lookups in the database,
+ with Admin tool it is all done automatically.
+ Below is a sequence diagram that pictures the process of creating a new
+ case and a new category in Admin tool.
+ More detailed description of Admin tool will come in section INSERT SECTION
+ HERE.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/newCaseSequence.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Admin tool sequence diagram for new case
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/newCategorySequence.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Admin tool sequence diagram for new category
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Testing
+\end_layout
+
+\begin_layout Standard
+The following tests where executed on October 29th 2013.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Test ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Test name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Result
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comments
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Search for case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log in
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Add new case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Add new user
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Completed tests for sprint 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -14965,6 +15255,10 @@ At the end of print 3, we had another meeting with the customer to show
 
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Standard
+The milestones MP3 was completed within time.
 \end_layout
 
 \begin_layout Subsubsection
@@ -15292,6 +15586,8 @@ Discovered bugs
 In addition, we wanted to implement the admin tool's new feature, suggested
  by the customer at the end of sprint 3, to be able to read information
  from a text file to upload new cases.
+ It was also requested that we update the database with new cases and a
+ new category hierarchy specified by the customer.
 \end_layout
 
 \begin_layout Standard
@@ -15307,6 +15603,10 @@ Also, we planned to pick up on the report, and really get some progress
  going there, by writing what remained about the sprints, conclusion, and
  start on the evaluation part.
  
+\end_layout
+
+\begin_layout Standard
+During this sprint it occured one milestone, MP4, wich we would try to complete.
 \end_layout
 
 \begin_layout Subsubsection
@@ -16041,9 +16341,9 @@ The figure below shows the burndown chart for this sprint.
  We managed to finish every task in this sprint, and we felt that we had
  estimated the effort very realistic.
  We had a good progress with the work, and in the end of the sprint we managed
- to work in accordance with ideal burn dow.
+ to work in accordance with ideal burndown.
  We did work almost every day in this sprint, as can be seen in the almost
- linear line for the actual burndown.
+ linear line for the actual remaining effort.
 \end_layout
 
 \begin_layout Standard
@@ -16060,6 +16360,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 4.png
+	scale 78
 
 \end_inset
 
@@ -16072,10 +16373,6 @@ Burndown Chart Sprint 3
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -16615,8 +16912,520 @@ To distribute the mobile application without using a Mac, we used a web
 Testing
 \end_layout
 
+\begin_layout Standard
+During sprint 4 we redid all our previous system test in order to prepare
+ for the acceptance test and meeting with the customer and future users.
+ Since we also updated our database to the new desired structure, the tests
+ became slightly different.
+\end_layout
+
+\begin_layout Standard
+The following tests where executed on November 8th 2013.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Test ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Test name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Result
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comments
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Browse categories
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Updated databased caused change
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T02
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Select a case
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case name was now 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor (Real Case)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+New subcategories (database change)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T03
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Browse images
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case name was now 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor (Real Case)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Play video
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case name was now 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor (Real Case)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T05
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Search for case
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Search parameter now 
+\begin_inset Quotes eld
+\end_inset
+
+High grade glioma
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case name was now 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor (Real Case)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log in
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Add new case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Add new user
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Completed tests for sprint 4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Acceptance Testing
+\end_layout
+
+\begin_layout Standard
+move to evaluation
 \end_layout
 
 \begin_layout Subsection
@@ -16858,6 +17667,12 @@ The feedback from the customer after sprint 4 was very positive.
 
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Standard
+The milestone MP4 was not completed within time.
+ We did not prioritized caching of data, as we found other things more important.
+ This was newer implementet.
 \end_layout
 
 \begin_layout Subsubsection
@@ -18988,7 +19803,208 @@ Conclusion
 \end_layout
 
 \begin_layout Section
+Admin tool user manual
+\end_layout
+
+\begin_layout Standard
+Access the server via ssh navigate to the directory containing the file
+ and run the program with the command 
+\begin_inset Quotes eld
+\end_inset
+
+java -jar Admintool.jar
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Adding a new case
+\end_layout
+
+\begin_layout Enumerate
+In the main menu select 
+\begin_inset Quotes eld
+\end_inset
+
+1: Create new case
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
+\end_layout
+
+\begin_layout Enumerate
+Enter case name (This is the name of the case that will be shown in the
+ application)
+\end_layout
+
+\begin_layout Enumerate
+Confirm name
+\end_layout
+
+\begin_layout Enumerate
+Enter the categories the case belong to (Make sure that the order and spelling
+ of the categories is correct, separate categories with a comma) (Example:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor, Primary Tumor, Low Grade Glioma
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Confirm categories (You can also restart the step, or ask to see all categories
+ in the database if you are uncertain about spelling etc.)
+\end_layout
+
+\begin_layout Enumerate
+Enter case public description (if you type 
+\begin_inset Quotes eld
+\end_inset
+
+default
+\begin_inset Quotes erd
+\end_inset
+
+ the description will become the categories of the case as entered in step
+ 5.)
+\end_layout
+
+\begin_layout Enumerate
+Enter case private description (this will only be visible for registered
+ users that are logged in)
+\end_layout
+
+\begin_layout Enumerate
+Enter path to where the case mediafiles are stored (the current path we
+ use is: 
+\begin_inset Quotes eld
+\end_inset
+
+/Library/WebServer/Documents/media/casename
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Confirm path
+\end_layout
+
+\begin_layout Enumerate
+Select public or private case by typing 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ (private cases will only be visible to registered users that are logged
+ in)
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
+\end_layout
+
+\begin_layout Enumerate
+New case have now been created
+\end_layout
+
+\begin_layout Subsection
+Adding a new category
+\end_layout
+
+\begin_layout Enumerate
+In the main menu select 
+\begin_inset Quotes eld
+\end_inset
+
+2: Create new category
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Enter the name of the category (if you enter a name that already exist the
+ identification key will be fetched from the database so that you can modify
+ he category)
+\end_layout
+
+\begin_layout Enumerate
+Confirm name
+\end_layout
+
+\begin_layout Enumerate
+Enter the parent (super-) categories of the case (If you want to add a new
+ main-category that shows at the top of the hierarchy, simply leave this
+ empty, then it will automaticly be added to 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Confirm supercategory
+\end_layout
+
+\begin_layout Enumerate
+Enter the child (sub-) categories of the case
+\end_layout
+
+\begin_layout Enumerate
+Confirm subcategory
+\end_layout
+
+\begin_layout Enumerate
+A new category has been added
+\end_layout
+
+\begin_layout Standard
+Example input:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Adding a new user
+\end_layout
+
+\begin_layout Section
 Testing
+\end_layout
+
+\begin_layout Subsection
+System tests
 \end_layout
 
 \begin_layout Standard
@@ -21048,6 +22064,13 @@ Test T06
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Test data
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -21056,1100 +22079,324 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="31" columns="2">
+<lyxtabular version="3" rows="11" columns="5">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="60text%">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Test ID
+Case ID
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-T07
+Case name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Category
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sub-Category
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Location
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Test name
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Add new case
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Description
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.
- Select the 
-\begin_inset Quotes eld
-\end_inset
-
-Create new case
-\begin_inset Quotes erd
-\end_inset
-
- option (Enter 
-\begin_inset Quotes eld
-\end_inset
-
 1
-\begin_inset Quotes erd
-\end_inset
+\end_layout
 
-)
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tumor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Primary Tumor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frontal Lobe 
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-Case 11
-\begin_inset Quotes erd
-\end_inset
-
- and confirm
+Case 2
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Tumor
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.
- Enter 
-\begin_inset Quotes eld
-\end_inset
+Primary Tumor
+\end_layout
 
-Spine
-\begin_inset Quotes erd
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
- and confirm
+\begin_layout Plain Layout
+Unspecified
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-default
-\begin_inset Quotes erd
-\end_inset
-
- and confirm
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-No private information
-\begin_inset Quotes erd
-\end_inset
-
- and confirm
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-none
-\begin_inset Quotes erd
-\end_inset
-
- and confirm
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-1
-\begin_inset Quotes erd
-\end_inset
-
- and confirm
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.
- Go to the 
-\begin_inset Quotes eld
-\end_inset
-
-Search
-\begin_inset Quotes erd
-\end_inset
-
- tab in the application
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-Spine
-\begin_inset Quotes erd
-\end_inset
-
- as search parameters
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Requirements involved
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-FR10, FR11
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Completion criteria
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Enter case name
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Enter case categories
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Enter case public description
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Enter case private description
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Enter path to media
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Enter Public or Private
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.
- The 
-\begin_inset Quotes eld
-\end_inset
-
-Admintool mainmenu
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.
- The tab for searching shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Case 11
-\begin_inset Quotes erd
-\end_inset
-
- shows as a case matching the search
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Results
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.
- Accpeted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.
- Accepted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Comments
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Test T07
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="20" columns="2">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="60text%">
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Test ID
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-T08
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Test name
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Add new user
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Description
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.
- Select the 
-\begin_inset Quotes eld
-\end_inset
-
-Create new user
-\begin_inset Quotes erd
-\end_inset
-
- option (Enter 
-\begin_inset Quotes eld
-\end_inset
-
 3
-\begin_inset Quotes erd
-\end_inset
+\end_layout
 
-)
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tumor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gliomas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unspecified
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-Test
-\begin_inset Quotes erd
-\end_inset
-
- and confirm
+Case 4
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Cranial Vascular
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.
- Enter 
-\begin_inset Quotes eld
-\end_inset
+Aneu
+\end_layout
 
-test
-\begin_inset Quotes erd
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
- and confirm
+\begin_layout Plain Layout
+Frontal Lobe 
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.
- Go to the log in tab in the application
+Case 5
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Cranial Vascular
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.
- Enter 
-\begin_inset Quotes eld
-\end_inset
-
-test
-\begin_inset Quotes erd
-\end_inset
-
- as both username and password
+AVM
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- Click on the 
-\begin_inset Quotes eld
-\end_inset
-
-Log in
-\begin_inset Quotes erd
-\end_inset
-
- button
+Parietal Lobe
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Requirements involved
+6
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-FR06, FR11
+Case 6
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Completion criteria
+Spine
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Insert the username for the new user
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -22158,27 +22405,45 @@ Insert the username for the new user
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Insert the password for the new user
-\begin_inset Quotes erd
-\end_inset
-
- shows
+Brain Stem
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case 7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -22187,119 +22452,45 @@ Insert the password for the new user
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.
- The 
-\begin_inset Quotes eld
-\end_inset
-
-Admintool mainmenu
-\begin_inset Quotes erd
-\end_inset
-
- shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4.
- The interface for logging in shows
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- 
-\begin_inset Quotes eld
-\end_inset
-
-You are now logged in
-\begin_inset Quotes erd
-\end_inset
-
- shows up in the tab
+Brain Stem
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Results
+8
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.
- Accpeted
+Case 8
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Ventricular Drain
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.
- Accpeted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -22308,19 +22499,45 @@ Results
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.
- Accpeted
+Occipital Lobe
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case 9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pituitary Tumor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -22329,33 +22546,11 @@ Results
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.
- Accpeted
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- Accpeted
+Frontal Lobe 
 \end_layout
 
 \end_inset
@@ -22366,16 +22561,43 @@ Results
 \begin_inset Text
 
 \begin_layout Plain Layout
-Comments
+10
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case 10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pituitary Tumor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parietal Lobe
 \end_layout
 
 \end_inset
@@ -22392,7 +22614,7 @@ Comments
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Test T08
+Testdata
 \end_layout
 
 \end_inset
@@ -22402,7 +22624,7 @@ Test T08
 
 \end_inset
 
-end
+
 \end_layout
 
 \end_body
