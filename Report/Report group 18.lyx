@@ -18124,44 +18124,98 @@ As mentioned in the introduction, the goal of the project was to create
  users.
 \end_layout
 
-\begin_layout Standard
-Planning
-\end_layout
-
-\begin_layout Standard
-Preliminary studies
-\end_layout
-
-\begin_layout Standard
-Scrum
-\end_layout
-
-\begin_layout Standard
-Meetings
-\end_layout
-
-\begin_layout Standard
-Technical problems
-\end_layout
-
-\begin_layout Standard
-Course feedback
-\end_layout
-
-\begin_layout Standard
-Testing
-\end_layout
-
-\begin_layout Standard
-Time usage
-\end_layout
-
 \begin_layout Subsubsection
-asdasd
+Evaluation of the project
+\end_layout
+
+\begin_layout Standard
+The project evaluation is largely based on feedback from the customer, and
+ from the surgeons that we presented the application for, and how these
+ compare to the evaluation criteria.
+\end_layout
+
+\begin_layout Standard
+Since we were aware of the fact that our application was to be used as a
+ foundation for a future, we had this in the back of our head throughout
+ the whole implementation process.
+ This is not a part that the customer and the surgeons have any insight
+ in, but we think that we did a good job of making our code as flexible
+ as possible, allowing new features.
+ The methods to retrieve data internal in the app is also very straight
+ forward.
+\end_layout
+
+\begin_layout Standard
+The application itself was not 100% 
+\begin_inset Quotes eld
+\end_inset
+
+complete
+\begin_inset Quotes erd
+\end_inset
+
+ when presented to the customer and his co-workers, the surgeons, and this
+ was obviously something that should have been fixed.
+ The bugs, however, were not in the foundation part of the application,
+ only in the presentation part, so they were not very critical.
+\end_layout
+
+\begin_layout Standard
+In the presentation of the application for the customer and the surgeons,
+ we got very positive feedback on the features implemented so far, and they
+ were very impressed with what we had been able to do with so short time,
+ and with the possibilities that the foundation provided.
+ 
+\end_layout
+
+\begin_layout Standard
+As a proof-of-concept, the application worked very well.
+ We were able to demonstrate many features, like viewing browsing categories,
+ viewing case images and video, searching for cases, separation of data
+ for registered and non-registered users.
+ The test users decided that the application, at its current level (minus
+ the bugs), would be very useful without further development, and they inquired
+ both on how possible it would be to publish the application on the App
+ Store, but also on how the process of adding new cases worked.
+ This was very positive feedback, and all in all, we concluded that the
+ customer was happy with the product.
 \end_layout
 
 \begin_layout Subsection
 Technology Evaluation
+\end_layout
+
+\begin_layout Standard
+In this section some of the technologies used during the project is discussed.
+ The technologies evaluated are those that actually had an impact on the
+ project work, both positive and negative.
+ All technologies was discussed in the tools and technology section, so
+ the others are not evaluated here.
+\end_layout
+
+\begin_layout Subsubsection
+Apple, iOS and Mac
+\end_layout
+
+\begin_layout Standard
+In the early phase of the project we spent a lot of time discussing which
+ platforms the application should support, and which frameworks would fit
+ the project.
+ The customer was very certain that iOS should be the main platform, but
+ the team did not have a single Mac among them.
+ Since Mac is required to develop and test an application for iOS, a solution
+ had to be worked out.
+\end_layout
+
+\begin_layout Standard
+After a couple of weeks, the customer was able to supply us with an iMac
+ that we could borrow.
+ This made us able to target the iOS platform.
+ In addition, to run the application on an actual device an Apple developer
+ license was required.
+ The customer already had one of these, but it was also being used by another
+ developer at the time.
+ The fact that it was already in use, limited us to 
 \end_layout
 
 \begin_layout Section
