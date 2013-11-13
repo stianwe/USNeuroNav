@@ -2541,6 +2541,10 @@ easy
  limited possibilites of learning it.
 \end_layout
 
+\begin_layout Standard
+In the figure below 
+\end_layout
+
 \begin_layout Subsection
 Desired Solution
 \end_layout
@@ -18186,6 +18190,10 @@ Administrator: A person who who will have all the privileges open, in the
 \begin_layout Itemize
 Use Case: Technique that specify the interaction between the user and the
  system.
+\end_layout
+
+\begin_layout Itemize
+App: App is short for application.
 \end_layout
 
 \begin_layout Standard
