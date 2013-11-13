@@ -1144,7 +1144,7 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
-Have a running prototype, able to show local photos, categorization of cases
+Have a running prototype, able to show local images, categorization of cases
  to enable browsing.
 \end_layout
 
@@ -1861,31 +1861,31 @@ Project communication
 Customer interaction
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 The customer is located in Trondheim, and the meetings will be held at NTNU
  every other week on Wednesdays at 08:00.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Itemize
 The agenda for the meeting is to be sent to the customer by 12 noon Tuesday
  before the meeting.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 The minutes of the meeting is to be sent to the customer the same day as
  the meeting.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Approval of minutes of customer meetings is to be sent as soon as possible,
  max 48 hours.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Approval of phase documents is to be done as soon as possible, max 48 hours.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Answer e-mails is to be done as soon as possible.
 \end_layout
 
@@ -1893,44 +1893,48 @@ Answer e-mails is to be done as soon as possible.
 Supervisor interaction
 \end_layout
 
-\begin_layout Standard
-The meetings with the advisor will be held on Wednesdays at 09.30 and last
- an hour.
+\begin_layout Itemize
+The meetings with the advisor will be held on Wednesdays at 09:30 at the
+ start of the project.
 \end_layout
 
-\begin_layout Standard
-The agenda for the meeting is to be done by 12 noon Tuesday before the meeting.
-\end_layout
-
-\begin_layout Standard
-The Minutes for the meeting is to be done the same day as the meeting.
-\end_layout
-
-\begin_layout Standard
-The minutes of the meeting with the customer is to be sent to the supervisor
- the same day as the customer meeting
-\begin_inset Newline newline
-\end_inset
-
-From September 20 onwards will meetings be held on Fridays at 12:15.
+\begin_layout Itemize
+From September 20 and onwards, meetings will be held on Fridays at 12:15.
  This is because of our sprints satrts at Wednesdays, so it will be more
  convenient to have it in the middle of a sprint, when we have more questions
  and challenges, and it is easier to come on track in the development.
+\end_layout
+
+\begin_layout Itemize
+The meetings should last an hour, or as long as needed.
+\end_layout
+
+\begin_layout Itemize
+The minutes for the meeting is to be created the same day as the meeting.
+\end_layout
+
+\begin_layout Itemize
+The minutes of the meeting with the customer is to be sent to the supervisor
+ the same day as the customer meeting
 \end_layout
 
 \begin_layout Subsubsection
 Group interaction
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Group meetings: Wednesdays at 10:30, Thursdays at 09:15 and Fridays at 09:15
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Itemize
 Unexpected absence is to be reported as soon as possible, preferably before
  the meetings.
- Planned absence is to be reported as soon as possible, so we can plan according
-ly.
+ 
+\end_layout
+
+\begin_layout Itemize
+Planned absence is to be reported as soon as possible, so we can plan accordingl
+y.
 \end_layout
 
 \begin_layout Subsection
@@ -6287,7 +6291,7 @@ NR05
 \begin_inset Text
 
 \begin_layout Plain Layout
-Performance - uploading videos and photos should take reasonable time
+Performance - uploading videos and images should take reasonable time
 \end_layout
 
 \end_inset
@@ -10175,8 +10179,24 @@ An additional goal of the sprint was to start working with Rally, to keep
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured two milestones.
- MP1 and MP2, wich we would try to complete.
+For sprint 1, we tried to complete two milestones, MP1, 
+\begin_inset Quotes eld
+\end_inset
+
+Have a running prototype, able to show local photos, categorization of cases
+ to enable browsing
+\begin_inset Quotes erd
+\end_inset
+
+, and MP2, 
+\begin_inset Quotes eld
+\end_inset
+
+Support for video, searching for cases, network support, server communication
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -12409,7 +12429,7 @@ We created the backlog in Rally, and created the burndown chart in Exel.
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks
+Occurring risks in Sprint 1
 \end_layout
 
 \end_inset
@@ -13351,7 +13371,7 @@ Stian informed the group about the absence in good time before the period
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks
+Occurring risks in Sprint 2
 \end_layout
 
 \end_inset
@@ -13575,7 +13595,10 @@ Sprint Evaluation
 \end_layout
 
 \begin_layout Standard
-The milestone MR2 was completed within time.
+We had a good progress with the report this sprint, we managed to write
+ everything we had planned to the predelivery of the repot, so the milestone
+ MR2 was completed within time.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -13583,7 +13606,7 @@ What went well during this sprint
 \end_layout
 
 \begin_layout Standard
-We had a great progress on the report during this sprint.
+The progress on the report was very possitive.
  We managed to be finish with almost every tasks of this sprints backlog,
  and there were no hurry during this sprint.
 \end_layout
@@ -13716,7 +13739,15 @@ The reason why we set so ambitious goals regarding the amount of implementation
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured one milestone, MP3, wich we would try to complete.
+For sprint 3, we tried to complete milestone MP3, 
+\begin_inset Quotes eld
+\end_inset
+
+Upload of data
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -15398,7 +15429,7 @@ The group members worked a little in the evening to complete their tasks.
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks
+Occurring risks in Sprint 3
 \end_layout
 
 \end_inset
@@ -15838,7 +15869,15 @@ Also, we planned to pick up on the report, and really get some progress
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured one milestone, MP4, wich we would try to complete.
+For sprint 4, we tried to complete milestone MP4, 
+\begin_inset Quotes eld
+\end_inset
+
+Caching of data, finalize features
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -18243,7 +18282,7 @@ We could not move the iMac, as we agreed with the customer that it should
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks
+Occurring risks in Sprint 4
 \end_layout
 
 \end_inset
@@ -19657,6 +19696,14 @@ Final project presentation
 , were met at their set deadlines as planned.
 \end_layout
 
+\begin_layout Standard
+We decided not to have a proper useability testing.
+ The surgeons were very busy and one should have a very good reason to use
+ their time.
+ To compensate for this we had good contact with the customer during the
+ project, which we asked for feedback on the app.
+\end_layout
+
 \begin_layout Subsection
 Technology Evaluation
 \end_layout
@@ -19777,6 +19824,10 @@ App: Short for application.
 
 \begin_layout Itemize
 SSH: Secure shell.
+\end_layout
+
+\begin_layout Itemize
+DS: Diagnostic Sonography or ultrasound
 \end_layout
 
 \begin_layout Itemize
