@@ -2560,26 +2560,6 @@ The solution that the customer desires, is a simple method for doctors (and
 \end_layout
 
 \begin_layout Subsection
-Evaluation Criteria
-\end_layout
-
-\begin_layout Standard
-As mentioned in the introduction, the goal of the project was to create
- an application for our customer that can be used for proof-of-concept and
- further development.
- The evaluation criteria was therefore primary how satisfied the customer
- was with our end product and how well it fit and satisfied the requirements
- we created together.
- The possibility for implementation of additional features in the future
- and a general expansion of the application was also an important criteria.
- In order for the application to function as a proof-of-concept we figured
- that it would have to be, on some level, useful for the intended users
- when we were done with the prototype.
- In order to test this we would have to meet with some of the potentional
- users.
-\end_layout
-
-\begin_layout Subsection
 Alternate Solutions
 \end_layout
 
@@ -17516,6 +17496,26 @@ Risk evaluation
 Project Evaluation
 \end_layout
 
+\begin_layout Subsubsection
+Evaluation Criteria
+\end_layout
+
+\begin_layout Standard
+As mentioned in the introduction, the goal of the project was to create
+ an application for our customer that can be used for proof-of-concept and
+ further development.
+ The evaluation criteria was therefore primary how satisfied the customer
+ was with our end product and how well it fit and satisfied the requirements
+ we created together.
+ The possibility for implementation of additional features in the future
+ and a general expansion of the application was also an important criteria.
+ In order for the application to function as a proof-of-concept we figured
+ that it would have to be, on some level, useful for the intended users
+ when we were done with the prototype.
+ In order to test this we would have to meet with some of the potentional
+ users.
+\end_layout
+
 \begin_layout Standard
 Planning
 \end_layout
@@ -17546,6 +17546,10 @@ Testing
 
 \begin_layout Standard
 Time usage
+\end_layout
+
+\begin_layout Subsubsection
+asdasd
 \end_layout
 
 \begin_layout Subsection
