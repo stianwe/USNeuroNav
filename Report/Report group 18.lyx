@@ -1012,8 +1012,7 @@ Milestones
 \end_layout
 
 \begin_layout Standard
-The table below decribes all the milestones that occur in the sprints in
- uor project.
+The table below decribes all the milestones that occur during the project.
 \begin_inset Newline newline
 \end_inset
 
@@ -13612,7 +13611,7 @@ The reason why we set so ambitious goals regarding the amount of implementation
 \end_layout
 
 \begin_layout Standard
-
+During this sprint it occured one milestone, MP3, wich we would try to complete.
 \end_layout
 
 \begin_layout Subsubsection
@@ -14967,6 +14966,10 @@ At the end of print 3, we had another meeting with the customer to show
 Sprint Evaluation
 \end_layout
 
+\begin_layout Standard
+The milestones MP3 was completed within time.
+\end_layout
+
 \begin_layout Subsubsection
 What went well during this sprint
 \end_layout
@@ -15307,6 +15310,10 @@ Also, we planned to pick up on the report, and really get some progress
  going there, by writing what remained about the sprints, conclusion, and
  start on the evaluation part.
  
+\end_layout
+
+\begin_layout Standard
+During this sprint it occured one milestone, MP4, wich we would try to complete.
 \end_layout
 
 \begin_layout Subsubsection
@@ -16858,6 +16865,12 @@ The feedback from the customer after sprint 4 was very positive.
 
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Standard
+The milestone MP4 was not completed within time.
+ We did not prioritized caching of data, as we found other things more important.
+ This was newer implementet.
 \end_layout
 
 \begin_layout Subsubsection
