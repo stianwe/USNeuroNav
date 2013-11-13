@@ -698,7 +698,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="5">
+<lyxtabular version="3" rows="5" columns="5">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="5page%">
 <column alignment="left" valignment="top" width="8page%">
@@ -766,7 +766,7 @@ Sprint 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-18.09.2013- 01.10.2013 
+18.09.2013 - 01.10.2013 
 \end_layout
 
 \end_inset
@@ -813,7 +813,7 @@ Sprint 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-02.10.2013- 15.10.2013 
+02.10.2013 - 15.10.2013 
 \end_layout
 
 \end_inset
@@ -822,7 +822,7 @@ Sprint 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Implement seach
+Report
 \end_layout
 
 \end_inset
@@ -840,14 +840,14 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stian, Marthe, Kristoffer 
+
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -856,26 +856,25 @@ Sprin 3
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-16.10.2013- 29.10.2013 
+16.10.2013 - 29.10.2013 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Final implementation sprint.
- 
+Implement separation
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -884,11 +883,58 @@ Stian, Marthe, Kristoffer
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Stian, Kristoffer 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sprint 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.10.2013 - 08.11.2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Polish and fix bugs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Marthe, Kristoffer 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stian, Kristoffer
 \end_layout
 
 \end_inset
@@ -966,7 +1012,8 @@ Milestones
 \end_layout
 
 \begin_layout Standard
-The table below decribes all the milestones that are found in uor project.
+The table below decribes all the milestones that occur in the sprints in
+ uor project.
 \begin_inset Newline newline
 \end_inset
 
@@ -1080,7 +1127,7 @@ MP1
 \begin_inset Text
 
 \begin_layout Plain Layout
-18.09.2013
+25.09.2013
 \end_layout
 
 \end_inset
@@ -1119,7 +1166,7 @@ MP2
 \begin_inset Text
 
 \begin_layout Plain Layout
-02.10.2013
+01.10.2013
 \end_layout
 
 \end_inset
@@ -1137,7 +1184,8 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
-Support for video, searching for cases.
+Support for video, searching for cases, network support, server communication,
+ 
 \end_layout
 
 \end_inset
@@ -1157,7 +1205,7 @@ MR2
 \begin_inset Text
 
 \begin_layout Plain Layout
-08.10.2013
+14.10.2013
 \end_layout
 
 \end_inset
@@ -1196,44 +1244,6 @@ MP3
 \begin_inset Text
 
 \begin_layout Plain Layout
-15.10.2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Product
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Network support, server communication, caching of data.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-MP4 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 29.10.2013
 \end_layout
 
@@ -1253,7 +1263,46 @@ Product
 
 \begin_layout Plain Layout
 Upload of data.
- Finalize features.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MP4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+08.11.2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Product
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Caching of data, finalize features.
+ 
 \end_layout
 
 \end_inset
@@ -2476,6 +2525,7 @@ Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
  medical personell prefer when evaluating before a surgical operation.
  The reason for this is that it is relatively easy to understand, and identify
  tumors etc.
+ The figure below shows a typical MRI machine.
 \end_layout
 
 \begin_layout Standard
@@ -2539,6 +2589,53 @@ easy
  The main problem with the current situation is therefore that experienced
  doctors have no experience with the new way of using DS, and also very
  limited possibilites of learning it.
+\end_layout
+
+\begin_layout Standard
+The figure below shows a typical image from an surgical operation.
+ From the left there is a MRI image, in the middle is a ultrasound image,
+ wich is the square in the MRI image.
+ To the right is a skulp that shows where the images was taken in the brain.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Videoshots/full.JPG
+	lyxscale 70
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+MRI-Ultrasound image
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -9965,6 +10062,11 @@ An additional goal of the sprint was to start working with Rally, to keep
  track of the backlog and the assigning of tasks.
 \end_layout
 
+\begin_layout Standard
+During this sprint it occured two milestones.
+ MP1 and MP2, wich we would try to complete.
+\end_layout
+
 \begin_layout Subsubsection
 Sprint goals
 \end_layout
@@ -12017,7 +12119,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="4">
+<lyxtabular version="3" rows="5" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="10page%">
@@ -12140,7 +12242,7 @@ Since we had both underestimated and overestimated the tasks for this sprint,
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12149,7 +12251,7 @@ R12
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12158,16 +12260,16 @@ Absent group member
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marthe were gone travelling during a large part of the sprint
+Marthe were gone travelling during a large part of the sprint.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12175,6 +12277,45 @@ Marthe informed the group about the absence in good time before the period
  in question, so the group were able to plan with this in mind.
  The agreement was that Marthe were going to work on some pre-defined tasks
  regarding the report while she was away
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sofware issues
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+We had some difficulties with Rally.
+ We did not have all the rights that was required to make a burndown chart.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+We created the backlog in Rally, and created the burndown chart in Exel.
 \end_layout
 
 \end_inset
@@ -12257,6 +12398,20 @@ learning by doing
  were chosen (Titanium vs Xamarin), as they felt they would be more productive
  writing code in C# than JavaScript, considering that JavaScript in theory
  does not support classes.
+ 
+\end_layout
+
+\begin_layout Standard
+We had some difficulties with Rally during this sprint.
+ We managed to create the backlog and manage it from there, but we did not
+ have alle the rights to add the data required to make a burndown chart.
+ So we maintaind the backolg in Rally, but created the burndown chart in
+ Exel.
+ We continued to do this procedure in the next sprits as well.
+\end_layout
+
+\begin_layout Standard
+The milestones MP1 and MP2 was completed within time.
 \end_layout
 
 \begin_layout Subsubsection
@@ -12339,6 +12494,10 @@ There was decided that there would not be implemented any new features in
 The customer came back from his trip the 9th October, wich was in the midle
  of our sprint, and after that we aggread that we would try to have regular
  meetings every second week.
+\end_layout
+
+\begin_layout Standard
+During this sprint it occured one milestone, MR2, wich we would try to complete.
 \end_layout
 
 \begin_layout Subsubsection
@@ -13331,6 +13490,10 @@ New piority of requirements
 Sprint Evaluation
 \end_layout
 
+\begin_layout Standard
+The milestone MR2 was completed within time.
+\end_layout
+
 \begin_layout Subsubsection
 What went well during this sprint
 \end_layout
@@ -13446,6 +13609,10 @@ The reason why we set so ambitious goals regarding the amount of implementation
  for sprint 3 is that we laid a very thorough foundation in sprint 1, wich
  made it quite easy to add new features, and that we did not have the time
  or opportunity to do any coding during sprint 2.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -18025,6 +18192,10 @@ Administrator: A person who who will have all the privileges open, in the
 \begin_layout Itemize
 Use Case: Technique that specify the interaction between the user and the
  system.
+\end_layout
+
+\begin_layout Itemize
+App: App is short for application.
 \end_layout
 
 \begin_layout Standard
