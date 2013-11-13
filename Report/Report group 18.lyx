@@ -1144,7 +1144,7 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
-Have a running prototype, able to show local photos, categorization of cases
+Have a running prototype, able to show local images, categorization of cases
  to enable browsing.
 \end_layout
 
@@ -6291,7 +6291,7 @@ NR05
 \begin_inset Text
 
 \begin_layout Plain Layout
-Performance - uploading videos and photos should take reasonable time
+Performance - uploading videos and images should take reasonable time
 \end_layout
 
 \end_inset
@@ -19140,6 +19140,14 @@ Final project presentation
 , were met at their set deadlines as planned.
 \end_layout
 
+\begin_layout Standard
+We decided not to have a proper useability testing.
+ The surgeons were very busy and one should have a very good reason to use
+ their time.
+ To compensate for this we had good contact with the customer during the
+ project, which we asked for feedback on the app.
+\end_layout
+
 \begin_layout Subsection
 Technology Evaluation
 \end_layout
@@ -19260,6 +19268,10 @@ App: Short for application.
 
 \begin_layout Itemize
 SSH: Secure shell.
+\end_layout
+
+\begin_layout Itemize
+DS: Diagnostic Sonography or ultrasound
 \end_layout
 
 \begin_layout Itemize
