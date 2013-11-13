@@ -19705,6 +19705,203 @@ Conclusion
 \end_layout
 
 \begin_layout Section
+Admin tool user manual
+\end_layout
+
+\begin_layout Standard
+Access the server via ssh navigate to the directory containing the file
+ and run the program with the command 
+\begin_inset Quotes eld
+\end_inset
+
+java -jar Admintool.jar
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Adding a new case
+\end_layout
+
+\begin_layout Enumerate
+In the main menu select 
+\begin_inset Quotes eld
+\end_inset
+
+1: Create new case
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
+\end_layout
+
+\begin_layout Enumerate
+Enter case name (This is the name of the case that will be shown in the
+ application)
+\end_layout
+
+\begin_layout Enumerate
+Confirm name
+\end_layout
+
+\begin_layout Enumerate
+Enter the categories the case belong to (Make sure that the order and spelling
+ of the categories is correct, separate categories with a comma) (Example:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Tumor, Primary Tumor, Low Grade Glioma
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Confirm categories (You can also restart the step, or ask to see all categories
+ in the database if you are uncertain about spelling etc.)
+\end_layout
+
+\begin_layout Enumerate
+Enter case public description (if you type 
+\begin_inset Quotes eld
+\end_inset
+
+default
+\begin_inset Quotes erd
+\end_inset
+
+ the description will become the categories of the case as entered in step
+ 5.)
+\end_layout
+
+\begin_layout Enumerate
+Enter case private description (this will only be visible for registered
+ users that are logged in)
+\end_layout
+
+\begin_layout Enumerate
+Enter path to where the case mediafiles are stored (the current path we
+ use is: 
+\begin_inset Quotes eld
+\end_inset
+
+/Library/WebServer/Documents/media/casename
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Confirm path
+\end_layout
+
+\begin_layout Enumerate
+Select public or private case by typing 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ (private cases will only be visible to registered users that are logged
+ in)
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
+\end_layout
+
+\begin_layout Enumerate
+New case have now been created
+\end_layout
+
+\begin_layout Subsection
+Adding a new category
+\end_layout
+
+\begin_layout Enumerate
+In the main menu select 
+\begin_inset Quotes eld
+\end_inset
+
+2: Create new category
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Enter the name of the category (if you enter a name that already exist the
+ identification key will be fetched from the database so that you can modify
+ he category)
+\end_layout
+
+\begin_layout Enumerate
+Confirm name
+\end_layout
+
+\begin_layout Enumerate
+Enter the parent (super-) categories of the case (If you want to add a new
+ main-category that shows at the top of the hierarchy, simply leave this
+ empty, then it will automaticly be added to 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Confirm supercategory
+\end_layout
+
+\begin_layout Enumerate
+Enter the child (sub-) categories of the case
+\end_layout
+
+\begin_layout Enumerate
+Confirm subcategory
+\end_layout
+
+\begin_layout Enumerate
+A new category has been added
+\end_layout
+
+\begin_layout Standard
+Example input:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Adding a new user
+\end_layout
+
+\begin_layout Section
 Testing
 \end_layout
 
