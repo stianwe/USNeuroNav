@@ -1861,31 +1861,31 @@ Project communication
 Customer interaction
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 The customer is located in Trondheim, and the meetings will be held at NTNU
  every other week on Wednesdays at 08:00.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Itemize
 The agenda for the meeting is to be sent to the customer by 12 noon Tuesday
  before the meeting.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 The minutes of the meeting is to be sent to the customer the same day as
  the meeting.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Approval of minutes of customer meetings is to be sent as soon as possible,
  max 48 hours.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Approval of phase documents is to be done as soon as possible, max 48 hours.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Answer e-mails is to be done as soon as possible.
 \end_layout
 
@@ -1893,44 +1893,48 @@ Answer e-mails is to be done as soon as possible.
 Supervisor interaction
 \end_layout
 
-\begin_layout Standard
-The meetings with the advisor will be held on Wednesdays at 09.30 and last
- an hour.
+\begin_layout Itemize
+The meetings with the advisor will be held on Wednesdays at 09:30 at the
+ start of the project.
 \end_layout
 
-\begin_layout Standard
-The agenda for the meeting is to be done by 12 noon Tuesday before the meeting.
-\end_layout
-
-\begin_layout Standard
-The Minutes for the meeting is to be done the same day as the meeting.
-\end_layout
-
-\begin_layout Standard
-The minutes of the meeting with the customer is to be sent to the supervisor
- the same day as the customer meeting
-\begin_inset Newline newline
-\end_inset
-
-From September 20 onwards will meetings be held on Fridays at 12:15.
+\begin_layout Itemize
+From September 20 and onwards, meetings will be held on Fridays at 12:15.
  This is because of our sprints satrts at Wednesdays, so it will be more
  convenient to have it in the middle of a sprint, when we have more questions
  and challenges, and it is easier to come on track in the development.
+\end_layout
+
+\begin_layout Itemize
+The meetings should last an hour, or as long as needed.
+\end_layout
+
+\begin_layout Itemize
+The minutes for the meeting is to be created the same day as the meeting.
+\end_layout
+
+\begin_layout Itemize
+The minutes of the meeting with the customer is to be sent to the supervisor
+ the same day as the customer meeting
 \end_layout
 
 \begin_layout Subsubsection
 Group interaction
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Group meetings: Wednesdays at 10:30, Thursdays at 09:15 and Fridays at 09:15
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Itemize
 Unexpected absence is to be reported as soon as possible, preferably before
  the meetings.
- Planned absence is to be reported as soon as possible, so we can plan according
-ly.
+ 
+\end_layout
+
+\begin_layout Itemize
+Planned absence is to be reported as soon as possible, so we can plan accordingl
+y.
 \end_layout
 
 \begin_layout Subsection
