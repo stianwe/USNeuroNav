@@ -2164,14 +2164,7 @@ Titanium and JavaScript
 \end_layout
 
 \begin_layout Standard
-To develop the mobile application, the Titanium
-\begin_inset CommandInset citation
-LatexCommand cite
-key "appcelerator"
-
-\end_inset
-
- tool set was chosen.
+To develop the mobile application, the Titanium tool set was chosen.
  It provides its own IDE for writing the code, which is based on Eclipse
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2222,14 +2215,7 @@ The application should have (close to) the same performance as if written
 \begin_layout Standard
 Given these very specific, and quite demanding, requirements, the team was
  only able to find a couple of valid options.
- These options were in the end Titanium, which was chosen, and Xamarin
-\begin_inset CommandInset citation
-LatexCommand cite
-key "xamarin"
-
-\end_inset
-
-.
+ These options were in the end Titanium, which was chosen, and Xamarin.
  Xamarin is a quite similar tool to Titanium, except that it uses code written
  in C# instead of JavaScript.
  Despite that the team had more experience with C#, Titanium was chosen
@@ -2425,14 +2411,7 @@ Eclipse
 \end_layout
 
 \begin_layout Standard
-Eclipse
-\begin_inset CommandInset citation
-LatexCommand cite
-key "eclipse"
-
-\end_inset
-
- is a multi-language integrated development environment (IDE).
+Eclipse is a multi-language integrated development environment (IDE).
  It is very suitable for Java development, and it also has an integrate
  git tool.
  
@@ -10102,8 +10081,8 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="29" columns="5">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="6text%">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="7text%">
+<column alignment="left" valignment="top" width="20text%">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="10text%">
 <column alignment="left" valignment="top" width="8text%">
@@ -11514,12 +11493,12 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, but we had both
  overestimated and underestimated the effort of time for many tasks.
- Therefore the ideal burndown is beneath the actual burndown through this
- sprint.
+ Therefore the ideal remaning effort line is beneath the actual remaning
+ effort line through this sprint.
  We did most of the work on Wednesdays, Thursdays and Fridays, wich explain
- the slow burndown at day 10, day 9 , day 5 and day 4.We had to do a lot
+ the horizontal line at day 1, day 2 , day 6 and day 7.We had to do a lot
  of programming in this sprint since our technical manager would be absent
- half of the next sprint
+ half of the next sprint, so a lot of work were planned in this sprint.
 \begin_inset Newline newline
 \end_inset
 
@@ -11537,7 +11516,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 1.png
-	width 90text%
+	scale 78
 
 \end_inset
 
@@ -12374,8 +12353,8 @@ Sprint Evaluation
 
 \begin_layout Standard
 The implementation of the initial stories, viewing categories and cases,
- and their images and videos, went very well, and were done withing the
- first half of the sprint.
+ and their images and videos, went very well, and were done within the first
+ half of the sprint.
  The team therefore moved on to set up MySQL server and Apache web server
  on the borrowed iMac, to use it for the development phase.
  This also went without too many quirks, even though the team was very unfamilia
@@ -13092,6 +13071,9 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, and we had estimated
  the effort more realistic.
+ The actual remaning effort line is beneath the ideal remaning effort line
+ almost all the time through this sprint, which means that we have were
+ not behind of schedule.
  We felt like we had a good progress with the work, but we did not implement
  anything this sprint, so the progress did not benefit the application.
 \begin_inset Newline newline
@@ -13110,7 +13092,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 2.png
-	scale 90
+	scale 78
 
 \end_inset
 
@@ -14525,11 +14507,9 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish every task in this sprint, and we felt that we had
  estimated the effort very realistic.
- We had a good progress with the work, and in the end of the sprint we managed
- to work in accordance with ideal burn dow.
- The two tops in the graph is because we often work Wednesday to Friday,
- so the progress on Monday and Tusday was small compared with the other
- days.
+ We had a good progress with the work, but were slightly behind of schedule
+ in the first week, but we managed to fetch up with the plan in the last
+ week of the sprint.
 \begin_inset Newline newline
 \end_inset
 
@@ -14543,6 +14523,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 3.png
+	scale 78
 
 \end_inset
 
@@ -16048,9 +16029,9 @@ The figure below shows the burndown chart for this sprint.
  We managed to finish every task in this sprint, and we felt that we had
  estimated the effort very realistic.
  We had a good progress with the work, and in the end of the sprint we managed
- to work in accordance with ideal burn dow.
+ to work in accordance with ideal burndown.
  We did work almost every day in this sprint, as can be seen in the almost
- linear line for the actual burndown.
+ linear line for the actual remaining effort.
 \end_layout
 
 \begin_layout Standard
@@ -16067,6 +16048,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/Burndown Chart Sprint 4.png
+	scale 78
 
 \end_inset
 
@@ -16079,10 +16061,6 @@ Burndown Chart Sprint 3
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
