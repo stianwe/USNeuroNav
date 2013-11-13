@@ -9557,9 +9557,12 @@ System tests are executed to test the functionality of the product.
 Since both unit- and integration testing only was done by the programmer
  working on the code, we decided to thoroughly document and perform system
  tests in every sprint.
- The system tests were mainly performed by the members of the team, but
- they were prepared and executed in a manner that could have been done by
- the customer or any other used should that have been desired.
+ The system tests were written based on a combination of the requirements
+ and the usecases, making sure to include all the core functionality of
+ the application.
+ The tests were mainly performed by the members of the team, but they were
+ prepared and executed in a manner that could have been done by the customer
+ or any other used should that have been desired.
  Below is a table containing all our system tests, the complete description
  of every test can be found in appendix ABCDE.
  
@@ -9574,13 +9577,11 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="5">
+<lyxtabular version="3" rows="9" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -9595,25 +9596,7 @@ Identifier
 \begin_inset Text
 
 \begin_layout Plain Layout
-Description
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Identifier
+Test name
 \end_layout
 
 \end_inset
@@ -9633,7 +9616,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T01
 \end_layout
 
 \end_inset
@@ -9642,25 +9625,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Browse categories
 \end_layout
 
 \end_inset
@@ -9669,7 +9634,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Browsing in the categories hierachy
 \end_layout
 
 \end_inset
@@ -9680,7 +9645,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T02
 \end_layout
 
 \end_inset
@@ -9689,25 +9654,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Select a case
 \end_layout
 
 \end_inset
@@ -9716,7 +9663,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Selecting a case and getting the case-view
 \end_layout
 
 \end_inset
@@ -9727,7 +9674,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T03
 \end_layout
 
 \end_inset
@@ -9736,25 +9683,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Browse pictures
 \end_layout
 
 \end_inset
@@ -9763,7 +9692,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Selecting pictures and browsing them
 \end_layout
 
 \end_inset
@@ -9774,7 +9703,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T04
 \end_layout
 
 \end_inset
@@ -9783,25 +9712,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Play video
 \end_layout
 
 \end_inset
@@ -9810,7 +9721,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Selecting a video and playing it
 \end_layout
 
 \end_inset
@@ -9821,7 +9732,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T05
 \end_layout
 
 \end_inset
@@ -9830,25 +9741,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Search for case
 \end_layout
 
 \end_inset
@@ -9857,7 +9750,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Searching for a case by categories
 \end_layout
 
 \end_inset
@@ -9868,7 +9761,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T06
 \end_layout
 
 \end_inset
@@ -9877,25 +9770,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Log in
 \end_layout
 
 \end_inset
@@ -9904,7 +9779,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Logging in and confirming additional options
 \end_layout
 
 \end_inset
@@ -9915,7 +9790,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T07
 \end_layout
 
 \end_inset
@@ -9924,25 +9799,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Add new case
 \end_layout
 
 \end_inset
@@ -9951,7 +9808,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Admintool core functionality
 \end_layout
 
 \end_inset
@@ -9962,7 +9819,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+T08
 \end_layout
 
 \end_inset
@@ -9971,25 +9828,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Add new user
 \end_layout
 
 \end_inset
@@ -9998,7 +9837,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Admintool core functionality
 \end_layout
 
 \end_inset
