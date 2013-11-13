@@ -18138,17 +18138,16 @@ Evaluation of the project
 The project evaluation is largely based on feedback from the customer, and
  from the surgeons that we presented the application for, and how these
  compare to the evaluation criteria.
-\end_layout
-
-\begin_layout Standard
-Since we were aware of the fact that our application was to be used as a
- foundation for a future, we had this in the back of our head throughout
- the whole implementation process.
- This is not a part that the customer and the surgeons have any insight
- in, but we think that we did a good job of making our code as flexible
- as possible, allowing new features.
- The methods to retrieve data internal in the app is also very straight
- forward.
+ The meeting with the surgeons took place at St.
+ Olavs Hospital at the 8th of November.
+ Present at the meeting was 2 surgeons, 3 technicians, the customer, and
+ the three group members.
+ The meeting was diveded into two parts.
+ The first part was used to show a demo of the application on a large screen.
+ The demo consisted of showing all the features, and passing an iPhone around
+ the room, for all the participants to try.
+ The second part was a discussion, where the surgeons explained what they
+ thought, and came with suggestions on future work and possible features.
 \end_layout
 
 \begin_layout Standard
@@ -18167,24 +18166,70 @@ complete
 \end_layout
 
 \begin_layout Standard
-In the presentation of the application for the customer and the surgeons,
- we got very positive feedback on the features implemented so far, and they
- were very impressed with what we had been able to do with so short time,
- and with the possibilities that the foundation provided.
+At the presentation, we received very positive feedback on the features
+ implemented so far, and they were very impressed with what we had been
+ able to do with so short time, and with the possibilities that the foundation
+ provided.
  
 \end_layout
 
 \begin_layout Standard
 As a proof-of-concept, the application worked very well.
- We were able to demonstrate many features, like viewing browsing categories,
- viewing case images and video, searching for cases, separation of data
- for registered and non-registered users.
+ We were able to demonstrate many features, like browsing categories, viewing
+ case images and video, searching for cases, separation of data for registered
+ and non-registered users.
  The test users decided that the application, at its current level (minus
  the bugs), would be very useful without further development, and they inquired
  both on how possible it would be to publish the application on the App
  Store, but also on how the process of adding new cases worked.
  This was very positive feedback, and all in all, we concluded that the
  customer was happy with the product.
+\end_layout
+
+\begin_layout Standard
+Since we were aware of the fact that our application was to be used as a
+ foundation for a future, we had this in the back of our head throughout
+ the whole implementation process.
+ This is not a part that the customer and the surgeons have any insight
+ in, but we think that we did a good job of making our code as flexible
+ as possible, allowing new features.
+ The methods to retrieve data internal in the app is also very straight
+ forward.
+\end_layout
+
+\begin_layout Standard
+Milestone MP5, 
+\begin_inset Quotes eld
+\end_inset
+
+Product delivery
+\begin_inset Quotes erd
+\end_inset
+
+ was not met at the deadline, since the customer was away at that date,
+ but would have been met if the customer had been available.
+ The milestone was completed shortly after the customer returned from his
+ trip.
+\end_layout
+
+\begin_layout Standard
+The final two milestones, MR3, 
+\begin_inset Quotes eld
+\end_inset
+
+Complete and print final report
+\begin_inset Quotes erd
+\end_inset
+
+, and MR4, 
+\begin_inset Quotes eld
+\end_inset
+
+Final project presentation
+\begin_inset Quotes erd
+\end_inset
+
+, were met at their set deadlines as planned.
 \end_layout
 
 \begin_layout Subsection
@@ -18216,12 +18261,65 @@ In the early phase of the project we spent a lot of time discussing which
 \begin_layout Standard
 After a couple of weeks, the customer was able to supply us with an iMac
  that we could borrow.
- This made us able to target the iOS platform.
+ This made us able to target the iOS platform, but only one person was able
+ to write code and test it at once.
+ This increased the development time by two thirds, and was a restriction
+ from Apple that felt very unecessary.
  In addition, to run the application on an actual device an Apple developer
  license was required.
  The customer already had one of these, but it was also being used by another
  developer at the time.
- The fact that it was already in use, limited us to 
+ The fact that it was already in use, limited us to quite some extent.
+ We were dependent on receiving a private encryption key from the other
+ developer, which took almost a month.
+ This limitation delayed the testing on an actual device.
+\end_layout
+
+\begin_layout Subsubsection
+Titanium and JavaScript
+\end_layout
+
+\begin_layout Standard
+At first glance, Titanium with JavaScript seemed like a very nice tool to
+ develop a cross-platform application for mobile devices, since it compiles
+ down to native code, and that almost all of the GUI code can be used for
+ multiple platforms.
+\end_layout
+
+\begin_layout Standard
+Titanium and JavaScript showed, however, to be a bit of a pain to work with.
+ First of all, all the team members were very unfamiliar with JavaScript.
+ JavaScript does not have direct support for classes, and even though its
+ name is very similar to Java, the two languages does not look very much
+ alike at all.
+ We were also in for a surprise when it came to Titanium's development environme
+nt.
+ Titanium studio is a free IDE built on top of Eclipse, and which also allows
+ the developer to test the application on an iOS simulator.
+ It has, however, a couple of flaws.
+ First, and perhaps most important, is its total lack of useful debugging
+ support.
+ When running an app on the iOS simulator through Titanium studio, the error
+ codes that pop up does not make sense at all, and the line numbers is typically
+ way off .
+ In addition, Auto-completion when writing code is almost non-existant,
+ and only work in the simplest cases.
+ These major shortcomings results in additionally extended development time,
+ but also, and perhaps more important, a much longer testing and debugging
+ phase.
+\end_layout
+
+\begin_layout Subsubsection
+Eclipse and Java
+\end_layout
+
+\begin_layout Standard
+After developing with Titanium and JavaScript for several weeks, developing
+ the admin tool in Java with ordinary Eclipse was a actually quite a pleasure.
+ It made us appreciate the complete auto-completion of code, and that error
+ messages and exceptions actually tells the programmer where and what actually
+ went wrong.
+ 
 \end_layout
 
 \begin_layout Section
