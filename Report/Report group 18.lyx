@@ -10093,8 +10093,24 @@ An additional goal of the sprint was to start working with Rally, to keep
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured two milestones.
- MP1 and MP2, wich we would try to complete.
+For sprint 1, we tried to complete two milestones, MP1, 
+\begin_inset Quotes eld
+\end_inset
+
+Have a running prototype, able to show local photos, categorization of cases
+ to enable browsing
+\begin_inset Quotes erd
+\end_inset
+
+, and MP2, 
+\begin_inset Quotes eld
+\end_inset
+
+Support for video, searching for cases, network support, server communication
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -13588,7 +13604,15 @@ The reason why we set so ambitious goals regarding the amount of implementation
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured one milestone, MP3, wich we would try to complete.
+For sprint 3, we tried to complete milestone MP3, 
+\begin_inset Quotes eld
+\end_inset
+
+Upload of data
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -15663,7 +15687,15 @@ Also, we planned to pick up on the report, and really get some progress
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured one milestone, MP4, wich we would try to complete.
+For sprint 4, we tried to complete milestone MP4, 
+\begin_inset Quotes eld
+\end_inset
+
+Caching of data, finalize features
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
