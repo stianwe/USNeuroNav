@@ -13978,9 +13978,13 @@ System Burndown Chart
 
 \begin_layout Standard
 The figure below shows the burndown chart for this sprint.
- We managed to finish almost every task in this sprint, and we had estimated
- the effort more realistic.
- We felt like we had a good progress with the work
+ We managed to finish every task in this sprint, and we felt that we had
+ estimated the effort very realistic.
+ We had a good progress with the work, and in the end of the sprint we managed
+ to work in accordance with ideal burn dow.
+ The two tops in the graph is because we often work Wednesday to Friday,
+ so the progress on Monday and Tusday was small compared with the other
+ days.
 \begin_inset Newline newline
 \end_inset
 
@@ -15487,7 +15491,51 @@ System Burndown Chart
 \end_layout
 
 \begin_layout Standard
-Marthe
+The figure below shows the burndown chart for this sprint.
+ We managed to finish every task in this sprint, and we felt that we had
+ estimated the effort very realistic.
+ We had a good progress with the work, and in the end of the sprint we managed
+ to work in accordance with ideal burn dow.
+ We did work almost every day in this sprint, as can be seen in the almost
+ linear line for the actual burndown.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Burndown Chart Sprint 4.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Burndown Chart Sprint 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
