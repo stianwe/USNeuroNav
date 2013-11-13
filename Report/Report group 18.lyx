@@ -19881,8 +19881,16 @@ default
 \end_layout
 
 \begin_layout Enumerate
+Confirm description
+\end_layout
+
+\begin_layout Enumerate
 Enter case private description (this will only be visible for registered
  users that are logged in)
+\end_layout
+
+\begin_layout Enumerate
+Confirm description
 \end_layout
 
 \begin_layout Enumerate
@@ -19931,6 +19939,186 @@ Confirm selection
 New case have now been created
 \end_layout
 
+\begin_layout Standard
+Example input: 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Select Create new case)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Case 12
+\begin_inset Quotes erd
+\end_inset
+
+ (Case name)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Vascular, Aneurysm,
+\begin_inset Quotes erd
+\end_inset
+
+ (Categories)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+This is the public description
+\begin_inset Quotes erd
+\end_inset
+
+ (public description)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+This is the private description
+\begin_inset Quotes erd
+\end_inset
+
+ (private description)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+/Library/WebServer/Documents/media/case12data
+\begin_inset Quotes erd
+\end_inset
+
+ (path to mediafiles)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (public case)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+This will create a new case with the name 
+\begin_inset Quotes eld
+\end_inset
+
+Case 12
+\begin_inset Quotes erd
+\end_inset
+
+, with the public and private description entered, belonging to the categories
+ entered.
+ All mediafiles with ending with (".mov",".mp4",
+\begin_inset Quotes erd
+\end_inset
+
+.jpg
+\begin_inset Quotes erd
+\end_inset
+
+) in the specified folder will be added to this case in the database.
+\end_layout
+
 \begin_layout Subsection
 Adding a new category
 \end_layout
@@ -19945,6 +20133,10 @@ In the main menu select
 \end_inset
 
 
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
 \end_layout
 
 \begin_layout Enumerate
@@ -19988,15 +20180,258 @@ A new category has been added
 \end_layout
 
 \begin_layout Standard
-Example input:
+Example input: 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ (Select Create new category)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+New type of primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+ (Category name)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Tumor, Primary Tumor
+\begin_inset Quotes erd
+\end_inset
+
+ (Supercategories)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ (Subcategories, in this case empty, but locations such as Frontal Lobe
+ could have been added here)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
 \end_layout
 
 \begin_layout Standard
+This will create a new category called 
+\begin_inset Quotes eld
+\end_inset
 
+New type of primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+ as the subcategory of 
+\begin_inset Quotes eld
+\end_inset
+
+Primary Tumor
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
 Adding a new user
+\end_layout
+
+\begin_layout Enumerate
+In the main menu select 
+\begin_inset Quotes eld
+\end_inset
+
+3: Create new user
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
+\end_layout
+
+\begin_layout Enumerate
+Enter username
+\end_layout
+
+\begin_layout Enumerate
+Confirm username
+\end_layout
+
+\begin_layout Enumerate
+Enter password
+\end_layout
+
+\begin_layout Enumerate
+Confirm password
+\end_layout
+
+\begin_layout Enumerate
+A new user has been created
+\end_layout
+
+\begin_layout Standard
+Example input:
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+3
+\begin_inset Quotes erd
+\end_inset
+
+ (Select Create new user)
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+3.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+User
+\begin_inset Quotes erd
+\end_inset
+
+ (Username)
+\end_layout
+
+\begin_layout Standard
+4.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+5.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+password
+\begin_inset Quotes erd
+\end_inset
+
+ (Password)
+\end_layout
+
+\begin_layout Standard
+6.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+This will create a new user with the username 
+\begin_inset Quotes eld
+\end_inset
+
+User
+\begin_inset Quotes erd
+\end_inset
+
+ and the password 
+\begin_inset Quotes eld
+\end_inset
+
+password
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
