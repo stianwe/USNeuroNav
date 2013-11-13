@@ -1183,8 +1183,7 @@ Product
 \begin_inset Text
 
 \begin_layout Plain Layout
-Support for video, searching for cases, network support, server communication,
- 
+Support for video, searching for cases, network support, server communication.
 \end_layout
 
 \end_inset
@@ -9958,8 +9957,7 @@ acts as a final verification of the required business functionality and
 \begin_inset Quotes erd
 \end_inset
 
-(http://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2)The test itself
- is 
+ The test itself is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -9971,7 +9969,14 @@ r defects, such as software crashes; testers and developers previously identify
 \begin_inset Quotes erd
 \end_inset
 
-(http://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2)
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "acceptance test"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -12409,38 +12414,62 @@ Sprint Planning
 \end_layout
 
 \begin_layout Standard
-The duration of sprint 2 was from 2th of October to 15th of October.
+The duration of sprint 2 was from the 2th of October to the 15th of October.
 \end_layout
 
 \begin_layout Standard
-We almost managed to be done with every task from the previous sprint, there
- was only two tasks that had to be pushed to the backlog of sprint 2.
- 
+We almost managed to be done with every task from the previous sprint.
+ There was only two tasks that had to be pushed to the backlog of sprint
+ 2, R1.8, 
+\begin_inset Quotes eld
+\end_inset
+
+Software architecture
+\begin_inset Quotes erd
+\end_inset
+
+, and R1.9, 
+\begin_inset Quotes eld
+\end_inset
+
+Sprint 1
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 Our technical manager, Stian, was gone on a planned trip during half the
- sprint, and while he was here he worked on the report.
+ sprint, and while he was there he worked on the report.
  Marthe and Kristoffer also foucused on the report, since there was to be
  a pre delivery on the 14th October, and we wanted to get as much feedback
  on the report as possible.
 \end_layout
 
 \begin_layout Standard
-There was decided that there would not be implemented any new features in
- this sprint.
- This was because of the pre delivery of the report, Stian was gone most
- of the sprint.
+We decided that there would not be implemented any new features in this
+ sprint.
+ This was because of the pre delivery of the report, and that Stian was
+ gone most of the sprint.
 \end_layout
 
 \begin_layout Standard
-The customer came back from his trip the 9th October, wich was in the midle
- of our sprint, and after that we aggread that we would try to have regular
+The customer came back from his trip the 9th October, which was in the midle
+ of our sprint, and after that we agred that we would try to have regular
  meetings every second week.
 \end_layout
 
 \begin_layout Standard
-During this sprint it occured one milestone, MR2, wich we would try to complete.
+For sprint 2, we planned to complete one milestone, MR2, 
+\begin_inset Quotes eld
+\end_inset
+
+Support for video, searching for cases, network support, server communication
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -12469,12 +12498,13 @@ Sprint backlog
 The sprint backlog for this sprint is shown in the table below.
  It shows all the use case stories, with tasks and estimated effort that
  was planned for this sprint.
- We learnd from the last sprint that we had under estimated the tasks, so
+ We learned from the last sprint that we had underestimated the tasks, so
  we tried to give a better estimate this time.
-\begin_inset Newline newline
-\end_inset
+ This sprint's backlog also contains the items that were pushed from sprint
+ 1.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -13085,10 +13115,6 @@ Occurring Risks
 \begin_layout Standard
 The risks that came to life during sprint 2 is summarized in the table below,
  along with the actions taken.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -13219,21 +13245,8 @@ We had a meeting with the customer on 9th October, and he did appore the
  progress so far.
  He had some comments on how the application would work on iPhone, in particular
 ly zooming and tilting of pictures and videos.
- We agreed on the futher work and the priority og the remaining tasks.
- 
-\end_layout
-
-\begin_layout Standard
-At the end of the sprint, we did not have a meeting, since there were no
- new implementation of the application in this sprint
-\end_layout
-
-\begin_layout Subsubsection
-New priority of requirements
-\end_layout
-
-\begin_layout Standard
-We agreed with the customer to change the priorities of the requirements:
+ We agreed on the further work and the priority of the remaining tasks,
+ as shown below with new priorities of the requirements.
 \end_layout
 
 \begin_layout Standard
@@ -13241,10 +13254,6 @@ We agreed with the customer to change the priorities of the requirements:
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -13423,13 +13432,14 @@ New piority of requirements
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+We did not have a meeting with the customer at the end of sprint 2, since
+ no implementation were done at all, so we had nothing new to show.
 \end_layout
 
 \begin_layout Subsection
@@ -19789,13 +19799,34 @@ http://rallydev.com
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
+key "acceptance test"
+
+\end_inset
+
+Wikipedia - Acceptance test 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Acceptance_testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
 key "unit testing"
 
 \end_inset
 
 Microsoft Developer Network 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -19928,8 +19959,16 @@ default
 \end_layout
 
 \begin_layout Enumerate
+Confirm description
+\end_layout
+
+\begin_layout Enumerate
 Enter case private description (this will only be visible for registered
  users that are logged in)
+\end_layout
+
+\begin_layout Enumerate
+Confirm description
 \end_layout
 
 \begin_layout Enumerate
@@ -19978,6 +20017,186 @@ Confirm selection
 New case have now been created
 \end_layout
 
+\begin_layout Standard
+Example input: 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Select Create new case)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Case 12
+\begin_inset Quotes erd
+\end_inset
+
+ (Case name)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Vascular, Aneurysm,
+\begin_inset Quotes erd
+\end_inset
+
+ (Categories)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+This is the public description
+\begin_inset Quotes erd
+\end_inset
+
+ (public description)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+This is the private description
+\begin_inset Quotes erd
+\end_inset
+
+ (private description)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+/Library/WebServer/Documents/media/case12data
+\begin_inset Quotes erd
+\end_inset
+
+ (path to mediafiles)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (public case)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+This will create a new case with the name 
+\begin_inset Quotes eld
+\end_inset
+
+Case 12
+\begin_inset Quotes erd
+\end_inset
+
+, with the public and private description entered, belonging to the categories
+ entered.
+ All mediafiles with ending with (".mov",".mp4",
+\begin_inset Quotes erd
+\end_inset
+
+.jpg
+\begin_inset Quotes erd
+\end_inset
+
+) in the specified folder will be added to this case in the database.
+\end_layout
+
 \begin_layout Subsection
 Adding a new category
 \end_layout
@@ -19992,6 +20211,10 @@ In the main menu select
 \end_inset
 
 
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
 \end_layout
 
 \begin_layout Enumerate
@@ -20035,15 +20258,258 @@ A new category has been added
 \end_layout
 
 \begin_layout Standard
-Example input:
+Example input: 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ (Select Create new category)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+New type of primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+ (Category name)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Tumor, Primary Tumor
+\begin_inset Quotes erd
+\end_inset
+
+ (Supercategories)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ (Subcategories, in this case empty, but locations such as Frontal Lobe
+ could have been added here)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
 \end_layout
 
 \begin_layout Standard
+This will create a new category called 
+\begin_inset Quotes eld
+\end_inset
 
+New type of primary tumor
+\begin_inset Quotes erd
+\end_inset
+
+ as the subcategory of 
+\begin_inset Quotes eld
+\end_inset
+
+Primary Tumor
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
 Adding a new user
+\end_layout
+
+\begin_layout Enumerate
+In the main menu select 
+\begin_inset Quotes eld
+\end_inset
+
+3: Create new user
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Confirm selection
+\end_layout
+
+\begin_layout Enumerate
+Enter username
+\end_layout
+
+\begin_layout Enumerate
+Confirm username
+\end_layout
+
+\begin_layout Enumerate
+Enter password
+\end_layout
+
+\begin_layout Enumerate
+Confirm password
+\end_layout
+
+\begin_layout Enumerate
+A new user has been created
+\end_layout
+
+\begin_layout Standard
+Example input:
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+3
+\begin_inset Quotes erd
+\end_inset
+
+ (Select Create new user)
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+3.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+User
+\begin_inset Quotes erd
+\end_inset
+
+ (Username)
+\end_layout
+
+\begin_layout Standard
+4.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+5.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+password
+\begin_inset Quotes erd
+\end_inset
+
+ (Password)
+\end_layout
+
+\begin_layout Standard
+6.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ (Confirm)
+\end_layout
+
+\begin_layout Standard
+This will create a new user with the username 
+\begin_inset Quotes eld
+\end_inset
+
+User
+\begin_inset Quotes erd
+\end_inset
+
+ and the password 
+\begin_inset Quotes eld
+\end_inset
+
+password
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
