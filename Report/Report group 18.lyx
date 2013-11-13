@@ -15160,7 +15160,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-32
+39
 \end_layout
 
 \end_inset
@@ -15442,7 +15442,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-103
+110
 \end_layout
 
 \end_inset
@@ -16270,8 +16270,53 @@ Sprint Evaluation
 What went well during this sprint
 \end_layout
 
+\begin_layout Standard
+Ahead of the meeting with the surgeons, where we were to present the application
+ and do a little demo, we discovered quite a lot of bugs, in cooperation
+ with the customer.
+ This was late the night before the presentation, so we didn't have many
+ hours to fix or hide them.
+ Even though, we were able to fix a lot of major bugs in the very short
+ time before the presentation.
+\end_layout
+
+\begin_layout Standard
+We were also very happy with the meeting with the surgeons itself.
+ It was very good for us to see that what we were doing actually was important
+ for someone, and that they was very interesting.
+ In addition, it was nice to get feedback from more than only the customer,
+ both on what we had so far, but also on features they wanted, and such.
+ The surgeons even started discussions amongst them on what features they
+ thought would be nice to have, and that was very interesting for us to
+ listen in on, even if we didn't have time to implement any more features.
+\end_layout
+
 \begin_layout Subsubsection
 What can be improved for the next sprint
+\end_layout
+
+\begin_layout Standard
+Sprint 4 was the last sprint, but we discovered several things that could
+ have been improved for potential future sprints.
+ These are discussed here.
+\end_layout
+
+\begin_layout Standard
+A lot of time in sprint 4 was used to prepare the meeting with the surgeons.
+ Both on finding a way to distribute the application, and on planning what
+ to do and what to say.
+ Also, a quite some time was spent coordinating the meeting with the customer.
+ The meeting also took a large part of one day.
+ When estimating tasks for sprint 4, we did not plan to use this much time
+ on the meeting and its preparations.
+ That might have been a little mistake.
+\end_layout
+
+\begin_layout Standard
+All the time spent on the meeting, resulted in that fewer than planned bugs
+ were fixed, and also that the report saw less progress than ideal.
+ This will likely result in some overtime in the last couple of weeks of
+ the project.
 \end_layout
 
 \begin_layout Standard
