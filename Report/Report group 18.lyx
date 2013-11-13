@@ -9958,8 +9958,7 @@ acts as a final verification of the required business functionality and
 \begin_inset Quotes erd
 \end_inset
 
-(http://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2)The test itself
- is 
+ The test itself is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -9971,7 +9970,14 @@ r defects, such as software crashes; testers and developers previously identify
 \begin_inset Quotes erd
 \end_inset
 
-(http://en.wikipedia.org/wiki/Acceptance_testing#cite_note-2)
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "acceptance test"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -19736,13 +19742,34 @@ http://rallydev.com
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
+key "acceptance test"
+
+\end_inset
+
+Wikipedia - Acceptance test 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Acceptance_testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
 key "unit testing"
 
 \end_inset
 
 Microsoft Developer Network 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
