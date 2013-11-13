@@ -11486,7 +11486,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+159
 \end_layout
 
 \end_inset
@@ -11495,7 +11495,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+155
 \end_layout
 
 \end_inset
@@ -11534,8 +11534,8 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, but we had both
  overestimated and underestimated the effort of time for many tasks.
- Therefore the ideal remaning effort line is beneath the actual remaning
- effort line through this sprint.
+ Therefore the ideal remaning effort line is slightly beneath the actual
+ remaning effort line through most of this sprint.
  We did most of the work on Wednesdays, Thursdays and Fridays, wich explain
  the horizontal line at day 1, day 2 , day 6 and day 7.We had to do a lot
  of programming in this sprint since our technical manager would be absent
@@ -12625,7 +12625,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+5
 \end_layout
 
 \end_inset
@@ -12954,7 +12954,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+15
 \end_layout
 
 \end_inset
@@ -13482,6 +13482,12 @@ The duration of sprint 3 was from 16th of October to 29th of October.
 \end_layout
 
 \begin_layout Standard
+We almost managed to be done with every task from the previous sprint, there
+ was only one task that had to be pushed to the backlog of sprint 3, that
+ was the R1.10 Sprint 2.
+\end_layout
+
+\begin_layout Standard
 The plan for sprint 3 was to pick up where we left off at sprint 1 on the
  development part.
  During a meeting with the customer in sprint 2, we received some feedback
@@ -13604,7 +13610,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="18" columns="5">
+<lyxtabular version="3" rows="19" columns="5">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
@@ -14411,6 +14417,53 @@ Marthe
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R1.10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sprint 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marthe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -14442,7 +14495,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-117 
+124
 \end_layout
 
 \end_inset
@@ -14451,7 +14504,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-122
+129
 \end_layout
 
 \end_inset
@@ -16004,7 +16057,7 @@ Stian
 \begin_inset Text
 
 \begin_layout Plain Layout
-39
+32
 \end_layout
 
 \end_inset
@@ -16248,7 +16301,7 @@ Marthe
 \begin_inset Text
 
 \begin_layout Plain Layout
-22
+21
 \end_layout
 
 \end_inset
@@ -16286,7 +16339,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-110
+103
 \end_layout
 
 \end_inset
@@ -16295,7 +16348,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-104
+103
 \end_layout
 
 \end_inset
