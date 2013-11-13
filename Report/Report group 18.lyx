@@ -13514,7 +13514,15 @@ The duration of sprint 3 was from 16th of October to 29th of October.
 \begin_layout Standard
 We almost managed to be done with every task from the previous sprint, there
  was only one task that had to be pushed to the backlog of sprint 3, that
- was the R1.10 Sprint 2.
+ was the R1.10, 
+\begin_inset Quotes eld
+\end_inset
+
+Sprint 2
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -14827,7 +14835,7 @@ As mentioned earlier, we realized that a small program, with the purpose
  Below is a sequence diagram that pictures the process of creating a new
  case and a new category in Admin tool.
  More detailed description of Admin tool will come in section INSERT SECTION
- HERE.
+ REFERENCE HERE.
 \end_layout
 
 \begin_layout Standard
@@ -15343,7 +15351,19 @@ Sprint Evaluation
 \end_layout
 
 \begin_layout Standard
-The milestones MP3 was completed within time.
+The targeted milestone, MP3, was completed during sprint 3.
+ Also, all new feature requests and tunings from the customer was implemented.
+ So were all planned new features.
+ We were very happy with this progress, and it actually put us up to speed
+ with the schedule, even though we didn't do any programming in sprint 2.
+ 
+\end_layout
+
+\begin_layout Standard
+Also, the work items left over from sprint 2 was completed, like writing
+ about sprint 2 in the report, etc.
+ Some additional work were also done on the report, e.g.
+ a lot of formating and set up of report structure.
 \end_layout
 
 \begin_layout Subsubsection
