@@ -3366,11 +3366,11 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="50text%">
+<column alignment="left" valignment="top" width="50text%">
 <column alignment="center" valignment="top" width="10text%">
 <column alignment="center" valignment="top" width="10text%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3399,7 +3399,7 @@ Scrum
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3428,7 +3428,7 @@ X
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3457,7 +3457,7 @@ X
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3486,7 +3486,7 @@ X
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3515,7 +3515,7 @@ X
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3544,7 +3544,7 @@ X
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3598,20 +3598,20 @@ Why Scrum
 \end_layout
 
 \begin_layout Standard
-It is clearly that the waterfall model couldt not be to our benefit, so
- we chose an agile model.
+It is clearly that the waterfall model could not be to our benefit, so we
+ chose an agile model.
  It works well on small groups, and the scope and requirements for the project
  were not clearly defined at the time it had to be decided on a development
  model.
  We also did not know exactly when we would get an iMac form the customer,
- so an agile lifecycle model were prefeable.
+ so an agile lifecycle model was preferable.
 \end_layout
 
 \begin_layout Standard
 The ability to cope with changes was the major reason for why we chose scrum.
- It was not clear that we migth get an other team menber to our group, so
- we planned for three people, and with scrum we could esaly change the plans
- if we got one more.
+ It was not clear that we might get another team member to our group, so
+ we planned for three people, and with scrum we could easily change the
+ plans if we got one more.
 \end_layout
 
 \begin_layout Subsection
@@ -3622,20 +3622,20 @@ Scrum Artefacts
 There are several artifacts used in Scrum, such as product backlog and sprint
  backlog.
  The product backlog is a list with all the remaining functionality to implement
-, wile the sprint backlog is a list with functionality that is to implement
+, while the sprint backlog is a list with functionality that is to implement
  during a sprint.
 \end_layout
 
 \begin_layout Standard
 The project is divided into sprints, which usually last between two to four
- weekss.
+ weeks.
  A sprint usually consists of a sprint planning meeting where the members
  of the team and the stakeholders/customer of the project pick out items
  from the product backlog that they will try to finish within that sprint,
  and put these items into the sprint backlog.
  Each of these items will have an estimated effort on how hard or how much
  time they will take to complete.
- The istems estimated effort to complete should be updated after each day
+ The items estimated effort to complete should be updated after each day
  so that the team can see if they are on track with finishing the project
  on time or not.
  This is visible through the burndown chart, a graph which shows how much
@@ -3661,7 +3661,7 @@ Sprint planning meeting
 \begin_layout Standard
 It is a meeting held at the start of each sprint.
  The team decides which items in the product backlog that will be in the
- sprint backlog, based on the itmens priority.
+ sprint backlog, based on the items priority.
  Each item in the sprint backlog will then be given an estimated effort
  on how long it will take to complete.
  
@@ -3675,7 +3675,7 @@ Daily standups
 It is a short meeting, not more than 10 - 15 minutes, at the start of each
  day during a sprint.
  Each member of the group updates the rest on what has been done since last
- meeting, what they will do today and if there is any problems.
+ meeting, what they will do today and if there are any problems.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3699,7 +3699,7 @@ Sprint retrospective meeting
 \begin_layout Standard
 It is held after each sprint to reflect on the past sprint and to improve
  on the next sprint.
- The questions asked and documented are ”What went well during the sprint?”
+ The questions asked and documented were: ”What went well during the sprint?”
  and ”What could be improved in the next sprint?”.
 \end_layout
 
@@ -3716,9 +3716,9 @@ Requirements
 
 \begin_layout Standard
 In this section the system requirements will be presented.
- First a description of the scope of the project, followed by definitions,
- then a describtion of the functional and non-functional requirements.
- At the end the product backlog wil be described.
+ First a description of the scope of the project, followed by the actors,
+ then a description of the functional and non-functional requirements.
+ At the end the product backlog will be described.
 \end_layout
 
 \begin_layout Subsection
@@ -3736,8 +3736,8 @@ The final system is to be identified by the name USNeuroNav App.
 The administrator will have a simple panel (text-based or GUI) from where
  he can register users, create new categories and cases, and upload media
  files (images and video) to cases).
- He will also have the possibility to edit categorie structure, by for example
- specifying sub-categories etc.
+ He will also have the possibility to edit the category structure, by for
+ example specifying sub-categories etc.
  This panel will be a computer program, not a mobile application.
 \end_layout
 
@@ -3795,8 +3795,7 @@ Unregistered user
 \begin_layout Standard
 This is a public user who is interested in learning about the ultrasound
  images and how to interpret them.
- There may be students, doctors or anyone who who wants access to such informati
-on.
+ There may be students, doctors or anyone who wants access to such information.
  
 \end_layout
 
@@ -3827,8 +3826,8 @@ Functional Requirements
 \end_layout
 
 \begin_layout Standard
-In this section the funktional requirements for the system are given and
- expleined in detail.
+In this section the functional requirements for the system are given and
+ explained in detail.
 \begin_inset Newline newline
 \end_inset
 
@@ -3836,8 +3835,8 @@ In this section the funktional requirements for the system are given and
 \begin_inset Newline newline
 \end_inset
 
-All requirements are assigned one of four possible priority values.
- Critical, high, medium and low.
+All requirements are assigned one of four possible priority values, critical,
+ high, medium and low.
 \begin_inset Newline newline
 \end_inset
 
@@ -3848,7 +3847,7 @@ Critical prioritized requirements are the most important and the system
 \end_inset
 
 High prioritized requirements are important for the customer, but these
- requirements wil be implemented after the critical prioritized requirements.
+ requirements will be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
@@ -3875,7 +3874,7 @@ nice to have requirements
 \begin_inset Newline newline
 \end_inset
 
-The tabels below contains an overall description of the functional requirements
+The tables below contains an overall description of the functional requirements
  are given, its priorities and the identification we will use later for
  reference.
 \end_layout
@@ -6423,8 +6422,8 @@ Non-Functional Requirements
 \end_layout
 
 \begin_layout Standard
-In this section the non-funktional requirements for the system are given
- and expleined in detail.
+In this section the non-functional requirements for the system are given
+ and explained in detail.
 \begin_inset Newline newline
 \end_inset
 
@@ -6432,8 +6431,8 @@ In this section the non-funktional requirements for the system are given
 \begin_inset Newline newline
 \end_inset
 
-All requirements are assigned one of four possible priority values.
- Critical, high, medium and low.
+All requirements are assigned one of four possible priority values, critical,
+ high, medium and low.
 \begin_inset Newline newline
 \end_inset
 
@@ -6444,7 +6443,7 @@ Critical prioritized requirements are the most important and the system
 \end_inset
 
 High prioritized requirements are important for the customer, but these
- requirements wil be implemented after the critical prioritized requirements.
+ requirements will be implemented after the critical prioritized requirements.
 \begin_inset Newline newline
 \end_inset
 
@@ -6471,7 +6470,7 @@ nice to have requirements
 \begin_inset Newline newline
 \end_inset
 
-An overall tabel of the non-functional requirements and its priorities are
+An overall table of the non-functional requirements and its priorities are
  given below.
 \end_layout
 
@@ -8670,8 +8669,8 @@ Software Architecture
 \end_layout
 
 \begin_layout Standard
-This section will describe the architechture of our application the way
- it was planned before the implementation started.
+This section will describe the architecture of our application the way it
+ was planned before the implementation started.
  It will describe the different modules of our system and through different
  architectural views show how we have planned the structure and modularity
  of our system.
@@ -8691,7 +8690,7 @@ The purpose of this is to give an overview of the architectural structure
  This will enable the project developers to have a clear and planned approach
  to the system architecture and it will guide the implementation of the
  system.
- By being familiar with the achitecture, and knowing how every module works,
+ By being familiar with the architecture, and knowing how every module works,
  all the developers will be able to work on the modules independently and
  can rely on the planned architecture when the system is assembled.
  This will also enable potential future 3rd parties to further develop and
@@ -8705,7 +8704,7 @@ Scope
 \end_layout
 
 \begin_layout Standard
-Chapter 6 will cover the important parts of the achitecture of our system.
+Chapter 6 will cover the important parts of the architecture of our system.
  We will describe our architecture through several different views and to
  a detail that is to be expected given the size of the project.
  The logic and reasoning for our choices will also be discussed by the end
@@ -8905,7 +8904,7 @@ Selections of Architectural Viewpoints
 \end_layout
 
 \begin_layout Standard
-In order to illustrate the achitectural viewpoints we have decided to use
+In order to illustrate the architectural viewpoints we have decided to use
  the 
 \begin_inset Quotes eld
 \end_inset
@@ -8919,7 +8918,7 @@ In order to illustrate the achitectural viewpoints we have decided to use
 ive systems, based on the use of multiple, concurrent views"[x].
  This model consists of four views of the system seen from different stakeholder
 s, in addition to use cases (the +1), in order to accurately portray the
- achitecture of the system.
+ architecture of the system.
  
 \end_layout
 
@@ -9834,7 +9833,7 @@ Architectural Rationale
 
 \begin_layout Standard
 We tried our best to stick to the traditional Model View Controller (MVC)
- achitecture during our planning, this is a tried and tested achitecture
+ architecture during our planning, this is a tried and tested architecture
  that provides separate modules and provides us with the ability to modify
  our GUI late in the development should the customer have any change of
  mind or other reasons to modify our interface.
@@ -11764,7 +11763,7 @@ R1.8
 \begin_inset Text
 
 \begin_layout Plain Layout
-Software achitecture
+Software architecture
 \end_layout
 
 \end_inset
@@ -13750,12 +13749,12 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="4">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13764,7 +13763,7 @@ Id
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13773,7 +13772,7 @@ Task
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13782,7 +13781,7 @@ Previous priority
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13793,7 +13792,7 @@ New priority
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13802,7 +13801,7 @@ FR07
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13811,7 +13810,7 @@ Save images locally on the phone
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13820,7 +13819,7 @@ Medium
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13831,7 +13830,7 @@ Low
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13840,7 +13839,7 @@ FR08
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13849,7 +13848,7 @@ Save video locally on the phone
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13858,7 +13857,7 @@ Medium
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13869,7 +13868,7 @@ Low
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13878,7 +13877,7 @@ FR06
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13887,7 +13886,7 @@ Registration
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13896,7 +13895,7 @@ Medium
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
