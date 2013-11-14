@@ -9381,7 +9381,7 @@ Distribution
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Backlog part 1
+Development backlog
 \end_layout
 
 \end_inset
@@ -9400,10 +9400,6 @@ Backlog part 1
 wide false
 sideways false
 status open
-
-\begin_layout Subsection
-Use Cases
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -9804,7 +9800,7 @@ Evaluation
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Backlog part 2
+Report backlog
 \end_layout
 
 \end_inset
