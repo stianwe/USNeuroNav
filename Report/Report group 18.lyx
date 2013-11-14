@@ -2026,8 +2026,8 @@ Tools and Technology
 \end_layout
 
 \begin_layout Standard
-Here comes a description of all the tools and technologies we used during
- the project.
+This section contains a description of all the tools and technologies we
+ used during the project.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2359,6 +2359,39 @@ key "JavaScript"
  is a prototype-based scripting language with dynamic typing.
  It is commonly used to make web pages dynamic, but is in this case compiled
  down to native code for mobile platforms by Titanium.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Screen Shot 2013-11-14 at 1.10.07 PM.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size large
+Titanium Studio with the iOS simulator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
