@@ -2068,6 +2068,39 @@ The reason why Lyx was chosen for writing the document, is that it provides
  make use of all the different options with LaTeX, and that it is open source.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/lyx_screenshot.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size large
+Lyx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 Google Drive and Docs
 \end_layout
@@ -20935,6 +20968,254 @@ Appendices
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+USNeuroNav
+\end_layout
+
+\begin_layout Standard
+USNeuroNav is a mobile application which runs on iOS.
+ Its purpose is to display images and videos from ultrasound surgery, together
+ with relevant information, in a simple and intuitive way.
+ The application is divided into three separate 
+\begin_inset Quotes eld
+\end_inset
+
+tabs
+\begin_inset Quotes erd
+\end_inset
+
+, which provides the three main functions of the application.
+ These tabs can be switched between by selecting their respective titles
+ at the bottom of the application.
+\end_layout
+
+\begin_layout Standard
+INSERT SCREENSHOT WITH TABS HIGHLIGHTED
+\end_layout
+
+\begin_layout Subsection
+Browsing through categories
+\end_layout
+
+\begin_layout Standard
+The first tab that the user is confronted with when starting the application
+ is the browsing tab.
+ Here, the user is presented several categories to choose between.
+ To select a categoriy, simply tap it with a finger.
+ Also, at the top of the list of categories, is another option, called 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Selecting this option will display all cases.
+\end_layout
+
+\begin_layout Standard
+After selecting a category, sub-categories of that category might be displayed.
+ If that is the case, these can be selected as with the previous view.
+ If the user wants to show all cases that simply belongs to the category
+ he/she chose at the beginning, selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+ on that view will do that.
+\end_layout
+
+\begin_layout Standard
+After selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+, or by selecting a category that does not have any sub-categories, the
+ user is presented with a list of cases.
+ A case can be selected the same way as a category, by simply tapping on
+ it with a finger.
+ Doing that, will take the user to the case's own view.
+ This view consists of a description field at the top, showing information
+ relevant to the case.
+ Under the information field, a couple of options might be displayed, such
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+Videos
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Images
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Videos
+\begin_inset Quotes erd
+\end_inset
+
+, if present (the option will only be available for cases that has any videos),
+ will take the user to a view, where the user can play a video using the
+ standard iOS video player.
+ Tap the 
+\begin_inset Quotes eld
+\end_inset
+
+play
+\begin_inset Quotes erd
+\end_inset
+
+ sign to play the video.
+\end_layout
+
+\begin_layout Standard
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Images
+\begin_inset Quotes erd
+\end_inset
+
+, if present (the option will only be available for cases that has any images),
+ will take the user to a view, where the user can view images.
+ To switch between images, simply 
+\begin_inset Quotes eld
+\end_inset
+
+swipe
+\begin_inset Quotes erd
+\end_inset
+
+ left or right with your finger over the screen.
+ The zoom in or out on a picture, simply use two fingers to 
+\begin_inset Quotes eld
+\end_inset
+
+pinch
+\begin_inset Quotes erd
+\end_inset
+
+, either inwards to zoom in, ou outwards to zoom out.
+\end_layout
+
+\begin_layout Standard
+At any time, the user can return to the previous screen by tapping the button
+ at the upper left corner, which is shaped as an arrow, pointing backwards.
+\end_layout
+
+\begin_layout Subsection
+Searching for cases
+\end_layout
+
+\begin_layout Standard
+The second tab is called 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+, and can be selected at the bottom menu.
+ This tab prompts the user to type in one or more search keywords in a text
+ field.
+ To enable the on-screen keyboard, simply tap the text field with a finger.
+ Then, type in the keywords to search for, separated by comma, 
+\begin_inset Quotes eld
+\end_inset
+
+,
+\begin_inset Quotes erd
+\end_inset
+
+.
+ For example 
+\begin_inset Quotes eld
+\end_inset
+
+tumor, frontal lobe
+\begin_inset Quotes erd
+\end_inset
+
+.
+ To search, simply tap on the button labeled 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+After selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+, the user will be taken to a new screen, presenting the search results.
+ The search results is structured exactly the same way as when navigation
+ through categories, for simplicity.
+ Selecting a case and viewing its data, can be done exactly the same way
+ as described in the previous section.
+\end_layout
+
+\begin_layout Subsection
+Logging in
+\end_layout
+
+\begin_layout Standard
+If the user is registered in the USNeuroNav database, they can log in by
+ navigating to the third tab at the bottom menu.
+ Doing so will take the user to a window where the user can supply user
+ name and password.
+ Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Log in
+\begin_inset Quotes erd
+\end_inset
+
+, will verify the credentials, and then take the user to a new screen, where
+ the user can for instance choose to log out again, if necessary.
+ 
+\end_layout
+
+\begin_layout Standard
+After logging in, the user can return to the browsing or search tab, and
+ find additional cases.
+ Also, some cases might have extra information in the description field
+ after logging in.
 \end_layout
 
 \begin_layout Section
