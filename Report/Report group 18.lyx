@@ -517,7 +517,7 @@ The term stakeholder refers to any person or organization that is being
 \end_layout
 
 \begin_layout Subsection
-Project goal
+Project Goal
 \end_layout
 
 \begin_layout Standard
@@ -1845,7 +1845,7 @@ To prepare for unfortunate events that might occur during the project the
 \end_layout
 
 \begin_layout Subsubsection
-Risk handling
+Risk Handling
 \end_layout
 
 \begin_layout Standard
@@ -1933,7 +1933,7 @@ Risk Matrix
 \end_layout
 
 \begin_layout Subsection
-Project communication
+Project Communication
 \end_layout
 
 \begin_layout Standard
@@ -1942,7 +1942,7 @@ To ensure a certain quality, we agreed on some guidelines with the customer,
 \end_layout
 
 \begin_layout Subsubsection
-Customer interaction
+Customer Interaction
 \end_layout
 
 \begin_layout Itemize
@@ -1974,7 +1974,7 @@ Answer e-mails is to be done as soon as possible.
 \end_layout
 
 \begin_layout Subsubsection
-Supervisor interaction
+Supervisor Interaction
 \end_layout
 
 \begin_layout Itemize
@@ -2003,7 +2003,7 @@ The minutes of the meeting with the customer is to be sent to the supervisor
 \end_layout
 
 \begin_layout Subsubsection
-Group interaction
+Group Interaction
 \end_layout
 
 \begin_layout Itemize
@@ -2022,16 +2022,16 @@ y.
 \end_layout
 
 \begin_layout Subsection
-Tools and technology
+Tools and Technology
 \end_layout
 
 \begin_layout Standard
-Here comes a description of all the tools and technologies we used during
- the project.
+This section contains a description of all the tools and technologies we
+ used during the project.
 \end_layout
 
 \begin_layout Subsubsection
-Report writing
+Report Writing
 \end_layout
 
 \begin_layout Paragraph
@@ -2066,6 +2066,39 @@ key "lyx"
 The reason why Lyx was chosen for writing the document, is that it provides
  the user with an easy to use interface, that still enables the user to
  make use of all the different options with LaTeX, and that it is open source.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/lyx_screenshot.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size large
+Lyx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2229,6 +2262,42 @@ lly), easy to set up, and that the team members already have some experience
  with it.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/TeamViewer.png
+	lyxscale 70
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+TeamViewer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 Rally
 \end_layout
@@ -2359,6 +2428,39 @@ key "JavaScript"
  is a prototype-based scripting language with dynamic typing.
  It is commonly used to make web pages dynamic, but is in this case compiled
  down to native code for mobile platforms by Titanium.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Screen Shot 2013-11-14 at 1.10.07 PM.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\size large
+Titanium Studio with the iOS simulator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -3552,7 +3654,7 @@ There are several different meeting in the scrum lifecycle that we used:
 \end_layout
 
 \begin_layout Subsubsection
-Sprint planning meeting
+Sprint Planning Meeting
 \end_layout
 
 \begin_layout Standard
@@ -3565,7 +3667,7 @@ It is a meeting held at the start of each sprint.
 \end_layout
 
 \begin_layout Subsubsection
-Daily standups
+Daily Standups
 \end_layout
 
 \begin_layout Standard
@@ -3576,7 +3678,7 @@ It is a short meeting, not more than 10 - 15 minutes, at the start of each
 \end_layout
 
 \begin_layout Subsubsection
-Sprint review meeting
+Sprint Review Meeting
 \end_layout
 
 \begin_layout Standard
@@ -3590,7 +3692,7 @@ It is held after each sprint to review which tasks from the sprint backlog
 \end_layout
 
 \begin_layout Subsubsection
-Sprint retrospective meeting
+Sprint Retrospective Meeting
 \end_layout
 
 \begin_layout Standard
@@ -3686,7 +3788,7 @@ Actors
 \end_layout
 
 \begin_layout Subsubsection
-Unregistered user
+Unregistered User
 \end_layout
 
 \begin_layout Standard
@@ -3698,7 +3800,7 @@ on.
 \end_layout
 
 \begin_layout Subsubsection
-Registered users
+Registered Users
 \end_layout
 
 \begin_layout Standard
@@ -4656,7 +4758,7 @@ Overall Functional Requirements with priority
 \end_layout
 
 \begin_layout Subsubsection
-Use Case diagram
+Use Case Diagram
 \end_layout
 
 \begin_layout Standard
@@ -4737,7 +4839,7 @@ Use Case admin
 \end_layout
 
 \begin_layout Subsubsection
-Use Case description
+Use Case Description
 \end_layout
 
 \begin_layout Standard
@@ -6739,7 +6841,7 @@ NR05
 \begin_inset Text
 
 \begin_layout Plain Layout
-Performance - uploading videos and images should take reasonable time
+Performance - Downloading videos and images should take reasonable time
 \end_layout
 
 \end_inset
@@ -6803,7 +6905,7 @@ Overall Non-Functional Requirements
 \end_layout
 
 \begin_layout Subsection
-Mapping requirements into product backlog
+Mapping Requirements Into Product Backlog
 \end_layout
 
 \begin_layout Standard
@@ -6823,10 +6925,10 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="31" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6835,7 +6937,7 @@ Identifier
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6846,7 +6948,7 @@ Description
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6855,7 +6957,7 @@ RQ1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6868,7 +6970,7 @@ Categories
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6877,7 +6979,7 @@ RQ1.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6888,7 +6990,7 @@ Browse window
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6897,7 +6999,7 @@ FR01
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6908,7 +7010,7 @@ Browse categories
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6917,7 +7019,7 @@ RQ1.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6928,7 +7030,7 @@ Display categories
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6937,7 +7039,7 @@ RQ1.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6948,7 +7050,7 @@ Display cases
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6957,7 +7059,7 @@ RQ1.4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6968,7 +7070,7 @@ Window navigation
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6977,7 +7079,7 @@ Window navigation
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6988,7 +7090,7 @@ Window navigation
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6997,7 +7099,7 @@ RQ2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7010,7 +7112,7 @@ Cases
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7019,7 +7121,7 @@ RQ2.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7030,7 +7132,7 @@ Case window
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7039,7 +7141,7 @@ FR02
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7050,7 +7152,7 @@ Show pictures
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7059,7 +7161,7 @@ FR03
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7070,7 +7172,7 @@ Play movies
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7079,7 +7181,7 @@ RQ2.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7090,7 +7192,7 @@ RQ2.2
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7099,7 +7201,7 @@ RQ2.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7110,7 +7212,7 @@ RQ2.2
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7119,7 +7221,7 @@ RQ3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7132,7 +7234,7 @@ Searching
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7141,7 +7243,7 @@ RQ3.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7152,7 +7254,7 @@ Search window
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7161,7 +7263,7 @@ FR04
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7172,7 +7274,7 @@ Implement searching
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7181,7 +7283,7 @@ Implement searching
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7192,7 +7294,7 @@ Implement searching
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7201,7 +7303,7 @@ RQ4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7214,7 +7316,7 @@ Separation of data
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7223,7 +7325,7 @@ FR07
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7234,7 +7336,7 @@ User login
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7243,7 +7345,7 @@ FR08
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7254,7 +7356,7 @@ User registration
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7263,7 +7365,7 @@ User registration
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7274,7 +7376,7 @@ User registration
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7283,7 +7385,7 @@ RQ5
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7296,7 +7398,7 @@ Local storing
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7305,7 +7407,7 @@ FR05
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7316,7 +7418,7 @@ Save pictures locally
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7325,7 +7427,7 @@ FR06
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7336,7 +7438,7 @@ Save video locally
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7345,7 +7447,7 @@ RQ5.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7356,7 +7458,7 @@ GUI for local storing
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7365,7 +7467,7 @@ GUI for local storing
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7376,7 +7478,7 @@ GUI for local storing
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7385,7 +7487,7 @@ RQ6
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7398,7 +7500,7 @@ Social
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7407,7 +7509,7 @@ FR10
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7418,7 +7520,7 @@ Quiz game
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7427,7 +7529,7 @@ FR11
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7438,7 +7540,7 @@ FR11
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7447,7 +7549,7 @@ RQ6.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7474,7 +7576,7 @@ GUI for social
 <lyxtabular version="3" rows="31" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -7485,7 +7587,7 @@ Identifier
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7505,7 +7607,7 @@ NFR01
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7527,7 +7629,7 @@ RQ7.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7547,7 +7649,7 @@ RQ7.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7567,7 +7669,7 @@ RQ7.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7587,7 +7689,7 @@ RQ7.4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7607,7 +7709,7 @@ Icons and UI elements
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7627,7 +7729,7 @@ RQ8
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7649,7 +7751,7 @@ RQ8.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7669,7 +7771,7 @@ RQ8.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7689,7 +7791,7 @@ RQ8.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7709,7 +7811,7 @@ RQ8.4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7729,7 +7831,7 @@ RQ8.5
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7749,7 +7851,7 @@ FR09
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7769,7 +7871,7 @@ RQ8.5
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7789,7 +7891,7 @@ RQ8.6
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7809,7 +7911,7 @@ Talk to database
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7829,7 +7931,7 @@ RQ9
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7851,7 +7953,7 @@ Servers
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7871,7 +7973,7 @@ RQ9.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7891,7 +7993,7 @@ RQ9.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7911,7 +8013,7 @@ Database server
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7931,7 +8033,7 @@ RQ10
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7953,7 +8055,7 @@ RQ10.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7973,7 +8075,7 @@ RQ10.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7993,7 +8095,7 @@ RQ10.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8013,7 +8115,7 @@ Finalize database contents
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8033,7 +8135,7 @@ RQ11
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8055,7 +8157,7 @@ RQ11.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8075,7 +8177,7 @@ RQ11.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8095,7 +8197,7 @@ RQ11.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8149,7 +8251,7 @@ status open
 <lyxtabular version="3" rows="9" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -8162,7 +8264,7 @@ Identifier
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8184,7 +8286,7 @@ R1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8206,7 +8308,7 @@ R1.1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8226,7 +8328,7 @@ R1.2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8246,7 +8348,7 @@ R1.3
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8266,7 +8368,7 @@ R1.4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8286,7 +8388,7 @@ R1.5
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8306,7 +8408,7 @@ R1.6
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8326,7 +8428,7 @@ R1.7
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8349,7 +8451,7 @@ Requirements
 <lyxtabular version="3" rows="9" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -8362,7 +8464,7 @@ Identifier
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8384,7 +8486,7 @@ R1.8
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8404,7 +8506,7 @@ R1.9
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8424,7 +8526,7 @@ R1.10
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8444,7 +8546,7 @@ R1.11
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8464,7 +8566,7 @@ R1.12
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8484,7 +8586,7 @@ R1.13
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8504,7 +8606,7 @@ R1.14
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8524,7 +8626,7 @@ Evaluation
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8665,7 +8767,7 @@ Finally, the customer enquired about the possibility of using the app offline.
 \end_layout
 
 \begin_layout Subsubsection
-Categories, cases and users
+Categories, Cases and Users
 \end_layout
 
 \begin_layout Standard
@@ -8777,7 +8879,7 @@ frontal lobe
 \end_layout
 
 \begin_layout Subsubsection
-Images and videos
+Images and Videos
 \end_layout
 
 \begin_layout Standard
@@ -8790,7 +8892,7 @@ The MySQL database will only contain URL's to the images and videos, while
 \end_layout
 
 \begin_layout Subsubsection
-Local caching
+Local Caching
 \end_layout
 
 \begin_layout Standard
@@ -9104,7 +9206,7 @@ Views
 \end_layout
 
 \begin_layout Subsubsection
-Logical view
+Logical View
 \end_layout
 
 \begin_layout Standard
@@ -9362,7 +9464,7 @@ Sequence diagram 4
 \end_layout
 
 \begin_layout Subsubsection
-Develoment view
+Develoment View
 \end_layout
 
 \begin_layout Standard
@@ -9437,10 +9539,10 @@ classification
 \end_layout
 
 \begin_layout Subsubsection
-Process view
+Process View
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Browse activity diagram
 \end_layout
 
@@ -9530,7 +9632,7 @@ Browse activity diagram
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Search activity diagram
 \end_layout
 
@@ -9601,7 +9703,7 @@ Search activity diagram
 \end_layout
 
 \begin_layout Subsubsection
-Physical view
+Physical View
 \end_layout
 
 \begin_layout Standard
@@ -9866,12 +9968,12 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="30text%">
+<column alignment="left" valignment="top" width="15text%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9880,7 +9982,7 @@ Identifier
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9889,7 +9991,7 @@ Test name
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9898,7 +10000,7 @@ Description
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9909,7 +10011,7 @@ Requirement
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9918,7 +10020,7 @@ T01
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9927,7 +10029,7 @@ Browse categories
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9936,7 +10038,7 @@ Browsing in the categories hierachy
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9947,7 +10049,7 @@ FR01
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9956,7 +10058,7 @@ T02
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9965,7 +10067,7 @@ Select a case
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9974,7 +10076,7 @@ Selecting a case and getting the case-view
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9985,7 +10087,7 @@ FR01
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9994,7 +10096,7 @@ T03
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10003,7 +10105,7 @@ Browse images
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10012,7 +10114,7 @@ Selecting pictures and browsing them
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10023,7 +10125,7 @@ FR02
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10032,7 +10134,7 @@ T04
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10041,7 +10143,7 @@ Play video
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10050,7 +10152,7 @@ Selecting a video and playing it
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10061,7 +10163,7 @@ FR03
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10070,7 +10172,7 @@ T05
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10079,7 +10181,7 @@ Search for case
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10088,7 +10190,7 @@ Searching for a case by categories
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10099,7 +10201,7 @@ FR04
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10108,7 +10210,7 @@ T06
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10117,7 +10219,7 @@ Log in
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10126,7 +10228,7 @@ Logging in and confirming additional options
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10137,7 +10239,7 @@ FR05, FR09
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10146,7 +10248,7 @@ T07
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10155,7 +10257,7 @@ Add new case
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10164,7 +10266,7 @@ Admintool core functionality
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10175,7 +10277,7 @@ FR10,FR11,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10184,7 +10286,7 @@ T08
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10193,7 +10295,7 @@ Add new user
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10202,7 +10304,7 @@ Admintool core functionality
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10234,7 +10336,7 @@ System tests
 \end_layout
 
 \begin_layout Subsection
-Acceptance test
+Acceptance Test
 \end_layout
 
 \begin_layout Standard
@@ -10421,7 +10523,7 @@ Support for video, searching for cases, network support, server communication
 \end_layout
 
 \begin_layout Subsubsection
-Sprint goals
+Sprint Goals
 \end_layout
 
 \begin_layout Standard
@@ -10436,7 +10538,7 @@ The main goal of this sprint was to have a running prototype which could
 \end_layout
 
 \begin_layout Subsubsection
-Sprint backlog
+Sprint Backlog
 \end_layout
 
 \begin_layout Standard
@@ -11919,7 +12021,7 @@ Here is a description of everything that was implemented in this sprint.
 \end_layout
 
 \begin_layout Subsubsection
-User interface
+User Interface
 \end_layout
 
 \begin_layout Standard
@@ -12096,7 +12198,7 @@ When a case was selcted, the case's images and videos would have to be displayed
 \end_layout
 
 \begin_layout Subsubsection
-Client-server communication
+Client-Server Communication
 \end_layout
 
 \begin_layout Paragraph
@@ -12736,7 +12838,7 @@ The milestones MP1 and MP2 was completed within time.
 \end_layout
 
 \begin_layout Subsubsection
-What went well during this sprint
+What Went Well During This Sprint
 \end_layout
 
 \begin_layout Standard
@@ -12754,7 +12856,7 @@ We didn't have much progress on the report early in the sprint, but during
 \end_layout
 
 \begin_layout Subsubsection
-What can be improved for the next sprint
+What Can Be Improved For The Next Sprint
 \end_layout
 
 \begin_layout Standard
@@ -12854,7 +12956,7 @@ Support for video, searching for cases, network support, server communication
 \end_layout
 
 \begin_layout Subsubsection
-Sprint goals
+Sprint Goals
 \end_layout
 
 \begin_layout Standard
@@ -12872,7 +12974,7 @@ On the report, we wanted to be finnish writing the hole Part 1, and the
 \end_layout
 
 \begin_layout Subsubsection
-Sprint backlog
+Sprint Backlog
 \end_layout
 
 \begin_layout Standard
@@ -13835,7 +13937,7 @@ We had a good progress with the report this sprint, we managed to write
 \end_layout
 
 \begin_layout Subsubsection
-What went well during this sprint
+What Went Well During This Sprint
 \end_layout
 
 \begin_layout Standard
@@ -13845,7 +13947,7 @@ The progress on the report was very possitive.
 \end_layout
 
 \begin_layout Subsubsection
-What can be improved for the next sprint
+What Can Be Improved For The Next Sprint
 \end_layout
 
 \begin_layout Standard
@@ -14000,7 +14102,7 @@ Upload of data
 \end_layout
 
 \begin_layout Subsubsection
-Sprint goals
+Sprint Goals
 \end_layout
 
 \begin_layout Standard
@@ -14010,7 +14112,7 @@ The goals for sprint 3 was to implement the feature requests from the customer,
 \end_layout
 
 \begin_layout Subsubsection
-Sprint backlog
+Sprint Backlog
 \end_layout
 
 \begin_layout Standard
@@ -15084,7 +15186,7 @@ tab
 \end_layout
 
 \begin_layout Subsubsection
-Viewing of media files
+Viewing of Media Files
 \end_layout
 
 \begin_layout Standard
@@ -15185,7 +15287,7 @@ privateDescrption
 \end_layout
 
 \begin_layout Subsubsection
-Admin tool
+Admin Tool
 \end_layout
 
 \begin_layout Standard
@@ -15790,7 +15892,7 @@ Also, the work items left over from sprint 2 was completed, like writing
 \end_layout
 
 \begin_layout Subsubsection
-What went well during this sprint
+What Went Well During This Sprint
 \end_layout
 
 \begin_layout Standard
@@ -15805,7 +15907,7 @@ Sprint 3 was very focused on the development part.
 \end_layout
 
 \begin_layout Subsubsection
-What can be improved for the next sprint
+What Can Be Improved For The Next Sprint
 \end_layout
 
 \begin_layout Standard
@@ -16154,7 +16256,7 @@ Caching of data, finalize features
 \end_layout
 
 \begin_layout Subsubsection
-Sprint goals
+Sprint Goals
 \end_layout
 
 \begin_layout Standard
@@ -16163,7 +16265,7 @@ The goals for sprint 4 was to polish the app a little by fixing som bugs,
 \end_layout
 
 \begin_layout Subsubsection
-Sprint backlog
+Sprint Backlog
 \end_layout
 
 \begin_layout Standard
@@ -16934,7 +17036,7 @@ Here is a description of everything that was implemented in this sprint.
 \end_layout
 
 \begin_layout Subsubsection
-Bug fixing
+Bug Fixing
 \end_layout
 
 \begin_layout Standard
@@ -17340,7 +17442,7 @@ Sprint 4 final bug report
 \end_layout
 
 \begin_layout Subsubsection
-Admin tool
+Admin Tool
 \end_layout
 
 \begin_layout Standard
@@ -17458,7 +17560,7 @@ Admin tool input file format
 \end_layout
 
 \begin_layout Subsubsection
-Application distribution
+Application Distribution
 \end_layout
 
 \begin_layout Standard
@@ -18627,7 +18729,7 @@ All in all we were very happy with the progress of sprint 4.
 \end_layout
 
 \begin_layout Subsubsection
-What went well during this sprint
+What Went Well During This Sprint
 \end_layout
 
 \begin_layout Standard
@@ -18652,7 +18754,7 @@ We were also very happy with the meeting with the surgeons itself.
 \end_layout
 
 \begin_layout Subsubsection
-What can be improved for the next sprint
+Wat Can Be Improved For The Next Sprint
 \end_layout
 
 \begin_layout Standard
@@ -18707,7 +18809,7 @@ This section gives a description of the final system architecture and the
 \end_layout
 
 \begin_layout Subsection
-Final system architecture
+Final System Architecture
 \end_layout
 
 \begin_layout Standard
@@ -18823,7 +18925,7 @@ The system consists of several parts, where the main part is the mobile
 \end_layout
 
 \begin_layout Subsubsection
-The application
+The Application
 \end_layout
 
 \begin_layout Standard
@@ -19154,21 +19256,24 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.10 PM.png
-	scale 50
+	lyxscale 40
+	scale 38
 
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
-	scale 50
+	lyxscale 40
+	scale 38
 
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.06.32 PM.png
-	scale 50
+	lyxscale 40
+	scale 38
 
 \end_inset
 
@@ -19264,7 +19369,7 @@ Displaying video (left) and image (right)
 \end_layout
 
 \begin_layout Subsubsection
-The server
+The Server
 \end_layout
 
 \begin_layout Standard
@@ -19279,7 +19384,7 @@ The server software contains of two different PHP scripts which runs ontop
 \end_layout
 
 \begin_layout Subsubsection
-The admin tool
+The Admin Tool
 \end_layout
 
 \begin_layout Standard
@@ -19865,7 +19970,7 @@ Status of the functional requirements
 \end_layout
 
 \begin_layout Subsubsection
-Other functionality
+Other Functionality
 \end_layout
 
 \begin_layout Standard
@@ -19966,7 +20071,7 @@ As mentioned in the introduction, the goal of the project was to create
 \end_layout
 
 \begin_layout Subsubsection
-Meeting with the customers
+Meeting With The Customers
 \end_layout
 
 \begin_layout Standard
@@ -20293,7 +20398,7 @@ Feature suggestions
 \end_layout
 
 \begin_layout Subsubsection
-Evaluation of the project
+Evaluation of The Project
 \end_layout
 
 \begin_layout Standard
@@ -21247,6 +21352,254 @@ Appendices
 \end_layout
 
 \begin_layout Section
+USNeuroNav
+\end_layout
+
+\begin_layout Standard
+USNeuroNav is a mobile application which runs on iOS.
+ Its purpose is to display images and videos from ultrasound surgery, together
+ with relevant information, in a simple and intuitive way.
+ The application is divided into three separate 
+\begin_inset Quotes eld
+\end_inset
+
+tabs
+\begin_inset Quotes erd
+\end_inset
+
+, which provides the three main functions of the application.
+ These tabs can be switched between by selecting their respective titles
+ at the bottom of the application.
+\end_layout
+
+\begin_layout Standard
+INSERT SCREENSHOT WITH TABS HIGHLIGHTED
+\end_layout
+
+\begin_layout Subsection
+Browsing through categories
+\end_layout
+
+\begin_layout Standard
+The first tab that the user is confronted with when starting the application
+ is the browsing tab.
+ Here, the user is presented several categories to choose between.
+ To select a categoriy, simply tap it with a finger.
+ Also, at the top of the list of categories, is another option, called 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Selecting this option will display all cases.
+\end_layout
+
+\begin_layout Standard
+After selecting a category, sub-categories of that category might be displayed.
+ If that is the case, these can be selected as with the previous view.
+ If the user wants to show all cases that simply belongs to the category
+ he/she chose at the beginning, selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+ on that view will do that.
+\end_layout
+
+\begin_layout Standard
+After selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+, or by selecting a category that does not have any sub-categories, the
+ user is presented with a list of cases.
+ A case can be selected the same way as a category, by simply tapping on
+ it with a finger.
+ Doing that, will take the user to the case's own view.
+ This view consists of a description field at the top, showing information
+ relevant to the case.
+ Under the information field, a couple of options might be displayed, such
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+Videos
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Images
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Videos
+\begin_inset Quotes erd
+\end_inset
+
+, if present (the option will only be available for cases that has any videos),
+ will take the user to a view, where the user can play a video using the
+ standard iOS video player.
+ Tap the 
+\begin_inset Quotes eld
+\end_inset
+
+play
+\begin_inset Quotes erd
+\end_inset
+
+ sign to play the video.
+\end_layout
+
+\begin_layout Standard
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Images
+\begin_inset Quotes erd
+\end_inset
+
+, if present (the option will only be available for cases that has any images),
+ will take the user to a view, where the user can view images.
+ To switch between images, simply 
+\begin_inset Quotes eld
+\end_inset
+
+swipe
+\begin_inset Quotes erd
+\end_inset
+
+ left or right with your finger over the screen.
+ The zoom in or out on a picture, simply use two fingers to 
+\begin_inset Quotes eld
+\end_inset
+
+pinch
+\begin_inset Quotes erd
+\end_inset
+
+, either inwards to zoom in, ou outwards to zoom out.
+\end_layout
+
+\begin_layout Standard
+At any time, the user can return to the previous screen by tapping the button
+ at the upper left corner, which is shaped as an arrow, pointing backwards.
+\end_layout
+
+\begin_layout Subsection
+Searching for cases
+\end_layout
+
+\begin_layout Standard
+The second tab is called 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+, and can be selected at the bottom menu.
+ This tab prompts the user to type in one or more search keywords in a text
+ field.
+ To enable the on-screen keyboard, simply tap the text field with a finger.
+ Then, type in the keywords to search for, separated by comma, 
+\begin_inset Quotes eld
+\end_inset
+
+,
+\begin_inset Quotes erd
+\end_inset
+
+.
+ For example 
+\begin_inset Quotes eld
+\end_inset
+
+tumor, frontal lobe
+\begin_inset Quotes erd
+\end_inset
+
+.
+ To search, simply tap on the button labeled 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+After selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Search
+\begin_inset Quotes erd
+\end_inset
+
+, the user will be taken to a new screen, presenting the search results.
+ The search results is structured exactly the same way as when navigation
+ through categories, for simplicity.
+ Selecting a case and viewing its data, can be done exactly the same way
+ as described in the previous section.
+\end_layout
+
+\begin_layout Subsection
+Logging in
+\end_layout
+
+\begin_layout Standard
+If the user is registered in the USNeuroNav database, they can log in by
+ navigating to the third tab at the bottom menu.
+ Doing so will take the user to a window where the user can supply user
+ name and password.
+ Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Log in
+\begin_inset Quotes erd
+\end_inset
+
+, will verify the credentials, and then take the user to a new screen, where
+ the user can for instance choose to log out again, if necessary.
+ 
+\end_layout
+
+\begin_layout Standard
+After logging in, the user can return to the browsing or search tab, and
+ find additional cases.
+ Also, some cases might have extra information in the description field
+ after logging in.
+\end_layout
+
+\begin_layout Section
 Admin tool user manual
 \end_layout
 
@@ -21312,7 +21665,7 @@ To upload media files when creating a new case, the files must be stored
 \end_layout
 
 \begin_layout Subsection
-Adding a new case from text file
+Adding a New Case From Text File
 \end_layout
 
 \begin_layout Enumerate
@@ -21387,7 +21740,7 @@ Run the admin tool with the file path as argument (see above)
 \end_layout
 
 \begin_layout Subsection
-Adding a new case
+Adding a New Case
 \end_layout
 
 \begin_layout Enumerate
@@ -21687,7 +22040,7 @@ Case 12
 \end_layout
 
 \begin_layout Subsection
-Adding a new category
+Adding a New Category
 \end_layout
 
 \begin_layout Enumerate
@@ -21860,7 +22213,7 @@ Primary Tumor
 \end_layout
 
 \begin_layout Subsection
-Adding a new user
+Adding a New User
 \end_layout
 
 \begin_layout Enumerate
@@ -22002,7 +22355,7 @@ password
 \end_layout
 
 \begin_layout Subsection
-Additional tools
+Additional Tools
 \end_layout
 
 \begin_layout Standard
@@ -22028,7 +22381,7 @@ Testing
 \end_layout
 
 \begin_layout Subsection
-System tests
+System Tests
 \end_layout
 
 \begin_layout Standard
@@ -24091,7 +24444,7 @@ Test T06
 \end_layout
 
 \begin_layout Subsection
-Test data
+Test Data
 \end_layout
 
 \begin_layout Standard
