@@ -2678,6 +2678,172 @@ es their repositories through the server.
  navigating a non-linear development history.
 \end_layout
 
+\begin_layout Subsection
+Coding Conventions
+\end_layout
+
+\begin_layout Standard
+When writing code, we decided on a couple of coding conventions, to make
+ the code readable and more easy to understand.
+\end_layout
+
+\begin_layout Subsubsection
+Names
+\end_layout
+
+\begin_layout Standard
+When writing ordinary names of variables, functions, classes, etc., camel
+ case is used.
+ Camel case means that the word is not divided by space, but each new word
+ starts with an upper case character.
+ Example: ThisIsAnExampleOfCamelCase.
+ Constants, on the other hand, is written with all characters as upper case,
+ with underscore to separate words.
+ See table below for details.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="30text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Variable name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+thisIsAVariable
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Function/method names
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+thisIsAFunction()
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Class
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ThisIsAClass
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+THIS_IS_A_CONSTANT
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Naming conventions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+White space
+\end_layout
+
+\begin_layout Standard
+For white space, the following conventions apply:
+\end_layout
+
+\begin_layout Itemize
+Blocks should always be indicated with brackets, even if they are one-liners:
+ {}
+\end_layout
+
+\begin_layout Itemize
+The bracket at the end of a block should always be on its own line
+\end_layout
+
+\begin_layout Itemize
+When inside a block, an extra indent (
+\backslash
+t) is to be applied
+\end_layout
+
+\begin_layout Itemize
+There should always be space operators and variables/constants: (b + 1 *
+ (2 - c)) > 0
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
