@@ -4299,42 +4299,31 @@ This is the user with authority to access the administration panel in the
 \end_layout
 
 \begin_layout Subsection
+System Requirements
+\end_layout
+
+\begin_layout Standard
+In this section the requirements for the system are given and explained
+ in detail.
+\end_layout
+
+\begin_layout Subsubsection
 Functional Requirements
 \end_layout
 
 \begin_layout Standard
-In this section the functional requirements for the system are given and
- explained in detail.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-All requirements are assigned one of four possible priority values, critical,
- high, medium and low.
-\begin_inset Newline newline
-\end_inset
-
-Critical prioritized requirements are the most important and the system
+Based on the previous section on use cases we constucted a concrete list
+ with both the functional and non-functional requirements of the system.
+ All the requirements are assigned one out of four possible priority value:
+ critical, high, medium and low.
+ Critical prioritized requirements are the most important and the system
  will not be approved if it's not implemented.
- 
-\begin_inset Newline newline
-\end_inset
-
-High prioritized requirements are important for the customer, but these
+ High prioritized requirements are important for the customer, but these
  requirements will be implemented after the critical prioritized requirements.
-\begin_inset Newline newline
-\end_inset
-
-Medium prioritized requirements are not that important for the customer
+ Medium prioritized requirements are not that important for the customer
  as the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
-\begin_inset Newline newline
-\end_inset
-
-Low prioritized requirements are 
+ Low prioritized requirements are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4342,18 +4331,13 @@ nice to have requirements
 \begin_inset Quotes erd
 \end_inset
 
-, but it's not important for the customer, and these requirements will be
- fulfilled only if there is time left.
-\begin_inset Newline newline
-\end_inset
+, but it's not important for the customer, and these requirements will only
+ be fulfilled only if there is time left.
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-The tables below contains an overall description of the functional requirements
- are given, its priorities and the identification we will use later for
- reference.
+\begin_layout Standard
+The tables below contains an overall description of the functional requirements,
+ its priorities and the identification we will use later for reference.
 \end_layout
 
 \begin_layout Standard
@@ -4378,7 +4362,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Id
+ID
 \end_layout
 
 \end_inset
@@ -5241,8 +5225,8 @@ Use case diagrams
 \begin_layout Standard
 The figures below shows the use cases for the application and the admin
  tool.
- These diagrams based on the textual use cases and are a simple representation
- of the interaction between actors and the system.
+ These diagrams are a simple representation of the interaction between actors
+ and the system.
 \end_layout
 
 \begin_layout Standard
@@ -5318,7 +5302,7 @@ Use Case admin
 \end_layout
 
 \begin_layout Subsubsection
-Textual Use Cases
+Use Cases
 \end_layout
 
 \begin_layout Standard
@@ -5340,7 +5324,9 @@ key "usecaseDef"
  The following textual use cases display how the users, or actors, interact
  with the system in order to achieve a specific goal, or objective.
  By creating good use cases we put ourselves in a good spot for defining
- the system's behavioural requirements.
+ the system's requirements.
+ These use cases was created based on several meetings with the customer
+ during the initial phase of the project.
 \end_layout
 
 \begin_layout Standard
@@ -6620,6 +6606,27 @@ Administrator
 
 \begin_layout Plain Layout
 Objective:
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Use Case Description
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -21150,8 +21157,8 @@ Group Evaluation
 
 \begin_layout Standard
 The group consisted of three members, which we at the start though was too
- litle.
- We planned for three people, but knew we could not do aas much as the customer
+ little.
+ We planned for three people, but knew we could not do as much as the customer
  had initially hoped for.
 \end_layout
 
@@ -21161,15 +21168,14 @@ There were never changes in our group, no one joined and no one left the
 \end_layout
 
 \begin_layout Standard
-All the members in the group and the customer spoke norwegian, so there
+All the members in the group and the customer spoke Norwegian, so there
  was never any difficulty understanding each other.
  Our supervisor spoke English, but we did not felt like there was any huge
- language barriers.
- 
+ language barrier.
 \end_layout
 
 \begin_layout Standard
-The groups was very motivated form the beginning, and it lasted throughout
+The group was very motivated form the beginning, and it lasted throughout
  the project.
  We had the same goal for the project and how much work we would put into
  it.
@@ -21177,20 +21183,20 @@ The groups was very motivated form the beginning, and it lasted throughout
 
 \begin_layout Standard
 We had a good group dynamic though the project.
- If there was any problem, we confronted each other and solved it quiqly.
- We communicated throug different channels, and we were available almost
+ If there was any problem, we confronted each other and solved it quickly.
+ We communicated through different channels, and we were available almost
  all the time.
 \end_layout
 
 \begin_layout Standard
-The role assigment was good, we managed to complete our task effective enough,
- and we felt that we challenged ourselves.
+The role assignment was good, we managed to complete our task effective
+ enough, and we felt that we challenged ourselves.
 \end_layout
 
 \begin_layout Standard
 In the risk evaluation, we did not predict that we would use three weeks
- of desiding platform, neither that we were to be driven away from our office
- due 
+ of deciding platform, neither that we were to be driven away from our office
+ due to construction noise.
 \end_layout
 
 \begin_layout Subsection
