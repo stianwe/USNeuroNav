@@ -167,54 +167,64 @@ function Controller() {
                 title: currentCase.name,
                 backgroundColor: "#fff"
             });
-            var views = [];
-            for (var i = 0; currentCase.mediaFiles.length > i; i++) {
-                var view = null;
-                var initialZoom;
-                var wrapper = Ti.UI.createScrollView({
-                    maxZoomScale: 8,
-                    backgroundColor: "black"
-                });
-                if (currentCase.mediaFiles[i].video && videos) {
-                    view = Ti.Media.createVideoPlayer({
-                        autoplay: false,
-                        mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
-                        scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
-                        url: currentCase.mediaFiles[i].URL
+            var scrollableView;
+            if (lastImagesName != currentCase.name || videos) {
+                var views = [];
+                for (var i = 0; currentCase.mediaFiles.length > i; i++) {
+                    var view = null;
+                    var initialZoom;
+                    var wrapper = Ti.UI.createScrollView({
+                        maxZoomScale: 8,
+                        backgroundColor: "black"
                     });
-                    initialZoom = 1;
-                } else if (!currentCase.mediaFiles[i].video && !videos) {
-                    view = Ti.UI.createImageView({
-                        image: currentCase.mediaFiles[i].URL
-                    });
-                    var temp1, temp2;
-                    if ("ipad" == Titanium.Platform.osname) if (Titanium.Platform.displayCaps.platformHeight > Titanium.Platform.displayCaps.platformWidth) {
-                        temp1 = Titanium.Platform.displayCaps.platformWidth / view.toImage().width;
-                        temp2 = Titanium.Platform.displayCaps.platformHeight / view.toImage().width;
-                    } else {
-                        temp1 = .74375 * Titanium.Platform.displayCaps.platformWidth / view.toImage().height;
-                        temp2 = .74375 * Titanium.Platform.displayCaps.platformHeight / view.toImage().height;
-                    } else if (Titanium.Platform.displayCaps.platformHeight > Titanium.Platform.displayCaps.platformWidth) {
-                        temp1 = Titanium.Platform.displayCaps.platformWidth / view.toImage().width;
-                        temp2 = Titanium.Platform.displayCaps.platformHeight / view.toImage().width;
-                    } else {
-                        temp1 = (Titanium.Platform.displayCaps.platformWidth - 128) / view.toImage().height;
-                        temp2 = (Titanium.Platform.displayCaps.platformHeight - 128) / view.toImage().height;
+                    if (currentCase.mediaFiles[i].video && videos) {
+                        view = Ti.Media.createVideoPlayer({
+                            autoplay: false,
+                            mediaControlStyle: Titanium.Media.VIDEO_CONTROL_DEFAULT,
+                            scalingMode: Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+                            url: currentCase.mediaFiles[i].URL
+                        });
+                        initialZoom = 1;
+                    } else if (!currentCase.mediaFiles[i].video && !videos) {
+                        view = Ti.UI.createImageView({
+                            image: currentCase.mediaFiles[i].URL
+                        });
+                        var temp1, temp2;
+                        view.toImage();
+                        var height = 1e3 > view.toImage().height ? 1153 : view.toImage().height;
+                        var width = 1e3 > view.toImage().width ? 1919 : view.toImage().width;
+                        if ("ipad" == Titanium.Platform.osname) if (Titanium.Platform.displayCaps.platformHeight > Titanium.Platform.displayCaps.platformWidth) {
+                            temp1 = Titanium.Platform.displayCaps.platformWidth / width;
+                            temp2 = Titanium.Platform.displayCaps.platformHeight / width;
+                        } else {
+                            temp1 = .74375 * Titanium.Platform.displayCaps.platformWidth / height;
+                            temp2 = .74375 * Titanium.Platform.displayCaps.platformHeight / height;
+                        } else if (Titanium.Platform.displayCaps.platformHeight > Titanium.Platform.displayCaps.platformWidth) {
+                            temp1 = Titanium.Platform.displayCaps.platformWidth / width;
+                            temp2 = Titanium.Platform.displayCaps.platformHeight / width;
+                        } else {
+                            temp1 = (Titanium.Platform.displayCaps.platformWidth - 128) / height;
+                            temp2 = (Titanium.Platform.displayCaps.platformHeight - 128) / height;
+                        }
+                        initialZoom = temp2 > temp1 ? temp1 : temp2;
                     }
-                    initialZoom = temp2 > temp1 ? temp1 : temp2;
+                    if (null != view) {
+                        wrapper.minZoomScale = initialZoom;
+                        wrapper.zoomScale = initialZoom;
+                        wrapper.add(view);
+                        views.push(wrapper);
+                    }
                 }
-                if (null != view) {
-                    wrapper.minZoomScale = initialZoom;
-                    wrapper.zoomScale = initialZoom;
-                    wrapper.add(view);
-                    views.push(wrapper);
+                scrollableView = Ti.UI.createScrollableView({
+                    views: views,
+                    backgroundColor: "#000",
+                    showPagingControl: true
+                });
+                if (!videos) {
+                    lastImages = scrollableView;
+                    lastImagesName = currentCase.name;
                 }
-            }
-            var scrollableView = Ti.UI.createScrollableView({
-                views: views,
-                backgroundColor: "#000",
-                showPagingControl: true
-            });
+            } else scrollableView = lastImages;
             nextWindow.add(scrollableView);
             tab.open(nextWindow);
             activityIndicator.hide();
@@ -393,6 +403,8 @@ function Controller() {
     _.extend($, $.__views);
     var currentCategories = [];
     var isLoggedIn = false;
+    var lastImages = null;
+    var lastImagesName = "";
     var searchArea = Ti.UI.createTextArea({
         borderWidth: 1,
         hintText: "Keywords separated by comma",
