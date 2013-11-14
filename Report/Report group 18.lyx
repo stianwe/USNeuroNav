@@ -446,10 +446,9 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \thinspace{}
-\end_inset
-
-
+This section will give a short introduction to this project, including the
+ client and stakeholders, project goal, purpose and background, and the
+ duration of the project.
 \end_layout
 
 \begin_layout Subsection
@@ -506,7 +505,9 @@ Stakeholders
 \end_layout
 
 \begin_layout Standard
-The project sponsor and customer was SINTEF and The National Competence
+The term stakeholder refers to any person or organization that is being
+ affected or has some interest in the system being developed.
+ The project sponsor and customer was SINTEF and The National Competence
  Center for Ultrasound and Image Guided Therapy, with Frank Lindseth and
  Ole Solheim as the contact persons.
  Additional stakeholders were the development team, consisted of three NTNU
@@ -605,7 +606,7 @@ Planning
 \end_layout
 
 \begin_layout Standard
-This chapter describes the project plan, terms and team organisation.
+This section describes the project plan, terms and team organisation.
  Frst the measurement of project effort are descibed, then general terms
  and a work break down structure.
  After that the organisation of the team and the risk management are presented,
@@ -1935,6 +1936,11 @@ Risk Matrix
 Project communication
 \end_layout
 
+\begin_layout Standard
+To ensure a certain quality, we agreed on some guidelines with the customer,
+ supervisor and within the group during the project lifetime.
+\end_layout
+
 \begin_layout Subsubsection
 Customer interaction
 \end_layout
@@ -2017,6 +2023,11 @@ y.
 
 \begin_layout Subsection
 Tools and technology
+\end_layout
+
+\begin_layout Standard
+Here comes a description of all the tools and technologies we used during
+ the project.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2575,6 +2586,12 @@ e their repositories through the server.
 Preliminary Studies
 \end_layout
 
+\begin_layout Standard
+This section will give a description of the current situation, the desired
+ solution, alternate solutions and evaluation of them and in the end our
+ choise of solution.
+\end_layout
+
 \begin_layout Subsection
 Current Situation
 \end_layout
@@ -3106,10 +3123,6 @@ key "Waterfall Model design"
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset Newline newline
-\end_inset
-
 The figure below illustrate how the waterfall phases are organized.
 \begin_inset Newline newline
 \end_inset
@@ -3169,6 +3182,27 @@ Scrum
 \end_layout
 
 \begin_layout Standard
+Scrum is an iterative planning and execution method for software developmen.
+ Scrum is agile and based on a series of increments of Sprints, where requiremen
+ts, design and product implementation evolve through the project lifetime.
+ A Scrum team is quite small, usually about five to ten people.
+ The team is self-organized, which means that all the main roles for the
+ project are divided among the members of the team.
+ There is usually a big focus on fast communication between members given
+ that scrum teams are usually small.
+ 
+\begin_inset Newline newline
+\end_inset
+
+In the figure below the scrum lifecycle is shown.
+ A description of these elemmnts are givven in section 4.4 Scrum Artefacts.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -3186,7 +3220,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Scrum artefacts
+Scrum lifecycle
 \end_layout
 
 \end_inset
@@ -3197,17 +3231,6 @@ Scrum artefacts
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Scrum is an iterative planning and execution method for software developmen.
- Scrum is agile and based on a series of increments of Sprints, where requiremen
-ts, design and product implementation evolve through the project lifetime.
- A Scrum team is quite small, usually about five to ten people.
- The team is self-organized, which means that all the main roles for the
- project are divided among the members of the team.
- There is usually a big focus on fast communication between members given
- that scrum teams are usually small.
 \end_layout
 
 \begin_layout Standard
@@ -4637,6 +4660,11 @@ Use Case diagram
 \end_layout
 
 \begin_layout Standard
+The figures below shows the use cases for the application and the admin
+ tool.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -4713,7 +4741,7 @@ Use Case description
 \end_layout
 
 \begin_layout Standard
-This is a description of the use case diagram
+This is a description of the use case diagrams
 \begin_inset Newline newline
 \end_inset
 
@@ -6458,7 +6486,7 @@ status open
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="2text%">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <row>
@@ -7974,7 +8002,7 @@ status open
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="2text%">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <row>
@@ -8431,16 +8459,16 @@ Backlog part 2
 Software Architecture
 \end_layout
 
-\begin_layout Subsection
-Introduction
-\end_layout
-
 \begin_layout Standard
-This chapter will describe the architechture of our application the way
+This section will describe the architechture of our application the way
  it was planned before the implementation started.
  It will describe the different modules of our system and through different
  architectural views show how we have planned the structure and modularity
  of our system.
+\end_layout
+
+\begin_layout Subsection
+Introduction
 \end_layout
 
 \begin_layout Subsubsection
@@ -10180,6 +10208,14 @@ Sprints
 Sprint 1
 \end_layout
 
+\begin_layout Standard
+In this section the first sprint is described.
+ First the planning and goals for the sprint, then the burndown chart is
+ presented followed by the implementation.
+ After that the occurring risks, then feddback from the customer, followed
+ by an evauation of the sprint.
+\end_layout
+
 \begin_layout Subsection
 Sprint Planning
 \end_layout
@@ -11771,6 +11807,10 @@ Burndown Chart Sprint 1
 Implementation
 \end_layout
 
+\begin_layout Standard
+Here is a description of everything that was implemented in this sprint.
+\end_layout
+
 \begin_layout Subsubsection
 User interface
 \end_layout
@@ -12633,6 +12673,14 @@ developers
 
 \begin_layout Section
 Sprint 2
+\end_layout
+
+\begin_layout Standard
+In this section the second sprint is described.
+ First the planning and goals for the sprint, then the burndown chart is
+ presented.
+ After that the occurring risks.
+ then the feddback from the customer, followed by an evauation of the sprint.
 \end_layout
 
 \begin_layout Subsection
@@ -13710,6 +13758,14 @@ Since we were not a whole group the hole sprint, we planned for a bit too
 
 \begin_layout Section
 Sprint 3
+\end_layout
+
+\begin_layout Standard
+In this section the third sprint is described.
+ First the planning and goals for the sprint, then the burndown chart is
+ presented followed by the implementation.
+ After that the occurring risks, then feddback from the customer, followed
+ by an evauation of the sprint.
 \end_layout
 
 \begin_layout Subsection
@@ -14842,6 +14898,10 @@ Burndown Chart Sprint 3
 Implementation
 \end_layout
 
+\begin_layout Standard
+Here is a description of everything that was implemented in this sprint.
+\end_layout
+
 \begin_layout Subsubsection
 Searching
 \end_layout
@@ -15663,6 +15723,14 @@ e bug fixing, and instead focus solely on the report.
 
 \begin_layout Section
 Sprint 4
+\end_layout
+
+\begin_layout Standard
+In this section the fourth sprint is described.First the planning and goals
+ for the sprint, then the burndown chart is presented followed by the implementa
+tion.
+ After that the occurring risks, then feddback from the customer, followed
+ by an evauation of the sprint.
 \end_layout
 
 \begin_layout Subsection
@@ -16752,6 +16820,18 @@ Burndown Chart Sprint 3
 
 \begin_layout Subsection
 Implementation
+\end_layout
+
+\begin_layout Standard
+Here is a description of everything that was implemented in this sprint.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -18518,6 +18598,11 @@ Conclusion and Evaluation
 Conclusion
 \end_layout
 
+\begin_layout Standard
+This section gives a description of the final system architecture and the
+ results of the project as well as futher work.
+\end_layout
+
 \begin_layout Subsection
 Final system architecture
 \end_layout
@@ -19716,6 +19801,11 @@ There could be possible to refer to or give links to other sites.
 Evaluation
 \end_layout
 
+\begin_layout Standard
+In this section the evaluation of the group, project and technology are
+ givven.
+\end_layout
+
 \begin_layout Subsection
 Group Evaluation
 \end_layout
@@ -20737,30 +20827,6 @@ Appendices
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Templates
-\end_layout
-
-\begin_layout Subsection
-Advisor/Customer meeting minutes DD/MM
-\end_layout
-
-\begin_layout Subsubsection
-Present
-\end_layout
-
-\begin_layout Subsubsection
-Absent
-\end_layout
-
-\begin_layout Subsubsection
-Agenda
-\end_layout
-
-\begin_layout Subsubsection
-Conclusion
 \end_layout
 
 \begin_layout Section
