@@ -618,7 +618,7 @@ Project Plan
 \end_layout
 
 \begin_layout Subsubsection
-Measurement of Project Effect
+Measurement of project effect
 \end_layout
 
 \begin_layout Standard
@@ -633,7 +633,7 @@ The goal of the project is to increase the awareness and knowledge surrounding
 \end_layout
 
 \begin_layout Subsubsection
-General Terms
+General terms
 \end_layout
 
 \begin_layout Standard
@@ -685,7 +685,7 @@ key "appcelerator"
 \end_layout
 
 \begin_layout Subsubsection
-Planned Effort
+Planned effort
 \end_layout
 
 \begin_layout Standard
@@ -726,7 +726,7 @@ We are planning to deliver the final product to the customer 13.
 \end_layout
 
 \begin_layout Subsubsection
-Schedule of Result
+Schedule of result
 \end_layout
 
 \begin_layout Standard
@@ -736,7 +736,7 @@ Scrum is being used for the development phase.
 \end_layout
 
 \begin_layout Subsubsection
-Work Break Down Structure
+Work break down structure
 \end_layout
 
 \begin_layout Standard
@@ -1845,7 +1845,7 @@ To prepare for unfortunate events that might occur during the project the
 \end_layout
 
 \begin_layout Subsubsection
-Risk Handling
+Risk handling
 \end_layout
 
 \begin_layout Standard
@@ -1942,7 +1942,7 @@ To ensure a certain quality, we agreed on some guidelines with the customer,
 \end_layout
 
 \begin_layout Subsubsection
-Customer Interaction
+Customer interaction
 \end_layout
 
 \begin_layout Itemize
@@ -1974,7 +1974,7 @@ Answer e-mails is to be done as soon as possible.
 \end_layout
 
 \begin_layout Subsubsection
-Supervisor Interaction
+Supervisor interaction
 \end_layout
 
 \begin_layout Itemize
@@ -2003,7 +2003,7 @@ The minutes of the meeting with the customer is to be sent to the supervisor
 \end_layout
 
 \begin_layout Subsubsection
-Group Interaction
+Group interaction
 \end_layout
 
 \begin_layout Itemize
@@ -2031,7 +2031,7 @@ This section contains a description of all the tools and technologies we
 \end_layout
 
 \begin_layout Subsubsection
-Report Writing
+Report writing
 \end_layout
 
 \begin_layout Paragraph
@@ -2078,6 +2078,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/lyx_screenshot.png
+	lyxscale 25
 	scale 25
 
 \end_inset
@@ -2434,7 +2435,7 @@ key "JavaScript"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2622,7 +2623,7 @@ We chose to use Eclipse for Java development because it is very easy to
 \end_layout
 
 \begin_layout Subsubsection
-Version Control 
+Version control 
 \end_layout
 
 \begin_layout Paragraph
@@ -3654,7 +3655,7 @@ There are several different meeting in the scrum lifecycle that we used:
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Planning Meeting
+Sprint planning meeting
 \end_layout
 
 \begin_layout Standard
@@ -3667,7 +3668,7 @@ It is a meeting held at the start of each sprint.
 \end_layout
 
 \begin_layout Subsubsection
-Daily Standups
+Daily standups
 \end_layout
 
 \begin_layout Standard
@@ -3678,7 +3679,7 @@ It is a short meeting, not more than 10 - 15 minutes, at the start of each
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Review Meeting
+Sprint review meeting
 \end_layout
 
 \begin_layout Standard
@@ -3692,7 +3693,7 @@ It is held after each sprint to review which tasks from the sprint backlog
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Retrospective Meeting
+Sprint retrospective meeting
 \end_layout
 
 \begin_layout Standard
@@ -3788,7 +3789,7 @@ Actors
 \end_layout
 
 \begin_layout Subsubsection
-Unregistered User
+Unregistered user
 \end_layout
 
 \begin_layout Standard
@@ -3800,7 +3801,7 @@ on.
 \end_layout
 
 \begin_layout Subsubsection
-Registered Users
+Registered users
 \end_layout
 
 \begin_layout Standard
@@ -4758,7 +4759,7 @@ Overall Functional Requirements with priority
 \end_layout
 
 \begin_layout Subsubsection
-Use Case Diagram
+Use case diagram
 \end_layout
 
 \begin_layout Standard
@@ -4839,7 +4840,7 @@ Use Case admin
 \end_layout
 
 \begin_layout Subsubsection
-Use Case Description
+Use case description
 \end_layout
 
 \begin_layout Standard
@@ -8425,7 +8426,7 @@ Finally, the customer enquired about the possibility of using the app offline.
 \end_layout
 
 \begin_layout Subsubsection
-Categories, Cases and Users
+Categories, cases and users
 \end_layout
 
 \begin_layout Standard
@@ -8537,7 +8538,7 @@ frontal lobe
 \end_layout
 
 \begin_layout Subsubsection
-Images and Videos
+Images and videos
 \end_layout
 
 \begin_layout Standard
@@ -8550,7 +8551,7 @@ The MySQL database will only contain URL's to the images and videos, while
 \end_layout
 
 \begin_layout Subsubsection
-Local Caching
+Local caching
 \end_layout
 
 \begin_layout Standard
@@ -8864,7 +8865,7 @@ Views
 \end_layout
 
 \begin_layout Subsubsection
-Logical View
+Logical view
 \end_layout
 
 \begin_layout Standard
@@ -9122,7 +9123,7 @@ Sequence diagram 4
 \end_layout
 
 \begin_layout Subsubsection
-Develoment View
+Develoment view
 \end_layout
 
 \begin_layout Standard
@@ -9197,7 +9198,7 @@ classification
 \end_layout
 
 \begin_layout Subsubsection
-Process View
+Process view
 \end_layout
 
 \begin_layout Paragraph
@@ -9361,7 +9362,7 @@ Search activity diagram
 \end_layout
 
 \begin_layout Subsubsection
-Physical View
+Physical view
 \end_layout
 
 \begin_layout Standard
@@ -10181,7 +10182,7 @@ Support for video, searching for cases, network support, server communication
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Goals
+Sprint goals
 \end_layout
 
 \begin_layout Standard
@@ -10196,7 +10197,7 @@ The main goal of this sprint was to have a running prototype which could
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Backlog
+Sprint backlog
 \end_layout
 
 \begin_layout Standard
@@ -11679,7 +11680,7 @@ Here is a description of everything that was implemented in this sprint.
 \end_layout
 
 \begin_layout Subsubsection
-User Interface
+User interface
 \end_layout
 
 \begin_layout Standard
@@ -11856,7 +11857,7 @@ When a case was selcted, the case's images and videos would have to be displayed
 \end_layout
 
 \begin_layout Subsubsection
-Client-Server Communication
+Client-server communication
 \end_layout
 
 \begin_layout Paragraph
@@ -12496,7 +12497,7 @@ The milestones MP1 and MP2 was completed within time.
 \end_layout
 
 \begin_layout Subsubsection
-What Went Well During This Sprint
+What went well during this sprint
 \end_layout
 
 \begin_layout Standard
@@ -12514,7 +12515,7 @@ We didn't have much progress on the report early in the sprint, but during
 \end_layout
 
 \begin_layout Subsubsection
-What Can Be Improved For The Next Sprint
+What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
@@ -12614,7 +12615,7 @@ Support for video, searching for cases, network support, server communication
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Goals
+Sprint goals
 \end_layout
 
 \begin_layout Standard
@@ -12632,7 +12633,7 @@ On the report, we wanted to be finnish writing the hole Part 1, and the
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Backlog
+Sprint backlog
 \end_layout
 
 \begin_layout Standard
@@ -13595,7 +13596,7 @@ We had a good progress with the report this sprint, we managed to write
 \end_layout
 
 \begin_layout Subsubsection
-What Went Well During This Sprint
+What went well during this sprint
 \end_layout
 
 \begin_layout Standard
@@ -13605,7 +13606,7 @@ The progress on the report was very possitive.
 \end_layout
 
 \begin_layout Subsubsection
-What Can Be Improved For The Next Sprint
+What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
@@ -13760,7 +13761,7 @@ Upload of data
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Goals
+Sprint goals
 \end_layout
 
 \begin_layout Standard
@@ -13770,7 +13771,7 @@ The goals for sprint 3 was to implement the feature requests from the customer,
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Backlog
+Sprint backlog
 \end_layout
 
 \begin_layout Standard
@@ -14844,7 +14845,7 @@ tab
 \end_layout
 
 \begin_layout Subsubsection
-Viewing of Media Files
+Viewing of media files
 \end_layout
 
 \begin_layout Standard
@@ -14945,7 +14946,7 @@ privateDescrption
 \end_layout
 
 \begin_layout Subsubsection
-Admin Tool
+Admin tool
 \end_layout
 
 \begin_layout Standard
@@ -15550,7 +15551,7 @@ Also, the work items left over from sprint 2 was completed, like writing
 \end_layout
 
 \begin_layout Subsubsection
-What Went Well During This Sprint
+What went well during this sprint
 \end_layout
 
 \begin_layout Standard
@@ -15565,7 +15566,7 @@ Sprint 3 was very focused on the development part.
 \end_layout
 
 \begin_layout Subsubsection
-What Can Be Improved For The Next Sprint
+What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
@@ -15914,7 +15915,7 @@ Caching of data, finalize features
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Goals
+Sprint goals
 \end_layout
 
 \begin_layout Standard
@@ -15923,7 +15924,7 @@ The goals for sprint 4 was to polish the app a little by fixing som bugs,
 \end_layout
 
 \begin_layout Subsubsection
-Sprint Backlog
+Sprint backlog
 \end_layout
 
 \begin_layout Standard
@@ -16694,7 +16695,7 @@ Here is a description of everything that was implemented in this sprint.
 \end_layout
 
 \begin_layout Subsubsection
-Bug Fixing
+Bug fixing
 \end_layout
 
 \begin_layout Standard
@@ -17100,7 +17101,7 @@ Sprint 4 final bug report
 \end_layout
 
 \begin_layout Subsubsection
-Admin Tool
+Admin tool
 \end_layout
 
 \begin_layout Standard
@@ -17218,7 +17219,7 @@ Admin tool input file format
 \end_layout
 
 \begin_layout Subsubsection
-Application Distribution
+Application distribution
 \end_layout
 
 \begin_layout Standard
@@ -18387,7 +18388,7 @@ All in all we were very happy with the progress of sprint 4.
 \end_layout
 
 \begin_layout Subsubsection
-What Went Well During This Sprint
+What went well during this sprint
 \end_layout
 
 \begin_layout Standard
@@ -18412,7 +18413,7 @@ We were also very happy with the meeting with the surgeons itself.
 \end_layout
 
 \begin_layout Subsubsection
-Wat Can Be Improved For The Next Sprint
+What can be improved for the next sprint
 \end_layout
 
 \begin_layout Standard
@@ -18583,7 +18584,7 @@ The system consists of several parts, where the main part is the mobile
 \end_layout
 
 \begin_layout Subsubsection
-The Application
+The application
 \end_layout
 
 \begin_layout Standard
@@ -19027,7 +19028,7 @@ Displaying video (left) and image (right)
 \end_layout
 
 \begin_layout Subsubsection
-The Server
+The server
 \end_layout
 
 \begin_layout Standard
@@ -19042,7 +19043,7 @@ The server software contains of two different PHP scripts which runs ontop
 \end_layout
 
 \begin_layout Subsubsection
-The Admin Tool
+The admin tool
 \end_layout
 
 \begin_layout Standard
@@ -19119,7 +19120,7 @@ The application project for this group was never supposed to be a standalone
 \end_layout
 
 \begin_layout Subsubsection
-Unfinished Requirements
+Unfinished requirements
 \end_layout
 
 \begin_layout Standard
@@ -19628,7 +19629,7 @@ Status of the functional requirements
 \end_layout
 
 \begin_layout Subsubsection
-Other Functionality
+Other functionality
 \end_layout
 
 \begin_layout Standard
@@ -19709,7 +19710,7 @@ Project Evaluation
 \end_layout
 
 \begin_layout Subsubsection
-Evaluation Criteria
+Evaluation criteria
 \end_layout
 
 \begin_layout Standard
@@ -19729,7 +19730,7 @@ As mentioned in the introduction, the goal of the project was to create
 \end_layout
 
 \begin_layout Subsubsection
-Meeting With The Customers
+Final meeting with the customers
 \end_layout
 
 \begin_layout Standard
@@ -20056,7 +20057,7 @@ Feature suggestions
 \end_layout
 
 \begin_layout Subsubsection
-Evaluation of The Project
+Evaluation of the project
 \end_layout
 
 \begin_layout Standard
@@ -21035,7 +21036,7 @@ INSERT SCREENSHOT WITH TABS HIGHLIGHTED
 \end_layout
 
 \begin_layout Subsection
-Browsing through categories
+Browsing Through Categories
 \end_layout
 
 \begin_layout Standard
@@ -21258,7 +21259,7 @@ After logging in, the user can return to the browsing or search tab, and
 \end_layout
 
 \begin_layout Section
-Admin tool user manual
+Admin Tool User Manual
 \end_layout
 
 \begin_layout Standard
