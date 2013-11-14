@@ -303,7 +303,7 @@ In this report the entire process of developing this application will be
  The resulting product (so far) is an iPhone application that can browse
  or search for media based on keywords, or surgery categories and locations.
  With implemented support such as a remote database for storage of metadata
- and a webserver for the corresponding case mediafiles.
+ and a webserver for the corresponding case media files.
 \end_layout
 
 \begin_layout Part*
@@ -316,9 +316,9 @@ Preface
 \begin_layout Standard
 This report, together with the code written, is the deliverables in the
  master-level course TDT4290 Customer Driven Project, given by Department
- of Computer and Information Science at the the Norwegian University of
- Science and Technology, NTNU.
- The project was executed between August 21th to Noverber 21th in the fall
+ of Computer and Information Science at the Norwegian University of Science
+ and Technology, NTNU.
+ The project was executed from August 21th to November 21th in the fall
  of 2013.
  
 \end_layout
@@ -336,15 +336,15 @@ The project team consisted of three members from the department of computer
 
 \begin_layout Standard
 We would like to thank the SINTEF for providing us this task and giving
- us accress to the software and hardware required to develop this application.
+ us access to the software and hardware required to develop this application.
  Frank Lindseth represented SINTEF and acted as our customer contact during
  the project so an extra thanks to him.
  We also want to show our appreciation toward Erlend Dahl for providing
- his knowledge durin the planning phase of the project.
+ his knowledge during the planning phase of the project.
 \end_layout
 
 \begin_layout Standard
-The team would also like to thank our main supoervisor Anh Nguyen Duc, for
+The team would also like to thank our main supervisor Anh Nguyen Duc, for
  his input and valuable feedback during the course.
 \begin_inset Newpage pagebreak
 \end_inset
@@ -466,7 +466,7 @@ SINTEF
 
 \begin_layout Standard
 SINTEF is an independent, non-commercial research organization.
- The organisation operates in partnership with NTNU and aims to 
+ The organization operates in partnership with NTNU and aims to 
 \begin_inset Quotes eld
 \end_inset
 
@@ -521,18 +521,18 @@ Project Goal
 \end_layout
 
 \begin_layout Standard
-The goal of the the project was to create a prototype application that our
- customer can use for proof-of-concept and further development.
- (The application had to be developed for ios devices but on a crossplatform
+The goal of the project was to create a prototype application that our customer
+ can use for proof-of-concept and further development.
+ (The application had to be developed for iOS devices but on a cross platform
  framework so that it could be expanded to other platforms at a later time.)
  The primary goal was to create a stable, professional looking application
  with the core functionality specified, such as showing pictures and videos,
- and the infrastucture around it.
+ and the infrastructure around it.
  The product we created will continue to grow after we were done with it,
  so it was important to keep it expandable so that new features could be
  added later.
- Ultimately, as our prototype ket being developed, the goal was for it to
- be used as a tool to spread the knowledge of ultrasound navigation.
+ Ultimately, as our prototype kept being developed, the goal was for it
+ to be used as a tool to spread the knowledge of ultrasound navigation.
 \end_layout
 
 \begin_layout Subsection
@@ -701,14 +701,14 @@ TDT4290 Customer Driven Project is a course that rewards 15 credits.
 \end_layout
 
 \begin_layout Standard
-Working hours: Our normal working hours will be wednesdays, thursdays and
- fridays from 9.00 to 16.00.
+Working hours: Our normal working hours will be Wednesdays, Thursdays and
+ Fridays from 9.00 to 16.00.
  These days and hours was chosen based on the group members existing schedule.
  Having three days every week where the entire day is reserved for working
  on our project is very beneficial and will enable us to work closely together
  and not be limited to electronic communication which sometimes can slow
  down the flow of information.
- Having this schedule also leaves us open to meet mondays and/or tuesdays
+ Having this schedule also leaves us open to meet Mondays and/or Tuesdays
  should any unforeseen critical issues arise.
 \end_layout
 
@@ -718,8 +718,8 @@ Our working hours does not conclude when the product is delivered to the
 \end_layout
 
 \begin_layout Standard
-We are planning to deliver the final product to the customer 13.
- November, that leaves us with a week to focus solely on the report.
+We are planning to deliver the final product to the customer 13th of November,
+ that leaves us with a week to focus solely on the report.
  It should be noted that the report will be continuously updated as the
  project develops as well.
  
@@ -743,13 +743,13 @@ Work break down structure
 On the August 21th the group met the customer for the first time and started
  working, The planning and pre study phase was planned to last for four
  weeks, since we early knew that we did not have the required equipment.
- The planning phase contained planning the project, requirements spesification,
+ The planning phase contained planning the project, requirements specification,
  risk analysis, design of GUI and architecture.
- The pre study phase containd planning, management and researching the technolog
-ies needed for the project.
+ The pre study phase contained planning, management and researching the
+ technologies needed for the project.
  The group planned to have 4 sprints, each going over 2 weeks.
- This was because of the timelimit, 4 sprints fit exactly into the schedule,
- and we could get as mush work done as possible.
+ This was because of the time limit, 4 sprints fit exactly into the schedule,
+ and we could get as much work done as possible.
  Each sprint will contain a planning part, an implementation part, and a
  testing part.
  
@@ -1532,7 +1532,7 @@ This section describes how the group is organized and why.
 \begin_inset Newline newline
 \end_inset
 
-At the beginning of the project we had a quick sumary of each group member’s
+At the beginning of the project we had a quick summary of each group member’s
  previous experience, skills and interests.
  This made the basis for role assignments, so that we best could utilize
  each group member’s strengths.
@@ -1838,7 +1838,7 @@ To prepare for unfortunate events that might occur during the project the
  group identified risks and figured out how to solve them.
  For each risk there are some pro-active efforts, which states what to do
  to prevent the risks arise, and there are re-active efforts which states
- what to to if the risks has aries.
+ what to if the risks has occurred.
  The deadline is when the risk can arise.
  Probabilities for problem occurring and severity of consequences are denoted
  by H for ’high’, M for ’medium’ and L for ’low’.
@@ -1984,7 +1984,7 @@ The meetings with the advisor will be held on Wednesdays at 09:30 at the
 
 \begin_layout Itemize
 From September 20 and onwards, meetings will be held on Fridays at 12:15.
- This is because of our sprints satrts at Wednesdays, so it will be more
+ This is because of our sprints starts at Wednesdays, so it will be more
  convenient to have it in the middle of a sprint, when we have more questions
  and challenges, and it is easier to come on track in the development.
 \end_layout
@@ -2055,7 +2055,7 @@ key "lyx"
 \end_inset
 
 .
- The reason why LaTeX was chosen is that it is widely used in academica,
+ The reason why LaTeX was chosen is that it is widely used in academia,
  and that the team members saw this as an opportunity to familiarize themselves
  with the tool they likely will use when writing their master.
  In addition, LaTeX generates standard, good looking and highly customizable
@@ -2191,7 +2191,7 @@ key "balsamiq"
 nt that needed to be made.
  We chose Balsamiq mockups because it had a free trial period, had support
  for creating iPhone GUIs and offered a simple, intuitive and easy to learn
- interface for creating and modifing GUI drafts.
+ interface for creating and modifying GUI drafts.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2236,7 +2236,7 @@ wall
 
 \begin_layout Standard
 The reason why the team uses Facebook is that all team members had experience
- with Facebook, and check it regularily.
+ with Facebook, and check it regularly.
 \end_layout
 
 \begin_layout Paragraph
@@ -2253,7 +2253,7 @@ key "teamviewer"
 \end_inset
 
 .
- TeamViewer is a simple software for controling computers remotely over
+ TeamViewer is a simple software for controlling computers remotely over
  the Internet.
 \end_layout
 
@@ -2572,7 +2572,7 @@ key "apache"
 \end_inset
 
  is a very common web server.
- It is free to use, very easy to set up, and works very well with PHP.
+ It is free to use, very easy to set up and works very well with PHP.
 \end_layout
 
 \begin_layout Standard
@@ -2608,7 +2608,7 @@ Eclipse
 \begin_layout Standard
 Eclipse is a multi-language integrated development environment (IDE).
  It is very suitable for Java development, and it also has an integrate
- git tool.
+ Git tool.
  
 \end_layout
 
@@ -2664,8 +2664,8 @@ oNav.
 \end_layout
 
 \begin_layout Standard
-With git every group member has a copy of the repository locally, and synchroniz
-e their repositories through the server.
+With Git every group member has a copy of the repository locally, and synchroniz
+es their repositories through the server.
  We chose to use Git, since this ensures that all group members can work
  on the code and report, regardless of the status of the server.
  This also means that we have many backups of the entire repository if something
@@ -2673,7 +2673,7 @@ e their repositories through the server.
  no information is lost during the project.
  It is necessary to work on up-to-date data, especially when two people
  are working on the same file, so it is important to avoid that they can
- destroy each others work without knowing it.
+ destroy each others’s work without knowing it.
  Git supports quick branching and merging, and includes specific tools for
  navigating a non-linear development history.
 \end_layout
