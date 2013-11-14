@@ -15763,7 +15763,7 @@ status open
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="85text%">
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15783,7 +15783,7 @@ Bug
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15811,7 +15811,7 @@ images
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15831,7 +15831,7 @@ Video playback did not stop when leaving the video view
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15859,7 +15859,7 @@ tilting
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15880,7 +15880,7 @@ When opening the images of a case for the first time, the initial zoom was
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15908,7 +15908,7 @@ tilting
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15929,7 +15929,7 @@ After entering full screen when viewing a video, zooming is no longer possible,
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15960,14 +15960,14 @@ hang
 
 .
  In sprint 3, we added a loading animation, which worked very well on the
- iPhone, but were a bit to bright on the iPhone
+ iPhone, but were a bit too bright on the iPhone
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16824,14 +16824,10 @@ Implementation
 
 \begin_layout Standard
 Here is a description of everything that was implemented in this sprint.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Subsubsection
+Bug fixing
 \end_layout
 
 \begin_layout Standard
@@ -16907,7 +16903,7 @@ status open
 <column alignment="left" valignment="top" width="80text%">
 <column alignment="left" valignment="top" width="10text%">
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16916,7 +16912,7 @@ status open
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16925,7 +16921,7 @@ Bug
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16936,7 +16932,7 @@ Status
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16973,7 +16969,7 @@ Partly fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17002,7 +16998,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17039,7 +17035,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17069,7 +17065,7 @@ Fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17106,7 +17102,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17136,7 +17132,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17167,7 +17163,7 @@ hang
 
 .
  In sprint 3, we added a loading animation, which worked very well on the
- iPhone, but were a bit to bright on the iPhone
+ iPhone, but were a bit too bright on the iPhone
 \end_layout
 
 \end_inset
@@ -17183,7 +17179,7 @@ Partly fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -17234,6 +17230,10 @@ Sprint 4 final bug report
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Admin tool
 \end_layout
 
 \begin_layout Standard
@@ -17348,6 +17348,10 @@ Admin tool input file format
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Application distribution
 \end_layout
 
 \begin_layout Standard
@@ -18252,14 +18256,6 @@ Completed tests for sprint 4
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection
-Acceptance Testing
-\end_layout
-
-\begin_layout Standard
-move to evaluation
 \end_layout
 
 \begin_layout Subsection
