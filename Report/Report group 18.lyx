@@ -4,6 +4,7 @@
 \begin_header
 \textclass article
 \begin_preamble
+\pagenumbering{roman}
 \usepackage[nottoc]{tocbibind} 
 \end_preamble
 \use_default_options true
@@ -208,6 +209,22 @@ Kristoffer Hagen
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -222,6 +239,19 @@ Kristoffer Hagen
 \series default
 \color inherit
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -230,6 +260,22 @@ Kristoffer Hagen
 
 \begin_layout Part*
 Abstract
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -354,6 +400,38 @@ LatexCommand tableofcontents
 
 \begin_layout Part
 Planning and Requirements
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -13587,7 +13665,7 @@ New piority of requirements
 
 \begin_layout Standard
 We did not have a meeting with the customer at the end of sprint 2, since
- no implementation were done at all, so we had nothing new to show.
+ no implementation were done at all, so we had nothing new to show him.
 \end_layout
 
 \begin_layout Subsection
