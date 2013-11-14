@@ -18689,6 +18689,65 @@ Primary tumor
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.20.54 AM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.12 AM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.23.18 AM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.34 AM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Browsing for cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 The 
 \begin_inset Quotes eld
 \end_inset
@@ -19681,7 +19740,7 @@ status open
 \begin_inset Graphics
 	filename Figures/meeting_with_surgeons/IMG_0918.JPG
 	lyxscale 25
-	scale 25
+	scale 12
 
 \end_inset
 
@@ -19693,7 +19752,7 @@ status open
 \begin_inset Graphics
 	filename Figures/meeting_with_surgeons/IMG_0919.JPG
 	lyxscale 25
-	scale 25
+	scale 12
 
 \end_inset
 
@@ -19704,7 +19763,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-The final meeting with the customer and hes co-workers
+The final meeting with the customer and his co-workers
 \end_layout
 
 \end_inset
