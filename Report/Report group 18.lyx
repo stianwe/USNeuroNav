@@ -5603,27 +5603,6 @@ Administrator
 
 \begin_layout Plain Layout
 Objective:
-\begin_inset Float table
-placement h
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Use Case Description
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -22521,18 +22500,8 @@ http://www.techopedia.com/definition/25813/use-case
 
 \end_layout
 
-\begin_layout Part
-Appendices
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
+\start_of_appendix
 USNeuroNav
 \end_layout
 
@@ -27383,10 +27352,6 @@ Tumor (Spine)
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-a
 \end_layout
 
 \begin_layout Standard
