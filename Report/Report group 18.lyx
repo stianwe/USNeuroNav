@@ -1,4 +1,4 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
+﻿#LyX 2.0 created this file. For more info see http://www.lyx.org/
 \lyxformat 413
 \begin_document
 \begin_header
@@ -2767,14 +2767,14 @@ easy
  some training there, and therefore adapt better to the new use of DS.
  The main problem with the current situation is therefore that experienced
  doctors have no experience with the new way of using DS, and also very
- limited possibilites of learning it.
+ limited possibilities of learning it.
 \end_layout
 
 \begin_layout Standard
 The figure below shows a typical image from an surgical operation.
- From the left there is a MRI image, in the middle is a ultrasound image,
- wich is the square in the MRI image.
- To the right is a skulp that shows where the images was taken in the brain.
+ From the left there is a MRI image, in the middle is an ultrasound image,
+ which is the square in the MRI image.
+ To the right is a skull that shows where the images were taken in the brain.
 \end_layout
 
 \begin_layout Standard
@@ -2827,11 +2827,11 @@ The solution that the customer desires, is a simple method for doctors (and
  (images and video), and to learn have to understand them, as many doctors
  now understand MRI.
  For this, the customer has planned a mobile application that will be able
- to view images and videos from DS scands, and in the future also provide
+ to view images and videos from DS scans, and in the future also provide
  a quiz-like game to challenge the users of the app to try to understand
  the data shown.
  The customer already has a lot of relevant data that can be used, and also
- continously produce more, so what they need is only a tool for displaying
+ continuously produce more, so what they need is only a tool for displaying
  and distributing it, so that it is easy to find, wherever the user is.
 \end_layout
 
@@ -2911,7 +2911,7 @@ This app is dedicated to endoscopic ultrasound education and has been developed
 \end_layout
 
 \begin_layout Standard
-The app showes pictures and videoes of ultrasound images.
+The app shows pictures and videos of ultrasound images.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2988,7 +2988,7 @@ Evaluation of Alternate Solutions
 \begin_layout Standard
 In the table below there is an overview of the strengths and weaknesses
  of the alternative solutions, including the application we are supposed
- to develoop.
+ to develop.
 \end_layout
 
 \begin_layout Standard
@@ -3070,7 +3070,7 @@ The app has a focus on lungs and diagnostic, and not ultrasound images during
 \end_layout
 
 \begin_layout Plain Layout
-The app also gives information about conferences, wich is not important
+The app also gives information about conferences, which is not important
  in our case.
 \end_layout
 
@@ -3131,7 +3131,7 @@ The app have the ability to show pictures and video.
 \end_layout
 
 \begin_layout Plain Layout
-It is for iOS devices, wich makes it portable.
+It is for iOS devices, which makes it portable.
  
 \end_layout
 
@@ -3141,7 +3141,7 @@ It is for iOS devices, wich makes it portable.
 \begin_inset Text
 
 \begin_layout Plain Layout
-It was only ment to be a prototype with basic functionality.
+It was only meant to be a prototype with basic functionality.
  It could not be published on iTunes App Store, since we did not have the
  required licenses.
 \end_layout
@@ -3180,7 +3180,7 @@ It is sufficiently differences between the system the customer needs and
 \end_layout
 
 \begin_layout Standard
-We will develoop the system with frameworks and tools described in section
+We will develop the system with frameworks and tools described in section
  8.
 \end_layout
 
@@ -3200,8 +3200,8 @@ Lifecycle Model
 \end_layout
 
 \begin_layout Standard
-In this section our choise for the lifecycle model is described.
- Fist we introduce the waterfall model and why we di not schose that, then
+In this section our choice for the lifecycle model is described.
+ Fist we introduce the waterfall model and why we di not chose that, then
  a description of why we chose scrum, then we describe scum as a lifecycle
  model, and after that a description of scrum artefact and the scrum meetings.
 \end_layout
@@ -3218,7 +3218,7 @@ key "Waterfall Model design"
 
 \end_inset
 
- is a inear-sequential life cycle model, in which progress is seen as flowing
+ is a linear-sequential life cycle model, in which progress is seen as flowing
  steadily downwards through the phases, like a waterfall.
  Any phase in the development process begins only if the previous phase
  is complete, the phases do not overlap.
@@ -3226,7 +3226,7 @@ key "Waterfall Model design"
 \begin_inset Newline newline
 \end_inset
 
-The figure below illustrate how the waterfall phases are organized.
+The figure below illustrates how the waterfall phases are organized.
 \begin_inset Newline newline
 \end_inset
 
@@ -3262,7 +3262,7 @@ Waterfall Model
 
 \end_inset
 
-The waterfall model are simple and easy to understand and use, the outcome
+The waterfall model is simple and easy to understand and use, the outcome
  of one phase acts as the input for the next phase sequentially.
 \begin_inset Newline newline
 \end_inset
@@ -3274,7 +3274,7 @@ It works well for smaller projects where requirements are very well understood,
 \end_layout
 
 \begin_layout Standard
-The disadvantages with the waterfall maodel is that no working software
+The disadvantages with the waterfall model are that no working software
  is produced until late during the life cycle.
  It cannot accommodate changing requirements, and generally handles all
  changes poorly.
@@ -3285,7 +3285,7 @@ Scrum
 \end_layout
 
 \begin_layout Standard
-Scrum is an iterative planning and execution method for software developmen.
+Scrum is an iterative planning and execution method for software development.
  Scrum is agile and based on a series of increments of Sprints, where requiremen
 ts, design and product implementation evolve through the project lifetime.
  A Scrum team is quite small, usually about five to ten people.
@@ -3298,7 +3298,7 @@ ts, design and product implementation evolve through the project lifetime.
 \end_inset
 
 In the figure below the scrum lifecycle is shown.
- A description of these elemmnts are givven in section 4.4 Scrum Artefacts.
+ A description of these elements are given in section 4.4 Scrum Artefacts.
 \begin_inset Newline newline
 \end_inset
 
@@ -3337,7 +3337,7 @@ Scrum lifecycle
 \end_layout
 
 \begin_layout Standard
-There ar many advantages for using scrum, for example managing risk and
+There are many advantages for using scrum, for example managing risk and
  change effectively, by using small steps and quick feedback (tests, customers)
  errors from misunderstandings are quickly addressed.
  Focusing on the most valuable and most risky aspect of the project up front
@@ -3660,7 +3660,7 @@ Sprint planning meeting
 
 \begin_layout Standard
 It is a meeting held at the start of each sprint.
- The team decides wich items in the product backlog that will be in the
+ The team decides which items in the product backlog that will be in the
  sprint backlog, based on the itmens priority.
  Each item in the sprint backlog will then be given an estimated effort
  on how long it will take to complete.
@@ -7847,7 +7847,8 @@ FR13
 
 \series bold
 
-\begin_inset space \enskip{}
+\begin_inset space \quad{}
+
 \end_inset
 
 
@@ -11025,7 +11026,7 @@ real
 \begin_inset Quotes erd
 \end_inset
 
- device, and not the iPhone simulator wich Titanium makes available.
+ device, and not the iPhone simulator which Titanium makes available.
 \end_layout
 
 \begin_layout Standard
@@ -11052,6 +11053,12 @@ developers
  for this sprint.
  In more detail, Stian would do the server side communication, and Stian
  and Kristoffer together would work on the client side.
+\end_layout
+
+\begin_layout Standard
+The customer provided us with images and videoes form surgical operations,
+ and a description af how all these could be categirozed, so we were good
+ to go with real case data.
 \end_layout
 
 \begin_layout Standard
@@ -12477,7 +12484,7 @@ The figure below shows the burndown chart for this sprint.
  overestimated and underestimated the effort of time for many tasks.
  Therefore the ideal remaning effort line is slightly beneath the actual
  remaning effort line through most of this sprint.
- We did most of the work on Wednesdays, Thursdays and Fridays, wich explain
+ We did most of the work on Wednesdays, Thursdays and Fridays, which explain
  the horizontal line at day 1, day 2 , day 6 and day 7.We had to do a lot
  of programming in this sprint since our technical manager would be absent
  half of the next sprint, so a lot of work were planned in this sprint.
@@ -14581,8 +14588,8 @@ Primary Tumor
  We felt that the process of creating new cases and categories in the database
  was too complex and time-consuming to do manually.
  This, and the fact that a GUI for uploading was already requested by the
- customer, made us shift some resources towards this new program, wich we
- will refer to as 
+ customer, made us shift some resources towards this new program, which
+ we will refer to as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -14595,7 +14602,7 @@ Admin tool
 
 \begin_layout Standard
 The reason why we set so ambitious goals regarding the amount of implementation
- for sprint 3 is that we laid a very thorough foundation in sprint 1, wich
+ for sprint 3 is that we laid a very thorough foundation in sprint 1, which
  made it quite easy to add new features, and that we did not have the time
  or opportunity to do any coding during sprint 2.
 \end_layout
@@ -21893,7 +21900,38 @@ tabs
 \end_layout
 
 \begin_layout Standard
-INSERT SCREENSHOT WITH TABS HIGHLIGHTED
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/tab.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tabs in USNeuroNav
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -21918,6 +21956,41 @@ Show all
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/select tumor.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Selecting a category
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 After selecting a category, sub-categories of that category might be displayed.
  If that is the case, these can be selected as with the previous view.
  If the user wants to show all cases that simply belongs to the category
@@ -21930,6 +22003,49 @@ Show all
 \end_inset
 
  on that view will do that.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/select show all.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -21970,6 +22086,76 @@ Images
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/select primary tumor.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Selecting a sub-category
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.34 AM.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Viewing cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Selecting 
 \begin_inset Quotes eld
 \end_inset
@@ -21990,6 +22176,41 @@ play
 \end_inset
 
  sign to play the video.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.20 PM.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Viewing video
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -22024,8 +22245,85 @@ pinch
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.56 PM.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Viewing image
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 At any time, the user can return to the previous screen by tapping the button
  at the upper left corner, which is shaped as an arrow, pointing backwards.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/back.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Back
+\begin_inset Quotes erd
+\end_inset
+
+ button
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -22075,6 +22373,49 @@ Search
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/search.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/search write.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Searching
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 After selecting 
 \begin_inset Quotes eld
 \end_inset
@@ -22110,6 +22451,49 @@ Log in
 , will verify the credentials, and then take the user to a new screen, where
  the user can for instance choose to log out again, if necessary.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.34 PM.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logging in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
