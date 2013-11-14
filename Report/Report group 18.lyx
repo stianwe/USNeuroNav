@@ -17587,7 +17587,7 @@ FR02
 \begin_inset Text
 
 \begin_layout Plain Layout
-Passed
+Passed*
 \end_layout
 
 \end_inset
@@ -18123,6 +18123,12 @@ Completed tests for sprint 4
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+* When browsing images for a case with extremely many images, and if the
+ Internet connection was slow, the application crashed (was killed by the
+ operating system) sometimes.
 \end_layout
 
 \begin_layout Subsection
