@@ -21389,7 +21389,38 @@ tabs
 \end_layout
 
 \begin_layout Standard
-INSERT SCREENSHOT WITH TABS HIGHLIGHTED
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/tab.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tabs in USNeuroNav
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -21414,6 +21445,41 @@ Show all
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/select tumor.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Selecting a category
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 After selecting a category, sub-categories of that category might be displayed.
  If that is the case, these can be selected as with the previous view.
  If the user wants to show all cases that simply belongs to the category
@@ -21426,6 +21492,49 @@ Show all
 \end_inset
 
  on that view will do that.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/select show all.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Selecting 
+\begin_inset Quotes eld
+\end_inset
+
+Show all
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -21466,6 +21575,76 @@ Images
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/select primary tumor.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Selecting a sub-category
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.34 AM.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Viewing cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Selecting 
 \begin_inset Quotes eld
 \end_inset
@@ -21486,6 +21665,41 @@ play
 \end_inset
 
  sign to play the video.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.20 PM.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Viewing video
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -21520,8 +21734,85 @@ pinch
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.56 PM.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Viewing image
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 At any time, the user can return to the previous screen by tapping the button
  at the upper left corner, which is shaped as an arrow, pointing backwards.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/back.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Back
+\begin_inset Quotes erd
+\end_inset
+
+ button
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -21571,6 +21862,49 @@ Search
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/search.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/search write.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Searching
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 After selecting 
 \begin_inset Quotes eld
 \end_inset
@@ -21606,6 +21940,49 @@ Log in
 , will verify the credentials, and then take the user to a new screen, where
  the user can for instance choose to log out again, if necessary.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.34 PM.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Logging in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
