@@ -17272,9 +17272,16 @@ Admin tool input file format
 
 \begin_layout Standard
 To distribute the mobile application without using a Mac, we used a web
- service called Test Flight, which let us upload a mobile application build
- to the web, add the UDID's of the devices that should have access, and
- then download the application from the web, using a mobile phone.
+ service called Test Flight 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "test_flight"
+
+\end_inset
+
+, which let us upload a mobile application build to the web, add the UDID's
+ of the devices that should have access, and then download the application
+ from the web, using a mobile phone.
 \end_layout
 
 \begin_layout Subsection
@@ -18418,8 +18425,22 @@ Sprint Evaluation
 
 \begin_layout Standard
 The milestone MP4 was not completed within time.
- We did not prioritized caching of data, as we found other things more important.
- This was newer implementet.
+ We did not prioritize caching of data, as we, in accordance with the customer,
+ found other things more important.
+ Some minor bugs was also not fixed due to lack of time.
+ The admin tool was completed during sprint 4, which should be very useful
+ for the customer.
+ It makes him able to upload new cases without any knowledge of databases
+ or SQL at all.
+\end_layout
+
+\begin_layout Standard
+All in all we were very happy with the progress of sprint 4.
+ The admin tool turned out very good, and we had a very useful meeting with
+ the customer and his co-workers.
+ The application at its current state was deemed finished, and most requirements
+ were complete.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -18743,6 +18764,65 @@ Primary tumor
 
 .
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.20.54 AM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.12 AM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.23.18 AM.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.34 AM.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Browsing for cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -19738,7 +19818,7 @@ status open
 \begin_inset Graphics
 	filename Figures/meeting_with_surgeons/IMG_0918.JPG
 	lyxscale 25
-	scale 25
+	scale 12
 
 \end_inset
 
@@ -19750,7 +19830,7 @@ status open
 \begin_inset Graphics
 	filename Figures/meeting_with_surgeons/IMG_0919.JPG
 	lyxscale 25
-	scale 25
+	scale 12
 
 \end_inset
 
@@ -19761,7 +19841,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-The final meeting with the customer and hes co-workers
+The final meeting with the customer and his co-workers
 \end_layout
 
 \end_inset
@@ -20613,6 +20693,27 @@ status collapsed
 \begin_layout Plain Layout
 
 http://en.wikipedia.org/wiki/Secure_Shell
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "test_flight"
+
+\end_inset
+
+Test Flight 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://testflightapp.com
 \end_layout
 
 \end_inset
