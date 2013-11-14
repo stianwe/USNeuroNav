@@ -6983,7 +6983,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="6">
+<lyxtabular version="3" rows="9" columns="6">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="30text%">
@@ -7200,7 +7200,7 @@ Platform - Working on Android
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+
 \end_layout
 
 \end_inset
@@ -7209,7 +7209,7 @@ X
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+X
 \end_layout
 
 \end_inset
@@ -7328,7 +7328,7 @@ X
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7337,11 +7337,123 @@ NR05
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Performance - Downloading videos and images should take reasonable time
+Playing video should be smooth, and not stop because of buffering
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NR06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Navigating menus should feel responsive
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NR07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loading and displaying images should not take too much time
 \end_layout
 
 \end_inset
@@ -21044,31 +21156,47 @@ Group Evaluation
 \end_layout
 
 \begin_layout Standard
-Group changes
+The group consisted of three members, which we at the start though was too
+ little.
+ We planned for three people, but knew we could not do as much as the customer
+ had initially hoped for.
 \end_layout
 
 \begin_layout Standard
-Customer
+There were never changes in our group, no one joined and no one left the
+ group.
 \end_layout
 
 \begin_layout Standard
-Language barriers
+All the members in the group and the customer spoke Norwegian, so there
+ was never any difficulty understanding each other.
+ Our supervisor spoke English, but we did not felt like there was any huge
+ language barrier.
 \end_layout
 
 \begin_layout Standard
-Group dynamics
+The group was very motivated form the beginning, and it lasted throughout
+ the project.
+ We had the same goal for the project and how much work we would put into
+ it.
 \end_layout
 
 \begin_layout Standard
-Role assignment
+We had a good group dynamic though the project.
+ If there was any problem, we confronted each other and solved it quickly.
+ We communicated through different channels, and we were available almost
+ all the time.
 \end_layout
 
 \begin_layout Standard
-Motivation
+The role assignment was good, we managed to complete our task effective
+ enough, and we felt that we challenged ourselves.
 \end_layout
 
 \begin_layout Standard
-Risk evaluation
+In the risk evaluation, we did not predict that we would use three weeks
+ of deciding platform, neither that we were to be driven away from our office
+ due to construction noise.
 \end_layout
 
 \begin_layout Subsection
