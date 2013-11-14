@@ -15528,7 +15528,7 @@ status open
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="85text%">
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15548,7 +15548,7 @@ Bug
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15576,7 +15576,7 @@ images
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15596,7 +15596,7 @@ Video playback did not stop when leaving the video view
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15624,7 +15624,7 @@ tilting
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15645,7 +15645,7 @@ When opening the images of a case for the first time, the initial zoom was
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15673,7 +15673,7 @@ tilting
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15694,7 +15694,7 @@ After entering full screen when viewing a video, zooming is no longer possible,
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15725,14 +15725,14 @@ hang
 
 .
  In sprint 3, we added a loading animation, which worked very well on the
- iPhone, but were a bit to bright on the iPhone
+ iPhone, but were a bit too bright on the iPhone
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16589,14 +16589,10 @@ Implementation
 
 \begin_layout Standard
 Here is a description of everything that was implemented in this sprint.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Subsubsection
+Bug fixing
 \end_layout
 
 \begin_layout Standard
@@ -16672,7 +16668,7 @@ status open
 <column alignment="left" valignment="top" width="80text%">
 <column alignment="left" valignment="top" width="10text%">
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16681,7 +16677,7 @@ status open
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16690,7 +16686,7 @@ Bug
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16701,7 +16697,7 @@ Status
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16738,7 +16734,7 @@ Partly fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16767,7 +16763,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16804,7 +16800,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16834,7 +16830,7 @@ Fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16871,7 +16867,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16901,7 +16897,7 @@ Not fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16932,7 +16928,7 @@ hang
 
 .
  In sprint 3, we added a loading animation, which worked very well on the
- iPhone, but were a bit to bright on the iPhone
+ iPhone, but were a bit too bright on the iPhone
 \end_layout
 
 \end_inset
@@ -16948,7 +16944,7 @@ Partly fixed
 </cell>
 </row>
 <row newpage="true">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -16999,6 +16995,10 @@ Sprint 4 final bug report
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Admin tool
 \end_layout
 
 \begin_layout Standard
@@ -17113,6 +17113,10 @@ Admin tool input file format
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Application distribution
 \end_layout
 
 \begin_layout Standard
@@ -18017,14 +18021,6 @@ Completed tests for sprint 4
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection
-Acceptance Testing
-\end_layout
-
-\begin_layout Standard
-move to evaluation
 \end_layout
 
 \begin_layout Subsection
@@ -19628,38 +19624,22 @@ As mentioned in the introduction, the goal of the project was to create
 \end_layout
 
 \begin_layout Subsubsection
-Evaluation of the project
+Meeting with the customers
 \end_layout
 
 \begin_layout Standard
-The project evaluation is largely based on feedback from the customer, and
- from the surgeons that we presented the application for, and how these
- compare to the evaluation criteria.
- The meeting with the surgeons took place at St.
+The meeting with the surgeons took place at St.
  Olavs Hospital at the 8th of November.
+ Our meeting with the surgeons was the first part of an internal weekly
+ meeting for their team.
  Present at the meeting was 2 surgeons, 3 technicians, the customer, and
  the three group members.
- The meeting was diveded into two parts.
- The first part was used to show a demo of the application on a large screen.
- The demo consisted of showing all the features, and passing an iPhone around
- the room, for all the participants to try.
- The second part was a discussion, where the surgeons explained what they
- thought, and came with suggestions on future work and possible features.
-\end_layout
-
-\begin_layout Standard
-The application itself was not 100% 
-\begin_inset Quotes eld
-\end_inset
-
-complete
-\begin_inset Quotes erd
-\end_inset
-
- when presented to the customer and his co-workers, the surgeons, and this
- was obviously something that should have been fixed.
- The bugs, however, were not in the foundation part of the application,
- only in the presentation part, so they were not very critical.
+ The reason for the meeting was that we wanted to receive feedback on the
+ project from additional potential users than only our customer.
+ We wanted feedback both on what they thought about the current application
+ that was demoed, and also on what potential uses they saw for the app,
+ as well as potential future features.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -19707,6 +19687,293 @@ The final meeting with the customer and his co-workers
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+The meeting was diveded into two parts.
+ The first part was used to show a demo of the application on a large screen.
+ The demo consisted of showing all the features, and passing an iPhone,
+ with the app installed, around the room, for all the participants to try.
+ The demo started with regular browsing through categories, which ended
+ up in a case where both video, streamed directly from a server, and images
+ from an operation was shown.
+ Second, we logged on as a registered user with the application, to show
+ the differences.
+ These differences included additional meta data for all cases, as well
+ as som complete cases that only were shown after logging in.
+ Finally, the search function was briefly demoed, by searching for a keyword,
+ 
+\begin_inset Quotes eld
+\end_inset
+
+tumor
+\begin_inset Quotes erd
+\end_inset
+
+, and then browsing through the cases that matched the keyword.
+ 
+\end_layout
+
+\begin_layout Standard
+The second part of our meeting with the suregons was a discussion, where
+ the surgeons and technicians explained what they thought about the application
+ which was demoed, and which they had been able to test themselves on the
+ iPhone that was passed around the room.
+ They also came up with a lot of possible additional features, which they
+ thought would be useful.
+ 
+\end_layout
+
+\begin_layout Standard
+During the meeting, the surgeons found one bug, the bug where the application
+ crashed when displaying the pictures of a case with many pictures.
+ Other than this, they had no negative comments on the current state of
+ the application, and they seemed very happy with it.
+ They thought that the application, at its current state, could already
+ be useful, and they thought that the basic functionality provided by the
+ application was very good.
+\end_layout
+
+\begin_layout Standard
+The meeting attendants had a lot of suggestions for additional features,
+ as summarized in the table below.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="30text%">
+<column alignment="left" valignment="top" width="60text%">
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Feature
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reason
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row newpage="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Meta data for each case image
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+If the image pictures something special, it should be possible to point
+ it out to the user.
+ Information about where on the body the image is taken from could also
+ be supplied if not obvious.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personal notes on images
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Help with self-learning by allowing the users to write down their thoughts
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A figure of a human body with the location of the pictures highlighted
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Show the user where the image (and perhaps also video) is taken from on
+ the body
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A view of thumbnails for all images belonging to a case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Allow the user to select the image he/she is interested in, without having
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+swipe
+\begin_inset Quotes erd
+\end_inset
+
+ through all other images
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Possibility to view published articles on the application
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Let the user find useful information in very convenient and easy way
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Possibility to add links to web sites in descriptions etc.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Let the user find other useful information in a very convenient and easy
+ way
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+News feed of relevant news
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Let the user get up to speed on the latest available information in a very
+ convenient and easy way
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Feature suggestions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\end_layout
+
+\begin_layout Subsubsection
+Evaluation of the project
+\end_layout
+
+\begin_layout Standard
+The project evaluation is largely based on feedback from the customer, and
+ from the surgeons that we presented the application for, and how their
+ feedback compare to the evaluation criteria.
+ 
+\end_layout
+
+\begin_layout Standard
+The application itself was not 100% 
+\begin_inset Quotes eld
+\end_inset
+
+complete
+\begin_inset Quotes erd
+\end_inset
+
+ when presented to the customer and his co-workers, the surgeons, and this
+ was obviously something that should have been fixed.
+ The bugs, however, were not in the foundation part of the application,
+ only in the presentation part, so they were not very critical.
 \end_layout
 
 \begin_layout Standard
@@ -19777,11 +20044,33 @@ Final project presentation
 \end_layout
 
 \begin_layout Standard
-We decided not to have a proper useability testing.
- The surgeons were very busy and one should have a very good reason to use
- their time.
- To compensate for this we had good contact with the customer during the
- project, which we asked for feedback on the app.
+We decided not to have a 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ useability test.
+ The surgeons were very busy, and their time is very precious (they save
+ lifes!), so one should have an extremely good reason to take up their time.
+ In addition, the application is not a 
+\begin_inset Quotes eld
+\end_inset
+
+final product
+\begin_inset Quotes erd
+\end_inset
+
+, but only an application which provides base functionality to be built
+ upon.
+ That it actually was usable at the end of the project lifetime was only
+ a bonus.
+ To compensate for this we had good contact with the customer throughout
+ the whole project, who we asked for feedback on the app.
+ During the meeting with the suregons, everybody had the opportunity to
+ test the app, so we received a lot of good feedback there as well.
 \end_layout
 
 \begin_layout Subsection
@@ -20674,9 +20963,9 @@ To upload media files when creating a new case, the files must be stored
 \end_inset
 
 .
- Based on testing we did we recommend movies to be uploaded in the .mp4 format
- with a resolution of 960x540, framerate of 29-30 fps and a total bitrate
- of 1500-2000 bbps.
+ Based on testing we did, we recommend movies to be uploaded in the .mp4
+ format with a resolution of 960x540, framerate of 29-30 fps and a total
+ bitrate of 1500-2000 bbps.
  Images must be of the .jpeg filetype, the best resolution is 1919x1153 pixels.
 \end_layout
 
@@ -24007,7 +24296,7 @@ Parietal Lobe
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Testdata
+Test data
 \end_layout
 
 \end_inset
