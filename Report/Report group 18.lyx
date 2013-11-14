@@ -4734,7 +4734,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Unregistered user and registered user
+Unregistered users and registered users
 \end_layout
 
 \end_inset
@@ -4867,7 +4867,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Unregistered user and registered user
+Unregistered users and registered users
 \end_layout
 
 \end_inset
@@ -5000,7 +5000,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Unregistered user and registered user
+Unregistered users and registered users
 \end_layout
 
 \end_inset
@@ -5141,7 +5141,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Unregistered user and registered user
+Unregistered users and registered users
 \end_layout
 
 \end_inset
@@ -5274,7 +5274,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Unregistered user and registered user
+Unregistered users and registered users
 \end_layout
 
 \end_inset
@@ -5407,7 +5407,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Unregistered user and registered user
+Unregistered users and registered users
 \end_layout
 
 \end_inset
@@ -5539,7 +5539,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Registered user
+Registered users
 \end_layout
 
 \end_inset
@@ -5672,7 +5672,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Admin
+Administrator
 \end_layout
 
 \end_inset
@@ -5804,7 +5804,7 @@ Actors:
 \begin_inset Text
 
 \begin_layout Plain Layout
-Admin
+Administrator
 \end_layout
 
 \end_inset
@@ -20584,6 +20584,27 @@ http://testflightapp.com
 
 \end_layout
 
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "workbench"
+
+\end_inset
+
+MySQL Workbench 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.mysql.com/products/workbench/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -20685,6 +20706,10 @@ To upload media files when creating a new case, the files must be stored
 \end_inset
 
 .
+ Based on testing we did we recommend movies to be uploaded in the .mp4 format
+ with a resolution of 960x540, framerate of 29-30 fps and a total bitrate
+ of 1500-2000 bbps.
+ Images must be of the .jpeg filetype, the best resolution is 1919x1153 pixels.
 \end_layout
 
 \begin_layout Subsection
@@ -21375,6 +21400,28 @@ password
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Additional tools
+\end_layout
+
+\begin_layout Standard
+Admin tool will only assist in updating and maintaining the database, it
+ is still necessary to communicate with the database directly for several
+ different actions, such as deleting or modifying data.
+ In order to do this the administrator needs either to use standard SQL
+ queries directly to the database server, or a 3rd party database management
+ program can be utilized.
+ We found the MySQL Workbench
+\begin_inset CommandInset citation
+LatexCommand cite
+key "workbench"
+
+\end_inset
+
+ to cover all the necessary features, so we would recommend that in addition
+ to our own Admin tool to maintain and expand the database.
 \end_layout
 
 \begin_layout Section
