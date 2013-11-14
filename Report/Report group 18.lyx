@@ -1,4 +1,4 @@
-﻿#LyX 2.0 created this file. For more info see http://www.lyx.org/
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
 \lyxformat 413
 \begin_document
 \begin_header
@@ -526,7 +526,7 @@ The goal of the project was to create a prototype application that our customer
  (The application had to be developed for iOS devices but on a cross platform
  framework so that it could be expanded to other platforms at a later time.)
  The primary goal was to create a stable, professional looking application
- with the core functionality specified, such as showing pictures and videos,
+ with the core functionality specified, such as showing images and videos,
  and the infrastructure around it.
  The product we created will continue to grow after we were done with it,
  so it was important to keep it expandable so that new features could be
@@ -4759,12 +4759,14 @@ Overall Functional Requirements with priority
 \end_layout
 
 \begin_layout Subsubsection
-Use case diagram
+Use case diagrams
 \end_layout
 
 \begin_layout Standard
 The figures below shows the use cases for the application and the admin
  tool.
+ These diagrams based on the textual use cases and are a simple representation
+ of the interaction between actors and the system.
 \end_layout
 
 \begin_layout Standard
@@ -4840,15 +4842,29 @@ Use Case admin
 \end_layout
 
 \begin_layout Subsubsection
-Use case description
+Textual Use Cases
 \end_layout
 
 \begin_layout Standard
-This is a description of the use case diagrams
-\begin_inset Newline newline
+\begin_inset Quotes eld
+\end_inset
+
+A use case is a software and system engineering term that describes how
+ a user uses a system to accomplish a particular goal.
+\begin_inset Quotes erd
 \end_inset
 
 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "usecaseDef"
+
+\end_inset
+
+ The following textual use cases display how the users, or actors, interact
+ with the system in order to achieve a specific goal, or objective.
+ By creating good use cases we put ourselves in a good spot for defining
+ the system's behavioural requirements.
 \end_layout
 
 \begin_layout Standard
@@ -7848,7 +7864,6 @@ FR13
 \series bold
 
 \begin_inset space \quad{}
-
 \end_inset
 
 
@@ -21853,6 +21868,27 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.mysql.com/products/workbench/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "usecaseDef"
+
+\end_inset
+
+Use Case Defenition 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.techopedia.com/definition/25813/use-case
 \end_layout
 
 \end_inset
