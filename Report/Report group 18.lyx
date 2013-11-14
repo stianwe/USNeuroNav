@@ -3169,7 +3169,7 @@ Preliminary Studies
 \begin_layout Standard
 This section will give a description of the current situation, the desired
  solution, alternate solutions and evaluation of them and in the end our
- choise of solution.
+ choice of solution.
 \end_layout
 
 \begin_layout Subsection
@@ -3388,7 +3388,7 @@ This app is dedicated to endoscopic ultrasound education and has been developed
 \end_layout
 
 \begin_layout Standard
-The app shows pictures and videos of ultrasound images.
+The app shows images and videos of ultrasound images.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3453,8 +3453,8 @@ This app for Microneurosurgery contains the "Helsinki Microneurosurgery
  of neurosurgery" written by Martin Lehecka, Aki Laakso and Juha Hernesniemi.
  It is introduced by a foreword of Dr.
  Robert Spetzler.
- Additionally this app provides many operative videos and pictures which
- the book directly refers to and an interesting link to the Hernesniemi-Aescuap
+ Additionally this app provides many operative videos and images which the
+ book directly refers to and an interesting link to the Hernesniemi-Aescuap
  Fellowship.
 \end_layout
 
@@ -3529,7 +3529,7 @@ EUS - Diagnostic and Interventional Endoscopic Ultrasound App
 \begin_inset Text
 
 \begin_layout Plain Layout
-The app have the ability to show pictures and videos.
+The app have the ability to show images and videos.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3568,7 +3568,7 @@ Helsinki Microneurosurgery Basics and Tricks App
 \begin_inset Text
 
 \begin_layout Plain Layout
-The app have the ability to show pictures and videos.
+The app have the ability to show images and videos.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3602,7 +3602,7 @@ USNeuroNav App
 \begin_inset Text
 
 \begin_layout Plain Layout
-The app have the ability to show pictures and video.
+The app have the ability to show images and video.
  It can also browse and search for cases, and can distinguish between internal
  users with more rights, and external users.
 \end_layout
@@ -6509,7 +6509,7 @@ FR07
 \begin_inset Text
 
 \begin_layout Plain Layout
-Save pictures to phone
+Save images to phone
 \end_layout
 
 \end_inset
@@ -6845,7 +6845,7 @@ FR13
 \begin_inset Text
 
 \begin_layout Plain Layout
-"Like" function to pictures
+"Like" function to images
 \end_layout
 
 \end_inset
@@ -7877,7 +7877,7 @@ FR02
 \begin_inset Text
 
 \begin_layout Plain Layout
-Show pictures
+Show images
 \end_layout
 
 \end_inset
@@ -8260,7 +8260,7 @@ FR05
 \begin_inset Text
 
 \begin_layout Plain Layout
-Save pictures locally
+Save images locally
 \end_layout
 
 \end_inset
@@ -11265,7 +11265,7 @@ Browse images
 \begin_inset Text
 
 \begin_layout Plain Layout
-Selecting pictures and browsing them
+Selecting images and browsing them
 \end_layout
 
 \end_inset
@@ -11577,8 +11577,8 @@ Sprint 1
 In this section the first sprint is described.
  First the planning and goals for the sprint, then the burndown chart is
  presented followed by the implementation.
- After that the occurring risks, then feddback from the customer, followed
- by an evauation of the sprint.
+ After that the occurring risks, then feedback from the customer, followed
+ by an evaluation of the sprint.
 \end_layout
 
 \begin_layout Subsection
@@ -11592,14 +11592,15 @@ The duration of sprint 1 was from 18th of September to 1th of October.
 \begin_layout Standard
 During a large part of sprint 1, Marthe was away on a planned trip, so the
  group had to work while divided in two.
- To accomodate for this, Marthe had responsibility for gathering all the
+ To accommodate for this, Marthe had responsibility for gathering all the
  material that we currently had created in Google Drive, and put it together
  into a single LATEX document.
  In addition, she was to start looking into the test planning.
  The reason why we choose to move our report to a single LATEX document
  was that it allowed for better version control, as we put it together with
- our code on Github, and also to familiarize ourself with LATEX, as it was
- very likely that the final report would be written in LATEX at the end.
+ our code on Github, and also to familiarize ourselves with LATEX, as it
+ was very likely that the final report would be written in LATEX at the
+ end.
 \end_layout
 
 \begin_layout Standard
@@ -11613,8 +11614,8 @@ Kristoffer and Stian, who were in Trondheim for the whole sprint, were going
  or hardcoded URL's to begin with, to focus only on the simple parts first.
  Before development could start, the iMac, borrowed from the customer, had
  to be set up with the required software and licenses.
- At that time the only software required wass XCode and Titanium Studio.
- As Titanium wass free to use, no license would be required at this step,
+ At that time the only software required was XCode and Titanium Studio.
+ As Titanium was free to use, no license would be required at this step,
  but might be required if testing was to be done on a 
 \begin_inset Quotes eld
 \end_inset
@@ -11627,8 +11628,8 @@ real
 \end_layout
 
 \begin_layout Standard
-Since the team wass quite inexperience with scrum, an additional feature
- wass planned, that would be implemented if the initial tasks were completed
+Since the team was quite inexperience with scrum, an additional feature
+ was planned, that would be implemented if the initial tasks were completed
  within the first half of the sprint.
  That feature was loading the categories, cases, images and videos from
  the server.
@@ -11653,8 +11654,8 @@ developers
 \end_layout
 
 \begin_layout Standard
-The customer provided us with images and videoes form surgical operations,
- and a description af how all these could be categirozed, so we were good
+The customer provided us with images and videos form surgical operations,
+ and a description of how all these could be categorized, so we were good
  to go with real case data.
 \end_layout
 
@@ -12167,7 +12168,7 @@ BL2.3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Show pictures
+Show images
 \end_layout
 
 \end_inset
@@ -13079,8 +13080,8 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, but we had both
  overestimated and underestimated the effort of time for many tasks.
- Therefore the ideal remaning effort line is slightly beneath the actual
- remaning effort line through most of this sprint.
+ Therefore the ideal remaining effort line is slightly beneath the actual
+ remaining effort line through most of this sprint.
  We did most of the work on Wednesdays, Thursdays and Fridays, which explain
  the horizontal line at day 1, day 2 , day 6 and day 7.We had to do a lot
  of programming in this sprint since our technical manager would be absent
@@ -14664,9 +14665,9 @@ System Burndown Chart
 The figure below shows the burndown chart for this sprint.
  We managed to finish almost every task in this sprint, and we had estimated
  the effort more realistic.
- The actual remaning effort line is beneath the ideal remaning effort line
- almost all the time through this sprint, which means that we have were
- not behind of schedule.
+ The actual remaining effort line is beneath the ideal remaining effort
+ line almost all the time through this sprint, which means that we have
+ were not behind of schedule.
  We felt like we had a good progress with the work, but we did not implement
  anything this sprint, so the progress did not benefit the application.
 \begin_inset Newline newline
@@ -14842,7 +14843,7 @@ Customer Feedback
 We had a meeting with the customer on 9th October, and he did appore the
  progress so far.
  He had some comments on how the application would work on iPhone, in particular
-ly zooming and tilting of pictures and videos.
+ly zooming and tilting of images and videos.
  We agreed on the further work and the priority of the remaining tasks,
  as shown below with new priorities of the requirements.
 \end_layout
@@ -16338,10 +16339,10 @@ tiltable
 .
  Zooming were implemented by putting all the media files inside a ScrollPane,
  which did all the zooming job for us.
- The only issue with this was that the view with the picture was zoomed
- in by default when selecting a case.
+ The only issue with this was that the view with the image was zoomed in
+ by default when selecting a case.
  This was solved by finding the relation between the screen size (which
- can vary with different phone/pad models) and the original picture size.
+ can vary with different phone/pad models) and the original image size.
 \end_layout
 
 \begin_layout Standard
@@ -20364,7 +20365,7 @@ Viewing of cases is exactly the same when selecting a case when browsing,
  On the top, the descriptions will be displayed.
  If the user is logged in, both public and private description is shown,
  if not, only public.
- Below, up to two choises are available, videos and images.
+ Below, up to two choices are available, videos and images.
  These are only shown if they contain anything, for example, if the selected
  case only contains images, the video choice is not displayed, and vice
  verca.
@@ -20526,7 +20527,7 @@ started
 \begin_inset Quotes erd
 \end_inset
 
-, and used in an interactive way where you select choises from a menu, and
+, and used in an interactive way where you select choices from a menu, and
  then follows the instructions, step-by-step to create a case and upload
  data, or create a new user.
 \end_layout
@@ -20602,7 +20603,7 @@ The requirements regarding local storage/caching, FR07
 \begin_inset Quotes eld
 \end_inset
 
-Save pictures to phone
+Save images to phone
 \begin_inset Quotes erd
 \end_inset
 
@@ -20660,7 +20661,7 @@ Quiz-Game
 \begin_inset Quotes eld
 \end_inset
 
-'Like' function to pictures
+'Like' function to images
 \begin_inset Quotes erd
 \end_inset
 
@@ -20760,7 +20761,7 @@ FR02
 \begin_inset Text
 
 \begin_layout Plain Layout
-Show pictures
+Show images
 \end_layout
 
 \end_inset
@@ -20905,7 +20906,7 @@ FR07
 \begin_inset Text
 
 \begin_layout Plain Layout
-Save pictures to phone
+Save images to phone
 \end_layout
 
 \end_inset
@@ -21057,7 +21058,7 @@ Like
 \begin_inset Quotes erd
 \end_inset
 
- function to pictures
+ function to images
 \end_layout
 
 \end_inset
@@ -21313,7 +21314,7 @@ The second part of our meeting with the suregons was a discussion, where
 
 \begin_layout Standard
 During the meeting, the surgeons found one bug, the bug where the application
- crashed when displaying the pictures of a case with many pictures.
+ crashed when displaying the images of a case with many images.
  Other than this, they had no negative comments on the current state of
  the application, and they seemed very happy with it.
  They thought that the application, at its current state, could already
@@ -21404,7 +21405,7 @@ Help with self-learning by allowing the users to write down their thoughts
 \begin_inset Text
 
 \begin_layout Plain Layout
-A figure of a human body with the location of the pictures highlighted
+A figure of a human body with the location of the images highlighted
 \end_layout
 
 \end_inset
@@ -22886,7 +22887,7 @@ swipe
 \end_inset
 
  left or right with your finger over the screen.
- The zoom in or out on a picture, simply use two fingers to 
+ The zoom in or out on a image, simply use two fingers to 
 \begin_inset Quotes eld
 \end_inset
 
@@ -24903,7 +24904,7 @@ Images
 
 \begin_layout Plain Layout
 3.
- Swipe to browse to next picture
+ Swipe to browse to next image
 \end_layout
 
 \end_inset
@@ -25005,7 +25006,7 @@ Completion criteria
 
 \begin_layout Plain Layout
 2.
- A picture belonging to case 1 shows
+ A image belonging to case 1 shows
 \end_layout
 
 \end_inset
@@ -25026,7 +25027,7 @@ Completion criteria
 
 \begin_layout Plain Layout
 3.
- Swiping causes new pictures to appear
+ Swiping causes new images to appear
 \end_layout
 
 \end_inset
