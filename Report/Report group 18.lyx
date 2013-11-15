@@ -641,21 +641,6 @@ The goal of the project was to aid our customer in making their knowledge
 on so that our successors will know what they are working with.
 \end_layout
 
-\begin_layout Subsubsection*
-As a platform
-\end_layout
-
-\begin_layout Standard
-increase the awareness and knowledge surrounding the use of ultrasound navigatio
-n during surgery.
- It will be very hard to numerically measure the effect of our project.
- Long term it might be possible to track its influence through the increase
- in use of the aforementioned technology, but our short term goal is simply
- to make a product the customer is satisfied with and believes can be used
- for its intended purpose.
- 
-\end_layout
-
 \begin_layout Subsubsection
 General terms
 \end_layout
@@ -1838,13 +1823,13 @@ Each team member's strenght
 \end_layout
 
 \begin_layout Standard
-Since there were three people in the group, each group member got more than
- one responsibility or role.
+Since the group only consisted of three people, each group member got more
+ than one responsibility or role.
  The roles were assigned based on the strength table, and a couple of other
  factors.
  Stian was for example assigned as test manager at the beginning, but was
- busy with development at the core of the test phase, so Kristoffer took
- over that role.
+ busy with development at the core of the test phase, so Kristoffer eventually
+ took over that role.
  For administrative assistant, it was the opposite.
  Kristoffer was sick a couple of days when the group where in need of someone
  to take notes from a couple of meetings, so Stian stepped in, and took
@@ -4128,6 +4113,11 @@ The project is divided into sprints, which usually last between two to four
  on time or not.
  This is visible through the burndown chart, a graph which shows how much
  effort remains in the sprint at any given day.
+\end_layout
+
+\begin_layout Standard
+Pair programming is an agile software development technique which we would
+ try to take advantage of.
 \end_layout
 
 \begin_layout Subsection
@@ -20684,6 +20674,7 @@ status open
 
 \begin_layout Plain Layout
 \align center
+in the group
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="4">
 <features tabularvalignment="middle">
@@ -21293,6 +21284,10 @@ Group K
 \end_layout
 
 \begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
 The group consisted of three members, which we at the start though was too
  little.
  We planned for three people, but knew we could not do as much as the customer
@@ -21336,6 +21331,17 @@ Risks MARTHE
 In the risk evaluation, we did not predict that we would use three weeks
  of deciding platform, neither that we were to be driven away from our office
  due to construction noise.
+ We had to leave the iMac in the office and use TeamViewer to communicate
+ with it when we sat in another place.
+ There were more sickness among the group members than predicted, but we
+ did not lose that much time due to that, since we had planned with buffer,
+ and the group members could work other days and in the evenings.
+ The planned absent of the group member did not cause that much problem,
+ since it was informed in good time before, so we could plan with that in
+ mind.
+ Most of the action taken was that the group member that was gone, would
+ do the work before he or she returned.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -21355,33 +21361,47 @@ Prestudy K
 \end_layout
 
 \begin_layout Subsubsection
-lifecycle model MARTHE
+Scrum
 \end_layout
 
 \begin_layout Standard
-- hadde noen erfaringe rmed det fra før?
+The decision to use the Scrum method was evaluated as good.
+ Some from our group had an experience with scrum from other projects, so
+ the particular scrum artefacts were known.
+ The process of learning scrum went quite well, but we did not follow everything
+ as strict as we first predicted.
+ For example, we had more of a daily sit down, than a daily stand up.
+ We managed to keep the meeting short, and the topics were the same as described
+ in daily stand up meetings.
+ The Sprint planning meetings where held the same day as the sprint evaluation,
+ due to the customer had more available time when our sprint started.
+ 
 \end_layout
 
 \begin_layout Standard
-- hvordan fungeret scrum, glad for at vi ikke valgte waterfall?
+As the project evolved, we were more pleased with the choice of the lifecycle.
+ The fact that sprint 2 should not contain any programming, did we not know
+ at the start.
+ And that the time required to get the necessary hardware, were not known,
+ we only sat a deadline for that.
+ The time for deciding the development platform, were also not predicted
+ to take three weeks.
+ So the uncertainties in the project were very well covered by scrum.
 \end_layout
 
 \begin_layout Standard
-- hadde vi problemer? hvordan var det å planlegge, hvordan var sprint begrepet
- for oss?
+We maintained the burndown chart for each sprints backlog in a common document,
+ as we had a problem with rally.
+ We logged the time used for the tasks in the backlog, and continuously
+ saw how the progress was going.
 \end_layout
 
 \begin_layout Standard
-- hvordan benyttet vi oss av burndown chart? så at vi hang etter, eller
- lå foran…
-\end_layout
-
-\begin_layout Standard
-- problemer med rally, så logget timene i felles dokument
-\end_layout
-
-\begin_layout Standard
-- si at vi gjennomførte scrum møtene - parprogrammering
+We used pair programming half the time we programmed.
+ It was helpful, and we learned more from each other than we would if we
+ did not do it.
+ It came quite naturally, and it was more efficient that one wrote code
+ and the other could watch.
 \end_layout
 
 \begin_layout Subsubsection
