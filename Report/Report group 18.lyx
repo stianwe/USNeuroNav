@@ -4123,6 +4123,11 @@ The project is divided into sprints, which usually last between two to four
  effort remains in the sprint at any given day.
 \end_layout
 
+\begin_layout Standard
+Pair programming is an agile software development technique which we would
+ try to take advantage of.
+\end_layout
+
 \begin_layout Subsection
 Scrum Meetings
 \end_layout
