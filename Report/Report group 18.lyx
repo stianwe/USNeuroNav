@@ -21556,47 +21556,373 @@ The main communication channel with the supervisor was mail and our regular
 \end_layout
 
 \begin_layout Subsubsection
-Group K
+Roles and work Groupstuff
 \end_layout
 
 \begin_layout Standard
+Being only three people on a project that, to us, seemed intended for 5-6
+ people was daunting at the start of the project.
+ Due to a misestimation our (and other) group ended up being about half
+ the intended size.
+ After a discussion with the course responsibles we accepted the fact that
+ we would have to complete the course with only thee members and tried to
+ work around it.
+ Wheather or not the customers were informed of the smaller groupsize but
+ an unfortunate consequence of this was that we simply had too little manhours
+ to complete all the features the customer wanted in the project.
+ We not only had less people to develop the application, but also less people
+ to write the report wich is a quite substantial part of the project and
+ does require alot of time.
+ Despite the smaller workforce we got off to a good start as all members
+ were motivated to do a good job and we all shared a similar goal and agreed
+ on the amount of work to put into the project.
+\end_layout
+
+\begin_layout Subsubsection*
+Roles
+\end_layout
+
+\begin_layout Standard
+We specified, in the planning chapter, different roles for the the three
+ member of the group, with different responsabilities and tasks.
+ We quickly realized however that with such a small group the tasks and
+ responsibilities would be very floating and vary from day to day.
+ I light of this, we still tried to keep our role assignments as a general
+ guideline, but we decided to not take our roles too literally and rather
+ just communicate frequently about what we were doing and who was responsible
+ for what.
+ In retrospect we believe that this cause us to be more efficient and spend
+ less time on delegating work and coordinating our efforts.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Actual time used
+\end_layout
+
+\begin_layout Standard
+We planned to use a total of 1050 person-hours during this project, spead
+ out over 14 weeks and three people.
+ We tracked our time used on the different parts of the project in addition
+ to our work on the product backlog.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Task
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estimated time (in hours)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Actual time spent (in hours)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Planning
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+120
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Meetings
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+~30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lectures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+~37
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Self study
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+~50+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Report
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+390
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+441
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Development
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+390
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+427
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1050
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1081
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Actual time use
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-The group consisted of three members, which we at the start though was too
- little.
- We planned for three people, but knew we could not do as much as the customer
- had initially hoped for.
+As can be seen we finished the project with 1081 person-hours spent, just
+ abit above of the estimated time, with the biggest difference being the
+ report taking more time then expected.
+ The following figure shows our activity on Github, which isnt a one-to-one
+ relationship with time spent, but does give an idea of how the intensity
+ of our work progressed throughout the project.
 \end_layout
 
 \begin_layout Standard
-There were never changes in our group, no one joined and no one left the
- group.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/gitActivity.JPG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Github activity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The group was very motivated form the beginning, and it lasted throughout
- the project.
- We had the same goal for the project and how much work we would put into
- it.
-\end_layout
-
-\begin_layout Standard
-The role assignment was good, we managed to complete our task effective
- enough, and we felt that we challenged ourselves.
-\end_layout
-
-\begin_layout Standard
-- rollene, var de bra fordelt? klarte vi utfordringene?
-\end_layout
-
-\begin_layout Standard
-arbeidsfordeling
-\end_layout
-
-\begin_layout Standard
-planlagt effor vs actual effort timeuse
+During the late parts of the project we had to work overtime to get all
+ our tasks done, this was not very unexpected and we feel that our estimation
+ was reasonably good.
+ We feel however that the course recommandation of 25 hours of work per
+ week might have been abit high as it somewhat affected the amount of time
+ the groupmembers had left for other work and extracurricular activities.
+ (Maybe in personal evaluation) REMOVE THIS AFTER.
 \end_layout
 
 \begin_layout Subsubsection
@@ -21621,19 +21947,17 @@ In the risk evaluation, we did not predict that we would use three weeks
 \end_layout
 
 \begin_layout Subsubsection
-Prestudy K
+Prestudy (kan kanskje sløyfes)
 \end_layout
 
 \begin_layout Standard
-- fra nåværende situasjon, har det blitt bedre med det vi lagde?
-\end_layout
-
-\begin_layout Standard
-- møter vi opp mot desired solution 
-\end_layout
-
-\begin_layout Standard
-- reflektere om vi burde ha valgt en annen løsning likevel?
+Given the terms of the customer, mainly the prerequisite of multiplatform
+ possibilities and the preferance towards Titanium as the development tool,
+ we had a hard time finding similar or usable code for our project.
+ If we had to oppertunity to develop for a single platform it would have
+ been easier to find reusable code, but given our circumstance we werent
+ able to.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -21746,15 +22070,24 @@ When developing the graphical user interface (GUI) for the mobile application,
 \end_layout
 
 \begin_layout Subsubsection
-Testing K
+Testing
 \end_layout
 
 \begin_layout Standard
-Sy inn dette:
+As mentioned in chapter 7 about testing, our limited time and resources
+ made us shorten the amount of pre-written tests and focus more on unit-
+ and integrationtesting as an integrated part of the programming.
+ This worked well for us and saved us several hours of planning and testing
+ throughout the project.
+ The amount of bugs at any time during the implementation was always manageble
+ and the final polish and debugging part of application went throught with
+ less difficulty then expected.
+ We credit this to the thourough unit- and integrationtesting during all
+ parts of the development.
 \end_layout
 
 \begin_layout Standard
-We decided not to have a 
+We decided against having a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -21763,8 +22096,9 @@ normal
 \end_inset
 
  useability test.
- The surgeons were very busy, and their time is very precious (they save
- lifes!), so one should have an extremely good reason to take up their time.
+ The technicians and escpecially the surgeons were very busy, and their
+ time is very precious (they save lifes!), so one should have an extremely
+ good reason to take up their time.
  In addition, the application is not a 
 \begin_inset Quotes eld
 \end_inset
@@ -21775,8 +22109,6 @@ final product
 
 , but only an application which provides base functionality to be built
  upon.
- That it actually was usable at the end of the project lifetime was only
- a bonus.
  To compensate for this we had good contact with the customer throughout
  the whole project, who we asked for feedback on the app.
  During the meeting with the suregons, everybody had the opportunity to
@@ -22349,6 +22681,13 @@ Administrator: A person who who will have all the privileges open, in the
 \begin_layout Itemize
 Use Case: Technique that specify the interaction between the user and the
  system.
+\end_layout
+
+\begin_layout Itemize
+Case: Usually refers to a surgery performed by the surgeons and staff connected
+ to our customer.
+ From every surgery, or case, data is collected in the form of videos, images
+ and textual information.
 \end_layout
 
 \begin_layout Itemize
