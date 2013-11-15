@@ -2967,7 +2967,14 @@ key "subversion"
 
 .
  Git is also much faster than SVN, and provides better auditing of branch
- and merge events [X].
+ and merge events
+\begin_inset CommandInset citation
+LatexCommand cite
+key "svnvsgit"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
