@@ -579,7 +579,7 @@ The National Competence Center for Ultrasound and Image Guided Therapy collects
  If this was presented in an easy and knowledgeable way, selected parts
  of the anonymous material can be used to teach relevant groups to interpret
  ultrasound images in an entertaining manner.
- An App for mobile devices (iOS and maybe Android) (and maybe also a web-site)
+ An app for mobile devices (iOS and maybe Android) (and maybe also a web-site)
  has a huge potential in this regard.
  In addition to presenting the available material it’s natural to investigate
  the possibility for extending the app to a serious game.
@@ -606,10 +606,10 @@ Planning
 \end_layout
 
 \begin_layout Standard
-This section describes the project plan, terms and team organisation.
- Frst the measurement of project effort are descibed, then general terms
+This section describes the project plan, terms and team organization.
+ First the measurement of project effort are described, then general terms
  and a work break down structure.
- After that the organisation of the team and the risk management are presented,
+ After that the organization of the team and the risk management are presented,
  followed by quality assurance.
 \end_layout
 
@@ -637,15 +637,14 @@ General terms
 \end_layout
 
 \begin_layout Standard
-The customer had a very clear requirement that the project results in an
+The customer had a very clear requirement that the project result in a mobile
  application for iOS.
  In addition, the customer saw it as a bonus if this app can easily be extended
  to additional platforms, for example android, either by this group, if
  time allows it, or by another developer.
  For this to be a possibility, an Apple developer license had to be provided,
- in addition to at least one Mac for building purposes.
- Depending on the choice of tool selection, additional licenses might be
- necessary.
+ in addition to at least one Mac for code building purposes.
+ Depending on the choice of tool, additional licenses might be necessary.
  All this had to be provided by the customer at the absolute latest at the
  start of sprint 2, 18.09.2013, which is when development is scheduled for
  full start.
@@ -674,9 +673,9 @@ key "appcelerator"
  and that they had the possibility of creating applications that look and
  feel like native applications.
  In order to make the applcation look and feel native, a separate user interface
- have be developed for every platform, but the customer thought that this
- was an acceptable tradeoff, sacrificing some development time for the option
- for cross-platform possibility with a native look and feel.
+ have to be developed for every platform, but the customer thought that
+ this was an acceptable tradeoff, sacrificing some development time for
+ the option for cross-platform possibility with a native look and feel.
  While Titanium is a free tool, Xamarin requires a license of each developer.
  Both require the use of a Mac for building the application, but Xamarin
  allows doing this remotely from a non-mac.
@@ -731,18 +730,19 @@ Schedule of result
 
 \begin_layout Standard
 Scrum is being used for the development phase.
- After each sprint there will be deliveries which each of them should contribute
- towards a working system.
+ After each sprint there will be a delivery, and all of these deliveries
+ should contribute towards a working system.
 \end_layout
 
 \begin_layout Subsubsection
-Work break down structure
+Work breakdown structure
 \end_layout
 
 \begin_layout Standard
 On the August 21th the group met the customer for the first time and started
- working, The planning and pre study phase was planned to last for four
- weeks, since we early knew that we did not have the required equipment.
+ working.
+ The planning and pre study phase was planned to last for four weeks, since
+ we early knew that we did not have the required equipment (Mac).
  The planning phase contained planning the project, requirements specification,
  risk analysis, design of GUI and architecture.
  The pre study phase contained planning, management and researching the
@@ -752,23 +752,7 @@ On the August 21th the group met the customer for the first time and started
  and we could get as much work done as possible.
  Each sprint will contain a planning part, an implementation part, and a
  testing part.
- 
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-The table below gives an overall description of the sprints.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+ The table below gives an overall description of the sprints.
 \begin_inset Float table
 wide false
 sideways false
@@ -930,7 +914,7 @@ Stian, Marthe, Kristoffer
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sprin 3
+Sprint 3
 \end_layout
 
 \end_inset
@@ -948,7 +932,7 @@ Sprin 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Implement separation
+Implement separation and search
 \end_layout
 
 \end_inset
@@ -1037,15 +1021,11 @@ Overall sprints
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 The work breakdown structure can be seen in Figure 1
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \begin_inset Float figure
 wide false
 sideways false
@@ -1091,15 +1071,7 @@ Milestones
 \end_layout
 
 \begin_layout Standard
-The table below decribes all the milestones that occur during the project.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+The table below decribes all the planned milestones for the project.
 \begin_inset Float table
 placement H
 wide false
@@ -1529,9 +1501,9 @@ Organization
 
 \begin_layout Standard
 This section describes how the group is organized and why.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 At the beginning of the project we had a quick summary of each group member’s
  previous experience, skills and interests.
  This made the basis for role assignments, so that we best could utilize
@@ -1828,7 +1800,7 @@ Medium
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Roles
+Each team member's strenght
 \end_layout
 
 \end_inset
@@ -2046,7 +2018,7 @@ Kristoffer Hagen
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsible for setting up and supervising tests.
+Responsible for setting up, supervising, and documenting tests.
 \end_layout
 
 \end_inset
@@ -2148,11 +2120,11 @@ Risk Management
 To prepare for unfortunate events that might occur during the project the
  group identified risks and figured out how to solve them.
  For each risk there are some pro-active efforts, which states what to do
- to prevent the risks arise, and there are re-active efforts which states
- what to if the risks has occurred.
+ to prevent that the risks arise, and there are re-active efforts which
+ states what to do if the risks has occurred.
  The deadline is when the risk can arise.
- Probabilities for problem occurring and severity of consequences are denoted
- by H for ’high’, M for ’medium’ and L for ’low’.
+ Probabilities for the risks to occur, and the severity of consequences
+ are denoted by H for ’high’, M for ’medium’ and L for ’low’.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2206,10 +2178,6 @@ Risk Analysis
 The risk matrix gives a better picture of how severe the risks for the project
  are.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2262,7 +2230,7 @@ The customer is located in Trondheim, and the meetings will be held at NTNU
 \end_layout
 
 \begin_layout Itemize
-The agenda for the meeting is to be sent to the customer by 12 noon Tuesday
+The agenda for the meeting is to be sent to the customer by 12, noon, Tuesday
  before the meeting.
 \end_layout
 
@@ -2295,9 +2263,10 @@ The meetings with the advisor will be held on Wednesdays at 09:30 at the
 
 \begin_layout Itemize
 From September 20 and onwards, meetings will be held on Fridays at 12:15.
- This is because of our sprints starts at Wednesdays, so it will be more
- convenient to have it in the middle of a sprint, when we have more questions
- and challenges, and it is easier to come on track in the development.
+ This is because our sprints starts at Wednesdays, so it will be more convenient
+ to have it in the middle of a sprint, as opposed to the start, when we
+ have more questions and challenges, and it is easier to come on track in
+ the development.
 \end_layout
 
 \begin_layout Itemize
@@ -2318,7 +2287,7 @@ Group interaction
 \end_layout
 
 \begin_layout Itemize
-Group meetings: Wednesdays at 10:30, Thursdays at 09:15 and Fridays at 09:15
+Group meetings: Wednesdays at 08:15, Thursdays at 09:15 and Fridays at 09:15
 \end_layout
 
 \begin_layout Itemize
@@ -2350,8 +2319,8 @@ Lyx and LaTeX
 \end_layout
 
 \begin_layout Standard
-For writing the report, the team chose to write it in the document markup
- language LaTeX
+To write the report, the team chose to write it in the document markup language
+ LaTeX
 \begin_inset CommandInset citation
 LatexCommand cite
 key "latex-project"
@@ -2369,14 +2338,15 @@ key "lyx"
  The reason why LaTeX was chosen is that it is widely used in academia,
  and that the team members saw this as an opportunity to familiarize themselves
  with the tool they likely will use when writing their master.
- In addition, LaTeX generates standard, good looking and highly customizable
+ In addition, LaTeX generates standard, good looking, and highly customizable
  pdf's.
 \end_layout
 
 \begin_layout Standard
 The reason why Lyx was chosen for writing the document, is that it provides
  the user with an easy to use interface, that still enables the user to
- make use of all the different options with LaTeX, and that it is open source.
+ make use of all the different possibilities with LaTeX, and that it is
+ open source.
 \end_layout
 
 \begin_layout Standard
@@ -2418,7 +2388,7 @@ Google Drive and Docs
 \end_layout
 
 \begin_layout Standard
-For writing internal documents, such as meeting agendas, meeting summaries,
+To write internal documents, such as meeting agendas, meeting summaries,
  and temporal plans and documents, Google Docs
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2428,7 +2398,7 @@ key "google docs"
 
  was chosen.
  The reasoning behind this is that it is very easy to use, and also that
- it provides different people to modify and view others' modifications in
+ it allows different people to modify and view others' modifications in
  real-time.
 \end_layout
 
@@ -2459,6 +2429,8 @@ key "violetumleditor"
 
  is a cross-platform, easy to learn and use, UML editor, which draws nice
  and standard looking UML diagrams.
+ It was chosen because it seemed more simple and light-weight that other
+ similar tools.
 \end_layout
 
 \begin_layout Standard
@@ -2521,15 +2493,15 @@ Facebook
 \end_layout
 
 \begin_layout Standard
-For distributing information and links between team members, Facebook
+For distributing information and Internet URLs between team members, Facebook
 \begin_inset CommandInset citation
 LatexCommand cite
 key "facebook"
 
 \end_inset
 
- is used.
- The group maintains a private group where information is posted on the
+ was used.
+ The group maintained a private group where information was posted on the
  
 \begin_inset Quotes eld
 \end_inset
@@ -2539,15 +2511,15 @@ wall
 \end_inset
 
 .
- In addition the Facebook's chat function can be used for instant messaging
+ In addition, the Facebook's chat function was used for instant messaging
  between team members.
  As a second option we all shared our personal mobile phone numbers so that
  we could get in touch should something be urgent.
 \end_layout
 
 \begin_layout Standard
-The reason why the team uses Facebook is that all team members had experience
- with Facebook, and check it regularly.
+The reason why the team used Facebook was that all team members had experience
+ with Facebook, and was used to checking it regularly.
 \end_layout
 
 \begin_layout Paragraph
@@ -2556,7 +2528,7 @@ TeamViewer
 
 \begin_layout Standard
 To access the iMac the team is borrowing from the customer remotely, the
- team uses TeamViewer
+ team used TeamViewer
 \begin_inset CommandInset citation
 LatexCommand cite
 key "teamviewer"
@@ -2638,7 +2610,8 @@ Titanium and JavaScript
 
 \begin_layout Standard
 To develop the mobile application, the Titanium tool set was chosen.
- It provides its own IDE for writing the code, which is based on Eclipse
+ It provides its own IDE, Titanium Studio, for writing the code, which is
+ based on Eclipse
 \begin_inset CommandInset citation
 LatexCommand cite
 key "eclipse"
@@ -2693,8 +2666,8 @@ Given these very specific, and quite demanding, requirements, the team was
  in C# instead of JavaScript.
  Despite that the team had more experience with C#, Titanium was chosen
  because that it is completely free to use, while Xamarin requires a license.
- Several other options, like PhoneGap, Marmalade and native apps, but none
- fit the customer's requirement.
+ Several other options, like PhoneGap, Marmalade and native apps was evaluated,
+ but none fit the customer's requirement.
  PhoneGap, for example, have neither native performance nor 
 \begin_inset Quotes eld
 \end_inset
@@ -2817,8 +2790,8 @@ key "json"
 
 \end_inset
 
- is a lightweight data-interchange format, which is for both humans and
- computers to read/parse and write.
+ is a lightweight data-interchange format, which is easy for both humans
+ and computers to read/parse and write.
  
 \end_layout
 
@@ -2918,7 +2891,7 @@ Eclipse
 
 \begin_layout Standard
 Eclipse is a multi-language integrated development environment (IDE).
- It is very suitable for Java development, and it also has an integrate
+ It is very suitable for Java development, and it also has an integrated
  Git tool.
  
 \end_layout
@@ -2929,8 +2902,8 @@ We chose to use Eclipse for Java development because it is very easy to
  All team members was also more familiar with Eclipse, than for example
  NetBeans.
  Pure text editors like Notepad++, vim, Emacs, etc.
- was also considered, but ruled out, because of Eclipse's auto-completion
- of code.
+ was also considered, but ruled out, because of their lack of auto-completion
+ of code, which both Eclipse and NetBeans support.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2961,9 +2934,16 @@ key "Github"
  Git is a distributed revision control and source code management system.
  We use Git for versioning control because it is quite easy to use, it provides
  both a shell and a GUI, and the team members were already familiar with
- it, as opposed to for example SVN [x].
+ it, as opposed to for example SVN 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "subversion"
+
+\end_inset
+
+.
  Git is also much faster than SVN, and provides better auditing of branch
- and merge events.
+ and merge events [X].
 \end_layout
 
 \begin_layout Standard
@@ -20003,7 +19983,37 @@ The database architecture was also altered slightly.
 \end_layout
 
 \begin_layout Standard
-INSERT NEW ER DIAGRAM 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/database2.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modified ER diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
