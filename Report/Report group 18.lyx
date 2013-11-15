@@ -9846,16 +9846,16 @@ Purpose
 \begin_layout Standard
 The purpose of this is to give an overview of the architectural structure
  of our system.
- This will enable the project developers to have a clear and planned approach
- to the system architecture and it will guide the implementation of the
- system.
+ This will enable the us to have a clear and planned approach to the system
+ architecture and will guide the implementation of the system.
  By being familiar with the architecture, and knowing how every module works,
- all the developers will be able to work on the modules independently and
- can rely on the planned architecture when the system is assembled.
- This will also enable potential future 3rd parties to further develop and
- improve our system, with a proper documentation of our architecture it
- will be easier to change specific modules of our system without having
- to change the entire code.
+ all the current, and future, developers will be able to work on the modules
+ independently and can rely on the planned architecture when the system
+ is assembled.
+ This will also aid future 3rd parties to further develop and improve our
+ system, with the proper documentation of our architecture it will be easier
+ to change specific modules of our system without having to change the entire
+ code.
 \end_layout
 
 \begin_layout Subsubsection
@@ -9933,8 +9933,8 @@ Categories, cases and users
 To store the categories and cases, and also a reference to the media files
  belonging to each case, a MySQL database will be used.
  The reason for this is that MySQL is free to use, and is also an SQL database
- that the team is familiar with, so that the development process might be
- fast and painless.
+ that the team is familiar with, so that the development process becomes
+ efficient.
  Since there are clear relations between categories and cases, and also
  between categories themselves (sub-cases and super-cases), a relational
  database like SQL fits very well.
@@ -10014,7 +10014,7 @@ s
 \begin_inset Quotes eld
 \end_inset
 
-primary
+primary tumor
 \begin_inset Quotes erd
 \end_inset
 
@@ -10048,14 +10048,6 @@ The MySQL database will only contain URL's to the images and videos, while
  The media files will be organized after cases, but will not contain any
  meta data at all.
  All of that will come from the database.
-\end_layout
-
-\begin_layout Subsubsection
-Local caching
-\end_layout
-
-\begin_layout Standard
-(To be done)
 \end_layout
 
 \begin_layout Subsection
@@ -10139,45 +10131,6 @@ Tables
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Logical view
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-The logical view describes the functionality that the system provides towards
- its end-users.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-To create an overview of the system
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sequence diagrams
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -10216,8 +10169,47 @@ Component diagram
 \end_inset
 </cell>
 </row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Logical view
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The logical view describes the functionality that the system provides towards
+ its end-users.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To create an overview of the system
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sequence diagrams
+\end_layout
+
+\end_inset
+</cell>
+</row>
 <row newpage="true">
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10226,7 +10218,7 @@ Process view
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10237,7 +10229,7 @@ The process view illustrates the dynamic aspects of the system, it explains
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10246,7 +10238,7 @@ To model the runtime behaviour of the system
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10362,6 +10354,81 @@ Architectural Viewpoints
 
 \begin_layout Subsection
 Views
+\end_layout
+
+\begin_layout Subsubsection
+Develoment view
+\end_layout
+
+\begin_layout Standard
+The overall architecture will be that the phone application primarly communicate
+s with a PHP script at startup, to fetch the categories, cases, and also
+ some references to the media files (images and videos) for each case.
+ The PHP script receives HTTP GET requests, and responds to them by reading
+ from an underlying SQL database, and responds to the request by sending
+ back json objects representing the categories and cases, with the same
+ structure as used in the SQL database, to ensure consistency.
+ The reason why we need this PHP script between the SQL database and the
+ phone application, is tat while Titanium does not support communcation
+ with external SQL servers (only internal SQLITE servers), it does support
+ HTTP communication and JSON parsing.
+ When the user browses to a specific case, the app will go to a web server
+ and stream the media files directly from there.
+ If the user decides to cache som media files locally, the app will simply
+ download them from the web server, and save them on the phone's local storage.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Overall_architecture.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Overall architecture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is largely just a 
+\begin_inset Quotes eld
+\end_inset
+
+classification
+\begin_inset Quotes erd
+\end_inset
+
+ of the ER-diagram, maintaining an internal representation of the category
+ and case hierarchy, and the media files references belonging to each case.
+ It also provides a component for logging in, and one for communication
+ with the database.
 \end_layout
 
 \begin_layout Subsubsection
@@ -10620,81 +10687,6 @@ Sequence diagram 4
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection
-Develoment view
-\end_layout
-
-\begin_layout Standard
-The overall architecture will be that the phone application primarly communicate
-s with a PHP script at startup, to fetch the categories, cases, and also
- some references to the media files (images and videos) for each case.
- The PHP script receives HTTP GET requests, and responds to them by reading
- from an underlying SQL database, and responds to the request by sending
- back json objects representing the categories and cases, with the same
- structure as used in the SQL database, to ensure consistency.
- The reason why we need this PHP script between the SQL database and the
- phone application, is tat while Titanium does not support communcation
- with external SQL servers (only internal SQLITE servers), it does support
- HTTP communication and JSON parsing.
- When the user browses to a specific case, the app will go to a web server
- and stream the media files directly from there.
- If the user decides to cache som media files locally, the app will simply
- download them from the web server, and save them on the phone's local storage.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Figures/Overall_architecture.png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Overall architecture
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-It is largely just a 
-\begin_inset Quotes eld
-\end_inset
-
-classification
-\begin_inset Quotes erd
-\end_inset
-
- of the ER-diagram, maintaining an internal representation of the category
- and case hierarchy, and the media files references belonging to each case.
- It also provides a component for logging in, and one for communication
- with the database.
 \end_layout
 
 \begin_layout Subsubsection
@@ -10983,7 +10975,7 @@ Scenarios
 \end_layout
 
 \begin_layout Standard
-See chapter 5.4.1 and 5.4.2 for usecases and usecase diagrams .
+See chapter 5.3 and 5.4 for use cases and usecase diagrams .
 \end_layout
 
 \begin_layout Subsection
@@ -11000,17 +10992,6 @@ We tried our best to stick to the traditional Model View Controller (MVC)
  the coding language (Javascript), we did run into some slight problems
  with sticking to MVC, but as we got more familiar with it, the problems
  seemed to be solved one by one.
-\end_layout
-
-\begin_layout Subsection
-Architectural Changes
-\end_layout
-
-\begin_layout Standard
-Here we will present changes that we have made to the architecture during
- the development, this can be done either because we found a better solution
- or because our planned solution either had flaws or we were unable to implement
- it.
 \end_layout
 
 \begin_layout Section
