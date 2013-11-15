@@ -6806,7 +6806,7 @@ Quiz-game
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+
 \end_layout
 
 \end_inset
@@ -6815,7 +6815,7 @@ X
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+X
 \end_layout
 
 \end_inset
@@ -6862,7 +6862,7 @@ FR13
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+
 \end_layout
 
 \end_inset
@@ -6871,7 +6871,7 @@ X
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+X
 \end_layout
 
 \end_inset
@@ -19885,7 +19885,7 @@ All the time spent on the meeting, resulted in that fewer than planned bugs
 \end_layout
 
 \begin_layout Part
-Conclusion and Evaluation
+Results, Evaluation and Conclusion
 \end_layout
 
 \begin_layout Standard
@@ -19896,7 +19896,7 @@ Conclusion and Evaluation
 \end_layout
 
 \begin_layout Section
-Conclusion
+Results
 \end_layout
 
 \begin_layout Standard
@@ -20685,8 +20685,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="3">
+<lyxtabular version="3" rows="13" columns="4">
 <features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
@@ -20709,11 +20710,20 @@ Functional Requirement
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Status
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Priority
 \end_layout
 
 \end_inset
@@ -20738,11 +20748,20 @@ Browse cases
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critical
 \end_layout
 
 \end_inset
@@ -20767,11 +20786,20 @@ Show images
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critical
 \end_layout
 
 \end_inset
@@ -20796,11 +20824,20 @@ Play video
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
 \end_layout
 
 \end_inset
@@ -20825,11 +20862,20 @@ Search for cases
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
 \end_layout
 
 \end_inset
@@ -20854,11 +20900,20 @@ Log in
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
 \end_layout
 
 \end_inset
@@ -20883,11 +20938,20 @@ Registration
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Done, but no GUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
 \end_layout
 
 \end_inset
@@ -20912,11 +20976,20 @@ Save images to phone
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Not complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
 \end_layout
 
 \end_inset
@@ -20941,11 +21014,20 @@ Save videos to phone
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Not complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
 \end_layout
 
 \end_inset
@@ -20970,11 +21052,20 @@ Separation of data
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
 \end_layout
 
 \end_inset
@@ -20999,11 +21090,20 @@ Upload data to server
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Done, but no GUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
 \end_layout
 
 \end_inset
@@ -21028,11 +21128,20 @@ Quiz-Game
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Not complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
 \end_layout
 
 \end_inset
@@ -21064,11 +21173,20 @@ Like
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Not complete
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
 \end_layout
 
 \end_inset
@@ -21267,37 +21385,6 @@ lifecycle model MARTHE
 \end_layout
 
 \begin_layout Subsubsection
-Requirements STIAN
-\end_layout
-
-\begin_layout Standard
-- var scopet for stort, akkurat passe?
-\end_layout
-
-\begin_layout Standard
-- aktørene?
-\end_layout
-
-\begin_layout Standard
-- Use case
-\end_layout
-
-\begin_layout Standard
-- Funskjonelle ikke-funk krav, var det for mange?
-\end_layout
-
-\begin_layout Standard
-- backloggen.
- ? 
-\end_layout
-
-\begin_layout Standard
-- vise hvilke som ble ferdig, og når.
- ha med prioriteringen og id.
- bare de overordna??
-\end_layout
-
-\begin_layout Subsubsection
 Architechture STIAN
 \end_layout
 
@@ -21319,6 +21406,67 @@ Separate web-database server not necessary
 
 \begin_layout Standard
 How did MVC go in regards to javascript………..
+\end_layout
+
+\begin_layout Standard
+Sy inn dette:
+\end_layout
+
+\begin_layout Standard
+It must also be noted that a major reason for not finishing all requirements
+ was that the group consisted of only three members, not six or seven as
+ suggested by the course description.
+ During the planning phase it got quite obvious that the customer had created
+ the project with more than three people over three months in his mind.
+ The customer was, however, very accomodating and realistic when confronted
+ with the small group size, and we agreed on what was realistic to do.
+ Since the deadline for registering for the course was well into the project,
+ our supervisor told us that we might get one additional group member if
+ we were a little lucky.
+ We therefore decided to keep a couple of, perhaps, unrealistic requirements
+ for a group of three, like FR11, FR12, and FR13.
+ This was also useful when creating the general foundation for the app,
+ as previously discussed.
+ We therefore do not see it as a failure that these requirements were not
+ completed.
+\end_layout
+
+\begin_layout Subsubsection
+Testing K
+\end_layout
+
+\begin_layout Standard
+Sy inn dette:
+\end_layout
+
+\begin_layout Standard
+We decided not to have a 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ useability test.
+ The surgeons were very busy, and their time is very precious (they save
+ lifes!), so one should have an extremely good reason to take up their time.
+ In addition, the application is not a 
+\begin_inset Quotes eld
+\end_inset
+
+final product
+\begin_inset Quotes erd
+\end_inset
+
+, but only an application which provides base functionality to be built
+ upon.
+ That it actually was usable at the end of the project lifetime was only
+ a bonus.
+ To compensate for this we had good contact with the customer throughout
+ the whole project, who we asked for feedback on the app.
+ During the meeting with the suregons, everybody had the opportunity to
+ test the app, so we received a lot of good feedback there as well.
 \end_layout
 
 \begin_layout Subsection
@@ -21765,55 +21913,6 @@ Final project presentation
 , were met at their set deadlines as planned.
 \end_layout
 
-\begin_layout Standard
-We decided not to have a 
-\begin_inset Quotes eld
-\end_inset
-
-normal
-\begin_inset Quotes erd
-\end_inset
-
- useability test.
- The surgeons were very busy, and their time is very precious (they save
- lifes!), so one should have an extremely good reason to take up their time.
- In addition, the application is not a 
-\begin_inset Quotes eld
-\end_inset
-
-final product
-\begin_inset Quotes erd
-\end_inset
-
-, but only an application which provides base functionality to be built
- upon.
- That it actually was usable at the end of the project lifetime was only
- a bonus.
- To compensate for this we had good contact with the customer throughout
- the whole project, who we asked for feedback on the app.
- During the meeting with the suregons, everybody had the opportunity to
- test the app, so we received a lot of good feedback there as well.
-\end_layout
-
-\begin_layout Standard
-It must also be noted that a major reason for not finishing all requirements
- was that the group consisted of only three members, not six or seven as
- suggested by the course description.
- During the planning phase it got quite obvious that the customer had created
- the project with more than three people over three months in his mind.
- The customer was, however, very accomodating and realistic when confronted
- with the small group size, and we agreed on what was realistic to do.
- Since the deadline for registering for the course was well into the project,
- our supervisor told us that we might get one additional group member if
- we were a little lucky.
- We therefore decided to keep a couple of, perhaps, unrealistic requirements
- for a group of three, like FR11, FR12, and FR13.
- This was also useful when creating the general foundation for the app,
- as previously discussed.
- We therefore do not see it as a failure that these requirements were not
- completed.
-\end_layout
-
 \begin_layout Subsection
 Technology Evaluation
 \end_layout
@@ -21904,6 +22003,14 @@ After developing with Titanium and JavaScript for several weeks, developing
  messages and exceptions actually tells the programmer where and what actually
  went wrong.
  
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+TODO
 \end_layout
 
 \begin_layout Section
