@@ -4227,7 +4227,7 @@ The interface for users is the main project, namely the mobile application.
 \end_layout
 
 \begin_layout Standard
-Both for registered and unregistered users, the app should be able to view
+For both registered and unregistered users, the app should be able to view
  a structure of categories, which contains cases.
  These cases, again, contains media files, i.e.
  images and videos.
