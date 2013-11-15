@@ -22498,6 +22498,27 @@ http://www.techopedia.com/definition/25813/use-case
 
 \end_layout
 
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "svnvsgit"
+
+\end_inset
+
+SVN versus Git 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://git.wiki.kernel.org/index.php/GitSvnComparison
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
