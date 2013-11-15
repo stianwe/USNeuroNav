@@ -21223,6 +21223,17 @@ Risks MARTHE
 In the risk evaluation, we did not predict that we would use three weeks
  of deciding platform, neither that we were to be driven away from our office
  due to construction noise.
+ We had to leave the iMac in the office and use TeamViewer to communicate
+ with it when we sat in another place.
+ There were more sickness among the group members than predicted, but we
+ did not lose that much time due to that, since we had planned with buffer,
+ and the group members could work other days and in the evenings.
+ The planned absent of the group member did not cause that much problem,
+ since it was informed in good time before, so we could plan with that in
+ mind.
+ Most of the action taken was that the group member that was gone, would
+ do the work before he or she returned.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -21242,33 +21253,47 @@ Prestudy K
 \end_layout
 
 \begin_layout Subsubsection
-lifecycle model MARTHE
+Scrum
 \end_layout
 
 \begin_layout Standard
-- hadde noen erfaringe rmed det fra før?
+The decision to use the Scrum method was evaluated as good.
+ Some from our group had an experience with scrum from other projects, so
+ the particular scrum artefacts were known.
+ The process of learning scrum went quite well, but we did not follow everything
+ as strict as we first predicted.
+ For example, we had more of a daily sit down, than a daily stand up.
+ We managed to keep the meeting short, and the topics were the same as described
+ in daily stand up meetings.
+ The Sprint planning meetings where held the same day as the sprint evaluation,
+ due to the customer had more available time when our sprint started.
+ 
 \end_layout
 
 \begin_layout Standard
-- hvordan fungeret scrum, glad for at vi ikke valgte waterfall?
+As the project evolved, we were more pleased with the choice of the lifecycle.
+ The fact that sprint 2 should not contain any programming, did we not know
+ at the start.
+ And that the time required to get the necessary hardware, were not known,
+ we only sat a deadline for that.
+ The time for deciding the development platform, were also not predicted
+ to take three weeks.
+ So the uncertainties in the project were very well covered by scrum.
 \end_layout
 
 \begin_layout Standard
-- hadde vi problemer? hvordan var det å planlegge, hvordan var sprint begrepet
- for oss?
+We maintained the burndown chart for each sprints backlog in a common document,
+ as we had a problem with rally.
+ We logged the time used for the tasks in the backlog, and continuously
+ saw how the progress was going.
 \end_layout
 
 \begin_layout Standard
-- hvordan benyttet vi oss av burndown chart? så at vi hang etter, eller
- lå foran…
-\end_layout
-
-\begin_layout Standard
-- problemer med rally, så logget timene i felles dokument
-\end_layout
-
-\begin_layout Standard
-- si at vi gjennomførte scrum møtene - parprogrammering
+We used pair programming half the time we programmed.
+ It was helpful, and we learned more from each other than we would if we
+ did not do it.
+ It came quite naturally, and it was more efficient that one wrote code
+ and the other could watch.
 \end_layout
 
 \begin_layout Subsubsection
