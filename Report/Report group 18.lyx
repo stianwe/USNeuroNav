@@ -531,8 +531,9 @@ The goal of the project was to create a prototype application that our customer
  The product we created will continue to grow after we were done with it,
  so it was important to keep it expandable so that new features could be
  added later.
- Ultimately, as our prototype kept being developed, the goal was for it
- to be used as a tool to spread the knowledge of ultrasound navigation.
+ As our prototype keeps on being developed by our successors, ultimately
+ the goal is for it is to aid our customer in making their knowledge and
+ expertise, in the field of ultrasound navigation, publicly available.
 \end_layout
 
 \begin_layout Subsection
@@ -622,8 +623,31 @@ Measurement of project effect
 \end_layout
 
 \begin_layout Standard
-The goal of the project is to increase the awareness and knowledge surrounding
- the use of ultrasound navigation during surgery.
+The goal of the project was to aid our customer in making their knowledge
+ and expertise, in the field of ultrasound navigation, publicly available.
+ The way we did this was to create an application that worked as a platform
+ for further development.
+ The application we delivered provides the basic tools needed to publicly
+ share some of the knowledge, but mainly it was meant as a modular expandable
+ prototype that our customer can use to tailor into an ideal product for
+ their purpose.
+ The project effect can for this reason be measured two ways.
+ First, as it is when delivered, it can be used internally to share and
+ provide easy access to case information and media on mobile devices.
+ Also as a proof-of-concept that a mobile application is a good method of
+ sharing knowledge publicly.
+ Secondly, it can be expanded with new features and funtionality, as we
+ have created a modular platform with options for expansion and good documentati
+on so that our successors will know what they are working with.
+\end_layout
+
+\begin_layout Subsubsection*
+As a platform
+\end_layout
+
+\begin_layout Standard
+increase the awareness and knowledge surrounding the use of ultrasound navigatio
+n during surgery.
  It will be very hard to numerically measure the effect of our project.
  Long term it might be possible to track its influence through the increase
  in use of the aforementioned technology, but our short term goal is simply
