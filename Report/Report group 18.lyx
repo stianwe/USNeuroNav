@@ -2967,7 +2967,14 @@ key "subversion"
 
 .
  Git is also much faster than SVN, and provides better auditing of branch
- and merge events [X].
+ and merge events
+\begin_inset CommandInset citation
+LatexCommand cite
+key "svnvsgit"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -21135,11 +21142,41 @@ Evaluation
 
 \begin_layout Standard
 In this section the evaluation of the group, project and technology are
- givven.
+ given.
 \end_layout
 
 \begin_layout Subsection
-Group Evaluation
+Process evaluation
+\end_layout
+
+\begin_layout Subsubsection
+Communication MARTHE
+\end_layout
+
+\begin_layout Standard
+hvordan gikk kommunikasjonen? kunden tilgjengelig? mye borte?
+\end_layout
+
+\begin_layout Standard
+supervisor tilgjengelig? gruppa tilgjengelig? mail og møter….
+\end_layout
+
+\begin_layout Standard
+All the members in the group and the customer spoke Norwegian, so there
+ was never any difficulty understanding each other.
+ Our supervisor spoke English, but we did not felt like there was any huge
+ language barrier.
+\end_layout
+
+\begin_layout Standard
+We had a good group dynamic though the project.
+ If there was any problem, we confronted each other and solved it quickly.
+ We communicated through different channels, and we were available almost
+ all the time.
+\end_layout
+
+\begin_layout Subsubsection
+Group K
 \end_layout
 
 \begin_layout Standard
@@ -21155,24 +21192,10 @@ There were never changes in our group, no one joined and no one left the
 \end_layout
 
 \begin_layout Standard
-All the members in the group and the customer spoke Norwegian, so there
- was never any difficulty understanding each other.
- Our supervisor spoke English, but we did not felt like there was any huge
- language barrier.
-\end_layout
-
-\begin_layout Standard
 The group was very motivated form the beginning, and it lasted throughout
  the project.
  We had the same goal for the project and how much work we would put into
  it.
-\end_layout
-
-\begin_layout Standard
-We had a good group dynamic though the project.
- If there was any problem, we confronted each other and solved it quickly.
- We communicated through different channels, and we were available almost
- all the time.
 \end_layout
 
 \begin_layout Standard
@@ -21181,9 +21204,126 @@ The role assignment was good, we managed to complete our task effective
 \end_layout
 
 \begin_layout Standard
+- rollene, var de bra fordelt? klarte vi utfordringene?
+\end_layout
+
+\begin_layout Standard
+arbeidsfordeling
+\end_layout
+
+\begin_layout Standard
+planlagt effor vs actual effort timeuse
+\end_layout
+
+\begin_layout Subsubsection
+Risks MARTHE
+\end_layout
+
+\begin_layout Standard
 In the risk evaluation, we did not predict that we would use three weeks
  of deciding platform, neither that we were to be driven away from our office
  due to construction noise.
+\end_layout
+
+\begin_layout Subsubsection
+Prestudy K
+\end_layout
+
+\begin_layout Standard
+- fra nåværende situasjon, har det blitt bedre med det vi lagde?
+\end_layout
+
+\begin_layout Standard
+- møter vi opp mot desired solution 
+\end_layout
+
+\begin_layout Standard
+- reflektere om vi burde ha valgt en annen løsning likevel?
+\end_layout
+
+\begin_layout Subsubsection
+lifecycle model MARTHE
+\end_layout
+
+\begin_layout Standard
+- hadde noen erfaringe rmed det fra før?
+\end_layout
+
+\begin_layout Standard
+- hvordan fungeret scrum, glad for at vi ikke valgte waterfall?
+\end_layout
+
+\begin_layout Standard
+- hadde vi problemer? hvordan var det å planlegge, hvordan var sprint begrepet
+ for oss?
+\end_layout
+
+\begin_layout Standard
+- hvordan benyttet vi oss av burndown chart? så at vi hang etter, eller
+ lå foran…
+\end_layout
+
+\begin_layout Standard
+- problemer med rally, så logget timene i felles dokument
+\end_layout
+
+\begin_layout Standard
+- si at vi gjennomførte scrum møtene - parprogrammering
+\end_layout
+
+\begin_layout Subsubsection
+Requirements STIAN
+\end_layout
+
+\begin_layout Standard
+- var scopet for stort, akkurat passe?
+\end_layout
+
+\begin_layout Standard
+- aktørene?
+\end_layout
+
+\begin_layout Standard
+- Use case
+\end_layout
+
+\begin_layout Standard
+- Funskjonelle ikke-funk krav, var det for mange?
+\end_layout
+
+\begin_layout Standard
+- backloggen.
+ ? 
+\end_layout
+
+\begin_layout Standard
+- vise hvilke som ble ferdig, og når.
+ ha med prioriteringen og id.
+ bare de overordna??
+\end_layout
+
+\begin_layout Subsubsection
+Architechture STIAN
+\end_layout
+
+\begin_layout Standard
+- hvorfor endringer
+\end_layout
+
+\begin_layout Standard
+-How did the archi work? Database good modularity, generality
+\end_layout
+
+\begin_layout Standard
+Change in DB does not require recompiling
+\end_layout
+
+\begin_layout Standard
+Separate web-database server not necessary 
+\end_layout
+
+\begin_layout Standard
+How did MVC go in regards to javascript………..
 \end_layout
 
 \begin_layout Subsection
@@ -21736,9 +21876,11 @@ At first glance, Titanium with JavaScript seemed like a very nice tool to
 \begin_layout Standard
 Titanium and JavaScript showed, however, to be a bit of a pain to work with.
  First of all, all the team members were very unfamiliar with JavaScript.
- JavaScript does not have direct support for classes, and even though its
- name is very similar to Java, the two languages does not look very much
- alike at all.
+ This is a major point, and we spent quite some time learning and getting
+ familiar with JavaScript, before we started to be productive.
+ In addition, JavaScript does not have direct support for classes, and even
+ though its name is very similar to Java, the two languages does not look
+ very much alike at all.
  We were also in for a surprise when it came to Titanium's development environme
 nt.
  Titanium studio is a free IDE built on top of Eclipse, and which also allows
