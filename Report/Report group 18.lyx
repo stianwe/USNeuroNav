@@ -741,6 +741,8 @@ Schedule of result
 Scrum is being used for the development phase.
  After each sprint there will be a delivery, and all of these deliveries
  should contribute towards a working system.
+ 21th of Nowember will be the final presentation, so the product and report
+ have to be finnished befor that.
 \end_layout
 
 \begin_layout Subsubsection
@@ -762,6 +764,9 @@ On the August 21th the group met the customer for the first time and started
  Each sprint will contain a planning part, an implementation part, and a
  testing part.
  The table below gives an overall description of the sprints.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -1034,7 +1039,12 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
-The work breakdown structure can be seen in Figure 1
+The work breakdown structure can be seen to the left in the figure below.
+ To the right is the tasks distributed over time, with the arrows showing
+ the connection between them.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
