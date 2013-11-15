@@ -21145,7 +21145,7 @@ Process evaluation
 \end_layout
 
 \begin_layout Subsubsection
-Communication
+Communication MARTHE
 \end_layout
 
 \begin_layout Standard
@@ -21156,8 +21156,46 @@ hvordan gikk kommunikasjonen? kunden tilgjengelig? mye borte?
 supervisor tilgjengelig? gruppa tilgjengelig? mail og møter….
 \end_layout
 
+\begin_layout Standard
+All the members in the group and the customer spoke Norwegian, so there
+ was never any difficulty understanding each other.
+ Our supervisor spoke English, but we did not felt like there was any huge
+ language barrier.
+\end_layout
+
+\begin_layout Standard
+We had a good group dynamic though the project.
+ If there was any problem, we confronted each other and solved it quickly.
+ We communicated through different channels, and we were available almost
+ all the time.
+\end_layout
+
 \begin_layout Subsubsection
-Roles
+Group K
+\end_layout
+
+\begin_layout Standard
+The group consisted of three members, which we at the start though was too
+ little.
+ We planned for three people, but knew we could not do as much as the customer
+ had initially hoped for.
+\end_layout
+
+\begin_layout Standard
+There were never changes in our group, no one joined and no one left the
+ group.
+\end_layout
+
+\begin_layout Standard
+The group was very motivated form the beginning, and it lasted throughout
+ the project.
+ We had the same goal for the project and how much work we would put into
+ it.
+\end_layout
+
+\begin_layout Standard
+The role assignment was good, we managed to complete our task effective
+ enough, and we felt that we challenged ourselves.
 \end_layout
 
 \begin_layout Standard
@@ -21169,15 +21207,21 @@ arbeidsfordeling
 \end_layout
 
 \begin_layout Standard
-planlagt effor vs actual effort
+planlagt effor vs actual effort timeuse
 \end_layout
 
 \begin_layout Subsubsection
-Risks
+Risks MARTHE
+\end_layout
+
+\begin_layout Standard
+In the risk evaluation, we did not predict that we would use three weeks
+ of deciding platform, neither that we were to be driven away from our office
+ due to construction noise.
 \end_layout
 
 \begin_layout Subsubsection
-Prestudy
+Prestudy K
 \end_layout
 
 \begin_layout Standard
@@ -21193,7 +21237,7 @@ Prestudy
 \end_layout
 
 \begin_layout Subsubsection
-lifecycle model
+lifecycle model MARTHE
 \end_layout
 
 \begin_layout Standard
@@ -21223,7 +21267,7 @@ lifecycle model
 \end_layout
 
 \begin_layout Subsubsection
-Requirements
+Requirements STIAN
 \end_layout
 
 \begin_layout Standard
@@ -21254,7 +21298,7 @@ Requirements
 \end_layout
 
 \begin_layout Subsubsection
-Architechture
+Architechture STIAN
 \end_layout
 
 \begin_layout Standard
@@ -21275,66 +21319,6 @@ Separate web-database server not necessary
 
 \begin_layout Standard
 How did MVC go in regards to javascript………..
-\end_layout
-
-\begin_layout Standard
-a
-\end_layout
-
-\begin_layout Standard
-a
-\end_layout
-
-\begin_layout Standard
-a
-\end_layout
-
-\begin_layout Standard
-a
-\end_layout
-
-\begin_layout Standard
-The group consisted of three members, which we at the start though was too
- little.
- We planned for three people, but knew we could not do as much as the customer
- had initially hoped for.
-\end_layout
-
-\begin_layout Standard
-There were never changes in our group, no one joined and no one left the
- group.
-\end_layout
-
-\begin_layout Standard
-All the members in the group and the customer spoke Norwegian, so there
- was never any difficulty understanding each other.
- Our supervisor spoke English, but we did not felt like there was any huge
- language barrier.
-\end_layout
-
-\begin_layout Standard
-The group was very motivated form the beginning, and it lasted throughout
- the project.
- We had the same goal for the project and how much work we would put into
- it.
-\end_layout
-
-\begin_layout Standard
-We had a good group dynamic though the project.
- If there was any problem, we confronted each other and solved it quickly.
- We communicated through different channels, and we were available almost
- all the time.
-\end_layout
-
-\begin_layout Standard
-The role assignment was good, we managed to complete our task effective
- enough, and we felt that we challenged ourselves.
-\end_layout
-
-\begin_layout Standard
-In the risk evaluation, we did not predict that we would use three weeks
- of deciding platform, neither that we were to be driven away from our office
- due to construction noise.
 \end_layout
 
 \begin_layout Subsection
