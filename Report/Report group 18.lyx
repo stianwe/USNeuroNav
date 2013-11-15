@@ -21887,9 +21887,11 @@ At first glance, Titanium with JavaScript seemed like a very nice tool to
 \begin_layout Standard
 Titanium and JavaScript showed, however, to be a bit of a pain to work with.
  First of all, all the team members were very unfamiliar with JavaScript.
- JavaScript does not have direct support for classes, and even though its
- name is very similar to Java, the two languages does not look very much
- alike at all.
+ This is a major point, and we spent quite some time learning and getting
+ familiar with JavaScript, before we started to be productive.
+ In addition, JavaScript does not have direct support for classes, and even
+ though its name is very similar to Java, the two languages does not look
+ very much alike at all.
  We were also in for a surprise when it came to Titanium's development environme
 nt.
  Titanium studio is a free IDE built on top of Eclipse, and which also allows
