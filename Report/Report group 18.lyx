@@ -21137,11 +21137,160 @@ Evaluation
 
 \begin_layout Standard
 In this section the evaluation of the group, project and technology are
- givven.
+ given.
 \end_layout
 
 \begin_layout Subsection
-Group Evaluation
+Process evaluation
+\end_layout
+
+\begin_layout Subsubsection
+Communication
+\end_layout
+
+\begin_layout Standard
+hvordan gikk kommunikasjonen? kunden tilgjengelig? mye borte?
+\end_layout
+
+\begin_layout Standard
+supervisor tilgjengelig? gruppa tilgjengelig? mail og møter….
+\end_layout
+
+\begin_layout Subsubsection
+Roles
+\end_layout
+
+\begin_layout Standard
+- rollene, var de bra fordelt? klarte vi utfordringene?
+\end_layout
+
+\begin_layout Standard
+arbeidsfordeling
+\end_layout
+
+\begin_layout Standard
+planlagt effor vs actual effort
+\end_layout
+
+\begin_layout Subsubsection
+Risks
+\end_layout
+
+\begin_layout Subsubsection
+Prestudy
+\end_layout
+
+\begin_layout Standard
+- fra nåværende situasjon, har det blitt bedre med det vi lagde?
+\end_layout
+
+\begin_layout Standard
+- møter vi opp mot desired solution 
+\end_layout
+
+\begin_layout Standard
+- reflektere om vi burde ha valgt en annen løsning likevel?
+\end_layout
+
+\begin_layout Subsubsection
+lifecycle model
+\end_layout
+
+\begin_layout Standard
+- hadde noen erfaringe rmed det fra før?
+\end_layout
+
+\begin_layout Standard
+- hvordan fungeret scrum, glad for at vi ikke valgte waterfall?
+\end_layout
+
+\begin_layout Standard
+- hadde vi problemer? hvordan var det å planlegge, hvordan var sprint begrepet
+ for oss?
+\end_layout
+
+\begin_layout Standard
+- hvordan benyttet vi oss av burndown chart? så at vi hang etter, eller
+ lå foran…
+\end_layout
+
+\begin_layout Standard
+- problemer med rally, så logget timene i felles dokument
+\end_layout
+
+\begin_layout Standard
+- si at vi gjennomførte scrum møtene - parprogrammering
+\end_layout
+
+\begin_layout Subsubsection
+Requirements
+\end_layout
+
+\begin_layout Standard
+- var scopet for stort, akkurat passe?
+\end_layout
+
+\begin_layout Standard
+- aktørene?
+\end_layout
+
+\begin_layout Standard
+- Use case
+\end_layout
+
+\begin_layout Standard
+- Funskjonelle ikke-funk krav, var det for mange?
+\end_layout
+
+\begin_layout Standard
+- backloggen.
+ ? 
+\end_layout
+
+\begin_layout Standard
+- vise hvilke som ble ferdig, og når.
+ ha med prioriteringen og id.
+ bare de overordna??
+\end_layout
+
+\begin_layout Subsubsection
+Architechture
+\end_layout
+
+\begin_layout Standard
+- hvorfor endringer
+\end_layout
+
+\begin_layout Standard
+-How did the archi work? Database good modularity, generality
+\end_layout
+
+\begin_layout Standard
+Change in DB does not require recompiling
+\end_layout
+
+\begin_layout Standard
+Separate web-database server not necessary 
+\end_layout
+
+\begin_layout Standard
+How did MVC go in regards to javascript………..
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+a
 \end_layout
 
 \begin_layout Standard
