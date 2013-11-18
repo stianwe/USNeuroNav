@@ -21946,6 +21946,18 @@ Given the terms of the customer, mainly the prerequisite of multiplatform
  
 \end_layout
 
+\begin_layout Standard
+To help us choose the development platform, the customer brought in an external
+ person, Erlend Dahl.
+ He had previously developed an iOS application for the customer, and had
+ some experience with a couple of our alternative platforms.
+ He thought that both Titanium and Xamarin would work, but did not have
+ that much experience with Titanium, and could therefore not say one, over
+ the other, but highly recommended Xamarin, which he thought was very good.
+ Nevertheless, we chose Titanium, since we were not able to give enough
+ pros for Xamarin, to justify the license costs.
+\end_layout
+
 \begin_layout Subsubsection
 Scrum
 \end_layout
