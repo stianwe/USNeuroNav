@@ -1,4 +1,4 @@
-﻿#LyX 2.0 created this file. For more info see http://www.lyx.org/
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
 \lyxformat 413
 \begin_document
 \begin_header
@@ -443,12 +443,12 @@ This section will give a short introduction to this project, including the
 \end_layout
 
 \begin_layout Subsection
-Project Client
+Project Customer
 \end_layout
 
 \begin_layout Standard
-SINTEF and The National Competence Center for Ultrasound and Image Guided
- Therapy.
+The project customers are SINTEF, and The National Competence Center for
+ Ultrasound and Image Guided Therapy.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3624,7 +3624,7 @@ It is sufficiently differences between the system the customer needs and
 
 \begin_layout Standard
 We will develop the system with frameworks and tools described in section
- 8.
+ 2.5.3.
 \end_layout
 
 \begin_layout Standard
@@ -10102,8 +10102,8 @@ Since the customer only wants part of the data to be publicly available,
 
 \begin_layout Standard
 Finally, the customer enquired about the possibility of using the app offline.
- Since the data for the app will be very large, the videos are typically
- XX MB, and each case usually have one, the team decided that storing all
+ Since the data for the app will be very large, the videos are several mega
+ bytes, and each case usually have one, the team decided that storing all
  of the data locally on the phone would be too much.
  As a solution to this, a possibility for selecting some cases, images and/or
  videos, that the phone should download and store locally, were proposed,
@@ -10849,7 +10849,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/newCategorySequence.png
-	scale 35
+	scale 90
 
 \end_inset
 
@@ -11153,14 +11153,6 @@ USNeuroNav is the name of the mobile application, which can be run on smart
  This communication goes through a thin layer of PHP script, that actually
  reads the database, and passes on the information.
  The media files themself is fetched from the web server using regular HTTP.
-\end_layout
-
-\begin_layout Subsubsection
-Scenarios
-\end_layout
-
-\begin_layout Standard
-See chapter 5.3 and 5.4 for use cases and usecase diagrams .
 \end_layout
 
 \begin_layout Subsection
@@ -18871,8 +18863,7 @@ During sprint 4 we redid all our previous system test in order to prepare
  for the acceptance test and meeting with the customer and future users.
  Since we also updated our database to the new desired structure, the tests
  became slightly different.
- See appendix section 17 (FIX THIS LATER) for a overview of the data we
- used during testing.
+ See appendix C.2 for a overview of the data we used during testing.
  
 \end_layout
 
@@ -20114,7 +20105,7 @@ The architecture was made at the beginning of the process and has been followed
 
 \begin_layout Standard
 Since JavaScript/Titanium didn't really support classes, the class diagram
- in figure X was merely used as a starting point.
+ in figure 6.3 was merely used as a starting point.
  Using JavaScript, we was, however, able to 
 \begin_inset Quotes eld
 \end_inset
@@ -20227,9 +20218,9 @@ Modified ER diagram
 \end_layout
 
 \begin_layout Standard
-The overall architecture, as seen in figure X, was followed without any
+The overall architecture, as seen in figure 6.2, was followed without any
  modifications, and will therefore not be discussed in this section.
- See section X for details.
+ See chapter 6 for details.
 \end_layout
 
 \begin_layout Standard
@@ -21516,7 +21507,7 @@ The main communication channel with the supervisor was mail and our regular
 \end_layout
 
 \begin_layout Subsubsection
-Roles and work Groupstuff
+Roles and group work
 \end_layout
 
 \begin_layout Standard
@@ -21527,12 +21518,12 @@ Being only three people on a project that, to us, seemed intended for 5-6
  After a discussion with the course responsibles we accepted the fact that
  we would have to complete the course with only thee members and tried to
  work around it.
- Wheather or not the customers were informed of the smaller groupsize but
+ Wheather or not the customers were informed of the smaller group size but
  an unfortunate consequence of this was that we simply had too little manhours
  to complete all the features the customer wanted in the project.
  We not only had less people to develop the application, but also less people
  to write the report wich is a quite substantial part of the project and
- does require alot of time.
+ does require a lot of time.
  Despite the smaller workforce we got off to a good start as all members
  were motivated to do a good job and we all shared a similar goal and agreed
  on the amount of work to put into the project.
@@ -21886,7 +21877,7 @@ During the late parts of the project we had to work overtime to get all
 \end_layout
 
 \begin_layout Subsubsection
-Risks MARTHE
+Risks
 \end_layout
 
 \begin_layout Standard
@@ -21907,15 +21898,15 @@ In the risk evaluation, we did not predict that we would use three weeks
 \end_layout
 
 \begin_layout Subsubsection
-Prestudy (kan kanskje sløyfes)
+Prestudy
 \end_layout
 
 \begin_layout Standard
 Given the terms of the customer, mainly the prerequisite of multiplatform
  possibilities and the preferance towards Titanium as the development tool,
  we had a hard time finding similar or usable code for our project.
- If we had to oppertunity to develop for a single platform it would have
- been easier to find reusable code, but given our circumstance we werent
+ If we had the opportunity to develop for a single platform it would have
+ been easier to find reusable code, but given our circumstance we weren't
  able to.
  
 \end_layout
@@ -21965,7 +21956,7 @@ We used pair programming half the time we programmed.
 \end_layout
 
 \begin_layout Subsubsection
-Requirements STIAN
+Requirements
 \end_layout
 
 \begin_layout Standard
@@ -21987,7 +21978,7 @@ During the planning phase it got quite obvious that the customer had created
 \end_layout
 
 \begin_layout Subsubsection
-Architechture STIAN
+Architechture
 \end_layout
 
 \begin_layout Standard
@@ -22017,12 +22008,12 @@ The few small changes we did with our architecture, as discussed in 12.1
 \begin_layout Standard
 When developing the graphical user interface (GUI) for the mobile application,
  we decided to follow the model view controller (MVC) software architecture
- pattern, as discussed in chapter 6.5 (DOBBELTSJEKK).
+ pattern, as discussed in chapter 6.5.
  It showed, however, that this was not a very simple task with Titanium
  and JavaScript.
- We ended up with a variation of MVC, as discussed in 12.1 (DOBBELTSJEKK)
- Final System Architecture, where the three components were separated by
- functions, but not by classes or files.
+ We ended up with a variation of MVC, as discussed in 12.1 Final System Architect
+ure, where the three components were separated by functions, but not by
+ classes or files.
  We were not entirely happy with this, but was as good as we were able to
  do it.
  The consequence of this is that the code is perhaps not as readable as
