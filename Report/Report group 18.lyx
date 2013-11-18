@@ -22626,7 +22626,38 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-TODO
+The team was very happy with the product.
+ The application turned very nice, and received very good feedback from
+ both the customer, and also some potential users, the surgeons.
+ Even though we were not able to implement all the features that the customer
+ initially wanted, we got very far on the prototype, considering the small
+ group size.
+\end_layout
+
+\begin_layout Standard
+The server software that we implemented worked very well.
+ The admin tool that was created to simplify upload of new data, and registering
+ of users, was only command line based, but this was the customter's own
+ suggestion, so we were happy with that one also.
+\end_layout
+
+\begin_layout Standard
+Finally, we were also happy with the team work, and the communication with
+ the customer, and the supervisor.
+ The team met at least three days a week to work for several hours, and
+ we usually made good progress.
+ Even if somebody was not able to meet, we divided tasks well, to keep all
+ team members busy doing something useful.
+ The team also had meetings with the supervisor almost every week, and got
+ a lot of useful feedback from him, both on the product and on the report.
+ The meetings with the customer was usually at the end of each sprint, or
+ when either we, or the customer, felt the need for a meeting.
+ These meetings usually consisted of showing the customer the product's
+ state, and getting feedback on it.
+ In addition, the plan for the next sprint was usually revised to accomodate
+ the customer's wishes.
+ These meetings were very useful, both to see if we were on the right track,
+ but also to see if the customer's priority of new features had changed.
 \end_layout
 
 \begin_layout Section
