@@ -112,6 +112,13 @@ figs-within-sections
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+TDT4290 Customer Driven Project
 \begin_inset Newline newline
 \end_inset
 
@@ -129,8 +136,21 @@ USNeuroNav
 \align center
 
 \series bold
-SINTEF And The National Competence Center For Ultrasound And Image Guided
- Therapy
+SINTEF 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+and
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+The National Competence Center For Ultrasound And Image Guided Therapy
 \begin_inset Newline newline
 \end_inset
 
@@ -146,10 +166,6 @@ SINTEF And The National Competence Center For Ultrasound And Image Guided
 
 \series bold
 Group 18
-\begin_inset Newline newline
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -175,6 +191,22 @@ Marthe Bekkevold
 
 \series bold
 Kristoffer Hagen
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Supervisor: Anh Nguyen Duc
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Customer representative: Frank Lindseth
 \end_layout
 
 \begin_layout Standard
