@@ -145,26 +145,6 @@ SINTEF And The National Competence Center For Ultrasound And Image Guided
 \align center
 
 \series bold
-Project Report
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 Group 18
 \begin_inset Newline newline
 \end_inset
@@ -21867,6 +21847,7 @@ As can be seen we finished the project with 1081 person-hours spent, just
  The following figure shows our activity on Github, which isnt a one-to-one
  relationship with time spent, but does give an idea of how the intensity
  of our work progressed throughout the project.
+ The graph shows the amount of commits to master distributed over time.
 \end_layout
 
 \begin_layout Standard
@@ -21876,8 +21857,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figures/gitActivity.JPG
+	width 95text%
 
 \end_inset
 
