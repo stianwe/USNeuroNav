@@ -1038,7 +1038,8 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
-The work breakdown structure can be seen to the left in the figure below.
+The work breakdown structure can be seen to the left in the gantt chart
+ below.
  To the right is the tasks distributed over time, with the arrows showing
  the connection between them.
 \end_layout
@@ -1054,7 +1055,7 @@ status open
 \begin_inset Graphics
 	filename Figures/Project plan.png
 	lyxscale 80
-	scale 80
+	height 95theight%
 	rotateAngle 90
 
 \end_inset
@@ -1063,7 +1064,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Project Plan
+Gantt Chart - Project Plan
 \end_layout
 
 \end_inset
@@ -1083,6 +1084,9 @@ Milestones
 \begin_layout Standard
 The table below decribes each of the planned milestones and its expected
  completion date for the project.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 placement H
 wide false
@@ -1812,7 +1816,7 @@ Medium
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Each team member's strenght
+Each team member's strenghts
 \end_layout
 
 \end_inset
@@ -10273,9 +10277,16 @@ In order to illustrate the architectural viewpoints we have decided to use
 \begin_inset Quotes erd
 \end_inset
 
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kruchten, Philippe (1995, November)"
+
+\end_inset
+
 .
  This is view model designed for "describing the architecture of software-intens
-ive systems, based on the use of multiple, concurrent views"[x].
+ive systems, based on the use of multiple, concurrent views".
  This model consists of four views of the system seen from different stakeholder
 s, in addition to use cases (the +1), in order to accurately portray the
  architecture of the system.
