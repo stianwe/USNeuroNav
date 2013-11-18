@@ -81,11 +81,22 @@ figs-within-sections
 \begin_body
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Figures/ntnu.png
 	lyxscale 60
 	scale 60
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -270,31 +281,29 @@ setcounter{page}{1}
 \begin_layout Standard
 This paper describes the planning, design, development and implementation
  of the "USNeuroNav" application with its supporting infrastructure.
- USNeuroNav is an application for mobile devices that enables its users
- to access media, recorded during surgeries where ultrasound navigation
- was utilized, based on multiple attibutes specific to each of the surgical
- cases.
+ USNeuroNav is an application for mobile devices that enables its user to
+ access media, recorded during surgeries where ultrasound navigation was
+ utilized, based on several attibutes specific to each of the surgery-cases.
 \end_layout
 
 \begin_layout Standard
-Despite ultrasound navigation providing several benefits over the traditional
- intraoperative MRI imaging, and despite the fact that the technology required
- is already in use, ultrasound-guided navigation is not very widespread.
+Dispite ultrasound navigation providing several benefits over the traditional
+ MRI imaging during surgery, and the technology required is already in use,
+ the method of ultrasound navigation is not very widespread.
  SINTEF and The National Competence Center for Ultrasound and Image Guided
- Therapy are among the pioneers in this field and believe this method would
- gain popularity if the relevant audience could gain access and learn about
- the technology in a convenient manner.
+ Therapy, are one of the pioneers in this field and believe this method
+ will gain popularity if only the relevant group can gain access and learn
+ about the technology in a convenient manner.
 \end_layout
 
 \begin_layout Standard
-In this report, the entire process of developing the application will be
- discussed, from the first day of planning to the last day of the implementation
+In this report the entire process of developing this application will be
+ discussed, from the first say of planning to the last day of the implementation
  and testing.
- The resultant product (thus far) is an iPhone application that can browse
- or search for media based on keywords, surgery categories, or locations.
- The application includes implemented support in the form of a remote database
- for storage of metadata as well as a webserver for the corresponding case
- media files.
+ The resulting product (so far) is an iPhone application that can browse
+ or search for media based on keywords, or surgery categories and locations.
+ With implemented support such as a remote database for storage of metadata
+ and a webserver for the corresponding case media files.
 \end_layout
 
 \begin_layout Part*
@@ -305,38 +314,38 @@ Preface
 \end_layout
 
 \begin_layout Standard
-This report, together with the code written, is the product in the master-level
- course TDT4290 Customer Driven Project, given by Department of Computer
- and Information Science at the Norwegian University of Science and Technology
- (NTNU).
- The project was executed from August 21st through November 21st of 2013.
+This report, together with the code written, is the deliverables in the
+ master-level course TDT4290 Customer Driven Project, given by Department
+ of Computer and Information Science at the Norwegian University of Science
+ and Technology, NTNU.
+ The project was executed from August 21th to November 21th in the fall
+ of 2013.
  
 \end_layout
 
 \begin_layout Standard
-The project team consisted of three members from the Department of Computer
- and Information Science at NTNU.
- The task was to develop an application for SINTEF that would aid in the
- teaching and distribution of knowledge regarding the use of ultrasound
- navigation during surgery.
- The concrete task was to develop an application for mobile devices that
+The project team consisted of three members from the department of computer
+ and information science at NTNU, we were given the task of developing an
+ application for SINTEF that would aid in the teaching and distribution
+ of knowledge regarding the use ultrasound navigation during surgery.
+ Our concrete task was to develop an application for mobile devices that
  can display media such as video and images from several different cases
- that SINTEF used, and continues to use, for data collection.
+ that SINTEF had, and will be, gathering data from.
  
 \end_layout
 
 \begin_layout Standard
-We would like to thank the SINTEF for providing this opportunity and allowing
- access to the hardware and software required to develop this application.
- Frank Lindseth represented SINTEF and acted as the central customer contact
- during the project; many thanks are owed him.
- We also want to show our gratitude toward Erlend Dahl for sharing his knowledge
- during the planning phase of the project.
+We would like to thank the SINTEF for providing us this task and giving
+ us access to the software and hardware required to develop this application.
+ Frank Lindseth represented SINTEF and acted as our customer contact during
+ the project so an extra thanks to him.
+ We also want to show our appreciation toward Erlend Dahl for providing
+ his knowledge during the planning phase of the project.
 \end_layout
 
 \begin_layout Standard
 The team would also like to thank our main supervisor Anh Nguyen Duc, for
- his input and invaluable feedback during the course.
+ his input and valuable feedback during the course.
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -438,7 +447,7 @@ Introduction
 
 \begin_layout Standard
 This section will give a short introduction to this project, including the
- customer and stakeholders, project goal, purpose and background, and the
+ client and stakeholders, project goal, purpose and background, and the
  duration of the project.
 \end_layout
 
@@ -483,9 +492,9 @@ The National Competence Center for Ultrasound and Image Guided Therapy
 
 \begin_layout Standard
 The National Competence Center for Ultrasound and Image Guided Therapy is
- a group of scientists, engineers and surgeons in Trondheim that collaborate
- closely in order to improve current methods and techniques for minimally-invasi
-ve surgeries.
+ a group of scientists, engineers and surgeons in Trondheim that is collaboratin
+g closely in order to improve current methods and techniques for minimally
+ invasive surgeries.
  The group consists of experts from SINTEF, NTNU and St.
  Olav's Hospital.
  (http://www.usigt.org/)
@@ -497,14 +506,13 @@ Stakeholders
 
 \begin_layout Standard
 The term stakeholder refers to any person or organization that is being
- affected (find a quote for this, incorrect definition) or has some vested
- interest in the system being developed.
- The project sponsor and customer was SINTEF together with The National
- Competence Center for Ultrasound and Image Guided Therapy, with Frank Lindseth
- and Ole Solheim as the primary contact persons.
- Additional stakeholders were the development team, comprised of three NTNU
- students: Kristoffer Hagen, Marthe Frogner Bekkevold, and Stian Weie, as
- well as the project supervisor, Anh Nguyen Duc.
+ affected or has some interest in the system being developed.
+ The project sponsor and customer was SINTEF and The National Competence
+ Center for Ultrasound and Image Guided Therapy, with Frank Lindseth and
+ Ole Solheim as the contact persons.
+ Additional stakeholders were the development team, consisted of three NTNU
+ students, Kristoffer Hagen, Marthe Frogner Bekkevold and Stian Weie, and
+ also the project supervisor, Anh Nguyen Duc.
  
 \end_layout
 
@@ -513,19 +521,19 @@ Project Goal
 \end_layout
 
 \begin_layout Standard
-The goal of the project was to create a prototype application that the customer
+The goal of the project was to create a prototype application that our customer
  can use for proof-of-concept and further development.
- (The application had to be developed for iOS devices but on a cross-platform
+ (The application had to be developed for iOS devices but on a cross platform
  framework so that it could be expanded to other platforms at a later time.)
- The primary goal was to create a stable, professional-looking application
- with the core functionality specified, such as viewing images and videos,
+ The primary goal was to create a stable, professional looking application
+ with the core functionality specified, such as showing images and videos,
  and the infrastructure around it.
- The development of the product will continue post-production, so expandability
- and versatility were high priorities, such that new features could be implement
-ed at later dates.
- As the prototype is developeded further by our successors, the end goal
- is for it to aid the customer in making their knowledge and expertise in
- the field of ultrasound navigation publicly available.
+ The product we created will continue to grow after we were done with it,
+ so it was important to keep it expandable so that new features could be
+ added later.
+ As our prototype keeps on being developed by our successors, ultimately
+ the goal is for it is to aid our customer in making their knowledge and
+ expertise, in the field of ultrasound navigation, publicly available.
 \end_layout
 
 \begin_layout Subsection
@@ -537,44 +545,45 @@ The title given to this project was
 \begin_inset Quotes eld
 \end_inset
 
-USNeuroNav App.
+USNeuroNav App
 \begin_inset Quotes erd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 The National Competence Center for Ultrasound and Image Guided Therapy was
- established in 1995 and is a collaboration between SINTEF, NTNU and St.
+ established in 1995 and is a collaboration between SINTEF, NTNU and St
  Olav University Hospital.
- Within the center, ultrasound-based navigation technology was being developed
+ Within the center ultrasound-based navigation technology was being developed
  and used in various clinical fields in order to guide surgical instruments
- safely into the human body.
- One of the primary challenges in order to make use of this technology was
+ safely into the human body (similar to GPS navigation).
+ One of the main challenges in order to make use of this technology was
  sufficient knowledge about interpreting ultrasound images.
 \end_layout
 
 \begin_layout Standard
-SINTEF has, for many years, pioneered the use of intraoperative ultrasound
- navigation.
- The technology they have created is already in use, but in order for its
- application to become more widespread, they must first disseminate the
- knowledge necessary for its use.
+SINTEF have for many years pioneered the use of ultrasound navigation during
+ surgery.
+ The technology they have created is already in use, but in order for it
+ to increase in popularity they need a tool to share the knowledge required
+ to use it.
  SINTEF believes that an application for mobile devices will enable relevant
- groups to acquire this knowledge in a convenient manner.
+ groups to acquire this knowledge in a convenient and maybe even entertaining
+ manner.
 \end_layout
 
 \begin_layout Standard
 The National Competence Center for Ultrasound and Image Guided Therapy collects
- unique data material on a weekly basis.
- If this data was presented in an straightforward and accessible way, selected
- parts of the anonymous material could be used to teach relevant groups
- to interpret ultrasound images in a convenient manner.
- An app for mobile devices (iOS and possibly Android) (and possibly also
- a web-site) has huge potential to this end.
- In addition to presenting the available material, there is the possibility
- of developing the app further into a serious game.
+ unique data material each week.
+ If this was presented in an easy and knowledgeable way, selected parts
+ of the anonymous material can be used to teach relevant groups to interpret
+ ultrasound images in an entertaining manner.
+ An app for mobile devices (iOS and maybe Android) (and maybe also a web-site)
+ has a huge potential in this regard.
+ In addition to presenting the available material it’s natural to investigate
+ the possibility for extending the app to a serious game.
 \end_layout
 
 \begin_layout Subsection
@@ -582,7 +591,7 @@ Project Duration
 \end_layout
 
 \begin_layout Standard
-The project started on August 21st and will conclude on November 21st.
+The project started on August 21th and will conclude on November 21th.
  The duration of the project is 14 weeks.
 \end_layout
 
@@ -598,11 +607,11 @@ Planning
 \end_layout
 
 \begin_layout Standard
-This section will discuss the project plan, terms, and team organization.
- It will describe the projected time to be used on the project, the general
- definitions and terms related to the project, and a work breakdown structure.
- The organization of the team and the risk management protocol will be presented
-, followed lastly by quality assurance protocol.
+This section describes the project plan, terms and team organization.
+ First the measurement of project effort are described, then general terms
+ and a work break down structure.
+ After that the organization of the team and the risk management are presented,
+ followed by quality assurance.
 \end_layout
 
 \begin_layout Subsection
@@ -615,30 +624,21 @@ Measurement of project effect
 
 \begin_layout Standard
 The goal of the project was to aid our customer in making their knowledge
- and expertise in the field of ultrasound navigation publicly available.
- This was achieved by creating an application that worked as a foundation
+ and expertise, in the field of ultrasound navigation, publicly available.
+ The way we did this was to create an application that worked as a platform
  for further development.
- The application delivered does provide the basic tools to publicly share
- some of the knowledge, but mainly it was meant as a modular expandable
- prototype that our customer could develop further into an ideal product
- for their purpose.
- The project effect can be measured in two ways.
- First, 
-\begin_inset Quotes eld
-\end_inset
-
-as-is
-\begin_inset Quotes erd
-\end_inset
-
- upon delivery, it can be used internally to share and provide easy access
- to case information and media on mobile devices.
- It also functions as a proof-of-concept that a mobile application is a
- good method of sharing knowledge publicly.
- Secondly, it can be expanded with new features and funtionality, as it
- has been created on a modular platform with options for expansion and good
- documentation to ensure our successors will know what they are working
- with.
+ The application we delivered provides the basic tools needed to publicly
+ share some of the knowledge, but mainly it was meant as a modular expandable
+ prototype that our customer can use to tailor into an ideal product for
+ their purpose.
+ The project effect can for this reason be measured two ways.
+ First, as it is when delivered, it can be used internally to share and
+ provide easy access to case information and media on mobile devices.
+ Also as a proof-of-concept that a mobile application is a good method of
+ sharing knowledge publicly.
+ Secondly, it can be expanded with new features and funtionality, as we
+ have created a modular platform with options for expansion and good documentati
+on so that our successors will know what they are working with.
 \end_layout
 
 \begin_layout Subsubsection
@@ -646,21 +646,22 @@ General terms
 \end_layout
 
 \begin_layout Standard
-The customer had a very definite requirement that the project result in
- a mobile application for iOS.
- In addition, the customer saw it as a bonus if this app could easily be
- extended to additional platforms, for example Android, either by this group,
- if time should allow, or by another developer.
- For this to be a possibility, an Apple developer license had to be procured,
- in addition to at least one Mac for code-building purposes.
- Depending on the choice of platforms, additional licenses could be necessary.
- All this had to be provided by the customer by the beginning of sprint
- 2, which was when programming was scheduled to begin.
+The customer had a very clear requirement that the project result in a mobile
+ application for iOS.
+ In addition, the customer saw it as a bonus if this app can easily be extended
+ to additional platforms, for example android, either by this group, if
+ time allows it, or by another developer.
+ For this to be a possibility, an Apple developer license had to be provided,
+ in addition to at least one Mac for code building purposes.
+ Depending on the choice of tool, additional licenses might be necessary.
+ All this had to be provided by the customer at the absolute latest at the
+ start of sprint 2, 18.09.2013, which is when development is scheduled for
+ full start.
 \end_layout
 
 \begin_layout Standard
-The specific tools for developing this application were scheduled to be
- determined together with the customer on 04.09.2013.
+The specific tools for developing this application was scheduled to be determine
+d together with the customer on 04.09.2013.
  Many frameworks had been investigated and tested, and prior to the meeting,
  two clear alternatives remained, Xamarin
 \begin_inset CommandInset citation
@@ -677,17 +678,18 @@ key "appcelerator"
 \end_inset
 
 .
- Both alternatives provided cross-platform development had the possibility
- of creating applications that look and feel like native applications.
+ The reason for this was that these two both provided cross-platform development
+ and that they had the possibility of creating applications that look and
+ feel like native applications.
  In order to make the applcation look and feel native, a separate user interface
- would have to be developed for each platform, but the customer thought
- that this was an acceptable tradeoff, sacrificing some development time
- for the option for cross-platform possibility.
- While Titanium is a free tool, Xamarin requires a license for each developer.
+ have to be developed for every platform, but the customer thought that
+ this was an acceptable tradeoff, sacrificing some development time for
+ the option for cross-platform possibility with a native look and feel.
+ While Titanium is a free tool, Xamarin requires a license of each developer.
  Both require the use of a Mac for building the application, but Xamarin
- allows doing this remotely.
- This could prove a significant advantage, since accessibility to Mac computers
- was limited.
+ allows doing this remotely from a non-mac.
+ This could be a large advantage since we would probably only get access
+ to one Mac.
 \end_layout
 
 \begin_layout Subsubsection
@@ -696,39 +698,38 @@ Planned effort
 
 \begin_layout Standard
 TDT4290 Customer Driven Project is a course that rewards 15 credits.
- The course compendium suggests that we work 25 hours each week.
- The project was started on August 21 and will conclude on November 21,
- which entails a run-time of 14 weeks.
- Three team members working 25 hours each week for 14 weeks brought this
- to a total of (3 x 25 x 14=) 1050 hours.
- While the actual time spent is covered in the evaluation section of the
- following report, this (1050 hours) was a working estimate that was suitable
- for our purposes.
- 
+ The course compendium suggests that we work 25 hours a week.
+ The project was started on August 21.
+ and will be concluded on November 21.
+ This means that it will run for 14 weeks.
+ Three team members and 14 weeks brings this to a total of 3 x 25 x 14=1050
+ hours.
+ This is of course the estimated time we will spend, the actual time spent
+ will be covered in the evaluation part of this report.
 \end_layout
 
 \begin_layout Standard
-Regular working hours were Wednesdays, Thursdays and Fridays from 9.00 to
- 16.00; these were the times that best coincided with the three team members'
- existing schedules.
- Three full days each week reserved for working on the project was advantageous
- in that it allowed for greater communication and cooperation than trying
- to collaborate over the internet.This schedule also left the possibility
- to meet Mondays and/or Tuesdays should any unforeseen critical issues have
- arisen.
+Working hours: Our normal working hours will be Wednesdays, Thursdays and
+ Fridays from 9.00 to 16.00.
+ These days and hours was chosen based on the group members existing schedule.
+ Having three days every week where the entire day is reserved for working
+ on our project is very beneficial and will enable us to work closely together
+ and not be limited to electronic communication which sometimes can slow
+ down the flow of information.
+ Having this schedule also leaves us open to meet Mondays and/or Tuesdays
+ should any unforeseen critical issues arise.
 \end_layout
 
 \begin_layout Standard
-Our working hours did not conclude when the product was delivered to the
- customer, but continued until the final report was delivered.
+Our working hours does not conclude when the product is delivered to the
+ customer, but continues all the way until the final report is delivered.
 \end_layout
 
 \begin_layout Standard
-The plan was to deliver the final product to the customer on the 13th of
- November.
- This would leave us with a week to focus solely on the report.
- It should be noted that the report has been continuously updated as the
- project developed as well.
+We are planning to deliver the final product to the customer 13th of November,
+ that leaves us with a week to focus solely on the report.
+ It should be noted that the report will be continuously updated as the
+ project develops as well.
  
 \end_layout
 
@@ -747,20 +748,20 @@ Work breakdown structure
 \end_layout
 
 \begin_layout Standard
-On the August 21st the group met the customer for the first time and started
+On the August 21th the group met the customer for the first time and started
  working.
- The planning and pre-study phase was planned to last for four weeks, since
- we knew early on that we did not have the required equipment (Mac).
- The planning phase included planning the project, requirements specification,
+ The planning and pre study phase was planned to last for four weeks, since
+ we early knew that we did not have the required equipment (Mac).
+ The planning phase contained planning the project, requirements specification,
  risk analysis, design of GUI and architecture.
- The pre-study phase included planning, management and researching the technolog
-ies needed for the project.
- The group planned to have 4 sprints of 2 weeks' duration each.
- Four sprints fit perfectly into the time limit, and by this plan, work
- efficiency would be maximized.
- Each sprint included a planning phase, an implementation phase, and a testing
- phase.
- The table below gives an general outline of the sprints.
+ The pre study phase contained planning, management and researching the
+ technologies needed for the project.
+ The group planned to have 4 sprints, each going over 2 weeks.
+ This was because of the time limit, 4 sprints fit exactly into the schedule,
+ and we could get as much work done as possible.
+ Each sprint will contain a planning part, an implementation part, and a
+ testing part.
+ The table below gives an overall description of the sprints.
 \begin_inset Float table
 wide false
 sideways false
@@ -1033,11 +1034,15 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
-The work breakdown structure can be seen below in Figure 1.
+The work breakdown structure can be seen in Figure 1
 \begin_inset Float figure
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1061,6 +1066,10 @@ Project Plan
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -1071,8 +1080,7 @@ Milestones
 \end_layout
 
 \begin_layout Standard
-The table below decribes each of the planned milestones and its expected
- completion date for the project.
+The table below decribes all the planned milestones for the project.
 \begin_inset Float table
 placement H
 wide false
@@ -1501,16 +1509,15 @@ Organization
 \end_layout
 
 \begin_layout Standard
-This section will discuss the organization of the group, and the reasoning
- behind such organization.
+This section describes how the group is organized and why.
 \end_layout
 
 \begin_layout Standard
-At the beginning of the project, we had a quick discussion of each group
- member’s previous experience, skills and interests.
- This became the basis for role assignments, so that each group member's
- strengths were best utilized.
- The group members' individual strengths are showed in the table below.
+At the beginning of the project we had a quick summary of each group member’s
+ previous experience, skills and interests.
+ This made the basis for role assignments, so that we best could utilize
+ each group member’s strengths.
+ The individual group members' strenghts are showed in the table below.
 \end_layout
 
 \begin_layout Standard
@@ -1816,16 +1823,17 @@ Each team member's strenght
 \end_layout
 
 \begin_layout Standard
-Since the group only consisted of three people, each group member was responsibl
-e for more than one role.
+Since the group only consisted of three people, each group member got more
+ than one responsibility or role.
  The roles were assigned based on the strength table, and a couple of other
  factors.
- Stian, for example, was assigned as test manager at the beginning, but
- was busy with development at the core of the test phase, so Kristoffer
- eventually took over that role.
- Stian ultimately took responsibility for Kristoffer's administrative assitant
- role, resulting in an exchange of roles between them.
- 
+ Stian was for example assigned as test manager at the beginning, but was
+ busy with development at the core of the test phase, so Kristoffer eventually
+ took over that role.
+ For administrative assistant, it was the opposite.
+ Kristoffer was sick a couple of days when the group where in need of someone
+ to take notes from a couple of meetings, so Stian stepped in, and took
+ over that job.
 \end_layout
 
 \begin_layout Standard
@@ -1895,7 +1903,7 @@ Marthe F.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsible for task assignment, organizing meetings and agendas for meetings.
+Responsible for task assignment, organizing meetings and agenda for meetings.
 \end_layout
 
 \end_inset
@@ -1925,9 +1933,9 @@ Marthe F.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsible for keeping customer and supervisor up-to-date regarding project
+Responsible for keeping customer and supervisor up to date regarding project
  status, and also being the go-to person when the customer or the supervisor
- had any questions or information for the group.
+ has any questions or information for the group.
 \end_layout
 
 \end_inset
@@ -1956,8 +1964,8 @@ Stian Weie
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsible for making sure that oral information was documented and that
- no communication and information got lost and/or forgotten.
+Responsible for making sure that oral information gets documented and that
+ no communication and information gets lost and/or forgotten.
  
 \end_layout
 
@@ -1987,8 +1995,8 @@ Kristoffer Hagen
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsible for supervising that the report was kept up to date.
- Making certain that the report was ready for delivery and that it met the
+Responsible for supervising that the report is being kept up to date.
+ Making sure that the report is ready for delivery and that it meets the
  technical requirements.
  
 \end_layout
@@ -2048,8 +2056,8 @@ Stian Weie
 \begin_inset Text
 
 \begin_layout Plain Layout
-Responsible for technical research and making certain technical difficulties
- were solved.
+Responsible for technical research and making sure technical difficulties
+ are solved.
 \end_layout
 
 \end_inset
@@ -2118,15 +2126,13 @@ Risk Management
 \end_layout
 
 \begin_layout Standard
-To prepare for contingencies that might occur during the project, the group
- identified risks and potential plans to solve them.
- For each risk there were some proactive efforts, which stated what to do
- to prevent the risks from realizing.
- There were also reaactive efforts which stated what to do if the risks
- had occurred.
- The deadline indicates the time period in which each potential risk could
- have occured.
- Probability of each risk's occurence, and the severity of its consequences,
+To prepare for unfortunate events that might occur during the project the
+ group identified risks and figured out how to solve them.
+ For each risk there are some pro-active efforts, which states what to do
+ to prevent that the risks arise, and there are re-active efforts which
+ states what to do if the risks has occurred.
+ The deadline is when the risk can arise.
+ Probabilities for the risks to occur, and the severity of consequences
  are denoted by H for ’high’, M for ’medium’ and L for ’low’.
 \end_layout
 
@@ -2135,7 +2141,7 @@ Risk handling
 \end_layout
 
 \begin_layout Standard
-In the table below, some project risks are identified.
+In the table below there are identified some risks for this project.
 \end_layout
 
 \begin_layout Standard
@@ -2143,6 +2149,10 @@ In the table below, some project risks are identified.
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -2164,6 +2174,10 @@ Risk Analysis
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -2171,7 +2185,7 @@ Risk Analysis
 
 \begin_layout Standard
 The risk matrix gives a better picture of how severe the risks for the project
- were.
+ are.
  
 \end_layout
 
@@ -2211,8 +2225,8 @@ Project Communication
 \end_layout
 
 \begin_layout Standard
-To ensure high quality communication, we agreed on some guidelines with
- the customer, supervisor and within the group for the project lifetime.
+To ensure a certain quality, we agreed on some guidelines with the customer,
+ supervisor and within the group during the project lifetime.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2220,32 +2234,31 @@ Customer interaction
 \end_layout
 
 \begin_layout Itemize
-The customer was located in Trondheim, and the meetings would be held at
- NTNU every other week on Wednesdays at 08:00.
+The customer is located in Trondheim, and the meetings will be held at NTNU
+ every other week on Wednesdays at 08:00.
 \end_layout
 
 \begin_layout Itemize
-The agenda for the meeting was to be sent to the customer by 12:00 on the
- Tuesday before the meeting.
+The agenda for the meeting is to be sent to the customer by 12, noon, Tuesday
+ before the meeting.
 \end_layout
 
 \begin_layout Itemize
-The minutes of the meeting were to be sent to the customer the same day
- as the meeting.
+The minutes of the meeting is to be sent to the customer the same day as
+ the meeting.
 \end_layout
 
 \begin_layout Itemize
-Approval of minutes of customer meetings wereis to be sent as soon as possible,
- with a maximum of 48 hours.
+Approval of minutes of customer meetings is to be sent as soon as possible,
+ max 48 hours.
 \end_layout
 
 \begin_layout Itemize
-Approval of phase documents was to be completed as soon as possible, with
- a maximum of 48 hours.
+Approval of phase documents is to be done as soon as possible, max 48 hours.
 \end_layout
 
 \begin_layout Itemize
-Answering e-mails was to be completed as soon as possible.
+Answer e-mails is to be done as soon as possible.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2253,29 +2266,29 @@ Supervisor interaction
 \end_layout
 
 \begin_layout Itemize
-The meetings with the advisor would be held on Wednesdays at 09:30 at the
+The meetings with the advisor will be held on Wednesdays at 09:30 at the
  start of the project.
 \end_layout
 
 \begin_layout Itemize
-From September 20 and onwards, meetings would be held on Fridays at 12:15.
- This is because our sprints start on Wednesdays, so it would be more convenient
+From September 20 and onwards, meetings will be held on Fridays at 12:15.
+ This is because our sprints starts at Wednesdays, so it will be more convenient
  to have it in the middle of a sprint, as opposed to the start, when we
- have more questions and challenges.
- It is also easier to come on track during the development.
+ have more questions and challenges, and it is easier to come on track in
+ the development.
 \end_layout
 
 \begin_layout Itemize
-The meetings would last an hour, or as long as needed.
+The meetings should last an hour, or as long as needed.
 \end_layout
 
 \begin_layout Itemize
-The minutes for the meeting were to be created the same day as the meeting.
+The minutes for the meeting is to be created the same day as the meeting.
 \end_layout
 
 \begin_layout Itemize
-The minutes of the meeting with the customer were to be sent to the supervisor
- the same day as the customer meeting.
+The minutes of the meeting with the customer is to be sent to the supervisor
+ the same day as the customer meeting
 \end_layout
 
 \begin_layout Subsubsection
@@ -2287,14 +2300,14 @@ Group meetings: Wednesdays at 08:15, Thursdays at 09:15 and Fridays at 09:15
 \end_layout
 
 \begin_layout Itemize
-Unexpected absence was to be reported as soon as possible, preferably before
+Unexpected absence is to be reported as soon as possible, preferably before
  the meetings.
  
 \end_layout
 
 \begin_layout Itemize
-Planned absence was to be reported as soon as possible, so we could plan
- accordingly.
+Planned absence is to be reported as soon as possible, so we can plan accordingl
+y.
 \end_layout
 
 \begin_layout Subsection
@@ -2302,8 +2315,8 @@ Tools and Technology
 \end_layout
 
 \begin_layout Standard
-This section contains a description of all the tools and technologies used
- during the project.
+This section contains a description of all the tools and technologies we
+ used during the project.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2315,7 +2328,8 @@ Lyx and LaTeX
 \end_layout
 
 \begin_layout Standard
-The team chose to compose the report in the document markup language LaTeX
+To write the report, the team chose to write it in the document markup language
+ LaTeX
 \begin_inset CommandInset citation
 LatexCommand cite
 key "latex-project"
@@ -2330,18 +2344,18 @@ key "lyx"
 \end_inset
 
 .
- LaTeX was chosen because it is widely used in academia, and the team members
- saw this as an opportunity to familiarize themselves with the tool they
- likely will use in composing their masters.
- In addition, LaTeX generates standard, aesthetically-appealing, and highly
- customizable pdf's.
+ The reason why LaTeX was chosen is that it is widely used in academia,
+ and that the team members saw this as an opportunity to familiarize themselves
+ with the tool they likely will use when writing their master.
+ In addition, LaTeX generates standard, good looking, and highly customizable
+ pdf's.
 \end_layout
 
 \begin_layout Standard
 The reason why Lyx was chosen for writing the document, is that it provides
- the user with an easy-to-use interface that still enables the user to make
- use of all the different possibilities with LaTeX.
- Another reason was that it is open-source.
+ the user with an easy to use interface, that still enables the user to
+ make use of all the different possibilities with LaTeX, and that it is
+ open source.
 \end_layout
 
 \begin_layout Standard
@@ -2391,8 +2405,8 @@ key "google docs"
 
 \end_inset
 
- was utilized.
- The reasoning behind this is that it is very simple to use, and also that
+ was chosen.
+ The reasoning behind this is that it is very easy to use, and also that
  it allows different people to modify and view others' modifications in
  real-time.
 \end_layout
@@ -2405,9 +2419,9 @@ key "google drive"
 
 \end_inset
 
- was utilized.
+ was chosen.
  Google Docs is very closely integrated with Google Drive, so Google Drive
- was the obvious solution for the team.
+ became the obvious solution for the team.
 \end_layout
 
 \begin_layout Paragraph
@@ -2424,12 +2438,12 @@ key "violetumleditor"
 
  is a cross-platform, easy to learn and use, UML editor, which draws nice
  and standard looking UML diagrams.
- It was chosen because it seemed simpler and more light-weight that other
+ It was chosen because it seemed more simple and light-weight that other
  similar tools.
 \end_layout
 
 \begin_layout Standard
-For this project, Violet UML editor was used to draw the use case diagrams,
+For this project, Violet UML editor is used to draw the use case diagrams,
  sequence diagrams and class diagram.
 \end_layout
 
@@ -2446,8 +2460,8 @@ key "VisualER"
 \end_inset
 
  is a very simple Java based tool to create ER diagrams.
- The team used Visual ER because it was developed by NTNU students, is very
- simple to use, and because we have had good experiences with it from other
+ The team uses Visual ER because it was developed by NTNU students, is very
+ easy to use, and that the students have good experience with it from other
  courses.
 \end_layout
 
@@ -2465,8 +2479,8 @@ key "balsamiq"
 
  mockups is a tool for creating GUI mockups.
  It enabled us to quickly create our initial GUI and then easily modify
- it as we, or the customer, felt any changes were needed or had another
- improvement that needed to be made.
+ it as we, or the customer, felt any changes was needed or had another improveme
+nt that needed to be made.
  We chose Balsamiq mockups because it had a free trial period, had support
  for creating iPhone GUIs and offered a simple, intuitive and easy to learn
  interface for creating and modifying GUI drafts.
@@ -2479,8 +2493,8 @@ Administration
 \begin_layout Standard
 Many of these choices were made because all the group members had experience
  using these tools and they all provided the features we required.
- The selection of familiar tools enabled us to put more time into actual
- development and less time into learning new auxiliary tools.
+ The selection of already familiar tools enabled us to put more time into
+ actual development and less time into learning new auxiliary tools.
 \end_layout
 
 \begin_layout Paragraph
@@ -2509,12 +2523,12 @@ wall
  In addition, the Facebook's chat function was used for instant messaging
  between team members.
  As a second option we all shared our personal mobile phone numbers so that
- we could get in touch in cases of urgency.
+ we could get in touch should something be urgent.
 \end_layout
 
 \begin_layout Standard
-The reason that the team used Facebook was that all team members had experience
- with Facebook, and were accustomed to checking it regularly.
+The reason why the team used Facebook was that all team members had experience
+ with Facebook, and was used to checking it regularly.
 \end_layout
 
 \begin_layout Paragraph
@@ -2522,21 +2536,23 @@ TeamViewer
 \end_layout
 
 \begin_layout Standard
-To utilize a Mac, the team had remote access to one of the customer's own
- iMacs.
- The team used TeamViewer
+To access the iMac the team is borrowing from the customer remotely, the
+ team used TeamViewer
 \begin_inset CommandInset citation
 LatexCommand cite
 key "teamviewer"
 
 \end_inset
 
-, a simple software for controlling computers remotely over the Internet.
+.
+ TeamViewer is a simple software for controlling computers remotely over
+ the Internet.
 \end_layout
 
 \begin_layout Standard
-The team used TeamViewer, because it was free to use (non-comercially),
- easy to set up, and the team members already had some experience with it.
+The reason why the team uses TeamViewer, is that it is free to use (non-comercia
+lly), easy to set up, and that the team members already have some experience
+ with it.
 \end_layout
 
 \begin_layout Standard
@@ -2588,9 +2604,9 @@ key "rally"
 \end_inset
 
  is a cloud-based solution for managing the agile development lifecycle,
- such as assigning user stories/tasks to sprints and developers.
- We chose to use Rally because it is relatively easy to use, and because
- it is free for students.
+ such as assigning user stories/tasks to sprints, and to developers.
+ We chose to use Rally because it is relatively easy to use, and that it
+ is free for students.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2621,9 +2637,9 @@ key "eclipse"
 \begin_layout Standard
 To decide on the platform and tools to use, the team spent a lot of time,
  together with the customer, evaluating different options.
- Since the customer had very specific requirements, not many available options
- were sufficient.
- The customer's requirements were, in short, as follows:
+ Since the customer had very clear requirements, not many available options
+ were actually sufficient.
+ The customer's requirements was in short that:
 \end_layout
 
 \begin_layout Itemize
@@ -2653,38 +2669,45 @@ The application should have (close to) the same performance as if written
 
 \begin_layout Standard
 Given these very specific, and quite demanding, requirements, the team was
- only able to find a couple of legitimate options.
- Ultimately, these options consisted of Titanium, which was chosen, and
- Xamarin.
- Xamarin is a tool similar to Titanium, except that it uses code written
+ only able to find a couple of valid options.
+ These options were in the end Titanium, which was chosen, and Xamarin.
+ Xamarin is a quite similar tool to Titanium, except that it uses code written
  in C# instead of JavaScript.
- Despite the fact that the team had more experience with C#, Titanium was
- chosen because it is completely free to use, while Xamarin requires a license.
- Several other options, like PhoneGap, Marmalade and other native apps were
- evaluated, but none fit the customer's requirement.
- PhoneGap, for example, had neither native performance nor 
+ Despite that the team had more experience with C#, Titanium was chosen
+ because that it is completely free to use, while Xamarin requires a license.
+ Several other options, like PhoneGap, Marmalade and native apps was evaluated,
+ but none fit the customer's requirement.
+ PhoneGap, for example, have neither native performance nor 
 \begin_inset Quotes eld
 \end_inset
 
-look and feel,
+look and feel
 \begin_inset Quotes erd
 \end_inset
 
- while writing the app in native code for iOS and Android would take too
+, while writing the app in native code for iOS and Android would take too
  much time.
  Marmalade, together with Xamarin, cost too much for the customer, given
- that nearly-comparable tools existed and were free.
+ that (almost) 
+\begin_inset Quotes eld
+\end_inset
+
+equally good
+\begin_inset Quotes erd
+\end_inset
+
+ tools existed and were free.
  Even though Titanium is not 
 \begin_inset Quotes eld
 \end_inset
 
-write once, run everywhere,
+write once, run everywhere
 \begin_inset Quotes erd
 \end_inset
 
- it came closest to meeting all the customer's needs (weighing pricing quite
- heavily), so it was chosen.
- If the code was written carefully, a significant part of it should be re-usable
+, it came closest to meeting all the customer's need (when weighing pricing
+ quite heavy), so it was chosen.
+ If the code is written very carefully, a big part of it should be re-usable
  between iOS and Android.
 \end_layout
 
@@ -2697,7 +2720,7 @@ key "JavaScript"
 \end_inset
 
  is a prototype-based scripting language with dynamic typing.
- It is commonly used to make web pages dynamic, but in this case is compiled
+ It is commonly used to make web pages dynamic, but is in this case compiled
  down to native code for mobile platforms by Titanium.
 \end_layout
 
@@ -2752,16 +2775,16 @@ key "php"
 \end_layout
 
 \begin_layout Standard
-For this project, PHP was used as a tiny layer between the mobile application
+For this project, PHP is used as a tiny layer between the mobile application
  and the database.
  Since Titanium does not support communication with external (My)SQL servers,
- the app would communicate with a simple script that reads data from the
- database and sends it to the app.
+ the app will communicate with a simple script that reads data from the
+ database, and sends it to the app.
 \end_layout
 
 \begin_layout Standard
-The reason that PHP was chosen was that it is very simple to use for small
- scripts, and that it is well-documented.
+The reason why PHP was chosen is that it is very simple to use for small
+ scripts, and that it is well documented.
 \end_layout
 
 \begin_layout Paragraph
@@ -2782,15 +2805,15 @@ key "json"
 \end_layout
 
 \begin_layout Standard
-For this project, JSON was used for the communication between the PHP script
+For this project, JSON is used for the communication between the PHP script
  and the mobile applications.
- The JSON objects themselves were structured exactly the same as internally
+ The JSON objects themselves is structured exactly the same as internally
  in the database.
 \end_layout
 
 \begin_layout Standard
-The reason that JSON is used for this communication was that it is very
- well-supported in both PHP and JavaScript, and is simple to use.
+The reason why JSON is used for this communication is that it is very well
+ supported in both PHP and JavaScript, and very easy to use.
 \end_layout
 
 \begin_layout Paragraph
@@ -2805,28 +2828,28 @@ key "mysql"
 
 \end_inset
 
- is a very well-known SQL database, and, in their own words, 
+ is a very well-known SQL database, and by their own words 
 \begin_inset Quotes eld
 \end_inset
 
-the world's most popular open source database.
+The world's most popular open source database
 \begin_inset Quotes erd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-MySQL was used on this project for storing the categories, and their relations
+MySQL is used on this project for storing the categories, and their relations
  (sub-categories and super-categories), the cases, and information about
- each case (e.g., which categories it belonged to), and URLs to the cases'
- media files.
- In addition, the MySQL database stored all user information.
+ each case (e.g.
+ which categories it belong to), and URL's to the cases' media files.
+ In addition, the MySQL database store all user information.
 \end_layout
 
 \begin_layout Standard
-The reason that the team used MySQL was that it is free to use.
- Additionally, all team members have had prior experience with it.
+The reason why the team uses MySQL is that it is free to use, and that all
+ team members have good experience with it beforehand.
 \end_layout
 
 \begin_layout Paragraph
@@ -2842,12 +2865,13 @@ key "apache"
 \end_inset
 
  is a very common web server.
- It is free to use, very easy to set up, and works very well with PHP.
+ It is free to use, very easy to set up and works very well with PHP.
 \end_layout
 
 \begin_layout Standard
-The Apache HTTP Server was used in this project to host the media files
- for the cases, and also to host the PHP script (see above).
+The Apache HTTP Server is used in this project to host the media files for
+ the cases, and also host the PHP script which is a thin layer between the
+ MySQL database and the mobile application.
 \end_layout
 
 \begin_layout Paragraph*
@@ -2865,9 +2889,9 @@ key "Java_(programming_language)"
  is a concurrent, class-based and object-oriented programming language that
  is designed to run on as many platforms as possible.
  We chose to use Java to develop the admin tool, mainly because of the cross-pla
-tform feature, but also because all the team members have programmed in
- Java before, and it was the language all the team members were most comfortable
- with.
+tform feature, but also because all the team members have programmed a lot
+ in Java before, and it was probably the language all the team members was
+ the most comfortable with.
 \end_layout
 
 \begin_layout Paragraph
@@ -2882,12 +2906,12 @@ Eclipse is a multi-language integrated development environment (IDE).
 \end_layout
 
 \begin_layout Standard
-We chose to use Eclipse for Java development because it is easy to use,
- but it also has many handy functions.
- All team members was also more familiar with Eclipse, than for example,
+We chose to use Eclipse for Java development because it is very easy to
+ use, but it also has many handy functions.
+ All team members was also more familiar with Eclipse, than for example
  NetBeans.
  Pure text editors like Notepad++, vim, Emacs, etc.
- were also considered, but ruled out, due to their lack of auto-completion
+ was also considered, but ruled out, because of their lack of auto-completion
  of code, which both Eclipse and NetBeans support.
 \end_layout
 
@@ -2900,15 +2924,15 @@ Git and GitHub
 \end_layout
 
 \begin_layout Standard
-We used Git
+We use Git
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Git-scm"
 
 \end_inset
 
- for version control, both for the textual documents and source code.
- The Git server we used is GitHub
+ for versioning control, both for the textual documents and source code.
+ The Git server we use is GitHub
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Github"
@@ -2917,9 +2941,9 @@ key "Github"
 
 .
  Git is a distributed revision control and source code management system.
- We use Git for version control because it is simple to use, it provides
+ We use Git for versioning control because it is quite easy to use, it provides
  both a shell and a GUI, and the team members were already familiar with
- it, as opposed to, for example, SVN 
+ it, as opposed to for example SVN 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "subversion"
@@ -2939,24 +2963,24 @@ key "svnvsgit"
 \end_layout
 
 \begin_layout Standard
-The reason why we used GitHub as the Git server, is that it was free to
- use, required no personal servers, and that it provided a very useful web
- site to manage pull requests, issues, etc.
- The project's GitHub repository may be found at http://Github.com/stianwe/USNeur
+The reason why we use GitHub as the Git server, is that it is free to use,
+ requires no personal servers, and that it provides a very useful web site
+ to manage pull requests, issues, etc.
+ The project's GitHub repository can be found at http://Github.com/stianwe/USNeur
 oNav.
 \end_layout
 
 \begin_layout Standard
-With Git every group member had a copy of the repository locally, and synchroniz
-ed their repositories through the server.
- We chose to use Git because it ensured that all group members could work
+With Git every group member has a copy of the repository locally, and synchroniz
+es their repositories through the server.
+ We chose to use Git, since this ensures that all group members can work
  on the code and report, regardless of the status of the server.
- This also meant that we had many backups of the entire repository if something
- went wrong, so the team can ensure that all the files are up-to-date and
- no information was lost during the project.
+ This also means that we have many backups of the entire repository if something
+ goes wrong, so the team can ensure that all the files are up to date and
+ no information is lost during the project.
  It is necessary to work on up-to-date data, especially when two people
- are working on the same file; it was important to ensure that they didn't
- inadvertently destroy one another's work.
+ are working on the same file, so it is important to avoid that they can
+ destroy each others’s work without knowing it.
  Git supports quick branching and merging, and includes specific tools for
  navigating a non-linear development history.
 \end_layout
@@ -2976,11 +3000,11 @@ Names
 
 \begin_layout Standard
 When writing ordinary names of variables, functions, classes, etc., camel
- case was used.
+ case is used.
  Camel case means that the word is not divided by space, but each new word
  starts with an upper case character.
  Example: ThisIsAnExampleOfCamelCase.
- Constants, on the other hand, were written with all uppercase characters,
+ Constants, on the other hand, is written with all characters as upper case,
  with underscore to separate words.
  See table below for details.
 \end_layout
@@ -3140,9 +3164,8 @@ Preliminary Studies
 
 \begin_layout Standard
 This section will give a description of the current situation, the desired
- solution, alternate solutions, their evaluation, and our ultimate choice
- of solution.
- 
+ solution, alternate solutions and evaluation of them and in the end our
+ choice of solution.
 \end_layout
 
 \begin_layout Subsection
@@ -3151,9 +3174,9 @@ Current Situation
 
 \begin_layout Standard
 Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
- medical personnel prefer in pre-operative evaluation.
- The reason for this is that it is relatively easy to understand, and also
- to identify tumors and other potential medical obstacles.
+ medical personell prefer when evaluating before a surgical operation.
+ The reason for this is that it is relatively easy to understand, and identify
+ tumors etc.
  The figure below shows a typical MRI machine.
 \end_layout
 
@@ -3162,6 +3185,10 @@ Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -3184,37 +3211,43 @@ MRI
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
-Recently, however, there has been speculation on the use of DS (Diagnostic
+Recently, however, there has been several good reasons to use DS (Diagnostic
  Sonography) (ultrasound) either instead of MRI, or together with MRI.
- The main incentive for this is that DS is much cheaper, and also more flexible,
- since the MRI requires its own dedicated room, while DS is mobile and can
- be moved from room to room.
- It is therefore easier to perform a new intraoperative scan with DS than
- MRI.
- The fact that surgeons can now obtain real-time updates on what the conditions
- inside the body are, is extremely advantageous.
- As an example, DS can determine whether there are any remnants of a tumor
- still inside the body.
- On the other hand, DS is much harder to understand.
+ The main incentives for this is that DS is much cheaper, and also more
+ flexible, since the MRI requires a whole dedicated room, while DS can be
+ moved from room to room, and therefore easily do a new scan during surgeries.
+ The fact that surgeons now can get real-time updates on what the conditions
+ inside the body are, is useful to know for example.
+ if it is any remnants left after a tumor.
+ DS, however, is much harder to understand.
  Therefore, MRI is still preferred by many doctors, since it is what they
- accustomed to and familiar with.
- Younger doctors who have only recently graduated from medical school do
- get some training there, and therefore are more adaptable to the new use
- of DS.
- The main problem with the current situation is simply that experienced
- doctors have no understanding of the new way of using DS, and, unfortunately,
- very few opportunities to learn how to do so.
+ are used to, and what is considered 
+\begin_inset Quotes eld
+\end_inset
+
+easy
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Fresh doctors which recently graduated from medical school however, get
+ some training there, and therefore adapt better to the new use of DS.
+ The main problem with the current situation is therefore that experienced
+ doctors have no experience with the new way of using DS, and also very
+ limited possibilities of learning it.
 \end_layout
 
 \begin_layout Standard
 The figure below shows a typical image from an surgical operation.
- The leftmost image is an MRI, and the middle image is an ultrasound of
- the area represented by the rectangle in the leftmost image.
- The rightmost image is a skull with a representation of where the images
- were taken in the brain.
- 
+ From the left there is a MRI image, in the middle is an ultrasound image,
+ which is the square in the MRI image.
+ To the right is a skull that shows where the images were taken in the brain.
 \end_layout
 
 \begin_layout Standard
@@ -3245,6 +3278,10 @@ MRI-Ultrasound image
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
