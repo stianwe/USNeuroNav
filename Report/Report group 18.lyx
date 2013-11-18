@@ -2459,6 +2459,27 @@ key "VisualER"
 \end_layout
 
 \begin_layout Paragraph
+GanttProject
+\end_layout
+
+\begin_layout Standard
+GanttProject
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ganttproject"
+
+\end_inset
+
+ is a cross-platform desktop tool for project scheduling and management.
+ It gives the ability to create Gantt chart, work breakdown structure, draw
+ dependencies between the tasks, and define milestones.
+ It can also assign human resources to work on tasks.
+ We chose this because it looked simple to use, had all the functionality
+ we needed and it drew a decent locking Gantt chart.
+ 
+\end_layout
+
+\begin_layout Paragraph
 Balsamiq mockups 
 \end_layout
 
@@ -3585,8 +3606,6 @@ It is for iOS devices, which makes it portable.
 
 \begin_layout Plain Layout
 It was only meant to be a prototype with basic functionality.
- It could not be published on iTunes App Store, since we did not have the
- required licenses.
 \end_layout
 
 \end_inset
@@ -10273,10 +10292,10 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="4">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="9text%">
-<column alignment="left" valignment="top" width="45text%">
+<column alignment="left" valignment="top" width="15text%">
+<column alignment="left" valignment="top" width="34text%">
 <column alignment="left" valignment="top" width="18text%">
-<column alignment="left" valignment="top" width="12text%">
+<column alignment="left" valignment="top" width="15text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -10355,7 +10374,7 @@ Component diagram
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10364,7 +10383,7 @@ Logical view
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10374,7 +10393,7 @@ The logical view describes the functionality that the system provides towards
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10383,7 +10402,7 @@ To create an overview of the system
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -13521,7 +13540,7 @@ Testing
 \end_layout
 
 \begin_layout Standard
-The following tests where executed on October 27th 2013.
+The following tests where executed on September 27th 2013.
 \end_layout
 
 \begin_layout Standard
@@ -16665,7 +16684,7 @@ Testing
 \end_layout
 
 \begin_layout Standard
-The following tests where executed on October 29th 2013.
+The following tests where executed on October 28th 2013.
 \end_layout
 
 \begin_layout Standard
@@ -23194,6 +23213,27 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.idi.ntnu.no/emner/tdt4145/programvare/VisualER/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ganttproject"
+
+\end_inset
+
+GanttProject 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.ganttproject.biz/
 \end_layout
 
 \end_inset
