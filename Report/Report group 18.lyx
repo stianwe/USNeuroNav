@@ -21479,7 +21479,7 @@ In this section the evaluation of the group, project and technology are
 \end_layout
 
 \begin_layout Subsection
-Process evaluation
+Process and Group Evaluation
 \end_layout
 
 \begin_layout Subsubsection
@@ -21522,17 +21522,17 @@ The main communication channel with the supervisor was mail and our regular
 \end_layout
 
 \begin_layout Subsubsection
-Roles and group work
+Actual effort
 \end_layout
 
 \begin_layout Standard
 Being only three people on a project that, to us, seemed intended for 5-6
  people was daunting at the start of the project.
- Due to a misestimation our (and other) group ended up being about half
+ Due to a misestimation our (and other) groups ended up being about half
  the intended size.
  After a discussion with the course responsibles we accepted the fact that
- we would have to complete the course with only thee members and tried to
- work around it.
+ we would have to complete the course with only three members and tried
+ to work around it.
  Wheather or not the customers were informed of the smaller group size but
  an unfortunate consequence of this was that we simply had too little manhours
  to complete all the features the customer wanted in the project.
@@ -21542,28 +21542,6 @@ Being only three people on a project that, to us, seemed intended for 5-6
  Despite the smaller workforce we got off to a good start as all members
  were motivated to do a good job and we all shared a similar goal and agreed
  on the amount of work to put into the project.
-\end_layout
-
-\begin_layout Subsubsection*
-Roles
-\end_layout
-
-\begin_layout Standard
-We specified, in the planning chapter, different roles for the the three
- member of the group, with different responsabilities and tasks.
- We quickly realized however that with such a small group the tasks and
- responsibilities would be very floating and vary from day to day.
- I light of this, we still tried to keep our role assignments as a general
- guideline, but we decided to not take our roles too literally and rather
- just communicate frequently about what we were doing and who was responsible
- for what.
- In retrospect we believe that this cause us to be more efficient and spend
- less time on delegating work and coordinating our efforts.
- 
-\end_layout
-
-\begin_layout Subsubsection*
-Actual time used
 \end_layout
 
 \begin_layout Standard
@@ -21755,7 +21733,7 @@ Report
 \begin_inset Text
 
 \begin_layout Plain Layout
-441
+451
 \end_layout
 
 \end_inset
@@ -21813,7 +21791,7 @@ Sum
 \begin_inset Text
 
 \begin_layout Plain Layout
-1081
+1091
 \end_layout
 
 \end_inset
@@ -21827,7 +21805,7 @@ Sum
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Actual time use
+Actual time used
 \end_layout
 
 \end_inset
@@ -21841,7 +21819,7 @@ Actual time use
 \end_layout
 
 \begin_layout Standard
-As can be seen we finished the project with 1081 person-hours spent, just
+As can be seen we finished the project with 1091 person-hours spent, just
  abit above of the estimated time, with the biggest difference being the
  report taking more time then expected.
  The following figure shows our activity on Github, which isnt a one-to-one
@@ -21888,10 +21866,24 @@ Github activity
 During the late parts of the project we had to work overtime to get all
  our tasks done, this was not very unexpected and we feel that our estimation
  was reasonably good.
- We feel however that the course recommandation of 25 hours of work per
- week might have been abit high as it somewhat affected the amount of time
- the groupmembers had left for other work and extracurricular activities.
- (Maybe in personal evaluation) REMOVE THIS AFTER.
+\end_layout
+
+\begin_layout Subsubsection
+Roles
+\end_layout
+
+\begin_layout Standard
+We specified, in the planning chapter, different roles for the the three
+ member of the group, with different responsabilities and tasks.
+ We quickly realized however that with such a small group the tasks and
+ responsibilities would be very floating and vary from day to day.
+ I light of this, we still tried to keep our role assignments as a general
+ guideline, but we decided to not take our roles too literally and rather
+ just communicate frequently about what we were doing and who was responsible
+ for what.
+ In retrospect we believe that this cause us to be more efficient and spend
+ less time on delegating work and coordinating our efforts.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -23343,7 +23335,7 @@ key "unit testing"
 
 Microsoft Developer Network 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -23385,7 +23377,7 @@ key "test_flight"
 
 Test Flight 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
