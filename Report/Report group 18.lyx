@@ -763,6 +763,9 @@ ies needed for the project.
  Each sprint included a planning phase, an implementation phase, and a testing
  phase.
  The table below gives an general outline of the sprints.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -1035,7 +1038,8 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
-The work breakdown structure can be seen to the left in the figure below.
+The work breakdown structure can be seen to the left in the gantt chart
+ below.
  To the right is the tasks distributed over time, with the arrows showing
  the connection between them.
 \end_layout
@@ -1051,7 +1055,7 @@ status open
 \begin_inset Graphics
 	filename Figures/Project plan.png
 	lyxscale 80
-	scale 80
+	height 95theight%
 	rotateAngle 90
 
 \end_inset
@@ -1060,7 +1064,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Project Plan
+Gantt Chart - Project Plan
 \end_layout
 
 \end_inset
@@ -1080,6 +1084,9 @@ Milestones
 \begin_layout Standard
 The table below decribes each of the planned milestones and its expected
  completion date for the project.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 placement H
 wide false
@@ -1809,7 +1816,7 @@ Medium
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Each team member's strenght
+Each team member's strenghts
 \end_layout
 
 \end_inset
@@ -1846,9 +1853,9 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="19text%">
 <column alignment="left" valignment="top" width="15text%">
-<column alignment="left" valignment="top" width="15text%">
-<column alignment="left" valignment="top" width="60line%">
+<column alignment="left" valignment="top" width="57line%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -1903,6 +1910,7 @@ Marthe F.
 
 \begin_layout Plain Layout
 Responsible for task assignment, organizing meetings and agendas for meetings.
+ The project manager also had the role as Scrum master.
 \end_layout
 
 \end_inset
@@ -2155,6 +2163,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Tabel figures/risklist.PNG
+	height 95theight%
 	rotateAngle 90
 
 \end_inset
@@ -10268,9 +10277,16 @@ In order to illustrate the architectural viewpoints we have decided to use
 \begin_inset Quotes erd
 \end_inset
 
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kruchten, Philippe (1995, November)"
+
+\end_inset
+
 .
  This is view model designed for "describing the architecture of software-intens
-ive systems, based on the use of multiple, concurrent views"[x].
+ive systems, based on the use of multiple, concurrent views".
  This model consists of four views of the system seen from different stakeholder
 s, in addition to use cases (the +1), in order to accurately portray the
  architecture of the system.
@@ -10292,7 +10308,7 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="4">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="15text%">
+<column alignment="left" valignment="top" width="16text%">
 <column alignment="left" valignment="top" width="34text%">
 <column alignment="left" valignment="top" width="18text%">
 <column alignment="left" valignment="top" width="15text%">
@@ -13944,7 +13960,7 @@ Underestimated time for tasks
 
 \begin_layout Plain Layout
 We did not finnish all the tasks for this sprint, and by looking at the
- burndown chart we were behind shedule during the whole sprint.
+ burndown chart we were slightly behind shedule during the sprint.
 \end_layout
 
 \end_inset
