@@ -2719,6 +2719,13 @@ status open
 
 \begin_layout Plain Layout
 TeamViewer
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TeamViewer image"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9753,7 +9760,7 @@ R1.1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Create LATEX document
+Create LaTeX document
 \end_layout
 
 \end_inset
@@ -11965,11 +11972,11 @@ The duration of sprint 1 was from 18th of September to 1th of October.
 During a large part of sprint 1, Marthe was away on a planned trip.
  To accommodate for this, Marthe had responsibility for gathering all the
  material that we currently had created in Google Drive, and put it together
- into a single LATEX document.
+ into a single LaTeX document.
  In addition, she started to looking into the test planning.
- We chose to move our report into a single LATEX document so that we had
+ We chose to move our report into a single LaTeX document so that we had
  better options for better version control, and also to familiarize ourselves
- with LATEX, as t the final report would be written in LATEX at the end.
+ with LaTeX, as t the final report would be written in LaTeX at the end.
 \end_layout
 
 \begin_layout Standard
@@ -12061,7 +12068,7 @@ The main goal of this sprint was to have a running prototype which could
  Another goal was to come to an agreement with the customer for a rough
  GUI specification.
  Finally we wanted to transfer the report over from Google Drive into a
- LATED documents, together with a plan for the overall structure for the
+ LaTeX documents, together with a plan for the overall structure for the
  report.
 \end_layout
 
@@ -13143,7 +13150,7 @@ R1.1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Create and setup LATEX document
+Create and setup LaTeX document
 \end_layout
 
 \end_inset
@@ -14024,8 +14031,8 @@ status open
 <lyxtabular version="3" rows="5" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="10page%">
-<column alignment="left" valignment="top" width="10page%">
+<column alignment="left" valignment="top" width="13page%">
+<column alignment="left" valignment="top" width="14page%">
 <column alignment="left" valignment="top" width="40text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
@@ -14122,7 +14129,7 @@ Underestimated time for tasks
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14195,7 +14202,7 @@ R2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14204,7 +14211,7 @@ Sofware issues
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14274,6 +14281,11 @@ As the customer was away travelling during the whole sprint, all contact
 
 \begin_layout Subsection
 Sprint Evaluation
+\end_layout
+
+\begin_layout Standard
+Since we only had one iMac we chose that only two people should develop
+ the system.
 \end_layout
 
 \begin_layout Standard
@@ -16772,8 +16784,7 @@ As mentioned earlier, we realized that a small program, with the purpose
  with Admin tool it is entirely automated.
  Below is a sequence diagram that illustrates the process of creating a
  new case and a new category in Admin tool.
- A more detailed description of the Admin tool is given in section INSERT
- SECTION REFERENCE HERE.
+ A more detailed description of the Admin tool is given in Appendix B.
 \end_layout
 
 \begin_layout Standard
@@ -19859,9 +19870,21 @@ Completed tests for sprint 4
 \end_layout
 
 \begin_layout Standard
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
 * If on a slow Internet connection, the application occasionally crashed
  (killed by the operating system) when browsing the images belonging to
  cases with very high quantities of images.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -20177,7 +20200,7 @@ A lot of time in sprint 4 was used to prepare for the meeting with the surgeons,
 All the time spent on the meeting resulted in fewer bugs being fixed than
  we had planned for.
  We also would have liked to have made greater progress on our report.
- This will likely result in some overtime in the last couple of weeks of
+ This would likely result in some overtime in the last couple of weeks of
  the project.
 \end_layout
 
@@ -20495,15 +20518,26 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.20.54 AM.png
-	scale 50
+	scale 40
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.12 AM.png
-	scale 50
+	scale 40
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
 \end_inset
 
 
@@ -20513,14 +20547,18 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.23.18 AM.png
-	scale 50
+	scale 40
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-14 at 10.21.34 AM.png
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -20574,14 +20612,20 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.06.56 PM.png
+	lyxscale 50
 	scale 50
 
 \end_inset
 
 
+\begin_inset space \quad{}
+\end_inset
+
+
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.24.06 PM.png
-	scale 50
+	lyxscale 49
+	scale 49
 
 \end_inset
 
@@ -20631,24 +20675,32 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.10 PM.png
-	lyxscale 40
-	scale 38
+	lyxscale 38
+	scale 36
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
-	lyxscale 40
-	scale 38
+	lyxscale 38
+	scale 36
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.06.32 PM.png
-	lyxscale 40
-	scale 38
+	lyxscale 37
+	scale 35
 
 \end_inset
 
@@ -20768,6 +20820,10 @@ status open
 	filename Figures/app_screenshots/Screen Shot 2013-11-07 at 12.07.20 PM.png
 	scale 50
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
@@ -22128,8 +22184,8 @@ When the customer came to us late in sprint 4 and wanted some changes in
 
 \begin_layout Standard
 The few small changes we made with our architecture, as discussed in 12.1
- (DOBBELTSJEKK) Final System Architecture, were to acommodate more specific
- requirements from the customer, and to simplify some implementation details.
+ (Final System Architecture) were to acommodate more specific requirements
+ from the customer, and to simplify some implementation details.
  All in all, we followed the initial architecture very closely, and were
  pleased with it.
  It also allows the web server and the database server to be set up on the
@@ -22850,7 +22906,11 @@ key "Sintef"
 
 \end_inset
 
- SINTEF 
+SINTEF
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -22872,6 +22932,10 @@ key "The National Competence Center for Ultrasound and Image Guided Therapy"
 \end_inset
 
 The National Competence Center for Ultrasound and Image Guided Therapy
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -22892,7 +22956,11 @@ key "stakeholder"
 
 \end_inset
 
-Stakeholder definition 
+Stakeholder definition
+\begin_inset space \qquad{}
+\end_inset
+
+ 
 \begin_inset Flex URL
 status collapsed
 
@@ -22913,7 +22981,11 @@ key "xamarin"
 
 \end_inset
 
- Xamarin 
+Xamarin
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -22934,7 +23006,11 @@ key "appcelerator"
 
 \end_inset
 
- Appcelerator 
+Appcelerator
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -22955,7 +23031,11 @@ key "latex-project"
 
 \end_inset
 
- Latex-project 
+LaTeX-project
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -22976,7 +23056,11 @@ key "lyx"
 
 \end_inset
 
- Lyx 
+Lyx
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -22997,7 +23081,11 @@ key "google docs"
 
 \end_inset
 
- Google docs 
+Google docs
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23018,7 +23106,11 @@ key "google drive"
 
 \end_inset
 
- Google drive 
+Google drive
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23039,7 +23131,11 @@ key "violetumleditor"
 
 \end_inset
 
- Violet UML editor 
+Violet UML editor
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23060,7 +23156,11 @@ key "VisualER"
 
 \end_inset
 
- VisualER 
+VisualER
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23081,7 +23181,11 @@ key "ganttproject"
 
 \end_inset
 
-GanttProject 
+GanttProject
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23102,7 +23206,11 @@ key "balsamiq"
 
 \end_inset
 
- Balsamiq 
+Balsamiq
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23123,7 +23231,11 @@ key "facebook"
 
 \end_inset
 
- Facebook 
+Facebook
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23144,7 +23256,11 @@ key "teamviewer"
 
 \end_inset
 
- Teamviewer 
+TeamViewer
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23161,11 +23277,40 @@ http://www.teamviewer.com
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
+key "TeamViewer image"
+
+\end_inset
+
+Wikipedia - TeamViewer image
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/TeamViewer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
 key "rally"
 
 \end_inset
 
- Rally 
+Rally
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23186,7 +23331,11 @@ key "eclipse"
 
 \end_inset
 
- Eclipse 
+Eclipse
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23207,7 +23356,11 @@ key "JavaScript"
 
 \end_inset
 
- JavaScript 
+Wikipedia - JavaScript
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23228,7 +23381,11 @@ key "php"
 
 \end_inset
 
- PHP 
+PHP
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23249,7 +23406,11 @@ key "json"
 
 \end_inset
 
- JSON 
+JSON
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23270,7 +23431,11 @@ key "mysql"
 
 \end_inset
 
- MySQL 
+MySQL
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23291,7 +23456,11 @@ key "apache"
 
 \end_inset
 
- Apache 
+Apache
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23312,7 +23481,11 @@ key "Java_(programming_language)"
 
 \end_inset
 
- Java 
+Wikipedia - Java
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23333,7 +23506,11 @@ key "Git-scm"
 
 \end_inset
 
- Git-scm 
+Git-scm
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23354,7 +23531,11 @@ key "Github"
 
 \end_inset
 
- Github 
+Github
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23375,7 +23556,11 @@ key "subversion"
 
 \end_inset
 
- Subversion 
+Subversion
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23396,7 +23581,11 @@ key "svnvsgit"
 
 \end_inset
 
-SVN versus Git 
+SVN versus Git
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23417,7 +23606,11 @@ key "MRI"
 
 \end_inset
 
-MRI 
+Wikipedia - MRI
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23438,7 +23631,11 @@ key "MRI image"
 
 \end_inset
 
-MRI image 
+MRI image
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23459,7 +23656,11 @@ key "DMS"
 
 \end_inset
 
-DMS 
+Wikipedia - DMS
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23480,7 +23681,11 @@ key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
 
 \end_inset
 
- EUS - Diagnostic and Interventional Endoscopic Ultrasound 
+EUS - Diagnostic and Interventional Endoscopic Ultrasound
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23501,7 +23706,11 @@ key "Helsinki Microneurosurgery Basics and Tricks"
 
 \end_inset
 
- Helsinki Microneurosurgery Basics and Tricks 
+Helsinki Microneurosurgery Basics and Tricks
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23522,7 +23731,11 @@ key "Waterfall Model design"
 
 \end_inset
 
- Waterfall Model design 
+Waterfall Model design
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23543,7 +23756,11 @@ key "scrum"
 
 \end_inset
 
-Scrum 
+Scrum
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23564,7 +23781,11 @@ key "scrum image"
 
 \end_inset
 
-Scrum image 
+Scrum image
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23586,7 +23807,11 @@ key "usecaseDef"
 
 \end_inset
 
-Use Case Defenition 
+Use Case Defenition
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23607,7 +23832,11 @@ key "4 + 1 model"
 
 \end_inset
 
-Kruchten, Philippe (1995, November) 
+Kruchten, Philippe (1995, November)
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23628,7 +23857,11 @@ key "unit testing"
 
 \end_inset
 
-Microsoft Developer Network 
+Microsoft Developer Network
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23649,7 +23882,11 @@ key "acceptance test"
 
 \end_inset
 
-Wikipedia - Acceptance test 
+Wikipedia - Acceptance test
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23670,7 +23907,11 @@ key "test_flight"
 
 \end_inset
 
-Test Flight 
+Test Flight
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23691,7 +23932,11 @@ key "ssh"
 
 \end_inset
 
-Wikipedia - SSH 
+Wikipedia - SSH
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -23712,7 +23957,11 @@ key "workbench"
 
 \end_inset
 
-MySQL Workbench 
+MySQL Workbench
+\begin_inset space \qquad{}
+\end_inset
+
+
 \begin_inset Flex URL
 status collapsed
 
@@ -24247,15 +24496,19 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/search.png
-	lyxscale 25
-	scale 50
+	lyxscale 49
+	scale 49.5
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
 \begin_inset Graphics
 	filename Figures/app_screenshots/search write.png
-	lyxscale 25
+	lyxscale 50
 	scale 50
 
 \end_inset
@@ -24328,16 +24581,20 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.26 PM.png
-	lyxscale 25
+	lyxscale 50
 	scale 50
 
 \end_inset
 
 
+\begin_inset space \quad{}
+\end_inset
+
+
 \begin_inset Graphics
 	filename Figures/app_screenshots/Screen Shot 2013-10-30 at 1.23.34 PM.png
-	lyxscale 25
-	scale 50
+	lyxscale 49
+	scale 49
 
 \end_inset
 
@@ -27784,7 +28041,7 @@ status open
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="15text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
