@@ -104,10 +104,6 @@ figs-within-sections
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -159,6 +155,10 @@ and
 
 \series bold
 The National Competence Center For Ultrasound And Image Guided Therapy
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3289,8 +3289,15 @@ Current Situation
 \end_layout
 
 \begin_layout Standard
-Currently, MRI (Magnetic Resonance Imaging) is the tool doctors and other
- medical personnel prefer in pre-operative evaluation.
+Currently, MRI (Magnetic Resonance Imaging)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MRI"
+
+\end_inset
+
+ is the tool doctors and other medical personnel prefer in pre-operative
+ evaluation.
  The reason for this is that it is relatively easy to understand, and also
  to identify tumors and other potential medical obstacles.
  The figure below shows a typical MRI machine.
@@ -3316,7 +3323,9 @@ status open
 
 \size large
 MRI
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MRI,MRI image"
 
 \end_inset
 
@@ -3325,25 +3334,37 @@ MRI
 
 \end_inset
 
-Recently, however, there has been speculation on the use of DS (Diagnostic
- Sonography) (ultrasound) either instead of MRI, or together with MRI.
- The main incentive for this is that DS is much cheaper, and also more flexible,
- since the MRI requires its own dedicated room, while DS is mobile and can
- be moved from room to room.
- It is therefore easier to perform a new intraoperative scan with DS than
+
+\end_layout
+
+\end_inset
+
+Recently, however, there has been speculation on the use of DMS (Diagnostic
+ medical Sonography) (ultrasound)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DMS"
+
+\end_inset
+
+ either instead of MRI, or together with MRI.
+ The main incentive for this is that DMS is much cheaper, and also more
+ flexible, since the MRI requires its own dedicated room, while DMS is mobile
+ and can be moved from room to room.
+ It is therefore easier to perform a new intraoperative scan with DMS than
  MRI.
  The fact that surgeons can now obtain real-time updates on what the conditions
  inside the body are, is extremely advantageous.
- As an example, DS can determine whether there are any remnants of a tumor
+ As an example, DMS can determine whether there are any remnants of a tumor
  still inside the body.
- On the other hand, DS is much harder to understand.
+ On the other hand, DMS is much harder to understand.
  Therefore, MRI is still preferred by many doctors, since it is what they
  accustomed to and familiar with.
  Younger doctors who have only recently graduated from medical school do
  get some training there, and therefore are more adaptable to the new use
- of DS.
+ of DMS.
  The main problem with the current situation is simply that experienced
- doctors have no understanding of the new way of using DS, and, unfortunately,
+ doctors have no understanding of the new way of using DMS, and, unfortunately,
  very few opportunities to learn how to do so.
 \end_layout
 
@@ -3398,11 +3419,11 @@ Desired Solution
 
 \begin_layout Standard
 The solution that the customer desires is a simple and easily accessible
- method for doctors (and others) to familiarize themselves with DS scans
+ method for doctors (and others) to familiarize themselves with DMS scans
  (images and video), and to learn to interpret them, as many doctors now
  understand MRI.
  For this, the customer has planned a mobile application that will be able
- to view images and videos from DS scans, and in the future also provide
+ to view images and videos from DMS scans, and in the future also provide
  a quiz-like game to challenge the users of the app to try to understand
  the data shown.
  The customer already has a lot of relevant data that can be used, and also
@@ -3457,6 +3478,13 @@ status open
 
 \begin_layout Plain Layout
 EUS - Diagnostic and Interventional Endoscopic Ultrasound
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3518,6 +3546,13 @@ status open
 
 \begin_layout Plain Layout
 Helsinki Microneurosurgery Basics and Tricks
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Helsinki Microneurosurgery Basics and Tricks"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3803,6 +3838,13 @@ status open
 
 \begin_layout Plain Layout
 Waterfall Model
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Waterfall Model design"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3835,7 +3877,14 @@ Scrum
 \end_layout
 
 \begin_layout Standard
-Scrum is an iterative planning and execution method for software development.
+Scrum
+\begin_inset CommandInset citation
+LatexCommand cite
+key "scrum"
+
+\end_inset
+
+ is an iterative planning and execution method for software development.
  Scrum is agile and based on a series of increments of sprints, where requiremen
 ts, design and product implementation evolve through the project lifetime.
  A scrum team is quite small, usually about five to ten people.
@@ -3874,6 +3923,13 @@ status open
 
 \begin_layout Plain Layout
 Scrum lifecycle
+\begin_inset CommandInset citation
+LatexCommand cite
+key "scrum image"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10367,7 +10423,7 @@ In order to illustrate the architectural viewpoints we have decided to use
 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Kruchten, Philippe (1995, November)"
+key "4 + 1 model"
 
 \end_inset
 
@@ -22160,8 +22216,15 @@ status open
 \begin_inset Graphics
 	filename Figures/meeting_with_surgeons/IMG_0920.JPG
 	lyxscale 25
-	scale 12
+	width 80line%
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
 \end_inset
 
 
@@ -22172,7 +22235,7 @@ status open
 \begin_inset Graphics
 	filename Figures/meeting_with_surgeons/IMG_0918.JPG
 	lyxscale 25
-	scale 13.800000000000001
+	width 80line%
 
 \end_inset
 
@@ -22706,7 +22769,7 @@ SSH: Secure shell.
 \end_layout
 
 \begin_layout Itemize
-DS: Diagnostic sonography or ultrasound.
+DMS: Diagnostic medical sonography or ultrasound.
 \end_layout
 
 \begin_layout Itemize
@@ -22798,101 +22861,17 @@ http://www.appcelerator.com
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
-
-\end_inset
-
- EUS - Diagnostic and Interventional Endoscopic Ultrasound 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Helsinki Microneurosurgery Basics and Tricks"
-
-\end_inset
-
- Helsinki Microneurosurgery Basics and Tricks 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Waterfall Model design"
-
-\end_inset
-
- Waterfall Model design 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
 key "latex-project"
 
 \end_inset
 
- latex-project 
+ Latex-project 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
 http://www.latex-project.org
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Kruchten, Philippe (1995, November)"
-
-\end_inset
-
- Kruchten, Philippe (1995, November) 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
 \end_layout
 
 \end_inset
@@ -22928,7 +22907,7 @@ key "google docs"
 
 \end_inset
 
- google docs 
+ Google docs 
 \begin_inset Flex URL
 status collapsed
 
@@ -22949,265 +22928,13 @@ key "google drive"
 
 \end_inset
 
- google drive 
+ Google drive 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
 http://drive.google.com
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "eclipse"
-
-\end_inset
-
- Eclipse 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.eclipse.org
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "JavaScript"
-
-\end_inset
-
- JavaScript 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://en.wikipedia.org/wiki/JavaScript
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "php"
-
-\end_inset
-
- php 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://php.net
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "json"
-
-\end_inset
-
- json 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.json.org
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Java_(programming_language)"
-
-\end_inset
-
- Java_(programming_language) 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://en.wikipedia.org/wiki/Java_(programming_language)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Git-scm"
-
-\end_inset
-
- Git-scm 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://Git-scm.com
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Github"
-
-\end_inset
-
- Github 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.Github.com
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "subversion"
-
-\end_inset
-
- Subversion 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://subversion.apache.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "facebook"
-
-\end_inset
-
- Facebook 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.facebook.com
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "teamviewer"
-
-\end_inset
-
- Teamviewer 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.teamviewer.com
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "mysql"
-
-\end_inset
-
- Mysql 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.mysql.com
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "apache"
-
-\end_inset
-
- Apache 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.apache.com
 \end_layout
 
 \end_inset
@@ -23302,6 +23029,48 @@ http://balsamiq.com/products/mockups/
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
+key "facebook"
+
+\end_inset
+
+ Facebook 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.facebook.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "teamviewer"
+
+\end_inset
+
+ Teamviewer 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.teamviewer.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
 key "rally"
 
 \end_inset
@@ -23323,17 +23092,17 @@ http://rallydev.com
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "acceptance test"
+key "eclipse"
 
 \end_inset
 
-Wikipedia - Acceptance test 
+ Eclipse 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
-http://en.wikipedia.org/wiki/Acceptance_testing
+http://www.eclipse.org
 \end_layout
 
 \end_inset
@@ -23344,17 +23113,17 @@ http://en.wikipedia.org/wiki/Acceptance_testing
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "unit testing"
+key "JavaScript"
 
 \end_inset
 
-Microsoft Developer Network 
+ JavaScript 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
-http://msdn.microsoft.com/en-us/library/aa292197(v=vs.71).aspx9
+http://en.wikipedia.org/wiki/JavaScript
 \end_layout
 
 \end_inset
@@ -23365,17 +23134,17 @@ http://msdn.microsoft.com/en-us/library/aa292197(v=vs.71).aspx9
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "ssh"
+key "php"
 
 \end_inset
 
-Wikipedia - SSH 
+ PHP 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
-http://en.wikipedia.org/wiki/Secure_Shell
+http://php.net
 \end_layout
 
 \end_inset
@@ -23386,17 +23155,17 @@ http://en.wikipedia.org/wiki/Secure_Shell
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "test_flight"
+key "json"
 
 \end_inset
 
-Test Flight 
+ JSON 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
-http://testflightapp.com
+http://www.json.org
 \end_layout
 
 \end_inset
@@ -23407,17 +23176,312 @@ http://testflightapp.com
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "workbench"
+key "mysql"
 
 \end_inset
 
-MySQL Workbench 
+ MySQL 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
-http://www.mysql.com/products/workbench/
+http://www.mysql.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "apache"
+
+\end_inset
+
+ Apache 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.apache.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Java_(programming_language)"
+
+\end_inset
+
+ Java 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Java_(programming_language)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Git-scm"
+
+\end_inset
+
+ Git-scm 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://Git-scm.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Github"
+
+\end_inset
+
+ Github 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.Github.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "subversion"
+
+\end_inset
+
+ Subversion 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://subversion.apache.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "svnvsgit"
+
+\end_inset
+
+SVN versus Git 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://git.wiki.kernel.org/index.php/GitSvnComparison
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "MRI"
+
+\end_inset
+
+MRI 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Magnetic_resonance_imaging
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "MRI image"
+
+\end_inset
+
+MRI image 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.healthcare.philips.com/main/products/mri/systems/achieva3t/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "DMS"
+
+\end_inset
+
+DMS 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Medical_ultrasonography
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
+
+\end_inset
+
+ EUS - Diagnostic and Interventional Endoscopic Ultrasound 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://itunes.apple.com/us/app/eus-diagnostic-interventional/id527085806?mt=8
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Helsinki Microneurosurgery Basics and Tricks"
+
+\end_inset
+
+ Helsinki Microneurosurgery Basics and Tricks 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://itunes.apple.com/us/app/helsinki-microneurosurgery/id506365864?mt=8
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Waterfall Model design"
+
+\end_inset
+
+ Waterfall Model design 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "scrum"
+
+\end_inset
+
+Scrum 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.scrum.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "scrum image"
+
+\end_inset
+
+Scrum image 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://epf.eclipse.org/wikis/scrum/Scrum/guidances/supportingmaterials/scrum_overv
+iew_610E45C2.html
 \end_layout
 
 \end_inset
@@ -23449,22 +23513,138 @@ http://www.techopedia.com/definition/25813/use-case
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "svnvsgit"
+key "4 + 1 model"
 
 \end_inset
 
-SVN versus Git 
+Kruchten, Philippe (1995, November) 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
-https://git.wiki.kernel.org/index.php/GitSvnComparison
+http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "unit testing"
+
+\end_inset
+
+Microsoft Developer Network 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://msdn.microsoft.com/en-us/library/aa292197(v=vs.71).aspx9
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "acceptance test"
+
+\end_inset
+
+Wikipedia - Acceptance test 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Acceptance_testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "test_flight"
+
+\end_inset
+
+Test Flight 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://testflightapp.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ssh"
+
+\end_inset
+
+Wikipedia - SSH 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://en.wikipedia.org/wiki/Secure_Shell
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "workbench"
+
+\end_inset
+
+MySQL Workbench 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.mysql.com/products/workbench/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Appendix
 \end_layout
 
 \begin_layout Standard
