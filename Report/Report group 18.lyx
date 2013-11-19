@@ -10896,7 +10896,10 @@ Sequence diagram 1
 This diagram depicts what happnes when the user of the application is browsing
  the available categories looking for a case, finds the case, accesses it,
  and views the media.
- (Add more detail, refer to use cases.)
+ It works by simply selecting the wanted category, and then browsing through
+ the sub-categories the same way.
+ Finally, when the user has reached a category that does not contain any
+ sub-categories, the user can select a case, and view its media files.
 \end_layout
 
 \begin_layout Standard
@@ -10943,8 +10946,8 @@ Sequence diagram 2
 
 \begin_layout Standard
 This diagram describes the use of the search function in our application.
- (Usecase UC6.) The user starts the application which connects to the database
- and stores the data locally.
+ The user starts the application which connects to the database and stores
+ the data locally.
  The user then selects the tab for searching.
  The application changes to the search interface window and asks for user
  input.
@@ -11001,7 +11004,8 @@ Sequence diagram 3
 \begin_layout Standard
 This diagram shows how the administrator can store new case data in the
  database and on the webserver through our admin interface.
- (Add more detail)
+ This works by entering case name, and then the new case's sub- and super-catego
+ries, before, finally, uploading the case's media files.
 \end_layout
 
 \begin_layout Standard
@@ -11016,7 +11020,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/newCaseSequence.png
-	scale 40
+	scale 90
 
 \end_inset
 
@@ -11048,7 +11052,8 @@ Sequence diagram 4
 \begin_layout Standard
 This diagram shows how the admin can create new categories, should the need
  arise, through the admin interface.
- (Add more detail)
+ This works by entering the new category's name, before selecting parent
+ and children categories.
 \end_layout
 
 \begin_layout Standard
