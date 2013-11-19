@@ -558,7 +558,14 @@ SINTEF
 \end_layout
 
 \begin_layout Standard
-SINTEF is an independent, non-commercial research organization.
+SINTEF
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sintef"
+
+\end_inset
+
+ is an independent, non-commercial research organization.
  The organization operates in partnership with NTNU and aims to 
 \begin_inset Quotes eld
 \end_inset
@@ -566,13 +573,6 @@ SINTEF is an independent, non-commercial research organization.
 create value through knowledge generation, research and innovation, and
  develop technological solutions that are brought into practical use.
 \begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Sintef"
-
 \end_inset
 
 .
@@ -584,13 +584,18 @@ The National Competence Center for Ultrasound and Image Guided Therapy
 \end_layout
 
 \begin_layout Standard
-The National Competence Center for Ultrasound and Image Guided Therapy is
- a group of scientists, engineers and surgeons in Trondheim that collaborate
+The National Competence Center for Ultrasound and Image Guided Therapy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "The National Competence Center for Ultrasound and Image Guided Therapy"
+
+\end_inset
+
+ is a group of scientists, engineers and surgeons in Trondheim that collaborate
  closely in order to improve current methods and techniques for minimally-invasi
 ve surgeries.
  The group consists of experts from SINTEF, NTNU and St.
  Olav's Hospital.
- (http://www.usigt.org/)
 \end_layout
 
 \begin_layout Subsection
@@ -598,9 +603,21 @@ Stakeholders
 \end_layout
 
 \begin_layout Standard
-The term stakeholder refers to any person or organization that is being
- affected (find a quote for this, incorrect definition) or has some vested
- interest in the system being developed.
+The term stakeholder refers to 
+\begin_inset Quotes eld
+\end_inset
+
+a person, group or organization that has interest or concern in an organization.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "stakeholder"
+
+\end_inset
+
  The project sponsor and customer was SINTEF together with The National
  Competence Center for Ultrasound and Image Guided Therapy, with Frank Lindseth
  and Ole Solheim as the primary contact persons.
@@ -878,8 +895,8 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="5">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="5page%">
-<column alignment="left" valignment="top" width="8page%">
+<column alignment="left" valignment="top" width="7page%">
+<column alignment="left" valignment="top" width="9page%">
 <column alignment="left" valignment="top" width="22page%">
 <column alignment="left" valignment="top" width="8page%">
 <column alignment="left" valignment="top" width="8page%">
@@ -1072,7 +1089,7 @@ Stian, Kristoffer
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1081,7 +1098,7 @@ Sprint 4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1140,10 +1157,10 @@ Overall sprints
 \end_layout
 
 \begin_layout Standard
-The work breakdown structure can be seen to the left in the gantt chart
- below.
- To the right is the tasks distributed over time, with the arrows showing
- the connection between them.
+The gantt chart below shows the project plan.
+ The work breakdown structure can be seen to the left and to the right is
+ the tasks distributed over time, with the arrows showing the connection
+ between them.
 \end_layout
 
 \begin_layout Standard
@@ -1166,7 +1183,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Gantt Chart - Project Plan
+Gantt chart - project plan
 \end_layout
 
 \end_inset
@@ -2274,7 +2291,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Risk Analysis
+Risk analysis
 \end_layout
 
 \end_inset
@@ -2311,7 +2328,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Risk Matrix
+Risk matrix
 \end_layout
 
 \end_inset
@@ -3400,7 +3417,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-MRI-Ultrasound image
+MRI - ultrasound image
 \end_layout
 
 \end_inset
@@ -3444,11 +3461,11 @@ There are some similar solutions for the USNeuroNav App.
 \end_layout
 
 \begin_layout Subsubsection
-EUS - Diagnostic and Interventional Endoscopic Ultrasound App
+EUS - Diagnostic and interventional endoscopic ultrasound app
 \end_layout
 
 \begin_layout Standard
-The EUS - Diagnostic and Interventional Endoscopic Ultrasound App
+The EUS - Diagnostic and interventional endoscopic ultrasound app
 \begin_inset CommandInset citation
 LatexCommand cite
 key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
@@ -3477,7 +3494,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-EUS - Diagnostic and Interventional Endoscopic Ultrasound
+EUS - eiagnostic and interventional endoscopic ultrasound
 \begin_inset CommandInset citation
 LatexCommand cite
 key "EUS - Diagnostic and Interventional Endoscopic Ultrasound"
@@ -3511,7 +3528,7 @@ The app shows images and videos of ultrasound images.
 \end_layout
 
 \begin_layout Subsubsection
-Helsinki Microneurosurgery Basics and Tricks App
+Helsinki microneurosurgery basics and tricks app
 \end_layout
 
 \begin_layout Standard
@@ -3545,7 +3562,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Helsinki Microneurosurgery Basics and Tricks
+Helsinki microneurosurgery basics and tricks
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Helsinki Microneurosurgery Basics and Tricks"
@@ -3744,7 +3761,7 @@ It was only meant to be a prototype with basic functionality.
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Evaluation of Alternative Solutions
+Evaluation of alternative solutions
 \end_layout
 
 \end_inset
@@ -3768,8 +3785,7 @@ There are sufficient differences between the system the customer needs and
 \end_layout
 
 \begin_layout Standard
-We will develop the system with frameworks and tools described in section
- 2.5.3.
+We developed the system with frameworks and tools described in section 2.5.3.
 \end_layout
 
 \begin_layout Standard
@@ -3808,9 +3824,9 @@ key "Waterfall Model design"
  Any phase in the development process begins only if the previous phase
  is complete, and the phases do not overlap.
  
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 The figure below illustrates how waterfall phases are organized.
 \begin_inset Newline newline
 \end_inset
@@ -3837,7 +3853,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Waterfall Model
+Waterfall model
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Waterfall Model design"
@@ -3893,9 +3909,9 @@ ts, design and product implementation evolve through the project lifetime.
  There is usually a focus on quick communication between members, given
  that scrum teams are relatively small.
  
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 In the figure below, the scrum lifecycle is shown.
  A description of these elements is given in section 4.4 Scrum Artifacts.
 \begin_inset Newline newline
@@ -4187,7 +4203,7 @@ X
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Why Scrum
+Properties of the project
 \end_layout
 
 \end_inset
@@ -4363,8 +4379,8 @@ The administrator will have a simple panel (text-based or GUI) where he
 
 \begin_layout Standard
 The interface for users is the main project, namely the mobile application.
- The interface will be similar for both registered and unregistered users
- (except from the fact that the user may log in.
+ The interface will be similar for both registered and unregistered users,
+ except from the fact that the user may log in.
  However, unregistered users will not necessarily be able to view all categories
 , cases or media files.
  
@@ -4467,6 +4483,18 @@ key "usecaseDef"
  the system's requirements.
  These use cases were created based on several meetings with the customer
  during the initial phase of the project.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6018,7 +6046,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Use Case Description
+Use case description
 \end_layout
 
 \end_inset
@@ -6036,7 +6064,7 @@ Use Case Description
 \end_layout
 
 \begin_layout Subsection
-Use case diagrams
+Use Case Diagrams
 \end_layout
 
 \begin_layout Standard
@@ -6069,7 +6097,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Use Case application
+Use case application
 \end_layout
 
 \end_inset
@@ -6105,7 +6133,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Use Case admin
+Use case admin
 \end_layout
 
 \end_inset
@@ -7016,7 +7044,7 @@ X
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Overall Functional Requirements with priority
+Overall functional requirements with priority
 \end_layout
 
 \end_inset
@@ -7045,27 +7073,17 @@ In this section, the non-functional requirements for the system are stated
 
 All requirements are assigned one of four possible priority values: critical,
  high, medium or low.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 Critical prioritized requirements are the most important and the system
  will not be approved if they're not implemented.
- 
-\begin_inset Newline newline
-\end_inset
-
-High prioritized requirements are important to the customer, but these requireme
-nts will be implemented after the critical prioritized requirements.
-\begin_inset Newline newline
-\end_inset
-
-Medium prioritized requirements are not as important for the customer as
+ High prioritized requirements are important to the customer, but these
+ requirements will be implemented after the critical prioritized requirements.
+ Medium prioritized requirements are not as important for the customer as
  the critical and high prioritized requirements, and will be implemented
  after the implementation of high prioritized requirements.
-\begin_inset Newline newline
-\end_inset
-
-Low prioritized requirements are 
+ Low prioritized requirements are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -7075,14 +7093,10 @@ nice-to-have
 
  requirements, but it's not important for the customer, and these requirements
  will be fulfilled only if there is time left.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-An summary table of the non-functional requirements and their priorities
+\begin_layout Standard
+A summary table of the non-functional requirements and their priorities
  is given below.
 \end_layout
 
@@ -7615,7 +7629,7 @@ X
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Overall Non-Functional Requirements
+Overall non-functional requirements with priority
 \end_layout
 
 \end_inset
@@ -10429,9 +10443,15 @@ key "4 + 1 model"
 
 .
  This is view model designed for "describing the architecture of software-intens
-ive systems, based on the use of multiple, concurrent views." This model
- consists of four views of the system seen from different stakeholders,
- in addition to use cases (the 
+ive systems, based on the use of multiple, concurrent views."
+\begin_inset CommandInset citation
+LatexCommand cite
+key "4 + 1 model"
+
+\end_inset
+
+ This model consists of four views of the system seen from different stakeholder
+s, in addition to use cases (the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -10709,7 +10729,7 @@ Use case diagram
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Architectural Viewpoints
+Architectural viewpoints
 \end_layout
 
 \end_inset
@@ -11454,7 +11474,7 @@ Since both unit- and integration testing were only done by the programmer
  prepared and executed in a manner such that they could have executed by
  the customer or any other user, should that have been desired.
  Below is a table containing all our system tests; the complete description
- of each test can be found in appendix ABCDE.
+ of each test can be found in appendix C.
  
 \end_layout
 
@@ -11771,7 +11791,7 @@ Admintool core functionality
 \begin_inset Text
 
 \begin_layout Plain Layout
-FR10,FR11,
+FR10, FR11
 \end_layout
 
 \end_inset
@@ -11859,6 +11879,13 @@ acts as a final verification of the required business functionality and
 \begin_inset Quotes erd
 \end_inset
 
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "acceptance test"
+
+\end_inset
+
  The test itself is 
 \begin_inset Quotes eld
 \end_inset
@@ -11886,7 +11913,7 @@ We held our acceptance test during a meeting with both the customer and
  a small group of the intended users.
  We both showcased the product and offered them use of the product and requested
  that they provide feedback.
- Details from this meeting can be found in section (INSERT SECTION HERE).
+ Details from this meeting can be found in section 13.2.2.
 \end_layout
 
 \begin_layout Standard
@@ -13448,7 +13475,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Burndown Chart Sprint 1 
+Burndown chart for sprint 1 
 \end_layout
 
 \end_inset
@@ -14209,7 +14236,7 @@ We created the backlog in Rally, and created the burndown chart in Exel.
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks in Sprint 1
+Occurring risks in sprint 1
 \end_layout
 
 \end_inset
@@ -15030,7 +15057,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Burndown Chart Sprint 2
+Burndown chart for sprint 2
 \end_layout
 
 \end_inset
@@ -15158,7 +15185,7 @@ Stian informed the group about the absence a good time before the period
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks in Sprint 2
+Occurring risks in sprint 2
 \end_layout
 
 \end_inset
@@ -16535,7 +16562,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Burndown Chart Sprint 3
+Burndown chart for sprint 3
 \end_layout
 
 \end_inset
@@ -17217,7 +17244,7 @@ The group members worked a little in the evening to complete their tasks.
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks in Sprint 3
+Occurring risks in sprint 3
 \end_layout
 
 \end_inset
@@ -18412,7 +18439,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Burndown Chart Sprint 3
+Burndown chart for sprint 3
 \end_layout
 
 \end_inset
@@ -20044,7 +20071,7 @@ We could not move the iMac, as we assuredwith the customer that it would
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Occurring risks in Sprint 4
+Occurring risks in sprint 4
 \end_layout
 
 \end_inset
@@ -21526,6 +21553,13 @@ It could be possible to refer to or give links to other sites with more
  detailed information about different topics relating to ultrasound navigation.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Evaluation
 \end_layout
@@ -22690,6 +22724,13 @@ After developing with Titanium and JavaScript for several weeks, developing
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Conclusion
 \end_layout
@@ -22727,6 +22768,13 @@ Finally, we were also pleased with the team work, the communication with
  These meetings were very useful, both to ascertain we were on the right
  track and to determine whether the customer's priority of new features
  had changed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -22802,13 +22850,55 @@ key "Sintef"
 
 \end_inset
 
- Sintef 
+ SINTEF 
 \begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
 
 http://www.sintef.no/home/About-us/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "The National Competence Center for Ultrasound and Image Guided Therapy"
+
+\end_inset
+
+The National Competence Center for Ultrasound and Image Guided Therapy
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.usigt.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "stakeholder"
+
+\end_inset
+
+Stakeholder definition 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.businessdictionary.com/definition/stakeholder.html
 \end_layout
 
 \end_inset
@@ -24102,7 +24192,7 @@ Back
 \end_layout
 
 \begin_layout Subsection
-Searching for cases
+Searching For Cases
 \end_layout
 
 \begin_layout Standard
@@ -24207,7 +24297,7 @@ Search,
 \end_layout
 
 \begin_layout Subsection
-Logging in
+Logging In
 \end_layout
 
 \begin_layout Standard
@@ -27908,10 +27998,11 @@ Test data during, and after, sprint 4
 \end_layout
 
 \begin_layout Section
-Category hierarchy at delivery
+Category Hierarchy At Delivery
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="20" columns="3">
 <features tabularvalignment="middle">
