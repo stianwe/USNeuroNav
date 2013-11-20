@@ -399,6 +399,36 @@ In this report, the entire process of developing the application will be
  media files.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\color white
+.
+\series default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part*
 \begin_inset Newpage pagebreak
 \end_inset
@@ -439,6 +469,33 @@ We would like to thank the SINTEF for providing this opportunity and allowing
 \begin_layout Standard
 The team would also like to thank our main supervisor Anh Nguyen Duc, for
  his input and invaluable feedback during the course.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\color white
+.
+\series default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -19875,21 +19932,9 @@ Completed tests for sprint 4
 \end_layout
 
 \begin_layout Standard
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset space \quad{}
-\end_inset
-
 * If on a slow Internet connection, the application occasionally crashed
  (killed by the operating system) when browsing the images belonging to
  cases with very high quantities of images.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -20112,10 +20157,6 @@ Occurring risks in sprint 4
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Subsection
 Customer Feedback
 \end_layout
@@ -20319,7 +20360,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figures/database2.png
-	scale 60
+	scale 80
 
 \end_inset
 
