@@ -67,6 +67,21 @@ function Controller() {
         }
         return catsToShow;
     }
+    function displayNonEmptyCategories(currCat, nextWindow) {
+        var catsToShow = getCategoriesToShow(currCat);
+        var catObjs = [];
+        catObjs.unshift({
+            properties: {
+                title: "Show all"
+            }
+        });
+        for (var i = 0; catsToShow.length > i; i++) catObjs.push({
+            properties: {
+                title: catsToShow[i].name
+            }
+        });
+        displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
+    }
     function createEventFunctionCategory(currentCategory, subCategories) {
         return function(e) {
             if (0 == e.itemIndex) {
@@ -78,28 +93,14 @@ function Controller() {
                 viewCases(nextWindow, currentCategories, $.tab1);
             } else {
                 var index = e.itemIndex;
-                currentCategories.length > 1 && index--;
+                index--;
                 var currCat = subCategories[index];
                 currentCategories.push(currCat);
                 var nextWindow = Ti.UI.createWindow({
                     title: currCat.name,
                     backgroundColor: "#fff"
                 });
-                if (currCat.subCategories.length > 0) {
-                    var catsToShow = getCategoriesToShow(currCat);
-                    var catObjs = [];
-                    catObjs.unshift({
-                        properties: {
-                            title: "Show all"
-                        }
-                    });
-                    for (var i = 0; catsToShow.length > i; i++) catObjs.push({
-                        properties: {
-                            title: catsToShow[i].name
-                        }
-                    });
-                    displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
-                } else currCat.cases.length > 0 ? viewCases(nextWindow, currentCategories, $.tab1) : nextWindow.addEventListener("close", function() {
+                currCat.subCategories.length > 0 ? displayNonEmptyCategories(currCat, nextWindow) : currCat.cases.length > 0 ? viewCases(nextWindow, currentCategories, $.tab1) : nextWindow.addEventListener("close", function() {
                     currentCategories.pop();
                 });
             }
@@ -275,6 +276,7 @@ function Controller() {
             if ("1" == json.response) {
                 isLoggedIn = true;
                 initLogout();
+                initBrowse();
             } else alert("Login failed!");
         };
         req.onerror = function() {
@@ -299,6 +301,7 @@ function Controller() {
             logoutButton.addEventListener("click", function() {
                 isLoggedIn = false;
                 initLogin();
+                initBrowse();
             });
             logoutView.add(logoutButton);
             logoutView.add(helpLabel);
@@ -352,6 +355,10 @@ function Controller() {
         } else logoutView.setVisible(false);
         loginView.setVisible(true);
     }
+    function initBrowse() {
+        currentCategories = [ db.rootCategory ];
+        displayNonEmptyCategories(db.rootCategory, $.tab1window1);
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
@@ -364,7 +371,7 @@ function Controller() {
     });
     $.__views.tab1window1 = Ti.UI.createWindow({
         backgroundColor: "#fff",
-        title: "Tab 1",
+        title: "Browse",
         id: "tab1window1"
     });
     $.__views.tab1 = Ti.UI.createTab({
@@ -423,7 +430,7 @@ function Controller() {
     var loginView = null;
     var logoutView = null;
     initLogin();
-    db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
+    db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
     $.index.open();
     _.extend($, exports);
 }

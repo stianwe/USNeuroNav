@@ -1,4 +1,4 @@
-function initDB(window, displayListView, createEventFunctionCategory, initSearch, currentCategories) {
+function initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse) {
     var xhr = Titanium.Network.createHTTPClient();
     xhr.onload = function() {
         var json = JSON.parse(this.responseText);
@@ -34,9 +34,11 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
         rootCategory.name = "Browse";
         var showAllCat = new classes.category("*", new Array());
         currentCategories.push(showAllCat);
-        window.setTitle(rootCategory.name);
         for (var id in cases) id != rootCategoryID && showAllCat.cases.push(cases[id]);
-        displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
+        rootCategory.cases = showAllCat.cases;
+        gRootCategory = rootCategory;
+        exports.rootCategory = gRootCategory;
+        initBrowse();
         initSearch(rootCategory, categoriesByName);
     };
     xhr.open("GET", address + "/database.php");
@@ -49,6 +51,8 @@ var classes = require("category");
 var address = "http://129.241.110.159";
 
 var rootURL = address + "/media/";
+
+var gRootCategory;
 
 exports.initDB = initDB;
 

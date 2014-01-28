@@ -1,7 +1,7 @@
 <Alloy>
 	<TabGroup>
 		<Tab title="Browse" icon="KS_nav_ui.png" id="tab1">
-			<Window title="Tab 1" id="tab1window1">
+			<Window title="Browse" id="tab1window1">
 			</Window>
 		</Tab>
 		<Tab title="Search" icon="searchicon.png" id="tab2">

@@ -96,6 +96,17 @@ function getCategoriesToShow(category) {
 	return catsToShow;
 }
 
+function displayNonEmptyCategories(currCat, nextWindow) {
+	var catsToShow = getCategoriesToShow(currCat);
+	var catObjs = [];
+	catObjs.unshift({ properties: { title: 'Show all' } });
+	for (var i = 0; i < catsToShow.length; i++) {
+		catObjs.push({ properties: { title: catsToShow[i].name } });
+	}
+	//displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catObjs));
+	displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
+}
+
 function createEventFunctionCategory(currentCategory, subCategories) {
 	return function(e) {
 		if (e.itemIndex == 0 /*&& currentCategories.length > 1*/) {
@@ -109,9 +120,9 @@ function createEventFunctionCategory(currentCategory, subCategories) {
 		}
 		else {
 			var index = e.itemIndex;
-			if (currentCategories.length > 1) {
+			//if (currentCategories.length > 1) {
 				index--;
-			}
+			//}
 			var prevCat = currentCategory;
 			var currCat = subCategories[index];
 			currentCategories.push(currCat);
@@ -122,13 +133,7 @@ function createEventFunctionCategory(currentCategory, subCategories) {
 			// Check that this category actually has sub categories
 			if (currCat.subCategories.length > 0) {
 				// Don't show categories without cases (that can be displayed by this user)
-				var catsToShow = getCategoriesToShow(currCat);
-				var catObjs = [];
-				catObjs.unshift({ properties: { title: 'Show all' } });
-				for (var i = 0; i < catsToShow.length; i++) {
-					catObjs.push({ properties: { title: catsToShow[i].name } });
-				}
-				displayListView(nextWindow, catObjs, createEventFunctionCategory(currCat, catsToShow));
+				displayNonEmptyCategories(currCat, nextWindow);
 			}
 			else if (currCat.cases.length > 0) {
 				viewCases(nextWindow, currentCategories, $.tab1);
@@ -378,6 +383,7 @@ function login(username, password) {
 		if (json.response == "1") {
 			isLoggedIn = true;
 			initLogout();
+			initBrowse();
 		} else {
 			alert("Login failed!");
 		}
@@ -405,6 +411,7 @@ function initLogout() {
 		logoutButton.addEventListener('click', function(e) {
 			isLoggedIn = false;
 			initLogin();
+			initBrowse();
 		});
 		logoutView.add(logoutButton);
 		logoutView.add(helpLabel);
@@ -458,9 +465,18 @@ function initLogin() {
 	loginView.setVisible(true);
 }
 
+// To be called when the browse tab should be initialized
+// and start at the root category
+function initBrowse() {
+	currentCategories = [db.rootCategory];
+	displayNonEmptyCategories(db.rootCategory, $.tab1window1);
+	//$.tab1.open($.tab1window1);
+	//displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
+}
+
 initLogin();
 
-db.initDB($.tab1window1, displayListView, createEventFunctionCategory, initSearch, currentCategories);
+db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
 
 //$.tab1window1.setTitle(rootCategory.name);
 //displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));

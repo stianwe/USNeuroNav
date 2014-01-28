@@ -3,7 +3,9 @@ var classes = require('category');
 var address = "http://129.241.110.159";
 var rootURL = address + "/media/";
 
-function initDB(window, displayListView, createEventFunctionCategory, initSearch, currentCategories){
+var gRootCategory;
+
+function initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse){
 
 
 	var xhr = Titanium.Network.createHTTPClient();
@@ -62,7 +64,7 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
     	rootCategory.name = "Browse";
     	var showAllCat = new classes.category("*", new Array());
     	currentCategories.push(showAllCat);
-    	window.setTitle(rootCategory.name);
+    	//window.setTitle(rootCategory.name);
     	// Make sure root contains all cases
     	for (var id in cases) {
     		if (id != rootCategoryID) {
@@ -70,7 +72,11 @@ function initDB(window, displayListView, createEventFunctionCategory, initSearch
     		}
     	}
     	
-    	displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
+    	rootCategory.cases = showAllCat.cases;
+    	gRootCategory = rootCategory;
+		exports.rootCategory = gRootCategory;
+//displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
+    	initBrowse();
     	initSearch(rootCategory, categoriesByName);
 	};
 	
