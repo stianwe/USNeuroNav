@@ -359,6 +359,17 @@ function Controller() {
         currentCategories = [ db.rootCategory ];
         displayNonEmptyCategories(db.rootCategory, $.tab1window1);
     }
+    function main() {
+        if (Titanium.Network.networkType == Titanium.Network.NETWORK_NONE) Titanium.UI.createAlertDialog({
+            title: "WARNING!",
+            message: "Your device is not connected to the Internet.",
+            buttonName: "OK"
+        }).show(); else {
+            initLogin();
+            db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
+            $.index.open();
+        }
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
@@ -429,9 +440,7 @@ function Controller() {
     });
     var loginView = null;
     var logoutView = null;
-    initLogin();
-    db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
-    $.index.open();
+    main();
     _.extend($, exports);
 }
 

@@ -474,9 +474,26 @@ function initBrowse() {
 	//displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
 }
 
-initLogin();
+function main() {
+	// Check network connection before doing anything else
+	if (Titanium.Network.networkType == Titanium.Network.NETWORK_NONE) {
+		// Not connected to the Internet - display error message!
+		Titanium.UI.createAlertDialog({
+			title: "WARNING!",
+			message: "Your device is not connected to the Internet.",
+			buttonName: "OK",
+		}).show();
+	}
+	else {
+		// Network OK, start app!
+		initLogin();
+	
+		db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
+		$.index.open();
+	}
+}
 
-db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
+main();
 
 //$.tab1window1.setTitle(rootCategory.name);
 //displayListView($.tab1window1, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory));
@@ -494,5 +511,3 @@ db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCateg
 	// $.tab1.open(nextWindow);
 // });
 
-
-$.index.open();
