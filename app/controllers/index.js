@@ -296,6 +296,15 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 			if (!videos) {
 				lastImages = scrollableView;
 				lastImagesName = currentCase.name;
+			} else {
+				// Make sure the video is paused when leaving the video view
+				nextWindow.addEventListener('close', function(e) {
+					// Just pause every video player in case there are multiple
+					for (var i = 0; i < views.length; i++) {
+						// Assuming the video player is the first child of the ScrollView
+						views[i].children[0].pause();
+					}
+				});
 			}
 		}
 		nextWindow.add(scrollableView);

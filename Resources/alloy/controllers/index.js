@@ -221,7 +221,9 @@ function Controller() {
                     backgroundColor: "#000",
                     showPagingControl: true
                 });
-                if (!videos) {
+                if (videos) nextWindow.addEventListener("close", function() {
+                    for (var i = 0; views.length > i; i++) views[i].children[0].pause();
+                }); else {
                     lastImages = scrollableView;
                     lastImagesName = currentCase.name;
                 }
