@@ -1,6 +1,8 @@
 var currentCategories = [];
 var isLoggedIn = false;
 
+var stopVideoFunctions = [];
+
 function displayListView(window, items, eventFunction, caseT) {
 	var listView = Ti.UI.createListView({
 		//borderRadius: 0,
@@ -298,13 +300,21 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 				lastImagesName = currentCase.name;
 			} else {
 				// Make sure the video is paused when leaving the video view
-				nextWindow.addEventListener('close', function(e) {
+				var pauseVideos = function(e) {
 					// Just pause every video player in case there are multiple
 					for (var i = 0; i < views.length; i++) {
 						// Assuming the video player is the first child of the ScrollView
 						views[i].children[0].pause();
 					}
+				};
+				// Both when clicking "back"..
+				nextWindow.addEventListener('close', function (e) {
+					pauseVideos();
+					// Pausing video when switching tabs is no longer needed
+					stopVideoFunctions = [];
 				});
+				// .. and when switching to another tab
+				stopVideoFunctions.push(pauseVideos);
 			}
 		}
 		nextWindow.add(scrollableView);
@@ -479,6 +489,13 @@ function initLogin() {
 function initBrowse() {
 	currentCategories = [db.rootCategory];
 	displayNonEmptyCategories(db.rootCategory, $.tab1window1);
+	// Listen on tab switching
+	$.index.addEventListener('focus', function(e) {
+		// Stop all playing videos
+		for (var i = 0; i < stopVideoFunctions.length; i++) {
+			stopVideoFunctions[i]();
+		}
+	});
 	//$.tab1.open($.tab1window1);
 	//displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
 }

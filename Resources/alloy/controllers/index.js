@@ -221,9 +221,16 @@ function Controller() {
                     backgroundColor: "#000",
                     showPagingControl: true
                 });
-                if (videos) nextWindow.addEventListener("close", function() {
-                    for (var i = 0; views.length > i; i++) views[i].children[0].pause();
-                }); else {
+                if (videos) {
+                    var pauseVideos = function() {
+                        for (var i = 0; views.length > i; i++) views[i].children[0].pause();
+                    };
+                    nextWindow.addEventListener("close", function() {
+                        pauseVideos();
+                        stopVideoFunctions = [];
+                    });
+                    stopVideoFunctions.push(pauseVideos);
+                } else {
                     lastImages = scrollableView;
                     lastImagesName = currentCase.name;
                 }
@@ -360,6 +367,9 @@ function Controller() {
     function initBrowse() {
         currentCategories = [ db.rootCategory ];
         displayNonEmptyCategories(db.rootCategory, $.tab1window1);
+        $.index.addEventListener("focus", function() {
+            for (var i = 0; stopVideoFunctions.length > i; i++) stopVideoFunctions[i]();
+        });
     }
     function main() {
         if (Titanium.Network.networkType == Titanium.Network.NETWORK_NONE) Titanium.UI.createAlertDialog({
@@ -423,6 +433,7 @@ function Controller() {
     _.extend($, $.__views);
     var currentCategories = [];
     var isLoggedIn = false;
+    var stopVideoFunctions = [];
     var lastImages = null;
     var lastImagesName = "";
     var searchArea = Ti.UI.createTextArea({
