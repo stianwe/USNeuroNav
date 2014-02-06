@@ -1,8 +1,8 @@
-#appname:USNeuroNav2
-#appid:us.neuro.nav2
+#appname:USNeuroNav
+#appid:us.neuro.nav
 #type:ipad
 #guid:7f31e534-4d11-4e41-8b66-f7bfa9fd9bee
-#version:1.0
+#version:0.0
 #publisher:appdev
 #url:http://
 #image:appicon.png
