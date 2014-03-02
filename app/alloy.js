@@ -13,28 +13,29 @@
 // Make the "functions" in category.js available
 var classes = require('category');
 var db = require('database');
+var uie = require('activityIndicator');
 
 
 		
 		
 		// Enable tilting
-		Ti.Gesture.addEventListener('orientationchange', function(e) {
-			/*win.orientationModes = [
-		    Titanium.UI.LANDSCAPE_LEFT,
-		    Titanium.UI.LANDSCAPE_RIGHT,
-		    Titanium.UI.PORTRAIT,
-		    Titanium.UI.UPSIDE_PORTRAIT
-		  ];*/
-		    if (e.orientation == Titanium.UI.LANDSCAPE_LEFT ||
-		        e.orientation == Titanium.UI.LANDSCAPE_RIGHT) {
-		        // Do anything you wanna do when user changes the orientation to LandScape
-		        Ti.UI.orientation = Titanium.UI.LANDSCAPE_RIGHT;            
-		 
-		    } else {
-		        // Revert the changes you made, the user is back to portrait mode
-		        Titanium.UI.orientation = Titanium.UI.PORTRAIT;
-		    }
-		});
+		// Ti.Gesture.addEventListener('orientationchange', function(e) {
+			// /*win.orientationModes = [
+		    // Titanium.UI.LANDSCAPE_LEFT,
+		    // Titanium.UI.LANDSCAPE_RIGHT,
+		    // Titanium.UI.PORTRAIT,
+		    // Titanium.UI.UPSIDE_PORTRAIT
+		  // ];*/
+		    // if (e.orientation == Titanium.UI.LANDSCAPE_LEFT ||
+		        // e.orientation == Titanium.UI.LANDSCAPE_RIGHT) {
+	        // // Do anything you wanna do when user changes the orientation to LandScape
+		        // Ti.UI.orientation = Titanium.UI.LANDSCAPE_RIGHT;            
+// 		 
+		    // } else {
+	        // // Revert the changes you made, the user is back to portrait mode
+		        // Titanium.UI.orientation = Titanium.UI.PORTRAIT;
+		    // }
+		// });
 
 
 //mainCategories = [];

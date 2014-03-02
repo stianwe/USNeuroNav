@@ -197,8 +197,12 @@ function createEventFunctionCase(cases, tab) {
 		});
 		view.add(descLabel);
 		view.add(label);
+		
+		// Activity indicator
+		activityIndicator = uie.createIndicatorWindow();
+		
 		nextWindow.add(view);
-		displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab));
+		displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab, activityIndicator));
 		tab.open(nextWindow);
 	};
 }
@@ -206,11 +210,15 @@ function createEventFunctionCase(cases, tab) {
 var lastImages = null;
 var lastImagesName = "";
 
-function createMediaFunctionCase(oldWindow, currentCase, tab) {
+function createMediaFunctionCase(oldWindow, currentCase, tab, activityIndicator) {
 	return function(e) {
-		var activityIndicator = Titanium.UI.createActivityIndicator();
-		oldWindow.setRightNavButton(activityIndicator);
-		activityIndicator.show();
+		// Check network before trying to fetch media files
+		if (!networkCheck()) {
+			return;
+		}
+		
+		activityIndicator.openIndicator();
+		
 		var videos = e.itemIndex == 0 && currentCase.hasVideo();
 		var nextWindow = Ti.UI.createWindow({
 			title: currentCase.name,
@@ -319,7 +327,7 @@ function createMediaFunctionCase(oldWindow, currentCase, tab) {
 		}
 		nextWindow.add(scrollableView);
 		tab.open(nextWindow);
-		activityIndicator.hide();
+		activityIndicator.closeIndicator();
 	};
 }
 var searchArea = Ti.UI.createTextArea({
@@ -441,7 +449,7 @@ function initLogout() {
 }
 
 function initLogin() {
-	if (loginView == null) {
+	if (loginView == null || logoutView == null) {
 		loginView = Titanium.UI.createView();
 		var usernameField = Titanium.UI.createTextField({
 			top: 10, left: 10, right: 10,
@@ -469,6 +477,9 @@ function initLogin() {
 		var loginHelper = function(e) {
 			usernameField.blur();
 			passwordField.blur();
+			if (!networkCheck()) {
+				return;
+			}
 			login(usernameField.value, passwordField.value);
 		};
 		button.addEventListener('click', loginHelper);
@@ -500,8 +511,12 @@ function initBrowse() {
 	//displayListView(window, rootCategory.getSubCategories(), createEventFunctionCategory(rootCategory, rootCategory.subCategories));
 }
 
-function main() {
-	// Check network connection before doing anything else
+function reload() {
+	main();
+	$.network_error.close();
+}
+
+function networkCheck() {
 	if (Titanium.Network.networkType == Titanium.Network.NETWORK_NONE) {
 		// Not connected to the Internet - display error message!
 		Titanium.UI.createAlertDialog({
@@ -509,6 +524,15 @@ function main() {
 			message: "Your device is not connected to the Internet.",
 			buttonName: "OK",
 		}).show();
+		return false;
+	}
+	return true;
+}
+
+function main() {
+	// Check network connection before doing anything else
+	if (!networkCheck()) {
+		createNetworkErrorView();
 	}
 	else {
 		// Network OK, start app!
@@ -516,7 +540,26 @@ function main() {
 	
 		db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
 		$.index.open();
+		//createNetworkErrorView();
 	}
+}
+
+function createNetworkErrorView() {
+	var window = Ti.UI.createWindow({
+		title: 'Network error',
+		backgroundColor: '#fff',
+	});
+	window.add(Ti.UI.createLabel({
+		text: "This application requires an active internet connection to run.",
+		top: 120,
+	}));
+	var button = Ti.UI.createButton({
+		title: 'Retry',
+		top: 160,
+	});
+	button.addEventListener('click', main);
+	window.add(button);
+	window.open();
 }
 
 main();

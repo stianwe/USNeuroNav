@@ -153,37 +153,21 @@ function Controller() {
             });
             view.add(descLabel);
             view.add(label);
+            activityIndicator = uie.createIndicatorWindow();
             nextWindow.add(view);
-            displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab));
+            displayListView(nextWindow, objects, createMediaFunctionCase(nextWindow, currentCase, tab, activityIndicator));
             tab.open(nextWindow);
         };
     }
-    function createMediaFunctionCase(oldWindow, currentCase, tab) {
+    function createMediaFunctionCase(oldWindow, currentCase, tab, activityIndicator) {
         return function(e) {
-            var style;
-            style = Ti.UI.iPhone.ActivityIndicatorStyle.DARK;
-            var activityIndicator = Ti.UI.createActivityIndicator({
-                color: "green",
-                font: {
-                    fontFamily: "Helvetica Neue",
-                    fontSize: 26,
-                    fontWeight: "bold"
-                },
-                message: "Loading...",
-                style: style,
-                top: 10,
-                left: 10,
-                height: Ti.UI.SIZE,
-                width: Ti.UI.SIZE
-            });
-            oldWindow.add(activityIndicator);
-            activityIndicator.show();
+            if (!networkCheck()) return;
+            activityIndicator.openIndicator();
             var videos = 0 == e.itemIndex && currentCase.hasVideo();
             var nextWindow = Ti.UI.createWindow({
                 title: currentCase.name,
                 backgroundColor: "#fff"
             });
-            nextWindow.add(activityIndicator);
             var scrollableView;
             if (lastImagesName != currentCase.name || videos) {
                 var views = [];
@@ -253,6 +237,7 @@ function Controller() {
             } else scrollableView = lastImages;
             nextWindow.add(scrollableView);
             tab.open(nextWindow);
+            activityIndicator.closeIndicator();
         };
     }
     function initSearch(rootCategory, categories) {
@@ -367,6 +352,7 @@ function Controller() {
             var loginHelper = function() {
                 usernameField.blur();
                 passwordField.blur();
+                if (!networkCheck()) return;
                 login(usernameField.value, passwordField.value);
             };
             button.addEventListener("click", loginHelper);
@@ -386,19 +372,23 @@ function Controller() {
             for (var i = 0; stopVideoFunctions.length > i; i++) stopVideoFunctions[i]();
         });
     }
-    function main() {
+    function networkCheck() {
         if (Titanium.Network.networkType == Titanium.Network.NETWORK_NONE) {
             Titanium.UI.createAlertDialog({
                 title: "WARNING!",
                 message: "Your device is not connected to the Internet.",
                 buttonName: "OK"
             }).show();
-            createNetworkErrorView();
-        } else {
+            return false;
+        }
+        return true;
+    }
+    function main() {
+        if (networkCheck()) {
             initLogin();
             db.initDB(displayListView, createEventFunctionCategory, initSearch, currentCategories, initBrowse);
             $.index.open();
-        }
+        } else createNetworkErrorView();
     }
     function createNetworkErrorView() {
         var window = Ti.UI.createWindow({
@@ -424,9 +414,7 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    $.__views.index = Ti.UI.createTabGroup({
-        id: "index"
-    });
+    var __alloyId0 = [];
     $.__views.tab1window1 = Ti.UI.createWindow({
         backgroundColor: "#fff",
         title: "Browse",
@@ -438,7 +426,7 @@ function Controller() {
         icon: "KS_nav_ui.png",
         id: "tab1"
     });
-    $.__views.index.addTab($.__views.tab1);
+    __alloyId0.push($.__views.tab1);
     $.__views.tab2window1 = Ti.UI.createWindow({
         backgroundColor: "#fff",
         title: "Search",
@@ -450,7 +438,7 @@ function Controller() {
         icon: "searchicon.png",
         id: "tab2"
     });
-    $.__views.index.addTab($.__views.tab2);
+    __alloyId0.push($.__views.tab2);
     $.__views.tab3window1 = Ti.UI.createWindow({
         backgroundColor: "#fff",
         title: "Log in",
@@ -462,7 +450,11 @@ function Controller() {
         icon: "loginicon.png",
         id: "tab3"
     });
-    $.__views.index.addTab($.__views.tab3);
+    __alloyId0.push($.__views.tab3);
+    $.__views.index = Ti.UI.createTabGroup({
+        tabs: __alloyId0,
+        id: "index"
+    });
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
